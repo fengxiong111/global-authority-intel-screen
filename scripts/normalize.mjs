@@ -722,16 +722,13 @@ export function normalizeFeed(items) {
     .map(stripInternal);
 }
 
-function earlySignalTheme(item) {
+function earlySignalType(item) {
   const text = cleanText(`${item.title} ${item.displayTitle} ${item.summary}`).toLowerCase();
   if (['OPENCLAW', 'OPENAI', 'ANTHROPIC', 'CLAUDE', 'CLAUDE_CODE', 'AI'].includes(item.topic) || item.category === 'AI') return 'AI';
   if (item.topic === 'APPLE' || item.category === 'APPLE') return 'APPLE';
-  if (item.sourceType === 'github_trending') {
-    if (['bitcoin', 'btc', 'crypto', 'prediction market', 'polymarket', 'kalshi', 'etf'].some((term) => text.includes(term))) return 'CRYPTO';
-    return 'AI';
-  }
   if (
-    ['BTC', 'ETF', 'ONEKEY', 'CRYPTO_TOOLS'].includes(item.topic)
+    item.sourceType === 'github_trending'
+    || ['BTC', 'ETF', 'ONEKEY', 'CRYPTO_TOOLS'].includes(item.topic)
     || item.category === 'CRYPTO_TOOLS'
     || ['bitcoin', 'btc', 'crypto', 'prediction market', 'polymarket', 'kalshi', 'etf'].some((term) => text.includes(term))
   ) return 'CRYPTO';
@@ -739,10 +736,10 @@ function earlySignalTheme(item) {
   if (item.category === 'GAME' || ['GAME', 'NINTENDO', 'SWITCH', 'LEAGUE_OF_LEGENDS', 'PLAYSTATION', 'SONY'].includes(item.topic)) return 'GAME';
   if (['MOVIE', 'TV'].includes(item.category) || ['MOVIE', 'TV'].includes(item.topic)) return 'SCREEN';
   if (item.category === 'BOOK' || item.topic === 'BOOK') return 'BOOK';
-  return '';
+  return 'OTHER';
 }
 
-function earlySignalKeyword(item) {
+function earlySignalTopic(item) {
   const display = cleanText(item.displayTitle || '');
   const title = cleanText(item.title || '');
   const merged = display || title;
@@ -787,12 +784,11 @@ function earlySignalKeyword(item) {
   const compact = merged.replace(/^(电影|剧集|图书|苹果|OpenAI|Anthropic|Claude|OpenClaw|BTC|比特币)[：:]\s*/i, '').trim();
   if (compact && compact.length <= 24) return compact;
 
-  const fallback = TOPIC_ZH[item.topic] || TOPIC_ZH[item.category] || '';
-  return cleanText(fallback);
+  return cleanText(TOPIC_ZH[item.topic] || TOPIC_ZH[item.category] || '');
 }
 
-function earlySignalCanonical(keyword) {
-  return canonicalTitleKey(keyword).replace(/\b(?:the|a|an|new)\b/g, '').replace(/\s+/g, ' ').trim();
+function earlySignalCanonical(topic, type) {
+  return `${type}::${canonicalTitleKey(topic).replace(/\b(?:the|a|an|new)\b/g, '').replace(/\s+/g, ' ').trim()}`;
 }
 
 function earlySignalItemTime(item) {
@@ -824,41 +820,39 @@ function isCommunityMention(item) {
     || item.sourceType === 'reddit';
 }
 
-function rankingSignal(item) {
+function rankingChanged(item, previousRank) {
   const rank = Number(item.rank || 0);
-  if (!rank) return 0;
-  if (rank <= 3) return 4;
-  if (rank <= 5) return 2;
-  if (rank <= 10) return 1;
-  return 0;
+  if (!rank) return false;
+  if (!previousRank) return rank <= 5;
+  return previousRank - rank >= 2;
 }
 
-function baselineGrowth(item, nowTs) {
-  let score = 0;
+function growthContribution(item, nowTs) {
   const hours = earlySignalRecencyHours(item, nowTs);
-  if (hours <= 12) score += 20;
-  else if (hours <= 24) score += 14;
-  else if (hours <= 72) score += 8;
+  let score = 0;
+  if (hours <= 6) score += 0.24;
+  else if (hours <= 24) score += 0.18;
+  else if (hours <= 72) score += 0.08;
 
-  if (item.sourceType === 'x_hot') score += 22;
-  if (item.sourceType === 'github_trending') score += 20;
-  if (item.sourceType === 'community_hot') score += 18;
-  if (isTrustedMention(item)) score += 12;
-  if (isCommunityMention(item)) score += 10;
-  if (item.hot) score += 8;
-  if (rankingSignal(item) > 0) score += 8 + rankingSignal(item) * 4;
-  if ((item.score || 0) >= 800 || (item.comments || 0) >= 120) score += 10;
+  if (item.sourceType === 'x_hot') score += 0.18;
+  if (item.sourceType === 'github_trending') score += 0.16;
+  if (item.sourceType === 'community_hot') score += 0.14;
+  if (isTrustedMention(item)) score += 0.10;
+  if (isCommunityMention(item)) score += 0.10;
+  if (item.hot) score += 0.06;
+  if ((item.score || 0) >= 800 || (item.comments || 0) >= 120) score += 0.08;
+  if (Number(item.rank || 0) > 0 && Number(item.rank || 0) <= 5) score += 0.10;
+
   return score;
 }
 
 function previousBestRank(previousItems) {
   const best = new Map();
   for (const item of previousItems || []) {
-    const theme = earlySignalTheme(item);
-    const keyword = earlySignalKeyword(item);
-    const canonical = earlySignalCanonical(keyword);
-    if (!theme || !canonical) continue;
-    const key = `${theme}::${canonical}`;
+    const type = earlySignalType(item);
+    const topic = earlySignalTopic(item);
+    const key = earlySignalCanonical(topic, type);
+    if (!type || !topic || !key) continue;
     const rank = Number(item.rank || 0);
     if (!rank) continue;
     const existing = best.get(key);
@@ -867,92 +861,101 @@ function previousBestRank(previousItems) {
   return best;
 }
 
-export function buildEarlySignalPool(currentItems, previousItems = []) {
+function previousFirstSeen(previousSignals) {
+  const seen = new Map();
+  for (const item of previousSignals || []) {
+    const key = earlySignalCanonical(item.topic, item.type);
+    if (!key || !item.first_seen_at) continue;
+    seen.set(key, item.first_seen_at);
+  }
+  return seen;
+}
+
+export function buildEarlySignalPool(currentItems, previousItems = [], previousSignals = []) {
   const nowTs = Math.floor(Date.now() / 1000);
   const previousRanks = previousBestRank(previousItems);
+  const previousSeen = previousFirstSeen(previousSignals);
   const pool = new Map();
 
   for (const item of currentItems || []) {
     const hours = earlySignalRecencyHours(item, nowTs);
     if (!Number.isFinite(hours) || hours > 72) continue;
 
-    const theme = earlySignalTheme(item);
-    const keyword = earlySignalKeyword(item);
-    const canonical = earlySignalCanonical(keyword);
-    if (!theme || !canonical || canonical.length < 2 || EARLY_SIGNAL_GENERIC.has(canonical)) continue;
-    if (/^[A-Z][a-z]+ [A-Z][a-z]+$/.test(keyword) && !['AI', 'APPLE', 'CRYPTO', 'MACRO'].includes(theme)) continue;
+    const type = earlySignalType(item);
+    const topic = earlySignalTopic(item);
+    const key = earlySignalCanonical(topic, type);
+    if (!type || !topic || !key) continue;
+    if (topic.length < 2 || EARLY_SIGNAL_GENERIC.has(topic.toLowerCase())) continue;
+    if (/^[A-Z][a-z]+ [A-Z][a-z]+$/.test(topic) && !['AI', 'APPLE', 'CRYPTO', 'MACRO'].includes(type)) continue;
 
-    const key = `${theme}::${canonical}`;
+    const itemTs = earlySignalItemTime(item);
     const entry = pool.get(key) || {
-      keyword,
-      topic: theme,
-      mention_count: 0,
-      trusted_source_count: 0,
-      community_count: 0,
-      ranking_change: 0,
-      growth_score: 0,
-      _sources: new Set(),
+      topic,
+      type,
+      mentions: 0,
+      ranking_change: false,
       _trusted: new Set(),
       _community: new Set(),
-      _sourceKinds: new Set(),
-      _titles: [],
-      _bestTs: 0,
-      _bestPriority: 0,
+      _sources: new Set(),
+      _growthRaw: 0,
+      _firstSeenTs: itemTs || nowTs,
+      _latestTs: itemTs || 0,
     };
 
-    entry.mention_count += 1;
-    entry._sources.add(item.source);
-    entry._sourceKinds.add(item.sourceType || item.source);
-    entry._titles.push(item.displayTitle || item.title);
-    entry._bestTs = Math.max(entry._bestTs, earlySignalItemTime(item) || 0);
-    entry._bestPriority = Math.max(entry._bestPriority, Number(item.priority || 0));
+    entry.mentions += 1;
+    entry._growthRaw += growthContribution(item, nowTs);
     if (isTrustedMention(item)) entry._trusted.add(item.author || item.source);
-    if (isCommunityMention(item)) entry._community.add(item.sourceType === 'community_hot' ? `${item.source}:${item.id}` : item.source);
+    if (isCommunityMention(item)) entry._community.add(item.id || `${item.source}:${item.title}`);
+    entry._sources.add(item.source);
+    entry._firstSeenTs = Math.min(entry._firstSeenTs, itemTs || nowTs);
+    entry._latestTs = Math.max(entry._latestTs, itemTs || 0);
+    if (rankingChanged(item, previousRanks.get(key))) entry.ranking_change = true;
 
-    const currentRank = Number(item.rank || 0);
-    const prevRank = previousRanks.get(key) || 0;
-    let rankDelta = 0;
-    if (currentRank && prevRank) rankDelta = Math.max(0, prevRank - currentRank);
-    else if (currentRank && currentRank <= 3) rankDelta = 2;
-    entry.ranking_change = Math.max(entry.ranking_change, rankDelta);
-    entry.growth_score += baselineGrowth(item, nowTs);
+    const rememberedFirstSeen = previousSeen.get(key);
+    if (rememberedFirstSeen) {
+      const rememberedTs = toValidTimestamp(rememberedFirstSeen);
+      if (rememberedTs) entry._firstSeenTs = Math.min(entry._firstSeenTs, rememberedTs);
+    }
 
     pool.set(key, entry);
   }
 
   return Array.from(pool.values())
     .map((entry) => {
-      entry.trusted_source_count = entry._trusted.size;
-      entry.community_count = entry._community.size;
-      const evidence = [
-        entry._sources.size >= 2,
-        entry.trusted_source_count >= 1,
-        entry.community_count >= 1,
-        entry.ranking_change > 0,
-        entry.growth_score >= 50,
+      const trusted_mentions = entry._trusted.size;
+      const community_hits = entry._community.size;
+      const sourceCount = entry._sources.size;
+      const freshness = entry._latestTs >= nowTs - 24 * 3600 ? 0.08 : 0;
+      const diversity = Math.min(0.12, sourceCount * 0.04);
+      const mentionLift = Math.min(0.22, Math.max(0, entry.mentions - 1) * 0.06);
+      const trustedLift = Math.min(0.18, trusted_mentions * 0.08);
+      const communityLift = Math.min(0.16, community_hits * 0.08);
+      const rankingLift = entry.ranking_change ? 0.14 : 0;
+      const growth_score = Math.min(1, Number((entry._growthRaw + freshness + diversity + mentionLift + trustedLift + communityLift + rankingLift).toFixed(2)));
+
+      const conditions = [
+        entry.mentions >= 3 && community_hits >= 1,
+        trusted_mentions >= 2,
+        entry.ranking_change && entry.mentions >= 2,
+        growth_score >= 0.7,
       ].filter(Boolean).length;
 
-      const diversityBoost = entry._sources.size * 8 + entry._sourceKinds.size * 6;
-      const repeatBoost = Math.max(0, entry.mention_count - 1) * 12;
-      const trustedBoost = entry.trusted_source_count * 14;
-      const communityBoost = entry.community_count * 10;
-      const freshnessBoost = entry._bestTs >= nowTs - 24 * 3600 ? 12 : 0;
-      const totalGrowth = entry.growth_score + diversityBoost + repeatBoost + trustedBoost + communityBoost + entry.ranking_change * 12 + freshnessBoost;
-
       return {
-        keyword: entry.keyword,
         topic: entry.topic,
-        mention_count: entry.mention_count,
-        trusted_source_count: entry.trusted_source_count,
-        community_count: entry.community_count,
+        type: entry.type,
+        mentions: entry.mentions,
+        trusted_mentions,
+        community_hits,
         ranking_change: entry.ranking_change,
-        growth_score: Math.round(totalGrowth),
-        _evidence: evidence,
-        _bestTs: entry._bestTs,
+        growth_score,
+        first_seen_at: new Date(entry._firstSeenTs * 1000).toISOString(),
+        sources: Array.from(entry._sources).sort(),
+        _conditions: conditions,
+        _latestTs: entry._latestTs,
       };
     })
-    .filter((entry) => entry._evidence >= 2)
-    .sort((a, b) => b.growth_score - a.growth_score || b.mention_count - a.mention_count || b._bestTs - a._bestTs)
+    .filter((entry) => entry._conditions >= 2)
+    .sort((a, b) => b.growth_score - a.growth_score || b.mentions - a.mentions || b._latestTs - a._latestTs)
     .slice(0, 24)
-    .map(({ _evidence, _bestTs, ...entry }) => entry);
+    .map(({ _conditions, _latestTs, ...entry }) => entry);
 }

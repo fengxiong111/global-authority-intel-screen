@@ -1,5 +1,5 @@
 import { buildEarlySignalPool, normalizeFeed } from './normalize.mjs';
-import { FEED_PATH, readJson, writeJson } from './utils.mjs';
+import { EARLY_SIGNAL_PATH, FEED_PATH, readJson, writeJson } from './utils.mjs';
 import apple from './sources/apple.mjs';
 import openai from './sources/openai.mjs';
 import anthropic from './sources/anthropic.mjs';
@@ -81,6 +81,7 @@ const existingFeed = (Array.isArray(existingPayload) ? existingPayload : (existi
   ...item,
   fetched_at: item.fetched_at || batchFetchedAt,
 }));
+const existingEarlySignals = Array.isArray(existingPayload) ? [] : (existingPayload.early_signals || []);
 const existingFetchTime = Array.isArray(existingPayload) ? null : Number(existingPayload.fetch_time || 0);
 let feed = normalizeFeed(merged);
 
@@ -107,7 +108,7 @@ for (const sourceName of [
 }
 
 const finalFeed = feed.length > 0 ? feed : existingFeed;
-const earlySignals = buildEarlySignalPool(finalFeed, existingFeed);
+const earlySignals = buildEarlySignalPool(finalFeed, existingFeed, existingEarlySignals);
 const finalFetchTime = feed.length > 0
   ? Math.floor(Date.now() / 1000)
   : (Number.isFinite(existingFetchTime) && existingFetchTime > 0 ? existingFetchTime : Math.floor(Date.now() / 1000));
@@ -121,4 +122,5 @@ await writeJson(FEED_PATH, {
   early_signals: earlySignals,
   items: finalFeed,
 });
+await writeJson(EARLY_SIGNAL_PATH, earlySignals);
 console.log(`wrote ${finalFeed.length} items, ${earlySignals.length} early signals -> ${FEED_PATH}`);

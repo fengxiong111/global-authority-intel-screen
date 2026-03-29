@@ -2,6 +2,7 @@ const CATEGORY_ORDER = ['ALL', 'TECH', 'AI', 'GAME', 'APPLE', 'SONY', 'TESLA', '
 
 const state = {
   items: [],
+  earlySignals: [],
   fetchTime: null,
   category: 'ALL',
   source: 'ALL',
@@ -18,6 +19,8 @@ const lastUpdatedEl = document.getElementById('last-updated');
 const feedStatusEl = document.getElementById('feed-status');
 const topbarEl = document.getElementById('topbar');
 const controlsEl = document.getElementById('controls');
+const earlySignalSectionEl = document.getElementById('early-signal-section');
+const earlySignalListEl = document.getElementById('early-signal-list');
 const params = new URLSearchParams(window.location.search);
 const debugMode = ['1', 'true', 'yes'].includes((params.get('debug') || params.get('controls') || '').toLowerCase());
 const pageName = window.location.pathname.split('/').pop() || 'index.html';
@@ -158,6 +161,29 @@ function entryTier(index) {
   return 'tier-flow';
 }
 
+function earlySignalMeta(entry) {
+  const parts = [];
+  if (entry.trusted_mentions) parts.push(`可信×${entry.trusted_mentions}`);
+  if (entry.community_hits) parts.push(`社区×${entry.community_hits}`);
+  if (entry.ranking_change) parts.push('榜单上升');
+  if (Array.isArray(entry.sources) && entry.sources.length) parts.push(entry.sources.slice(0, 2).join(' / '));
+  return parts.join(' / ');
+}
+
+function renderEarlySignals() {
+  if (!earlySignalSectionEl || !earlySignalListEl || isBuildersPage) return;
+  const items = (state.earlySignals || []).slice(0, 4);
+  earlySignalSectionEl.hidden = items.length === 0;
+  earlySignalListEl.innerHTML = items
+    .map((entry) => `
+      <article class="early-signal-item">
+        <h3 class="early-signal-title">${escapeHtml(entry.topic)}</h3>
+        <p class="early-signal-meta">${escapeHtml(earlySignalMeta(entry))}</p>
+      </article>
+    `)
+    .join('');
+}
+
 function renderFeed() {
   const items = filteredItems();
   emptyStateEl.hidden = items.length > 0;
@@ -176,6 +202,7 @@ async function loadFeed() {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const payload = await response.json();
     state.items = Array.isArray(payload) ? payload : (payload.items || []);
+    state.earlySignals = Array.isArray(payload) ? [] : (payload.early_signals || []);
     state.fetchTime = Array.isArray(payload) ? null : payload.fetch_time || null;
     const lastModified = response.headers.get('last-modified');
     lastUpdatedEl.textContent = `更新于 ${formatTime(state.fetchTime || lastModified || itemTimeValue(state.items[0]) || Math.floor(Date.now() / 1000))}`;
@@ -184,6 +211,7 @@ async function loadFeed() {
     }
   } catch {
     state.items = window.AUTHORITY_INTEL_FALLBACK || [];
+    state.earlySignals = [];
     state.fetchTime = null;
     lastUpdatedEl.textContent = '更新于 本地示例数据';
     if (pageUpdatedEl) {
@@ -194,6 +222,7 @@ async function loadFeed() {
   }
 
   renderSourceOptions();
+  renderEarlySignals();
   renderFeed();
 }
 

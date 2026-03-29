@@ -29,6 +29,44 @@ body {
   letter-spacing: 0.04em;
 }
 
+.early-signal-section {
+  padding: 4px 0 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  margin-bottom: 10px;
+}
+
+.early-signal-heading {
+  margin: 0 0 10px;
+  color: rgba(243, 244, 246, 0.5);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+}
+
+.early-signal-list {
+  display: grid;
+  gap: 10px;
+}
+
+.early-signal-item {
+  padding: 0;
+}
+
+.early-signal-title {
+  margin: 0 0 2px;
+  color: var(--text);
+  font-size: clamp(16px, 2.4vw, 22px);
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+}
+
+.early-signal-meta {
+  margin: 0;
+  color: rgba(243, 244, 246, 0.38);
+  font-size: 11px;
+  letter-spacing: 0.03em;
+}
+
 .topbar { padding: 8px 0 20px; }
 .eyebrow {
   margin: 0 0 8px;
