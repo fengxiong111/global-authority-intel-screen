@@ -820,6 +820,16 @@ function isCommunityMention(item) {
     || item.sourceType === 'reddit';
 }
 
+function sourceCategory(item) {
+  if (OFFICIAL_SOURCES.has(item.source) || ['product', 'release', 'blog', 'press', 'changelog'].includes(item.sourceType)) return 'official';
+  if (item.sourceType === 'x_hot') return 'x_hot';
+  if (item.sourceType === 'github_trending') return 'github_trending';
+  if (isCommunityMention(item)) return 'community_hot';
+  if (Number(item.rank || 0) > 0 || item.sourceType === 'chart') return 'ranking';
+  if (TRUSTED_SOURCES.has(item.source) || String(item.sourceType || '').startsWith('bloomberg') || String(item.sourceType || '').startsWith('nyt-')) return 'media';
+  return 'other';
+}
+
 function rankingChanged(item, previousRank) {
   const rank = Number(item.rank || 0);
   if (!rank) return false;
@@ -897,6 +907,7 @@ export function buildEarlySignalPool(currentItems, previousItems = [], previousS
       _trusted: new Set(),
       _community: new Set(),
       _sources: new Set(),
+      _sourceCategories: new Set(),
       _growthRaw: 0,
       _firstSeenTs: itemTs || nowTs,
       _latestTs: itemTs || 0,
@@ -907,6 +918,7 @@ export function buildEarlySignalPool(currentItems, previousItems = [], previousS
     if (isTrustedMention(item)) entry._trusted.add(item.author || item.source);
     if (isCommunityMention(item)) entry._community.add(item.id || `${item.source}:${item.title}`);
     entry._sources.add(item.source);
+    entry._sourceCategories.add(sourceCategory(item));
     entry._firstSeenTs = Math.min(entry._firstSeenTs, itemTs || nowTs);
     entry._latestTs = Math.max(entry._latestTs, itemTs || 0);
     if (rankingChanged(item, previousRanks.get(key))) entry.ranking_change = true;
@@ -925,13 +937,15 @@ export function buildEarlySignalPool(currentItems, previousItems = [], previousS
       const trusted_mentions = entry._trusted.size;
       const community_hits = entry._community.size;
       const sourceCount = entry._sources.size;
+      const categoryCount = entry._sourceCategories.size;
       const freshness = entry._latestTs >= nowTs - 24 * 3600 ? 0.08 : 0;
       const diversity = Math.min(0.12, sourceCount * 0.04);
       const mentionLift = Math.min(0.22, Math.max(0, entry.mentions - 1) * 0.06);
       const trustedLift = Math.min(0.18, trusted_mentions * 0.08);
       const communityLift = Math.min(0.16, community_hits * 0.08);
       const rankingLift = entry.ranking_change ? 0.14 : 0;
-      const growth_score = Math.min(1, Number((entry._growthRaw + freshness + diversity + mentionLift + trustedLift + communityLift + rankingLift).toFixed(2)));
+      const resonance_score = Math.min(1, Number(((categoryCount >= 2 ? 0.45 : 0) + Math.min(0.35, (categoryCount - 1) * 0.18) + Math.min(0.20, (sourceCount - 1) * 0.05)).toFixed(2)));
+      const growth_score = Math.min(1, Number((entry._growthRaw + freshness + diversity + mentionLift + trustedLift + communityLift + rankingLift + resonance_score * 0.2).toFixed(2)));
 
       const conditions = [
         entry.mentions >= 3 && community_hits >= 1,
@@ -948,6 +962,7 @@ export function buildEarlySignalPool(currentItems, previousItems = [], previousS
         community_hits,
         ranking_change: entry.ranking_change,
         growth_score,
+        resonance_score,
         first_seen_at: new Date(entry._firstSeenTs * 1000).toISOString(),
         sources: Array.from(entry._sources).sort(),
         _conditions: conditions,
@@ -955,7 +970,7 @@ export function buildEarlySignalPool(currentItems, previousItems = [], previousS
       };
     })
     .filter((entry) => entry._conditions >= 2)
-    .sort((a, b) => b.growth_score - a.growth_score || b.mentions - a.mentions || b._latestTs - a._latestTs)
+    .sort((a, b) => b.resonance_score - a.resonance_score || b.growth_score - a.growth_score || b.mentions - a.mentions || b._latestTs - a._latestTs)
     .slice(0, 24)
     .map(({ _conditions, _latestTs, ...entry }) => entry);
 }

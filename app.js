@@ -3,11 +3,14 @@ const CATEGORY_ORDER = ['ALL', 'TECH', 'AI', 'GAME', 'APPLE', 'SONY', 'TESLA', '
 const state = {
   items: [],
   earlySignals: [],
+  renderedItems: new Map(),
   fetchTime: null,
   category: 'ALL',
   source: 'ALL',
   hotOnly: true,
 };
+
+const ATTENTION_STORAGE_KEY = 'authority-intel-attention-v1';
 
 const categoryFilterEl = document.getElementById('category-filter');
 const sourceFilterEl = document.getElementById('source-filter');
@@ -161,6 +164,51 @@ function entryTier(index) {
   return 'tier-flow';
 }
 
+function readAttentionState() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(ATTENTION_STORAGE_KEY) || '{}');
+    return {
+      clicked: parsed.clicked || {},
+      reopened: parsed.reopened || {},
+      saved: parsed.saved || {},
+      skipped: parsed.skipped || {},
+      last_click_at: parsed.last_click_at || {},
+    };
+  } catch {
+    return { clicked: {}, reopened: {}, saved: {}, skipped: {}, last_click_at: {} };
+  }
+}
+
+function writeAttentionState(next) {
+  try {
+    localStorage.setItem(ATTENTION_STORAGE_KEY, JSON.stringify(next));
+  } catch {
+    // ignore
+  }
+}
+
+function attentionKey(item) {
+  return `${item.topic || item.category || 'OTHER'}::${item.sourceType || item.source || 'news'}`;
+}
+
+function recordAttention(action, item) {
+  if (!item) return;
+  const stateStore = readAttentionState();
+  const bucket = action === 'saved' ? 'saved' : action === 'skipped' ? 'skipped' : 'clicked';
+  const key = attentionKey(item);
+  stateStore[bucket][key] = (stateStore[bucket][key] || 0) + 1;
+
+  if (action === 'clicked') {
+    const urlKey = item.url || item.id;
+    if (stateStore.last_click_at[urlKey]) {
+      stateStore.reopened[key] = (stateStore.reopened[key] || 0) + 1;
+    }
+    stateStore.last_click_at[urlKey] = Date.now();
+  }
+
+  writeAttentionState(stateStore);
+}
+
 function earlySignalMeta(entry) {
   const parts = [];
   if (entry.trusted_mentions) parts.push(`可信×${entry.trusted_mentions}`);
@@ -186,10 +234,11 @@ function renderEarlySignals() {
 
 function renderFeed() {
   const items = filteredItems();
+  state.renderedItems = new Map(items.map((item) => [String(item.id), item]));
   emptyStateEl.hidden = items.length > 0;
   feedEl.innerHTML = items
     .map((item, index) => `
-      <a class="entry ${entryTier(index)}" href="${item.url}" target="_blank" rel="noopener noreferrer">
+      <a class="entry ${entryTier(index)}" href="${item.url}" target="_blank" rel="noopener noreferrer" data-entry-id="${escapeHtml(item.id)}">
         <h2 class="entry-title">${escapeHtml(item.displayTitle || item.title)}</h2>
       </a>
     `)
@@ -217,7 +266,7 @@ async function loadFeed() {
     if (pageUpdatedEl) {
       pageUpdatedEl.textContent = '本页更新于 本地示例';
     }
-    feedStatusEl.hidden = false;
+feedStatusEl.hidden = false;
     feedStatusEl.textContent = '当前使用内嵌示例数据，通常是因为 file:// 打开时浏览器拦截了 JSON 请求。';
   }
 
@@ -225,6 +274,13 @@ async function loadFeed() {
   renderEarlySignals();
   renderFeed();
 }
+
+feedEl.addEventListener('click', (event) => {
+  const entry = event.target.closest('[data-entry-id]');
+  if (!entry) return;
+  const item = state.renderedItems.get(entry.dataset.entryId);
+  recordAttention('clicked', item);
+});
 
 sourceFilterEl.addEventListener('change', (event) => {
   state.source = event.target.value;

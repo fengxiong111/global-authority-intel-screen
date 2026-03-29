@@ -119,6 +119,7 @@
     let touchStartY = null;
     let previousFeedIds = [];
     let lastRenderSignature = "";
+    const ATTENTION_STORAGE_KEY = 'authority-intel-attention-v1';
 
     function itemTimeValue(item) {
       return item?.published_at || item?.fetched_at || null;
@@ -126,6 +127,55 @@
 
     function displayTimestamp(item) {
       return item?.published_at || item?.fetched_at || item?.ts || '';
+    }
+
+    function readAttentionState() {
+      try {
+        const parsed = JSON.parse(localStorage.getItem(ATTENTION_STORAGE_KEY) || '{}');
+        return {
+          clicked: parsed.clicked || {},
+          reopened: parsed.reopened || {},
+          saved: parsed.saved || {},
+          skipped: parsed.skipped || {},
+          last_click_at: parsed.last_click_at || {},
+        };
+      } catch {
+        return { clicked: {}, reopened: {}, saved: {}, skipped: {}, last_click_at: {} };
+      }
+    }
+
+    function writeAttentionState(next) {
+      try {
+        localStorage.setItem(ATTENTION_STORAGE_KEY, JSON.stringify(next));
+      } catch {
+        // ignore
+      }
+    }
+
+    function attentionKey(item) {
+      return `${item.topic || item.category || 'OTHER'}::${item.sourceType || item.source || 'news'}`;
+    }
+
+    function recordAttention(action, item) {
+      if (!item) return;
+      const store = readAttentionState();
+      const bucket = action === 'saved' ? 'saved' : action === 'skipped' ? 'skipped' : 'clicked';
+      const key = attentionKey(item);
+      store[bucket][key] = (store[bucket][key] || 0) + 1;
+      if (action === 'clicked') {
+        const urlKey = item.url || item.id;
+        if (store.last_click_at[urlKey]) {
+          store.reopened[key] = (store.reopened[key] || 0) + 1;
+        }
+        store.last_click_at[urlKey] = Date.now();
+      }
+      writeAttentionState(store);
+    }
+
+    function openItem(item) {
+      if (!item?.url) return;
+      recordAttention('clicked', item);
+      window.open(item.url, '_blank', 'noopener,noreferrer');
     }
 
     const SIGNAL_TERMS = {
@@ -621,6 +671,8 @@
       const article = document.createElement('article');
       article.className = 'item';
       article.dataset.id = item.id;
+      article.tabIndex = 0;
+      article.setAttribute('role', 'link');
       const headline = document.createElement("div");
       headline.className = "headline";
       headline.textContent = item.title || "";
@@ -633,6 +685,13 @@
         article.classList.add('entering');
         requestAnimationFrame(() => article.classList.remove('entering'));
       }
+      article.addEventListener('click', () => openItem(item));
+      article.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          openItem(item);
+        }
+      });
       return article;
     }
 

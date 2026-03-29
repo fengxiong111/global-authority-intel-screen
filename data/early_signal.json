@@ -7,6 +7,7 @@
     "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-03-26T16:10:52.000Z",
     "sources": [
       "Anthropic Newsroom",
@@ -23,6 +24,7 @@
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-03-27T11:43:16.000Z",
     "sources": [
       "Bloomberg",
@@ -39,11 +41,27 @@
     "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-03-27T14:45:53.000Z",
     "sources": [
       "NYT",
       "Reddit",
       "SemiAnalysis"
+    ]
+  },
+  {
+    "topic": "Kalshi",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-03-27T18:33:23.000Z",
+    "sources": [
+      "Bloomberg",
+      "X"
     ]
   },
   {
@@ -54,6 +72,7 @@
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
+    "resonance_score": 0.05,
     "first_seen_at": "2026-03-28T00:00:00.000Z",
     "sources": [
       "OpenClaw Blog",
@@ -68,22 +87,9 @@
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
+    "resonance_score": 0,
     "first_seen_at": "2026-03-27T16:54:33.000Z",
     "sources": [
-      "X"
-    ]
-  },
-  {
-    "topic": "Kalshi",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.96,
-    "first_seen_at": "2026-03-27T18:33:23.000Z",
-    "sources": [
-      "Bloomberg",
       "X"
     ]
   }
