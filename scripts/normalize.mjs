@@ -916,6 +916,123 @@ function actionFieldsFor(item) {
   };
 }
 
+function observationText(item) {
+  return cleanText(`${item.title} ${item.displayTitle} ${item.summary}`).toLowerCase();
+}
+
+function observationIsAnalysis(item) {
+  const text = observationText(item);
+  return item.sourceType === 'analysis'
+    || actionIncludesAny(text, [
+      'year in review', '年度回顾', 'analysis', '分析', 'deep dive', '趋势', 'trend', 'outlook', 'forecast',
+      'ad monetization', '广告变现', 'superapp', 'super app', 'future of', '未来', 'space to think', 'may have',
+      'discussion', 'thread', 'megathread', 'opinion', 'rumor', 'rumors', '闲聊', '吐槽'
+    ]);
+}
+
+function observationIsSoftApple(item) {
+  const text = observationText(item);
+  return item.topic === 'APPLE'
+    && !OFFICIAL_SOURCES.has(item.source)
+    && actionIncludesAny(text, ['iphone app', 'iphone apps', '应用', '今年将发布']);
+}
+
+function observationCrossSourceCount(item, items) {
+  const family = actionProjectKey(item);
+  return new Set(
+    (items || [])
+      .filter((candidate) => actionProjectKey(candidate) === family && earlySignalRecencyHours(candidate, Math.floor(Date.now() / 1000)) <= 72)
+      .map((candidate) => sourceCategory(candidate))
+      .filter((value) => value && value !== 'other')
+  ).size;
+}
+
+function observationTrustedCount(item, items) {
+  const family = actionProjectKey(item);
+  return new Set(
+    (items || [])
+      .filter((candidate) => actionProjectKey(candidate) === family && earlySignalRecencyHours(candidate, Math.floor(Date.now() / 1000)) <= 72)
+      .filter((candidate) => ['official', 'x_hot', 'media'].includes(sourceCategory(candidate)) || Boolean(candidate.trustedAuthor))
+      .map((candidate) => candidate.source || candidate.id)
+  ).size;
+}
+
+function observationIsGithubAllowed(item, items) {
+  if (!(item.sourceType === 'github_trending' || item.source === 'GitHub Trending')) return true;
+  const text = observationText(item);
+  const checks = [
+    observationCrossSourceCount(item, items) >= 2,
+    observationTrustedCount(item, items) >= 1,
+    actionSelectionScore(item) >= 120,
+    actionIncludesAny(text, ['ai', 'agent', 'codex', 'claude', 'openai', 'anthropic', 'trading', 'productivity', 'workflow', 'repo']),
+  ].filter(Boolean).length;
+  return checks >= 2;
+}
+
+function observationEligible(item, items) {
+  if (!actionEligible(item)) return false;
+  if (observationIsAnalysis(item)) return false;
+  if (!observationIsGithubAllowed(item, items)) return false;
+  return true;
+}
+
+function pickBuildersObserveItems(items, limit = 6) {
+  const themeCap = new Map();
+  const projectCap = new Set();
+  const selected = [];
+  let decisionCount = 0;
+  let toolCount = 0;
+  let githubCount = 0;
+
+  const candidates = (items || [])
+    .filter((item) => observationEligible(item, items))
+    .sort((a, b) => actionSelectionScore(b) - actionSelectionScore(a) || b.priority - a.priority || b.effective_timestamp - a.effective_timestamp);
+
+  function tryPick(item, allowSoftApple = false) {
+    const theme = actionTheme(item);
+    const project = actionProjectKey(item);
+    if (!theme) return;
+    if (projectCap.has(project)) return;
+    if ((themeCap.get(theme) || 0) >= actionThemeCap(theme)) return;
+    if (observationIsSoftApple(item) && !allowSoftApple) return;
+    if (item.sourceType === 'github_trending' || item.source === 'GitHub Trending') {
+      if (githubCount >= 1) return;
+    }
+    if (actionTheme(item) === 'AI' && actionIncludesAny(observationText(item), ['openclaw', 'codex', 'agent', 'plugin', 'security', 'tool', 'repo'])) {
+      if (toolCount >= 2) return;
+    }
+    selected.push(item);
+    projectCap.add(project);
+    themeCap.set(theme, (themeCap.get(theme) || 0) + 1);
+    if (isDecisionLikeObservation(item)) decisionCount += 1;
+    if (item.sourceType === 'github_trending' || item.source === 'GitHub Trending') githubCount += 1;
+    if (actionTheme(item) === 'AI' && actionIncludesAny(observationText(item), ['openclaw', 'codex', 'agent', 'plugin', 'security', 'tool', 'repo'])) toolCount += 1;
+  }
+
+  function isDecisionLikeObservation(item) {
+    return actionIsBtcSignal(item) || actionIsWarSignal(item) || actionIncludesAny(observationText(item), ['regulation', 'market structure', 'fund flow', 'etf', 'prediction market']);
+  }
+
+  for (const item of candidates.filter((item) => isDecisionLikeObservation(item))) {
+    tryPick(item);
+    if (decisionCount >= 2 || selected.length >= limit) break;
+  }
+
+  for (const item of candidates) {
+    tryPick(item);
+    if (selected.length >= limit) break;
+  }
+
+  if (selected.length < 4) {
+    for (const item of candidates.filter((item) => observationIsSoftApple(item))) {
+      tryPick(item, true);
+      if (selected.length >= 4) break;
+    }
+  }
+
+  return selected.slice(0, limit);
+}
+
 function pickActionLayerItems(items, limit = 6) {
   const themeCap = new Map();
   const projectCap = new Set();
@@ -951,7 +1068,7 @@ export function buildBuildersObservation(items, previousSnapshots = [], fetchTim
     ? previousSnapshots.filter((entry) => Number(entry.fetch_time || 0) >= cutoff && Number(entry.fetch_time || 0) !== fetchTime)
     : [];
 
-  const selected = pickActionLayerItems(items, 6).map((item) => ({
+  const selected = pickBuildersObserveItems(items, 6).map((item) => ({
     id: item.id,
     title: item.displayTitle || item.title || '',
     topic: item.topic || '',

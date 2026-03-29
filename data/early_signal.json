@@ -17,7 +17,7 @@
     ]
   },
   {
-    "topic": "Bitcoin",
+    "topic": "bitcoin",
     "type": "CRYPTO",
     "mentions": 5,
     "trusted_mentions": 4,

@@ -369,8 +369,7 @@
     function isLowValue(item, text) {
       const isAttentionSource = ['x_hot', 'github_trending', 'community_hot'].includes(item.sourceType);
       if (item.topic === 'TESLA' || item.source === 'Tesla IR') return true;
-      if (item.sourceType === 'analysis') return true;
-      if (includesAny(text, ['year in review', '年度回顾', 'analysis', '分析', 'deep dive'])) return true;
+      if (isAnalysisOrDiscussion(item, text)) return true;
       if (!hasCjk(item.displayTitle || '') && item.topic !== 'OPENCLAW') return true;
       if (!isAttentionSource && cjkRatio(item.displayTitle || '') < 0.26 && item.topic !== 'OPENCLAW') return true;
       if (includesAny(text, SIGNAL_TERMS.weak)) return true;
@@ -478,6 +477,53 @@
     function isToolItem(item) {
       const text = `${item.title || ''} ${item.displayTitle || ''} ${item.summary || ''}`.toLowerCase();
       return builderType(item, text) === 'AI' && includesAny(text, ['openclaw', 'codex', 'agent', 'plugin', 'security', 'tool', 'repo']);
+    }
+
+    function isAnalysisOrDiscussion(item, text) {
+      return item.sourceType === 'analysis'
+        || includesAny(text, [
+          'year in review', '年度回顾', 'analysis', '分析', 'deep dive', '趋势', 'trend', 'outlook', 'forecast',
+          'ad monetization', '广告变现', 'superapp', 'super app', 'future of', '未来', 'space to think', 'may have',
+          'discussion', 'thread', 'megathread', 'opinion', 'rumor', 'rumors', '闲聊', '吐槽'
+        ]);
+    }
+
+    function strongToolRelevance(item, text) {
+      return includesAny(text, ['ai', 'agent', 'codex', 'claude', 'openai', 'anthropic', 'trading', 'productivity', 'workflow', 'repo']);
+    }
+
+    function trustedMentionCount(item) {
+      const family = projectKey(item);
+      return new Set(
+        currentFeedItems
+          .filter((candidate) => projectKey(candidate) === family && ageHours(candidate) <= 72)
+          .filter((candidate) => {
+            const category = sourceCategory(candidate);
+            return ['official', 'x_hot', 'media'].includes(category) || Boolean(candidate.trustedAuthor);
+          })
+          .map((candidate) => candidate.source || candidate.author || candidate.id)
+      ).size;
+    }
+
+    function isGithubTrendingItem(item) {
+      return item.sourceType === 'github_trending' || item.source === 'GitHub Trending';
+    }
+
+    function githubTrendingCanLead(item, attention) {
+      const text = `${item.title || ''} ${item.displayTitle || ''} ${item.summary || ''}`.toLowerCase();
+      const checks = [
+        crossSourceCount(item) >= 2,
+        trustedMentionCount(item) >= 1,
+        attention >= 150,
+        strongToolRelevance(item, text),
+      ].filter(Boolean).length;
+      return checks >= 2;
+    }
+
+    function isSoftAppleItem(item, text) {
+      return item.topic === 'APPLE'
+        && !OFFICIAL_SOURCES.has(item.source)
+        && includesAny(text, ['iphone app', 'iphone apps', '应用', '今年将发布']);
     }
 
     function ageHours(item) {
@@ -850,6 +896,7 @@
       const themeCap = new Map();
       const projectCap = new Map();
       let toolCount = 0;
+      let githubTrendingCount = 0;
       let decisionCount = 0;
       let earlyCount = 0;
 
