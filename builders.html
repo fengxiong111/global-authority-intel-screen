@@ -257,6 +257,15 @@
         || isBtcExtremeSignal(item, text);
     }
 
+    function canBreak72Hours(item, text) {
+      return isOpenClawOfficialRelease(item)
+        || isPrimaryAiRelease(item, text)
+        || isOfficialApple(item)
+        || isAppleChange(item, text)
+        || isWarEscalation(item, text)
+        || isBtcExtremeSignal(item, text);
+    }
+
     function isLowValue(item, text) {
       if (item.topic === 'TESLA' || item.source === 'Tesla IR') return true;
       if (!hasCjk(item.displayTitle || '') && item.topic !== 'OPENCLAW') return true;
@@ -294,16 +303,30 @@
       const hours = ageHours(item);
       if (hours <= 6) return 100;
       if (hours <= 24) return 88;
-      if (hours <= 48 && isTopTierTimeException(item, text)) return 62;
-      if (hours <= 72 && isTopTierTimeException(item, text)) return 40;
+      if (hours <= 72 && isTopTierTimeException(item, text)) return 52;
+      if (hours <= 72) return 24;
+      if (hours <= 168 && canBreak72Hours(item, text)) return 12;
       return 0;
     }
 
     function passesTimeGate(item, text) {
       const hours = ageHours(item);
-      if (hours > 72) return false;
+      if (hours > 168) return false;
       if (hours <= 24) return true;
-      return isTopTierTimeException(item, text);
+      if (hours <= 72) return isTopTierTimeException(item, text) || signalScoreFloor(item, text) >= 70;
+      return canBreak72Hours(item, text);
+    }
+
+    function signalScoreFloor(item, text) {
+      let floor = 0;
+      if (isPrimaryAiRelease(item, text)) floor += 30;
+      if (isAppleChange(item, text)) floor += 26;
+      if (isWarEscalation(item, text)) floor += 28;
+      if (isBtcExtremeSignal(item, text)) floor += 28;
+      if (item.sourceLayer === 'A') floor += 8;
+      if (OFFICIAL_SOURCES.has(item.source)) floor += 10;
+      if (STRONG_SOURCES.has(item.source)) floor += 10;
+      return floor + (item.priority || 0) * 0.18;
     }
 
     function attentionPenalty(item, text) {
@@ -353,6 +376,34 @@
       if (ageHours(item) > 48) score -= 28;
 
       score -= attentionPenalty(item, text);
+      return Math.round(score * 10) / 10;
+    }
+
+    function attentionScore(item) {
+      const text = `${item.title || ''} ${item.displayTitle || ''} ${item.summary || ''}`.toLowerCase();
+      let score = 0;
+      const title = String(item.displayTitle || item.title || '');
+      const titleLength = title.replace(/\s+/g, '').length;
+
+      if (isOpenClawOfficialRelease(item)) score += 220;
+      else if (isPrimaryAiRelease(item, text)) score += 180;
+
+      if (isBtcExtremeSignal(item, text)) score += 170;
+      if (isWarEscalation(item, text)) score += 165;
+      if (isOfficialApple(item) || isAppleChange(item, text)) score += 150;
+
+      if (isSecondaryReddit(item, text)) score += 38;
+      if (isSecondaryNyt(item, text)) score += 22;
+      if (item.source === 'GitHub Trending') score += 26;
+
+      if (titleLength >= 26) score -= 16;
+      if (!hasCjk(title) && item.topic !== 'OPENCLAW') score -= 40;
+      if (isInfrastructureSignal(item, text) && !isTopTierTimeException(item, text)) score -= 48;
+      if (includesAny(text, ['podcast', '播客', 'discussion', 'thread', 'megathread', 'rumor', 'rumors', '吐槽'])) score -= 120;
+
+      if (ageHours(item) > 24) score -= 12;
+      if (ageHours(item) > 72) score -= 18;
+
       return Math.round(score * 10) / 10;
     }
 
@@ -590,6 +641,7 @@
           const text = `${item.title || ''} ${item.displayTitle || ''} ${item.summary || ''}`.toLowerCase();
           return {
             item,
+            attentionScore: attentionScore(item),
             signalScore: signalScore(item),
             recencyScore: recencyScore(item, text),
             headlineClass: headlineClass(item),
@@ -598,20 +650,20 @@
         })
         .filter((entry) => entry.signalScore >= 60)
         .sort((a, b) =>
-          a.headlineClass - b.headlineClass
-          || (b.signalScore + b.boost) - (a.signalScore + a.boost)
+          b.attentionScore - a.attentionScore
+          || b.signalScore - a.signalScore
           || b.recencyScore - a.recencyScore
           || b.item.timestamp - a.item.timestamp
         );
 
-      const thresholds = [240, 200, 160, 120, 100];
+      const thresholds = [200, 160, 120, 100, 80, 60];
 
       for (const threshold of thresholds) {
         const selected = selectSignalItems(scored, threshold);
         if (selected.length >= 4) return selected.slice(0, 6);
       }
 
-      return selectSignalItems(scored, 100).slice(0, 6);
+      return selectSignalItems(scored, 60).slice(0, 6);
     }
 
     async function loadFeed() {
