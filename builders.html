@@ -146,6 +146,13 @@
       return /[\u4e00-\u9fff]/.test(value);
     }
 
+    function cjkRatio(value = '') {
+      const visible = String(value).replace(/\s/g, '');
+      if (!visible) return 0;
+      const cjk = (visible.match(/[\u4e00-\u9fff]/g) || []).length;
+      return cjk / visible.length;
+    }
+
     function matchesTerm(text, term) {
       if (!term) return false;
       if (/[^\w-]/.test(term) || term.includes(' ')) {
@@ -184,6 +191,10 @@
       return includesAny(text, SIGNAL_TERMS.macro);
     }
 
+    function isHeadlineMacroSignal(item) {
+      return includesAny(`${item.title || ''} ${item.displayTitle || ''}`.toLowerCase(), SIGNAL_TERMS.macro);
+    }
+
     function isInfrastructureSignal(item, text) {
       return includesAny(text, SIGNAL_TERMS.infra);
     }
@@ -212,6 +223,7 @@
 
     function isLowValue(item, text) {
       if (!hasCjk(item.displayTitle || '') && item.topic !== 'OPENCLAW') return true;
+      if (cjkRatio(item.displayTitle || '') < 0.26 && item.topic !== 'OPENCLAW') return true;
       if (includesAny(text, SIGNAL_TERMS.weak)) return true;
       if (GAME_TOPICS.has(item.topic) && !includesAny(text, ['faker', 'worlds', 'championship', '被 ai 取代'])) return true;
       if (item.source === 'Reddit' && !isSecondaryReddit(item, text)) return true;
@@ -220,9 +232,49 @@
       return false;
     }
 
+    function ageHours(item) {
+      if (!item.timestamp) return Number.POSITIVE_INFINITY;
+      return (Math.floor(Date.now() / 1000) - item.timestamp) / 3600;
+    }
+
+    function isWhitelistTopic(item, text) {
+      return ['OPENCLAW', 'OPENAI', 'ANTHROPIC', 'CLAUDE', 'CLAUDE_CODE', 'APPLE'].includes(item.topic)
+        || includesAny(text, ['war', 'iran', 'btc', 'bitcoin', 'etf', 'regulation', 'regulator', 'judge', 'court']);
+    }
+
+    function passesSignalGate(item, text) {
+      return isPrimaryAiRelease(item, text)
+        || isAppleChange(item, text)
+        || isHeadlineMacroSignal(item)
+        || isInfrastructureSignal(item, text)
+        || isSecondaryReddit(item, text)
+        || isSecondaryNyt(item, text)
+        || (STRONG_SOURCES.has(item.source) && includesAny(`${item.title || ''} ${item.displayTitle || ''}`.toLowerCase(), STRONG_SIGNAL_TERMS));
+    }
+
+    function recencyScore(item, text) {
+      const hours = ageHours(item);
+      if (hours <= 6) return 100;
+      if (hours <= 24) return 88;
+      if (hours <= 48) return 74;
+      if (hours <= 72 && isWhitelistTopic(item, text)) return 36;
+      if (hours <= 168 && isWhitelistTopic(item, text)) return 12;
+      return 0;
+    }
+
+    function passesTimeGate(item, text) {
+      const hours = ageHours(item);
+      if (hours > 168) return false;
+      if (hours <= 48) return true;
+      if (hours > 72) return false;
+      return isWhitelistTopic(item, text) && (isPrimaryAiRelease(item, text) || isHeadlineMacroSignal(item));
+    }
+
     function signalScore(item) {
       const text = `${item.title || ''} ${item.displayTitle || ''} ${item.summary || ''}`.toLowerCase();
       if (isLowValue(item, text)) return -999;
+      if (!passesTimeGate(item, text)) return -999;
+      if (!passesSignalGate(item, text)) return -999;
 
       let score = (item.priority || 0) * 0.35;
       if (includesAny(text, STRONG_SIGNAL_TERMS)) score += 72;
@@ -243,6 +295,7 @@
       if (item.source === 'OpenClaw Blog') score -= 48;
       if (item.source === 'Reddit') score -= 18;
       if (item.source === 'NYT') score -= 4;
+      if (ageHours(item) > 48) score -= 42;
 
       return Math.round(score * 10) / 10;
     }
@@ -445,18 +498,25 @@
           .filter((item) => item.timestamp)
         : [];
       const scored = base
-        .map((item) => ({ item, signalScore: signalScore(item) }))
+        .map((item) => {
+          const text = `${item.title || ''} ${item.displayTitle || ''} ${item.summary || ''}`.toLowerCase();
+          return {
+            item,
+            signalScore: signalScore(item),
+            recencyScore: recencyScore(item, text),
+          };
+        })
         .filter((entry) => entry.signalScore >= 60)
-        .sort((a, b) => b.signalScore - a.signalScore || b.item.timestamp - a.item.timestamp);
+        .sort((a, b) => b.signalScore - a.signalScore || b.recencyScore - a.recencyScore || b.item.timestamp - a.item.timestamp);
 
-      const thresholds = [150, 120, 95, 78];
+      const thresholds = [180, 140, 110, 80];
 
       for (const threshold of thresholds) {
         const selected = selectSignalItems(scored, threshold);
-        if (selected.length >= 6) return selected;
+        if (selected.length >= 5) return selected.slice(0, 6);
       }
 
-      return selectSignalItems(scored, 78).slice(0, 8);
+      return selectSignalItems(scored, 80).slice(0, 6);
     }
 
     async function loadFeed() {
