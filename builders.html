@@ -236,6 +236,12 @@
         && includesAny(text, ['codex', 'plugin', 'security', 'bug bounty', 'btc', 'bitcoin', 'etf', 'market', 'prediction market', 'war', 'iran']);
     }
 
+    function isGithubHot(item, text) {
+      return item.sourceType === 'github_trending'
+        && !includesAny(text, SIGNAL_TERMS.weak)
+        && includesAny(text, ['agent', 'agents', 'ai', 'scientist', 'developer', 'tool', 'tools', 'infra', 'security', 'openclaw', 'codex']);
+    }
+
     function isSecondaryNyt(item, text) {
       return item.source === 'NYT'
         && !/^[A-Za-z][A-Za-z.& -]+\s\d{1,2}:\d{2}$/.test(item.title || '')
@@ -323,6 +329,7 @@
         || isHeadlineMacroSignal(item)
         || isInfrastructureSignal(item, text)
         || isXHot(item, text)
+        || isGithubHot(item, text)
         || isCommunityHot(item, text)
         || item.sourceType === 'github_trending'
         || isSecondaryReddit(item, text)
@@ -391,9 +398,9 @@
       if (isHeadlineMacroSignal(item)) score += 122;
       else if (isMacroSignal(item, text)) score += 88;
       if (isInfrastructureSignal(item, text)) score += 26;
-      if (item.sourceType === 'x_hot') score += 40;
-      if (item.sourceType === 'github_trending') score += 35;
-      if (item.sourceType === 'community_hot') score += 30;
+      if (item.sourceType === 'x_hot') score += 52;
+      if (item.sourceType === 'github_trending') score += 44;
+      if (item.sourceType === 'community_hot') score += 34;
       if (isSecondaryReddit(item, text)) score += 34;
       if (isCommunityHot(item, text)) score += 30;
       if (isXHot(item, text)) score += 36;
@@ -427,9 +434,13 @@
       if (isBtcExtremeSignal(item, text)) score += 170;
       if (isWarEscalation(item, text)) score += 165;
       if (isOfficialApple(item) || isAppleChange(item, text)) score += 150;
-      if (item.sourceType === 'x_hot') score += 40;
-      if (item.sourceType === 'github_trending') score += 35;
-      if (item.sourceType === 'community_hot') score += 30;
+      if (item.sourceType === 'x_hot') score += 54;
+      if (item.sourceType === 'github_trending') score += 40;
+      if (item.sourceType === 'community_hot') score += 34;
+
+      if (isXHot(item, text) && includesAny(text, ['codex', 'plugin', 'security', 'bug bounty'])) score += 175;
+      if (isGithubHot(item, text)) score += 104;
+      if (isCommunityHot(item, text)) score += 66;
 
       if (isSecondaryReddit(item, text)) score += 38;
       if (isSecondaryNyt(item, text)) score += 22;
