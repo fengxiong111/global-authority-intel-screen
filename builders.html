@@ -121,6 +121,7 @@
     let lastRenderSignature = "";
     let currentFeedItems = [];
     let currentEarlySignals = [];
+    const FEED_URL = './data/feed.json';
     const ATTENTION_STORAGE_KEY = 'authority-intel-attention-v1';
 
     function itemTimeValue(item) {
@@ -903,6 +904,7 @@
     }
 
     function buildSignalPool(items) {
+      console.log('[builders] raw_count', items.length);
       const base = Array.isArray(items)
         ? items
           .filter(Boolean)
@@ -940,29 +942,41 @@
         const decisionCount = selected.filter(isDecisionItem).length;
         const earlyCount = selected.filter(isEarlyOpportunity).length;
         if (selected.length >= 4 && decisionCount >= 2 && earlyCount >= 1) {
-          return selected.slice(0, 6).map((item) => ({
+          const finalItems = selected.slice(0, 6).map((item) => ({
             ...item,
             title: item.displayTitle || item.title || '',
             ts: displayTimestamp(item),
           }));
+          console.log('[builders] filtered_count', scored.length);
+          console.log('[builders] first_screen_count', finalItems.length);
+          console.log('[builders] first_screen_titles', finalItems.map((item) => item.title));
+          return finalItems;
         }
       }
 
-      return selectSignalItems(scored, 60).slice(0, 6).map((item) => ({
+      const fallbackItems = selectSignalItems(scored, 60).slice(0, 6).map((item) => ({
         ...item,
         title: item.displayTitle || item.title || '',
         ts: displayTimestamp(item),
       }));
+      console.log('[builders] filtered_count', scored.length);
+      console.log('[builders] first_screen_count', fallbackItems.length);
+      console.log('[builders] first_screen_titles', fallbackItems.map((item) => item.title));
+      return fallbackItems;
     }
 
     async function loadFeed() {
       try {
-        const res = await fetch(`./data/feed.json?t=${Date.now()}`, { cache: 'no-store' });
+        const requestUrl = `${FEED_URL}?t=${Date.now()}`;
+        console.log('[builders] feed_url', requestUrl);
+        const res = await fetch(requestUrl, { cache: 'no-store' });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const payload = await res.json();
         const data = Array.isArray(payload) ? payload : (payload.items || []);
         currentFeedItems = data;
         currentEarlySignals = Array.isArray(payload) ? [] : (payload.early_signals || []);
+        console.log('[builders] data_count', data.length);
+        console.log('[builders] item_titles', data.map((item) => item.title));
         render(buildSignalPool(data));
       } catch {
         feedEl.innerHTML = '<div class="empty">真实 feed 暂不可用</div>';
