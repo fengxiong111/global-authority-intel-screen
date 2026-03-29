@@ -1,82 +1,288 @@
 <!doctype html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Builders Intel Screen</title>
-    <meta name="description" content="推荐关注人情报屏。" />
-    <link rel="stylesheet" href="./styles.css?v=20260329b" />
-  </head>
-  <body class="builders-screen">
-    <main class="shell">
-      <header id="topbar" class="topbar" hidden>
-        <p class="eyebrow">BUILDERS INTEL SCREEN</p>
-        <h1>推荐关注人情报屏</h1>
-        <p class="subhead">只保留 builders / 官方 / 一线产品团队相关内容。</p>
-        <div class="meta-row">
-          <span id="last-updated">更新于 载入中…</span>
-          <span id="feed-status" hidden></span>
-        </div>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Builders Intel Screen</title>
+  <meta name="description" content="推荐关注人情报屏。" />
+  <style>
+    :root{
+      --bg:#020202;--line:rgba(255,255,255,.012);--text:#f7f7f2;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","PingFang SC","Helvetica Neue",Arial,sans-serif}
+    html,body{height:100%;overflow:hidden}
+    .viewport{position:fixed;inset:0;overflow:hidden;background:var(--bg)}
+    .scroll-layer{will-change:transform}
+    html.mobile, html.mobile body{height:auto;overflow-x:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch}
+    html.mobile body{min-height:100vh}
+    .mobile .viewport{position:relative;inset:auto;overflow:visible;min-height:100vh}
+    .mobile .scroll-layer{will-change:auto;transform:none !important}
+    .app{width:min(100vw,2620px);margin:0 auto;padding:34px 104px 42px}
+    .feed{padding-top:0}
+    .item{padding:16px 0 18px;border-bottom:1px solid transparent;transform-origin:center center;opacity:1;transform:translate3d(0,0,0) scale(1)}
+    .item + .item{margin-top:2px}
+    .item:first-child{padding-top:22px;padding-bottom:42px;margin-bottom:16px;border-bottom-color:rgba(255,255,255,.018)}
+    .item:nth-child(2){padding-top:24px;padding-bottom:28px;margin-bottom:14px;border-bottom-color:rgba(255,255,255,.014)}
+    .item:nth-child(n+3):nth-child(-n+6){padding-top:10px;padding-bottom:10px}
+    .item:nth-child(n+7){padding-top:11px;padding-bottom:13px}
+    .item.entering{opacity:0;transform:translate3d(0,18px,0) scale(.995)}
+    .headline{width:100%;max-width:25ch;font-size:clamp(28px,3.22vw,58px);line-height:1.18;font-weight:510;letter-spacing:-.017em;color:rgba(247,247,242,.79);word-break:normal;overflow-wrap:break-word;line-break:loose;text-wrap:pretty;hyphens:none;transition:opacity .18s linear, transform .18s linear}
+    .item:first-child .headline{max-width:22.2ch;font-size:clamp(40px,4.28vw,76px);line-height:1.12;font-weight:605;letter-spacing:-.023em;color:rgba(247,247,242,.958);text-wrap:balance}
+    .item:nth-child(2) .headline{max-width:23.4ch;font-size:clamp(34px,3.88vw,68px);line-height:1.15;font-weight:565;color:rgba(247,247,242,.91);letter-spacing:-.018em;text-wrap:balance}
+    .item:nth-child(n+3):nth-child(-n+6) .headline{max-width:24.8ch;font-size:clamp(29px,3.22vw,54px);line-height:1.19;font-weight:520;color:rgba(247,247,242,.83);text-wrap:pretty}
+    .item:nth-child(n+7) .headline{max-width:25.1ch;font-size:clamp(26px,3vw,48px);line-height:1.2;font-weight:505;color:rgba(247,247,242,.79);text-wrap:pretty}
+    .item:nth-child(n+7) .meta{color:rgba(247,247,242,.38)}
+    .meta{margin-top:8px;font-size:clamp(12px,1.02vw,14px);line-height:1.22;font-weight:475;letter-spacing:.012em;color:rgba(247,247,242,.48)}
+    .item:first-child .meta{color:rgba(247,247,242,.5)}
+    .item:nth-child(2) .meta{color:rgba(247,247,242,.49)}
+    .empty{padding:48px 0;color:#777;font-size:24px}
+    .mask{position:fixed;left:0;right:0;height:12vh;pointer-events:none;z-index:5}
+    .mask-bottom{bottom:0;background:linear-gradient(0deg,rgba(2,2,2,.36) 0%,rgba(2,2,2,.18) 34%,rgba(2,2,2,.08) 64%,rgba(2,2,2,0) 100%)}
+    @media (max-width: 1024px){
+      .mobile .mask{display:none}
+      .mobile .item,.mobile .headline{transition:none !important}
+    }
+    @media (pointer: coarse) and (min-width: 820px) and (orientation: landscape){
+      .app{padding:20px 82px 32px}
+      .item{padding:13px 0 15px}
+      .item:first-child{padding-top:14px;padding-bottom:28px;margin-bottom:10px}
+      .item:nth-child(2){padding-top:19px;padding-bottom:21px;margin-bottom:11px}
+      .item:nth-child(n+3):nth-child(-n+6){padding-top:10px;padding-bottom:10px}
+      .item:nth-child(n+7){padding-top:10px;padding-bottom:11px}
+      .headline{max-width:25.2ch;font-size:clamp(25px,2.95vw,40px);line-height:1.2;font-weight:500;color:rgba(247,247,242,.81)}
+      .item:first-child .headline{max-width:24.1ch;font-size:clamp(35px,4.08vw,52px);line-height:1.12;font-weight:588;color:rgba(247,247,242,.95)}
+      .item:nth-child(2) .headline{max-width:24.4ch;font-size:clamp(30px,3.58vw,44px);line-height:1.145;font-weight:545;color:rgba(247,247,242,.9)}
+      .item:nth-child(n+3):nth-child(-n+6) .headline{max-width:25.1ch;font-size:clamp(27px,3.06vw,38px);line-height:1.18;font-weight:515;color:rgba(247,247,242,.84)}
+      .item:nth-child(n+7) .headline{max-width:25.3ch;font-size:clamp(24px,2.8vw,33px);line-height:1.19;font-weight:500;color:rgba(247,247,242,.8)}
+      .meta{margin-top:7px;font-size:13px;line-height:1.22;font-weight:478;color:rgba(247,247,242,.5)}
+      .item:first-child .meta{color:rgba(247,247,242,.52)}
+      .item:nth-child(2) .meta{color:rgba(247,247,242,.5)}
+      .item:nth-child(n+7) .meta{color:rgba(247,247,242,.41)}
+    }
+    @media (pointer: coarse) and (min-width: 820px) and (orientation: portrait){
+      .app{padding:18px 44px 32px}
+      .item{padding:12px 0 14px}
+      .item:first-child{padding-top:10px;padding-bottom:24px;margin-bottom:10px}
+      .item:nth-child(2){padding-top:16px;padding-bottom:19px;margin-bottom:10px}
+      .item:nth-child(n+3):nth-child(-n+6){padding-top:10px;padding-bottom:10px}
+      .item:nth-child(n+7){padding-top:10px;padding-bottom:11px}
+      .headline{max-width:24.2ch;font-size:clamp(24px,3.34vw,39px);line-height:1.195;font-weight:500;color:rgba(247,247,242,.81)}
+      .item:first-child .headline{max-width:22.4ch;font-size:clamp(33px,4.42vw,49px);line-height:1.125;font-weight:582;color:rgba(247,247,242,.945)}
+      .item:nth-child(2) .headline{max-width:23.1ch;font-size:clamp(29px,3.86vw,43px);line-height:1.155;font-weight:542;color:rgba(247,247,242,.895)}
+      .item:nth-child(n+3):nth-child(-n+6) .headline{max-width:24.3ch;font-size:clamp(26px,3.42vw,37px);line-height:1.185;font-weight:515;color:rgba(247,247,242,.84)}
+      .item:nth-child(n+7) .headline{max-width:24.3ch;font-size:clamp(23px,3.1vw,32px);line-height:1.195;font-weight:500;color:rgba(247,247,242,.8)}
+      .meta{margin-top:7px;font-size:13px;line-height:1.22;font-weight:478;color:rgba(247,247,242,.5)}
+      .item:first-child .meta{color:rgba(247,247,242,.52)}
+      .item:nth-child(2) .meta{color:rgba(247,247,242,.5)}
+      .item:nth-child(n+7) .meta{color:rgba(247,247,242,.41)}
+    }
+    @media (max-width: 900px){
+      .app{padding:12px 26px 28px}
+      .item{padding:14px 0 17px}
+      .item:first-child{padding-top:8px;padding-bottom:26px;margin-bottom:10px}
+      .item:nth-child(2){padding-top:16px;padding-bottom:22px;margin-bottom:10px}
+      .item:nth-child(n+3):nth-child(-n+6){padding-top:10px;padding-bottom:11px}
+      .item:nth-child(n+7){padding-top:9px;padding-bottom:11px}
+      .headline{max-width:100%;font-size:clamp(23px,6.82vw,40px);line-height:1.19;font-weight:500}
+      .item:first-child .headline{max-width:100%;font-size:clamp(32px,8.4vw,51px);line-height:1.1;font-weight:605}
+      .item:nth-child(2) .headline{max-width:100%;font-size:clamp(29px,7.88vw,47px);line-height:1.14;font-weight:570;color:rgba(247,247,242,.91)}
+      .item:nth-child(n+3):nth-child(-n+6) .headline{max-width:100%;font-size:clamp(25px,6.9vw,41px);line-height:1.18;font-weight:520;color:rgba(247,247,242,.83)}
+      .item:nth-child(n+7) .headline{max-width:100%;font-size:clamp(22px,6.32vw,36px);line-height:1.19;font-weight:500;color:rgba(247,247,242,.79)}
+      .meta{margin-top:6px;font-size:12px;color:rgba(247,247,242,.44)}
+      .mask{height:8vh}
+    }
+    @media (prefers-reduced-motion: reduce){
+      .item,.headline{transition:none}
+    }
+  </style>
+</head>
+<body>
+  <div class="viewport" id="viewport">
+    <div class="mask mask-bottom"></div>
+    <div class="scroll-layer" id="scrollLayer">
+      <div class="app">
+        <main class="feed" id="feed"></main>
+      </div>
+    </div>
+  </div>
 
-      <section id="controls" class="controls" hidden>
-        <div class="filter-group" id="category-filter"></div>
-        <div class="toolbar">
-          <label>
-            <span>来源</span>
-            <select id="source-filter">
-              <option value="ALL">全部来源</option>
-            </select>
-          </label>
-          <label class="toggle">
-            <input id="hot-only" type="checkbox" />
-            <span>只看高优先级</span>
-          </label>
-        </div>
-      </section>
+  <script>
+    const feedEl = document.getElementById('feed');
+    const viewportEl = document.getElementById('viewport');
+    const scrollLayerEl = document.getElementById('scrollLayer');
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const isMobile = window.matchMedia('(pointer: coarse), (max-width: 1024px)').matches;
+    if (isMobile) document.documentElement.classList.add('mobile');
+    let targetY = 0;
+    let currentY = 0;
+    let firstRender = true;
+    let touchStartY = null;
+    let previousFeedIds = [];
+    let lastRenderSignature = '';
 
-      <section id="feed" class="feed" aria-live="polite"></section>
-      <section id="empty-state" class="empty-state" hidden>
-        <p>当前筛选条件下没有可显示的条目。</p>
-      </section>
-    </main>
+    const BUILDER_TOPICS = new Set([
+      'OPENAI','ANTHROPIC','CLAUDE','CLAUDE_CODE','OPENCLAW','APPLE','NINTENDO','SONY','PLAYSTATION','TESLA','ONEKEY'
+    ]);
+    const BUILDER_SOURCES = new Set([
+      'OpenAI News','Anthropic Newsroom','Apple Newsroom','Nintendo News','Sony Interactive','PlayStation Blog','Tesla IR','OpenClaw GitHub','OpenClaw Blog','OneKey Blog'
+    ]);
 
-    <script>
-      window.AUTHORITY_INTEL_FALLBACK = [
-        {
-          "id": "builders-openai",
-          "time": "2026-03-29T08:00:00Z",
-          "source": "OpenAI News",
-          "title": "OpenAI sample item",
-          "displayTitle": "OpenAI：示例更新",
-          "summary": "",
-          "category": "AI",
-          "topic": "OPENAI",
-          "priority": 88,
-          "url": "https://openai.com/news/",
-          "hot": true,
-          "defaultVisible": true,
-          "sourceLayer": "A",
-          "tags": ["AI", "OPENAI"]
-        },
-        {
-          "id": "builders-tesla",
-          "time": "2026-03-29T06:00:00Z",
-          "source": "Tesla IR",
-          "title": "Tesla sample item",
-          "displayTitle": "特斯拉季度更新示例",
-          "summary": "",
-          "category": "TESLA",
-          "topic": "TESLA",
-          "priority": 82,
-          "url": "https://ir.tesla.com/",
-          "hot": true,
-          "defaultVisible": true,
-          "sourceLayer": "A",
-          "tags": ["TESLA"]
+    function clampScroll(value) {
+      const minY = Math.min(0, viewportEl.clientHeight - scrollLayerEl.scrollHeight);
+      return Math.max(minY, Math.min(0, value));
+    }
+
+    function buildSignature(items) {
+      return Array.isArray(items) ? items.map(item => `${item.id}::${item.title || ''}::${item.time || ''}`).join('\n') : '';
+    }
+
+    function formatRelativeTime(ts) {
+      if (!ts) return '';
+      const date = new Date(ts);
+      if (Number.isNaN(date.getTime())) return '';
+      const diff = Date.now() - date.getTime();
+      if (diff < 0 || diff > 1000 * 60 * 60 * 24 * 30) return '';
+      const mins = Math.floor(diff / 60000);
+      if (mins < 1) return '刚刚';
+      if (mins < 60) return `${mins} 分钟前`;
+      const hours = Math.floor(mins / 60);
+      if (hours < 24) return `${hours} 小时前`;
+      const days = Math.floor(hours / 24);
+      return days <= 30 ? `${days} 天前` : '';
+    }
+
+    function updateVisuals() {
+      if (isMobile) return;
+      const center = window.innerHeight / 2;
+      feedEl.querySelectorAll('.item').forEach((item) => {
+        const rect = item.getBoundingClientRect();
+        const itemCenter = rect.top + rect.height / 2;
+        const distance = Math.min(1, Math.abs(itemCenter - center) / (window.innerHeight * 0.65));
+        const opacity = reduceMotion ? 1 : 1 - distance * 0.28;
+        const scale = reduceMotion ? 1 : 1 - distance * 0.018;
+        item.style.opacity = opacity.toFixed(3);
+        item.style.transform = `translate3d(0,0,0) scale(${scale.toFixed(4)})`;
+      });
+    }
+
+    function animate() {
+      if (isMobile) return;
+      currentY = reduceMotion ? targetY : currentY + (targetY - currentY) * 0.12;
+      if (Math.abs(targetY - currentY) < 0.1) currentY = targetY;
+      scrollLayerEl.style.transform = `translate3d(0, ${currentY}px, 0)`;
+      updateVisuals();
+      requestAnimationFrame(animate);
+    }
+
+    function createItem(item, entering) {
+      const article = document.createElement('article');
+      article.className = 'item';
+      article.dataset.id = item.id;
+      const headline = document.createElement('div');
+      headline.className = 'headline';
+      headline.textContent = item.displayTitle || item.title || '';
+      const meta = document.createElement('div');
+      meta.className = 'meta';
+      meta.textContent = formatRelativeTime(item.time);
+      article.appendChild(headline);
+      article.appendChild(meta);
+      if (entering && !reduceMotion) {
+        article.classList.add('entering');
+        requestAnimationFrame(() => article.classList.remove('entering'));
+      }
+      return article;
+    }
+
+    function render(items) {
+      if (!Array.isArray(items) || !items.length) {
+        feedEl.innerHTML = '<div class="empty">暂无情报</div>';
+        return;
+      }
+      const signature = buildSignature(items);
+      if (signature === lastRenderSignature) return;
+      lastRenderSignature = signature;
+      const existing = new Map([...feedEl.querySelectorAll('.item')].map(node => [node.dataset.id, node]));
+      const nextIds = items.map(item => String(item.id));
+      const fragment = document.createDocumentFragment();
+      for (const item of items) {
+        const id = String(item.id);
+        let node = existing.get(id);
+        if (!node) {
+          const entering = !firstRender && !previousFeedIds.includes(id);
+          node = createItem(item, entering);
+        } else {
+          const textEl = node.querySelector('.headline');
+          const nextTitle = item.displayTitle || item.title || '';
+          if (textEl && textEl.textContent !== nextTitle) textEl.textContent = nextTitle;
+          const metaEl = node.querySelector('.meta');
+          if (metaEl) metaEl.textContent = formatRelativeTime(item.time);
         }
-      ];
-    </script>
-    <script src="./app.js"></script>
-  </body>
+        fragment.appendChild(node);
+      }
+      feedEl.replaceChildren(fragment);
+      previousFeedIds = nextIds;
+      if (firstRender) {
+        targetY = currentY = 0;
+        if (!isMobile) scrollLayerEl.style.transform = 'translate3d(0,0,0)';
+        firstRender = false;
+      } else if (!isMobile) {
+        targetY = clampScroll(targetY);
+      }
+      updateVisuals();
+    }
+
+    function filterBuilders(items) {
+      return (Array.isArray(items) ? items : [])
+        .filter(item => item && item.defaultVisible)
+        .filter(item => BUILDER_TOPICS.has(item.topic) || BUILDER_SOURCES.has(item.source))
+        .slice(0, 12);
+    }
+
+    async function loadFeed() {
+      try {
+        const res = await fetch(`./data/feed.json?t=${Date.now()}`, { cache: 'no-store' });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        render(filterBuilders(data));
+      } catch {
+        feedEl.innerHTML = '<div class="empty">真实 feed 暂不可用</div>';
+      }
+    }
+
+    if (!isMobile) {
+      viewportEl.addEventListener('wheel', (e) => {
+        e.preventDefault();
+        targetY = clampScroll(targetY - e.deltaY);
+      }, { passive: false });
+
+      viewportEl.addEventListener('touchstart', (e) => {
+        touchStartY = e.touches[0].clientY;
+      }, { passive: true });
+
+      viewportEl.addEventListener('touchmove', (e) => {
+        if (touchStartY == null) return;
+        const y = e.touches[0].clientY;
+        const delta = y - touchStartY;
+        touchStartY = y;
+        targetY = clampScroll(targetY + delta);
+      }, { passive: true });
+
+      viewportEl.addEventListener('touchend', () => {
+        touchStartY = null;
+      }, { passive: true });
+
+      window.addEventListener('resize', () => {
+        targetY = clampScroll(targetY);
+        currentY = clampScroll(currentY);
+        updateVisuals();
+      });
+
+      requestAnimationFrame(animate);
+    }
+
+    loadFeed();
+    setInterval(loadFeed, 30000);
+  </script>
+</body>
 </html>
