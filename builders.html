@@ -252,6 +252,7 @@
     function isTopTierTimeException(item, text) {
       return isOpenClawOfficialRelease(item)
         || isOfficialApple(item)
+        || isPrimaryAiRelease(item, text)
         || isWarEscalation(item, text)
         || isBtcExtremeSignal(item, text);
     }
@@ -293,14 +294,14 @@
       const hours = ageHours(item);
       if (hours <= 6) return 100;
       if (hours <= 24) return 88;
-      if (hours <= 48 && isTopTierTimeException(item, text)) return 40;
-      if (hours <= 72 && isTopTierTimeException(item, text)) return 18;
+      if (hours <= 48 && isTopTierTimeException(item, text)) return 62;
+      if (hours <= 72 && isTopTierTimeException(item, text)) return 40;
       return 0;
     }
 
     function passesTimeGate(item, text) {
       const hours = ageHours(item);
-      if (hours > 168) return false;
+      if (hours > 72) return false;
       if (hours <= 24) return true;
       return isTopTierTimeException(item, text);
     }
@@ -348,8 +349,8 @@
       if (item.source === 'OpenClaw Blog') score += 18;
       if (item.source === 'Reddit') score -= 14;
       if (item.source === 'NYT') score -= 8;
-      if (ageHours(item) > 24) score -= 36;
-      if (ageHours(item) > 48) score -= 72;
+      if (ageHours(item) > 24) score -= 14;
+      if (ageHours(item) > 48) score -= 28;
 
       score -= attentionPenalty(item, text);
       return Math.round(score * 10) / 10;
@@ -404,7 +405,7 @@
       if (item.topic === 'OPENAI') return 'OPENAI';
       if (item.topic === 'ANTHROPIC') return 'ANTHROPIC';
       if (item.topic === 'CLAUDE' || item.topic === 'CLAUDE_CODE') return 'CLAUDE';
-      if (item.topic === 'BTC') return 'BTC';
+      if (item.topic === 'BTC' || item.topic === 'ETF') return `${item.topic || 'BTC'}::${item.source || 'UNKNOWN'}`;
       if (isWarEscalation(item, `${item.title || ''} ${item.displayTitle || ''}`.toLowerCase())) return 'WAR';
       return item.topic || item.source || item.id;
     }
@@ -566,11 +567,11 @@
 
       for (const entry of candidates) {
         tryPick(entry, true);
-        if (selected.length >= 5) break;
+        if (selected.length >= 6) break;
       }
 
       for (const entry of candidates) {
-        if (selected.length >= 5) break;
+        if (selected.length >= 6) break;
         tryPick(entry, false);
       }
 
@@ -603,14 +604,14 @@
           || b.item.timestamp - a.item.timestamp
         );
 
-      const thresholds = [240, 200, 160, 120];
+      const thresholds = [240, 200, 160, 120, 100];
 
       for (const threshold of thresholds) {
         const selected = selectSignalItems(scored, threshold);
-        if (selected.length >= 4) return selected.slice(0, 5);
+        if (selected.length >= 4) return selected.slice(0, 6);
       }
 
-      return selectSignalItems(scored, 120).slice(0, 5);
+      return selectSignalItems(scored, 100).slice(0, 6);
     }
 
     async function loadFeed() {
