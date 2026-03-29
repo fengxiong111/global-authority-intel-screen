@@ -622,6 +622,10 @@ function stripInternal(item) {
     defaultVisible: Boolean(item.defaultVisible),
     author: item.author || '',
     trustedAuthor: Boolean(item.trustedAuthor),
+    meaning: item.meaning || '',
+    action_hint: item.action_hint || '',
+    urgency: item.urgency || '',
+    action_source: item.action_source || '',
   };
 }
 
@@ -716,10 +720,224 @@ export function normalizeFeed(items) {
     topicCounts.set(item.topic, topicIndex + 1);
   }
 
-  return deduped
+  const finalItems = applyActionLayer(
+    deduped
     .filter((item) => item.effective_timestamp)
     .sort((a, b) => b.priority - a.priority || b.effective_timestamp - a.effective_timestamp)
-    .map(stripInternal);
+  );
+
+  return finalItems.map(stripInternal);
+}
+
+function actionTheme(item) {
+  const type = earlySignalType(item);
+  return ['AI', 'APPLE', 'CRYPTO', 'MACRO', 'GAME', 'SCREEN', 'BOOK'].includes(type) ? type : '';
+}
+
+function actionProjectKey(item) {
+  const text = cleanText(`${item.title} ${item.displayTitle} ${item.summary}`).toLowerCase();
+  if (item.topic === 'OPENCLAW' || (item.source || '').startsWith('OpenClaw')) return 'OPENCLAW';
+  if (item.topic === 'OPENAI') return 'OPENAI';
+  if (item.topic === 'ANTHROPIC') return 'ANTHROPIC';
+  if (item.topic === 'CLAUDE' || item.topic === 'CLAUDE_CODE') return 'CLAUDE';
+  if (item.topic === 'APPLE') return 'APPLE';
+  if (['war', 'iran', 'middle east', 'houthi', 'troops', 'strike'].some((term) => text.includes(term))) return 'WAR';
+  if (['BTC', 'ETF', 'ONEKEY', 'CRYPTO_TOOLS'].includes(item.topic)) return `${item.topic || 'CRYPTO'}::${item.source || 'UNKNOWN'}`;
+  return `${actionTheme(item)}::${item.source || item.topic || item.id}`;
+}
+
+function actionText(item) {
+  return cleanText(`${item.title} ${item.displayTitle} ${item.summary}`).toLowerCase();
+}
+
+function actionHasTerm(text, term) {
+  if (!term) return false;
+  if (/[^\w-]/.test(term) || term.includes(' ')) return text.includes(term);
+  const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return new RegExp(`(^|[^a-z0-9])${escaped}([^a-z0-9]|$)`, 'i').test(text);
+}
+
+function actionIncludesAny(text, terms) {
+  return terms.some((term) => actionHasTerm(text, term));
+}
+
+function actionIsAiRelease(item) {
+  const text = actionText(item);
+  return ['OPENCLAW', 'OPENAI', 'ANTHROPIC', 'CLAUDE', 'CLAUDE_CODE'].includes(item.topic)
+    && (
+      OFFICIAL_SOURCES.has(item.source)
+      || ['product', 'release', 'press', 'changelog'].includes(item.sourceType)
+      || actionIncludesAny(text, ['release', '发布', '更新', 'launch', 'introducing', 'beta', 'version', 'bug bounty', 'agent', 'coding agent', 'claude code'])
+    );
+}
+
+function actionIsAppleChange(item) {
+  const text = actionText(item);
+  return item.topic === 'APPLE' && actionIncludesAny(text, ['iphone', 'ipad', 'mac', 'macbook', 'ios', '应用', '功能', 'product', 'm5']);
+}
+
+function actionIsBtcSignal(item) {
+  const text = actionText(item);
+  return ['BTC', 'ETF', 'CRYPTO_TOOLS'].includes(item.topic)
+    || actionIncludesAny(text, ['btc', 'bitcoin', '比特币', 'etf', '期权', 'options', 'market structure', 'fund flow', '回撤', '续跌', '价格战']);
+}
+
+function actionIsWarSignal(item) {
+  const text = actionText(item);
+  return actionIncludesAny(text, ['war', 'iran', 'middle east', 'houthi', 'troops', 'strike', '战事', '中东', '胡塞', '增兵']);
+}
+
+function actionIsAttentionSource(item) {
+  return ['x_hot', 'github_trending', 'community_hot'].includes(item.sourceType);
+}
+
+function actionThemeCap(theme) {
+  return {
+    AI: 2,
+    APPLE: 1,
+    CRYPTO: 2,
+    MACRO: 2,
+    GAME: 1,
+    SCREEN: 1,
+    BOOK: 1,
+  }[theme] || 0;
+}
+
+function actionIsStrong(item) {
+  return actionIsAiRelease(item)
+    || actionIsAppleChange(item)
+    || actionIsBtcSignal(item)
+    || actionIsWarSignal(item)
+    || actionIsAttentionSource(item);
+}
+
+function actionEligible(item) {
+  if (!item.displayTitle) return false;
+  if (item.topic === 'TESLA' || item.source === 'Tesla IR') return false;
+  if (item.sourceLayer === 'C') return false;
+  const theme = actionTheme(item);
+  if (!theme) return false;
+  const hours = earlySignalRecencyHours(item, Math.floor(Date.now() / 1000));
+  if (!Number.isFinite(hours) || hours > 72) return false;
+  if (hours > 24 && !actionIsStrong(item)) return false;
+  if (['GAME', 'SCREEN', 'BOOK'].includes(theme) && !(item.hot && item.priority >= 80 && actionIsAttentionSource(item))) return false;
+  if (!['AI', 'APPLE', 'CRYPTO', 'MACRO'].includes(theme) && !actionIsAttentionSource(item)) return false;
+  return item.priority >= 60 || actionIsStrong(item);
+}
+
+function actionSelectionScore(item) {
+  const hours = earlySignalRecencyHours(item, Math.floor(Date.now() / 1000));
+  let score = Number(item.priority || 0);
+  if (hours <= 6) score += 28;
+  else if (hours <= 24) score += 22;
+  else if (hours <= 72) score += 10;
+  if (item.defaultVisible) score += 14;
+  if (OFFICIAL_SOURCES.has(item.source)) score += 16;
+  if (TRUSTED_SOURCES.has(item.source)) score += 10;
+  if (item.sourceType === 'x_hot') score += 18;
+  if (item.sourceType === 'github_trending') score += 16;
+  if (item.sourceType === 'community_hot') score += 12;
+  if (actionIsAiRelease(item)) score += 36;
+  if (actionIsAppleChange(item)) score += 28;
+  if (actionIsBtcSignal(item)) score += 30;
+  if (actionIsWarSignal(item)) score += 28;
+  return score;
+}
+
+function actionFieldsFor(item) {
+  if (actionIsAiRelease(item)) {
+    return {
+      meaning: item.topic === 'OPENCLAW' ? '工具能力边界变了，值得更新判断。' : '模型或工具能力变了，可能影响你的工作流。',
+      action_hint: item.source === 'OpenClaw GitHub' ? '看 release notes。' : '点开看能力边界。',
+      urgency: item.topic === 'OPENCLAW' ? 'high' : 'medium',
+      action_source: 'rule',
+    };
+  }
+
+  if (actionIsAppleChange(item)) {
+    return {
+      meaning: '苹果产品节奏或生态接口在变，可能影响后续判断。',
+      action_hint: '看功能与上线时间。',
+      urgency: 'medium',
+      action_source: 'rule',
+    };
+  }
+
+  if (actionIsBtcSignal(item)) {
+    return {
+      meaning: '资金和定价结构在变，可能直接影响风险偏好。',
+      action_hint: '看盘面与后续流向。',
+      urgency: 'high',
+      action_source: 'rule',
+    };
+  }
+
+  if (actionIsWarSignal(item)) {
+    return {
+      meaning: '地缘风险在升温，可能影响市场和政策预期。',
+      action_hint: '看是否继续升级。',
+      urgency: 'high',
+      action_source: 'rule',
+    };
+  }
+
+  if (actionIsAttentionSource(item)) {
+    return {
+      meaning: '这件事开始在高热源扩散，可能先于媒体成形。',
+      action_hint: item.sourceType === 'github_trending' ? '看 repo。' : '点开看原帖。',
+      urgency: 'medium',
+      action_source: 'rule',
+    };
+  }
+
+  if (actionTheme(item) === 'SCREEN') {
+    return {
+      meaning: '大众兴趣开始聚集，可能形成新的文化话题。',
+      action_hint: '看口碑和榜单。',
+      urgency: 'low',
+      action_source: 'rule',
+    };
+  }
+
+  if (actionTheme(item) === 'BOOK') {
+    return {
+      meaning: '书籍话题开始聚集，可能值得提前关注。',
+      action_hint: '看是否持续上升。',
+      urgency: 'low',
+      action_source: 'rule',
+    };
+  }
+
+  return {
+    meaning: '这是一个值得继续盯的变化信号。',
+    action_hint: '点开核对原文。',
+    urgency: 'medium',
+    action_source: 'rule',
+  };
+}
+
+function applyActionLayer(items) {
+  const themeCap = new Map();
+  const projectCap = new Set();
+  const selectedIds = new Set();
+
+  const candidates = (items || [])
+    .filter(actionEligible)
+    .sort((a, b) => actionSelectionScore(b) - actionSelectionScore(a) || b.priority - a.priority || b.effective_timestamp - a.effective_timestamp);
+
+  for (const item of candidates) {
+    const theme = actionTheme(item);
+    const project = actionProjectKey(item);
+    if (!theme) continue;
+    if (projectCap.has(project)) continue;
+    if ((themeCap.get(theme) || 0) >= actionThemeCap(theme)) continue;
+    selectedIds.add(item.id);
+    projectCap.add(project);
+    themeCap.set(theme, (themeCap.get(theme) || 0) + 1);
+    if (selectedIds.size >= 6) break;
+  }
+
+  return items.map((item) => (selectedIds.has(item.id) ? { ...item, ...actionFieldsFor(item) } : item));
 }
 
 function earlySignalType(item) {
