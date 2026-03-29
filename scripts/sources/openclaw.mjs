@@ -1,5 +1,12 @@
 import { fetchFeed, fetchDom, makeItem, takeFirst, toAbsoluteUrl, cleanText } from '../utils.mjs';
 
+function releaseDateFromTitle(title) {
+  const match = cleanText(title).match(/openclaw\s+(\d{4})\.(\d{1,2})\.(\d{1,2})(?:-beta\.\d+)?/i);
+  if (!match) return '';
+  const [, year, month, day] = match;
+  return `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}T00:00:00.000Z`;
+}
+
 async function fetchGithubReleases() {
   const feed = await fetchFeed('https://github.com/openclaw/openclaw/releases.atom');
   return takeFirst(feed.items || [], 8)
@@ -8,7 +15,7 @@ async function fetchGithubReleases() {
         source: 'OpenClaw GitHub',
         title: entry.title,
         url: entry.link,
-        time: entry.isoDate || entry.pubDate,
+        time: releaseDateFromTitle(entry.title) || entry.isoDate || entry.pubDate,
         category: 'TECH',
         topic: 'OPENCLAW',
         tags: ['TECH', 'OPENCLAW', 'RELEASE'],
