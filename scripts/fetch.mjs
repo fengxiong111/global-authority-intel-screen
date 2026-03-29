@@ -19,6 +19,8 @@ import reddit from './sources/reddit.mjs';
 import nytTopstories from './sources/nyt_topstories.mjs';
 import nytMostpopular from './sources/nyt_mostpopular.mjs';
 import nytBooks from './sources/nyt_books.mjs';
+import bloomberg from './sources/bloomberg.mjs';
+import githubTrending from './sources/github_trending.mjs';
 
 const sources = [
   apple,
@@ -40,6 +42,8 @@ const sources = [
   nytTopstories,
   nytMostpopular,
   nytBooks,
+  bloomberg,
+  githubTrending,
 ];
 
 const results = await Promise.allSettled(sources.map((source) => source()));

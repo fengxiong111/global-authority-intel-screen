@@ -103,6 +103,9 @@ export function keywordTopicFromText(value, fallback = '') {
   if (!text) return cleanText(fallback).toUpperCase();
 
   const checks = [
+    ['bitcoin', 'BTC'],
+    ['btc', 'BTC'],
+    ['etf', 'ETF'],
     ['openclaw', 'OPENCLAW'],
     ['onekey', 'ONEKEY'],
     ['openai', 'OPENAI'],

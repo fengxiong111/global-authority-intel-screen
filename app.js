@@ -60,8 +60,15 @@ const BUILDER_SOURCES = new Set([
   'OneKey Blog',
 ]);
 
+function toDate(value) {
+  if (value == null) return null;
+  const date = typeof value === 'number' ? new Date(value * 1000) : new Date(value);
+  return Number.isNaN(date.getTime()) ? null : date;
+}
+
 function formatTime(value) {
-  const date = new Date(value);
+  const date = toDate(value);
+  if (!date) return String(value ?? '');
   return Number.isNaN(date.getTime())
     ? value
     : new Intl.DateTimeFormat('zh-CN', {
@@ -75,8 +82,8 @@ function formatTime(value) {
 }
 
 function formatRelativeTime(value) {
-  const date = new Date(value);
-  if (Number.isNaN(date.getTime())) return '';
+  const date = toDate(value);
+  if (!date) return '';
 
   const diffMs = Date.now() - date.getTime();
   if (diffMs < 0) return '';
@@ -158,7 +165,7 @@ function renderFeed() {
   feedEl.innerHTML = items
     .map((item, index) => `
       <a class="entry ${entryTier(index)}" href="${item.url}" target="_blank" rel="noopener noreferrer">
-        <div class="entry-time">${escapeHtml(formatRelativeTime(item.time))}</div>
+        <div class="entry-time">${escapeHtml(formatRelativeTime(item.timestamp))}</div>
         <h2 class="entry-title">${escapeHtml(item.displayTitle || item.title)}</h2>
       </a>
     `)
@@ -171,7 +178,7 @@ async function loadFeed() {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.items = await response.json();
     const lastModified = response.headers.get('last-modified');
-    lastUpdatedEl.textContent = `更新于 ${formatTime(lastModified || state.items[0]?.time || new Date().toISOString())}`;
+    lastUpdatedEl.textContent = `更新于 ${formatTime(lastModified || state.items[0]?.timestamp || Math.floor(Date.now() / 1000))}`;
   } catch {
     state.items = window.AUTHORITY_INTEL_FALLBACK || [];
     lastUpdatedEl.textContent = '更新于 本地示例数据';

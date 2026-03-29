@@ -425,6 +425,7 @@ function classifySourceLayer(item) {
 
   if (OFFICIAL_SOURCES.has(item.source)) return 'A';
   if (item.source === 'NYT' && (isMajorEvent(item) || ['AI', 'TECH', 'APPLE', 'TESLA'].includes(item.category))) return 'A';
+  if (item.source === 'Bloomberg' && (isMajorEvent(item) || ['AI', 'TECH', 'APPLE', 'TESLA', 'CRYPTO_TOOLS'].includes(item.category))) return 'A';
 
   if (item.source === 'Reddit') return 'B';
   if (item.source === 'NYT') return 'B';
@@ -442,6 +443,14 @@ function computePriority(item, topicIndex, now) {
 
   if (String(item.sourceType).startsWith('nyt-')) {
     score += 20;
+  }
+
+  if (String(item.sourceType).startsWith('bloomberg-')) {
+    score += 20;
+  }
+
+  if (item.sourceType === 'github-trending') {
+    score += 18;
   }
 
   if (item.rank && item.rank <= 10) {
@@ -462,10 +471,27 @@ function computePriority(item, topicIndex, now) {
   return Math.max(0, Math.min(100, Math.round(score)));
 }
 
+function normalizeItemTime(item) {
+  if (item.time) return item.time;
+  const numeric = Number(item.timestamp);
+  if (!Number.isFinite(numeric) || numeric <= 0) return '';
+  return new Date(numeric * 1000).toISOString();
+}
+
+function toValidTimestamp(value, now = new Date()) {
+  const date = new Date(value);
+  const ms = date.getTime();
+  if (!Number.isFinite(ms)) return null;
+  const futureLimit = now.getTime() + 5 * 60 * 1000;
+  const pastLimit = now.getTime() - 30 * 24 * 60 * 60 * 1000;
+  if (ms > futureLimit || ms < pastLimit) return null;
+  return Math.floor(ms / 1000);
+}
+
 function stripInternal(item) {
   return {
     id: item.id,
-    time: item.time,
+    timestamp: item.timestamp,
     source: item.source,
     title: item.title,
     displayTitle: item.displayTitle || '',
@@ -532,8 +558,15 @@ function mergeNearDuplicates(items) {
 export function normalizeFeed(items) {
   const now = new Date();
   const seen = new Map();
+  const canonicalItems = items
+    .filter(Boolean)
+    .map((item) => ({
+      ...item,
+      time: normalizeItemTime(item),
+    }))
+    .filter((item) => item.time);
 
-  for (const item of items.filter(Boolean)) {
+  for (const item of canonicalItems) {
     const key = dedupeKey(item);
     const existing = seen.get(key);
     if (!existing) {
@@ -563,10 +596,12 @@ export function normalizeFeed(items) {
     item.defaultVisible = item.sourceLayer === 'A' && item.priority >= 60 && isQualifiedChineseTitle(item.displayTitle);
     item.tags = uniqueStrings([item.category, item.topic, ...(item.tags || [])], 3);
     item.id = stableId([item.source, item.topic, item.title, item.url, item.mergedCount || 1]);
+    item.timestamp = toValidTimestamp(item.time, now);
     topicCounts.set(item.topic, topicIndex + 1);
   }
 
   return deduped
-    .sort((a, b) => b.priority - a.priority || new Date(b.time) - new Date(a.time))
+    .filter((item) => item.timestamp)
+    .sort((a, b) => b.priority - a.priority || b.timestamp - a.timestamp)
     .map(stripInternal);
 }

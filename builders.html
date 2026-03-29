@@ -116,12 +116,13 @@
     const SIGNAL_TERMS = {
       aiRelease: ['release', '发布', '更新', 'launch', 'launched', 'introducing', 'beta', 'version', 'mini', 'nano', 'opus', 'sonnet', 'bug bounty', 'acquire', 'agent', 'coding agent', 'claude code', 'model spec', 'computer use'],
       appleChange: ['iphone', 'ipad', 'mac', 'macbook', 'airpods', 'watch', 'ios', '应用', '功能', 'feature', 'product', 'm5', 'new app', '数字驾照'],
-      macro: ['war', 'iran', 'middle east', 'ceasefire', 'strike', 'marines', 'etf', 'fund flow', 'market structure', 'regulation', 'regulator', 'judge', 'court', 'pentagon', 'supply chain risk'],
+      macro: ['war', 'iran', 'middle east', 'ceasefire', 'strike', 'marines', 'btc', 'bitcoin', 'etf', 'fund flow', 'market structure', 'regulation', 'regulator', 'judge', 'court', 'pentagon', 'supply chain risk'],
       infra: ['security', 'audit', 'risk', 'breach', 'supply chain', 'chip', 'helium', 'wallet', 'infrastructure'],
       redditInfo: ['发布', '更新', '将发布', '计划支持', '数字驾照', '停止运营', '被 ai 取代', 'ability', 'launch', 'feature', 'apps', 'driver', 'license'],
-      weak: ['podcast', 'share of the week', 'discussion', 'thread', 'hands-on report', 'anyone else', 'on “read”', 'on "read"', 'rumor', 'rumors', '体验', '吐槽', '观点', 'i think', 'why', 'how', 'versus', 'vs.', 'megathread'],
+      weak: ['podcast', 'share of the week', 'discussion', 'thread', 'hands-on report', 'anyone else', 'on “read”', 'on "read"', 'rumor', 'rumors', '体验', '吐槽', '观点', 'i think', 'why', 'how', 'versus', 'vs.', 'megathread', 'marketing', 'sponsored', 'sponsor'],
       charts: ['电影：', '剧集：', '图书：'],
     };
+    const STRONG_SIGNAL_TERMS = ['openclaw', 'apple', 'openai', 'anthropic', 'war', 'iran', 'btc', 'bitcoin', 'etf'];
     const OFFICIAL_SOURCES = new Set([
       'Apple Newsroom',
       'OpenAI News',
@@ -135,6 +136,7 @@
       'PlayStation Blog',
       'Sony Interactive'
     ]);
+    const STRONG_SOURCES = new Set(['NYT', 'Bloomberg', 'Reuters', 'GitHub Trending']);
     const CHART_SOURCES = new Set(['Douban Movie Chart', 'JustWatch Movies', 'JustWatch TV', 'IMDb Movies', 'IMDb TV']);
     const PRIMARY_AI_TOPICS = new Set(['OPENCLAW', 'OPENAI', 'ANTHROPIC', 'CLAUDE', 'CLAUDE_CODE']);
     const GAME_TOPICS = new Set(['GAME', 'NINTENDO', 'SWITCH', 'LEAGUE_OF_LEGENDS', 'PLAYSTATION', 'SONY']);
@@ -223,6 +225,7 @@
       if (isLowValue(item, text)) return -999;
 
       let score = (item.priority || 0) * 0.35;
+      if (includesAny(text, STRONG_SIGNAL_TERMS)) score += 72;
 
       if (isPrimaryAiRelease(item, text)) score += 120;
       if (isAppleChange(item, text)) score += 94;
@@ -234,6 +237,7 @@
 
       if (item.topic === 'APPLE' && OFFICIAL_SOURCES.has(item.source)) score += 18;
       if (OFFICIAL_SOURCES.has(item.source)) score += 22;
+      if (STRONG_SOURCES.has(item.source)) score += 28;
       if (item.sourceLayer === 'A') score += 14;
       if (item.source === 'OpenClaw GitHub') score += 60;
       if (item.source === 'OpenClaw Blog') score -= 48;
@@ -261,7 +265,7 @@
       if (family === 'MACRO_SIGNAL') return 'MACRO';
       if (family === 'CRYPTO_INFRA') return 'CRYPTO';
       if (family === 'APPLE_CHANGE') return 'APPLE';
-      if (family === 'AI_RELEASE') return 'AI';
+      if (family === 'ANTHROPIC_REGULATION' || family.endsWith('_SIGNAL')) return 'AI';
       if (family === 'TESLA_SIGNAL') return 'TESLA';
       return family;
     }
@@ -286,16 +290,25 @@
       return Math.max(minY, Math.min(0, value));
     }
 
+    function validTimestamp(value) {
+      const numeric = Number(value);
+      if (!Number.isFinite(numeric) || numeric <= 0) return null;
+      const now = Math.floor(Date.now() / 1000);
+      if (numeric > now + 300) return null;
+      if (numeric < now - 30 * 24 * 60 * 60) return null;
+      return numeric;
+    }
+
     function buildSignature(items) {
-      return Array.isArray(items) ? items.map(item => `${item.id}::${item.title || ''}::${item.time || ''}`).join('\n') : '';
+      return Array.isArray(items) ? items.map(item => `${item.id}::${item.title || ''}::${item.timestamp || ''}`).join('\n') : '';
     }
 
     function formatRelativeTime(ts) {
-      if (!ts) return '';
-      const date = new Date(ts);
+      const safeTs = validTimestamp(ts);
+      if (!safeTs) return '';
+      const date = new Date(safeTs * 1000);
       if (Number.isNaN(date.getTime())) return '';
       const diff = Date.now() - date.getTime();
-      if (diff < 0 || diff > 1000 * 60 * 60 * 24 * 30) return '';
       const mins = Math.floor(diff / 60000);
       if (mins < 1) return '刚刚';
       if (mins < 60) return `${mins} 分钟前`;
@@ -337,7 +350,7 @@
       headline.textContent = item.displayTitle || item.title || '';
       const meta = document.createElement('div');
       meta.className = 'meta';
-      meta.textContent = formatRelativeTime(item.time);
+      meta.textContent = formatRelativeTime(item.timestamp);
       article.appendChild(headline);
       article.appendChild(meta);
       if (entering && !reduceMotion) {
@@ -369,7 +382,7 @@
           const nextTitle = item.displayTitle || item.title || '';
           if (textEl && textEl.textContent !== nextTitle) textEl.textContent = nextTitle;
           const metaEl = node.querySelector('.meta');
-          if (metaEl) metaEl.textContent = formatRelativeTime(item.time);
+          if (metaEl) metaEl.textContent = formatRelativeTime(item.timestamp);
         }
         fragment.appendChild(node);
       }
@@ -425,10 +438,16 @@
     }
 
     function buildSignalPool(items) {
-      const base = Array.isArray(items) ? items.filter(Boolean) : [];
+      const base = Array.isArray(items)
+        ? items
+          .filter(Boolean)
+          .map((item) => ({ ...item, timestamp: validTimestamp(item.timestamp) }))
+          .filter((item) => item.timestamp)
+        : [];
       const scored = base
         .map((item) => ({ item, signalScore: signalScore(item) }))
-        .sort((a, b) => b.signalScore - a.signalScore || b.item.priority - a.item.priority || new Date(b.item.time) - new Date(a.item.time));
+        .filter((entry) => entry.signalScore >= 60)
+        .sort((a, b) => b.signalScore - a.signalScore || b.item.timestamp - a.item.timestamp);
 
       const thresholds = [150, 120, 95, 78];
 
