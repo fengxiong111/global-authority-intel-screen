@@ -62,7 +62,9 @@ for (let index = 0; index < sources.length; index += 1) {
   }
 }
 
-const existingFeed = await readJson(FEED_PATH, []);
+const existingPayload = await readJson(FEED_PATH, []);
+const existingFeed = Array.isArray(existingPayload) ? existingPayload : (existingPayload.items || []);
+const existingFetchTime = Array.isArray(existingPayload) ? null : Number(existingPayload.fetch_time || 0);
 let feed = normalizeFeed(merged);
 
 for (const sourceName of ['Reddit', 'NYT']) {
@@ -75,10 +77,16 @@ for (const sourceName of ['Reddit', 'NYT']) {
 }
 
 const finalFeed = feed.length > 0 ? feed : existingFeed;
+const finalFetchTime = feed.length > 0
+  ? Math.floor(Date.now() / 1000)
+  : (Number.isFinite(existingFetchTime) && existingFetchTime > 0 ? existingFetchTime : Math.floor(Date.now() / 1000));
 
 if (feed.length === 0 && existingFeed.length > 0) {
   console.warn(`new fetch is empty; keeping previous feed with ${existingFeed.length} items`);
 }
 
-await writeJson(FEED_PATH, finalFeed);
+await writeJson(FEED_PATH, {
+  fetch_time: finalFetchTime,
+  items: finalFeed,
+});
 console.log(`wrote ${finalFeed.length} items -> ${FEED_PATH}`);

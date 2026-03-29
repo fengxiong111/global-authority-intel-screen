@@ -2,6 +2,7 @@ const CATEGORY_ORDER = ['ALL', 'TECH', 'AI', 'GAME', 'APPLE', 'SONY', 'TESLA', '
 
 const state = {
   items: [],
+  fetchTime: null,
   category: 'ALL',
   source: 'ALL',
   hotOnly: true,
@@ -81,11 +82,12 @@ function formatTime(value) {
       }).format(date);
 }
 
-function formatRelativeTime(value) {
+function formatRelativeTime(value, referenceValue = state.fetchTime) {
   const date = toDate(value);
   if (!date) return '';
+  const referenceDate = toDate(referenceValue) || new Date();
 
-  const diffMs = Date.now() - date.getTime();
+  const diffMs = referenceDate.getTime() - date.getTime();
   if (diffMs < 0) return '';
 
   const minutes = Math.floor(diffMs / (1000 * 60));
@@ -96,6 +98,17 @@ function formatRelativeTime(value) {
   if (minutes < 60) return `${minutes} 分钟前`;
   if (hours < 24) return `${hours} 小时前`;
   return `${days} 天前`;
+}
+
+function formatFetchFreshness(referenceValue = state.fetchTime) {
+  const referenceDate = toDate(referenceValue);
+  if (!referenceDate) return '';
+
+  const diffHours = (Date.now() - referenceDate.getTime()) / (1000 * 60 * 60);
+  if (!Number.isFinite(diffHours) || diffHours <= 2) return '';
+
+  const hours = Math.max(2, Math.floor(diffHours));
+  return `${hours} 小时前更新`;
 }
 
 function renderCategoryChips() {
@@ -165,7 +178,7 @@ function renderFeed() {
   feedEl.innerHTML = items
     .map((item, index) => `
       <a class="entry ${entryTier(index)}" href="${item.url}" target="_blank" rel="noopener noreferrer">
-        <div class="entry-time">${escapeHtml(formatRelativeTime(item.timestamp))}</div>
+        <div class="entry-time">${escapeHtml([formatRelativeTime(item.timestamp), formatFetchFreshness()].filter(Boolean).join(' · '))}</div>
         <h2 class="entry-title">${escapeHtml(item.displayTitle || item.title)}</h2>
       </a>
     `)
@@ -176,11 +189,14 @@ async function loadFeed() {
   try {
     const response = await fetch('./data/feed.json', { cache: 'no-store' });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    state.items = await response.json();
+    const payload = await response.json();
+    state.items = Array.isArray(payload) ? payload : (payload.items || []);
+    state.fetchTime = Array.isArray(payload) ? null : payload.fetch_time || null;
     const lastModified = response.headers.get('last-modified');
-    lastUpdatedEl.textContent = `更新于 ${formatTime(lastModified || state.items[0]?.timestamp || Math.floor(Date.now() / 1000))}`;
+    lastUpdatedEl.textContent = `更新于 ${formatTime(state.fetchTime || lastModified || state.items[0]?.timestamp || Math.floor(Date.now() / 1000))}`;
   } catch {
     state.items = window.AUTHORITY_INTEL_FALLBACK || [];
+    state.fetchTime = null;
     lastUpdatedEl.textContent = '更新于 本地示例数据';
     feedStatusEl.hidden = false;
     feedStatusEl.textContent = '当前使用内嵌示例数据，通常是因为 file:// 打开时浏览器拦截了 JSON 请求。';

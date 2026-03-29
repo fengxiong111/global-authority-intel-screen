@@ -112,6 +112,7 @@
     let touchStartY = null;
     let previousFeedIds = [];
     let lastRenderSignature = '';
+    let feedFetchTime = Math.floor(Date.now() / 1000);
 
     const SIGNAL_TERMS = {
       aiRelease: ['release', '发布', '更新', 'launch', 'launched', 'introducing', 'beta', 'version', 'mini', 'nano', 'opus', 'sonnet', 'bug bounty', 'acquire', 'agent', 'coding agent', 'claude code', 'model spec', 'computer use'],
@@ -379,12 +380,21 @@
       return Array.isArray(items) ? items.map(item => `${item.id}::${item.title || ''}::${item.timestamp || ''}`).join('\n') : '';
     }
 
+    function formatFetchFreshness() {
+      const safeTs = validTimestamp(feedFetchTime);
+      if (!safeTs) return '';
+      const diffHours = (Date.now() - safeTs * 1000) / (1000 * 60 * 60);
+      if (!Number.isFinite(diffHours) || diffHours <= 2) return '';
+      return `${Math.max(2, Math.floor(diffHours))} 小时前更新`;
+    }
+
     function formatRelativeTime(ts) {
       const safeTs = validTimestamp(ts);
       if (!safeTs) return '';
       const date = new Date(safeTs * 1000);
       if (Number.isNaN(date.getTime())) return '';
-      const diff = Date.now() - date.getTime();
+      const referenceTs = validTimestamp(feedFetchTime) ?? Math.floor(Date.now() / 1000);
+      const diff = referenceTs * 1000 - date.getTime();
       const mins = Math.floor(diff / 60000);
       if (mins < 1) return '刚刚';
       if (mins < 60) return `${mins} 分钟前`;
@@ -426,7 +436,7 @@
       headline.textContent = item.displayTitle || item.title || '';
       const meta = document.createElement('div');
       meta.className = 'meta';
-      meta.textContent = formatRelativeTime(item.timestamp);
+      meta.textContent = [formatRelativeTime(item.timestamp), formatFetchFreshness()].filter(Boolean).join(' · ');
       article.appendChild(headline);
       article.appendChild(meta);
       if (entering && !reduceMotion) {
@@ -458,7 +468,7 @@
           const nextTitle = item.displayTitle || item.title || '';
           if (textEl && textEl.textContent !== nextTitle) textEl.textContent = nextTitle;
           const metaEl = node.querySelector('.meta');
-          if (metaEl) metaEl.textContent = formatRelativeTime(item.timestamp);
+          if (metaEl) metaEl.textContent = [formatRelativeTime(item.timestamp), formatFetchFreshness()].filter(Boolean).join(' · ');
         }
         fragment.appendChild(node);
       }
@@ -546,7 +556,11 @@
       try {
         const res = await fetch(`./data/feed.json?t=${Date.now()}`, { cache: 'no-store' });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const data = await res.json();
+        const payload = await res.json();
+        const data = Array.isArray(payload) ? payload : (payload.items || []);
+        if (!Array.isArray(payload) && payload.fetch_time) {
+          feedFetchTime = payload.fetch_time;
+        }
         render(buildSignalPool(data));
       } catch {
         feedEl.innerHTML = '<div class="empty">真实 feed 暂不可用</div>';
