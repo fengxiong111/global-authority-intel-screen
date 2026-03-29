@@ -13,6 +13,7 @@ const sourceFilterEl = document.getElementById('source-filter');
 const hotOnlyEl = document.getElementById('hot-only');
 const feedEl = document.getElementById('feed');
 const emptyStateEl = document.getElementById('empty-state');
+const pageUpdatedEl = document.getElementById('page-updated');
 const lastUpdatedEl = document.getElementById('last-updated');
 const feedStatusEl = document.getElementById('feed-status');
 const topbarEl = document.getElementById('topbar');
@@ -86,21 +87,14 @@ function formatTime(value) {
       }).format(date);
 }
 
-function formatRelativeTime(value) {
+function formatPageTime(value) {
   const date = toDate(value);
   if (!date) return '';
-
-  const diffMs = Date.now() - date.getTime();
-  if (diffMs < 0) return '';
-
-  const minutes = Math.floor(diffMs / (1000 * 60));
-  const hours = Math.floor(diffMs / (1000 * 60 * 60));
-  const days = Math.floor(diffMs / (1000 * 60 * 60 * 24));
-
-  if (minutes < 2) return '刚刚';
-  if (minutes < 60) return `${minutes} 分钟前`;
-  if (hours < 24) return `${hours} 小时前`;
-  return `${days} 天前`;
+  return new Intl.DateTimeFormat('zh-CN', {
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false,
+  }).format(date);
 }
 
 function renderCategoryChips() {
@@ -170,7 +164,6 @@ function renderFeed() {
   feedEl.innerHTML = items
     .map((item, index) => `
       <a class="entry ${entryTier(index)}" href="${item.url}" target="_blank" rel="noopener noreferrer">
-        <div class="entry-time">${escapeHtml(formatRelativeTime(itemTimeValue(item)))}</div>
         <h2 class="entry-title">${escapeHtml(item.displayTitle || item.title)}</h2>
       </a>
     `)
@@ -186,10 +179,16 @@ async function loadFeed() {
     state.fetchTime = Array.isArray(payload) ? null : payload.fetch_time || null;
     const lastModified = response.headers.get('last-modified');
     lastUpdatedEl.textContent = `更新于 ${formatTime(state.fetchTime || lastModified || itemTimeValue(state.items[0]) || Math.floor(Date.now() / 1000))}`;
+    if (pageUpdatedEl) {
+      pageUpdatedEl.textContent = `本页更新于 ${formatPageTime(state.fetchTime || lastModified || Math.floor(Date.now() / 1000))}`;
+    }
   } catch {
     state.items = window.AUTHORITY_INTEL_FALLBACK || [];
     state.fetchTime = null;
     lastUpdatedEl.textContent = '更新于 本地示例数据';
+    if (pageUpdatedEl) {
+      pageUpdatedEl.textContent = '本页更新于 本地示例';
+    }
     feedStatusEl.hidden = false;
     feedStatusEl.textContent = '当前使用内嵌示例数据，通常是因为 file:// 打开时浏览器拦截了 JSON 请求。';
   }

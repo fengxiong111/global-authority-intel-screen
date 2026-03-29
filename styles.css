@@ -22,6 +22,13 @@ body {
   padding: 8px 16px 56px;
 }
 
+.page-updated {
+  padding: 6px 0 10px;
+  color: rgba(243, 244, 246, 0.34);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+}
+
 .topbar { padding: 8px 0 20px; }
 .eyebrow {
   margin: 0 0 8px;
@@ -114,12 +121,6 @@ select {
   border-bottom: 1px solid var(--line);
 }
 .entry:hover .entry-title { color: #ffffff; }
-.entry-time {
-  color: rgba(243, 244, 246, 0.18);
-  font-size: 9px;
-  letter-spacing: 0.03em;
-  margin-bottom: 12px;
-}
 .entry-title {
   margin: 0;
   font-size: clamp(20px, 3.2vw, 34px);
@@ -138,7 +139,6 @@ select {
   padding-top: 18px;
   padding-bottom: 40px;
 }
-.entry.tier-hero .entry-time { margin-bottom: 12px; }
 .entry.tier-hero .entry-title {
   font-size: clamp(46px, 9vw, 96px);
   line-height: 0.98;
@@ -235,12 +235,6 @@ select {
   color: rgba(243, 244, 246, 0.72);
   font-weight: 580;
 }
-.entry.tier-flow .entry-time {
-  margin-bottom: 6px;
-  color: rgba(243, 244, 246, 0.14);
-  font-size: 8px;
-}
-
 @media (min-width: 768px) {
   .shell { padding-left: 24px; padding-right: 24px; }
   .entry { padding-top: 24px; padding-bottom: 26px; }
@@ -261,7 +255,6 @@ select {
 @media (max-width: 640px) {
   .topbar h1 { max-width: 10ch; }
   .entry-title { max-width: 100%; }
-  .entry-time { min-width: 0; }
   .controls { padding-top: 4px; }
   .toolbar { opacity: 0.64; }
 }

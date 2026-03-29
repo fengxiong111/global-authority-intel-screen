@@ -19,6 +19,7 @@
     .mobile .viewport{position:relative;inset:auto;overflow:visible;min-height:100vh}
     .mobile .scroll-layer{will-change:auto;transform:none !important}
     .app{width:min(100vw,2620px);margin:0 auto;padding:34px 104px 42px}
+    .page-updated{padding:2px 0 10px;color:rgba(247,247,242,.34);font-size:11px;letter-spacing:.04em}
     .feed{padding-top:0}
     .item{padding:16px 0 18px;border-bottom:1px solid transparent;transform-origin:center center;opacity:1;transform:translate3d(0,0,0) scale(1)}
     .item + .item{margin-top:2px}
@@ -30,10 +31,6 @@
     .item:first-child .headline{max-width:22.2ch;font-size:clamp(39px,4.16vw,72px);line-height:1.12;font-weight:600;letter-spacing:-.022em;color:rgba(247,247,242,.958);text-wrap:balance}
     .item:nth-child(n+2):nth-child(-n+6) .headline{max-width:24.8ch;font-size:clamp(29px,3.16vw,52px);line-height:1.18;font-weight:520;color:rgba(247,247,242,.84);letter-spacing:-.017em;text-wrap:pretty}
     .item:nth-child(n+7) .headline{max-width:25.1ch;font-size:clamp(26px,3vw,48px);line-height:1.2;font-weight:505;color:rgba(247,247,242,.79);text-wrap:pretty}
-    .item:nth-child(n+7) .meta{color:rgba(247,247,242,.38)}
-    .meta{margin-top:8px;font-size:clamp(12px,1.02vw,14px);line-height:1.22;font-weight:475;letter-spacing:.012em;color:rgba(247,247,242,.48)}
-    .item:first-child .meta{color:rgba(247,247,242,.5)}
-    .item:nth-child(n+2):nth-child(-n+6) .meta{color:rgba(247,247,242,.46)}
     .empty{padding:48px 0;color:#777;font-size:24px}
     .mask{position:fixed;left:0;right:0;height:12vh;pointer-events:none;z-index:5}
     .mask-bottom{bottom:0;background:linear-gradient(0deg,rgba(2,2,2,.36) 0%,rgba(2,2,2,.18) 34%,rgba(2,2,2,.08) 64%,rgba(2,2,2,0) 100%)}
@@ -51,10 +48,7 @@
       .item:first-child .headline{max-width:24.1ch;font-size:clamp(34px,3.96vw,50px);line-height:1.12;font-weight:584;color:rgba(247,247,242,.95)}
       .item:nth-child(n+2):nth-child(-n+6) .headline{max-width:25.1ch;font-size:clamp(27px,3.04vw,37px);line-height:1.175;font-weight:515;color:rgba(247,247,242,.845)}
       .item:nth-child(n+7) .headline{max-width:25.3ch;font-size:clamp(24px,2.8vw,33px);line-height:1.19;font-weight:500;color:rgba(247,247,242,.8)}
-      .meta{margin-top:7px;font-size:13px;line-height:1.22;font-weight:478;color:rgba(247,247,242,.5)}
-      .item:first-child .meta{color:rgba(247,247,242,.52)}
-      .item:nth-child(n+2):nth-child(-n+6) .meta{color:rgba(247,247,242,.47)}
-      .item:nth-child(n+7) .meta{color:rgba(247,247,242,.41)}
+      .page-updated{padding-bottom:8px;font-size:11px}
     }
     @media (pointer: coarse) and (min-width: 820px) and (orientation: portrait){
       .app{padding:18px 44px 32px}
@@ -66,10 +60,7 @@
       .item:first-child .headline{max-width:22.4ch;font-size:clamp(32px,4.26vw,47px);line-height:1.125;font-weight:580;color:rgba(247,247,242,.945)}
       .item:nth-child(n+2):nth-child(-n+6) .headline{max-width:24.3ch;font-size:clamp(26px,3.38vw,36px);line-height:1.18;font-weight:515;color:rgba(247,247,242,.845)}
       .item:nth-child(n+7) .headline{max-width:24.3ch;font-size:clamp(23px,3.1vw,32px);line-height:1.195;font-weight:500;color:rgba(247,247,242,.8)}
-      .meta{margin-top:7px;font-size:13px;line-height:1.22;font-weight:478;color:rgba(247,247,242,.5)}
-      .item:first-child .meta{color:rgba(247,247,242,.52)}
-      .item:nth-child(n+2):nth-child(-n+6) .meta{color:rgba(247,247,242,.47)}
-      .item:nth-child(n+7) .meta{color:rgba(247,247,242,.41)}
+      .page-updated{padding-bottom:8px;font-size:11px}
     }
     @media (max-width: 900px){
       .app{padding:12px 26px 28px}
@@ -81,7 +72,7 @@
       .item:first-child .headline{max-width:100%;font-size:clamp(31px,8.1vw,49px);line-height:1.1;font-weight:600}
       .item:nth-child(n+2):nth-child(-n+6) .headline{max-width:100%;font-size:clamp(25px,6.78vw,40px);line-height:1.17;font-weight:520;color:rgba(247,247,242,.84)}
       .item:nth-child(n+7) .headline{max-width:100%;font-size:clamp(22px,6.32vw,36px);line-height:1.19;font-weight:500;color:rgba(247,247,242,.79)}
-      .meta{margin-top:6px;font-size:12px;color:rgba(247,247,242,.44)}
+      .page-updated{padding-bottom:8px;font-size:11px}
       .mask{height:8vh}
     }
     @media (prefers-reduced-motion: reduce){
@@ -94,6 +85,7 @@
     <div class="mask mask-bottom"></div>
     <div class="scroll-layer" id="scrollLayer">
       <div class="app">
+        <div class="page-updated" id="pageUpdated">本页更新于 载入中…</div>
         <main class="feed" id="feed"></main>
       </div>
     </div>
@@ -101,6 +93,7 @@
 
   <script>
     const feedEl = document.getElementById('feed');
+    const pageUpdatedEl = document.getElementById('pageUpdated');
     const viewportEl = document.getElementById('viewport');
     const scrollLayerEl = document.getElementById('scrollLayer');
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -385,19 +378,15 @@
       return Array.isArray(items) ? items.map(item => `${item.id}::${item.title || ''}::${item.published_at || ''}::${item.fetched_at || ''}`).join('\n') : '';
     }
 
-    function formatRelativeTime(ts) {
+    function formatPageTime(ts) {
       const safeTs = validTimestamp(ts);
       if (!safeTs) return '';
       const date = new Date(safeTs * 1000);
-      if (Number.isNaN(date.getTime())) return '';
-      const diff = Date.now() - date.getTime();
-      const mins = Math.floor(diff / 60000);
-      if (mins < 1) return '刚刚';
-      if (mins < 60) return `${mins} 分钟前`;
-      const hours = Math.floor(mins / 60);
-      if (hours < 24) return `${hours} 小时前`;
-      const days = Math.floor(hours / 24);
-      return days <= 30 ? `${days} 天前` : '';
+      return new Intl.DateTimeFormat('zh-CN', {
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false,
+      }).format(date);
     }
 
     function updateVisuals() {
@@ -430,11 +419,7 @@
       const headline = document.createElement('div');
       headline.className = 'headline';
       headline.textContent = item.displayTitle || item.title || '';
-      const meta = document.createElement('div');
-      meta.className = 'meta';
-      meta.textContent = formatRelativeTime(itemTimeValue(item));
       article.appendChild(headline);
-      article.appendChild(meta);
       if (entering && !reduceMotion) {
         article.classList.add('entering');
         requestAnimationFrame(() => article.classList.remove('entering'));
@@ -463,8 +448,6 @@
           const textEl = node.querySelector('.headline');
           const nextTitle = item.displayTitle || item.title || '';
           if (textEl && textEl.textContent !== nextTitle) textEl.textContent = nextTitle;
-          const metaEl = node.querySelector('.meta');
-          if (metaEl) metaEl.textContent = formatRelativeTime(itemTimeValue(item));
         }
         fragment.appendChild(node);
       }
@@ -557,8 +540,14 @@
         if (!Array.isArray(payload) && payload.fetch_time) {
           feedFetchTime = payload.fetch_time;
         }
+        if (pageUpdatedEl) {
+          pageUpdatedEl.textContent = `本页更新于 ${formatPageTime(feedFetchTime) || '载入中…'}`;
+        }
         render(buildSignalPool(data));
       } catch {
+        if (pageUpdatedEl) {
+          pageUpdatedEl.textContent = '本页更新于 本地示例';
+        }
         feedEl.innerHTML = '<div class="empty">真实 feed 暂不可用</div>';
       }
     }
