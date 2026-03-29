@@ -1,55 +1,31 @@
 {
-  "fetch_time": 1774778386,
+  "fetch_time": 1774778704,
   "items": [
     {
-      "id": "bb53d7b50ff42099",
+      "id": "fa06b8f9ade60a0f",
       "source": "GitHub Trending",
-      "title": "GitHub 热门：obra/superpowers",
-      "displayTitle": "",
+      "title": "GitHub 热门工具：superpowers",
+      "displayTitle": "GitHub 热门工具：superpowers",
       "summary": "An agentic skills framework & software development methodology that works.",
-      "published_at": "2026-03-29T09:59:45.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
-      "priority": 100,
+      "priority": 96,
       "url": "https://github.com/obra/superpowers",
       "hot": true,
       "tags": [
         "TECH",
         "GITHUB"
       ],
+      "sourceType": "github_trending",
       "sources": [
         "GitHub Trending"
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
-    },
-    {
-      "id": "ce130f79a35cdab4",
-      "source": "GitHub Trending",
-      "title": "GitHub 热门：SakanaAI/AI-Scientist-v2",
-      "displayTitle": "",
-      "summary": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
-      "published_at": "2026-03-29T09:59:45.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "published_at",
-      "category": "TECH",
-      "topic": "TECH",
-      "priority": 99,
-      "url": "https://github.com/SakanaAI/AI-Scientist-v2",
-      "hot": true,
-      "tags": [
-        "TECH",
-        "GITHUB"
-      ],
-      "sources": [
-        "GitHub Trending"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": true
     },
     {
       "id": "5745dd0c036793fd",
@@ -58,7 +34,7 @@
       "displayTitle": "亚马逊加码 AI：AWS 与 Anthropic 扩建多吉瓦 Trainium",
       "summary": "Two-and-a-half years ago, we flagged a looming “cloud crisis” at AWS. Today, the evidence has mounted. AWS is the crown jewel of the Amazon empire, generating ~60% of group profits, and dominating the lucrative Cloud Computing market. But it struggles to tran…",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "AI",
       "topic": "ANTHROPIC",
@@ -70,6 +46,7 @@
         "ANTHROPIC",
         "SEMIANALYSIS"
       ],
+      "sourceType": "analysis",
       "sources": [
         "SemiAnalysis"
       ],
@@ -78,38 +55,13 @@
       "defaultVisible": true
     },
     {
-      "id": "5c463e8320288651",
-      "source": "GitHub Trending",
-      "title": "GitHub 热门：virattt/dexter",
-      "displayTitle": "",
-      "summary": "An autonomous agent for deep financial research",
-      "published_at": "2026-03-29T09:59:45.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "published_at",
-      "category": "TECH",
-      "topic": "TECH",
-      "priority": 93,
-      "url": "https://github.com/virattt/dexter",
-      "hot": true,
-      "tags": [
-        "TECH",
-        "GITHUB"
-      ],
-      "sources": [
-        "GitHub Trending"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "A",
-      "defaultVisible": false
-    },
-    {
       "id": "732b57d150e55e1b",
       "source": "Karpathy",
       "title": "2025 LLM Year in Review",
       "displayTitle": "2025 LLM 年度回顾",
       "summary": "2025 has been a strong and eventful year of progress in LLMs. The following is a list of personally notable and mildly surprising \"paradigm changes\" - things that altered the landscape and stood out to me conceptually. 1. Reinforcement Learning from Verifiabl…",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -121,6 +73,7 @@
         "OPENAI",
         "KARPATHY"
       ],
+      "sourceType": "blog",
       "sources": [
         "Karpathy"
       ],
@@ -135,7 +88,7 @@
       "displayTitle": "GPT-5 为广告变现与超级应用铺路",
       "summary": "To many power users (Pro and Plus), GPT5 was a disappointing release. But with closer inspection, the real release is focused on the vast majority of ChatGPT’s users, which is the 700m+ free userbase that is growing rapidly. Power users should be disappointed…",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -147,6 +100,7 @@
         "OPENAI",
         "SEMIANALYSIS"
       ],
+      "sourceType": "analysis",
       "sources": [
         "SemiAnalysis"
       ],
@@ -155,29 +109,109 @@
       "defaultVisible": true
     },
     {
-      "id": "61aa93e1fd5cc14e",
-      "source": "Anthropic Newsroom",
-      "title": "Introducing Claude Sonnet 4.6",
-      "displayTitle": "",
-      "summary": "",
-      "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "fetched_at",
+      "id": "6cb559acc713a08d",
+      "source": "X",
+      "title": "Find, validate, and fix vulnerabilities with Codex Security: https://developers.openai.com/codex/security/",
+      "displayTitle": "Codex Security：查找、验证并修复漏洞",
+      "summary": "Find, validate, and fix vulnerabilities with Codex Security: developers.openai.com/codex/… Rohan Varma (@rohanvarma) Codex Security is still free FYI - check it out during this preview period! https://nitter.net/rohanvarma/status/2038001123894943877#m",
+      "published_at": "2026-03-29T01:32:04.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
       "category": "AI",
-      "topic": "CLAUDE",
-      "priority": 90,
-      "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+      "topic": "OPENAI",
+      "priority": 91,
+      "url": "https://x.com/OpenAIDevs/status/2038066627842043963",
       "hot": true,
       "tags": [
         "AI",
-        "CLAUDE",
-        "PRODUCT"
+        "OPENAI",
+        "X"
       ],
+      "sourceType": "x_hot",
       "sources": [
-        "Anthropic Newsroom"
+        "X"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "B",
+      "defaultVisible": false
+    },
+    {
+      "id": "a58faa8f75d363b9",
+      "source": "Tesla IR",
+      "title": "Tesla, Inc. Q4 2025 Financial Results and Q&A Webcast",
+      "displayTitle": "",
+      "summary": "",
+      "published_at": "",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "fetched_at",
+      "category": "TESLA",
+      "topic": "TESLA",
+      "priority": 90,
+      "url": "https://ir.tesla.com/webcast-2026-01-28",
+      "hot": true,
+      "tags": [
+        "TESLA",
+        "TECH"
+      ],
+      "sourceType": "press",
+      "sources": [
+        "Tesla IR"
+      ],
+      "mergedCount": 2,
+      "sourceLayer": "A",
+      "defaultVisible": false
+    },
+    {
+      "id": "a4582b8819a79ccc",
+      "source": "GitHub Trending",
+      "title": "GitHub 热门工具：AI-Scientist-v2",
+      "displayTitle": "",
+      "summary": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "TECH",
+      "topic": "TECH",
+      "priority": 89,
+      "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+      "hot": true,
+      "tags": [
+        "TECH",
+        "GITHUB"
+      ],
+      "sourceType": "github_trending",
+      "sources": [
+        "GitHub Trending"
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
+      "defaultVisible": false
+    },
+    {
+      "id": "51d988095e0455da",
+      "source": "X",
+      "title": "BREAKING: DHS shutdown now the longest government shutdown in U.S. history. There is now a 57% chance it extends past the end of April. https://polymarket.com/event/when-will-the-dhs-shutdown-end-521?via=x-afr2",
+      "displayTitle": "",
+      "summary": "BREAKING: DHS shutdown now the longest government shutdown in U.S. history. polymarket.com/event/when-wi…",
+      "published_at": "2026-03-29T04:18:20.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "CRYPTO_TOOLS",
+      "topic": "BTC",
+      "priority": 89,
+      "url": "https://x.com/Polymarket/status/2038108470784778436",
+      "hot": true,
+      "tags": [
+        "CRYPTO_TOOLS",
+        "BTC",
+        "X"
+      ],
+      "sourceType": "x_hot",
+      "sources": [
+        "X"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "B",
       "defaultVisible": false
     },
     {
@@ -187,7 +221,7 @@
       "displayTitle": "",
       "summary": "TLDR: https://karpathy.ai/hncapsule/ Yesterday I stumbled on this HN thread Show HN: Gemini Pro 3 hallucinates the HN front page 10 years from now, where Gemini 3 was hallucinating the frontpage of 10 years from now. One of the comments struck me a bit more t…",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -199,6 +233,7 @@
         "OPENAI",
         "KARPATHY"
       ],
+      "sourceType": "blog",
       "sources": [
         "Karpathy"
       ],
@@ -213,7 +248,7 @@
       "displayTitle": "",
       "summary": "An Iranian missile strike on a base in Saudi Arabia damaged several military jets and destroyed a valuable E-3 Sentry early warning and control aircraft — the first known combat loss for that type.",
       "published_at": "2026-03-29T09:28:35.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -224,6 +259,7 @@
         "TECH",
         "BLOOMBERG"
       ],
+      "sourceType": "bloomberg-politics",
       "sources": [
         "Bloomberg"
       ],
@@ -238,7 +274,7 @@
       "displayTitle": "",
       "summary": "Lenders in India are urging the central bank to relax tighter rules for foreign-exchange transactions, which came as bets that could exert strain on the rupee climbed to at least $30 billion, according to people familiar with the developments.",
       "published_at": "2026-03-29T09:11:04.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -249,8 +285,62 @@
         "TECH",
         "BLOOMBERG"
       ],
+      "sourceType": "bloomberg-markets",
       "sources": [
         "Bloomberg"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "A",
+      "defaultVisible": false
+    },
+    {
+      "id": "61aa93e1fd5cc14e",
+      "source": "Anthropic Newsroom",
+      "title": "Introducing Claude Sonnet 4.6",
+      "displayTitle": "",
+      "summary": "",
+      "published_at": "",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "fetched_at",
+      "category": "AI",
+      "topic": "CLAUDE",
+      "priority": 86,
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+      "hot": true,
+      "tags": [
+        "AI",
+        "CLAUDE",
+        "PRODUCT"
+      ],
+      "sourceType": "product",
+      "sources": [
+        "Anthropic Newsroom"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "A",
+      "defaultVisible": false
+    },
+    {
+      "id": "9cd407e132826e28",
+      "source": "Tesla IR",
+      "title": "Tesla Releases Fourth Quarter and Full Year 2025 Financial Results",
+      "displayTitle": "",
+      "summary": "",
+      "published_at": "",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "fetched_at",
+      "category": "TESLA",
+      "topic": "TESLA",
+      "priority": 86,
+      "url": "https://ir.tesla.com/press-release/tesla-releases-fourth-quarter-and-full-year-2025-financial-results",
+      "hot": true,
+      "tags": [
+        "TESLA",
+        "TECH"
+      ],
+      "sourceType": "press",
+      "sources": [
+        "Tesla IR"
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
@@ -263,7 +353,7 @@
       "displayTitle": "",
       "summary": "Attacks in the Middle East conflict extended into a fifth week Sunday, with Israel striking Tehran and Saudi Arabia intercepting almost a dozen drones, a day after Yemen-based Houthi militants entered the war.",
       "published_at": "2026-03-29T07:45:27.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -274,6 +364,7 @@
         "TECH",
         "BLOOMBERG"
       ],
+      "sourceType": "bloomberg-markets",
       "sources": [
         "Bloomberg"
       ],
@@ -288,7 +379,7 @@
       "displayTitle": "",
       "summary": "Russia’s Ust-Luga port sustained fresh damage from a Ukrainian drone attack, as Kyiv steps up strikes on Russian oil export infrastructure.",
       "published_at": "2026-03-29T04:17:13.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -299,11 +390,39 @@
         "TECH",
         "BLOOMBERG"
       ],
+      "sourceType": "bloomberg-politics",
       "sources": [
         "Bloomberg"
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
+      "defaultVisible": false
+    },
+    {
+      "id": "7b3ac74648d2ac8e",
+      "source": "Hacker News",
+      "title": "Further human + AI + proof assistant work on Knuth's \"Claude Cycles\" problem",
+      "displayTitle": "Claude Cycles 难题出现人类+AI+证明器新进展",
+      "summary": "HN • 207 points • 135 comments",
+      "published_at": "2026-03-29T10:05:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "AI",
+      "topic": "CLAUDE",
+      "priority": 85,
+      "url": "https://twitter.com/BoWang87/status/2037648937453232504",
+      "hot": true,
+      "tags": [
+        "AI",
+        "CLAUDE",
+        "HN"
+      ],
+      "sourceType": "community_hot",
+      "sources": [
+        "Hacker News"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "B",
       "defaultVisible": false
     },
     {
@@ -313,7 +432,7 @@
       "displayTitle": "",
       "summary": "Beijing summoned the US’s top envoy to Hong Kong after the consulate posted an alert about new rules giving authorities power to demand passwords for smartphones or other devices in national security investigations.",
       "published_at": "2026-03-29T07:02:38.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -324,6 +443,7 @@
         "TECH",
         "BLOOMBERG"
       ],
+      "sourceType": "bloomberg-markets",
       "sources": [
         "Bloomberg"
       ],
@@ -338,7 +458,7 @@
       "displayTitle": "",
       "summary": "The Department of Homeland Security has probed whether Bitmain's popular mining machines could be exploited for espionage or endanger the U.S. grid.",
       "published_at": "2026-03-28T21:15:49.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "CRYPTO_TOOLS",
@@ -350,6 +470,7 @@
         "CRYPTO_TOOLS",
         "THE BLOCK"
       ],
+      "sourceType": "crypto-media",
       "sources": [
         "The Block"
       ],
@@ -364,7 +485,7 @@
       "displayTitle": "",
       "summary": "Two Middle Eastern aluminum producers were hit by Iranian attacks on Saturday, highlighting the challenge to the global economy as the war disrupts vital industries.",
       "published_at": "2026-03-28T14:08:25.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -375,6 +496,7 @@
         "TECH",
         "BLOOMBERG"
       ],
+      "sourceType": "bloomberg-tech",
       "sources": [
         "Bloomberg"
       ],
@@ -389,7 +511,7 @@
       "displayTitle": "",
       "summary": "A leadership dispute within Lopez Inc., one of the Philippines’ biggest conglomerates, led to the ouster of its president over what he said was a disagreement over a 2-billion peso ($33 million) capital infusion for media unit ABS-CBN Corp.",
       "published_at": "2026-03-29T06:01:55.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -400,6 +522,7 @@
         "TECH",
         "BLOOMBERG"
       ],
+      "sourceType": "bloomberg-markets",
       "sources": [
         "Bloomberg"
       ],
@@ -411,10 +534,10 @@
       "id": "f38c0e207d7098d9",
       "source": "Bloomberg",
       "title": "Iran-Backed Houthis Join War as More US Troops Reach Region",
-      "displayTitle": "胡塞武装卷入战事，美军增兵中东",
+      "displayTitle": "中东局势升级：美军继续增兵",
       "summary": "Houthi militants launched ballistic missiles at Israel on Saturday morning, marking their entry into the month-long Iran war that has already caused chaos in energy markets and killed thousands of people.",
       "published_at": "2026-03-28T17:17:25.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -425,6 +548,7 @@
         "TECH",
         "BLOOMBERG"
       ],
+      "sourceType": "bloomberg-politics",
       "sources": [
         "Bloomberg"
       ],
@@ -439,7 +563,7 @@
       "displayTitle": "",
       "summary": "Ukrainian President Volodymyr Zelenskiy said he’s using a Middle East trip to lock in lucrative long-term agreements on military cooperation and seek secure fuel supplies.",
       "published_at": "2026-03-28T14:15:14.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -450,6 +574,7 @@
         "TECH",
         "BLOOMBERG"
       ],
+      "sourceType": "bloomberg-tech",
       "sources": [
         "Bloomberg"
       ],
@@ -458,50 +583,25 @@
       "defaultVisible": false
     },
     {
-      "id": "51d988095e0455da",
+      "id": "0ee110acb8e17dde",
       "source": "X",
-      "title": "BREAKING: DHS shutdown now the longest government shutdown in U.S. history. There is now a 57% chance it extends past the end of April. https://polymarket.com/event/when-will-the-dhs-shutdown-end-521?via=x-afr2",
+      "title": "22% chance the AI bubble bursts this year. https://polymarket.com/event/ai-bubble-burst-by?via=x-afr2",
       "displayTitle": "",
-      "summary": "BREAKING: DHS shutdown now the longest government shutdown in U.S. history. polymarket.com/event/when-wi…",
-      "published_at": "2026-03-29T04:18:20.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "summary": "22% chance the AI bubble bursts this year. polymarket.com/event/ai-bubb…",
+      "published_at": "2026-03-29T00:18:54.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "BTC",
       "priority": 83,
-      "url": "https://x.com/Polymarket/status/2038108470784778436",
+      "url": "https://x.com/Polymarket/status/2038048215770018264",
       "hot": true,
       "tags": [
         "CRYPTO_TOOLS",
         "BTC",
         "X"
       ],
-      "sources": [
-        "X"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "B",
-      "defaultVisible": false
-    },
-    {
-      "id": "6cb559acc713a08d",
-      "source": "X",
-      "title": "Find, validate, and fix vulnerabilities with Codex Security: https://developers.openai.com/codex/security/",
-      "displayTitle": "Codex Security：查找、验证并修复漏洞",
-      "summary": "Find, validate, and fix vulnerabilities with Codex Security: developers.openai.com/codex/… Rohan Varma (@rohanvarma) Codex Security is still free FYI - check it out during this preview period! https://nitter.net/rohanvarma/status/2038001123894943877#m",
-      "published_at": "2026-03-29T01:32:04.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "published_at",
-      "category": "AI",
-      "topic": "OPENAI",
-      "priority": 83,
-      "url": "https://x.com/OpenAIDevs/status/2038066627842043963",
-      "hot": true,
-      "tags": [
-        "AI",
-        "OPENAI",
-        "X"
-      ],
+      "sourceType": "x_hot",
       "sources": [
         "X"
       ],
@@ -516,7 +616,7 @@
       "displayTitle": "",
       "summary": "As adoption of artificial intelligence in the US outpaces efforts to regulate it, organized labor is providing an important check on how the technology gets used, according to the head of the Hollywood actors’ union.",
       "published_at": "2026-03-28T14:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -527,8 +627,61 @@
         "TECH",
         "BLOOMBERG"
       ],
+      "sourceType": "bloomberg-tech",
       "sources": [
         "Bloomberg"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "A",
+      "defaultVisible": false
+    },
+    {
+      "id": "7293d1d6b4f41461",
+      "source": "GitHub Trending",
+      "title": "GitHub 热门工具：dexter",
+      "displayTitle": "GitHub 热门工具：dexter",
+      "summary": "An autonomous agent for deep financial research",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "TECH",
+      "topic": "TECH",
+      "priority": 82,
+      "url": "https://github.com/virattt/dexter",
+      "hot": true,
+      "tags": [
+        "TECH",
+        "GITHUB"
+      ],
+      "sourceType": "github_trending",
+      "sources": [
+        "GitHub Trending"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "A",
+      "defaultVisible": true
+    },
+    {
+      "id": "b0ca5ffefd945832",
+      "source": "Tesla IR",
+      "title": "Q4 2025 Earnings Consensus",
+      "displayTitle": "",
+      "summary": "",
+      "published_at": "",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "fetched_at",
+      "category": "TESLA",
+      "topic": "TESLA",
+      "priority": 82,
+      "url": "https://ir.tesla.com/press-release/earnings-consensus-fourth-quarter-2025",
+      "hot": true,
+      "tags": [
+        "TESLA",
+        "TECH"
+      ],
+      "sourceType": "press",
+      "sources": [
+        "Tesla IR"
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
@@ -541,7 +694,7 @@
       "displayTitle": "",
       "summary": "At a historic auditorium in Washington this week, Silicon Valley executives, Trump administration officials and members of Congress gathered in a sea of button-down shirts to extol the virtues of artificial intelligence.",
       "published_at": "2026-03-28T13:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -552,33 +705,9 @@
         "TECH",
         "BLOOMBERG"
       ],
+      "sourceType": "bloomberg-tech",
       "sources": [
         "Bloomberg"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "A",
-      "defaultVisible": false
-    },
-    {
-      "id": "688b476e0b2e7716",
-      "source": "GitHub Trending",
-      "title": "GitHub 热门：agentscope-ai/agentscope",
-      "displayTitle": "",
-      "summary": "Build and run agents you can see, understand and trust.",
-      "published_at": "2026-03-29T09:59:45.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "published_at",
-      "category": "TECH",
-      "topic": "TECH",
-      "priority": 81,
-      "url": "https://github.com/agentscope-ai/agentscope",
-      "hot": true,
-      "tags": [
-        "TECH",
-        "GITHUB"
-      ],
-      "sources": [
-        "GitHub Trending"
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
@@ -591,7 +720,7 @@
       "displayTitle": "Kalshi 获批向专业用户提供保证金交易",
       "summary": "Kalshi Inc. has secured a license allowing it to offer margin trading to users, a feature that would make the prediction market platform more appealing to sophisticated institutional investors.",
       "published_at": "2026-03-27T18:33:23.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "BTC",
@@ -603,6 +732,7 @@
         "BTC",
         "BLOOMBERG"
       ],
+      "sourceType": "bloomberg-crypto",
       "sources": [
         "Bloomberg"
       ],
@@ -616,8 +746,8 @@
       "title": "Security Blind Spots of Hardware Wallets: Analyzing the Covert Threat of Supply Chain Attacks",
       "displayTitle": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
       "summary": "",
-      "published_at": "2026-03-29T09:59:46.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "ONEKEY",
@@ -628,6 +758,7 @@
         "CRYPTO_TOOLS",
         "ONEKEY"
       ],
+      "sourceType": "news",
       "sources": [
         "OneKey Blog"
       ],
@@ -642,7 +773,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "SONY",
       "topic": "SONY",
@@ -653,6 +784,7 @@
         "SONY",
         "GAME"
       ],
+      "sourceType": "news",
       "sources": [
         "Sony Interactive"
       ],
@@ -667,7 +799,7 @@
       "displayTitle": "OpenClaw 联手 VirusTotal 强化技能安全",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "TECH",
       "topic": "OPENCLAW",
@@ -679,6 +811,7 @@
         "OPENCLAW",
         "BLOG"
       ],
+      "sourceType": "news",
       "sources": [
         "OpenClaw Blog"
       ],
@@ -687,39 +820,13 @@
       "defaultVisible": true
     },
     {
-      "id": "8188bbbe50b2651e",
-      "source": "Karpathy",
-      "title": "Animals vs Ghosts",
-      "displayTitle": "",
-      "summary": "Finally had a chance to listen through this Dwarkesh pod with Sutton, which was interesting and amusing. As background, Sutton's \"The Bitter Lesson\" has become a bit of biblical text in frontier LLM circles. Researchers routinely talk about and ask whether th…",
-      "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "fetched_at",
-      "category": "AI",
-      "topic": "CLAUDE",
-      "priority": 80,
-      "url": "https://karpathy.bearblog.dev/animals-vs-ghosts/",
-      "hot": true,
-      "tags": [
-        "AI",
-        "CLAUDE",
-        "KARPATHY"
-      ],
-      "sources": [
-        "Karpathy"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "A",
-      "defaultVisible": false
-    },
-    {
       "id": "5d4609ae015d7b6c",
       "source": "Bloomberg",
       "title": "Bitcoin Extends Slide as Options Point Toward Deeper Decline",
-      "displayTitle": "比特币续跌，期权押注更深回撤",
+      "displayTitle": "BTC 期权开始押更深回撤",
       "summary": "Bitcoin fell to its lowest level in more than three weeks as traders turned defensive following the year’s largest options expiry, while investors continued pulling money from crypto exchange-traded funds.",
       "published_at": "2026-03-27T11:43:16.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "BTC",
@@ -731,6 +838,7 @@
         "BTC",
         "BLOOMBERG"
       ],
+      "sourceType": "bloomberg-crypto",
       "sources": [
         "Bloomberg"
       ],
@@ -745,7 +853,7 @@
       "displayTitle": "",
       "summary": "Very often, I sit down at a restaurant, look through their menu, and feel... kind of stuck. What is Pâté again? What is a Tagine? Cavatappi... that's a pasta right? Sweetbread sounds delicious (I have a huge sweet tooth). It can get really out of hand sometim…",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -757,6 +865,7 @@
         "OPENAI",
         "KARPATHY"
       ],
+      "sourceType": "blog",
       "sources": [
         "Karpathy"
       ],
@@ -771,7 +880,7 @@
       "displayTitle": "OpenClaw 正式版更新 2026.3.28",
       "summary": "",
       "published_at": "2026-03-28T00:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "OPENCLAW",
@@ -783,6 +892,7 @@
         "OPENCLAW",
         "RELEASE"
       ],
+      "sourceType": "release",
       "sources": [
         "OpenClaw GitHub"
       ],
@@ -791,29 +901,29 @@
       "defaultVisible": true
     },
     {
-      "id": "0ee110acb8e17dde",
-      "source": "X",
-      "title": "22% chance the AI bubble bursts this year. https://polymarket.com/event/ai-bubble-burst-by?via=x-afr2",
+      "id": "90609b27a63e1e9b",
+      "source": "Tesla IR",
+      "title": "Tesla Fourth Quarter 2025 Production, Deliveries & Deployments",
       "displayTitle": "",
-      "summary": "22% chance the AI bubble bursts this year. polymarket.com/event/ai-bubb…",
-      "published_at": "2026-03-29T00:18:54.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "published_at",
-      "category": "CRYPTO_TOOLS",
-      "topic": "BTC",
+      "summary": "",
+      "published_at": "",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "fetched_at",
+      "category": "TESLA",
+      "topic": "TESLA",
       "priority": 78,
-      "url": "https://x.com/Polymarket/status/2038048215770018264",
+      "url": "https://ir.tesla.com/press-release/tesla-fourth-quarter-2025-production-deliveries-deployments",
       "hot": true,
       "tags": [
-        "CRYPTO_TOOLS",
-        "BTC",
-        "X"
+        "TESLA",
+        "TECH"
       ],
+      "sourceType": "press",
       "sources": [
-        "X"
+        "Tesla IR"
       ],
       "mergedCount": 1,
-      "sourceLayer": "B",
+      "sourceLayer": "A",
       "defaultVisible": false
     },
     {
@@ -823,7 +933,7 @@
       "displayTitle": "",
       "summary": "A Democratic senator has asked the US Commerce Department for information about how it is addressing “potential national security concerns” created by a Chinese Bitcoin mining manufacturer, following a Bloomberg News report in November that the company has be…",
       "published_at": "2026-03-27T16:16:21.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "BTC",
@@ -835,6 +945,7 @@
         "BTC",
         "BLOOMBERG"
       ],
+      "sourceType": "bloomberg-crypto",
       "sources": [
         "Bloomberg"
       ],
@@ -843,39 +954,13 @@
       "defaultVisible": false
     },
     {
-      "id": "2b1e6bdecefe6606",
-      "source": "Anthropic Newsroom",
-      "title": "Introducing Claude Opus 4.6",
-      "displayTitle": "Claude Opus 4.6 发布",
-      "summary": "",
-      "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "fetched_at",
-      "category": "AI",
-      "topic": "CLAUDE",
-      "priority": 76,
-      "url": "https://www.anthropic.com/news/claude-opus-4-6",
-      "hot": true,
-      "tags": [
-        "AI",
-        "CLAUDE",
-        "ANNOUNCEMENTS"
-      ],
-      "sources": [
-        "Anthropic Newsroom"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "A",
-      "defaultVisible": true
-    },
-    {
       "id": "7c86631e67d116bd",
       "source": "Sony Interactive",
       "title": "Celebrating Safer Internet Day 2026",
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "SONY",
       "topic": "SONY",
@@ -886,6 +971,7 @@
         "SONY",
         "GAME"
       ],
+      "sourceType": "news",
       "sources": [
         "Sony Interactive"
       ],
@@ -900,7 +986,7 @@
       "displayTitle": "OpenClaw 正式发布",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "TECH",
       "topic": "OPENCLAW",
@@ -912,6 +998,7 @@
         "OPENCLAW",
         "BLOG"
       ],
+      "sourceType": "news",
       "sources": [
         "OpenClaw Blog"
       ],
@@ -926,7 +1013,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "CRYPTO_TOOLS",
       "topic": "ONEKEY",
@@ -937,6 +1024,7 @@
         "CRYPTO_TOOLS",
         "ONEKEY"
       ],
+      "sourceType": "news",
       "sources": [
         "OneKey Blog"
       ],
@@ -945,30 +1033,57 @@
       "defaultVisible": false
     },
     {
-      "id": "053590b8a5c54775",
-      "source": "Reddit",
-      "title": "Anthropic shares how to make Claude code better with a harness",
+      "id": "8188bbbe50b2651e",
+      "source": "Karpathy",
+      "title": "Animals vs Ghosts",
       "displayTitle": "",
-      "summary": "r/ClaudeAI • 451 points • 68 comments",
-      "published_at": "2026-03-29T02:49:35.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "summary": "Finally had a chance to listen through this Dwarkesh pod with Sutton, which was interesting and amusing. As background, Sutton's \"The Bitter Lesson\" has become a bit of biblical text in frontier LLM circles. Researchers routinely talk about and ask whether th…",
+      "published_at": "",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "fetched_at",
+      "category": "AI",
+      "topic": "CLAUDE",
+      "priority": 76,
+      "url": "https://karpathy.bearblog.dev/animals-vs-ghosts/",
+      "hot": true,
+      "tags": [
+        "AI",
+        "CLAUDE",
+        "KARPATHY"
+      ],
+      "sourceType": "blog",
+      "sources": [
+        "Karpathy"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "A",
+      "defaultVisible": false
+    },
+    {
+      "id": "755d7a2e0c0674d4",
+      "source": "Reddit",
+      "title": "Andrew Curran: Anthropic May Have Had An Architectural Breakthrough!",
+      "displayTitle": "Anthropic 或出现架构级突破",
+      "summary": "r/singularity • 642 points • 219 comments",
+      "published_at": "2026-03-29T01:05:35.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "ANTHROPIC",
       "priority": 76,
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s6jouf/anthropic_shares_how_to_make_claude_code_better/",
+      "url": "https://www.reddit.com/r/singularity/comments/1s6hj0n/andrew_curran_anthropic_may_have_had_an/",
       "hot": true,
       "tags": [
         "AI",
         "ANTHROPIC",
         "REDDIT"
       ],
+      "sourceType": "community_hot",
       "sources": [
-        "Reddit",
-        "X"
+        "Reddit"
       ],
-      "mergedCount": 2,
-      "sourceLayer": "C",
+      "mergedCount": 1,
+      "sourceLayer": "B",
       "defaultVisible": false
     },
     {
@@ -977,8 +1092,8 @@
       "title": "Iran War Live Updates: Israel Strikes Tehran as Regional Diplomats Gather in Pakistan for Talks",
       "displayTitle": "",
       "summary": "Israel said it launched a wave of strikes targeting infrastructure in Tehran and other areas, and Iran retaliated. Officials from Saudi Arabia, Egypt and Turkey were meeting in Pakistan in hopes of finding a way to end the war.",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "NYT",
@@ -989,6 +1104,7 @@
         "TECH",
         "NYT"
       ],
+      "sourceType": "nyt-mostpopular",
       "sources": [
         "NYT"
       ],
@@ -1000,10 +1116,10 @@
       "id": "4bce53c930038fcd",
       "source": "The Block",
       "title": "Morgan Stanley sets spot bitcoin ETF fee at 0.14%, undercutting every rival on the market",
-      "displayTitle": "大摩将现货比特币 ETF 费率定为 0.14%，低于所有对手",
+      "displayTitle": "BTC ETF 价格战打起来了：大摩压到 0.14%",
       "summary": "Bloomberg ETF analyst James Seyffart called the pricing a \"big move\" and predicted that the fund may launch in early April.",
       "published_at": "2026-03-28T17:31:15.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "BTC",
@@ -1015,6 +1131,7 @@
         "BTC",
         "THE BLOCK"
       ],
+      "sourceType": "crypto-media",
       "sources": [
         "The Block"
       ],
@@ -1029,7 +1146,7 @@
       "displayTitle": "OpenClaw 测试版更新 2026.3.28 Beta 1",
       "summary": "",
       "published_at": "2026-03-28T00:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "OPENCLAW",
@@ -1041,6 +1158,7 @@
         "OPENCLAW",
         "RELEASE"
       ],
+      "sourceType": "release",
       "sources": [
         "OpenClaw GitHub"
       ],
@@ -1049,24 +1167,77 @@
       "defaultVisible": true
     },
     {
-      "id": "9d6d379e00951bb1",
-      "source": "Reddit",
-      "title": "[Updates] Patch Notes Version 1.01.00 | Crimson Desert - adds 5 summonable mounts, decreased loading times, some adjustments to controls, and more.",
+      "id": "e89f6c5c71793327",
+      "source": "Tesla IR",
+      "title": "Q4 2025 Update",
       "displayTitle": "",
-      "summary": "r/PS5 • 676 points • 296 comments",
-      "published_at": "2026-03-29T03:12:36.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "summary": "",
+      "published_at": "",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "fetched_at",
+      "category": "TESLA",
+      "topic": "TESLA",
+      "priority": 74,
+      "url": "https://ir.tesla.com/node/2520",
+      "hot": false,
+      "tags": [
+        "TESLA",
+        "TECH"
+      ],
+      "sourceType": "press",
+      "sources": [
+        "Tesla IR"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "A",
+      "defaultVisible": false
+    },
+    {
+      "id": "dfe873714519852a",
+      "source": "Tesla IR",
+      "title": "Q4 2025 Delivery Consensus",
+      "displayTitle": "特斯拉 2025 年 Q4 交付预期",
+      "summary": "",
+      "published_at": "",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "fetched_at",
+      "category": "TESLA",
+      "topic": "TESLA",
+      "priority": 74,
+      "url": "https://ir.tesla.com/press-release/delivery-consensus-fourth-quarter-2025",
+      "hot": false,
+      "tags": [
+        "TESLA",
+        "TECH"
+      ],
+      "sourceType": "press",
+      "sources": [
+        "Tesla IR"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "A",
+      "defaultVisible": true
+    },
+    {
+      "id": "91e85d53aa00baf8",
+      "source": "Reddit",
+      "title": "Keria: I got inspired while watching a G2 match, so I suddenly want to buy a SkewMond jersey",
+      "displayTitle": "",
+      "summary": "r/leagueoflegends • 311 points • 7 comments",
+      "published_at": "2026-03-29T05:41:28.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
-      "topic": "PLAYSTATION",
+      "topic": "LEAGUE_OF_LEGENDS",
       "priority": 74,
-      "url": "https://www.reddit.com/r/PS5/comments/1s6k5k1/updates_patch_notes_version_10100_crimson_desert/",
+      "url": "https://www.reddit.com/r/leagueoflegends/comments/1s6mx5k/keria_i_got_inspired_while_watching_a_g2_match_so/",
       "hot": true,
       "tags": [
         "GAME",
-        "PLAYSTATION",
+        "LEAGUE_OF_LEGENDS",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -1075,30 +1246,31 @@
       "defaultVisible": false
     },
     {
-      "id": "19792c4d5c18181b",
+      "id": "2b1e6bdecefe6606",
       "source": "Anthropic Newsroom",
-      "title": "Claude is a space to think",
-      "displayTitle": "",
+      "title": "Introducing Claude Opus 4.6",
+      "displayTitle": "Claude Opus 4.6 发布",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "AI",
       "topic": "CLAUDE",
       "priority": 72,
-      "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "url": "https://www.anthropic.com/news/claude-opus-4-6",
       "hot": false,
       "tags": [
         "AI",
         "CLAUDE",
         "ANNOUNCEMENTS"
       ],
+      "sourceType": "news",
       "sources": [
         "Anthropic Newsroom"
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": true
     },
     {
       "id": "eb78c71241d994eb",
@@ -1107,7 +1279,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "SONY",
       "topic": "SONY",
@@ -1118,6 +1290,7 @@
         "SONY",
         "GAME"
       ],
+      "sourceType": "news",
       "sources": [
         "Sony Interactive"
       ],
@@ -1132,7 +1305,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "CRYPTO_TOOLS",
       "topic": "ONEKEY",
@@ -1143,6 +1316,7 @@
         "CRYPTO_TOOLS",
         "ONEKEY"
       ],
+      "sourceType": "news",
       "sources": [
         "OneKey Blog"
       ],
@@ -1151,64 +1325,13 @@
       "defaultVisible": false
     },
     {
-      "id": "91e85d53aa00baf8",
-      "source": "Reddit",
-      "title": "Keria: I got inspired while watching a G2 match, so I suddenly want to buy a SkewMond jersey",
-      "displayTitle": "",
-      "summary": "r/leagueoflegends • 274 points • 7 comments",
-      "published_at": "2026-03-29T05:41:28.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "published_at",
-      "category": "GAME",
-      "topic": "LEAGUE_OF_LEGENDS",
-      "priority": 72,
-      "url": "https://www.reddit.com/r/leagueoflegends/comments/1s6mx5k/keria_i_got_inspired_while_watching_a_g2_match_so/",
-      "hot": true,
-      "tags": [
-        "GAME",
-        "LEAGUE_OF_LEGENDS",
-        "REDDIT"
-      ],
-      "sources": [
-        "Reddit"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "C",
-      "defaultVisible": false
-    },
-    {
-      "id": "07498f160253b232",
-      "source": "Reddit",
-      "title": "Just passed by a prototype cyber SUV in Austin I think",
-      "displayTitle": "",
-      "summary": "r/teslamotors • 0 points • 2 comments",
-      "published_at": "2026-03-29T02:19:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "published_at",
-      "category": "TESLA",
-      "topic": "TESLA",
-      "priority": 72,
-      "url": "https://www.reddit.com/r/teslamotors/comments/1s6j2kj/just_passed_by_a_prototype_cyber_suv_in_austin_i/",
-      "hot": true,
-      "tags": [
-        "TESLA",
-        "REDDIT"
-      ],
-      "sources": [
-        "Reddit"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "C",
-      "defaultVisible": false
-    },
-    {
       "id": "7c18d6b994fc5aec",
       "source": "NYT",
       "title": "U.S. 1:08",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "NYT",
@@ -1219,6 +1342,7 @@
         "TECH",
         "NYT"
       ],
+      "sourceType": "nyt-mostpopular",
       "sources": [
         "NYT"
       ],
@@ -1227,13 +1351,39 @@
       "defaultVisible": false
     },
     {
+      "id": "202efe7bb53def54",
+      "source": "GitHub Trending",
+      "title": "GitHub 热门工具：agentscope",
+      "displayTitle": "GitHub 热门工具：agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "TECH",
+      "topic": "TECH",
+      "priority": 71,
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "hot": false,
+      "tags": [
+        "TECH",
+        "GITHUB"
+      ],
+      "sourceType": "github_trending",
+      "sources": [
+        "GitHub Trending"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "A",
+      "defaultVisible": true
+    },
+    {
       "id": "465abb94e756a93f",
       "source": "SemiAnalysis",
       "title": "xAI’s Colossus 2 – First Gigawatt Datacenter In The World, Unique RL Methodology, Capital Raise",
       "displayTitle": "",
       "summary": "Much has been written about xAI’s Colossus 1. The Memphis build belongs in the history books: the largest AI training cluster, erected from scratch in 122 days. With roughly 200,000 H100/H200s and ~30,000 GB200 NVL72, it remains, today, the largest fully oper…",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "TECH",
       "topic": "TECH",
@@ -1244,6 +1394,7 @@
         "TECH",
         "SEMIANALYSIS"
       ],
+      "sourceType": "analysis",
       "sources": [
         "SemiAnalysis"
       ],
@@ -1252,13 +1403,67 @@
       "defaultVisible": false
     },
     {
+      "id": "46b90e76dbc6962f",
+      "source": "Reddit",
+      "title": "On This Day in Nintendo History: Fire Emblem: The Binding Blade; Practice English!",
+      "displayTitle": "",
+      "summary": "r/nintendo • 6 points • 0 comments",
+      "published_at": "2026-03-29T07:01:27.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "GAME",
+      "topic": "NINTENDO",
+      "priority": 71,
+      "url": "https://www.reddit.com/r/nintendo/comments/1s6o8vt/on_this_day_in_nintendo_history_fire_emblem_the/",
+      "hot": false,
+      "tags": [
+        "GAME",
+        "NINTENDO",
+        "REDDIT"
+      ],
+      "sourceType": "reddit",
+      "sources": [
+        "Reddit"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "C",
+      "defaultVisible": false
+    },
+    {
+      "id": "748290a6b3d40ec5",
+      "source": "X",
+      "title": "We're rolling out plugins in Codex. Codex now works seamlessly out of the box with the most important tools builders already use, like @SlackHQ, @Figma, @NotionHQ, @gmail, and more. http://developers.openai.com/codex/plugins",
+      "displayTitle": "Codex 开始推送插件能力",
+      "summary": "We're rolling out plugins in Codex. @SlackHQ, @Figma, @NotionHQ, @gmail, and more. developers.openai.com/codex/… Video",
+      "published_at": "2026-03-26T22:31:07.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "AI",
+      "topic": "OPENAI",
+      "priority": 71,
+      "url": "https://x.com/OpenAI/status/2037296316104282119",
+      "hot": true,
+      "tags": [
+        "AI",
+        "OPENAI",
+        "X"
+      ],
+      "sourceType": "x_hot",
+      "sources": [
+        "X"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "B",
+      "defaultVisible": false
+    },
+    {
       "id": "5e3a79a469c6bad9",
       "source": "NYT",
       "title": "PROJECT HAIL MARY",
       "displayTitle": "",
       "summary": "Combined Print & E-Book Fiction • 41 weeks on the list • by Andy Weir • Ryland Grace awakes from a long sleep alone and far from home, and the fate of humanity rests on his shoulders; the basis of the movie.",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:05:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -1270,6 +1475,7 @@
         "NYT",
         "BESTSELLER"
       ],
+      "sourceType": "chart",
       "sources": [
         "NYT"
       ],
@@ -1284,7 +1490,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "GAME",
       "topic": "RIOT",
@@ -1296,6 +1502,7 @@
         "RIOT",
         "NEWS"
       ],
+      "sourceType": "news",
       "sources": [
         "Riot Games"
       ],
@@ -1310,7 +1517,7 @@
       "displayTitle": "",
       "summary": "Nvidia announced the Rubin CPX, a solution that is specifically designed to be optimized for the prefill phase, with the single-die Rubin CPX heavily emphasizing compute FLOPS over memory bandwidth. This is a game changer for inference, and its significance i…",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "TECH",
       "topic": "TECH",
@@ -1321,6 +1528,7 @@
         "TECH",
         "SEMIANALYSIS"
       ],
+      "sourceType": "analysis",
       "sources": [
         "SemiAnalysis"
       ],
@@ -1335,7 +1543,7 @@
       "displayTitle": "",
       "summary": "Following up on digital hygiene, I wanted to write up my (evolving, opinionated) guide to chemical hygiene. I keep ranting about this topic to all of my friends recently (you can tell I'm really fun at parties), so I thought it would be worth writing it up to…",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "TECH",
       "topic": "TECH",
@@ -1346,6 +1554,7 @@
         "TECH",
         "KARPATHY"
       ],
+      "sourceType": "blog",
       "sources": [
         "Karpathy"
       ],
@@ -1354,24 +1563,25 @@
       "defaultVisible": false
     },
     {
-      "id": "46b90e76dbc6962f",
+      "id": "3457e6d8aa4fa42b",
       "source": "Reddit",
-      "title": "On This Day in Nintendo History: Fire Emblem: The Binding Blade; Practice English!",
+      "title": "Alan Wake Remastered v1.33 adds HDR and upscaler improvements",
       "displayTitle": "",
-      "summary": "r/nintendo • 3 points • 0 comments",
-      "published_at": "2026-03-29T07:01:27.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "summary": "r/PS5 • 0 points • 1 comments",
+      "published_at": "2026-03-29T09:18:11.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
-      "topic": "NINTENDO",
+      "topic": "PLAYSTATION",
       "priority": 70,
-      "url": "https://www.reddit.com/r/nintendo/comments/1s6o8vt/on_this_day_in_nintendo_history_fire_emblem_the/",
+      "url": "https://www.reddit.com/r/PS5/comments/1s6qfgh/alan_wake_remastered_v133_adds_hdr_and_upscaler/",
       "hot": false,
       "tags": [
         "GAME",
-        "NINTENDO",
+        "PLAYSTATION",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -1384,9 +1594,9 @@
       "source": "Reddit",
       "title": "Gaming on Apple's iPhone A18 Pro chip MacBook Neo - Cyber Dopamine",
       "displayTitle": "",
-      "summary": "r/apple • 28 points • 18 comments",
+      "summary": "r/apple • 34 points • 20 comments",
       "published_at": "2026-03-29T05:39:30.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -1397,6 +1607,61 @@
         "APPLE",
         "REDDIT"
       ],
+      "sourceType": "reddit",
+      "sources": [
+        "Reddit"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "C",
+      "defaultVisible": false
+    },
+    {
+      "id": "9d6d379e00951bb1",
+      "source": "Reddit",
+      "title": "[Updates] Patch Notes Version 1.01.00 | Crimson Desert - adds 5 summonable mounts, decreased loading times, some adjustments to controls, and more.",
+      "displayTitle": "",
+      "summary": "r/PS5 • 699 points • 300 comments",
+      "published_at": "2026-03-29T03:12:36.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "GAME",
+      "topic": "PLAYSTATION",
+      "priority": 70,
+      "url": "https://www.reddit.com/r/PS5/comments/1s6k5k1/updates_patch_notes_version_10100_crimson_desert/",
+      "hot": true,
+      "tags": [
+        "GAME",
+        "PLAYSTATION",
+        "REDDIT"
+      ],
+      "sourceType": "reddit",
+      "sources": [
+        "Reddit"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "C",
+      "defaultVisible": false
+    },
+    {
+      "id": "33219c6a54e7fde2",
+      "source": "Reddit",
+      "title": "Anthropic shares how to make Claude code better with a harness",
+      "displayTitle": "",
+      "summary": "r/ClaudeAI • 457 points • 69 comments",
+      "published_at": "2026-03-29T02:49:35.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "AI",
+      "topic": "ANTHROPIC",
+      "priority": 70,
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s6jouf/anthropic_shares_how_to_make_claude_code_better/",
+      "hot": false,
+      "tags": [
+        "AI",
+        "ANTHROPIC",
+        "REDDIT"
+      ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -1409,9 +1674,9 @@
       "source": "Reddit",
       "title": "‘Project Hail Mary’ Author Andy Weir Says Paramount Rejected His ‘Star Trek’ Pitch: Their “Shows Are Sh**”",
       "displayTitle": "",
-      "summary": "r/television • 4570 points • 675 comments",
+      "summary": "r/television • 4620 points • 685 comments",
       "published_at": "2026-03-28T23:51:48.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "TV",
@@ -1422,6 +1687,7 @@
         "TV",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -1434,9 +1700,9 @@
       "source": "Reddit",
       "title": "Switch 2 Rumors: Zelda Remake and Star Fox Lead a Different 2026",
       "displayTitle": "Switch 2 传闻：《塞尔达》重制版与 Star Fox 或领衔 2026",
-      "summary": "r/Switch • 107 points • 47 comments",
+      "summary": "r/Switch • 111 points • 47 comments",
       "published_at": "2026-03-28T23:48:12.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "SWITCH",
@@ -1448,6 +1714,7 @@
         "SWITCH",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -1460,9 +1727,9 @@
       "source": "Reddit",
       "title": "Apple Releasing Two New iPhone Apps This Year",
       "displayTitle": "苹果今年将发布两款新的 iPhone 应用",
-      "summary": "r/apple • 661 points • 99 comments",
+      "summary": "r/apple • 664 points • 99 comments",
       "published_at": "2026-03-28T18:21:02.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -1473,6 +1740,7 @@
         "APPLE",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -1485,9 +1753,9 @@
       "source": "Reddit",
       "title": "Skyrim Still Looks Awesome on Switch 2!",
       "displayTitle": "《上古卷轴 5》在 Switch 2 上依旧很能打",
-      "summary": "r/Switch • 590 points • 67 comments",
+      "summary": "r/Switch • 594 points • 68 comments",
       "published_at": "2026-03-28T15:50:24.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "SWITCH",
@@ -1499,6 +1767,7 @@
         "SWITCH",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -1513,7 +1782,7 @@
       "displayTitle": "",
       "summary": "Frustrations are continuing to boil over in the crypto industry as it finds itself again at an impasse over the treatment of stablecoins.",
       "published_at": "2026-03-27T21:40:39.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "CRYPTO_TOOLS",
@@ -1525,6 +1794,7 @@
         "CRYPTO_TOOLS",
         "THE BLOCK"
       ],
+      "sourceType": "crypto-media",
       "sources": [
         "The Block"
       ],
@@ -1539,7 +1809,7 @@
       "displayTitle": "",
       "summary": "Compute is the lifeblood of AI. He who controls the spice controls the universe the compute will control the production of tokens and reap the benefits of AI. Without compute you do not have a seat at the table. The United States technology community is all i…",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "TECH",
       "topic": "TECH",
@@ -1550,8 +1820,36 @@
         "TECH",
         "SEMIANALYSIS"
       ],
+      "sourceType": "analysis",
       "sources": [
         "SemiAnalysis"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "A",
+      "defaultVisible": false
+    },
+    {
+      "id": "19792c4d5c18181b",
+      "source": "Anthropic Newsroom",
+      "title": "Claude is a space to think",
+      "displayTitle": "",
+      "summary": "",
+      "published_at": "",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "fetched_at",
+      "category": "AI",
+      "topic": "CLAUDE",
+      "priority": 68,
+      "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "hot": false,
+      "tags": [
+        "AI",
+        "CLAUDE",
+        "ANNOUNCEMENTS"
+      ],
+      "sourceType": "news",
+      "sources": [
+        "Anthropic Newsroom"
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
@@ -1564,7 +1862,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "SONY",
       "topic": "SONY",
@@ -1575,6 +1873,7 @@
         "SONY",
         "GAME"
       ],
+      "sourceType": "news",
       "sources": [
         "Sony Interactive"
       ],
@@ -1589,7 +1888,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "CRYPTO_TOOLS",
       "topic": "ONEKEY",
@@ -1600,6 +1899,7 @@
         "CRYPTO_TOOLS",
         "ONEKEY"
       ],
+      "sourceType": "news",
       "sources": [
         "OneKey Blog"
       ],
@@ -1614,7 +1914,7 @@
       "displayTitle": "",
       "summary": "The space of intelligences is large and animal intelligence (the only kind we've ever known) is only a single point (or a little cloud), arising from a very specific kind of optimization that is fundamentally distinct from that of our technology. Above: humor…",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "TECH",
       "topic": "TECH",
@@ -1625,6 +1925,7 @@
         "TECH",
         "KARPATHY"
       ],
+      "sourceType": "blog",
       "sources": [
         "Karpathy"
       ],
@@ -1637,9 +1938,9 @@
       "source": "Reddit",
       "title": "I unironically think Phreak did a pretty good job and ever since he took joined the live team the game has been in one of its most stables states ever, balance-wise",
       "displayTitle": "",
-      "summary": "r/leagueoflegends • 882 points • 142 comments",
+      "summary": "r/leagueoflegends • 911 points • 143 comments",
       "published_at": "2026-03-28T22:39:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "LEAGUE_OF_LEGENDS",
@@ -1651,6 +1952,7 @@
         "LEAGUE_OF_LEGENDS",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -1663,9 +1965,9 @@
       "source": "Reddit",
       "title": "Kingdom Come: Deliverance 2 dev says he was \"fired\" and replaced with AI: \"I feel incredibly betrayed by the management of the company I've come to care about\"",
       "displayTitle": "《天国：拯救 2》开发者称自己被 AI 取代",
-      "summary": "r/PS5 • 1492 points • 280 comments",
+      "summary": "r/PS5 • 1493 points • 282 comments",
       "published_at": "2026-03-28T13:46:58.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "PLAYSTATION",
@@ -1677,6 +1979,7 @@
         "PLAYSTATION",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -1685,13 +1988,40 @@
       "defaultVisible": false
     },
     {
+      "id": "c018c5df07154bd0",
+      "source": "Reddit",
+      "title": "Altman is as evil as Stalin, and OpenAI is worse than cigarette companies - Dario Amodei",
+      "displayTitle": "",
+      "summary": "r/OpenAI • 626 points • 193 comments",
+      "published_at": "2026-03-28T13:06:14.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "AI",
+      "topic": "OPENAI",
+      "priority": 68,
+      "url": "https://www.reddit.com/r/OpenAI/comments/1s5zujd/altman_is_as_evil_as_stalin_and_openai_is_worse/",
+      "hot": true,
+      "tags": [
+        "AI",
+        "OPENAI",
+        "REDDIT"
+      ],
+      "sourceType": "community_hot",
+      "sources": [
+        "Reddit"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "C",
+      "defaultVisible": false
+    },
+    {
       "id": "3aa11c3549a9e9ac",
       "source": "NYT",
       "title": "smarter-living 0:48",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "NYT",
@@ -1702,6 +2032,7 @@
         "TECH",
         "NYT"
       ],
+      "sourceType": "nyt-mostpopular",
       "sources": [
         "NYT"
       ],
@@ -1716,7 +2047,7 @@
       "displayTitle": "",
       "summary": "Frontier model training has pushed GPUs and AI systems to their absolute limits, making cost, efficiency, power, performance per TCO, and reliability central to the discussion on effective training. The Hopper vs Blackwell comparisons are not as simple as Nvi…",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "TECH",
       "topic": "TECH",
@@ -1727,6 +2058,7 @@
         "TECH",
         "SEMIANALYSIS"
       ],
+      "sourceType": "analysis",
       "sources": [
         "SemiAnalysis"
       ],
@@ -1741,7 +2073,7 @@
       "displayTitle": "科技：Verifiability",
       "summary": "AI has been compared to various historical precedents: electricity, industrial revolution, etc., I think the strongest analogy is that of AI as a new computing paradigm because both are fundamentally about the automation of digital information processing. If…",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "TECH",
       "topic": "TECH",
@@ -1752,6 +2084,7 @@
         "TECH",
         "KARPATHY"
       ],
+      "sourceType": "blog",
       "sources": [
         "Karpathy"
       ],
@@ -1760,26 +2093,27 @@
       "defaultVisible": true
     },
     {
-      "id": "6763bfe9706c17cb",
-      "source": "Reddit",
-      "title": "Elder Scrolls mobile spinoff Blades is shutting down this summer after eight years, but at least all its store items are ultra-cheap now",
-      "displayTitle": "《上古卷轴：刀锋》将在今夏停止运营",
-      "summary": "r/nintendo • 20 points • 3 comments",
-      "published_at": "2026-03-28T22:28:28.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "id": "a8315b21cf9e0a15",
+      "source": "X",
+      "title": "Gavin Newsom and Kalshi ban insiders*",
+      "displayTitle": "",
+      "summary": "Gavin Newsom and Kalshi ban insiders* POLITICO (@politico) Gavin Newsom to ban California officials from insider betting on prediction markets dlvr.it/TRkNkL https://nitter.net/politico/status/2037471480225910908#m",
+      "published_at": "2026-03-27T21:30:41.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
-      "category": "GAME",
-      "topic": "NINTENDO",
+      "category": "CRYPTO_TOOLS",
+      "topic": "BTC",
       "priority": 67,
-      "url": "https://www.reddit.com/r/nintendo/comments/1s6e085/elder_scrolls_mobile_spinoff_blades_is_shutting/",
-      "hot": false,
+      "url": "https://x.com/Kalshi/status/2037643494555062707",
+      "hot": true,
       "tags": [
-        "GAME",
-        "NINTENDO",
-        "REDDIT"
+        "CRYPTO_TOOLS",
+        "BTC",
+        "X"
       ],
+      "sourceType": "x_hot",
       "sources": [
-        "Reddit"
+        "X"
       ],
       "mergedCount": 1,
       "sourceLayer": "B",
@@ -1791,8 +2125,8 @@
       "title": "THEO OF GOLDEN",
       "displayTitle": "",
       "summary": "Combined Print & E-Book Fiction • 16 weeks on the list • by Allen Levi • A man travels to a small Southern town, where he purchases pencil drawings of local residents and exchanges them for stories.",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:05:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -1804,6 +2138,7 @@
         "NYT",
         "BESTSELLER"
       ],
+      "sourceType": "chart",
       "sources": [
         "NYT"
       ],
@@ -1818,7 +2153,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "GAME",
       "topic": "RIOT",
@@ -1830,6 +2165,7 @@
         "RIOT",
         "NEWS"
       ],
+      "sourceType": "news",
       "sources": [
         "Riot Games"
       ],
@@ -1842,9 +2178,9 @@
       "source": "Reddit",
       "title": "I can't fathom GenG's inability to win worlds",
       "displayTitle": "",
-      "summary": "r/leagueoflegends • 224 points • 140 comments",
+      "summary": "r/leagueoflegends • 240 points • 142 comments",
       "published_at": "2026-03-29T05:24:01.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "LEAGUE_OF_LEGENDS",
@@ -1856,6 +2192,7 @@
         "LEAGUE_OF_LEGENDS",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -1864,55 +2201,30 @@
       "defaultVisible": false
     },
     {
-      "id": "755d7a2e0c0674d4",
+      "id": "6763bfe9706c17cb",
       "source": "Reddit",
-      "title": "Andrew Curran: Anthropic May Have Had An Architectural Breakthrough!",
-      "displayTitle": "",
-      "summary": "r/singularity • 618 points • 215 comments",
-      "published_at": "2026-03-29T01:05:35.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "published_at",
-      "category": "AI",
-      "topic": "ANTHROPIC",
-      "priority": 66,
-      "url": "https://www.reddit.com/r/singularity/comments/1s6hj0n/andrew_curran_anthropic_may_have_had_an/",
-      "hot": true,
-      "tags": [
-        "AI",
-        "ANTHROPIC",
-        "REDDIT"
-      ],
-      "sources": [
-        "Reddit"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "C",
-      "defaultVisible": false
-    },
-    {
-      "id": "44d71eaf099ad560",
-      "source": "Reddit",
-      "title": "Rebs Gaming: Halo Studios reusing Halo Infinite models and assets for Halo: Campaign Evolved; new campaign mission info",
-      "displayTitle": "",
-      "summary": "r/PS5 • 114 points • 55 comments",
-      "published_at": "2026-03-29T00:15:29.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "title": "Elder Scrolls mobile spinoff Blades is shutting down this summer after eight years, but at least all its store items are ultra-cheap now",
+      "displayTitle": "《上古卷轴：刀锋》将在今夏停止运营",
+      "summary": "r/nintendo • 20 points • 3 comments",
+      "published_at": "2026-03-28T22:28:28.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
-      "topic": "PLAYSTATION",
+      "topic": "NINTENDO",
       "priority": 66,
-      "url": "https://www.reddit.com/r/PS5/comments/1s6gfz2/rebs_gaming_halo_studios_reusing_halo_infinite/",
+      "url": "https://www.reddit.com/r/nintendo/comments/1s6e085/elder_scrolls_mobile_spinoff_blades_is_shutting/",
       "hot": false,
       "tags": [
         "GAME",
-        "PLAYSTATION",
+        "NINTENDO",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
       "mergedCount": 1,
-      "sourceLayer": "C",
+      "sourceLayer": "B",
       "defaultVisible": false
     },
     {
@@ -1920,9 +2232,9 @@
       "source": "Reddit",
       "title": "These U.S. States Plan to Offer iPhone's Driver's License Feature",
       "displayTitle": "更多美国州计划支持 iPhone 数字驾照功能",
-      "summary": "r/apple • 413 points • 127 comments",
+      "summary": "r/apple • 410 points • 127 comments",
       "published_at": "2026-03-28T18:19:04.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -1933,6 +2245,7 @@
         "APPLE",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -1946,8 +2259,8 @@
       "title": "河狸变身计划",
       "displayTitle": "河狸变身计划",
       "summary": "",
-      "published_at": "2026-03-29T09:59:45.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:05:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "DOUBAN",
@@ -1958,6 +2271,7 @@
         "MOVIE",
         "DOUBAN"
       ],
+      "sourceType": "chart",
       "sources": [
         "Douban Movie Chart"
       ],
@@ -1971,8 +2285,8 @@
       "title": "Hamnet",
       "displayTitle": "电影：Hamnet",
       "summary": "",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "JUSTWATCH",
@@ -1983,6 +2297,7 @@
         "MOVIE",
         "JUSTWATCH"
       ],
+      "sourceType": "chart",
       "sources": [
         "JustWatch Movies"
       ],
@@ -1997,7 +2312,7 @@
       "displayTitle": "",
       "summary": "The first portion of this report will explain HBM, the manufacturing process, dynamics between vendors, KVCache offload, disaggregated prefill decode, and wide / high-rank EP. The rest of the report will dive deeply into the future of HBM. We will cover the r…",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "TECH",
       "topic": "TECH",
@@ -2008,6 +2323,7 @@
         "TECH",
         "SEMIANALYSIS"
       ],
+      "sourceType": "analysis",
       "sources": [
         "SemiAnalysis"
       ],
@@ -2016,24 +2332,25 @@
       "defaultVisible": false
     },
     {
-      "id": "748290a6b3d40ec5",
+      "id": "b4ea14518cfe488a",
       "source": "X",
-      "title": "We're rolling out plugins in Codex. Codex now works seamlessly out of the box with the most important tools builders already use, like @SlackHQ, @Figma, @NotionHQ, @gmail, and more. http://developers.openai.com/codex/plugins",
-      "displayTitle": "Codex 开始推送插件能力",
-      "summary": "We're rolling out plugins in Codex. @SlackHQ, @Figma, @NotionHQ, @gmail, and more. developers.openai.com/codex/… Video",
-      "published_at": "2026-03-26T22:31:07.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "title": "When I built menugen ~1 year ago, I observed that the hardest part by far was not the code itself, it was the plethora of services you have to assemble like IKEA furniture to make it real, the DevOps: services, payments, auth, database, security, domain names, etc... I am really looking forward to a day where I could simply tell my agent: \"build menugen\" (referencing the post) and it would just work. The whole thing up to the deployed web page. The agent would have to browse a number of services, read the docs, get all the api keys, make everything work, debug it in dev, and deploy to prod. This is the actually hard part, not the code itself. Or rather, the better way to think about it is that the entire DevOps lifecycle has to become code, in addition to the necessary sensors/actuators of the CLIs/APIs with agent-native ergonomics. And there should be no need to visit web pages, click buttons, or anything like that for the human. It's easy to state, it's now just barely technically possible and expected to work maybe, but it definitely requires from-scratch re-design, work and thought. Very exciting direction!",
+      "displayTitle": "",
+      "summary": "When I built menugen ~1 year ago, I observed that the hardest part by far was not the code itself, it was the plethora of services you have to assemble like IKEA furniture to make it real, the DevOps: services, payments, auth, database, security, domain names…",
+      "published_at": "2026-03-26T16:10:52.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "AI",
-      "topic": "OPENAI",
+      "topic": "CLAUDE",
       "priority": 65,
-      "url": "https://x.com/OpenAI/status/2037296316104282119",
+      "url": "https://x.com/karpathy/status/2037200624450936940",
       "hot": true,
       "tags": [
         "AI",
-        "OPENAI",
+        "CLAUDE",
         "X"
       ],
+      "sourceType": "x_hot",
       "sources": [
         "X"
       ],
@@ -2048,7 +2365,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "SONY",
       "topic": "SONY",
@@ -2059,6 +2376,7 @@
         "SONY",
         "GAME"
       ],
+      "sourceType": "news",
       "sources": [
         "Sony Interactive"
       ],
@@ -2073,7 +2391,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "SONY",
       "topic": "SONY",
@@ -2084,6 +2402,7 @@
         "SONY",
         "GAME"
       ],
+      "sourceType": "news",
       "sources": [
         "Sony Interactive"
       ],
@@ -2098,7 +2417,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "SONY",
       "topic": "SONY",
@@ -2109,6 +2428,7 @@
         "SONY",
         "GAME"
       ],
+      "sourceType": "news",
       "sources": [
         "Sony Interactive"
       ],
@@ -2123,7 +2443,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "CRYPTO_TOOLS",
       "topic": "ONEKEY",
@@ -2134,6 +2454,7 @@
         "CRYPTO_TOOLS",
         "ONEKEY"
       ],
+      "sourceType": "news",
       "sources": [
         "OneKey Blog"
       ],
@@ -2148,7 +2469,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "CRYPTO_TOOLS",
       "topic": "ONEKEY",
@@ -2159,6 +2480,7 @@
         "CRYPTO_TOOLS",
         "ONEKEY"
       ],
+      "sourceType": "news",
       "sources": [
         "OneKey Blog"
       ],
@@ -2173,7 +2495,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "CRYPTO_TOOLS",
       "topic": "ONEKEY",
@@ -2184,6 +2506,7 @@
         "CRYPTO_TOOLS",
         "ONEKEY"
       ],
+      "sourceType": "news",
       "sources": [
         "OneKey Blog"
       ],
@@ -2198,7 +2521,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "CRYPTO_TOOLS",
       "topic": "ONEKEY",
@@ -2209,6 +2532,7 @@
         "CRYPTO_TOOLS",
         "ONEKEY"
       ],
+      "sourceType": "news",
       "sources": [
         "OneKey Blog"
       ],
@@ -2223,7 +2547,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "CRYPTO_TOOLS",
       "topic": "ONEKEY",
@@ -2234,6 +2558,7 @@
         "CRYPTO_TOOLS",
         "ONEKEY"
       ],
+      "sourceType": "news",
       "sources": [
         "OneKey Blog"
       ],
@@ -2248,7 +2573,7 @@
       "displayTitle": "",
       "summary": "Robots have powered manufacturing for decades, yet they stayed single-purpose and thrived only in perfect settings. Previous attempts at intelligent machines overpromised and underdelivered. But they were too early. Today, modern AI paradigms convert most rob…",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "TECH",
       "topic": "TECH",
@@ -2259,6 +2584,7 @@
         "TECH",
         "SEMIANALYSIS"
       ],
+      "sourceType": "analysis",
       "sources": [
         "SemiAnalysis"
       ],
@@ -2273,7 +2599,7 @@
       "displayTitle": "",
       "summary": "Transformative technologies usually follow a top-down diffusion path: originating in government or military contexts, passing through corporations, and eventually reaching individuals - think electricity, cryptography, computers, flight, the internet, or GPS.…",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "TECH",
       "topic": "TECH",
@@ -2284,6 +2610,7 @@
         "TECH",
         "KARPATHY"
       ],
+      "sourceType": "blog",
       "sources": [
         "Karpathy"
       ],
@@ -2296,9 +2623,9 @@
       "source": "Reddit",
       "title": "Tron: Legacy (2010, dir. Joseph Kosinski) Sam Flynn vs Rinzler",
       "displayTitle": "",
-      "summary": "r/movies • 485 points • 65 comments",
+      "summary": "r/movies • 497 points • 67 comments",
       "published_at": "2026-03-29T03:56:17.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "MOVIE",
@@ -2309,6 +2636,7 @@
         "MOVIE",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -2321,9 +2649,9 @@
       "source": "Reddit",
       "title": "Jensen Ackles Officially Confirms Plans For The Next 'The Boys' Series [Exclusive]",
       "displayTitle": "",
-      "summary": "r/television • 1597 points • 230 comments",
+      "summary": "r/television • 1607 points • 230 comments",
       "published_at": "2026-03-28T22:08:12.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "TV",
@@ -2334,6 +2662,7 @@
         "TV",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -2346,9 +2675,9 @@
       "source": "Reddit",
       "title": "Do you think the Switch 2 will see a price increase like the Playstation 5 soon?",
       "displayTitle": "",
-      "summary": "r/nintendo • 230 points • 231 comments",
+      "summary": "r/nintendo • 229 points • 231 comments",
       "published_at": "2026-03-28T13:50:46.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "SWITCH",
@@ -2360,6 +2689,7 @@
         "SWITCH",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -2374,7 +2704,7 @@
       "displayTitle": "苹果为美国制造计划新增合作伙伴",
       "summary": "",
       "published_at": "2026-03-26T13:00:36.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -2385,6 +2715,7 @@
         "APPLE",
         "TECH"
       ],
+      "sourceType": "press",
       "sources": [
         "Apple Newsroom"
       ],
@@ -2399,7 +2730,7 @@
       "displayTitle": "Felix 借助 Ondo 在 Hyperliquid 推出代币化股票与 ETF",
       "summary": "On-chain traders on Hyperliquid can now trade over 250 tokenized U.S. equities.",
       "published_at": "2026-03-26T20:39:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "ETF",
@@ -2411,6 +2742,7 @@
         "ETF",
         "THE DEFIANT"
       ],
+      "sourceType": "crypto-media",
       "sources": [
         "The Defiant"
       ],
@@ -2419,13 +2751,40 @@
       "defaultVisible": true
     },
     {
+      "id": "89f6e76bf1db5710",
+      "source": "X",
+      "title": "Students: build something real in the Codex Creator Challenge, powered by @joinHandshake Try new tools. Have fun. Break things. Repeat. $10K in OpenAI API credits in prizes. https://joinhandshake.com/students/codex-creator-challenge/?utm_source=openai&utm_medium=organicsocial&utm_campaign=FY26Q2-NWK-HS-Codex-Campaign",
+      "displayTitle": "",
+      "summary": "Students: build something real in the Codex Creator Challenge, powered by @joinHandshake joinhandshake.com/students/c…",
+      "published_at": "2026-03-25T17:02:10.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "AI",
+      "topic": "OPENAI",
+      "priority": 63,
+      "url": "https://x.com/OpenAI/status/2036851146300809531",
+      "hot": true,
+      "tags": [
+        "AI",
+        "OPENAI",
+        "X"
+      ],
+      "sourceType": "x_hot",
+      "sources": [
+        "X"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "B",
+      "defaultVisible": false
+    },
+    {
       "id": "b3fb32f8e2c7ee06",
       "source": "NYT",
       "title": "STRIPPED DOWN",
       "displayTitle": "",
       "summary": "Combined Print & E-Book Nonfiction • 5 weeks on the list • by Bunnie Xo • The host of the “Dumb Blonde Podcast” shares how redemption was an important part of her journey toward reaching her goals.",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:05:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -2437,6 +2796,7 @@
         "NYT",
         "BESTSELLER"
       ],
+      "sourceType": "chart",
       "sources": [
         "NYT"
       ],
@@ -2451,7 +2811,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "GAME",
       "topic": "RIOT",
@@ -2463,6 +2823,7 @@
         "RIOT",
         "NEWS"
       ],
+      "sourceType": "news",
       "sources": [
         "Riot Games"
       ],
@@ -2475,9 +2836,9 @@
       "source": "Reddit",
       "title": "Epic Layoffs Hit Employee Battling Terminal Brain Cancer",
       "displayTitle": "",
-      "summary": "r/Games • 0 points • 46 comments",
+      "summary": "r/Games • 0 points • 65 comments",
       "published_at": "2026-03-29T08:07:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "GAME",
@@ -2488,6 +2849,7 @@
         "GAME",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -2500,9 +2862,9 @@
       "source": "Reddit",
       "title": "Barry Caldwell, ‘Animaniacs’ and ‘Osmosis Jones’ Animator, Dies at 68",
       "displayTitle": "",
-      "summary": "r/movies • 12686 points • 272 comments",
+      "summary": "r/movies • 12745 points • 274 comments",
       "published_at": "2026-03-28T17:04:43.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "MOVIE",
@@ -2513,6 +2875,7 @@
         "MOVIE",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -2525,9 +2888,9 @@
       "source": "Reddit",
       "title": "Same $100/month. 10% of my income in Brazil. Degraded during my entire workday. No notice.",
       "displayTitle": "同样 100 美元月费：整个工作日性能下降且没有通知",
-      "summary": "r/Anthropic • 365 points • 115 comments",
+      "summary": "r/Anthropic • 370 points • 115 comments",
       "published_at": "2026-03-28T15:27:53.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "ANTHROPIC",
@@ -2539,6 +2902,7 @@
         "ANTHROPIC",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -2551,9 +2915,9 @@
       "source": "Reddit",
       "title": "Kingdom Come: Deliverance 2 dev says he was \"fired\" and replaced with AI: \"I feel incredibly betrayed by the management of the company I've come to care about\"",
       "displayTitle": "《天国：拯救 2》开发者称自己被 AI 取代",
-      "summary": "r/Games • 3380 points • 798 comments",
+      "summary": "r/Games • 3378 points • 798 comments",
       "published_at": "2026-03-28T13:22:21.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "GAME",
@@ -2564,34 +2928,9 @@
         "GAME",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "B",
-      "defaultVisible": false
-    },
-    {
-      "id": "a8315b21cf9e0a15",
-      "source": "X",
-      "title": "Gavin Newsom and Kalshi ban insiders*",
-      "displayTitle": "",
-      "summary": "Gavin Newsom and Kalshi ban insiders* POLITICO (@politico) Gavin Newsom to ban California officials from insider betting on prediction markets dlvr.it/TRkNkL https://nitter.net/politico/status/2037471480225910908#m",
-      "published_at": "2026-03-27T21:30:41.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "published_at",
-      "category": "CRYPTO_TOOLS",
-      "topic": "BTC",
-      "priority": 62,
-      "url": "https://x.com/Kalshi/status/2037643494555062707",
-      "hot": true,
-      "tags": [
-        "CRYPTO_TOOLS",
-        "BTC",
-        "X"
-      ],
-      "sources": [
-        "X"
       ],
       "mergedCount": 1,
       "sourceLayer": "B",
@@ -2604,7 +2943,7 @@
       "displayTitle": "",
       "summary": "ECB research finds large percentages of DeFi governance tokens are tied to exchanges and protocol-linked wallets.",
       "published_at": "2026-03-27T16:48:57.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "CRYPTO_TOOLS",
@@ -2616,6 +2955,7 @@
         "CRYPTO_TOOLS",
         "THE BLOCK"
       ],
+      "sourceType": "crypto-media",
       "sources": [
         "The Block"
       ],
@@ -2624,39 +2964,13 @@
       "defaultVisible": false
     },
     {
-      "id": "b4ea14518cfe488a",
-      "source": "X",
-      "title": "When I built menugen ~1 year ago, I observed that the hardest part by far was not the code itself, it was the plethora of services you have to assemble like IKEA furniture to make it real, the DevOps: services, payments, auth, database, security, domain names, etc... I am really looking forward to a day where I could simply tell my agent: \"build menugen\" (referencing the post) and it would just work. The whole thing up to the deployed web page. The agent would have to browse a number of services, read the docs, get all the api keys, make everything work, debug it in dev, and deploy to prod. This is the actually hard part, not the code itself. Or rather, the better way to think about it is that the entire DevOps lifecycle has to become code, in addition to the necessary sensors/actuators of the CLIs/APIs with agent-native ergonomics. And there should be no need to visit web pages, click buttons, or anything like that for the human. It's easy to state, it's now just barely technically possible and expected to work maybe, but it definitely requires from-scratch re-design, work and thought. Very exciting direction!",
-      "displayTitle": "",
-      "summary": "When I built menugen ~1 year ago, I observed that the hardest part by far was not the code itself, it was the plethora of services you have to assemble like IKEA furniture to make it real, the DevOps: services, payments, auth, database, security, domain names…",
-      "published_at": "2026-03-26T16:10:52.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "published_at",
-      "category": "AI",
-      "topic": "CLAUDE",
-      "priority": 62,
-      "url": "https://x.com/karpathy/status/2037200624450936940",
-      "hot": true,
-      "tags": [
-        "AI",
-        "CLAUDE",
-        "X"
-      ],
-      "sources": [
-        "X"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "B",
-      "defaultVisible": false
-    },
-    {
       "id": "c52ff6c9f6314efe",
       "source": "Douban Movie Chart",
       "title": "侵略机器",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T09:59:45.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:05:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "DOUBAN",
@@ -2667,6 +2981,7 @@
         "MOVIE",
         "DOUBAN"
       ],
+      "sourceType": "chart",
       "sources": [
         "Douban Movie Chart"
       ],
@@ -2680,8 +2995,8 @@
       "title": "The Secret Agent",
       "displayTitle": "The Secret 智能体",
       "summary": "",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "JUSTWATCH",
@@ -2692,159 +3007,9 @@
         "MOVIE",
         "JUSTWATCH"
       ],
+      "sourceType": "chart",
       "sources": [
         "JustWatch Movies"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "C",
-      "defaultVisible": false
-    },
-    {
-      "id": "69ab057b30c7e008",
-      "source": "Bloomberg",
-      "title": "Crypto Traders Are Turning Into Big Cross-Asset Chasers",
-      "displayTitle": "",
-      "summary": "Sites like Hyperliquid, Ostium are seeing traditional-asset perps make up a greater share of volume",
-      "published_at": "2026-03-24T21:00:01.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "published_at",
-      "category": "CRYPTO_TOOLS",
-      "topic": "BTC",
-      "priority": 61,
-      "url": "https://www.bloomberg.com/news/newsletters/2026-03-24/crypto-perps-platforms-are-increasingly-used-for-trading-tradfi-assets",
-      "hot": true,
-      "tags": [
-        "CRYPTO_TOOLS",
-        "BTC",
-        "BLOOMBERG"
-      ],
-      "sources": [
-        "Bloomberg"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "A",
-      "defaultVisible": false
-    },
-    {
-      "id": "d97e312337fb68e3",
-      "source": "Reddit",
-      "title": "What even happened to deepseek",
-      "displayTitle": "",
-      "summary": "r/singularity • 134 points • 112 comments",
-      "published_at": "2026-03-29T05:55:50.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "published_at",
-      "category": "AI",
-      "topic": "AI",
-      "priority": 60,
-      "url": "https://www.reddit.com/r/singularity/comments/1s6n5xf/what_even_happened_to_deepseek/",
-      "hot": false,
-      "tags": [
-        "AI",
-        "REDDIT"
-      ],
-      "sources": [
-        "Reddit"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "C",
-      "defaultVisible": false
-    },
-    {
-      "id": "33fd44cdd7424793",
-      "source": "Reddit",
-      "title": "[Updates] Patch Notes Version 1.01.00 | Crimson Desert - adds 5 summonable mounts, decreased loading times, some adjustments to controls, and more.",
-      "displayTitle": "",
-      "summary": "r/Games • 422 points • 220 comments",
-      "published_at": "2026-03-29T03:15:43.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "published_at",
-      "category": "GAME",
-      "topic": "GAME",
-      "priority": 60,
-      "url": "https://www.reddit.com/r/Games/comments/1s6k7sw/updates_patch_notes_version_10100_crimson_desert/",
-      "hot": false,
-      "tags": [
-        "GAME",
-        "REDDIT"
-      ],
-      "sources": [
-        "Reddit"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "C",
-      "defaultVisible": false
-    },
-    {
-      "id": "74f64f5faaed30be",
-      "source": "Reddit",
-      "title": "Why are some filmmakers less affected by flops than others?",
-      "displayTitle": "",
-      "summary": "r/movies • 531 points • 240 comments",
-      "published_at": "2026-03-29T01:17:27.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "published_at",
-      "category": "MOVIE",
-      "topic": "MOVIE",
-      "priority": 60,
-      "url": "https://www.reddit.com/r/movies/comments/1s6hs7i/why_are_some_filmmakers_less_affected_by_flops/",
-      "hot": false,
-      "tags": [
-        "MOVIE",
-        "REDDIT"
-      ],
-      "sources": [
-        "Reddit"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "C",
-      "defaultVisible": false
-    },
-    {
-      "id": "1d9b57b51c8f82e4",
-      "source": "Reddit",
-      "title": "Its not sci-fi anymore! A Chinese company, Unipath has launched a household robot",
-      "displayTitle": "",
-      "summary": "r/singularity • 579 points • 131 comments",
-      "published_at": "2026-03-28T23:01:33.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "published_at",
-      "category": "AI",
-      "topic": "AI",
-      "priority": 60,
-      "url": "https://www.reddit.com/r/singularity/comments/1s6eru3/its_not_scifi_anymore_a_chinese_company_unipath/",
-      "hot": false,
-      "tags": [
-        "AI",
-        "REDDIT"
-      ],
-      "sources": [
-        "Reddit"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "C",
-      "defaultVisible": false
-    },
-    {
-      "id": "f0b117ced04fd106",
-      "source": "Reddit",
-      "title": "Barry Caldwell, ‘Animaniacs’ and ‘Osmosis Jones’ Animator, Dies at 68",
-      "displayTitle": "",
-      "summary": "r/television • 2352 points • 40 comments",
-      "published_at": "2026-03-28T17:04:28.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "published_at",
-      "category": "TV",
-      "topic": "TV",
-      "priority": 60,
-      "url": "https://www.reddit.com/r/television/comments/1s65vgw/barry_caldwell_animaniacs_and_osmosis_jones/",
-      "hot": true,
-      "tags": [
-        "TV",
-        "REDDIT"
-      ],
-      "sources": [
-        "Reddit"
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
@@ -2857,11 +3022,11 @@
       "displayTitle": "",
       "summary": "Intercontinental Exchange, the parent company of the New York Stock Exchange, has announced a new $600 million direct cash investment in @Polymarket thedefiant.io/news/defi/nyse…",
       "published_at": "2026-03-27T16:54:33.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "BTC",
-      "priority": 60,
+      "priority": 61,
       "url": "https://x.com/DefiantNews/status/2037574002269683898",
       "hot": true,
       "tags": [
@@ -2869,6 +3034,7 @@
         "BTC",
         "X"
       ],
+      "sourceType": "x_hot",
       "sources": [
         "X",
         "The Defiant"
@@ -2878,13 +3044,222 @@
       "defaultVisible": false
     },
     {
+      "id": "69ab057b30c7e008",
+      "source": "Bloomberg",
+      "title": "Crypto Traders Are Turning Into Big Cross-Asset Chasers",
+      "displayTitle": "",
+      "summary": "Sites like Hyperliquid, Ostium are seeing traditional-asset perps make up a greater share of volume",
+      "published_at": "2026-03-24T21:00:01.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "CRYPTO_TOOLS",
+      "topic": "BTC",
+      "priority": 61,
+      "url": "https://www.bloomberg.com/news/newsletters/2026-03-24/crypto-perps-platforms-are-increasingly-used-for-trading-tradfi-assets",
+      "hot": true,
+      "tags": [
+        "CRYPTO_TOOLS",
+        "BTC",
+        "BLOOMBERG"
+      ],
+      "sourceType": "bloomberg-crypto",
+      "sources": [
+        "Bloomberg"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "A",
+      "defaultVisible": false
+    },
+    {
+      "id": "d97e312337fb68e3",
+      "source": "Reddit",
+      "title": "What even happened to deepseek",
+      "displayTitle": "",
+      "summary": "r/singularity • 144 points • 119 comments",
+      "published_at": "2026-03-29T05:55:50.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "AI",
+      "topic": "AI",
+      "priority": 60,
+      "url": "https://www.reddit.com/r/singularity/comments/1s6n5xf/what_even_happened_to_deepseek/",
+      "hot": false,
+      "tags": [
+        "AI",
+        "REDDIT"
+      ],
+      "sourceType": "reddit",
+      "sources": [
+        "Reddit"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "C",
+      "defaultVisible": false
+    },
+    {
+      "id": "33fd44cdd7424793",
+      "source": "Reddit",
+      "title": "[Updates] Patch Notes Version 1.01.00 | Crimson Desert - adds 5 summonable mounts, decreased loading times, some adjustments to controls, and more.",
+      "displayTitle": "",
+      "summary": "r/Games • 438 points • 228 comments",
+      "published_at": "2026-03-29T03:15:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "GAME",
+      "topic": "GAME",
+      "priority": 60,
+      "url": "https://www.reddit.com/r/Games/comments/1s6k7sw/updates_patch_notes_version_10100_crimson_desert/",
+      "hot": false,
+      "tags": [
+        "GAME",
+        "REDDIT"
+      ],
+      "sourceType": "reddit",
+      "sources": [
+        "Reddit"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "C",
+      "defaultVisible": false
+    },
+    {
+      "id": "74f64f5faaed30be",
+      "source": "Reddit",
+      "title": "Why are some filmmakers less affected by flops than others?",
+      "displayTitle": "",
+      "summary": "r/movies • 545 points • 249 comments",
+      "published_at": "2026-03-29T01:17:27.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "MOVIE",
+      "topic": "MOVIE",
+      "priority": 60,
+      "url": "https://www.reddit.com/r/movies/comments/1s6hs7i/why_are_some_filmmakers_less_affected_by_flops/",
+      "hot": false,
+      "tags": [
+        "MOVIE",
+        "REDDIT"
+      ],
+      "sourceType": "reddit",
+      "sources": [
+        "Reddit"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "C",
+      "defaultVisible": false
+    },
+    {
+      "id": "1d9b57b51c8f82e4",
+      "source": "Reddit",
+      "title": "Its not sci-fi anymore! A Chinese company, Unipath has launched a household robot",
+      "displayTitle": "",
+      "summary": "r/singularity • 593 points • 134 comments",
+      "published_at": "2026-03-28T23:01:33.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "AI",
+      "topic": "AI",
+      "priority": 60,
+      "url": "https://www.reddit.com/r/singularity/comments/1s6eru3/its_not_scifi_anymore_a_chinese_company_unipath/",
+      "hot": false,
+      "tags": [
+        "AI",
+        "REDDIT"
+      ],
+      "sourceType": "reddit",
+      "sources": [
+        "Reddit"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "C",
+      "defaultVisible": false
+    },
+    {
+      "id": "f0b117ced04fd106",
+      "source": "Reddit",
+      "title": "Barry Caldwell, ‘Animaniacs’ and ‘Osmosis Jones’ Animator, Dies at 68",
+      "displayTitle": "",
+      "summary": "r/television • 2351 points • 42 comments",
+      "published_at": "2026-03-28T17:04:28.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "TV",
+      "topic": "TV",
+      "priority": 60,
+      "url": "https://www.reddit.com/r/television/comments/1s65vgw/barry_caldwell_animaniacs_and_osmosis_jones/",
+      "hot": true,
+      "tags": [
+        "TV",
+        "REDDIT"
+      ],
+      "sourceType": "reddit",
+      "sources": [
+        "Reddit"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "C",
+      "defaultVisible": false
+    },
+    {
+      "id": "cbc4f15ace1b9efe",
+      "source": "Tesla IR",
+      "title": "Q1 2026",
+      "displayTitle": "特斯拉 2026 年 Q1 季度更新",
+      "summary": "",
+      "published_at": "2026-03-26T15:52:01.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "TESLA",
+      "topic": "TESLA",
+      "priority": 60,
+      "url": "https://ir.tesla.com/node/2538",
+      "hot": false,
+      "tags": [
+        "TESLA",
+        "TECH"
+      ],
+      "sourceType": "press",
+      "sources": [
+        "Tesla IR"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "A",
+      "defaultVisible": true
+    },
+    {
+      "id": "6b8863722bf7e97a",
+      "source": "Tesla IR",
+      "title": "Q1 2026 Delivery Consensus",
+      "displayTitle": "特斯拉 2026 年 Q1 交付预期",
+      "summary": "",
+      "published_at": "2026-03-26T15:50:39.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "TESLA",
+      "topic": "TESLA",
+      "priority": 60,
+      "url": "https://ir.tesla.com/press-release/delivery-consensus-first-quarter-2026",
+      "hot": false,
+      "tags": [
+        "TESLA",
+        "TECH"
+      ],
+      "sourceType": "press",
+      "sources": [
+        "Tesla IR"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "A",
+      "defaultVisible": true
+    },
+    {
       "id": "9a71e3fcb10eb150",
       "source": "The Defiant",
       "title": "Bitcoin Hits Two-Week Low as $443M in Longs Get Wiped Out",
       "displayTitle": "比特币跌至两周低点，4.43 亿美元多头被清算",
       "summary": "Iran escalation and $171 million in ETF outflows drive BTC below $66,000.",
       "published_at": "2026-03-27T16:38:24.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "BTC",
@@ -2896,6 +3271,7 @@
         "BTC",
         "THE DEFIANT"
       ],
+      "sourceType": "crypto-media",
       "sources": [
         "The Defiant"
       ],
@@ -2909,8 +3285,8 @@
       "title": "STRANGERS",
       "displayTitle": "",
       "summary": "Combined Print & E-Book Nonfiction • 10 weeks on the list • by Belle Burden • Burden retraces her marriage of 20 years in search of clues to help shape her understanding about its demise and to find a way forward.",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:05:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -2922,6 +3298,7 @@
         "NYT",
         "BESTSELLER"
       ],
+      "sourceType": "chart",
       "sources": [
         "NYT"
       ],
@@ -2934,9 +3311,9 @@
       "source": "Reddit",
       "title": "What are dead giveaways for AI slop websites?",
       "displayTitle": "",
-      "summary": "r/ClaudeAI • 386 points • 37 comments",
+      "summary": "r/ClaudeAI • 441 points • 39 comments",
       "published_at": "2026-03-29T05:24:08.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "CLAUDE",
@@ -2948,6 +3325,7 @@
         "CLAUDE",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -2960,9 +3338,9 @@
       "source": "Reddit",
       "title": "Anyone else’s Claude leaving them on “Read”?",
       "displayTitle": "",
-      "summary": "r/ClaudeAI • 346 points • 70 comments",
+      "summary": "r/ClaudeAI • 365 points • 70 comments",
       "published_at": "2026-03-28T22:35:20.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "CLAUDE",
@@ -2974,32 +3352,7 @@
         "CLAUDE",
         "REDDIT"
       ],
-      "sources": [
-        "Reddit"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "C",
-      "defaultVisible": false
-    },
-    {
-      "id": "c018c5df07154bd0",
-      "source": "Reddit",
-      "title": "Altman is as evil as Stalin, and OpenAI is worse than cigarette companies - Dario Amodei",
-      "displayTitle": "",
-      "summary": "r/OpenAI • 623 points • 193 comments",
-      "published_at": "2026-03-28T13:06:14.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "published_at",
-      "category": "AI",
-      "topic": "OPENAI",
-      "priority": 58,
-      "url": "https://www.reddit.com/r/OpenAI/comments/1s5zujd/altman_is_as_evil_as_stalin_and_openai_is_worse/",
-      "hot": true,
-      "tags": [
-        "AI",
-        "OPENAI",
-        "REDDIT"
-      ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -3014,7 +3367,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-27T20:59:53.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -3025,6 +3378,7 @@
         "TECH",
         "SIMON WILLISON"
       ],
+      "sourceType": "blog",
       "sources": [
         "Simon Willison"
       ],
@@ -3033,39 +3387,13 @@
       "defaultVisible": false
     },
     {
-      "id": "89f6e76bf1db5710",
-      "source": "X",
-      "title": "Students: build something real in the Codex Creator Challenge, powered by @joinHandshake Try new tools. Have fun. Break things. Repeat. $10K in OpenAI API credits in prizes. https://joinhandshake.com/students/codex-creator-challenge/?utm_source=openai&utm_medium=organicsocial&utm_campaign=FY26Q2-NWK-HS-Codex-Campaign",
-      "displayTitle": "",
-      "summary": "Students: build something real in the Codex Creator Challenge, powered by @joinHandshake joinhandshake.com/students/c…",
-      "published_at": "2026-03-25T17:02:10.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "published_at",
-      "category": "AI",
-      "topic": "OPENAI",
-      "priority": 58,
-      "url": "https://x.com/OpenAI/status/2036851146300809531",
-      "hot": true,
-      "tags": [
-        "AI",
-        "OPENAI",
-        "X"
-      ],
-      "sources": [
-        "X"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "B",
-      "defaultVisible": false
-    },
-    {
       "id": "3d9779e7f2c823a4",
       "source": "Douban Movie Chart",
       "title": "家弑服务",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T09:59:45.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:05:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "DOUBAN",
@@ -3076,6 +3404,7 @@
         "MOVIE",
         "DOUBAN"
       ],
+      "sourceType": "chart",
       "sources": [
         "Douban Movie Chart"
       ],
@@ -3089,8 +3418,8 @@
       "title": "Sentimental Value",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "JUSTWATCH",
@@ -3101,8 +3430,35 @@
         "MOVIE",
         "JUSTWATCH"
       ],
+      "sourceType": "chart",
       "sources": [
         "JustWatch Movies"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "C",
+      "defaultVisible": false
+    },
+    {
+      "id": "07498f160253b232",
+      "source": "Reddit",
+      "title": "Just passed by a prototype cyber SUV in Austin I think",
+      "displayTitle": "",
+      "summary": "r/teslamotors • 0 points • 2 comments",
+      "published_at": "2026-03-29T02:19:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "TESLA",
+      "topic": "TESLA",
+      "priority": 56,
+      "url": "https://www.reddit.com/r/teslamotors/comments/1s6j2kj/just_passed_by_a_prototype_cyber_suv_in_austin_i/",
+      "hot": true,
+      "tags": [
+        "TESLA",
+        "REDDIT"
+      ],
+      "sourceType": "reddit",
+      "sources": [
+        "Reddit"
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
@@ -3115,7 +3471,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-27T22:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -3126,6 +3482,7 @@
         "AI",
         "OPENAI"
       ],
+      "sourceType": "news",
       "sources": [
         "OpenAI News"
       ],
@@ -3140,7 +3497,7 @@
       "displayTitle": "加州禁止官员参与预测市场内幕交易，联邦禁令成形",
       "summary": "Prediction market platforms are tightening trading restrictions and surveillance tools as concerns grow over insider participants.",
       "published_at": "2026-03-27T20:26:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "BTC",
@@ -3152,6 +3509,7 @@
         "BTC",
         "THE BLOCK"
       ],
+      "sourceType": "crypto-media",
       "sources": [
         "The Block"
       ],
@@ -3166,7 +3524,7 @@
       "displayTitle": "PlayStation 播客第 537 期：聊聊《Saros》",
       "summary": "",
       "published_at": "2026-03-27T16:59:09.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "SONY",
       "topic": "SONY",
@@ -3177,6 +3535,7 @@
         "SONY",
         "GAME"
       ],
+      "sourceType": "news",
       "sources": [
         "PlayStation Blog"
       ],
@@ -3191,7 +3550,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-27T16:00:08.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "SONY",
       "topic": "SONY",
@@ -3202,6 +3561,7 @@
         "SONY",
         "GAME"
       ],
+      "sourceType": "news",
       "sources": [
         "PlayStation Blog"
       ],
@@ -3216,7 +3576,7 @@
       "displayTitle": "法官叫停五角大楼将 Anthropic 列为“供应链风险”",
       "summary": "The decision is an early victory for the artificial intelligence company in a rancorous legal battle with the Department of Defense.",
       "published_at": "2026-03-27T14:45:53.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "ANTHROPIC",
@@ -3228,6 +3588,7 @@
         "ANTHROPIC",
         "NYT"
       ],
+      "sourceType": "nyt-topstories",
       "sources": [
         "NYT"
       ],
@@ -3242,7 +3603,7 @@
       "displayTitle": "东南亚地区：PS5、PS5 Pro 与 Portal 调价",
       "summary": "",
       "published_at": "2026-03-27T12:31:08.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "SONY",
       "topic": "SONY",
@@ -3253,6 +3614,7 @@
         "SONY",
         "GAME"
       ],
+      "sourceType": "news",
       "sources": [
         "PlayStation Blog"
       ],
@@ -3265,9 +3627,9 @@
       "source": "Reddit",
       "title": "New Price Changes for PS5, PS5 Pro, and PlayStation Portal remote player",
       "displayTitle": "",
-      "summary": "r/gadgets • 1270 points • 503 comments",
+      "summary": "r/gadgets • 1267 points • 503 comments",
       "published_at": "2026-03-27T12:09:25.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "PLAYSTATION",
@@ -3279,6 +3641,7 @@
         "PLAYSTATION",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -3293,7 +3656,7 @@
       "displayTitle": "",
       "summary": "The Anthropic co-founder Jack Clark tells Ezra Klein what he sees coming in the new era of A.I. agents.",
       "published_at": "2026-03-27T11:00:09.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "ANTHROPIC",
@@ -3305,6 +3668,7 @@
         "ANTHROPIC",
         "NYT"
       ],
+      "sourceType": "nyt-topstories",
       "sources": [
         "NYT"
       ],
@@ -3319,7 +3683,7 @@
       "displayTitle": "",
       "summary": "After a disappointing movie adaptation, the Norwegian author took the reins as showrunner in a new Netflix series based on his Detective Hole books.",
       "published_at": "2026-03-27T09:02:22.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "ETF",
@@ -3331,6 +3695,7 @@
         "ETF",
         "NYT"
       ],
+      "sourceType": "nyt-topstories",
       "sources": [
         "NYT"
       ],
@@ -3343,9 +3708,9 @@
       "source": "Reddit",
       "title": "GPT 5.4 vs GPT 5.4 Pro - SVG Generation Capability",
       "displayTitle": "",
-      "summary": "r/OpenAI • 189 points • 24 comments",
+      "summary": "r/OpenAI • 187 points • 25 comments",
       "published_at": "2026-03-28T19:21:48.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -3357,6 +3722,7 @@
         "OPENAI",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -3369,9 +3735,9 @@
       "source": "Reddit",
       "title": "Anthropic reportedly views itself as the antidote to OpenAI's \"tobacco industry\" approach to AI",
       "displayTitle": "",
-      "summary": "r/Anthropic • 147 points • 29 comments",
+      "summary": "r/Anthropic • 153 points • 29 comments",
       "published_at": "2026-03-28T16:57:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -3383,6 +3749,7 @@
         "OPENAI",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -3396,8 +3763,8 @@
       "title": "JUDGE STONE",
       "displayTitle": "",
       "summary": "Hardcover Fiction • 2 weeks on the list • by Viola Davis and James Patterson • Judge Mary Stone oversees an ethically complex case in her courtroom in Union Springs, Ala.",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:05:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -3409,6 +3776,7 @@
         "NYT",
         "BESTSELLER"
       ],
+      "sourceType": "chart",
       "sources": [
         "NYT"
       ],
@@ -3422,8 +3790,8 @@
       "title": "THE CORRESPONDENT",
       "displayTitle": "",
       "summary": "Hardcover Fiction • 21 weeks on the list • by Virginia Evans • Letters from someone she used to know push Sybil Van Antwerp toward revisiting her past and finding a way to forgive.",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:05:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -3435,6 +3803,7 @@
         "NYT",
         "BESTSELLER"
       ],
+      "sourceType": "chart",
       "sources": [
         "NYT"
       ],
@@ -3449,7 +3818,7 @@
       "displayTitle": "",
       "summary": "Our critic assesses the achievement of Martin Amis, Britain’s most famous literary son.",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -3460,6 +3829,7 @@
         "BOOK",
         "NYT"
       ],
+      "sourceType": "nyt-books",
       "sources": [
         "NYT"
       ],
@@ -3474,7 +3844,7 @@
       "displayTitle": "",
       "summary": "“NB by J.C.” collects the variegated musings of James Campbell in the Times Literary Supplement.",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -3485,6 +3855,7 @@
         "BOOK",
         "NYT"
       ],
+      "sourceType": "nyt-books",
       "sources": [
         "NYT"
       ],
@@ -3499,7 +3870,7 @@
       "displayTitle": "",
       "summary": "In “Fires in the Dark,” Jamison, known for her expertise on manic depression, delves into the quest to heal. Her new book, she says, is a “love song to psychotherapy.”",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -3510,6 +3881,7 @@
         "BOOK",
         "NYT"
       ],
+      "sourceType": "nyt-books",
       "sources": [
         "NYT"
       ],
@@ -3524,7 +3896,7 @@
       "displayTitle": "",
       "summary": "Dorothy L. Sayers dealt with emotional and financial instability by writing “Whose Body?,” the first of many to star the detective Lord Peter Wimsey.",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -3535,6 +3907,7 @@
         "BOOK",
         "NYT"
       ],
+      "sourceType": "nyt-books",
       "sources": [
         "NYT"
       ],
@@ -3549,7 +3922,7 @@
       "displayTitle": "",
       "summary": "“Dom Casmurro,” by Machado de Assis, teaches us to read — and reread — with precise detail and masterly obfuscation.",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -3560,6 +3933,7 @@
         "BOOK",
         "NYT"
       ],
+      "sourceType": "nyt-books",
       "sources": [
         "NYT"
       ],
@@ -3574,7 +3948,7 @@
       "displayTitle": "",
       "summary": "Brandon Taylor’s novel circulates among Iowa City residents, some privileged, some not, but all aware that their possibilities are contracting.",
       "published_at": "",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "fetched_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -3585,6 +3959,7 @@
         "BOOK",
         "NYT"
       ],
+      "sourceType": "nyt-books",
       "sources": [
         "NYT"
       ],
@@ -3599,7 +3974,7 @@
       "displayTitle": "",
       "summary": "The U.S. and other exporters are poised for a windfall, but disruptions to Persian Gulf supplies are also pushing gas-buying countries to consider alternatives like coal, solar and nuclear energy.",
       "published_at": "2026-03-29T09:00:54.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -3610,6 +3985,7 @@
         "TECH",
         "NYT"
       ],
+      "sourceType": "nyt-topstories",
       "sources": [
         "NYT"
       ],
@@ -3624,7 +4000,7 @@
       "displayTitle": "",
       "summary": "Steve Cahillane, a food industry veteran, is trying to revive the company behind Kool-Aid, Oscar Mayer and many other brands.",
       "published_at": "2026-03-29T09:00:43.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -3635,6 +4011,7 @@
         "TECH",
         "NYT"
       ],
+      "sourceType": "nyt-topstories",
       "sources": [
         "NYT"
       ],
@@ -3649,7 +4026,7 @@
       "displayTitle": "",
       "summary": "A long-term project to remove or modify dams may clear the way for endangered wild Atlantic salmon to swim freely up to the Sandy River. But it faces opposition from business and lawmakers.",
       "published_at": "2026-03-29T09:00:27.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -3660,6 +4037,7 @@
         "TECH",
         "NYT"
       ],
+      "sourceType": "nyt-topstories",
       "sources": [
         "NYT"
       ],
@@ -3674,7 +4052,7 @@
       "displayTitle": "",
       "summary": "No more YouTube or video games on school laptops. Textbooks and pencils are back. Some seventh graders say they prefer learning offline.",
       "published_at": "2026-03-29T09:00:25.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -3685,6 +4063,7 @@
         "TECH",
         "NYT"
       ],
+      "sourceType": "nyt-topstories",
       "sources": [
         "NYT"
       ],
@@ -3697,9 +4076,9 @@
       "source": "Reddit",
       "title": "All the A/B and Claude performance for me? is it a smear campaign being carefully run?",
       "displayTitle": "",
-      "summary": "r/Anthropic • 0 points • 10 comments",
+      "summary": "r/Anthropic • 0 points • 11 comments",
       "published_at": "2026-03-29T08:12:56.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "CLAUDE",
@@ -3711,6 +4090,7 @@
         "CLAUDE",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -3723,9 +4103,9 @@
       "source": "Reddit",
       "title": "White House App Found Tracking Users' Exact Location Every 4.5 Minutes via Third-Party Server",
       "displayTitle": "",
-      "summary": "r/technology • 17623 points • 485 comments",
+      "summary": "r/technology • 17776 points • 489 comments",
       "published_at": "2026-03-28T22:32:16.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -3736,6 +4116,7 @@
         "TECH",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -3748,9 +4129,9 @@
       "source": "Reddit",
       "title": "The real danger of AGI isn't a robot uprising. It's that the public will permanently lose its bargaining power",
       "displayTitle": "AGI 的真正风险，不是机器人起义，而是公众失去议价能力",
-      "summary": "r/OpenAI • 97 points • 43 comments",
+      "summary": "r/OpenAI • 96 points • 43 comments",
       "published_at": "2026-03-28T19:37:05.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -3762,6 +4143,7 @@
         "OPENAI",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -3774,9 +4156,9 @@
       "source": "Reddit",
       "title": "White House unveils ‘OnlyFarms’ website, welcomes farmers with golden tractor on South Lawn",
       "displayTitle": "",
-      "summary": "r/technology • 8297 points • 775 comments",
+      "summary": "r/technology • 8331 points • 777 comments",
       "published_at": "2026-03-28T18:15:38.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -3787,6 +4169,7 @@
         "TECH",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -3799,9 +4182,9 @@
       "source": "Reddit",
       "title": "Ukraine’s military brings exoskeletons to the front line",
       "displayTitle": "",
-      "summary": "r/gadgets • 3571 points • 189 comments",
+      "summary": "r/gadgets • 3591 points • 190 comments",
       "published_at": "2026-03-28T10:34:56.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -3812,6 +4195,7 @@
         "TECH",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -3826,7 +4210,7 @@
       "displayTitle": "",
       "summary": "Law No. 15,358 gives judges sweeping power to freeze digital assets during investigations as Brasília takes a \"financial strangulation\" approach to organized crime.",
       "published_at": "2026-03-26T20:27:58.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "CRYPTO_TOOLS",
@@ -3838,6 +4222,7 @@
         "CRYPTO_TOOLS",
         "THE DEFIANT"
       ],
+      "sourceType": "crypto-media",
       "sources": [
         "The Defiant"
       ],
@@ -3851,8 +4236,8 @@
       "title": "东京出租车",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T09:59:45.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:05:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "DOUBAN",
@@ -3863,6 +4248,7 @@
         "MOVIE",
         "DOUBAN"
       ],
+      "sourceType": "chart",
       "sources": [
         "Douban Movie Chart"
       ],
@@ -3876,8 +4262,8 @@
       "title": "Marty Supreme",
       "displayTitle": "电影：Marty Supreme",
       "summary": "",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "JUSTWATCH",
@@ -3888,6 +4274,7 @@
         "MOVIE",
         "JUSTWATCH"
       ],
+      "sourceType": "chart",
       "sources": [
         "JustWatch Movies"
       ],
@@ -3902,7 +4289,7 @@
       "displayTitle": "",
       "summary": "Largest U.S. Bitcoin miner offloads roughly a quarter of its treasury to buy back $1 billion in zero-coupon notes at a 9% discount, dropping to third among corporate BTC holders.",
       "published_at": "2026-03-26T20:57:52.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "BTC",
@@ -3914,6 +4301,7 @@
         "BTC",
         "THE DEFIANT"
       ],
+      "sourceType": "crypto-media",
       "sources": [
         "The Defiant"
       ],
@@ -3928,7 +4316,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-26T03:02:19.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "NINTENDO",
@@ -3939,62 +4327,12 @@
         "GAME",
         "NINTENDO"
       ],
+      "sourceType": "news",
       "sources": [
         "Nintendo News"
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
-    },
-    {
-      "id": "f89d71b0ee59900b",
-      "source": "Reddit",
-      "title": "Model Y is bestselling car in the world for 2025 (3rd year in a row), according to several firms.",
-      "displayTitle": "",
-      "summary": "r/teslamotors • 1089 points • 291 comments",
-      "published_at": "2026-03-25T21:46:54.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "published_at",
-      "category": "TESLA",
-      "topic": "TESLA",
-      "priority": 52,
-      "url": "https://www.reddit.com/r/teslamotors/comments/1s3og53/model_y_is_bestselling_car_in_the_world_for_2025/",
-      "hot": true,
-      "tags": [
-        "TESLA",
-        "REDDIT"
-      ],
-      "sources": [
-        "Reddit"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "C",
-      "defaultVisible": false
-    },
-    {
-      "id": "c7ba695e57af308f",
-      "source": "X",
-      "title": "We find that since November 2025, consumer use has become less concentrated: the top 10 tasks now make up 19% of conversations, down from 24%. We also see a rise in personal queries, and continued convergence in adoption rates in the US. Read more: https://www.anthropic.com/research/economic-index-march-2026-report",
-      "displayTitle": "",
-      "summary": "We find that since November 2025, consumer use has become less concentrated: the top 10 tasks now make up 19% of conversations, down from 24%. We also see a rise in personal queries, and continued convergence in adoption rates in the US. anthropic.com/researc…",
-      "published_at": "2026-03-24T17:45:38.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "published_at",
-      "category": "AI",
-      "topic": "ANTHROPIC",
-      "priority": 52,
-      "url": "https://x.com/AnthropicAI/status/2036499693920727463",
-      "hot": true,
-      "tags": [
-        "AI",
-        "ANTHROPIC",
-        "X"
-      ],
-      "sources": [
-        "X"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "B",
       "defaultVisible": false
     },
     {
@@ -4004,7 +4342,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-27T00:35:01.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -4015,6 +4353,7 @@
         "TECH",
         "SIMON WILLISON"
       ],
+      "sourceType": "blog",
       "sources": [
         "Simon Willison"
       ],
@@ -4029,7 +4368,7 @@
       "displayTitle": "",
       "summary": "Before being cast as “The Bachelorette,” Taylor Frankie Paul had discussed — with police, on podcasts and on TV — the domestic dispute that involved her 5-year-old daughter.",
       "published_at": "2026-03-28T09:02:23.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "TV",
@@ -4040,6 +4379,7 @@
         "TV",
         "NYT"
       ],
+      "sourceType": "nyt-topstories",
       "sources": [
         "NYT"
       ],
@@ -4054,7 +4394,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-26T23:58:22.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -4065,6 +4405,7 @@
         "TECH",
         "SIMON WILLISON"
       ],
+      "sourceType": "blog",
       "sources": [
         "Simon Willison"
       ],
@@ -4079,7 +4420,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-26T17:15:53.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "SONY",
       "topic": "SONY",
@@ -4090,6 +4431,7 @@
         "SONY",
         "GAME"
       ],
+      "sourceType": "news",
       "sources": [
         "PlayStation Blog"
       ],
@@ -4104,7 +4446,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-26T15:00:29.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "SONY",
       "topic": "SONY",
@@ -4115,6 +4457,7 @@
         "SONY",
         "GAME"
       ],
+      "sourceType": "news",
       "sources": [
         "PlayStation Blog"
       ],
@@ -4128,8 +4471,8 @@
       "title": "至尊马蒂",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T09:59:45.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:05:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "DOUBAN",
@@ -4140,6 +4483,7 @@
         "MOVIE",
         "DOUBAN"
       ],
+      "sourceType": "chart",
       "sources": [
         "Douban Movie Chart"
       ],
@@ -4153,8 +4497,8 @@
       "title": "哈姆奈特",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T09:59:45.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:05:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "DOUBAN",
@@ -4165,6 +4509,7 @@
         "MOVIE",
         "DOUBAN"
       ],
+      "sourceType": "chart",
       "sources": [
         "Douban Movie Chart"
       ],
@@ -4178,8 +4523,8 @@
       "title": "用武之地",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T09:59:45.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:05:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "DOUBAN",
@@ -4190,6 +4535,7 @@
         "MOVIE",
         "DOUBAN"
       ],
+      "sourceType": "chart",
       "sources": [
         "Douban Movie Chart"
       ],
@@ -4203,8 +4549,8 @@
       "title": "你行！你上！",
       "displayTitle": "你行！你上！",
       "summary": "",
-      "published_at": "2026-03-29T09:59:45.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:05:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "DOUBAN",
@@ -4215,6 +4561,7 @@
         "MOVIE",
         "DOUBAN"
       ],
+      "sourceType": "chart",
       "sources": [
         "Douban Movie Chart"
       ],
@@ -4228,8 +4575,8 @@
       "title": "呼啸山庄",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T09:59:45.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:05:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "DOUBAN",
@@ -4240,6 +4587,7 @@
         "MOVIE",
         "DOUBAN"
       ],
+      "sourceType": "chart",
       "sources": [
         "Douban Movie Chart"
       ],
@@ -4253,8 +4601,8 @@
       "title": "局外人",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T09:59:45.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:05:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "DOUBAN",
@@ -4265,6 +4613,7 @@
         "MOVIE",
         "DOUBAN"
       ],
+      "sourceType": "chart",
       "sources": [
         "Douban Movie Chart"
       ],
@@ -4278,8 +4627,8 @@
       "title": "One Battle After Another",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "JUSTWATCH",
@@ -4290,6 +4639,7 @@
         "MOVIE",
         "JUSTWATCH"
       ],
+      "sourceType": "chart",
       "sources": [
         "JustWatch Movies"
       ],
@@ -4303,8 +4653,8 @@
       "title": "Ready or Not",
       "displayTitle": "电影：Ready or Not",
       "summary": "",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "JUSTWATCH",
@@ -4315,6 +4665,7 @@
         "MOVIE",
         "JUSTWATCH"
       ],
+      "sourceType": "chart",
       "sources": [
         "JustWatch Movies"
       ],
@@ -4328,8 +4679,8 @@
       "title": "Sinners",
       "displayTitle": "电影：Sinners",
       "summary": "",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "JUSTWATCH",
@@ -4340,6 +4691,7 @@
         "MOVIE",
         "JUSTWATCH"
       ],
+      "sourceType": "chart",
       "sources": [
         "JustWatch Movies"
       ],
@@ -4353,8 +4705,8 @@
       "title": "Project Hail Mary",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "JUSTWATCH",
@@ -4365,6 +4717,7 @@
         "MOVIE",
         "JUSTWATCH"
       ],
+      "sourceType": "chart",
       "sources": [
         "JustWatch Movies"
       ],
@@ -4378,8 +4731,8 @@
       "title": "Bugonia",
       "displayTitle": "电影：Bugonia",
       "summary": "",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "JUSTWATCH",
@@ -4390,6 +4743,7 @@
         "MOVIE",
         "JUSTWATCH"
       ],
+      "sourceType": "chart",
       "sources": [
         "JustWatch Movies"
       ],
@@ -4403,8 +4757,8 @@
       "title": "The Housemaid",
       "displayTitle": "电影：The Housemaid",
       "summary": "",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "JUSTWATCH",
@@ -4415,6 +4769,7 @@
         "MOVIE",
         "JUSTWATCH"
       ],
+      "sourceType": "chart",
       "sources": [
         "JustWatch Movies"
       ],
@@ -4428,8 +4783,8 @@
       "title": "The Madison",
       "displayTitle": "剧集：The Madison",
       "summary": "",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "JUSTWATCH",
@@ -4440,6 +4795,7 @@
         "TV",
         "JUSTWATCH"
       ],
+      "sourceType": "chart",
       "sources": [
         "JustWatch TV"
       ],
@@ -4453,8 +4809,8 @@
       "title": "Paradise",
       "displayTitle": "剧集：Paradise",
       "summary": "",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "JUSTWATCH",
@@ -4465,6 +4821,7 @@
         "TV",
         "JUSTWATCH"
       ],
+      "sourceType": "chart",
       "sources": [
         "JustWatch TV"
       ],
@@ -4478,8 +4835,8 @@
       "title": "The Pitt",
       "displayTitle": "剧集：The Pitt",
       "summary": "",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "JUSTWATCH",
@@ -4490,6 +4847,7 @@
         "TV",
         "JUSTWATCH"
       ],
+      "sourceType": "chart",
       "sources": [
         "JustWatch TV"
       ],
@@ -4503,8 +4861,8 @@
       "title": "Scarpetta",
       "displayTitle": "剧集：Scarpetta",
       "summary": "",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "JUSTWATCH",
@@ -4515,6 +4873,7 @@
         "TV",
         "JUSTWATCH"
       ],
+      "sourceType": "chart",
       "sources": [
         "JustWatch TV"
       ],
@@ -4528,8 +4887,8 @@
       "title": "Shrinking",
       "displayTitle": "剧集：Shrinking",
       "summary": "",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "JUSTWATCH",
@@ -4540,6 +4899,7 @@
         "TV",
         "JUSTWATCH"
       ],
+      "sourceType": "chart",
       "sources": [
         "JustWatch TV"
       ],
@@ -4553,8 +4913,8 @@
       "title": "DTF St. Louis",
       "displayTitle": "剧集：DTF St. Louis",
       "summary": "",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "JUSTWATCH",
@@ -4565,6 +4925,7 @@
         "TV",
         "JUSTWATCH"
       ],
+      "sourceType": "chart",
       "sources": [
         "JustWatch TV"
       ],
@@ -4578,8 +4939,8 @@
       "title": "Monarch: Legacy of Monsters",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "JUSTWATCH",
@@ -4590,6 +4951,7 @@
         "TV",
         "JUSTWATCH"
       ],
+      "sourceType": "chart",
       "sources": [
         "JustWatch TV"
       ],
@@ -4603,8 +4965,8 @@
       "title": "Rooster",
       "displayTitle": "剧集：Rooster",
       "summary": "",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "JUSTWATCH",
@@ -4615,6 +4977,7 @@
         "TV",
         "JUSTWATCH"
       ],
+      "sourceType": "chart",
       "sources": [
         "JustWatch TV"
       ],
@@ -4628,8 +4991,8 @@
       "title": "Young Sherlock",
       "displayTitle": "剧集：Young Sherlock",
       "summary": "",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "JUSTWATCH",
@@ -4640,6 +5003,7 @@
         "TV",
         "JUSTWATCH"
       ],
+      "sourceType": "chart",
       "sources": [
         "JustWatch TV"
       ],
@@ -4653,8 +5017,8 @@
       "title": "A Knight of the Seven Kingdoms",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T09:59:44.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-29T10:04:59.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "JUSTWATCH",
@@ -4665,6 +5029,7 @@
         "TV",
         "JUSTWATCH"
       ],
+      "sourceType": "chart",
       "sources": [
         "JustWatch TV"
       ],
@@ -4679,7 +5044,7 @@
       "displayTitle": "",
       "summary": "Borrowers can pledge Bitcoin or USDC as down payment collateral without triggering a taxable event.",
       "published_at": "2026-03-26T19:29:22.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "BTC",
@@ -4691,6 +5056,7 @@
         "BTC",
         "THE DEFIANT"
       ],
+      "sourceType": "crypto-media",
       "sources": [
         "The Defiant"
       ],
@@ -4705,7 +5071,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-24T04:04:27.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "OPENCLAW",
@@ -4717,6 +5083,7 @@
         "OPENCLAW",
         "RELEASE"
       ],
+      "sourceType": "release",
       "sources": [
         "OpenClaw GitHub"
       ],
@@ -4731,7 +5098,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-24T03:06:46.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "OPENCLAW",
@@ -4743,6 +5110,7 @@
         "OPENCLAW",
         "RELEASE"
       ],
+      "sourceType": "release",
       "sources": [
         "OpenClaw GitHub"
       ],
@@ -4757,7 +5125,7 @@
       "displayTitle": "OpenClaw 正式版更新 2026.3.24",
       "summary": "",
       "published_at": "2026-03-24T00:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "OPENCLAW",
@@ -4769,6 +5137,7 @@
         "OPENCLAW",
         "RELEASE"
       ],
+      "sourceType": "release",
       "sources": [
         "OpenClaw GitHub"
       ],
@@ -4783,7 +5152,7 @@
       "displayTitle": "OpenClaw 测试版更新 2026.3.24 Beta 2",
       "summary": "",
       "published_at": "2026-03-24T00:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "OPENCLAW",
@@ -4795,6 +5164,7 @@
         "OPENCLAW",
         "RELEASE"
       ],
+      "sourceType": "release",
       "sources": [
         "OpenClaw GitHub"
       ],
@@ -4809,7 +5179,7 @@
       "displayTitle": "OpenClaw 测试版更新 2026.3.24 Beta 1",
       "summary": "",
       "published_at": "2026-03-24T00:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "OPENCLAW",
@@ -4821,6 +5191,7 @@
         "OPENCLAW",
         "RELEASE"
       ],
+      "sourceType": "release",
       "sources": [
         "OpenClaw GitHub"
       ],
@@ -4835,7 +5206,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-23T18:55:05.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "OPENCLAW",
@@ -4847,6 +5218,7 @@
         "OPENCLAW",
         "RELEASE"
       ],
+      "sourceType": "release",
       "sources": [
         "OpenClaw GitHub"
       ],
@@ -4859,9 +5231,9 @@
       "source": "Reddit",
       "title": "Pamela Anderson’s New Campaign Bans AI Models | Anderson stars in a new campaign for AEO’s Aerie that doubles down on the lifestyle brand’s pledge to “always keep it 100 percent real: no AI-generated bodies, no AI-generated people. Ever.”",
       "displayTitle": "",
-      "summary": "r/technology • 328 points • 45 comments",
+      "summary": "r/technology • 371 points • 50 comments",
       "published_at": "2026-03-29T06:30:59.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -4872,6 +5244,7 @@
         "TECH",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -4884,9 +5257,9 @@
       "source": "Reddit",
       "title": "Study: Balcony solar systems almost always pay off – but storage is more complicated",
       "displayTitle": "",
-      "summary": "r/gadgets • 556 points • 22 comments",
+      "summary": "r/gadgets • 565 points • 23 comments",
       "published_at": "2026-03-28T19:52:19.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -4897,6 +5270,7 @@
         "TECH",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -4911,7 +5285,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-26T01:06:50.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "NINTENDO",
@@ -4922,6 +5296,7 @@
         "GAME",
         "NINTENDO"
       ],
+      "sourceType": "news",
       "sources": [
         "Nintendo News"
       ],
@@ -4936,7 +5311,7 @@
       "displayTitle": "OpenAI 启动安全漏洞赏金计划",
       "summary": "",
       "published_at": "2026-03-25T00:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -4947,6 +5322,7 @@
         "AI",
         "OPENAI"
       ],
+      "sourceType": "product",
       "sources": [
         "OpenAI News"
       ],
@@ -4961,7 +5337,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-24T14:59:19.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -4972,33 +5348,9 @@
         "APPLE",
         "TECH"
       ],
+      "sourceType": "press",
       "sources": [
         "Apple Newsroom"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "A",
-      "defaultVisible": false
-    },
-    {
-      "id": "dc1a438136139ef8",
-      "source": "Stratechery",
-      "title": "Arm Launches Own CPU, Arm’s Motivation, Constraints and Systems",
-      "displayTitle": "Arm 推出自研 CPU，动机与约束浮出水面",
-      "summary": "Arm is selling its own chips, not just licensing IP. It's a big change compared to Arm's history, but not surprising given how computing is evolving.",
-      "published_at": "2026-03-25T10:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "published_at",
-      "category": "TECH",
-      "topic": "TECH",
-      "priority": 47,
-      "url": "https://stratechery.com/2026/arm-launches-own-cpu-arms-motivation-constraints-and-systems/",
-      "hot": true,
-      "tags": [
-        "TECH",
-        "STRATECHERY"
-      ],
-      "sources": [
-        "Stratechery"
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
@@ -5009,9 +5361,9 @@
       "source": "Reddit",
       "title": "What *The Color Purple* means to me, and why it’s forever precious",
       "displayTitle": "",
-      "summary": "r/books • 204 points • 29 comments",
+      "summary": "r/books • 210 points • 29 comments",
       "published_at": "2026-03-28T19:00:59.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -5022,6 +5374,7 @@
         "BOOK",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -5036,7 +5389,7 @@
       "displayTitle": "",
       "summary": "The FX show, which dramatizes the relationship between John F. Kennedy Jr. and Carolyn Bessette, has inspired a legion of younger viewers to dig into the couple’s past and 1990s New York City.",
       "published_at": "2026-03-27T15:35:04.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "TV",
@@ -5047,6 +5400,7 @@
         "TV",
         "NYT"
       ],
+      "sourceType": "nyt-topstories",
       "sources": [
         "NYT"
       ],
@@ -5059,9 +5413,9 @@
       "source": "Reddit",
       "title": "Flashy Thing",
       "displayTitle": "图书：Flashy Thing",
-      "summary": "r/books • 75 points • 40 comments",
+      "summary": "r/books • 77 points • 40 comments",
       "published_at": "2026-03-28T22:08:14.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -5072,6 +5426,7 @@
         "BOOK",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
       ],
@@ -5086,7 +5441,7 @@
       "displayTitle": "",
       "summary": "r/books • 0 points • 4 comments",
       "published_at": "2026-03-29T08:41:42.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -5097,8 +5452,35 @@
         "BOOK",
         "REDDIT"
       ],
+      "sourceType": "reddit",
       "sources": [
         "Reddit"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "C",
+      "defaultVisible": false
+    },
+    {
+      "id": "6bb271cc76996831",
+      "source": "NYT",
+      "title": "‘Yes’ Review: From Israel, an Uncomfortable Existential Howl",
+      "displayTitle": "",
+      "summary": "Nadav Lapid’s scathing tone and accelerated rhythms lead this movie about a married couple who ingratiate themselves with the country’s power elite.",
+      "published_at": "2026-03-26T17:33:14.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "MOVIE",
+      "topic": "MOVIE",
+      "priority": 44,
+      "url": "https://www.nytimes.com/2026/03/26/movies/yes-review-israel.html",
+      "hot": false,
+      "tags": [
+        "MOVIE",
+        "NYT"
+      ],
+      "sourceType": "nyt-topstories",
+      "sources": [
+        "NYT"
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
@@ -5110,8 +5492,8 @@
       "title": "Have a Nice Deity! | SPACE GODS Set Cinematic – Teamfight Tactics",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-27T00:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-26T16:00:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "RIOT",
@@ -5123,36 +5505,12 @@
         "RIOT",
         "NEWS"
       ],
+      "sourceType": "news",
       "sources": [
         "Riot Games"
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
-    },
-    {
-      "id": "6bb271cc76996831",
-      "source": "NYT",
-      "title": "‘Yes’ Review: From Israel, an Uncomfortable Existential Howl",
-      "displayTitle": "",
-      "summary": "Nadav Lapid’s scathing tone and accelerated rhythms lead this movie about a married couple who ingratiate themselves with the country’s power elite.",
-      "published_at": "2026-03-26T17:33:14.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "published_at",
-      "category": "MOVIE",
-      "topic": "MOVIE",
-      "priority": 44,
-      "url": "https://www.nytimes.com/2026/03/26/movies/yes-review-israel.html",
-      "hot": false,
-      "tags": [
-        "MOVIE",
-        "NYT"
-      ],
-      "sources": [
-        "NYT"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "C",
       "defaultVisible": false
     },
     {
@@ -5162,7 +5520,7 @@
       "displayTitle": "「Hello! インディー」野球の選手が世界を救う？…",
       "summary": "",
       "published_at": "2026-03-26T01:03:23.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "NINTENDO",
@@ -5173,6 +5531,7 @@
         "GAME",
         "NINTENDO"
       ],
+      "sourceType": "news",
       "sources": [
         "Nintendo News"
       ],
@@ -5187,7 +5546,7 @@
       "displayTitle": "「Hello! インディー」高校生のみずみずしい感情を描く青春アドベンチャー『U…",
       "summary": "",
       "published_at": "2026-03-26T01:02:36.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "NINTENDO",
@@ -5198,6 +5557,7 @@
         "GAME",
         "NINTENDO"
       ],
+      "sourceType": "news",
       "sources": [
         "Nintendo News"
       ],
@@ -5212,7 +5572,7 @@
       "displayTitle": "魔王と不思議な子ども、奇妙な“親子”の大冒険。『DAMON and BABY…",
       "summary": "",
       "published_at": "2026-03-26T01:02:07.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "NINTENDO",
@@ -5223,6 +5583,7 @@
         "GAME",
         "NINTENDO"
       ],
+      "sourceType": "news",
       "sources": [
         "Nintendo News"
       ],
@@ -5237,7 +5598,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-26T00:10:10.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "NINTENDO",
@@ -5248,6 +5609,7 @@
         "GAME",
         "NINTENDO"
       ],
+      "sourceType": "news",
       "sources": [
         "Nintendo News"
       ],
@@ -5262,7 +5624,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-25T15:00:20.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "SONY",
       "topic": "SONY",
@@ -5273,6 +5635,7 @@
         "SONY",
         "GAME"
       ],
+      "sourceType": "news",
       "sources": [
         "PlayStation Blog"
       ],
@@ -5287,7 +5650,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-25T14:01:43.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "NINTENDO",
@@ -5298,33 +5661,9 @@
         "GAME",
         "NINTENDO"
       ],
+      "sourceType": "news",
       "sources": [
         "Nintendo News"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "A",
-      "defaultVisible": false
-    },
-    {
-      "id": "7b2366d97b47d049",
-      "source": "OpenAI News",
-      "title": "Inside our approach to the Model Spec",
-      "displayTitle": "",
-      "summary": "",
-      "published_at": "2026-03-25T10:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "published_at",
-      "category": "AI",
-      "topic": "OPENAI",
-      "priority": 44,
-      "url": "https://openai.com/index/our-approach-to-the-model-spec",
-      "hot": false,
-      "tags": [
-        "AI",
-        "OPENAI"
-      ],
-      "sources": [
-        "OpenAI News"
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
@@ -5337,7 +5676,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-23T17:00:08.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -5348,6 +5687,7 @@
         "APPLE",
         "TECH"
       ],
+      "sourceType": "press",
       "sources": [
         "Apple Newsroom"
       ],
@@ -5362,7 +5702,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-17T10:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -5373,6 +5713,7 @@
         "AI",
         "OPENAI"
       ],
+      "sourceType": "product",
       "sources": [
         "OpenAI News"
       ],
@@ -5387,7 +5728,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-16T12:59:07.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -5398,6 +5739,7 @@
         "APPLE",
         "TECH"
       ],
+      "sourceType": "press",
       "sources": [
         "Apple Newsroom"
       ],
@@ -5412,7 +5754,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-14T03:12:58.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -5423,6 +5765,7 @@
         "APPLE",
         "TECH"
       ],
+      "sourceType": "press",
       "sources": [
         "Apple Newsroom"
       ],
@@ -5437,7 +5780,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-12T12:59:02.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -5448,6 +5791,7 @@
         "APPLE",
         "TECH"
       ],
+      "sourceType": "press",
       "sources": [
         "Apple Newsroom"
       ],
@@ -5462,7 +5806,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-11T14:00:04.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -5473,6 +5817,7 @@
         "APPLE",
         "TECH"
       ],
+      "sourceType": "press",
       "sources": [
         "Apple Newsroom"
       ],
@@ -5487,7 +5832,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-11T13:58:47.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -5498,6 +5843,7 @@
         "APPLE",
         "TECH"
       ],
+      "sourceType": "press",
       "sources": [
         "Apple Newsroom"
       ],
@@ -5512,7 +5858,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-11T12:59:12.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -5523,6 +5869,7 @@
         "APPLE",
         "TECH"
       ],
+      "sourceType": "press",
       "sources": [
         "Apple Newsroom"
       ],
@@ -5537,7 +5884,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-05T13:59:20.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -5548,6 +5895,7 @@
         "APPLE",
         "TECH"
       ],
+      "sourceType": "press",
       "sources": [
         "Apple Newsroom"
       ],
@@ -5562,7 +5910,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-04T14:15:47.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -5573,6 +5921,7 @@
         "APPLE",
         "TECH"
       ],
+      "sourceType": "press",
       "sources": [
         "Apple Newsroom"
       ],
@@ -5587,7 +5936,7 @@
       "displayTitle": "苹果发布搭载 M5 的新 MacBook Air",
       "summary": "",
       "published_at": "2026-03-03T14:01:02.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -5598,8 +5947,35 @@
         "APPLE",
         "TECH"
       ],
+      "sourceType": "press",
       "sources": [
         "Apple Newsroom"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "A",
+      "defaultVisible": false
+    },
+    {
+      "id": "dc1a438136139ef8",
+      "source": "Stratechery",
+      "title": "Arm Launches Own CPU, Arm’s Motivation, Constraints and Systems",
+      "displayTitle": "Arm 推出自研 CPU，动机与约束浮出水面",
+      "summary": "Arm is selling its own chips, not just licensing IP. It's a big change compared to Arm's history, but not surprising given how computing is evolving.",
+      "published_at": "2026-03-25T10:00:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "TECH",
+      "topic": "TECH",
+      "priority": 41,
+      "url": "https://stratechery.com/2026/arm-launches-own-cpu-arms-motivation-constraints-and-systems/",
+      "hot": true,
+      "tags": [
+        "TECH",
+        "STRATECHERY"
+      ],
+      "sourceType": "analysis",
+      "sources": [
+        "Stratechery"
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
@@ -5612,7 +5988,7 @@
       "displayTitle": "",
       "summary": "The optimistic space-race drama, starting its fifth season, imagines humans settling space without tech colonizing our minds.",
       "published_at": "2026-03-27T09:02:14.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "TV",
@@ -5623,6 +5999,7 @@
         "TV",
         "NYT"
       ],
+      "sourceType": "nyt-topstories",
       "sources": [
         "NYT"
       ],
@@ -5637,7 +6014,7 @@
       "displayTitle": "",
       "summary": "With a third of the global supply offline because of the war in Iran, gas companies are scrambling to assure critical A.I. chip makers there will be no disruptions.",
       "published_at": "2026-03-27T04:00:21.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -5648,6 +6025,7 @@
         "TECH",
         "NYT"
       ],
+      "sourceType": "nyt-topstories",
       "sources": [
         "NYT"
       ],
@@ -5662,7 +6040,7 @@
       "displayTitle": "",
       "summary": "The world’s largest crypto exchange is under fire after investigators found accounts moving $1.7 billion to entities linked to Iran. Clues about those accounts were in plain sight for over a year.",
       "published_at": "2026-03-26T18:37:34.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -5673,8 +6051,61 @@
         "TECH",
         "NYT"
       ],
+      "sourceType": "nyt-topstories",
       "sources": [
         "NYT"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "A",
+      "defaultVisible": false
+    },
+    {
+      "id": "f89d71b0ee59900b",
+      "source": "Reddit",
+      "title": "Model Y is bestselling car in the world for 2025 (3rd year in a row), according to several firms.",
+      "displayTitle": "",
+      "summary": "r/teslamotors • 1090 points • 291 comments",
+      "published_at": "2026-03-25T21:46:54.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "TESLA",
+      "topic": "TESLA",
+      "priority": 40,
+      "url": "https://www.reddit.com/r/teslamotors/comments/1s3og53/model_y_is_bestselling_car_in_the_world_for_2025/",
+      "hot": true,
+      "tags": [
+        "TESLA",
+        "REDDIT"
+      ],
+      "sourceType": "reddit",
+      "sources": [
+        "Reddit"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "C",
+      "defaultVisible": false
+    },
+    {
+      "id": "7b2366d97b47d049",
+      "source": "OpenAI News",
+      "title": "Inside our approach to the Model Spec",
+      "displayTitle": "",
+      "summary": "",
+      "published_at": "2026-03-25T10:00:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "AI",
+      "topic": "OPENAI",
+      "priority": 38,
+      "url": "https://openai.com/index/our-approach-to-the-model-spec",
+      "hot": false,
+      "tags": [
+        "AI",
+        "OPENAI"
+      ],
+      "sourceType": "news",
+      "sources": [
+        "OpenAI News"
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
@@ -5687,7 +6118,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-25T01:25:48.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "NINTENDO",
@@ -5698,6 +6129,7 @@
         "GAME",
         "NINTENDO"
       ],
+      "sourceType": "news",
       "sources": [
         "Nintendo News"
       ],
@@ -5712,7 +6144,7 @@
       "displayTitle": "『Pokémon Champions』の紹介映像を公開。4月8日に配信決定。",
       "summary": "",
       "published_at": "2026-03-25T01:09:25.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "NINTENDO",
@@ -5723,6 +6155,7 @@
         "GAME",
         "NINTENDO"
       ],
+      "sourceType": "news",
       "sources": [
         "Nintendo News"
       ],
@@ -5737,7 +6170,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-25T00:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "SONY",
       "topic": "SONY",
@@ -5748,6 +6181,7 @@
         "SONY",
         "GAME"
       ],
+      "sourceType": "news",
       "sources": [
         "PlayStation Blog"
       ],
@@ -5762,7 +6196,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-24T11:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -5773,36 +6207,12 @@
         "AI",
         "OPENAI"
       ],
+      "sourceType": "news",
       "sources": [
         "OpenAI News"
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
-    },
-    {
-      "id": "291e1b1c18317d0c",
-      "source": "Reddit",
-      "title": "\"Something way cooler than a minivan is coming\"",
-      "displayTitle": "",
-      "summary": "r/teslamotors • 177 points • 345 comments",
-      "published_at": "2026-03-25T05:27:35.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
-      "time_source": "published_at",
-      "category": "TESLA",
-      "topic": "TESLA",
-      "priority": 36,
-      "url": "https://www.reddit.com/r/teslamotors/comments/1s320ic/something_way_cooler_than_a_minivan_is_coming/",
-      "hot": false,
-      "tags": [
-        "TESLA",
-        "REDDIT"
-      ],
-      "sources": [
-        "Reddit"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "C",
       "defaultVisible": false
     },
     {
@@ -5812,7 +6222,7 @@
       "displayTitle": "",
       "summary": "Joel Schumacher apologized for “Batman & Robin,” his corny 1997 superhero movie, but thanks to its ice puns and bat nipples, it’s since become an accidental parody worth howling at.",
       "published_at": "2026-03-26T09:02:29.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "MOVIE",
@@ -5823,6 +6233,7 @@
         "MOVIE",
         "NYT"
       ],
+      "sourceType": "nyt-topstories",
       "sources": [
         "NYT"
       ],
@@ -5837,7 +6248,7 @@
       "displayTitle": "",
       "summary": "Zazie Beetz fights her way through a high-rise of horrors in a splatter-fest that concentrates its creativity in its gore.",
       "published_at": "2026-03-26T09:01:59.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "MOVIE",
@@ -5848,6 +6259,7 @@
         "MOVIE",
         "NYT"
       ],
+      "sourceType": "nyt-topstories",
       "sources": [
         "NYT"
       ],
@@ -5862,7 +6274,7 @@
       "displayTitle": "",
       "summary": "A reckless incident at a party throws a young girl’s life into turmoil in this extraordinary third feature from Julia Ducournau.",
       "published_at": "2026-03-26T09:01:34.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "MOVIE",
@@ -5873,6 +6285,7 @@
         "MOVIE",
         "NYT"
       ],
+      "sourceType": "nyt-topstories",
       "sources": [
         "NYT"
       ],
@@ -5887,7 +6300,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-24T09:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -5898,6 +6311,7 @@
         "AI",
         "OPENAI"
       ],
+      "sourceType": "news",
       "sources": [
         "OpenAI News"
       ],
@@ -5912,7 +6326,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-24T09:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -5923,6 +6337,7 @@
         "AI",
         "OPENAI"
       ],
+      "sourceType": "news",
       "sources": [
         "OpenAI News"
       ],
@@ -5937,7 +6352,7 @@
       "displayTitle": "『カービィのエアライダー』の「一問一答！」ページを更新しました。…",
       "summary": "",
       "published_at": "2026-03-24T01:07:26.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "NINTENDO",
@@ -5948,6 +6363,7 @@
         "GAME",
         "NINTENDO"
       ],
+      "sourceType": "news",
       "sources": [
         "Nintendo News"
       ],
@@ -5962,7 +6378,7 @@
       "displayTitle": "ニンテンドーeショップ新作ソフト情報 3/23（月）号。",
       "summary": "",
       "published_at": "2026-03-23T01:01:53.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "NINTENDO",
@@ -5973,6 +6389,7 @@
         "GAME",
         "NINTENDO"
       ],
+      "sourceType": "news",
       "sources": [
         "Nintendo News"
       ],
@@ -5987,7 +6404,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-23T00:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -5998,6 +6415,7 @@
         "AI",
         "OPENAI"
       ],
+      "sourceType": "news",
       "sources": [
         "OpenAI News"
       ],
@@ -6012,7 +6430,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-19T10:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -6023,6 +6441,7 @@
         "AI",
         "OPENAI"
       ],
+      "sourceType": "news",
       "sources": [
         "OpenAI News"
       ],
@@ -6037,7 +6456,7 @@
       "displayTitle": "OpenAI 将收购 Astral",
       "summary": "",
       "published_at": "2026-03-19T00:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -6048,6 +6467,7 @@
         "AI",
         "OPENAI"
       ],
+      "sourceType": "news",
       "sources": [
         "OpenAI News"
       ],
@@ -6061,8 +6481,8 @@
       "title": "Sony Interactive Marks 200 Apprentices in Career Program",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-18T00:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-17T16:00:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "SONY",
       "topic": "SONY",
@@ -6073,6 +6493,7 @@
         "SONY",
         "GAME"
       ],
+      "sourceType": "news",
       "sources": [
         "Sony Interactive"
       ],
@@ -6087,7 +6508,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-17T10:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -6098,6 +6519,7 @@
         "AI",
         "OPENAI"
       ],
+      "sourceType": "news",
       "sources": [
         "OpenAI News"
       ],
@@ -6112,7 +6534,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-17T00:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -6123,6 +6545,7 @@
         "AI",
         "OPENAI"
       ],
+      "sourceType": "news",
       "sources": [
         "OpenAI News"
       ],
@@ -6137,7 +6560,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-12T04:18:35.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "ONEKEY",
@@ -6148,6 +6571,7 @@
         "CRYPTO_TOOLS",
         "ONEKEY"
       ],
+      "sourceType": "news",
       "sources": [
         "OneKey Blog"
       ],
@@ -6162,7 +6586,7 @@
       "displayTitle": "智能体 Over Bubbles",
       "summary": "Agents are fundamentally changing the shape of demand for compute, both in terms of how they work and in terms of who will use them. They're so compelling that I no longer believe we're in a bubble.",
       "published_at": "2026-03-16T10:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -6173,6 +6597,7 @@
         "TECH",
         "STRATECHERY"
       ],
+      "sourceType": "analysis",
       "sources": [
         "Stratechery"
       ],
@@ -6181,13 +6606,39 @@
       "defaultVisible": false
     },
     {
+      "id": "291e1b1c18317d0c",
+      "source": "Reddit",
+      "title": "\"Something way cooler than a minivan is coming\"",
+      "displayTitle": "",
+      "summary": "r/teslamotors • 176 points • 345 comments",
+      "published_at": "2026-03-25T05:27:35.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
+      "time_source": "published_at",
+      "category": "TESLA",
+      "topic": "TESLA",
+      "priority": 28,
+      "url": "https://www.reddit.com/r/teslamotors/comments/1s320ic/something_way_cooler_than_a_minivan_is_coming/",
+      "hot": false,
+      "tags": [
+        "TESLA",
+        "REDDIT"
+      ],
+      "sourceType": "reddit",
+      "sources": [
+        "Reddit"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "C",
+      "defaultVisible": false
+    },
+    {
       "id": "1d90d88b02e994f5",
       "source": "Riot Games",
       "title": "NEVER FIGHT ALONE // Miks Agent Trailer - VALORANT",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-15T00:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-14T16:00:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "RIOT",
@@ -6199,6 +6650,7 @@
         "RIOT",
         "NEWS"
       ],
+      "sourceType": "news",
       "sources": [
         "Riot Games"
       ],
@@ -6212,8 +6664,8 @@
       "title": "First Stand 2026",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-10T00:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-09T16:00:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "RIOT",
@@ -6225,6 +6677,7 @@
         "RIOT",
         "NEWS"
       ],
+      "sourceType": "news",
       "sources": [
         "Riot Games"
       ],
@@ -6238,8 +6691,8 @@
       "title": "March Update 2026 | Dev Snapshot",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-09T00:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-08T16:00:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "RIOT",
@@ -6251,6 +6704,7 @@
         "RIOT",
         "NEWS"
       ],
+      "sourceType": "news",
       "sources": [
         "Riot Games"
       ],
@@ -6264,8 +6718,8 @@
       "title": "FST 2026 Primer",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-02T00:00:00.000Z",
-      "fetched_at": "2026-03-29T09:59:43.000Z",
+      "published_at": "2026-03-01T16:00:00.000Z",
+      "fetched_at": "2026-03-29T10:04:58.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "RIOT",
@@ -6277,6 +6731,7 @@
         "RIOT",
         "NEWS"
       ],
+      "sourceType": "news",
       "sources": [
         "Riot Games"
       ],

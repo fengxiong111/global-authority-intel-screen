@@ -209,6 +209,19 @@
         && !includesAny(text, SIGNAL_TERMS.weak);
     }
 
+    function isCommunityHot(item, text) {
+      return item.sourceType === 'community_hot'
+        && hasCjk(item.displayTitle || '')
+        && !includesAny(text, SIGNAL_TERMS.weak)
+        && ((item.score || 0) >= 120 || (item.comments || 0) >= 80 || item.hot);
+    }
+
+    function isXHot(item, text) {
+      return item.sourceType === 'x_hot'
+        && !includesAny(text, SIGNAL_TERMS.weak)
+        && includesAny(text, ['codex', 'plugin', 'security', 'bug bounty', 'btc', 'bitcoin', 'etf', 'market', 'prediction market', 'war', 'iran']);
+    }
+
     function isSecondaryNyt(item, text) {
       return item.source === 'NYT'
         && !/^[A-Za-z][A-Za-z.& -]+\s\d{1,2}:\d{2}$/.test(item.title || '')
@@ -267,12 +280,13 @@
     }
 
     function isLowValue(item, text) {
+      const isAttentionSource = ['x_hot', 'github_trending', 'community_hot'].includes(item.sourceType);
       if (item.topic === 'TESLA' || item.source === 'Tesla IR') return true;
       if (!hasCjk(item.displayTitle || '') && item.topic !== 'OPENCLAW') return true;
-      if (cjkRatio(item.displayTitle || '') < 0.26 && item.topic !== 'OPENCLAW') return true;
+      if (!isAttentionSource && cjkRatio(item.displayTitle || '') < 0.26 && item.topic !== 'OPENCLAW') return true;
       if (includesAny(text, SIGNAL_TERMS.weak)) return true;
       if (GAME_TOPICS.has(item.topic) && !includesAny(text, ['faker', 'worlds', 'championship', '被 ai 取代'])) return true;
-      if (item.source === 'Reddit' && !isSecondaryReddit(item, text)) return true;
+      if (item.source === 'Reddit' && !isSecondaryReddit(item, text) && !isCommunityHot(item, text)) return true;
       if (item.source === 'NYT' && !isSecondaryNyt(item, text) && !isMacroSignal(item, text)) return true;
       if (CHART_SOURCES.has(item.source) && !isSecondaryChart(item)) return true;
       return false;
@@ -294,6 +308,9 @@
         || isAppleChange(item, text)
         || isHeadlineMacroSignal(item)
         || isInfrastructureSignal(item, text)
+        || isXHot(item, text)
+        || isCommunityHot(item, text)
+        || item.sourceType === 'github_trending'
         || isSecondaryReddit(item, text)
         || isSecondaryNyt(item, text)
         || (STRONG_SOURCES.has(item.source) && includesAny(`${item.title || ''} ${item.displayTitle || ''}`.toLowerCase(), STRONG_SIGNAL_TERMS));
@@ -340,7 +357,7 @@
 
       if (item.source === 'NYT' && item.topic === 'ANTHROPIC' && includesAny(text, ['judge', 'court', 'pentagon', 'supply chain risk'])) penalty += 150;
       if (item.topic === 'ONEKEY' || item.source === 'OneKey Blog') penalty += 140;
-      if (isInfrastructureSignal(item, text) && !hardInfo) penalty += 90;
+      if (isInfrastructureSignal(item, text) && !hardInfo && !['x_hot', 'github_trending', 'community_hot'].includes(item.sourceType)) penalty += 90;
       if (titleLength >= 24 && !hardInfo) penalty += 24;
       if (!hardInfo && !isSecondaryReddit(item, text) && !isSecondaryNyt(item, text)) penalty += 36;
       return penalty;
@@ -360,7 +377,12 @@
       if (isHeadlineMacroSignal(item)) score += 122;
       else if (isMacroSignal(item, text)) score += 88;
       if (isInfrastructureSignal(item, text)) score += 26;
+      if (item.sourceType === 'x_hot') score += 40;
+      if (item.sourceType === 'github_trending') score += 35;
+      if (item.sourceType === 'community_hot') score += 30;
       if (isSecondaryReddit(item, text)) score += 34;
+      if (isCommunityHot(item, text)) score += 30;
+      if (isXHot(item, text)) score += 36;
       if (isSecondaryNyt(item, text)) score += 14;
       if (isSecondaryChart(item)) score += 10;
 
@@ -391,6 +413,9 @@
       if (isBtcExtremeSignal(item, text)) score += 170;
       if (isWarEscalation(item, text)) score += 165;
       if (isOfficialApple(item) || isAppleChange(item, text)) score += 150;
+      if (item.sourceType === 'x_hot') score += 40;
+      if (item.sourceType === 'github_trending') score += 35;
+      if (item.sourceType === 'community_hot') score += 30;
 
       if (isSecondaryReddit(item, text)) score += 38;
       if (isSecondaryNyt(item, text)) score += 22;
@@ -398,7 +423,7 @@
 
       if (titleLength >= 26) score -= 16;
       if (!hasCjk(title) && item.topic !== 'OPENCLAW') score -= 40;
-      if (isInfrastructureSignal(item, text) && !isTopTierTimeException(item, text)) score -= 48;
+      if (isInfrastructureSignal(item, text) && !isTopTierTimeException(item, text) && !['x_hot', 'github_trending', 'community_hot'].includes(item.sourceType)) score -= 48;
       if (includesAny(text, ['podcast', '播客', 'discussion', 'thread', 'megathread', 'rumor', 'rumors', '吐槽'])) score -= 120;
 
       if (ageHours(item) > 24) score -= 12;
@@ -593,7 +618,7 @@
       const themeCap = new Map();
       const projectCap = new Map();
 
-      const candidates = scored.filter((entry) => entry.signalScore >= threshold);
+      const candidates = scored.filter((entry) => Math.max(entry.signalScore, entry.attentionScore) >= threshold);
 
       function tryPick(entry, diversifyFirstFive) {
         const item = {
@@ -648,7 +673,7 @@
             boost: candidateBoost(item),
           };
         })
-        .filter((entry) => entry.signalScore >= 60)
+        .filter((entry) => entry.signalScore >= 60 || entry.attentionScore >= 60)
         .sort((a, b) =>
           b.attentionScore - a.attentionScore
           || b.signalScore - a.signalScore

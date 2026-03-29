@@ -1,14 +1,14 @@
 import { fetchFeed, makeItem, keywordTopicFromText, takeFirst, cleanText } from '../utils.mjs';
 
 const ACCOUNTS = [
-  { handle: 'OpenAI', topic: 'OPENAI', priorityHint: 20 },
-  { handle: 'OpenAIDevs', topic: 'OPENAI', priorityHint: 24 },
-  { handle: 'sama', topic: 'OPENAI', priorityHint: 18 },
-  { handle: 'AnthropicAI', topic: 'ANTHROPIC', priorityHint: 20 },
-  { handle: 'karpathy', topic: 'CLAUDE', priorityHint: 18 },
-  { handle: 'Polymarket', topic: 'BTC', priorityHint: 18 },
-  { handle: 'Kalshi', topic: 'BTC', priorityHint: 18 },
-  { handle: 'DefiantNews', topic: 'BTC', priorityHint: 16 },
+  { handle: 'OpenAI', topic: 'OPENAI', priorityHint: 26, tier: 'core' },
+  { handle: 'OpenAIDevs', topic: 'OPENAI', priorityHint: 32, tier: 'core' },
+  { handle: 'sama', topic: 'OPENAI', priorityHint: 22, tier: 'core' },
+  { handle: 'AnthropicAI', topic: 'ANTHROPIC', priorityHint: 26, tier: 'core' },
+  { handle: 'karpathy', topic: 'CLAUDE', priorityHint: 22, tier: 'core' },
+  { handle: 'Polymarket', topic: 'BTC', priorityHint: 24, tier: 'market' },
+  { handle: 'Kalshi', topic: 'BTC', priorityHint: 24, tier: 'market' },
+  { handle: 'DefiantNews', topic: 'BTC', priorityHint: 20, tier: 'market' },
 ];
 
 const KEYWORDS = [
@@ -51,6 +51,31 @@ function includesSignal(text) {
   return KEYWORDS.some((keyword) => text.includes(keyword));
 }
 
+function looksHot(text) {
+  return [
+    'breaking',
+    'rollout',
+    'rolling out',
+    'launch',
+    'shipping',
+    'now available',
+    'introduced',
+    'plugins',
+    'security',
+    'bug bounty',
+    'market',
+    'etf',
+    'prediction market',
+    'shutdown',
+    'war',
+    'iran',
+    'troops',
+    'btc',
+    'bitcoin',
+    'codex',
+  ].some((keyword) => text.includes(keyword));
+}
+
 function inferTopic(text, fallback) {
   if (text.includes('polymarket') || text.includes('kalshi') || text.includes('prediction market')) return 'BTC';
   return keywordTopicFromText(text, fallback);
@@ -77,12 +102,12 @@ export default async function xScan() {
   return results.flatMap((result) => {
     if (result.status !== 'fulfilled') return [];
     const { account, feed } = result.value;
-    return takeFirst(feed.items || [], 2)
+    return takeFirst(feed.items || [], 3)
       .map((entry, index) => {
         const title = normalizeTweetTitle(entry.title);
         const summary = cleanText(entry.contentSnippet || entry.content || '');
         const text = `${title} ${summary}`.toLowerCase();
-        if (!title || title.startsWith('@') || /^x\.com\//i.test(title) || title.length < 18 || !includesSignal(text)) return null;
+        if (!title || title.startsWith('@') || /^x\.com\//i.test(title) || title.length < 18 || !includesSignal(text) || !looksHot(text)) return null;
         const topic = inferTopic(text, account.topic);
         const category = mapCategory(topic);
         return makeItem({
@@ -94,11 +119,11 @@ export default async function xScan() {
           category,
           topic,
           tags: ['X', category, topic],
-          sourceType: 'x-scan',
+          sourceType: 'x_hot',
           official: false,
           hot: index === 0,
           rank: index + 1,
-          priorityHint: Math.max(12, account.priorityHint - index),
+          priorityHint: Math.max(18, account.priorityHint - index * 2),
         });
       })
       .filter(Boolean);

@@ -30,21 +30,21 @@ export default async function githubTrending() {
     items.push(
       makeItem({
         source: 'GitHub Trending',
-        title: `GitHub 热门：${repo}`,
+        title: `GitHub 热门工具：${repo.split('/').pop() || repo}`,
         summary: description,
         url: `https://github.com/${repo}`,
         time: new Date().toISOString(),
         category,
         topic,
         tags: ['GITHUB', category, topic],
-        sourceType: 'github-trending',
+        sourceType: 'github_trending',
         official: false,
         hot: index < 3,
         rank: index + 1,
-        priorityHint: Math.max(10, 24 - index * 2),
+        priorityHint: Math.max(18, 34 - index * 3),
       }),
     );
   });
 
-  return takeFirst(items, 8).filter(Boolean);
+  return takeFirst(items, 5).filter(Boolean);
 }

@@ -24,6 +24,7 @@ import githubTrending from './sources/github_trending.mjs';
 import highSignalBlogs from './sources/high_signal_blogs.mjs';
 import cryptoNative from './sources/crypto_native.mjs';
 import xScan from './sources/x_scan.mjs';
+import hnTop from './sources/hn_top.mjs';
 
 const sources = [
   apple,
@@ -50,6 +51,7 @@ const sources = [
   highSignalBlogs,
   cryptoNative,
   xScan,
+  hnTop,
 ];
 
 const batchFetchedAt = new Date().toISOString();
@@ -94,6 +96,7 @@ for (const sourceName of [
   'The Defiant',
   'Polymarket Blog',
   'X',
+  'Hacker News',
 ]) {
   if (feed.some((item) => item.source === sourceName)) continue;
   const fallbackItems = existingFeed.filter((item) => item.source === sourceName);

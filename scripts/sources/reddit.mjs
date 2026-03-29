@@ -43,6 +43,28 @@ function redditPriorityHint(score, rank) {
   return Math.max(10, 13 - Math.min(rank, 3));
 }
 
+function isCommunityHot(title, score, comments) {
+  const text = cleanText(title).toLowerCase();
+  const hasInfo = [
+    'openai',
+    'anthropic',
+    'claude',
+    'codex',
+    'agent',
+    'apple',
+    'iphone',
+    'btc',
+    'bitcoin',
+    'etf',
+    'prediction market',
+    'polymarket',
+    'kalshi',
+    'war',
+    'iran',
+  ].some((keyword) => text.includes(keyword));
+  return hasInfo && (score >= 1200 || comments >= 180);
+}
+
 async function fetchSubreddit(base, config) {
   const $ = await fetchDom(`${base}/r/${config.name}/hot`);
   return takeFirst(
@@ -72,12 +94,12 @@ async function fetchSubreddit(base, config) {
         category,
         topic,
         tags: [category, 'REDDIT', topic],
-        sourceType: 'reddit',
+        sourceType: isCommunityHot(title, score, comments) ? 'community_hot' : 'reddit',
         official: false,
         score,
         comments,
         hot: score >= 700 || index === 0,
-        priorityHint: redditPriorityHint(score, index + 1),
+        priorityHint: redditPriorityHint(score, index + 1) + (isCommunityHot(title, score, comments) ? 10 : 0),
       });
     })
     .filter(Boolean);
