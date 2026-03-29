@@ -270,33 +270,53 @@
       return isWhitelistTopic(item, text) && (isPrimaryAiRelease(item, text) || isHeadlineMacroSignal(item));
     }
 
+    function attentionPenalty(item, text) {
+      let penalty = 0;
+      const title = String(item.displayTitle || item.title || '');
+      const titleLength = title.replace(/\s+/g, '').length;
+      const primary = isPrimaryAiRelease(item, text);
+      const apple = isAppleChange(item, text);
+      const macro = isHeadlineMacroSignal(item) || isMacroSignal(item, text);
+      const hardInfo = primary || apple || macro;
+
+      if (item.source === 'NYT' && item.topic === 'ANTHROPIC' && includesAny(text, ['judge', 'court', 'pentagon', 'supply chain risk'])) penalty += 150;
+      if (item.topic === 'ONEKEY' || item.source === 'OneKey Blog') penalty += 140;
+      if (isInfrastructureSignal(item, text) && !hardInfo) penalty += 90;
+      if (titleLength >= 24 && !hardInfo) penalty += 24;
+      if (!hardInfo && !isSecondaryReddit(item, text) && !isSecondaryNyt(item, text)) penalty += 36;
+      return penalty;
+    }
+
     function signalScore(item) {
       const text = `${item.title || ''} ${item.displayTitle || ''} ${item.summary || ''}`.toLowerCase();
       if (isLowValue(item, text)) return -999;
       if (!passesTimeGate(item, text)) return -999;
       if (!passesSignalGate(item, text)) return -999;
 
-      let score = (item.priority || 0) * 0.35;
-      if (includesAny(text, STRONG_SIGNAL_TERMS)) score += 72;
+      let score = (item.priority || 0) * 0.28;
+      if (includesAny(text, STRONG_SIGNAL_TERMS)) score += 54;
 
-      if (isPrimaryAiRelease(item, text)) score += 120;
-      if (isAppleChange(item, text)) score += 94;
-      if (isMacroSignal(item, text)) score += 108;
-      if (isInfrastructureSignal(item, text)) score += 88;
-      if (isSecondaryReddit(item, text)) score += 46;
-      if (isSecondaryNyt(item, text)) score += 34;
-      if (isSecondaryChart(item)) score += 24;
+      if (isPrimaryAiRelease(item, text)) score += 148;
+      if (isAppleChange(item, text)) score += 126;
+      if (isHeadlineMacroSignal(item)) score += 122;
+      else if (isMacroSignal(item, text)) score += 88;
+      if (isInfrastructureSignal(item, text)) score += 26;
+      if (isSecondaryReddit(item, text)) score += 34;
+      if (isSecondaryNyt(item, text)) score += 14;
+      if (isSecondaryChart(item)) score += 10;
 
-      if (item.topic === 'APPLE' && OFFICIAL_SOURCES.has(item.source)) score += 18;
-      if (OFFICIAL_SOURCES.has(item.source)) score += 22;
-      if (STRONG_SOURCES.has(item.source)) score += 28;
-      if (item.sourceLayer === 'A') score += 14;
-      if (item.source === 'OpenClaw GitHub') score += 60;
-      if (item.source === 'OpenClaw Blog') score -= 48;
-      if (item.source === 'Reddit') score -= 18;
-      if (item.source === 'NYT') score -= 4;
-      if (ageHours(item) > 48) score -= 42;
+      if (item.topic === 'APPLE' && OFFICIAL_SOURCES.has(item.source)) score += 16;
+      if (OFFICIAL_SOURCES.has(item.source)) score += 18;
+      if (STRONG_SOURCES.has(item.source)) score += 18;
+      if (item.sourceLayer === 'A') score += 10;
+      if (item.source === 'OpenClaw GitHub') score += 74;
+      if (item.source === 'OpenClaw Blog') score += 18;
+      if (item.source === 'Reddit') score -= 14;
+      if (item.source === 'NYT') score -= 8;
+      if (ageHours(item) > 24) score -= 18;
+      if (ageHours(item) > 48) score -= 36;
 
+      score -= attentionPenalty(item, text);
       return Math.round(score * 10) / 10;
     }
 
@@ -326,11 +346,14 @@
     function isNearDuplicate(item, selected) {
       const keyA = canonicalText(item.displayTitle || item.title || '');
       const tokensA = titleTokens(item.displayTitle || item.title || '');
+      const strictFamilies = new Set(['OPENCLAW_UPDATE', 'APPLE_CHANGE', 'ANTHROPIC_REGULATION', 'CRYPTO_INFRA']);
       return selected.some((picked) => {
         const keyB = canonicalText(picked.displayTitle || picked.title || '');
         if (!keyA || !keyB) return false;
         if (keyA === keyB) return true;
-        if (signalFamily(item) === signalFamily(picked)) return true;
+        const familyA = signalFamily(item);
+        const familyB = signalFamily(picked);
+        if (familyA === familyB && strictFamilies.has(familyA)) return true;
         if (keyA.length >= 12 && keyB.length >= 12 && (keyA.includes(keyB) || keyB.includes(keyA))) return true;
         const tokensB = titleTokens(picked.displayTitle || picked.title || '');
         const shared = tokensA.filter((token) => tokensB.includes(token));
@@ -479,11 +502,11 @@
 
       for (const entry of candidates) {
         tryPick(entry, true);
-        if (selected.length >= 5) break;
+        if (selected.length >= 4) break;
       }
 
       for (const entry of candidates) {
-        if (selected.length >= 8) break;
+        if (selected.length >= 4) break;
         tryPick(entry, false);
       }
 
@@ -509,14 +532,14 @@
         .filter((entry) => entry.signalScore >= 60)
         .sort((a, b) => b.signalScore - a.signalScore || b.recencyScore - a.recencyScore || b.item.timestamp - a.item.timestamp);
 
-      const thresholds = [180, 140, 110, 80];
+      const thresholds = [240, 200, 160, 120];
 
       for (const threshold of thresholds) {
         const selected = selectSignalItems(scored, threshold);
-        if (selected.length >= 5) return selected.slice(0, 6);
+        if (selected.length >= 4) return selected.slice(0, 4);
       }
 
-      return selectSignalItems(scored, 80).slice(0, 6);
+      return selectSignalItems(scored, 120).slice(0, 4);
     }
 
     async function loadFeed() {
