@@ -21,6 +21,9 @@ import nytMostpopular from './sources/nyt_mostpopular.mjs';
 import nytBooks from './sources/nyt_books.mjs';
 import bloomberg from './sources/bloomberg.mjs';
 import githubTrending from './sources/github_trending.mjs';
+import highSignalBlogs from './sources/high_signal_blogs.mjs';
+import cryptoNative from './sources/crypto_native.mjs';
+import xScan from './sources/x_scan.mjs';
 
 const sources = [
   apple,
@@ -44,6 +47,9 @@ const sources = [
   nytBooks,
   bloomberg,
   githubTrending,
+  highSignalBlogs,
+  cryptoNative,
+  xScan,
 ];
 
 const batchFetchedAt = new Date().toISOString();
@@ -76,7 +82,19 @@ const existingFeed = (Array.isArray(existingPayload) ? existingPayload : (existi
 const existingFetchTime = Array.isArray(existingPayload) ? null : Number(existingPayload.fetch_time || 0);
 let feed = normalizeFeed(merged);
 
-for (const sourceName of ['Reddit', 'NYT']) {
+for (const sourceName of [
+  'Reddit',
+  'NYT',
+  'GitHub Trending',
+  'SemiAnalysis',
+  'Stratechery',
+  'Simon Willison',
+  'Karpathy',
+  'The Block',
+  'The Defiant',
+  'Polymarket Blog',
+  'X',
+]) {
   if (feed.some((item) => item.source === sourceName)) continue;
   const fallbackItems = existingFeed.filter((item) => item.source === sourceName);
   if (fallbackItems.length > 0) {

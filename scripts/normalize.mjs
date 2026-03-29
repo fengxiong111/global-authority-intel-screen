@@ -38,6 +38,18 @@ const CHART_SOURCES = new Set([
   'IMDb TV',
 ]);
 
+const TRUSTED_SOURCES = new Set([
+  'Bloomberg',
+  'GitHub Trending',
+  'SemiAnalysis',
+  'Stratechery',
+  'Simon Willison',
+  'Karpathy',
+  'The Block',
+  'The Defiant',
+  'Polymarket Blog',
+]);
+
 const TOPIC_ZH = {
   APPLE: '苹果',
   OPENAI: 'OpenAI',
@@ -312,6 +324,21 @@ function genericChineseTitle(item, rawTitle) {
     ['\\bdaily limit\\b', '日额度'],
     ['\\bfull lp refund\\b', '全额返还 LP'],
     ['\\bdriver[\'’]s license\\b', '数字驾照'],
+    ['\\bagent[s]?\\b', '智能体'],
+    ['\\bcoding agent[s]?\\b', '编程智能体'],
+    ['\\bprediction market[s]?\\b', '预测市场'],
+    ['\\bstablecoin[s]?\\b', '稳定币'],
+    ['\\btokenized stock[s]?\\b', '代币化股票'],
+    ['\\blaunches?\\b', '发布'],
+    ['\\blaunch\\b', '发布'],
+    ['\\bvulnerabilit(y|ies)\\b', '漏洞'],
+    ['\\bsecurity\\b', '安全'],
+    ['\\bbitcoin\\b', '比特币'],
+    ['\\boption[s]?\\b', '期权'],
+    ['\\bfee\\b', '费率'],
+    ['\\bfund flow\\b', '资金流'],
+    ['\\bmarket structure\\b', '市场结构'],
+    ['\\binsider betting\\b', '内幕交易'],
     ['\\bfeature\\b', '功能'],
     ['\\bshutting down\\b', '停止运营'],
     ['\\bstate[s]?\\b', '州'],
@@ -361,6 +388,18 @@ function displayTitleForItem(item) {
     [/^Introducing Claude Sonnet 4\.6$/i, () => 'Claude Sonnet 4.6 发布'],
     [/^Introducing Claude Opus 4\.6$/i, () => 'Claude Opus 4.6 发布'],
     [/^Apple introduces the new MacBook Air with M5$/i, () => '苹果发布搭载 M5 的新 MacBook Air'],
+    [/^Introducing OpenClaw$/i, () => 'OpenClaw 正式发布'],
+    [/^OpenClaw Partners with VirusTotal for Skill Security$/i, () => 'OpenClaw 联手 VirusTotal 强化技能安全'],
+    [/^Amazon’s AI Resurgence: AWS & Anthropic’s Multi-Gigawatt Trainium Expansion$/i, () => '亚马逊加码 AI：AWS 与 Anthropic 扩建多吉瓦 Trainium'],
+    [/^GPT-5 Set the Stage for Ad Monetization and the SuperApp$/i, () => 'GPT-5 为广告变现与超级应用铺路'],
+    [/^2025 LLM Year in Review$/i, () => '2025 LLM 年度回顾'],
+    [/^Find, validate, and fix vulnerabilities with Codex Security.*$/i, () => 'Codex Security：查找、验证并修复漏洞'],
+    [/^Morgan Stanley sets spot bitcoin ETF fee at 0\.14%, undercutting every rival on the market$/i, () => '大摩将现货比特币 ETF 费率定为 0.14%，低于所有对手'],
+    [/^Bitcoin Hits Two-Week Low as \$443M in Longs Get Wiped Out$/i, () => '比特币跌至两周低点，4.43 亿美元多头被清算'],
+    [/^California bars officials from prediction market insider betting as federal ban takes shape$/i, () => '加州禁止官员参与预测市场内幕交易，联邦禁令成形'],
+    [/^Felix Launches Tokenized Stocks and ETFs on Hyperliquid Via Ondo Finance$/i, () => 'Felix 借助 Ondo 在 Hyperliquid 推出代币化股票与 ETF'],
+    [/^Arm Launches Own CPU, Arm’s Motivation, Constraints and Systems$/i, () => 'Arm 推出自研 CPU，动机与约束浮出水面'],
+    [/^We['’]re rolling out plugins in Codex\..*$/i, () => 'Codex 开始推送插件能力'],
     [/^Iran-Backed Houthis Join War as More US Troops Reach Region$/i, () => '胡塞武装卷入战事，美军增兵中东'],
     [/^Bitcoin Extends Slide as Options Point Toward Deeper Decline$/i, () => '比特币续跌，期权押注更深回撤'],
     [/^Kalshi Secures License to Offer Margin Trading to Pros$/i, () => 'Kalshi 获批向专业用户提供保证金交易'],
@@ -429,9 +468,11 @@ function classifySourceLayer(item) {
   if (OFFICIAL_SOURCES.has(item.source)) return 'A';
   if (item.source === 'NYT' && (isMajorEvent(item) || ['AI', 'TECH', 'APPLE', 'TESLA'].includes(item.category))) return 'A';
   if (item.source === 'Bloomberg' && (isMajorEvent(item) || ['AI', 'TECH', 'APPLE', 'TESLA', 'CRYPTO_TOOLS'].includes(item.category))) return 'A';
+  if (TRUSTED_SOURCES.has(item.source) && ['AI', 'TECH', 'APPLE', 'CRYPTO_TOOLS', 'TESLA'].includes(item.category)) return 'A';
 
   if (item.source === 'Reddit') return 'B';
   if (item.source === 'NYT') return 'B';
+  if (item.source === 'X') return 'B';
   return 'B';
 }
 
