@@ -153,6 +153,15 @@
     ]);
     const STRONG_SOURCES = new Set(['NYT', 'Bloomberg', 'Reuters', 'GitHub Trending']);
     const CHART_SOURCES = new Set(['Douban Movie Chart', 'JustWatch Movies', 'JustWatch TV', 'IMDb Movies', 'IMDb TV']);
+    const THEME_CAPS = new Map([
+      ['AI', 2],
+      ['APPLE', 1],
+      ['CRYPTO', 2],
+      ['MACRO', 2],
+      ['GAME', 1],
+      ['SCREEN', 1],
+      ['BOOK', 1],
+    ]);
     const PRIMARY_AI_TOPICS = new Set(['OPENCLAW', 'OPENAI', 'ANTHROPIC', 'CLAUDE', 'CLAUDE_CODE']);
     const GAME_TOPICS = new Set(['GAME', 'NINTENDO', 'SWITCH', 'LEAGUE_OF_LEGENDS', 'PLAYSTATION', 'SONY']);
     const TOKEN_STOPWORDS = new Set(['openai', 'anthropic', 'claude', 'apple', 'openclaw', 'the', 'and', 'for', 'with', 'this', 'that', 'will', 'into']);
@@ -465,6 +474,9 @@
       if (isInfrastructureSignal(item, text) && item.topic === 'ONEKEY') return 'CRYPTO_INFRA';
       if (item.topic === 'APPLE') return 'APPLE_CHANGE';
       if (PRIMARY_AI_TOPICS.has(item.topic)) return `${item.topic}_SIGNAL`;
+      if (GAME_TOPICS.has(item.topic)) return 'GAME_SIGNAL';
+      if (['MOVIE', 'TV'].includes(item.category) || ['MOVIE', 'TV'].includes(item.topic)) return 'SCREEN_SIGNAL';
+      if (item.category === 'BOOK' || item.topic === 'BOOK') return 'BOOK_SIGNAL';
       if (item.topic === 'TESLA') return 'TESLA_SIGNAL';
       return item.topic || item.source || 'OTHER';
     }
@@ -472,14 +484,29 @@
     function themeBucket(item) {
       const text = `${item.title || ''} ${item.displayTitle || ''} ${item.summary || ''}`.toLowerCase();
       const family = signalFamily(item);
-      if (family === 'OPENCLAW_UPDATE') return 'OPENCLAW';
-      if (isBtcExtremeSignal(item, text)) return 'BTC';
+      if (family === 'OPENCLAW_UPDATE' || family.endsWith('_SIGNAL') && PRIMARY_AI_TOPICS.has(item.topic)) return 'AI';
+      if (isGithubHot(item, text) || isXHot(item, text)) {
+        if (includesAny(text, ['apple', 'iphone', 'ipad', 'mac', 'ios'])) return 'APPLE';
+        if (includesAny(text, ['btc', 'bitcoin', 'etf', 'crypto', 'prediction market', 'polymarket', 'kalshi'])) return 'CRYPTO';
+        if (includesAny(text, ['war', 'iran', 'middle east', 'houthi', 'strike', 'troops', 'macro', 'regulation'])) return 'MACRO';
+        return 'AI';
+      }
+      if (isBtcExtremeSignal(item, text) || family === 'CRYPTO_INFRA' || ['BTC', 'ETF', 'CRYPTO_TOOLS'].includes(item.topic) || includesAny(text, ['btc', 'bitcoin', 'etf', 'crypto', 'prediction market', 'polymarket', 'kalshi'])) return 'CRYPTO';
       if (family === 'MACRO_SIGNAL') return 'MACRO';
-      if (family === 'CRYPTO_INFRA') return 'CRYPTO';
       if (family === 'APPLE_CHANGE') return 'APPLE';
-      if (family === 'ANTHROPIC_REGULATION' || family.endsWith('_SIGNAL')) return 'AI';
-      if (family === 'TESLA_SIGNAL') return 'TESLA';
-      return family;
+      if (family === 'ANTHROPIC_REGULATION') return 'AI';
+      if (family === 'GAME_SIGNAL') return 'GAME';
+      if (family === 'SCREEN_SIGNAL') return 'SCREEN';
+      if (family === 'BOOK_SIGNAL') return 'BOOK';
+      return null;
+    }
+
+    function sourcePriority(item) {
+      if (OFFICIAL_SOURCES.has(item.source) || ['product', 'release', 'blog'].includes(item.sourceType)) return 4;
+      if (item.sourceType === 'x_hot' || item.source === 'GitHub Trending') return 3;
+      if (STRONG_SOURCES.has(item.source) || String(item.sourceType || '').startsWith('bloomberg')) return 2;
+      if (item.sourceType === 'community_hot' || item.source === 'Reddit' || item.source === 'Hacker News') return 1;
+      return 0;
     }
 
     function isNearDuplicate(item, selected) {
@@ -652,7 +679,10 @@
       const themeCap = new Map();
       const projectCap = new Map();
 
-      const candidates = scored.filter((entry) => Math.max(entry.signalScore, entry.attentionScore) >= threshold);
+      const candidates = scored.filter((entry) => {
+        if (Math.max(entry.signalScore, entry.attentionScore) < threshold) return false;
+        return THEME_CAPS.has(themeBucket(entry.item));
+      });
 
       function tryPick(entry, diversifyFirstFive) {
         const item = {
@@ -662,11 +692,13 @@
         const theme = themeBucket(item);
         const project = projectKey(item);
         const nextSourceCount = sourceCap.get(item.source) || 0;
+        const themeLimit = THEME_CAPS.get(theme) || 0;
 
+        if (!themeLimit) return;
         if ((projectCap.get(project) || 0) >= 1) return;
         if (nextSourceCount >= 2) return;
-        if ((themeCap.get(theme) || 0) >= 2) return;
-        if (diversifyFirstFive && selected.length < 5 && (themeCap.get(theme) || 0) >= 1) return;
+        if ((themeCap.get(theme) || 0) >= themeLimit) return;
+        if (diversifyFirstFive && selected.length < 5 && themeLimit > 1 && (themeCap.get(theme) || 0) >= 1) return;
         if (isNearDuplicate(item, selected)) return;
 
         projectCap.set(project, (projectCap.get(project) || 0) + 1);
@@ -703,14 +735,16 @@
             attentionScore: attentionScore(item),
             signalScore: signalScore(item),
             recencyScore: recencyScore(item, text),
+            sourcePriority: sourcePriority(item),
             headlineClass: headlineClass(item),
             boost: candidateBoost(item),
           };
         })
-        .filter((entry) => entry.signalScore >= 60 || entry.attentionScore >= 60)
+        .filter((entry) => (entry.signalScore >= 60 || entry.attentionScore >= 60) && THEME_CAPS.has(themeBucket(entry.item)))
         .sort((a, b) =>
           b.attentionScore - a.attentionScore
           || b.signalScore - a.signalScore
+          || b.sourcePriority - a.sourcePriority
           || b.recencyScore - a.recencyScore
           || b.item.timestamp - a.item.timestamp
         );
