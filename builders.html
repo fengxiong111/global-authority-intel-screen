@@ -114,6 +114,10 @@
     let lastRenderSignature = '';
     let feedFetchTime = Math.floor(Date.now() / 1000);
 
+    function itemTimeValue(item) {
+      return item?.published_at || item?.fetched_at || null;
+    }
+
     const SIGNAL_TERMS = {
       aiRelease: ['release', '发布', '更新', 'launch', 'launched', 'introducing', 'beta', 'version', 'mini', 'nano', 'opus', 'sonnet', 'bug bounty', 'acquire', 'agent', 'coding agent', 'claude code', 'model spec', 'computer use'],
       appleChange: ['iphone', 'ipad', 'mac', 'macbook', 'airpods', 'watch', 'ios', '应用', '功能', 'feature', 'product', 'm5', 'new app', '数字驾照'],
@@ -234,8 +238,9 @@
     }
 
     function ageHours(item) {
-      if (!item.timestamp) return Number.POSITIVE_INFINITY;
-      return (Math.floor(Date.now() / 1000) - item.timestamp) / 3600;
+      const ts = validTimestamp(itemTimeValue(item));
+      if (!ts) return Number.POSITIVE_INFINITY;
+      return (Math.floor(Date.now() / 1000) - ts) / 3600;
     }
 
     function isWhitelistTopic(item, text) {
@@ -377,15 +382,7 @@
     }
 
     function buildSignature(items) {
-      return Array.isArray(items) ? items.map(item => `${item.id}::${item.title || ''}::${item.timestamp || ''}`).join('\n') : '';
-    }
-
-    function formatFetchFreshness() {
-      const safeTs = validTimestamp(feedFetchTime);
-      if (!safeTs) return '';
-      const diffHours = (Date.now() - safeTs * 1000) / (1000 * 60 * 60);
-      if (!Number.isFinite(diffHours) || diffHours <= 2) return '';
-      return `${Math.max(2, Math.floor(diffHours))} 小时前更新`;
+      return Array.isArray(items) ? items.map(item => `${item.id}::${item.title || ''}::${item.published_at || ''}::${item.fetched_at || ''}`).join('\n') : '';
     }
 
     function formatRelativeTime(ts) {
@@ -393,8 +390,7 @@
       if (!safeTs) return '';
       const date = new Date(safeTs * 1000);
       if (Number.isNaN(date.getTime())) return '';
-      const referenceTs = validTimestamp(feedFetchTime) ?? Math.floor(Date.now() / 1000);
-      const diff = referenceTs * 1000 - date.getTime();
+      const diff = Date.now() - date.getTime();
       const mins = Math.floor(diff / 60000);
       if (mins < 1) return '刚刚';
       if (mins < 60) return `${mins} 分钟前`;
@@ -436,7 +432,7 @@
       headline.textContent = item.displayTitle || item.title || '';
       const meta = document.createElement('div');
       meta.className = 'meta';
-      meta.textContent = [formatRelativeTime(item.timestamp), formatFetchFreshness()].filter(Boolean).join(' · ');
+      meta.textContent = formatRelativeTime(itemTimeValue(item));
       article.appendChild(headline);
       article.appendChild(meta);
       if (entering && !reduceMotion) {
@@ -468,7 +464,7 @@
           const nextTitle = item.displayTitle || item.title || '';
           if (textEl && textEl.textContent !== nextTitle) textEl.textContent = nextTitle;
           const metaEl = node.querySelector('.meta');
-          if (metaEl) metaEl.textContent = [formatRelativeTime(item.timestamp), formatFetchFreshness()].filter(Boolean).join(' · ');
+          if (metaEl) metaEl.textContent = formatRelativeTime(itemTimeValue(item));
         }
         fragment.appendChild(node);
       }
@@ -527,7 +523,7 @@
       const base = Array.isArray(items)
         ? items
           .filter(Boolean)
-          .map((item) => ({ ...item, timestamp: validTimestamp(item.timestamp) }))
+          .map((item) => ({ ...item, timestamp: validTimestamp(itemTimeValue(item)) }))
           .filter((item) => item.timestamp)
         : [];
       const scored = base

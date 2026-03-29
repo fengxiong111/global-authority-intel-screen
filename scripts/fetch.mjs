@@ -46,6 +46,7 @@ const sources = [
   githubTrending,
 ];
 
+const batchFetchedAt = new Date().toISOString();
 const results = await Promise.allSettled(sources.map((source) => source()));
 const merged = [];
 
@@ -54,7 +55,12 @@ for (let index = 0; index < sources.length; index += 1) {
   const name = sources[index].name || `source-${index + 1}`;
 
   if (result.status === 'fulfilled') {
-    const items = result.value.filter(Boolean);
+    const items = result.value
+      .filter(Boolean)
+      .map((item) => ({
+        ...item,
+        fetched_at: item.fetched_at || batchFetchedAt,
+      }));
     merged.push(...items);
     console.log(`${name}: ${items.length}`);
   } else {
@@ -63,7 +69,10 @@ for (let index = 0; index < sources.length; index += 1) {
 }
 
 const existingPayload = await readJson(FEED_PATH, []);
-const existingFeed = Array.isArray(existingPayload) ? existingPayload : (existingPayload.items || []);
+const existingFeed = (Array.isArray(existingPayload) ? existingPayload : (existingPayload.items || [])).map((item) => ({
+  ...item,
+  fetched_at: item.fetched_at || batchFetchedAt,
+}));
 const existingFetchTime = Array.isArray(existingPayload) ? null : Number(existingPayload.fetch_time || 0);
 let feed = normalizeFeed(merged);
 

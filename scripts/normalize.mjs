@@ -469,19 +469,20 @@ function computePriority(item, topicIndex, now) {
   }
 
   score -= Math.min(16, topicIndex * 4);
-  score -= agePenalty(item.time, now);
+  score -= agePenalty(item.effective_at, now);
 
   return Math.max(0, Math.min(100, Math.round(score)));
 }
 
-function normalizeItemTime(item) {
-  if (item.time) return item.time;
-  const numeric = Number(item.timestamp);
-  if (!Number.isFinite(numeric) || numeric <= 0) return '';
-  return new Date(numeric * 1000).toISOString();
-}
-
 function toValidTimestamp(value, now = new Date()) {
+  const numeric = Number(value);
+  if (Number.isFinite(numeric) && numeric > 0) {
+    const ms = numeric > 1e12 ? numeric : numeric * 1000;
+    const futureLimit = now.getTime() + 5 * 60 * 1000;
+    const pastLimit = now.getTime() - 30 * 24 * 60 * 60 * 1000;
+    if (ms > futureLimit || ms < pastLimit) return null;
+    return Math.floor(ms / 1000);
+  }
   const date = new Date(value);
   const ms = date.getTime();
   if (!Number.isFinite(ms)) return null;
@@ -491,14 +492,35 @@ function toValidTimestamp(value, now = new Date()) {
   return Math.floor(ms / 1000);
 }
 
+function toValidIso(value, now = new Date()) {
+  const ts = toValidTimestamp(value, now);
+  return ts ? new Date(ts * 1000).toISOString() : '';
+}
+
+function normalizeItemTimes(item, now = new Date()) {
+  const publishedAt = toValidIso(item.published_at || item.time || item.timestamp, now);
+  const fetchedAt = toValidIso(item.fetched_at || now.toISOString(), now) || now.toISOString();
+  const effectiveAt = publishedAt || fetchedAt;
+  return {
+    ...item,
+    published_at: publishedAt,
+    fetched_at: fetchedAt,
+    time_source: publishedAt ? 'published_at' : 'fetched_at',
+    effective_at: effectiveAt,
+    effective_timestamp: toValidTimestamp(effectiveAt, now),
+  };
+}
+
 function stripInternal(item) {
   return {
     id: item.id,
-    timestamp: item.timestamp,
     source: item.source,
     title: item.title,
     displayTitle: item.displayTitle || '',
     summary: item.summary || '',
+    published_at: item.published_at || '',
+    fetched_at: item.fetched_at || '',
+    time_source: item.time_source || 'fetched_at',
     category: item.category,
     topic: item.topic,
     priority: item.priority,
@@ -531,8 +553,8 @@ function mergeNearDuplicates(items) {
     existing.hot = existing.hot || item.hot;
     existing.priorityHint = Math.max(existing.priorityHint || 0, item.priorityHint || 0);
 
-    const existingTime = new Date(existing.time).getTime();
-    const nextTime = new Date(item.time).getTime();
+    const existingTime = new Date(existing.effective_at).getTime();
+    const nextTime = new Date(item.effective_at).getTime();
     const shouldReplace =
       (item.official && !existing.official)
       || (item.priorityHint || 0) > (existing.priorityHint || 0)
@@ -543,7 +565,11 @@ function mergeNearDuplicates(items) {
       existing.title = item.title;
       existing.summary = item.summary;
       existing.url = item.url;
-      existing.time = item.time;
+      existing.published_at = item.published_at;
+      existing.fetched_at = item.fetched_at;
+      existing.time_source = item.time_source;
+      existing.effective_at = item.effective_at;
+      existing.effective_timestamp = item.effective_timestamp;
       existing.category = item.category;
       existing.topic = item.topic;
       existing.official = item.official;
@@ -563,11 +589,8 @@ export function normalizeFeed(items) {
   const seen = new Map();
   const canonicalItems = items
     .filter(Boolean)
-    .map((item) => ({
-      ...item,
-      time: normalizeItemTime(item),
-    }))
-    .filter((item) => item.time);
+    .map((item) => normalizeItemTimes(item, now))
+    .filter((item) => item.effective_at);
 
   for (const item of canonicalItems) {
     const key = dedupeKey(item);
@@ -577,15 +600,15 @@ export function normalizeFeed(items) {
       continue;
     }
 
-    const existingTime = new Date(existing.time).getTime();
-    const nextTime = new Date(item.time).getTime();
+    const existingTime = new Date(existing.effective_at).getTime();
+    const nextTime = new Date(item.effective_at).getTime();
     if ((item.priorityHint || 0) > (existing.priorityHint || 0) || nextTime > existingTime) {
       seen.set(key, item);
     }
   }
 
   const deduped = mergeNearDuplicates(
-    Array.from(seen.values()).sort((a, b) => new Date(b.time) - new Date(a.time)),
+    Array.from(seen.values()).sort((a, b) => new Date(b.effective_at) - new Date(a.effective_at)),
   );
   const topicCounts = new Map();
 
@@ -599,12 +622,11 @@ export function normalizeFeed(items) {
     item.defaultVisible = item.sourceLayer === 'A' && item.priority >= 60 && isQualifiedChineseTitle(item.displayTitle);
     item.tags = uniqueStrings([item.category, item.topic, ...(item.tags || [])], 3);
     item.id = stableId([item.source, item.topic, item.title, item.url, item.mergedCount || 1]);
-    item.timestamp = toValidTimestamp(item.time, now);
     topicCounts.set(item.topic, topicIndex + 1);
   }
 
   return deduped
-    .filter((item) => item.timestamp)
-    .sort((a, b) => b.priority - a.priority || b.timestamp - a.timestamp)
+    .filter((item) => item.effective_timestamp)
+    .sort((a, b) => b.priority - a.priority || b.effective_timestamp - a.effective_timestamp)
     .map(stripInternal);
 }

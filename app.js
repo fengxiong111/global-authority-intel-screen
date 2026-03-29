@@ -67,6 +67,10 @@ function toDate(value) {
   return Number.isNaN(date.getTime()) ? null : date;
 }
 
+function itemTimeValue(item) {
+  return item?.published_at || item?.fetched_at || null;
+}
+
 function formatTime(value) {
   const date = toDate(value);
   if (!date) return String(value ?? '');
@@ -82,12 +86,11 @@ function formatTime(value) {
       }).format(date);
 }
 
-function formatRelativeTime(value, referenceValue = state.fetchTime) {
+function formatRelativeTime(value) {
   const date = toDate(value);
   if (!date) return '';
-  const referenceDate = toDate(referenceValue) || new Date();
 
-  const diffMs = referenceDate.getTime() - date.getTime();
+  const diffMs = Date.now() - date.getTime();
   if (diffMs < 0) return '';
 
   const minutes = Math.floor(diffMs / (1000 * 60));
@@ -98,17 +101,6 @@ function formatRelativeTime(value, referenceValue = state.fetchTime) {
   if (minutes < 60) return `${minutes} 分钟前`;
   if (hours < 24) return `${hours} 小时前`;
   return `${days} 天前`;
-}
-
-function formatFetchFreshness(referenceValue = state.fetchTime) {
-  const referenceDate = toDate(referenceValue);
-  if (!referenceDate) return '';
-
-  const diffHours = (Date.now() - referenceDate.getTime()) / (1000 * 60 * 60);
-  if (!Number.isFinite(diffHours) || diffHours <= 2) return '';
-
-  const hours = Math.max(2, Math.floor(diffHours));
-  return `${hours} 小时前更新`;
 }
 
 function renderCategoryChips() {
@@ -178,7 +170,7 @@ function renderFeed() {
   feedEl.innerHTML = items
     .map((item, index) => `
       <a class="entry ${entryTier(index)}" href="${item.url}" target="_blank" rel="noopener noreferrer">
-        <div class="entry-time">${escapeHtml([formatRelativeTime(item.timestamp), formatFetchFreshness()].filter(Boolean).join(' · '))}</div>
+        <div class="entry-time">${escapeHtml(formatRelativeTime(itemTimeValue(item)))}</div>
         <h2 class="entry-title">${escapeHtml(item.displayTitle || item.title)}</h2>
       </a>
     `)
@@ -193,7 +185,7 @@ async function loadFeed() {
     state.items = Array.isArray(payload) ? payload : (payload.items || []);
     state.fetchTime = Array.isArray(payload) ? null : payload.fetch_time || null;
     const lastModified = response.headers.get('last-modified');
-    lastUpdatedEl.textContent = `更新于 ${formatTime(state.fetchTime || lastModified || state.items[0]?.timestamp || Math.floor(Date.now() / 1000))}`;
+    lastUpdatedEl.textContent = `更新于 ${formatTime(state.fetchTime || lastModified || itemTimeValue(state.items[0]) || Math.floor(Date.now() / 1000))}`;
   } catch {
     state.items = window.AUTHORITY_INTEL_FALLBACK || [];
     state.fetchTime = null;
