@@ -1,5 +1,142 @@
 {
-  "fetch_time": 1774779334,
+  "fetch_time": 1774780440,
+  "early_signals": [
+    {
+      "keyword": "Claude",
+      "topic": "AI",
+      "mention_count": 6,
+      "trusted_source_count": 2,
+      "community_count": 2,
+      "ranking_change": 0,
+      "growth_score": 412
+    },
+    {
+      "keyword": "Bitcoin",
+      "topic": "CRYPTO",
+      "mention_count": 5,
+      "trusted_source_count": 4,
+      "community_count": 0,
+      "ranking_change": 0,
+      "growth_score": 320
+    },
+    {
+      "keyword": "Anthropic",
+      "topic": "AI",
+      "mention_count": 4,
+      "trusted_source_count": 2,
+      "community_count": 2,
+      "ranking_change": 0,
+      "growth_score": 284
+    },
+    {
+      "keyword": "polymarket",
+      "topic": "CRYPTO",
+      "mention_count": 3,
+      "trusted_source_count": 2,
+      "community_count": 0,
+      "ranking_change": 0,
+      "growth_score": 252
+    },
+    {
+      "keyword": "OpenClaw",
+      "topic": "AI",
+      "mention_count": 4,
+      "trusted_source_count": 2,
+      "community_count": 0,
+      "ranking_change": 0,
+      "growth_score": 240
+    },
+    {
+      "keyword": "Kalshi",
+      "topic": "CRYPTO",
+      "mention_count": 2,
+      "trusted_source_count": 2,
+      "community_count": 0,
+      "ranking_change": 0,
+      "growth_score": 146
+    },
+    {
+      "keyword": "Project Hail Mary",
+      "topic": "SCREEN",
+      "mention_count": 2,
+      "trusted_source_count": 0,
+      "community_count": 1,
+      "ranking_change": 0,
+      "growth_score": 120
+    },
+    {
+      "keyword": "天国：拯救 2",
+      "topic": "GAME",
+      "mention_count": 2,
+      "trusted_source_count": 0,
+      "community_count": 1,
+      "ranking_change": 0,
+      "growth_score": 112
+    },
+    {
+      "keyword": "Codex Security",
+      "topic": "AI",
+      "mention_count": 1,
+      "trusted_source_count": 1,
+      "community_count": 0,
+      "ranking_change": 0,
+      "growth_score": 102
+    },
+    {
+      "keyword": "superpowers",
+      "topic": "AI",
+      "mention_count": 1,
+      "trusted_source_count": 1,
+      "community_count": 0,
+      "ranking_change": 0,
+      "growth_score": 100
+    },
+    {
+      "keyword": "AI-Scientist-v2",
+      "topic": "AI",
+      "mention_count": 1,
+      "trusted_source_count": 1,
+      "community_count": 0,
+      "ranking_change": 0,
+      "growth_score": 100
+    },
+    {
+      "keyword": "dexter",
+      "topic": "AI",
+      "mention_count": 1,
+      "trusted_source_count": 1,
+      "community_count": 0,
+      "ranking_change": 0,
+      "growth_score": 100
+    },
+    {
+      "keyword": "agentscope",
+      "topic": "AI",
+      "mention_count": 1,
+      "trusted_source_count": 1,
+      "community_count": 0,
+      "ranking_change": 0,
+      "growth_score": 92
+    },
+    {
+      "keyword": "OpenAI",
+      "topic": "AI",
+      "mention_count": 1,
+      "trusted_source_count": 0,
+      "community_count": 1,
+      "ranking_change": 0,
+      "growth_score": 86
+    },
+    {
+      "keyword": "Codex",
+      "topic": "AI",
+      "mention_count": 1,
+      "trusted_source_count": 1,
+      "community_count": 0,
+      "ranking_change": 0,
+      "growth_score": 78
+    }
+  ],
   "items": [
     {
       "id": "fa06b8f9ade60a0f",
@@ -7,8 +144,8 @@
       "title": "GitHub 热门工具：superpowers",
       "displayTitle": "GitHub 热门工具：superpowers",
       "summary": "An agentic skills framework & software development methodology that works.",
-      "published_at": "2026-03-29T10:15:33.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -25,7 +162,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "5745dd0c036793fd",
@@ -34,7 +173,7 @@
       "displayTitle": "亚马逊加码 AI：AWS 与 Anthropic 扩建多吉瓦 Trainium",
       "summary": "Two-and-a-half years ago, we flagged a looming “cloud crisis” at AWS. Today, the evidence has mounted. AWS is the crown jewel of the Amazon empire, generating ~60% of group profits, and dominating the lucrative Cloud Computing market. But it struggles to tran…",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "AI",
       "topic": "ANTHROPIC",
@@ -52,7 +191,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "732b57d150e55e1b",
@@ -61,7 +202,7 @@
       "displayTitle": "2025 LLM 年度回顾",
       "summary": "2025 has been a strong and eventful year of progress in LLMs. The following is a list of personally notable and mildly surprising \"paradigm changes\" - things that altered the landscape and stood out to me conceptually. 1. Reinforcement Learning from Verifiabl…",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -79,7 +220,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "c69007bc9f7b0665",
@@ -88,7 +231,7 @@
       "displayTitle": "GPT-5 为广告变现与超级应用铺路",
       "summary": "To many power users (Pro and Plus), GPT5 was a disappointing release. But with closer inspection, the real release is focused on the vast majority of ChatGPT’s users, which is the 700m+ free userbase that is growing rapidly. Power users should be disappointed…",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -106,7 +249,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "6cb559acc713a08d",
@@ -115,7 +260,7 @@
       "displayTitle": "Codex Security 上线：自动查漏补洞",
       "summary": "Find, validate, and fix vulnerabilities with Codex Security: developers.openai.com/codex/… Rohan Varma (@rohanvarma) Codex Security is still free FYI - check it out during this preview period! https://nitter.net/rohanvarma/status/2038001123894943877#m",
       "published_at": "2026-03-29T01:32:04.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -133,7 +278,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "B",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "OpenAIDevs",
+      "trustedAuthor": true
     },
     {
       "id": "a58faa8f75d363b9",
@@ -142,7 +289,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "TESLA",
       "topic": "TESLA",
@@ -159,7 +306,9 @@
       ],
       "mergedCount": 2,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "a4582b8819a79ccc",
@@ -167,8 +316,8 @@
       "title": "GitHub 热门工具：AI-Scientist-v2",
       "displayTitle": "",
       "summary": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
-      "published_at": "2026-03-29T10:15:33.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -185,7 +334,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "51d988095e0455da",
@@ -194,7 +345,7 @@
       "displayTitle": "",
       "summary": "BREAKING: DHS shutdown now the longest government shutdown in U.S. history. polymarket.com/event/when-wi…",
       "published_at": "2026-03-29T04:18:20.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "BTC",
@@ -212,7 +363,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "B",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "Polymarket",
+      "trustedAuthor": true
     },
     {
       "id": "0bedf73e882b531a",
@@ -221,7 +374,7 @@
       "displayTitle": "",
       "summary": "TLDR: https://karpathy.ai/hncapsule/ Yesterday I stumbled on this HN thread Show HN: Gemini Pro 3 hallucinates the HN front page 10 years from now, where Gemini 3 was hallucinating the frontpage of 10 years from now. One of the comments struck me a bit more t…",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -239,33 +392,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
-    },
-    {
-      "id": "009317f75a0ea5a0",
-      "source": "Bloomberg",
-      "title": "US Sees First Combat Loss of Valuable E-3 Jet in Missile Strike",
-      "displayTitle": "",
-      "summary": "An Iranian missile strike on a base in Saudi Arabia damaged several military jets and destroyed a valuable E-3 Sentry early warning and control aircraft — the first known combat loss for that type.",
-      "published_at": "2026-03-29T09:28:35.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
-      "time_source": "published_at",
-      "category": "TECH",
-      "topic": "TECH",
-      "priority": 87,
-      "url": "https://www.bloomberg.com/news/articles/2026-03-29/us-sees-first-combat-loss-of-valuable-e-3-jet-in-missile-strike",
-      "hot": true,
-      "tags": [
-        "TECH",
-        "BLOOMBERG"
-      ],
-      "sourceType": "bloomberg-politics",
-      "sources": [
-        "Bloomberg"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "4b4f13745cec3c63",
@@ -274,7 +403,7 @@
       "displayTitle": "",
       "summary": "Lenders in India are urging the central bank to relax tighter rules for foreign-exchange transactions, which came as bets that could exert strain on the rupee climbed to at least $30 billion, according to people familiar with the developments.",
       "published_at": "2026-03-29T09:11:04.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -291,7 +420,37 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
+    },
+    {
+      "id": "3e243d8fc9fac680",
+      "source": "Bloomberg",
+      "title": "Meloni Mulls Changes at Italian State-Owned Firms After Setback",
+      "displayTitle": "",
+      "summary": "Giorgia Meloni is considering replacing senior executives at several state-owned companies after a referendum loss that has cracked the Italian prime minister’s aura of invincibility, according to people familiar with the matter.",
+      "published_at": "2026-03-28T17:26:20.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
+      "time_source": "published_at",
+      "category": "TECH",
+      "topic": "TECH",
+      "priority": 87,
+      "url": "https://www.bloomberg.com/news/articles/2026-03-28/meloni-mulls-changes-at-italian-state-owned-firms-after-setback",
+      "hot": true,
+      "tags": [
+        "TECH",
+        "BLOOMBERG"
+      ],
+      "sourceType": "bloomberg-politics",
+      "sources": [
+        "Bloomberg"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "A",
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "61aa93e1fd5cc14e",
@@ -300,7 +459,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "AI",
       "topic": "CLAUDE",
@@ -318,7 +477,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "9cd407e132826e28",
@@ -327,7 +488,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "TESLA",
       "topic": "TESLA",
@@ -344,7 +505,37 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
+    },
+    {
+      "id": "009317f75a0ea5a0",
+      "source": "Bloomberg",
+      "title": "US Sees First Combat Loss of Valuable E-3 Jet in Missile Strike",
+      "displayTitle": "",
+      "summary": "An Iranian missile strike on a base in Saudi Arabia damaged several military jets and destroyed a valuable E-3 Sentry early warning and control aircraft — the first known combat loss for that type.",
+      "published_at": "2026-03-29T09:28:35.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
+      "time_source": "published_at",
+      "category": "TECH",
+      "topic": "TECH",
+      "priority": 86,
+      "url": "https://www.bloomberg.com/news/articles/2026-03-29/us-sees-first-combat-loss-of-valuable-e-3-jet-in-missile-strike",
+      "hot": true,
+      "tags": [
+        "TECH",
+        "BLOOMBERG"
+      ],
+      "sourceType": "bloomberg-politics",
+      "sources": [
+        "Bloomberg"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "A",
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "da81161c5c6f6da4",
@@ -353,7 +544,7 @@
       "displayTitle": "",
       "summary": "Attacks in the Middle East conflict extended into a fifth week Sunday, with Israel striking Tehran and Saudi Arabia intercepting almost a dozen drones, a day after Yemen-based Houthi militants entered the war.",
       "published_at": "2026-03-29T07:45:27.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -370,42 +561,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
-    },
-    {
-      "id": "727e4548cb85f2fd",
-      "source": "Bloomberg",
-      "title": "Russia’s Ust-Luga Port Takes New Damage in Ukraine Drone Attack",
-      "displayTitle": "",
-      "summary": "Russia’s Ust-Luga port sustained fresh damage from a Ukrainian drone attack, as Kyiv steps up strikes on Russian oil export infrastructure.",
-      "published_at": "2026-03-29T04:17:13.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
-      "time_source": "published_at",
-      "category": "TECH",
-      "topic": "TECH",
-      "priority": 86,
-      "url": "https://www.bloomberg.com/news/articles/2026-03-29/russia-s-ust-luga-port-takes-new-damage-in-ukraine-drone-attack",
-      "hot": true,
-      "tags": [
-        "TECH",
-        "BLOOMBERG"
-      ],
-      "sourceType": "bloomberg-politics",
-      "sources": [
-        "Bloomberg"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "7b3ac74648d2ac8e",
       "source": "Hacker News",
       "title": "Further human + AI + proof assistant work on Knuth's \"Claude Cycles\" problem",
       "displayTitle": "Claude Cycles 难题出现人类+AI+证明器新进展",
-      "summary": "HN • 208 points • 136 comments",
-      "published_at": "2026-03-29T10:15:33.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "summary": "HN • 211 points • 137 comments",
+      "published_at": "2026-03-29T10:33:57.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "CLAUDE",
@@ -423,7 +590,37 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "B",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
+    },
+    {
+      "id": "44ea232336aa188a",
+      "source": "Bloomberg",
+      "title": "Syria Eyes $1 Billion Revival for Postal and Mobile Networks",
+      "displayTitle": "",
+      "summary": "Syria is seeking foreign investors for a $1 billion drive to revamp its mobile-phone coverage and postal service, as the war-torn country rebuilds after the US lifted sanctions.",
+      "published_at": "2026-03-29T10:12:29.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
+      "time_source": "published_at",
+      "category": "TECH",
+      "topic": "TECH",
+      "priority": 85,
+      "url": "https://www.bloomberg.com/news/articles/2026-03-29/syria-eyes-1-billion-revival-for-postal-and-mobile-networks",
+      "hot": true,
+      "tags": [
+        "TECH",
+        "BLOOMBERG"
+      ],
+      "sourceType": "bloomberg-tech",
+      "sources": [
+        "Bloomberg"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "A",
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "d809cd4a39828c32",
@@ -432,7 +629,7 @@
       "displayTitle": "",
       "summary": "Beijing summoned the US’s top envoy to Hong Kong after the consulate posted an alert about new rules giving authorities power to demand passwords for smartphones or other devices in national security investigations.",
       "published_at": "2026-03-29T07:02:38.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -449,7 +646,37 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
+    },
+    {
+      "id": "727e4548cb85f2fd",
+      "source": "Bloomberg",
+      "title": "Russia’s Ust-Luga Port Takes New Damage in Ukraine Drone Attack",
+      "displayTitle": "",
+      "summary": "Russia’s Ust-Luga port sustained fresh damage from a Ukrainian drone attack, as Kyiv steps up strikes on Russian oil export infrastructure.",
+      "published_at": "2026-03-29T04:17:13.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
+      "time_source": "published_at",
+      "category": "TECH",
+      "topic": "TECH",
+      "priority": 85,
+      "url": "https://www.bloomberg.com/news/articles/2026-03-29/russia-s-ust-luga-port-takes-new-damage-in-ukraine-drone-attack",
+      "hot": true,
+      "tags": [
+        "TECH",
+        "BLOOMBERG"
+      ],
+      "sourceType": "bloomberg-politics",
+      "sources": [
+        "Bloomberg"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "A",
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "dbf2d8fb2e431c78",
@@ -458,7 +685,7 @@
       "displayTitle": "",
       "summary": "The Department of Homeland Security has probed whether Bitmain's popular mining machines could be exploited for espionage or endanger the U.S. grid.",
       "published_at": "2026-03-28T21:15:49.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "CRYPTO_TOOLS",
@@ -476,33 +703,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
-    },
-    {
-      "id": "839ed6d4f3a133c5",
-      "source": "Bloomberg",
-      "title": "Mideast Aluminum Makers Suffer Damage From Iranian Attacks",
-      "displayTitle": "",
-      "summary": "Two Middle Eastern aluminum producers were hit by Iranian attacks on Saturday, highlighting the challenge to the global economy as the war disrupts vital industries.",
-      "published_at": "2026-03-28T14:08:25.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
-      "time_source": "published_at",
-      "category": "TECH",
-      "topic": "TECH",
-      "priority": 85,
-      "url": "https://www.bloomberg.com/news/articles/2026-03-28/emirates-global-aluminium-says-smelter-site-damaged-in-attack-mnaeo4uk",
-      "hot": true,
-      "tags": [
-        "TECH",
-        "BLOOMBERG"
-      ],
-      "sourceType": "bloomberg-tech",
-      "sources": [
-        "Bloomberg"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "a85f034da6c0689f",
@@ -511,7 +714,7 @@
       "displayTitle": "",
       "summary": "A leadership dispute within Lopez Inc., one of the Philippines’ biggest conglomerates, led to the ouster of its president over what he said was a disagreement over a 2-billion peso ($33 million) capital infusion for media unit ABS-CBN Corp.",
       "published_at": "2026-03-29T06:01:55.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -528,33 +731,37 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
-      "id": "f38c0e207d7098d9",
+      "id": "839ed6d4f3a133c5",
       "source": "Bloomberg",
-      "title": "Iran-Backed Houthis Join War as More US Troops Reach Region",
-      "displayTitle": "中东升级：胡塞下场，美军增兵",
-      "summary": "Houthi militants launched ballistic missiles at Israel on Saturday morning, marking their entry into the month-long Iran war that has already caused chaos in energy markets and killed thousands of people.",
-      "published_at": "2026-03-28T17:17:25.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "title": "Mideast Aluminum Makers Suffer Damage From Iranian Attacks",
+      "displayTitle": "",
+      "summary": "Two Middle Eastern aluminum producers were hit by Iranian attacks on Saturday, highlighting the challenge to the global economy as the war disrupts vital industries.",
+      "published_at": "2026-03-28T14:08:25.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
       "priority": 84,
-      "url": "https://www.bloomberg.com/news/articles/2026-03-28/iran-backed-houthis-join-war-as-more-us-troops-reach-middle-east",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-28/emirates-global-aluminium-says-smelter-site-damaged-in-attack-mnaeo4uk",
       "hot": true,
       "tags": [
         "TECH",
         "BLOOMBERG"
       ],
-      "sourceType": "bloomberg-politics",
+      "sourceType": "bloomberg-tech",
       "sources": [
         "Bloomberg"
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": true
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "07c9a932c4f50679",
@@ -563,11 +770,11 @@
       "displayTitle": "",
       "summary": "Ukrainian President Volodymyr Zelenskiy said he’s using a Middle East trip to lock in lucrative long-term agreements on military cooperation and seek secure fuel supplies.",
       "published_at": "2026-03-28T14:15:14.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
-      "priority": 84,
+      "priority": 83,
       "url": "https://www.bloomberg.com/news/articles/2026-03-28/zelenskiy-seeks-long-term-fuel-supply-deals-on-middle-east-tour",
       "hot": true,
       "tags": [
@@ -580,86 +787,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
-    },
-    {
-      "id": "0ee110acb8e17dde",
-      "source": "X",
-      "title": "22% chance the AI bubble bursts this year. https://polymarket.com/event/ai-bubble-burst-by?via=x-afr2",
-      "displayTitle": "",
-      "summary": "22% chance the AI bubble bursts this year. polymarket.com/event/ai-bubb…",
-      "published_at": "2026-03-29T00:18:54.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
-      "time_source": "published_at",
-      "category": "CRYPTO_TOOLS",
-      "topic": "BTC",
-      "priority": 83,
-      "url": "https://x.com/Polymarket/status/2038048215770018264",
-      "hot": true,
-      "tags": [
-        "CRYPTO_TOOLS",
-        "BTC",
-        "X"
-      ],
-      "sourceType": "x_hot",
-      "sources": [
-        "X"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "B",
-      "defaultVisible": false
-    },
-    {
-      "id": "f005d6c6140afd64",
-      "source": "Bloomberg",
-      "title": "Actors Union Is Bargaining for ‘Tilly Tax’ On AI Film Characters",
-      "displayTitle": "",
-      "summary": "As adoption of artificial intelligence in the US outpaces efforts to regulate it, organized labor is providing an important check on how the technology gets used, according to the head of the Hollywood actors’ union.",
-      "published_at": "2026-03-28T14:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
-      "time_source": "published_at",
-      "category": "TECH",
-      "topic": "TECH",
-      "priority": 83,
-      "url": "https://www.bloomberg.com/news/articles/2026-03-28/sag-aftra-actors-union-bargaining-for-tilly-tax-on-ai-film-characters",
-      "hot": true,
-      "tags": [
-        "TECH",
-        "BLOOMBERG"
-      ],
-      "sourceType": "bloomberg-tech",
-      "sources": [
-        "Bloomberg"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "A",
-      "defaultVisible": false
-    },
-    {
-      "id": "7293d1d6b4f41461",
-      "source": "GitHub Trending",
-      "title": "GitHub 热门工具：dexter",
-      "displayTitle": "GitHub 热门工具：dexter",
-      "summary": "An autonomous agent for deep financial research",
-      "published_at": "2026-03-29T10:15:33.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
-      "time_source": "published_at",
-      "category": "TECH",
-      "topic": "TECH",
-      "priority": 82,
-      "url": "https://github.com/virattt/dexter",
-      "hot": true,
-      "tags": [
-        "TECH",
-        "GITHUB"
-      ],
-      "sourceType": "github_trending",
-      "sources": [
-        "GitHub Trending"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "A",
-      "defaultVisible": true
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "b0ca5ffefd945832",
@@ -668,7 +798,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "TESLA",
       "topic": "TESLA",
@@ -685,21 +815,51 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
-      "id": "0be620c0c9184d9f",
-      "source": "Bloomberg",
-      "title": "AI Schism Grips Washington as Tech, Labor Vie for Upper Hand",
-      "displayTitle": "",
-      "summary": "At a historic auditorium in Washington this week, Silicon Valley executives, Trump administration officials and members of Congress gathered in a sea of button-down shirts to extol the virtues of artificial intelligence.",
-      "published_at": "2026-03-28T13:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "id": "7293d1d6b4f41461",
+      "source": "GitHub Trending",
+      "title": "GitHub 热门工具：dexter",
+      "displayTitle": "GitHub 热门工具：dexter",
+      "summary": "An autonomous agent for deep financial research",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
       "priority": 82,
-      "url": "https://www.bloomberg.com/news/articles/2026-03-28/ai-schism-grips-washington-as-tech-labor-vie-for-upper-hand",
+      "url": "https://github.com/virattt/dexter",
+      "hot": true,
+      "tags": [
+        "TECH",
+        "GITHUB"
+      ],
+      "sourceType": "github_trending",
+      "sources": [
+        "GitHub Trending"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "A",
+      "defaultVisible": true,
+      "author": "",
+      "trustedAuthor": false
+    },
+    {
+      "id": "f005d6c6140afd64",
+      "source": "Bloomberg",
+      "title": "Actors Union Is Bargaining for ‘Tilly Tax’ On AI Film Characters",
+      "displayTitle": "",
+      "summary": "As adoption of artificial intelligence in the US outpaces efforts to regulate it, organized labor is providing an important check on how the technology gets used, according to the head of the Hollywood actors’ union.",
+      "published_at": "2026-03-28T14:00:00.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
+      "time_source": "published_at",
+      "category": "TECH",
+      "topic": "TECH",
+      "priority": 82,
+      "url": "https://www.bloomberg.com/news/articles/2026-03-28/sag-aftra-actors-union-bargaining-for-tilly-tax-on-ai-film-characters",
       "hot": true,
       "tags": [
         "TECH",
@@ -711,7 +871,38 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
+    },
+    {
+      "id": "0ee110acb8e17dde",
+      "source": "X",
+      "title": "22% chance the AI bubble bursts this year. https://polymarket.com/event/ai-bubble-burst-by?via=x-afr2",
+      "displayTitle": "",
+      "summary": "22% chance the AI bubble bursts this year. polymarket.com/event/ai-bubb…",
+      "published_at": "2026-03-29T00:18:54.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
+      "time_source": "published_at",
+      "category": "CRYPTO_TOOLS",
+      "topic": "BTC",
+      "priority": 81,
+      "url": "https://x.com/Polymarket/status/2038048215770018264",
+      "hot": true,
+      "tags": [
+        "CRYPTO_TOOLS",
+        "BTC",
+        "X"
+      ],
+      "sourceType": "x_hot",
+      "sources": [
+        "X"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "B",
+      "defaultVisible": false,
+      "author": "Polymarket",
+      "trustedAuthor": true
     },
     {
       "id": "6fe69851c65ea15b",
@@ -720,7 +911,7 @@
       "displayTitle": "Kalshi 获批向专业用户提供保证金交易",
       "summary": "Kalshi Inc. has secured a license allowing it to offer margin trading to users, a feature that would make the prediction market platform more appealing to sophisticated institutional investors.",
       "published_at": "2026-03-27T18:33:23.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "BTC",
@@ -738,33 +929,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": true
-    },
-    {
-      "id": "35c0b0e1193aade2",
-      "source": "OneKey Blog",
-      "title": "Security Blind Spots of Hardware Wallets: Analyzing the Covert Threat of Supply Chain Attacks",
-      "displayTitle": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
-      "summary": "",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
-      "time_source": "published_at",
-      "category": "CRYPTO_TOOLS",
-      "topic": "ONEKEY",
-      "priority": 80,
-      "url": "https://onekey.so/blog/learn/hardware-wallet-supply-chain-attack-risks-20260323/",
-      "hot": true,
-      "tags": [
-        "CRYPTO_TOOLS",
-        "ONEKEY"
-      ],
-      "sourceType": "news",
-      "sources": [
-        "OneKey Blog"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "A",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "9242c53709ab61ca",
@@ -773,7 +940,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "SONY",
       "topic": "SONY",
@@ -790,7 +957,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "35f21ee73b0e3e6d",
@@ -799,7 +968,7 @@
       "displayTitle": "OpenClaw 联手 VirusTotal 强化技能安全",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "TECH",
       "topic": "OPENCLAW",
@@ -817,7 +986,37 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "author": "",
+      "trustedAuthor": false
+    },
+    {
+      "id": "1bae8559ace32092",
+      "source": "OneKey Blog",
+      "title": "OneKey Secures Series B Funding at $150M Valuation, Led by YZi Labs",
+      "displayTitle": "",
+      "summary": "",
+      "published_at": "",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
+      "time_source": "fetched_at",
+      "category": "CRYPTO_TOOLS",
+      "topic": "ONEKEY",
+      "priority": 80,
+      "url": "https://onekey.so/blog/updates/onekey-secures-series-b-funding/",
+      "hot": true,
+      "tags": [
+        "CRYPTO_TOOLS",
+        "ONEKEY"
+      ],
+      "sourceType": "news",
+      "sources": [
+        "OneKey Blog"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "A",
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "5d4609ae015d7b6c",
@@ -826,7 +1025,7 @@
       "displayTitle": "BTC 期权开始押更深回撤",
       "summary": "Bitcoin fell to its lowest level in more than three weeks as traders turned defensive following the year’s largest options expiry, while investors continued pulling money from crypto exchange-traded funds.",
       "published_at": "2026-03-27T11:43:16.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "BTC",
@@ -844,7 +1043,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "8015003a8c8708db",
@@ -853,7 +1054,7 @@
       "displayTitle": "",
       "summary": "Very often, I sit down at a restaurant, look through their menu, and feel... kind of stuck. What is Pâté again? What is a Tagine? Cavatappi... that's a pasta right? Sweetbread sounds delicious (I have a huge sweet tooth). It can get really out of hand sometim…",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -871,7 +1072,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "556f7b66ea2d30c9",
@@ -880,7 +1083,7 @@
       "displayTitle": "OpenClaw 正式版更新 2026.3.28",
       "summary": "",
       "published_at": "2026-03-28T00:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "OPENCLAW",
@@ -898,7 +1101,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "90609b27a63e1e9b",
@@ -907,7 +1112,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "TESLA",
       "topic": "TESLA",
@@ -924,7 +1129,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "9e10a3b4efe1afc6",
@@ -933,7 +1140,7 @@
       "displayTitle": "",
       "summary": "A Democratic senator has asked the US Commerce Department for information about how it is addressing “potential national security concerns” created by a Chinese Bitcoin mining manufacturer, following a Bloomberg News report in November that the company has be…",
       "published_at": "2026-03-27T16:16:21.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "BTC",
@@ -951,7 +1158,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "7c86631e67d116bd",
@@ -960,7 +1169,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "SONY",
       "topic": "SONY",
@@ -977,7 +1186,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "fbed80bfcf60bd36",
@@ -986,7 +1197,7 @@
       "displayTitle": "OpenClaw 正式发布",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "TECH",
       "topic": "OPENCLAW",
@@ -1004,21 +1215,23 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "author": "",
+      "trustedAuthor": false
     },
     {
-      "id": "1bae8559ace32092",
+      "id": "35c0b0e1193aade2",
       "source": "OneKey Blog",
-      "title": "OneKey Secures Series B Funding at $150M Valuation, Led by YZi Labs",
-      "displayTitle": "",
+      "title": "Security Blind Spots of Hardware Wallets: Analyzing the Covert Threat of Supply Chain Attacks",
+      "displayTitle": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
       "summary": "",
-      "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
-      "time_source": "fetched_at",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
+      "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "ONEKEY",
       "priority": 76,
-      "url": "https://onekey.so/blog/updates/onekey-secures-series-b-funding/",
+      "url": "https://onekey.so/blog/learn/hardware-wallet-supply-chain-attack-risks-20260323/",
       "hot": true,
       "tags": [
         "CRYPTO_TOOLS",
@@ -1030,7 +1243,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": true,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "8188bbbe50b2651e",
@@ -1039,7 +1254,7 @@
       "displayTitle": "",
       "summary": "Finally had a chance to listen through this Dwarkesh pod with Sutton, which was interesting and amusing. As background, Sutton's \"The Bitter Lesson\" has become a bit of biblical text in frontier LLM circles. Researchers routinely talk about and ask whether th…",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "AI",
       "topic": "CLAUDE",
@@ -1057,16 +1272,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "755d7a2e0c0674d4",
       "source": "Reddit",
       "title": "Andrew Curran: Anthropic May Have Had An Architectural Breakthrough!",
       "displayTitle": "Anthropic 或出现架构级突破",
-      "summary": "r/singularity • 642 points • 219 comments",
+      "summary": "r/singularity • 658 points • 228 comments",
       "published_at": "2026-03-29T01:05:35.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "ANTHROPIC",
@@ -1084,21 +1301,23 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "B",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
-      "id": "3eb3c1fcb22824b7",
+      "id": "0b7027707d071fdb",
       "source": "NYT",
-      "title": "Iran War Live Updates: Israel Strikes Tehran as Regional Diplomats Gather in Pakistan for Talks",
+      "title": "Trump’s Ballroom Design Has Barely Been Scrutinized",
       "displayTitle": "",
-      "summary": "Israel said it launched a wave of strikes targeting infrastructure in Tehran and other areas, and Iran retaliated. Officials from Saudi Arabia, Egypt and Turkey were meeting in Pakistan in hopes of finding a way to end the war.",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "summary": "Fake windows and a stairway to nowhere: Three months that could change the White House for generations.",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "NYT",
       "priority": 75,
-      "url": "https://www.nytimes.com/live/2026/03/29/world/iran-war-trump-israel-oil",
+      "url": "https://www.nytimes.com/interactive/2026/03/29/upshot/white-house-ballroom.html",
       "hot": true,
       "tags": [
         "TECH",
@@ -1110,7 +1329,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "4bce53c930038fcd",
@@ -1119,7 +1340,7 @@
       "displayTitle": "BTC ETF 价格战打起来了：大摩压到 0.14%",
       "summary": "Bloomberg ETF analyst James Seyffart called the pricing a \"big move\" and predicted that the fund may launch in early April.",
       "published_at": "2026-03-28T17:31:15.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "BTC",
@@ -1137,7 +1358,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "25b3a67e0ebe12de",
@@ -1146,7 +1369,7 @@
       "displayTitle": "OpenClaw 测试版更新 2026.3.28 Beta 1",
       "summary": "",
       "published_at": "2026-03-28T00:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "OPENCLAW",
@@ -1164,7 +1387,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "e89f6c5c71793327",
@@ -1173,7 +1398,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "TESLA",
       "topic": "TESLA",
@@ -1190,7 +1415,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "dfe873714519852a",
@@ -1199,7 +1426,7 @@
       "displayTitle": "特斯拉 2025 年 Q4 交付预期",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "TESLA",
       "topic": "TESLA",
@@ -1216,16 +1443,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "91e85d53aa00baf8",
       "source": "Reddit",
       "title": "Keria: I got inspired while watching a G2 match, so I suddenly want to buy a SkewMond jersey",
       "displayTitle": "",
-      "summary": "r/leagueoflegends • 311 points • 7 comments",
+      "summary": "r/leagueoflegends • 373 points • 7 comments",
       "published_at": "2026-03-29T05:41:28.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "LEAGUE_OF_LEGENDS",
@@ -1243,7 +1472,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "2b1e6bdecefe6606",
@@ -1252,7 +1483,7 @@
       "displayTitle": "Claude Opus 4.6 发布",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "AI",
       "topic": "CLAUDE",
@@ -1270,7 +1501,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "eb78c71241d994eb",
@@ -1279,7 +1512,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "SONY",
       "topic": "SONY",
@@ -1296,7 +1529,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "0a420d578ebde7da",
@@ -1305,7 +1540,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "CRYPTO_TOOLS",
       "topic": "ONEKEY",
@@ -1322,33 +1557,38 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
-      "id": "202efe7bb53def54",
-      "source": "GitHub Trending",
-      "title": "GitHub 热门工具：agentscope",
-      "displayTitle": "GitHub 热门工具：agentscope",
-      "summary": "Build and run agents you can see, understand and trust.",
-      "published_at": "2026-03-29T10:15:33.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "id": "9d6d379e00951bb1",
+      "source": "Reddit",
+      "title": "[Updates] Patch Notes Version 1.01.00 | Crimson Desert - adds 5 summonable mounts, decreased loading times, some adjustments to controls, and more.",
+      "displayTitle": "",
+      "summary": "r/PS5 • 706 points • 314 comments",
+      "published_at": "2026-03-29T03:12:36.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
-      "category": "TECH",
-      "topic": "TECH",
-      "priority": 71,
-      "url": "https://github.com/agentscope-ai/agentscope",
-      "hot": false,
+      "category": "GAME",
+      "topic": "PLAYSTATION",
+      "priority": 72,
+      "url": "https://www.reddit.com/r/PS5/comments/1s6k5k1/updates_patch_notes_version_10100_crimson_desert/",
+      "hot": true,
       "tags": [
-        "TECH",
-        "GITHUB"
+        "GAME",
+        "PLAYSTATION",
+        "REDDIT"
       ],
-      "sourceType": "github_trending",
+      "sourceType": "reddit",
       "sources": [
-        "GitHub Trending"
+        "Reddit"
       ],
       "mergedCount": 1,
-      "sourceLayer": "A",
-      "defaultVisible": true
+      "sourceLayer": "C",
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "7c18d6b994fc5aec",
@@ -1356,8 +1596,8 @@
       "title": "U.S. 1:08",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "NYT",
@@ -1374,7 +1614,37 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
+    },
+    {
+      "id": "202efe7bb53def54",
+      "source": "GitHub Trending",
+      "title": "GitHub 热门工具：agentscope",
+      "displayTitle": "GitHub 热门工具：agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
+      "time_source": "published_at",
+      "category": "TECH",
+      "topic": "TECH",
+      "priority": 71,
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "hot": false,
+      "tags": [
+        "TECH",
+        "GITHUB"
+      ],
+      "sourceType": "github_trending",
+      "sources": [
+        "GitHub Trending"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "A",
+      "defaultVisible": true,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "465abb94e756a93f",
@@ -1383,7 +1653,7 @@
       "displayTitle": "",
       "summary": "Much has been written about xAI’s Colossus 1. The Memphis build belongs in the history books: the largest AI training cluster, erected from scratch in 122 days. With roughly 200,000 H100/H200s and ~30,000 GB200 NVL72, it remains, today, the largest fully oper…",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "TECH",
       "topic": "TECH",
@@ -1400,16 +1670,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "46b90e76dbc6962f",
       "source": "Reddit",
       "title": "On This Day in Nintendo History: Fire Emblem: The Binding Blade; Practice English!",
       "displayTitle": "",
-      "summary": "r/nintendo • 6 points • 0 comments",
+      "summary": "r/nintendo • 7 points • 0 comments",
       "published_at": "2026-03-29T07:01:27.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "NINTENDO",
@@ -1427,7 +1699,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "748290a6b3d40ec5",
@@ -1436,7 +1710,7 @@
       "displayTitle": "Codex 开始推送插件能力",
       "summary": "We're rolling out plugins in Codex. @SlackHQ, @Figma, @NotionHQ, @gmail, and more. developers.openai.com/codex/… Video",
       "published_at": "2026-03-26T22:31:07.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -1454,7 +1728,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "B",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "OpenAI",
+      "trustedAuthor": true
     },
     {
       "id": "5e3a79a469c6bad9",
@@ -1462,8 +1738,8 @@
       "title": "PROJECT HAIL MARY",
       "displayTitle": "",
       "summary": "Combined Print & E-Book Fiction • 41 weeks on the list • by Andy Weir • Ryland Grace awakes from a long sleep alone and far from home, and the fate of humanity rests on his shoulders; the basis of the movie.",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:57.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -1481,7 +1757,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "1038285a52faff61",
@@ -1490,7 +1768,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "GAME",
       "topic": "RIOT",
@@ -1508,7 +1786,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "db2628e7445df9b7",
@@ -1517,7 +1797,7 @@
       "displayTitle": "",
       "summary": "Nvidia announced the Rubin CPX, a solution that is specifically designed to be optimized for the prefill phase, with the single-die Rubin CPX heavily emphasizing compute FLOPS over memory bandwidth. This is a game changer for inference, and its significance i…",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "TECH",
       "topic": "TECH",
@@ -1534,7 +1814,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "78c6059aca1ee7c5",
@@ -1543,7 +1825,7 @@
       "displayTitle": "",
       "summary": "Following up on digital hygiene, I wanted to write up my (evolving, opinionated) guide to chemical hygiene. I keep ranting about this topic to all of my friends recently (you can tell I'm really fun at parties), so I thought it would be worth writing it up to…",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "TECH",
       "topic": "TECH",
@@ -1560,16 +1842,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "3457e6d8aa4fa42b",
       "source": "Reddit",
       "title": "Alan Wake Remastered v1.33 adds HDR and upscaler improvements",
       "displayTitle": "",
-      "summary": "r/PS5 • 0 points • 1 comments",
+      "summary": "r/PS5 • 0 points • 2 comments",
       "published_at": "2026-03-29T09:18:11.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "PLAYSTATION",
@@ -1587,16 +1871,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "db04876c70082f90",
       "source": "Reddit",
       "title": "Gaming on Apple's iPhone A18 Pro chip MacBook Neo - Cyber Dopamine",
       "displayTitle": "",
-      "summary": "r/apple • 34 points • 20 comments",
+      "summary": "r/apple • 36 points • 22 comments",
       "published_at": "2026-03-29T05:39:30.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -1613,43 +1899,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
-    },
-    {
-      "id": "9d6d379e00951bb1",
-      "source": "Reddit",
-      "title": "[Updates] Patch Notes Version 1.01.00 | Crimson Desert - adds 5 summonable mounts, decreased loading times, some adjustments to controls, and more.",
-      "displayTitle": "",
-      "summary": "r/PS5 • 699 points • 300 comments",
-      "published_at": "2026-03-29T03:12:36.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
-      "time_source": "published_at",
-      "category": "GAME",
-      "topic": "PLAYSTATION",
-      "priority": 70,
-      "url": "https://www.reddit.com/r/PS5/comments/1s6k5k1/updates_patch_notes_version_10100_crimson_desert/",
-      "hot": true,
-      "tags": [
-        "GAME",
-        "PLAYSTATION",
-        "REDDIT"
-      ],
-      "sourceType": "reddit",
-      "sources": [
-        "Reddit"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "33219c6a54e7fde2",
       "source": "Reddit",
       "title": "Anthropic shares how to make Claude code better with a harness",
       "displayTitle": "",
-      "summary": "r/ClaudeAI • 457 points • 69 comments",
+      "summary": "r/ClaudeAI • 468 points • 71 comments",
       "published_at": "2026-03-29T02:49:35.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "ANTHROPIC",
@@ -1667,16 +1928,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "95e184098e3a12e9",
       "source": "Reddit",
       "title": "‘Project Hail Mary’ Author Andy Weir Says Paramount Rejected His ‘Star Trek’ Pitch: Their “Shows Are Sh**”",
       "displayTitle": "",
-      "summary": "r/television • 4620 points • 685 comments",
+      "summary": "r/television • 4703 points • 703 comments",
       "published_at": "2026-03-28T23:51:48.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "TV",
@@ -1693,16 +1956,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "fb3d6d9b156ed13f",
       "source": "Reddit",
       "title": "Switch 2 Rumors: Zelda Remake and Star Fox Lead a Different 2026",
       "displayTitle": "Switch 2 传闻：《塞尔达》重制版与 Star Fox 或领衔 2026",
-      "summary": "r/Switch • 111 points • 47 comments",
+      "summary": "r/Switch • 116 points • 48 comments",
       "published_at": "2026-03-28T23:48:12.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "SWITCH",
@@ -1720,7 +1985,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "B",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "e4af1145b6335957",
@@ -1729,7 +1996,7 @@
       "displayTitle": "苹果今年将发布两款新的 iPhone 应用",
       "summary": "r/apple • 664 points • 99 comments",
       "published_at": "2026-03-28T18:21:02.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -1746,16 +2013,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "B",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "873bdf6353bcf193",
       "source": "Reddit",
       "title": "Skyrim Still Looks Awesome on Switch 2!",
       "displayTitle": "《上古卷轴 5》在 Switch 2 上依旧很能打",
-      "summary": "r/Switch • 594 points • 68 comments",
+      "summary": "r/Switch • 603 points • 68 comments",
       "published_at": "2026-03-28T15:50:24.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "SWITCH",
@@ -1773,7 +2042,38 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "B",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
+    },
+    {
+      "id": "5a7fd223f7ae7866",
+      "source": "Reddit",
+      "title": "Kingdom Come: Deliverance 2 dev says he was \"fired\" and replaced with AI: \"I feel incredibly betrayed by the management of the company I've come to care about\"",
+      "displayTitle": "《天国：拯救 2》开发者称自己被 AI 取代",
+      "summary": "r/PS5 • 1507 points • 283 comments",
+      "published_at": "2026-03-28T13:46:58.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
+      "time_source": "published_at",
+      "category": "GAME",
+      "topic": "PLAYSTATION",
+      "priority": 70,
+      "url": "https://www.reddit.com/r/PS5/comments/1s60svy/kingdom_come_deliverance_2_dev_says_he_was_fired/",
+      "hot": true,
+      "tags": [
+        "GAME",
+        "PLAYSTATION",
+        "REDDIT"
+      ],
+      "sourceType": "reddit",
+      "sources": [
+        "Reddit"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "B",
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "35322bd873c31e0a",
@@ -1782,7 +2082,7 @@
       "displayTitle": "",
       "summary": "Frustrations are continuing to boil over in the crypto industry as it finds itself again at an impasse over the treatment of stablecoins.",
       "published_at": "2026-03-27T21:40:39.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "CRYPTO_TOOLS",
@@ -1800,7 +2100,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "0ef1a98259c36ea1",
@@ -1809,7 +2111,7 @@
       "displayTitle": "",
       "summary": "Compute is the lifeblood of AI. He who controls the spice controls the universe the compute will control the production of tokens and reap the benefits of AI. Without compute you do not have a seat at the table. The United States technology community is all i…",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "TECH",
       "topic": "TECH",
@@ -1826,7 +2128,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "19792c4d5c18181b",
@@ -1835,7 +2139,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "AI",
       "topic": "CLAUDE",
@@ -1853,7 +2157,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "5496c4a389e90bf8",
@@ -1862,7 +2168,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "SONY",
       "topic": "SONY",
@@ -1879,7 +2185,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "e8da293d696fe084",
@@ -1888,7 +2196,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "CRYPTO_TOOLS",
       "topic": "ONEKEY",
@@ -1905,7 +2213,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "b2d970ef61a4fbdf",
@@ -1914,7 +2224,7 @@
       "displayTitle": "",
       "summary": "The space of intelligences is large and animal intelligence (the only kind we've ever known) is only a single point (or a little cloud), arising from a very specific kind of optimization that is fundamentally distinct from that of our technology. Above: humor…",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "TECH",
       "topic": "TECH",
@@ -1931,16 +2241,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "ab96d448e1449dbf",
       "source": "Reddit",
       "title": "I unironically think Phreak did a pretty good job and ever since he took joined the live team the game has been in one of its most stables states ever, balance-wise",
       "displayTitle": "",
-      "summary": "r/leagueoflegends • 911 points • 143 comments",
+      "summary": "r/leagueoflegends • 944 points • 147 comments",
       "published_at": "2026-03-28T22:39:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "LEAGUE_OF_LEGENDS",
@@ -1958,43 +2270,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
-    },
-    {
-      "id": "5a7fd223f7ae7866",
-      "source": "Reddit",
-      "title": "Kingdom Come: Deliverance 2 dev says he was \"fired\" and replaced with AI: \"I feel incredibly betrayed by the management of the company I've come to care about\"",
-      "displayTitle": "《天国：拯救 2》开发者称自己被 AI 取代",
-      "summary": "r/PS5 • 1493 points • 282 comments",
-      "published_at": "2026-03-28T13:46:58.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
-      "time_source": "published_at",
-      "category": "GAME",
-      "topic": "PLAYSTATION",
-      "priority": 68,
-      "url": "https://www.reddit.com/r/PS5/comments/1s60svy/kingdom_come_deliverance_2_dev_says_he_was_fired/",
-      "hot": true,
-      "tags": [
-        "GAME",
-        "PLAYSTATION",
-        "REDDIT"
-      ],
-      "sourceType": "reddit",
-      "sources": [
-        "Reddit"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "B",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "c018c5df07154bd0",
       "source": "Reddit",
       "title": "Altman is as evil as Stalin, and OpenAI is worse than cigarette companies - Dario Amodei",
       "displayTitle": "",
-      "summary": "r/OpenAI • 626 points • 193 comments",
+      "summary": "r/OpenAI • 624 points • 193 comments",
       "published_at": "2026-03-28T13:06:14.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -2012,7 +2299,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "3aa11c3549a9e9ac",
@@ -2020,8 +2309,8 @@
       "title": "smarter-living 0:48",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "NYT",
@@ -2038,7 +2327,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "265b971690cc2a60",
@@ -2047,7 +2338,7 @@
       "displayTitle": "",
       "summary": "Frontier model training has pushed GPUs and AI systems to their absolute limits, making cost, efficiency, power, performance per TCO, and reliability central to the discussion on effective training. The Hopper vs Blackwell comparisons are not as simple as Nvi…",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "TECH",
       "topic": "TECH",
@@ -2064,7 +2355,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "8d11eddc3445de20",
@@ -2073,7 +2366,7 @@
       "displayTitle": "科技：Verifiability",
       "summary": "AI has been compared to various historical precedents: electricity, industrial revolution, etc., I think the strongest analogy is that of AI as a new computing paradigm because both are fundamentally about the automation of digital information processing. If…",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "TECH",
       "topic": "TECH",
@@ -2090,7 +2383,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "a8315b21cf9e0a15",
@@ -2099,7 +2394,7 @@
       "displayTitle": "",
       "summary": "Gavin Newsom and Kalshi ban insiders* POLITICO (@politico) Gavin Newsom to ban California officials from insider betting on prediction markets dlvr.it/TRkNkL https://nitter.net/politico/status/2037471480225910908#m",
       "published_at": "2026-03-27T21:30:41.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "BTC",
@@ -2117,7 +2412,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "B",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "Kalshi",
+      "trustedAuthor": true
     },
     {
       "id": "f1f7564066cdaa0c",
@@ -2125,8 +2422,8 @@
       "title": "THEO OF GOLDEN",
       "displayTitle": "",
       "summary": "Combined Print & E-Book Fiction • 16 weeks on the list • by Allen Levi • A man travels to a small Southern town, where he purchases pencil drawings of local residents and exchanges them for stories.",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:57.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -2144,7 +2441,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "34dc32a54bfdeef1",
@@ -2153,7 +2452,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "GAME",
       "topic": "RIOT",
@@ -2171,16 +2470,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "58404a61555c77ab",
       "source": "Reddit",
       "title": "I can't fathom GenG's inability to win worlds",
       "displayTitle": "",
-      "summary": "r/leagueoflegends • 240 points • 142 comments",
+      "summary": "r/leagueoflegends • 255 points • 148 comments",
       "published_at": "2026-03-29T05:24:01.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "LEAGUE_OF_LEGENDS",
@@ -2198,16 +2499,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "6763bfe9706c17cb",
       "source": "Reddit",
       "title": "Elder Scrolls mobile spinoff Blades is shutting down this summer after eight years, but at least all its store items are ultra-cheap now",
       "displayTitle": "《上古卷轴：刀锋》将在今夏停止运营",
-      "summary": "r/nintendo • 20 points • 3 comments",
+      "summary": "r/nintendo • 25 points • 3 comments",
       "published_at": "2026-03-28T22:28:28.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "NINTENDO",
@@ -2225,16 +2528,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "B",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "893430f0c3430f53",
       "source": "Reddit",
       "title": "These U.S. States Plan to Offer iPhone's Driver's License Feature",
       "displayTitle": "更多美国州计划支持 iPhone 数字驾照功能",
-      "summary": "r/apple • 410 points • 127 comments",
+      "summary": "r/apple • 421 points • 127 comments",
       "published_at": "2026-03-28T18:19:04.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -2251,7 +2556,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "B",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "54159ca88ffd6f1e",
@@ -2259,8 +2566,8 @@
       "title": "河狸变身计划",
       "displayTitle": "河狸变身计划",
       "summary": "",
-      "published_at": "2026-03-29T10:15:33.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:57.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "DOUBAN",
@@ -2277,7 +2584,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "337cc755fd11925b",
@@ -2285,8 +2594,8 @@
       "title": "Hamnet",
       "displayTitle": "电影：Hamnet",
       "summary": "",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "JUSTWATCH",
@@ -2303,7 +2612,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "cc57faf698169a51",
@@ -2312,7 +2623,7 @@
       "displayTitle": "",
       "summary": "The first portion of this report will explain HBM, the manufacturing process, dynamics between vendors, KVCache offload, disaggregated prefill decode, and wide / high-rank EP. The rest of the report will dive deeply into the future of HBM. We will cover the r…",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "TECH",
       "topic": "TECH",
@@ -2329,7 +2640,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "b4ea14518cfe488a",
@@ -2338,7 +2651,7 @@
       "displayTitle": "",
       "summary": "When I built menugen ~1 year ago, I observed that the hardest part by far was not the code itself, it was the plethora of services you have to assemble like IKEA furniture to make it real, the DevOps: services, payments, auth, database, security, domain names…",
       "published_at": "2026-03-26T16:10:52.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "CLAUDE",
@@ -2356,7 +2669,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "B",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "karpathy",
+      "trustedAuthor": true
     },
     {
       "id": "d0a8b3661bb4e613",
@@ -2365,7 +2680,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "SONY",
       "topic": "SONY",
@@ -2382,7 +2697,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "a75fba613e382bad",
@@ -2391,7 +2708,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "SONY",
       "topic": "SONY",
@@ -2408,7 +2725,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "82d295d51c3e91cc",
@@ -2417,7 +2736,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "SONY",
       "topic": "SONY",
@@ -2434,7 +2753,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "3ca217afe9ab9e03",
@@ -2443,7 +2764,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "CRYPTO_TOOLS",
       "topic": "ONEKEY",
@@ -2460,7 +2781,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "1f81205228845179",
@@ -2469,7 +2792,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "CRYPTO_TOOLS",
       "topic": "ONEKEY",
@@ -2486,7 +2809,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "43e5f3d11e9245fd",
@@ -2495,7 +2820,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "CRYPTO_TOOLS",
       "topic": "ONEKEY",
@@ -2512,7 +2837,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "1af5eec75016eb80",
@@ -2521,7 +2848,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "CRYPTO_TOOLS",
       "topic": "ONEKEY",
@@ -2538,7 +2865,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "b20817f0204c989d",
@@ -2547,7 +2876,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "CRYPTO_TOOLS",
       "topic": "ONEKEY",
@@ -2564,7 +2893,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "fe6297c64312597f",
@@ -2573,7 +2904,7 @@
       "displayTitle": "",
       "summary": "Robots have powered manufacturing for decades, yet they stayed single-purpose and thrived only in perfect settings. Previous attempts at intelligent machines overpromised and underdelivered. But they were too early. Today, modern AI paradigms convert most rob…",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "TECH",
       "topic": "TECH",
@@ -2590,7 +2921,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "5e3155254615b1ac",
@@ -2599,7 +2932,7 @@
       "displayTitle": "",
       "summary": "Transformative technologies usually follow a top-down diffusion path: originating in government or military contexts, passing through corporations, and eventually reaching individuals - think electricity, cryptography, computers, flight, the internet, or GPS.…",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "TECH",
       "topic": "TECH",
@@ -2616,16 +2949,46 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
+    },
+    {
+      "id": "4c43b64d62ff1d9d",
+      "source": "Reddit",
+      "title": "Epic Layoffs Hit Employee Battling Terminal Brain Cancer",
+      "displayTitle": "",
+      "summary": "r/Games • 332 points • 80 comments",
+      "published_at": "2026-03-29T08:07:44.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
+      "time_source": "published_at",
+      "category": "GAME",
+      "topic": "GAME",
+      "priority": 64,
+      "url": "https://www.reddit.com/r/Games/comments/1s6pbk2/epic_layoffs_hit_employee_battling_terminal_brain/",
+      "hot": true,
+      "tags": [
+        "GAME",
+        "REDDIT"
+      ],
+      "sourceType": "reddit",
+      "sources": [
+        "Reddit"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "C",
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "cacc69a4a47f00df",
       "source": "Reddit",
       "title": "Tron: Legacy (2010, dir. Joseph Kosinski) Sam Flynn vs Rinzler",
       "displayTitle": "",
-      "summary": "r/movies • 497 points • 67 comments",
+      "summary": "r/movies • 530 points • 70 comments",
       "published_at": "2026-03-29T03:56:17.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "MOVIE",
@@ -2642,16 +3005,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "41fcc0cb32b41615",
       "source": "Reddit",
       "title": "Jensen Ackles Officially Confirms Plans For The Next 'The Boys' Series [Exclusive]",
       "displayTitle": "",
-      "summary": "r/television • 1607 points • 230 comments",
+      "summary": "r/television • 1635 points • 232 comments",
       "published_at": "2026-03-28T22:08:12.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "TV",
@@ -2668,16 +3033,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "ebc8aec630513e78",
       "source": "Reddit",
       "title": "Do you think the Switch 2 will see a price increase like the Playstation 5 soon?",
       "displayTitle": "",
-      "summary": "r/nintendo • 229 points • 231 comments",
+      "summary": "r/nintendo • 242 points • 234 comments",
       "published_at": "2026-03-28T13:50:46.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "SWITCH",
@@ -2695,7 +3062,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "5171e3d4b40bbe17",
@@ -2704,7 +3073,7 @@
       "displayTitle": "苹果为美国制造计划新增合作伙伴",
       "summary": "",
       "published_at": "2026-03-26T13:00:36.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -2721,7 +3090,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "c86cf1e80e6ebbf9",
@@ -2730,7 +3101,7 @@
       "displayTitle": "Felix 借助 Ondo 在 Hyperliquid 推出代币化股票与 ETF",
       "summary": "On-chain traders on Hyperliquid can now trade over 250 tokenized U.S. equities.",
       "published_at": "2026-03-26T20:39:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "ETF",
@@ -2748,7 +3119,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "89f6e76bf1db5710",
@@ -2757,7 +3130,7 @@
       "displayTitle": "",
       "summary": "Students: build something real in the Codex Creator Challenge, powered by @joinHandshake joinhandshake.com/students/c…",
       "published_at": "2026-03-25T17:02:10.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -2775,7 +3148,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "B",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "OpenAI",
+      "trustedAuthor": true
     },
     {
       "id": "b3fb32f8e2c7ee06",
@@ -2783,8 +3158,8 @@
       "title": "STRIPPED DOWN",
       "displayTitle": "",
       "summary": "Combined Print & E-Book Nonfiction • 5 weeks on the list • by Bunnie Xo • The host of the “Dumb Blonde Podcast” shares how redemption was an important part of her journey toward reaching her goals.",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:57.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -2802,7 +3177,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "6f008fdaac970c80",
@@ -2811,7 +3188,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "GAME",
       "topic": "RIOT",
@@ -2829,42 +3206,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
-    },
-    {
-      "id": "4c43b64d62ff1d9d",
-      "source": "Reddit",
-      "title": "Epic Layoffs Hit Employee Battling Terminal Brain Cancer",
-      "displayTitle": "",
-      "summary": "r/Games • 0 points • 65 comments",
-      "published_at": "2026-03-29T08:07:44.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
-      "time_source": "published_at",
-      "category": "GAME",
-      "topic": "GAME",
-      "priority": 62,
-      "url": "https://www.reddit.com/r/Games/comments/1s6pbk2/epic_layoffs_hit_employee_battling_terminal_brain/",
-      "hot": true,
-      "tags": [
-        "GAME",
-        "REDDIT"
-      ],
-      "sourceType": "reddit",
-      "sources": [
-        "Reddit"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "6eebd72f44c0f73e",
       "source": "Reddit",
       "title": "Barry Caldwell, ‘Animaniacs’ and ‘Osmosis Jones’ Animator, Dies at 68",
       "displayTitle": "",
-      "summary": "r/movies • 12745 points • 274 comments",
+      "summary": "r/movies • 12803 points • 275 comments",
       "published_at": "2026-03-28T17:04:43.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "MOVIE",
@@ -2881,16 +3234,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "933629c70f719168",
       "source": "Reddit",
       "title": "Same $100/month. 10% of my income in Brazil. Degraded during my entire workday. No notice.",
       "displayTitle": "同样 100 美元月费：整个工作日性能下降且没有通知",
-      "summary": "r/Anthropic • 370 points • 115 comments",
+      "summary": "r/Anthropic • 372 points • 120 comments",
       "published_at": "2026-03-28T15:27:53.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "ANTHROPIC",
@@ -2908,16 +3263,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "B",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "91989281deee5fc2",
       "source": "Reddit",
       "title": "Kingdom Come: Deliverance 2 dev says he was \"fired\" and replaced with AI: \"I feel incredibly betrayed by the management of the company I've come to care about\"",
       "displayTitle": "《天国：拯救 2》开发者称自己被 AI 取代",
-      "summary": "r/Games • 3378 points • 798 comments",
+      "summary": "r/Games • 3399 points • 806 comments",
       "published_at": "2026-03-28T13:22:21.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "GAME",
@@ -2934,7 +3291,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "B",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "f776654814cfefa3",
@@ -2943,7 +3302,7 @@
       "displayTitle": "",
       "summary": "ECB research finds large percentages of DeFi governance tokens are tied to exchanges and protocol-linked wallets.",
       "published_at": "2026-03-27T16:48:57.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "CRYPTO_TOOLS",
@@ -2961,7 +3320,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "c52ff6c9f6314efe",
@@ -2969,8 +3330,8 @@
       "title": "侵略机器",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T10:15:33.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:57.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "DOUBAN",
@@ -2987,7 +3348,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "35153abebe488e73",
@@ -2995,8 +3358,8 @@
       "title": "The Secret Agent",
       "displayTitle": "The Secret 智能体",
       "summary": "",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "JUSTWATCH",
@@ -3013,7 +3376,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "e5e42a04118be2f5",
@@ -3022,7 +3387,7 @@
       "displayTitle": "",
       "summary": "Intercontinental Exchange, the parent company of the New York Stock Exchange, has announced a new $600 million direct cash investment in @Polymarket thedefiant.io/news/defi/nyse…",
       "published_at": "2026-03-27T16:54:33.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "BTC",
@@ -3041,7 +3406,9 @@
       ],
       "mergedCount": 2,
       "sourceLayer": "B",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "DefiantNews",
+      "trustedAuthor": true
     },
     {
       "id": "69ab057b30c7e008",
@@ -3050,7 +3417,7 @@
       "displayTitle": "",
       "summary": "Sites like Hyperliquid, Ostium are seeing traditional-asset perps make up a greater share of volume",
       "published_at": "2026-03-24T21:00:01.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "BTC",
@@ -3068,16 +3435,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "d97e312337fb68e3",
       "source": "Reddit",
       "title": "What even happened to deepseek",
       "displayTitle": "",
-      "summary": "r/singularity • 144 points • 119 comments",
+      "summary": "r/singularity • 156 points • 128 comments",
       "published_at": "2026-03-29T05:55:50.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "AI",
@@ -3094,16 +3463,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "33fd44cdd7424793",
       "source": "Reddit",
       "title": "[Updates] Patch Notes Version 1.01.00 | Crimson Desert - adds 5 summonable mounts, decreased loading times, some adjustments to controls, and more.",
       "displayTitle": "",
-      "summary": "r/Games • 438 points • 228 comments",
+      "summary": "r/Games • 443 points • 235 comments",
       "published_at": "2026-03-29T03:15:43.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "GAME",
@@ -3120,16 +3491,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "74f64f5faaed30be",
       "source": "Reddit",
       "title": "Why are some filmmakers less affected by flops than others?",
       "displayTitle": "",
-      "summary": "r/movies • 545 points • 249 comments",
+      "summary": "r/movies • 580 points • 253 comments",
       "published_at": "2026-03-29T01:17:27.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "MOVIE",
@@ -3146,16 +3519,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "1d9b57b51c8f82e4",
       "source": "Reddit",
       "title": "Its not sci-fi anymore! A Chinese company, Unipath has launched a household robot",
       "displayTitle": "",
-      "summary": "r/singularity • 593 points • 134 comments",
+      "summary": "r/singularity • 614 points • 139 comments",
       "published_at": "2026-03-28T23:01:33.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "AI",
@@ -3172,16 +3547,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "f0b117ced04fd106",
       "source": "Reddit",
       "title": "Barry Caldwell, ‘Animaniacs’ and ‘Osmosis Jones’ Animator, Dies at 68",
       "displayTitle": "",
-      "summary": "r/television • 2351 points • 42 comments",
+      "summary": "r/television • 2374 points • 43 comments",
       "published_at": "2026-03-28T17:04:28.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "TV",
@@ -3198,7 +3575,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "cbc4f15ace1b9efe",
@@ -3207,7 +3586,7 @@
       "displayTitle": "特斯拉 2026 年 Q1 季度更新",
       "summary": "",
       "published_at": "2026-03-26T15:52:01.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TESLA",
       "topic": "TESLA",
@@ -3224,7 +3603,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "6b8863722bf7e97a",
@@ -3233,7 +3614,7 @@
       "displayTitle": "特斯拉 2026 年 Q1 交付预期",
       "summary": "",
       "published_at": "2026-03-26T15:50:39.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TESLA",
       "topic": "TESLA",
@@ -3250,7 +3631,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": true
+      "defaultVisible": true,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "9a71e3fcb10eb150",
@@ -3259,7 +3642,7 @@
       "displayTitle": "BTC 两周新低，4.43 亿美元多头爆仓",
       "summary": "Iran escalation and $171 million in ETF outflows drive BTC below $66,000.",
       "published_at": "2026-03-27T16:38:24.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "BTC",
@@ -3277,7 +3660,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "4622bea1fb8b342d",
@@ -3285,8 +3670,8 @@
       "title": "STRANGERS",
       "displayTitle": "",
       "summary": "Combined Print & E-Book Nonfiction • 10 weeks on the list • by Belle Burden • Burden retraces her marriage of 20 years in search of clues to help shape her understanding about its demise and to find a way forward.",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:57.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -3304,16 +3689,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "b66476c6d8d0422f",
       "source": "Reddit",
       "title": "What are dead giveaways for AI slop websites?",
       "displayTitle": "",
-      "summary": "r/ClaudeAI • 441 points • 39 comments",
+      "summary": "r/ClaudeAI • 516 points • 46 comments",
       "published_at": "2026-03-29T05:24:08.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "CLAUDE",
@@ -3331,16 +3718,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "2e5fbd2485be930b",
       "source": "Reddit",
       "title": "Anyone else’s Claude leaving them on “Read”?",
       "displayTitle": "",
-      "summary": "r/ClaudeAI • 365 points • 70 comments",
+      "summary": "r/ClaudeAI • 361 points • 70 comments",
       "published_at": "2026-03-28T22:35:20.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "CLAUDE",
@@ -3358,7 +3747,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "e3e4510dd2e3a809",
@@ -3367,7 +3758,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-27T20:59:53.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -3384,7 +3775,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "3d9779e7f2c823a4",
@@ -3392,8 +3785,8 @@
       "title": "家弑服务",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T10:15:33.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:57.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "DOUBAN",
@@ -3410,33 +3803,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
-    },
-    {
-      "id": "ddff6afe985f33d6",
-      "source": "Hacker News",
-      "title": "Iran-linked hackers breach FBI director's personal email",
-      "displayTitle": "",
-      "summary": "HN • 428 points • 516 comments",
-      "published_at": "2026-03-29T10:15:33.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
-      "time_source": "published_at",
-      "category": "TECH",
-      "topic": "TECH",
-      "priority": 57,
-      "url": "https://www.reuters.com/world/us/iran-linked-hackers-claim-breach-of-fbi-directors-personal-email-doj-official-2026-03-27/",
-      "hot": true,
-      "tags": [
-        "TECH",
-        "HN"
-      ],
-      "sourceType": "community_hot",
-      "sources": [
-        "Hacker News"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "B",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "53c95bf8aa8b083a",
@@ -3444,8 +3813,8 @@
       "title": "Sentimental Value",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "JUSTWATCH",
@@ -3462,7 +3831,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "07498f160253b232",
@@ -3471,7 +3842,7 @@
       "displayTitle": "",
       "summary": "r/teslamotors • 0 points • 2 comments",
       "published_at": "2026-03-29T02:19:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TESLA",
       "topic": "TESLA",
@@ -3488,7 +3859,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "fe92502f60df0260",
@@ -3497,7 +3870,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-27T22:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -3514,7 +3887,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "0d6577f94b292e22",
@@ -3523,7 +3898,7 @@
       "displayTitle": "加州禁止官员参与预测市场内幕交易，联邦禁令成形",
       "summary": "Prediction market platforms are tightening trading restrictions and surveillance tools as concerns grow over insider participants.",
       "published_at": "2026-03-27T20:26:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "BTC",
@@ -3541,7 +3916,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "97e6caaee9498eb9",
@@ -3550,7 +3927,7 @@
       "displayTitle": "PlayStation 播客第 537 期：聊聊《Saros》",
       "summary": "",
       "published_at": "2026-03-27T16:59:09.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "SONY",
       "topic": "SONY",
@@ -3567,7 +3944,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "cbba86a1a4a13082",
@@ -3576,7 +3955,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-27T16:00:08.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "SONY",
       "topic": "SONY",
@@ -3593,7 +3972,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "910b194eebce6767",
@@ -3602,7 +3983,7 @@
       "displayTitle": "法官叫停五角大楼将 Anthropic 列为“供应链风险”",
       "summary": "The decision is an early victory for the artificial intelligence company in a rancorous legal battle with the Department of Defense.",
       "published_at": "2026-03-27T14:45:53.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "ANTHROPIC",
@@ -3620,7 +4001,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "a79249f2ce3fc84a",
@@ -3629,7 +4012,7 @@
       "displayTitle": "东南亚地区：PS5、PS5 Pro 与 Portal 调价",
       "summary": "",
       "published_at": "2026-03-27T12:31:08.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "SONY",
       "topic": "SONY",
@@ -3646,16 +4029,18 @@
       ],
       "mergedCount": 2,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "d79f46680e93a230",
       "source": "Reddit",
       "title": "New Price Changes for PS5, PS5 Pro, and PlayStation Portal remote player",
       "displayTitle": "",
-      "summary": "r/gadgets • 1267 points • 503 comments",
+      "summary": "r/gadgets • 1276 points • 503 comments",
       "published_at": "2026-03-27T12:09:25.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "PLAYSTATION",
@@ -3673,7 +4058,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "1b97e09d07c9e1b2",
@@ -3682,7 +4069,7 @@
       "displayTitle": "",
       "summary": "The Anthropic co-founder Jack Clark tells Ezra Klein what he sees coming in the new era of A.I. agents.",
       "published_at": "2026-03-27T11:00:09.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "ANTHROPIC",
@@ -3700,7 +4087,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "ec72c58d23e5aeae",
@@ -3709,7 +4098,7 @@
       "displayTitle": "",
       "summary": "After a disappointing movie adaptation, the Norwegian author took the reins as showrunner in a new Netflix series based on his Detective Hole books.",
       "published_at": "2026-03-27T09:02:22.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "ETF",
@@ -3727,16 +4116,47 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
+    },
+    {
+      "id": "35bb88040c71c5b7",
+      "source": "Reddit",
+      "title": "All the A/B and Claude performance for me? is it a smear campaign being carefully run?",
+      "displayTitle": "",
+      "summary": "r/Anthropic • 9 points • 16 comments",
+      "published_at": "2026-03-29T08:12:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
+      "time_source": "published_at",
+      "category": "AI",
+      "topic": "CLAUDE",
+      "priority": 55,
+      "url": "https://www.reddit.com/r/Anthropic/comments/1s6pelz/all_the_ab_and_claude_performance_for_me_is_it_a/",
+      "hot": false,
+      "tags": [
+        "AI",
+        "CLAUDE",
+        "REDDIT"
+      ],
+      "sourceType": "reddit",
+      "sources": [
+        "Reddit"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "C",
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "8c47ff7905df2c2c",
       "source": "Reddit",
       "title": "GPT 5.4 vs GPT 5.4 Pro - SVG Generation Capability",
       "displayTitle": "",
-      "summary": "r/OpenAI • 187 points • 25 comments",
+      "summary": "r/OpenAI • 189 points • 25 comments",
       "published_at": "2026-03-28T19:21:48.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -3754,34 +4174,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
-    },
-    {
-      "id": "5b0241f8829e9f51",
-      "source": "Reddit",
-      "title": "Anthropic reportedly views itself as the antidote to OpenAI's \"tobacco industry\" approach to AI",
-      "displayTitle": "",
-      "summary": "r/Anthropic • 153 points • 29 comments",
-      "published_at": "2026-03-28T16:57:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
-      "time_source": "published_at",
-      "category": "AI",
-      "topic": "OPENAI",
-      "priority": 55,
-      "url": "https://www.reddit.com/r/Anthropic/comments/1s65oab/anthropic_reportedly_views_itself_as_the_antidote/",
-      "hot": false,
-      "tags": [
-        "AI",
-        "OPENAI",
-        "REDDIT"
-      ],
-      "sourceType": "reddit",
-      "sources": [
-        "Reddit"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "bf3c7fc7cb4be92e",
@@ -3789,8 +4184,8 @@
       "title": "JUDGE STONE",
       "displayTitle": "",
       "summary": "Hardcover Fiction • 2 weeks on the list • by Viola Davis and James Patterson • Judge Mary Stone oversees an ethically complex case in her courtroom in Union Springs, Ala.",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:57.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -3808,7 +4203,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "4054532afd172676",
@@ -3816,8 +4213,8 @@
       "title": "THE CORRESPONDENT",
       "displayTitle": "",
       "summary": "Hardcover Fiction • 21 weeks on the list • by Virginia Evans • Letters from someone she used to know push Sybil Van Antwerp toward revisiting her past and finding a way to forgive.",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:57.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -3835,7 +4232,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "5b972543770719a9",
@@ -3844,7 +4243,7 @@
       "displayTitle": "",
       "summary": "Our critic assesses the achievement of Martin Amis, Britain’s most famous literary son.",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -3861,7 +4260,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "155973c28f77474c",
@@ -3870,7 +4271,7 @@
       "displayTitle": "",
       "summary": "“NB by J.C.” collects the variegated musings of James Campbell in the Times Literary Supplement.",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -3887,7 +4288,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "60f18679bfbd511a",
@@ -3896,7 +4299,7 @@
       "displayTitle": "",
       "summary": "In “Fires in the Dark,” Jamison, known for her expertise on manic depression, delves into the quest to heal. Her new book, she says, is a “love song to psychotherapy.”",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -3913,7 +4316,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "41bb70a9f46afcc4",
@@ -3922,7 +4327,7 @@
       "displayTitle": "",
       "summary": "Dorothy L. Sayers dealt with emotional and financial instability by writing “Whose Body?,” the first of many to star the detective Lord Peter Wimsey.",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -3939,7 +4344,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "951c35461536d963",
@@ -3948,7 +4355,7 @@
       "displayTitle": "",
       "summary": "“Dom Casmurro,” by Machado de Assis, teaches us to read — and reread — with precise detail and masterly obfuscation.",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -3965,7 +4372,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "52ef06693896cc03",
@@ -3974,7 +4383,7 @@
       "displayTitle": "",
       "summary": "Brandon Taylor’s novel circulates among Iowa City residents, some privileged, some not, but all aware that their possibilities are contracting.",
       "published_at": "",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "fetched_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -3991,7 +4400,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "2a5d4e9c4ebf00d1",
@@ -4000,7 +4411,7 @@
       "displayTitle": "",
       "summary": "The U.S. and other exporters are poised for a windfall, but disruptions to Persian Gulf supplies are also pushing gas-buying countries to consider alternatives like coal, solar and nuclear energy.",
       "published_at": "2026-03-29T09:00:54.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -4017,7 +4428,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "88d722303f2c7678",
@@ -4026,7 +4439,7 @@
       "displayTitle": "",
       "summary": "Steve Cahillane, a food industry veteran, is trying to revive the company behind Kool-Aid, Oscar Mayer and many other brands.",
       "published_at": "2026-03-29T09:00:43.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -4043,7 +4456,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "42f5fbfbe6f03330",
@@ -4052,7 +4467,7 @@
       "displayTitle": "",
       "summary": "A long-term project to remove or modify dams may clear the way for endangered wild Atlantic salmon to swim freely up to the Sandy River. But it faces opposition from business and lawmakers.",
       "published_at": "2026-03-29T09:00:27.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -4069,7 +4484,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "4c59c929f39f8780",
@@ -4078,7 +4495,7 @@
       "displayTitle": "",
       "summary": "No more YouTube or video games on school laptops. Textbooks and pencils are back. Some seventh graders say they prefer learning offline.",
       "published_at": "2026-03-29T09:00:25.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -4095,43 +4512,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
-    },
-    {
-      "id": "35bb88040c71c5b7",
-      "source": "Reddit",
-      "title": "All the A/B and Claude performance for me? is it a smear campaign being carefully run?",
-      "displayTitle": "",
-      "summary": "r/Anthropic • 0 points • 11 comments",
-      "published_at": "2026-03-29T08:12:56.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
-      "time_source": "published_at",
-      "category": "AI",
-      "topic": "CLAUDE",
-      "priority": 54,
-      "url": "https://www.reddit.com/r/Anthropic/comments/1s6pelz/all_the_ab_and_claude_performance_for_me_is_it_a/",
-      "hot": false,
-      "tags": [
-        "AI",
-        "CLAUDE",
-        "REDDIT"
-      ],
-      "sourceType": "reddit",
-      "sources": [
-        "Reddit"
-      ],
-      "mergedCount": 1,
-      "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "0ffba6442e66e1f2",
       "source": "Reddit",
       "title": "White House App Found Tracking Users' Exact Location Every 4.5 Minutes via Third-Party Server",
       "displayTitle": "",
-      "summary": "r/technology • 17776 points • 489 comments",
+      "summary": "r/technology • 18093 points • 494 comments",
       "published_at": "2026-03-28T22:32:16.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -4148,16 +4540,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "ebd37b2e555d7c7c",
       "source": "Reddit",
       "title": "The real danger of AGI isn't a robot uprising. It's that the public will permanently lose its bargaining power",
       "displayTitle": "AGI 的真正风险，不是机器人起义，而是公众失去议价能力",
-      "summary": "r/OpenAI • 96 points • 43 comments",
+      "summary": "r/OpenAI • 97 points • 45 comments",
       "published_at": "2026-03-28T19:37:05.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -4175,16 +4569,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "B",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "3e4cb160660d4f1e",
       "source": "Reddit",
       "title": "White House unveils ‘OnlyFarms’ website, welcomes farmers with golden tractor on South Lawn",
       "displayTitle": "",
-      "summary": "r/technology • 8331 points • 777 comments",
+      "summary": "r/technology • 8390 points • 778 comments",
       "published_at": "2026-03-28T18:15:38.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -4201,16 +4597,47 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
+    },
+    {
+      "id": "5b0241f8829e9f51",
+      "source": "Reddit",
+      "title": "Anthropic reportedly views itself as the antidote to OpenAI's \"tobacco industry\" approach to AI",
+      "displayTitle": "",
+      "summary": "r/Anthropic • 151 points • 29 comments",
+      "published_at": "2026-03-28T16:57:00.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
+      "time_source": "published_at",
+      "category": "AI",
+      "topic": "OPENAI",
+      "priority": 54,
+      "url": "https://www.reddit.com/r/Anthropic/comments/1s65oab/anthropic_reportedly_views_itself_as_the_antidote/",
+      "hot": false,
+      "tags": [
+        "AI",
+        "OPENAI",
+        "REDDIT"
+      ],
+      "sourceType": "reddit",
+      "sources": [
+        "Reddit"
+      ],
+      "mergedCount": 1,
+      "sourceLayer": "C",
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "ed6020adc094819c",
       "source": "Reddit",
       "title": "Ukraine’s military brings exoskeletons to the front line",
       "displayTitle": "",
-      "summary": "r/gadgets • 3591 points • 190 comments",
+      "summary": "r/gadgets • 3642 points • 190 comments",
       "published_at": "2026-03-28T10:34:56.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -4227,7 +4654,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "86e437088f4552ca",
@@ -4236,7 +4665,7 @@
       "displayTitle": "",
       "summary": "Law No. 15,358 gives judges sweeping power to freeze digital assets during investigations as Brasília takes a \"financial strangulation\" approach to organized crime.",
       "published_at": "2026-03-26T20:27:58.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "CRYPTO_TOOLS",
@@ -4254,7 +4683,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "9fd381bc18c5bc94",
@@ -4262,8 +4693,8 @@
       "title": "东京出租车",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T10:15:33.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:57.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "DOUBAN",
@@ -4280,7 +4711,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "11f779ad8d8f0873",
@@ -4288,8 +4721,8 @@
       "title": "Marty Supreme",
       "displayTitle": "电影：Marty Supreme",
       "summary": "",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "JUSTWATCH",
@@ -4306,7 +4739,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "fd3b8ed4015bf168",
@@ -4315,7 +4750,7 @@
       "displayTitle": "",
       "summary": "Largest U.S. Bitcoin miner offloads roughly a quarter of its treasury to buy back $1 billion in zero-coupon notes at a 9% discount, dropping to third among corporate BTC holders.",
       "published_at": "2026-03-26T20:57:52.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "BTC",
@@ -4333,7 +4768,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "ac35d33d88f759dc",
@@ -4342,7 +4779,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-26T03:02:19.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "NINTENDO",
@@ -4359,7 +4796,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "cbb762014fc9a005",
@@ -4368,7 +4807,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-27T00:35:01.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -4385,7 +4824,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "b69daa85445ef0ce",
@@ -4394,7 +4835,7 @@
       "displayTitle": "",
       "summary": "Before being cast as “The Bachelorette,” Taylor Frankie Paul had discussed — with police, on podcasts and on TV — the domestic dispute that involved her 5-year-old daughter.",
       "published_at": "2026-03-28T09:02:23.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "TV",
@@ -4411,7 +4852,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "3a0babc9dd1e897c",
@@ -4420,7 +4863,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-26T23:58:22.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -4437,7 +4880,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "8536ac272e4c949f",
@@ -4446,7 +4891,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-26T17:15:53.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "SONY",
       "topic": "SONY",
@@ -4463,7 +4908,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "12989a99e84f634b",
@@ -4472,7 +4919,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-26T15:00:29.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "SONY",
       "topic": "SONY",
@@ -4489,7 +4936,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "724db6d9ad3012a4",
@@ -4497,8 +4946,8 @@
       "title": "至尊马蒂",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T10:15:33.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:57.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "DOUBAN",
@@ -4515,7 +4964,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "ca16611ebe200897",
@@ -4523,8 +4974,8 @@
       "title": "哈姆奈特",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T10:15:33.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:57.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "DOUBAN",
@@ -4541,7 +4992,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "2cc9a606312d09aa",
@@ -4549,8 +5002,8 @@
       "title": "用武之地",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T10:15:33.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:57.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "DOUBAN",
@@ -4567,7 +5020,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "7506994b588b1c53",
@@ -4575,8 +5030,8 @@
       "title": "你行！你上！",
       "displayTitle": "你行！你上！",
       "summary": "",
-      "published_at": "2026-03-29T10:15:33.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:57.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "DOUBAN",
@@ -4593,7 +5048,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "4e70d6e4dfd74063",
@@ -4601,8 +5058,8 @@
       "title": "呼啸山庄",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T10:15:33.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:57.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "DOUBAN",
@@ -4619,7 +5076,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "097e18052bcb288c",
@@ -4627,8 +5086,8 @@
       "title": "局外人",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T10:15:33.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:57.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "DOUBAN",
@@ -4645,7 +5104,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "abec643f4fe3403e",
@@ -4653,8 +5114,8 @@
       "title": "One Battle After Another",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "JUSTWATCH",
@@ -4671,7 +5132,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "f174d9c8669339d5",
@@ -4679,8 +5142,8 @@
       "title": "Ready or Not",
       "displayTitle": "电影：Ready or Not",
       "summary": "",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "JUSTWATCH",
@@ -4697,7 +5160,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "ce5d3e17ff74858c",
@@ -4705,8 +5170,8 @@
       "title": "Sinners",
       "displayTitle": "电影：Sinners",
       "summary": "",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "JUSTWATCH",
@@ -4723,7 +5188,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "2d8dca30b4875c0b",
@@ -4731,8 +5198,8 @@
       "title": "Project Hail Mary",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "JUSTWATCH",
@@ -4749,7 +5216,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "e836a4fe93e61402",
@@ -4757,8 +5226,8 @@
       "title": "Bugonia",
       "displayTitle": "电影：Bugonia",
       "summary": "",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "JUSTWATCH",
@@ -4775,7 +5244,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "3fa626fc69519b95",
@@ -4783,8 +5254,8 @@
       "title": "The Housemaid",
       "displayTitle": "电影：The Housemaid",
       "summary": "",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "JUSTWATCH",
@@ -4801,7 +5272,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "83ee1de4a20a247c",
@@ -4809,8 +5282,8 @@
       "title": "The Madison",
       "displayTitle": "剧集：The Madison",
       "summary": "",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "JUSTWATCH",
@@ -4827,7 +5300,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "c20b94009e6c9534",
@@ -4835,8 +5310,8 @@
       "title": "Paradise",
       "displayTitle": "剧集：Paradise",
       "summary": "",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "JUSTWATCH",
@@ -4853,7 +5328,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "1eb9bfc69f6bde31",
@@ -4861,8 +5338,8 @@
       "title": "The Pitt",
       "displayTitle": "剧集：The Pitt",
       "summary": "",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "JUSTWATCH",
@@ -4879,7 +5356,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "cb8a7ec4003d61d9",
@@ -4887,8 +5366,8 @@
       "title": "Scarpetta",
       "displayTitle": "剧集：Scarpetta",
       "summary": "",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "JUSTWATCH",
@@ -4905,7 +5384,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "0efcd932c6ca7c4d",
@@ -4913,8 +5394,8 @@
       "title": "Shrinking",
       "displayTitle": "剧集：Shrinking",
       "summary": "",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "JUSTWATCH",
@@ -4931,7 +5412,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "0e376afa54f55fc8",
@@ -4939,8 +5422,8 @@
       "title": "DTF St. Louis",
       "displayTitle": "剧集：DTF St. Louis",
       "summary": "",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "JUSTWATCH",
@@ -4957,7 +5440,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "e4e321ec7852e5db",
@@ -4965,8 +5450,8 @@
       "title": "Monarch: Legacy of Monsters",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "JUSTWATCH",
@@ -4983,7 +5468,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "0463bcb4c70965cf",
@@ -4991,8 +5478,8 @@
       "title": "Rooster",
       "displayTitle": "剧集：Rooster",
       "summary": "",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "JUSTWATCH",
@@ -5009,7 +5496,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "02bf8fda130896a7",
@@ -5017,8 +5506,8 @@
       "title": "Young Sherlock",
       "displayTitle": "剧集：Young Sherlock",
       "summary": "",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "JUSTWATCH",
@@ -5035,7 +5524,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "4d41401244ccecc6",
@@ -5043,8 +5534,8 @@
       "title": "A Knight of the Seven Kingdoms",
       "displayTitle": "",
       "summary": "",
-      "published_at": "2026-03-29T10:15:32.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "published_at": "2026-03-29T10:33:56.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "JUSTWATCH",
@@ -5061,7 +5552,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "a5cd5659266dd28a",
@@ -5070,7 +5563,7 @@
       "displayTitle": "",
       "summary": "Borrowers can pledge Bitcoin or USDC as down payment collateral without triggering a taxable event.",
       "published_at": "2026-03-26T19:29:22.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "BTC",
@@ -5088,7 +5581,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "6cdf6126bb159931",
@@ -5097,7 +5592,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-24T04:04:27.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "OPENCLAW",
@@ -5115,7 +5610,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "aa7070649fb0c8c6",
@@ -5124,7 +5621,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-24T03:06:46.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "OPENCLAW",
@@ -5142,7 +5639,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "484a908aaffd6727",
@@ -5151,7 +5650,7 @@
       "displayTitle": "OpenClaw 正式版更新 2026.3.24",
       "summary": "",
       "published_at": "2026-03-24T00:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "OPENCLAW",
@@ -5169,7 +5668,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "2dcfe115a5f29052",
@@ -5178,7 +5679,7 @@
       "displayTitle": "OpenClaw 测试版更新 2026.3.24 Beta 2",
       "summary": "",
       "published_at": "2026-03-24T00:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "OPENCLAW",
@@ -5196,7 +5697,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "d9f3cf814033e1bc",
@@ -5205,7 +5708,7 @@
       "displayTitle": "OpenClaw 测试版更新 2026.3.24 Beta 1",
       "summary": "",
       "published_at": "2026-03-24T00:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "OPENCLAW",
@@ -5223,7 +5726,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "a569fbc8dfc02fdc",
@@ -5232,7 +5737,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-23T18:55:05.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "OPENCLAW",
@@ -5250,16 +5755,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "deb5c73028b344b2",
       "source": "Reddit",
       "title": "Pamela Anderson’s New Campaign Bans AI Models | Anderson stars in a new campaign for AEO’s Aerie that doubles down on the lifestyle brand’s pledge to “always keep it 100 percent real: no AI-generated bodies, no AI-generated people. Ever.”",
       "displayTitle": "",
-      "summary": "r/technology • 371 points • 50 comments",
+      "summary": "r/technology • 423 points • 54 comments",
       "published_at": "2026-03-29T06:30:59.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -5276,16 +5783,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "63f87172a8357134",
       "source": "Reddit",
       "title": "Study: Balcony solar systems almost always pay off – but storage is more complicated",
       "displayTitle": "",
-      "summary": "r/gadgets • 565 points • 23 comments",
+      "summary": "r/gadgets • 577 points • 23 comments",
       "published_at": "2026-03-28T19:52:19.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -5302,7 +5811,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "800385028a4886dd",
@@ -5311,7 +5822,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-26T01:06:50.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "NINTENDO",
@@ -5328,7 +5839,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "bf7db4226dce7a53",
@@ -5337,7 +5850,7 @@
       "displayTitle": "OpenAI 开放 AI 漏洞赏金",
       "summary": "",
       "published_at": "2026-03-25T00:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -5354,7 +5867,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "a19ffc4c9061f280",
@@ -5363,7 +5878,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-24T14:59:19.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -5380,16 +5895,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "a81ea78862d50a2e",
       "source": "Reddit",
       "title": "What *The Color Purple* means to me, and why it’s forever precious",
       "displayTitle": "",
-      "summary": "r/books • 210 points • 29 comments",
+      "summary": "r/books • 209 points • 29 comments",
       "published_at": "2026-03-28T19:00:59.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -5406,7 +5923,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "1e717ae338b9604e",
@@ -5415,7 +5934,7 @@
       "displayTitle": "",
       "summary": "The FX show, which dramatizes the relationship between John F. Kennedy Jr. and Carolyn Bessette, has inspired a legion of younger viewers to dig into the couple’s past and 1990s New York City.",
       "published_at": "2026-03-27T15:35:04.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "TV",
@@ -5432,16 +5951,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "cc9404b0c565b182",
       "source": "Reddit",
       "title": "Flashy Thing",
       "displayTitle": "图书：Flashy Thing",
-      "summary": "r/books • 77 points • 40 comments",
+      "summary": "r/books • 80 points • 41 comments",
       "published_at": "2026-03-28T22:08:14.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -5458,7 +5979,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "B",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "2a627536856b877c",
@@ -5467,7 +5990,7 @@
       "displayTitle": "",
       "summary": "r/books • 0 points • 4 comments",
       "published_at": "2026-03-29T08:41:42.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "BOOK",
       "topic": "BOOK",
@@ -5484,7 +6007,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "6bb271cc76996831",
@@ -5493,7 +6018,7 @@
       "displayTitle": "",
       "summary": "Nadav Lapid’s scathing tone and accelerated rhythms lead this movie about a married couple who ingratiate themselves with the country’s power elite.",
       "published_at": "2026-03-26T17:33:14.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "MOVIE",
@@ -5510,7 +6035,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "7f4e607e92c50609",
@@ -5519,7 +6046,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-26T16:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "RIOT",
@@ -5537,7 +6064,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "ae3075c73549fce9",
@@ -5546,7 +6075,7 @@
       "displayTitle": "「Hello! インディー」野球の選手が世界を救う？…",
       "summary": "",
       "published_at": "2026-03-26T01:03:23.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "NINTENDO",
@@ -5563,7 +6092,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "20a194926fc6f294",
@@ -5572,7 +6103,7 @@
       "displayTitle": "「Hello! インディー」高校生のみずみずしい感情を描く青春アドベンチャー『U…",
       "summary": "",
       "published_at": "2026-03-26T01:02:36.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "NINTENDO",
@@ -5589,7 +6120,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "44b1fdedacbb6a61",
@@ -5598,7 +6131,7 @@
       "displayTitle": "魔王と不思議な子ども、奇妙な“親子”の大冒険。『DAMON and BABY…",
       "summary": "",
       "published_at": "2026-03-26T01:02:07.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "NINTENDO",
@@ -5615,7 +6148,9 @@
       ],
       "mergedCount": 2,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "91b0e31b1f496545",
@@ -5624,7 +6159,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-26T00:10:10.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "NINTENDO",
@@ -5641,7 +6176,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "5aaccc40a295a66e",
@@ -5650,7 +6187,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-25T15:00:20.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "SONY",
       "topic": "SONY",
@@ -5667,7 +6204,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "ea7aa71ef71a3621",
@@ -5676,7 +6215,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-25T14:01:43.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "NINTENDO",
@@ -5693,7 +6232,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "6705d8d27e1cd981",
@@ -5702,7 +6243,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-23T17:00:08.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -5719,7 +6260,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "ea974199a515659b",
@@ -5728,7 +6271,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-17T10:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -5745,7 +6288,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "e8de2dbae774abed",
@@ -5754,7 +6299,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-16T12:59:07.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -5771,7 +6316,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "60e659cb8e7973d5",
@@ -5780,7 +6327,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-14T03:12:58.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -5797,7 +6344,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "ffde557c37a0d4d0",
@@ -5806,7 +6355,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-12T12:59:02.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -5823,7 +6372,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "8b7990de1421305f",
@@ -5832,7 +6383,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-11T14:00:04.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -5849,7 +6400,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "8d9b43661444b509",
@@ -5858,7 +6411,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-11T13:58:47.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -5875,7 +6428,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "dab747c25ea0cc68",
@@ -5884,7 +6439,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-11T12:59:12.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -5901,7 +6456,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "317a4ce78f8804a1",
@@ -5910,7 +6467,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-05T13:59:20.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -5927,7 +6484,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "b7de1ef4f17df742",
@@ -5936,7 +6495,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-04T14:15:47.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -5953,7 +6512,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "51e24ad426be36c7",
@@ -5962,7 +6523,7 @@
       "displayTitle": "苹果发布搭载 M5 的新 MacBook Air",
       "summary": "",
       "published_at": "2026-03-03T14:01:02.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "APPLE",
       "topic": "APPLE",
@@ -5979,7 +6540,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "dc1a438136139ef8",
@@ -5988,7 +6551,7 @@
       "displayTitle": "Arm 推出自研 CPU，动机与约束浮出水面",
       "summary": "Arm is selling its own chips, not just licensing IP. It's a big change compared to Arm's history, but not surprising given how computing is evolving.",
       "published_at": "2026-03-25T10:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -6005,7 +6568,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "5f1d8b4b4e68cd6d",
@@ -6014,7 +6579,7 @@
       "displayTitle": "",
       "summary": "The optimistic space-race drama, starting its fifth season, imagines humans settling space without tech colonizing our minds.",
       "published_at": "2026-03-27T09:02:14.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TV",
       "topic": "TV",
@@ -6031,7 +6596,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "d7fa26edefe1b73f",
@@ -6040,7 +6607,7 @@
       "displayTitle": "",
       "summary": "With a third of the global supply offline because of the war in Iran, gas companies are scrambling to assure critical A.I. chip makers there will be no disruptions.",
       "published_at": "2026-03-27T04:00:21.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -6057,7 +6624,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "221f8215f2faef05",
@@ -6066,7 +6635,7 @@
       "displayTitle": "",
       "summary": "The world’s largest crypto exchange is under fire after investigators found accounts moving $1.7 billion to entities linked to Iran. Clues about those accounts were in plain sight for over a year.",
       "published_at": "2026-03-26T18:37:34.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -6083,16 +6652,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "f89d71b0ee59900b",
       "source": "Reddit",
       "title": "Model Y is bestselling car in the world for 2025 (3rd year in a row), according to several firms.",
       "displayTitle": "",
-      "summary": "r/teslamotors • 1090 points • 291 comments",
+      "summary": "r/teslamotors • 1087 points • 291 comments",
       "published_at": "2026-03-25T21:46:54.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TESLA",
       "topic": "TESLA",
@@ -6109,7 +6680,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "7b2366d97b47d049",
@@ -6118,7 +6691,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-25T10:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -6135,7 +6708,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "d19a55ea07fec613",
@@ -6144,7 +6719,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-25T01:25:48.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "NINTENDO",
@@ -6161,7 +6736,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "694f2acb38cb0ab6",
@@ -6170,7 +6747,7 @@
       "displayTitle": "『Pokémon Champions』の紹介映像を公開。4月8日に配信決定。",
       "summary": "",
       "published_at": "2026-03-25T01:09:25.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "NINTENDO",
@@ -6187,7 +6764,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "f41cd976c89d8e4b",
@@ -6196,7 +6775,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-25T00:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "SONY",
       "topic": "SONY",
@@ -6213,7 +6792,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "40b0889c9422e06d",
@@ -6222,7 +6803,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-24T11:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -6239,7 +6820,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "8c39c811f4ad597b",
@@ -6248,7 +6831,7 @@
       "displayTitle": "",
       "summary": "Joel Schumacher apologized for “Batman & Robin,” his corny 1997 superhero movie, but thanks to its ice puns and bat nipples, it’s since become an accidental parody worth howling at.",
       "published_at": "2026-03-26T09:02:29.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "MOVIE",
@@ -6265,7 +6848,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "80e5cfc3580b0f1f",
@@ -6274,7 +6859,7 @@
       "displayTitle": "",
       "summary": "Zazie Beetz fights her way through a high-rise of horrors in a splatter-fest that concentrates its creativity in its gore.",
       "published_at": "2026-03-26T09:01:59.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "MOVIE",
@@ -6291,7 +6876,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "366ceae01a9d483d",
@@ -6300,7 +6887,7 @@
       "displayTitle": "",
       "summary": "A reckless incident at a party throws a young girl’s life into turmoil in this extraordinary third feature from Julia Ducournau.",
       "published_at": "2026-03-26T09:01:34.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "MOVIE",
       "topic": "MOVIE",
@@ -6317,7 +6904,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "be7ba683798aca51",
@@ -6326,7 +6915,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-24T09:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -6343,7 +6932,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "eb002c6d80941b68",
@@ -6352,7 +6943,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-24T09:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -6369,7 +6960,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "9fee0c682b1935c0",
@@ -6378,7 +6971,7 @@
       "displayTitle": "『カービィのエアライダー』の「一問一答！」ページを更新しました。…",
       "summary": "",
       "published_at": "2026-03-24T01:07:26.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "NINTENDO",
@@ -6395,7 +6988,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "d26f478a2a7aa958",
@@ -6404,7 +6999,7 @@
       "displayTitle": "ニンテンドーeショップ新作ソフト情報 3/23（月）号。",
       "summary": "",
       "published_at": "2026-03-23T01:01:53.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "NINTENDO",
@@ -6421,7 +7016,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "8235904ec45effec",
@@ -6430,7 +7027,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-23T00:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -6447,7 +7044,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "ab49522a4d10d2b0",
@@ -6456,7 +7055,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-19T10:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -6473,7 +7072,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "2a4aa6ca808694ed",
@@ -6482,7 +7083,7 @@
       "displayTitle": "OpenAI 将收购 Astral",
       "summary": "",
       "published_at": "2026-03-19T00:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -6499,7 +7100,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "b3c41f95b4906083",
@@ -6508,7 +7111,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-17T16:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "SONY",
       "topic": "SONY",
@@ -6525,7 +7128,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "881f265c2dc5b765",
@@ -6534,7 +7139,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-17T10:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -6551,7 +7156,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "32196e8b2791e679",
@@ -6560,7 +7167,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-17T00:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "AI",
       "topic": "OPENAI",
@@ -6577,7 +7184,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "44b9207ac281dfc5",
@@ -6586,7 +7195,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-12T04:18:35.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "CRYPTO_TOOLS",
       "topic": "ONEKEY",
@@ -6603,7 +7212,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "45c415b078ca4d80",
@@ -6612,7 +7223,7 @@
       "displayTitle": "智能体 Over Bubbles",
       "summary": "Agents are fundamentally changing the shape of demand for compute, both in terms of how they work and in terms of who will use them. They're so compelling that I no longer believe we're in a bubble.",
       "published_at": "2026-03-16T10:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TECH",
       "topic": "TECH",
@@ -6629,16 +7240,18 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "291e1b1c18317d0c",
       "source": "Reddit",
       "title": "\"Something way cooler than a minivan is coming\"",
       "displayTitle": "",
-      "summary": "r/teslamotors • 176 points • 345 comments",
+      "summary": "r/teslamotors • 175 points • 345 comments",
       "published_at": "2026-03-25T05:27:35.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "TESLA",
       "topic": "TESLA",
@@ -6655,7 +7268,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "C",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "1d90d88b02e994f5",
@@ -6664,7 +7279,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-14T16:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "RIOT",
@@ -6682,7 +7297,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "d8d323f9ced7eb34",
@@ -6691,7 +7308,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-09T16:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "RIOT",
@@ -6709,7 +7326,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "72787d453dd06ed3",
@@ -6718,7 +7337,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-08T16:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "RIOT",
@@ -6736,7 +7355,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     },
     {
       "id": "66dc497d371eb3d8",
@@ -6745,7 +7366,7 @@
       "displayTitle": "",
       "summary": "",
       "published_at": "2026-03-01T16:00:00.000Z",
-      "fetched_at": "2026-03-29T10:15:31.000Z",
+      "fetched_at": "2026-03-29T10:33:56.000Z",
       "time_source": "published_at",
       "category": "GAME",
       "topic": "RIOT",
@@ -6763,7 +7384,9 @@
       ],
       "mergedCount": 1,
       "sourceLayer": "A",
-      "defaultVisible": false
+      "defaultVisible": false,
+      "author": "",
+      "trustedAuthor": false
     }
   ]
 }

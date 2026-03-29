@@ -50,6 +50,48 @@ const TRUSTED_SOURCES = new Set([
   'Polymarket Blog',
 ]);
 
+const EARLY_SIGNAL_GENERIC = new Set([
+  'ai',
+  'apple',
+  'btc',
+  'crypto',
+  'prediction markets',
+  'prediction market',
+  'market',
+  'macro',
+  'war',
+  'book',
+  'books',
+  'movie',
+  'movies',
+  'tv',
+  'game',
+  'games',
+  'tool',
+  'tools',
+  'update',
+  'updates',
+  'release',
+  'review',
+  'reviews',
+  'book review',
+  'what',
+  'when',
+  'why',
+  'how',
+  'breaking',
+  'official',
+  'latest',
+  'news',
+  '发布',
+  '更新',
+  '图书',
+  '电影',
+  '剧集',
+  '热榜',
+  '热门工具',
+]);
+
 const TOPIC_ZH = {
   APPLE: '苹果',
   OPENAI: 'OpenAI',
@@ -578,6 +620,8 @@ function stripInternal(item) {
     mergedCount: item.mergedCount || 1,
     sourceLayer: item.sourceLayer || 'B',
     defaultVisible: Boolean(item.defaultVisible),
+    author: item.author || '',
+    trustedAuthor: Boolean(item.trustedAuthor),
   };
 }
 
@@ -676,4 +720,239 @@ export function normalizeFeed(items) {
     .filter((item) => item.effective_timestamp)
     .sort((a, b) => b.priority - a.priority || b.effective_timestamp - a.effective_timestamp)
     .map(stripInternal);
+}
+
+function earlySignalTheme(item) {
+  const text = cleanText(`${item.title} ${item.displayTitle} ${item.summary}`).toLowerCase();
+  if (['OPENCLAW', 'OPENAI', 'ANTHROPIC', 'CLAUDE', 'CLAUDE_CODE', 'AI'].includes(item.topic) || item.category === 'AI') return 'AI';
+  if (item.topic === 'APPLE' || item.category === 'APPLE') return 'APPLE';
+  if (item.sourceType === 'github_trending') {
+    if (['bitcoin', 'btc', 'crypto', 'prediction market', 'polymarket', 'kalshi', 'etf'].some((term) => text.includes(term))) return 'CRYPTO';
+    return 'AI';
+  }
+  if (
+    ['BTC', 'ETF', 'ONEKEY', 'CRYPTO_TOOLS'].includes(item.topic)
+    || item.category === 'CRYPTO_TOOLS'
+    || ['bitcoin', 'btc', 'crypto', 'prediction market', 'polymarket', 'kalshi', 'etf'].some((term) => text.includes(term))
+  ) return 'CRYPTO';
+  if (['war', 'iran', 'middle east', 'macro', 'troops', 'houthi', 'regulation', 'regulator'].some((term) => text.includes(term))) return 'MACRO';
+  if (item.category === 'GAME' || ['GAME', 'NINTENDO', 'SWITCH', 'LEAGUE_OF_LEGENDS', 'PLAYSTATION', 'SONY'].includes(item.topic)) return 'GAME';
+  if (['MOVIE', 'TV'].includes(item.category) || ['MOVIE', 'TV'].includes(item.topic)) return 'SCREEN';
+  if (item.category === 'BOOK' || item.topic === 'BOOK') return 'BOOK';
+  return '';
+}
+
+function earlySignalKeyword(item) {
+  const display = cleanText(item.displayTitle || '');
+  const title = cleanText(item.title || '');
+  const merged = display || title;
+  const repoMatch = merged.match(/(?:GitHub 热门工具：|GitHub 热门：)(.+)$/) || merged.match(/^(.*?)\s*(?:在 GitHub Trending 爆了|冲上 GitHub 热榜)$/);
+  if (repoMatch?.[1]) {
+    return cleanText(repoMatch[1]).replace(/^[:：\s-]+/, '');
+  }
+
+  const quotedCn = merged.match(/《([^》]{2,24})》/);
+  if (quotedCn?.[1]) return quotedCn[1];
+
+  const knownPattern = [
+    /OpenClaw/i,
+    /Codex Security/i,
+    /Codex/i,
+    /GPT-?\d+(?:\.\d+)?/i,
+    /Claude(?:\s(?:Code|Opus|Sonnet))?/i,
+    /Anthropic/i,
+    /OpenAI/i,
+    /Apple|iPhone|MacBook Air|M\d/i,
+    /Bitcoin|BTC|Polymarket|Kalshi|ETF/i,
+    /Faker/i,
+  ];
+  for (const pattern of knownPattern) {
+    const match = `${title} ${display}`.match(pattern);
+    if (match?.[0]) return cleanText(match[0]);
+  }
+
+  if (merged.includes('：')) {
+    const [head, ...rest] = merged.split('：');
+    const candidate = cleanText(head);
+    const tail = cleanText(rest.join('：'));
+    if (['电影', '剧集', '图书', '苹果', 'OpenAI', 'Anthropic', 'Claude', 'OpenClaw', 'BTC', '比特币'].includes(candidate) && tail.length >= 2 && tail.length <= 24) {
+      return tail;
+    }
+    if (candidate.length >= 2 && candidate.length <= 24 && !EARLY_SIGNAL_GENERIC.has(candidate.toLowerCase())) return candidate;
+  }
+
+  const capitalized = title.match(/\b([A-Z][A-Za-z0-9.+-]{2,}(?:\s+[A-Z][A-Za-z0-9.+-]{2,}){0,2})\b/);
+  if (capitalized?.[1] && !EARLY_SIGNAL_GENERIC.has(capitalized[1].toLowerCase())) return capitalized[1];
+
+  const compact = merged.replace(/^(电影|剧集|图书|苹果|OpenAI|Anthropic|Claude|OpenClaw|BTC|比特币)[：:]\s*/i, '').trim();
+  if (compact && compact.length <= 24) return compact;
+
+  const fallback = TOPIC_ZH[item.topic] || TOPIC_ZH[item.category] || '';
+  return cleanText(fallback);
+}
+
+function earlySignalCanonical(keyword) {
+  return canonicalTitleKey(keyword).replace(/\b(?:the|a|an|new)\b/g, '').replace(/\s+/g, ' ').trim();
+}
+
+function earlySignalItemTime(item) {
+  return toValidTimestamp(item.published_at || item.fetched_at || item.time || item.timestamp);
+}
+
+function earlySignalRecencyHours(item, nowTs) {
+  const ts = earlySignalItemTime(item);
+  if (!ts) return Number.POSITIVE_INFINITY;
+  return (nowTs - ts) / 3600;
+}
+
+function isTrustedMention(item) {
+  return Boolean(
+    item.trustedAuthor
+    || OFFICIAL_SOURCES.has(item.source)
+    || TRUSTED_SOURCES.has(item.source)
+    || item.source === 'X'
+    || ['product', 'release', 'blog', 'press'].includes(item.sourceType)
+    || String(item.sourceType || '').startsWith('bloomberg')
+    || String(item.sourceType || '').startsWith('nyt-')
+  );
+}
+
+function isCommunityMention(item) {
+  return item.source === 'Reddit'
+    || item.source === 'Hacker News'
+    || item.sourceType === 'community_hot'
+    || item.sourceType === 'reddit';
+}
+
+function rankingSignal(item) {
+  const rank = Number(item.rank || 0);
+  if (!rank) return 0;
+  if (rank <= 3) return 4;
+  if (rank <= 5) return 2;
+  if (rank <= 10) return 1;
+  return 0;
+}
+
+function baselineGrowth(item, nowTs) {
+  let score = 0;
+  const hours = earlySignalRecencyHours(item, nowTs);
+  if (hours <= 12) score += 20;
+  else if (hours <= 24) score += 14;
+  else if (hours <= 72) score += 8;
+
+  if (item.sourceType === 'x_hot') score += 22;
+  if (item.sourceType === 'github_trending') score += 20;
+  if (item.sourceType === 'community_hot') score += 18;
+  if (isTrustedMention(item)) score += 12;
+  if (isCommunityMention(item)) score += 10;
+  if (item.hot) score += 8;
+  if (rankingSignal(item) > 0) score += 8 + rankingSignal(item) * 4;
+  if ((item.score || 0) >= 800 || (item.comments || 0) >= 120) score += 10;
+  return score;
+}
+
+function previousBestRank(previousItems) {
+  const best = new Map();
+  for (const item of previousItems || []) {
+    const theme = earlySignalTheme(item);
+    const keyword = earlySignalKeyword(item);
+    const canonical = earlySignalCanonical(keyword);
+    if (!theme || !canonical) continue;
+    const key = `${theme}::${canonical}`;
+    const rank = Number(item.rank || 0);
+    if (!rank) continue;
+    const existing = best.get(key);
+    if (!existing || rank < existing) best.set(key, rank);
+  }
+  return best;
+}
+
+export function buildEarlySignalPool(currentItems, previousItems = []) {
+  const nowTs = Math.floor(Date.now() / 1000);
+  const previousRanks = previousBestRank(previousItems);
+  const pool = new Map();
+
+  for (const item of currentItems || []) {
+    const hours = earlySignalRecencyHours(item, nowTs);
+    if (!Number.isFinite(hours) || hours > 72) continue;
+
+    const theme = earlySignalTheme(item);
+    const keyword = earlySignalKeyword(item);
+    const canonical = earlySignalCanonical(keyword);
+    if (!theme || !canonical || canonical.length < 2 || EARLY_SIGNAL_GENERIC.has(canonical)) continue;
+    if (/^[A-Z][a-z]+ [A-Z][a-z]+$/.test(keyword) && !['AI', 'APPLE', 'CRYPTO', 'MACRO'].includes(theme)) continue;
+
+    const key = `${theme}::${canonical}`;
+    const entry = pool.get(key) || {
+      keyword,
+      topic: theme,
+      mention_count: 0,
+      trusted_source_count: 0,
+      community_count: 0,
+      ranking_change: 0,
+      growth_score: 0,
+      _sources: new Set(),
+      _trusted: new Set(),
+      _community: new Set(),
+      _sourceKinds: new Set(),
+      _titles: [],
+      _bestTs: 0,
+      _bestPriority: 0,
+    };
+
+    entry.mention_count += 1;
+    entry._sources.add(item.source);
+    entry._sourceKinds.add(item.sourceType || item.source);
+    entry._titles.push(item.displayTitle || item.title);
+    entry._bestTs = Math.max(entry._bestTs, earlySignalItemTime(item) || 0);
+    entry._bestPriority = Math.max(entry._bestPriority, Number(item.priority || 0));
+    if (isTrustedMention(item)) entry._trusted.add(item.author || item.source);
+    if (isCommunityMention(item)) entry._community.add(item.sourceType === 'community_hot' ? `${item.source}:${item.id}` : item.source);
+
+    const currentRank = Number(item.rank || 0);
+    const prevRank = previousRanks.get(key) || 0;
+    let rankDelta = 0;
+    if (currentRank && prevRank) rankDelta = Math.max(0, prevRank - currentRank);
+    else if (currentRank && currentRank <= 3) rankDelta = 2;
+    entry.ranking_change = Math.max(entry.ranking_change, rankDelta);
+    entry.growth_score += baselineGrowth(item, nowTs);
+
+    pool.set(key, entry);
+  }
+
+  return Array.from(pool.values())
+    .map((entry) => {
+      entry.trusted_source_count = entry._trusted.size;
+      entry.community_count = entry._community.size;
+      const evidence = [
+        entry._sources.size >= 2,
+        entry.trusted_source_count >= 1,
+        entry.community_count >= 1,
+        entry.ranking_change > 0,
+        entry.growth_score >= 50,
+      ].filter(Boolean).length;
+
+      const diversityBoost = entry._sources.size * 8 + entry._sourceKinds.size * 6;
+      const repeatBoost = Math.max(0, entry.mention_count - 1) * 12;
+      const trustedBoost = entry.trusted_source_count * 14;
+      const communityBoost = entry.community_count * 10;
+      const freshnessBoost = entry._bestTs >= nowTs - 24 * 3600 ? 12 : 0;
+      const totalGrowth = entry.growth_score + diversityBoost + repeatBoost + trustedBoost + communityBoost + entry.ranking_change * 12 + freshnessBoost;
+
+      return {
+        keyword: entry.keyword,
+        topic: entry.topic,
+        mention_count: entry.mention_count,
+        trusted_source_count: entry.trusted_source_count,
+        community_count: entry.community_count,
+        ranking_change: entry.ranking_change,
+        growth_score: Math.round(totalGrowth),
+        _evidence: evidence,
+        _bestTs: entry._bestTs,
+      };
+    })
+    .filter((entry) => entry._evidence >= 2)
+    .sort((a, b) => b.growth_score - a.growth_score || b.mention_count - a.mention_count || b._bestTs - a._bestTs)
+    .slice(0, 24)
+    .map(({ _evidence, _bestTs, ...entry }) => entry);
 }

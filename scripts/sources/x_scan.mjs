@@ -124,6 +124,8 @@ export default async function xScan() {
           hot: index === 0,
           rank: index + 1,
           priorityHint: Math.max(18, account.priorityHint - index * 2),
+          author: account.handle,
+          trustedAuthor: true,
         });
       })
       .filter(Boolean);

@@ -1,4 +1,4 @@
-import { normalizeFeed } from './normalize.mjs';
+import { buildEarlySignalPool, normalizeFeed } from './normalize.mjs';
 import { FEED_PATH, readJson, writeJson } from './utils.mjs';
 import apple from './sources/apple.mjs';
 import openai from './sources/openai.mjs';
@@ -107,6 +107,7 @@ for (const sourceName of [
 }
 
 const finalFeed = feed.length > 0 ? feed : existingFeed;
+const earlySignals = buildEarlySignalPool(finalFeed, existingFeed);
 const finalFetchTime = feed.length > 0
   ? Math.floor(Date.now() / 1000)
   : (Number.isFinite(existingFetchTime) && existingFetchTime > 0 ? existingFetchTime : Math.floor(Date.now() / 1000));
@@ -117,6 +118,7 @@ if (feed.length === 0 && existingFeed.length > 0) {
 
 await writeJson(FEED_PATH, {
   fetch_time: finalFetchTime,
+  early_signals: earlySignals,
   items: finalFeed,
 });
-console.log(`wrote ${finalFeed.length} items -> ${FEED_PATH}`);
+console.log(`wrote ${finalFeed.length} items, ${earlySignals.length} early signals -> ${FEED_PATH}`);

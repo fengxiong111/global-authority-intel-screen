@@ -228,6 +228,8 @@ export function makeItem({
   hot = false,
   priorityHint = 0,
   fetchedAt = new Date().toISOString(),
+  author = '',
+  trustedAuthor = false,
 }) {
   const cleanTitle = cleanText(title);
   const cleanUrl = normalizeUrl(url);
@@ -251,6 +253,8 @@ export function makeItem({
     comments,
     hot,
     priorityHint,
+    author: cleanText(author),
+    trustedAuthor: Boolean(trustedAuthor),
   };
 }
 
