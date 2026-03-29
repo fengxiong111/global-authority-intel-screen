@@ -49,7 +49,7 @@
   },
   {
     "id": "35c0b0e1193aade2",
-    "time": "2026-03-29T04:06:31.389Z",
+    "time": "2026-03-29T04:17:21.068Z",
     "source": "OneKey Blog",
     "title": "Security Blind Spots of Hardware Wallets: Analyzing the Covert Threat of Supply Chain Attacks",
     "displayTitle": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
@@ -71,16 +71,16 @@
     "defaultVisible": true
   },
   {
-    "id": "e7c1ee267569778c",
-    "time": "2026-03-29T04:06:31.612Z",
+    "id": "3aa11c3549a9e9ac",
+    "time": "2026-03-29T04:17:20.238Z",
     "source": "NYT",
-    "title": "U.S. Marines Arrive in Middle East, as Houthis Enter War",
-    "displayTitle": "伊朗战事最新进展：美军抵达中东，胡塞武装卷入",
-    "summary": "A U.S. official said that earlier an Iranian strike at a military base in Saudi Arabia injured around two dozen U.S. troops, one of the most serious breaches of American defenses since the war began.",
+    "title": "smarter-living 0:48",
+    "displayTitle": "",
+    "summary": "",
     "category": "TECH",
     "topic": "NYT",
     "priority": 75,
-    "url": "https://www.nytimes.com/live/2026/03/28/world/iran-war-trump-israel-oil",
+    "url": "https://www.nytimes.com/video/smarter-living/wirecutter/100000010796369/macbook-neo-is-the-best-budget-laptop.html",
     "hot": true,
     "tags": [
       "TECH",
@@ -91,7 +91,7 @@
     ],
     "mergedCount": 1,
     "sourceLayer": "A",
-    "defaultVisible": true
+    "defaultVisible": false
   },
   {
     "id": "ab96d448e1449dbf",
@@ -283,39 +283,16 @@
     "defaultVisible": true
   },
   {
-    "id": "cbc4f15ace1b9efe",
-    "time": "2026-03-26T15:52:01.000Z",
-    "source": "Tesla IR",
-    "title": "Q1 2026",
-    "displayTitle": "特斯拉 2026 年 Q1 季度更新",
-    "summary": "",
-    "category": "TESLA",
-    "topic": "TESLA",
-    "priority": 72,
-    "url": "https://ir.tesla.com/node/2538",
-    "hot": false,
-    "tags": [
-      "TESLA",
-      "TECH"
-    ],
-    "sources": [
-      "Tesla IR"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "A",
-    "defaultVisible": true
-  },
-  {
-    "id": "7c18d6b994fc5aec",
-    "time": "2026-03-29T04:06:31.612Z",
+    "id": "e7c1ee267569778c",
+    "time": "2026-03-29T04:17:20.237Z",
     "source": "NYT",
-    "title": "U.S. 1:08",
-    "displayTitle": "",
-    "summary": "",
+    "title": "U.S. Marines Arrive in Middle East, as Houthis Enter War",
+    "displayTitle": "伊朗战事最新进展：美军抵达中东，胡塞武装卷入",
+    "summary": "A U.S. official said that earlier an Iranian strike at a military base in Saudi Arabia injured around two dozen U.S. troops, one of the most serious breaches of American defenses since the war began.",
     "category": "TECH",
     "topic": "NYT",
     "priority": 71,
-    "url": "https://www.nytimes.com/video/us/100000010804745/tsa-trump-payment-shutdown.html",
+    "url": "https://www.nytimes.com/live/2026/03/28/world/iran-war-trump-israel-oil",
     "hot": true,
     "tags": [
       "TECH",
@@ -326,7 +303,7 @@
     ],
     "mergedCount": 1,
     "sourceLayer": "A",
-    "defaultVisible": false
+    "defaultVisible": true
   },
   {
     "id": "2e5fbd2485be930b",
@@ -354,7 +331,7 @@
   },
   {
     "id": "2dcb12a0f4a01592",
-    "time": "2026-03-29T04:06:31.207Z",
+    "time": "2026-03-29T04:17:20.309Z",
     "source": "NYT",
     "title": "STRIPPED DOWN",
     "displayTitle": "",
@@ -660,39 +637,16 @@
     "defaultVisible": false
   },
   {
-    "id": "6b8863722bf7e97a",
-    "time": "2026-03-26T15:50:39.000Z",
-    "source": "Tesla IR",
-    "title": "Q1 2026 Delivery Consensus",
-    "displayTitle": "特斯拉 2026 年 Q1 交付预期",
-    "summary": "",
-    "category": "TESLA",
-    "topic": "TESLA",
-    "priority": 68,
-    "url": "https://ir.tesla.com/press-release/delivery-consensus-first-quarter-2026",
-    "hot": false,
-    "tags": [
-      "TESLA",
-      "TECH"
-    ],
-    "sources": [
-      "Tesla IR"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "A",
-    "defaultVisible": true
-  },
-  {
-    "id": "3aa11c3549a9e9ac",
-    "time": "2026-03-29T04:06:31.612Z",
+    "id": "7c18d6b994fc5aec",
+    "time": "2026-03-29T04:17:20.237Z",
     "source": "NYT",
-    "title": "smarter-living 0:48",
+    "title": "U.S. 1:08",
     "displayTitle": "",
     "summary": "",
     "category": "TECH",
     "topic": "NYT",
     "priority": 67,
-    "url": "https://www.nytimes.com/video/smarter-living/wirecutter/100000010796369/macbook-neo-is-the-best-budget-laptop.html",
+    "url": "https://www.nytimes.com/video/us/100000010804745/tsa-trump-payment-shutdown.html",
     "hot": true,
     "tags": [
       "TECH",
@@ -731,7 +685,7 @@
   },
   {
     "id": "2fc369de04d873bf",
-    "time": "2026-03-29T04:06:31.207Z",
+    "time": "2026-03-29T04:17:20.309Z",
     "source": "NYT",
     "title": "STRANGERS",
     "displayTitle": "",
@@ -850,7 +804,7 @@
   },
   {
     "id": "54159ca88ffd6f1e",
-    "time": "2026-03-29T04:06:31.922Z",
+    "time": "2026-03-29T04:17:21.526Z",
     "source": "Douban Movie Chart",
     "title": "河狸变身计划",
     "displayTitle": "河狸变身计划",
@@ -873,7 +827,7 @@
   },
   {
     "id": "83ee1de4a20a247c",
-    "time": "2026-03-29T04:06:31.145Z",
+    "time": "2026-03-29T04:17:19.814Z",
     "source": "JustWatch TV",
     "title": "The Madison",
     "displayTitle": "剧集：The Madison",
@@ -1059,12 +1013,12 @@
     "defaultVisible": false
   },
   {
-    "id": "4054532afd172676",
-    "time": "2026-03-29T04:06:31.207Z",
+    "id": "bf3c7fc7cb4be92e",
+    "time": "2026-03-29T04:17:20.308Z",
     "source": "NYT",
-    "title": "THE CORRESPONDENT",
+    "title": "JUDGE STONE",
     "displayTitle": "",
-    "summary": "Hardcover Fiction • 21 weeks on the list • by Virginia Evans • Letters from someone she used to know push Sybil Van Antwerp toward revisiting her past and finding a way to forgive.",
+    "summary": "Hardcover Fiction • 2 weeks on the list • by Viola Davis and James Patterson • Judge Mary Stone oversees an ethically complex case in her courtroom in Union Springs, Ala.",
     "category": "BOOK",
     "topic": "BOOK",
     "priority": 62,
@@ -1200,7 +1154,7 @@
   },
   {
     "id": "c52ff6c9f6314efe",
-    "time": "2026-03-29T04:06:31.922Z",
+    "time": "2026-03-29T04:17:21.526Z",
     "source": "Douban Movie Chart",
     "title": "侵略机器",
     "displayTitle": "",
@@ -1223,7 +1177,7 @@
   },
   {
     "id": "c20b94009e6c9534",
-    "time": "2026-03-29T04:06:31.145Z",
+    "time": "2026-03-29T04:17:19.814Z",
     "source": "JustWatch TV",
     "title": "Paradise",
     "displayTitle": "剧集：Paradise",
@@ -1386,16 +1340,16 @@
     "defaultVisible": false
   },
   {
-    "id": "5e3a79a469c6bad9",
-    "time": "2026-03-29T04:06:31.206Z",
+    "id": "4054532afd172676",
+    "time": "2026-03-29T04:17:20.308Z",
     "source": "NYT",
-    "title": "PROJECT HAIL MARY",
+    "title": "THE CORRESPONDENT",
     "displayTitle": "",
-    "summary": "Combined Print & E-Book Fiction • 41 weeks on the list • by Andy Weir • Ryland Grace awakes from a long sleep alone and far from home, and the fate of humanity rests on his shoulders; the basis of the movie.",
+    "summary": "Hardcover Fiction • 21 weeks on the list • by Virginia Evans • Letters from someone she used to know push Sybil Van Antwerp toward revisiting her past and finding a way to forgive.",
     "category": "BOOK",
     "topic": "BOOK",
     "priority": 58,
-    "url": "https://www.nytimes.com/books/best-sellers/combined-print-and-e-book-fiction/",
+    "url": "https://www.nytimes.com/books/best-sellers/hardcover-fiction/",
     "hot": true,
     "tags": [
       "BOOK",
@@ -1481,7 +1435,7 @@
   },
   {
     "id": "3d9779e7f2c823a4",
-    "time": "2026-03-29T04:06:31.922Z",
+    "time": "2026-03-29T04:17:21.526Z",
     "source": "Douban Movie Chart",
     "title": "家弑服务",
     "displayTitle": "",
@@ -1504,7 +1458,7 @@
   },
   {
     "id": "1eb9bfc69f6bde31",
-    "time": "2026-03-29T04:06:31.145Z",
+    "time": "2026-03-29T04:17:19.814Z",
     "source": "JustWatch TV",
     "title": "The Pitt",
     "displayTitle": "剧集：The Pitt",
@@ -1645,7 +1599,7 @@
   },
   {
     "id": "7f4e607e92c50609",
-    "time": "2026-03-26T16:00:00.000Z",
+    "time": "2026-03-27T00:00:00.000Z",
     "source": "Riot Games",
     "title": "Have a Nice Deity! | SPACE GODS Set Cinematic – Teamfight Tactics",
     "displayTitle": "",
@@ -1669,7 +1623,7 @@
   },
   {
     "id": "f1f7564066cdaa0c",
-    "time": "2026-03-29T04:06:31.206Z",
+    "time": "2026-03-29T04:17:20.307Z",
     "source": "NYT",
     "title": "THEO OF GOLDEN",
     "displayTitle": "",
@@ -1692,16 +1646,16 @@
     "defaultVisible": false
   },
   {
-    "id": "bf3c7fc7cb4be92e",
-    "time": "2026-03-29T04:06:31.206Z",
+    "id": "5e3a79a469c6bad9",
+    "time": "2026-03-29T04:17:20.306Z",
     "source": "NYT",
-    "title": "JUDGE STONE",
+    "title": "PROJECT HAIL MARY",
     "displayTitle": "",
-    "summary": "Hardcover Fiction • 2 weeks on the list • by Viola Davis and James Patterson • Judge Mary Stone oversees an ethically complex case in her courtroom in Union Springs, Ala.",
+    "summary": "Combined Print & E-Book Fiction • 41 weeks on the list • by Andy Weir • Ryland Grace awakes from a long sleep alone and far from home, and the fate of humanity rests on his shoulders; the basis of the movie.",
     "category": "BOOK",
     "topic": "BOOK",
     "priority": 54,
-    "url": "https://www.nytimes.com/books/best-sellers/hardcover-fiction/",
+    "url": "https://www.nytimes.com/books/best-sellers/combined-print-and-e-book-fiction/",
     "hot": true,
     "tags": [
       "BOOK",
@@ -1855,7 +1809,7 @@
   },
   {
     "id": "9fd381bc18c5bc94",
-    "time": "2026-03-29T04:06:31.922Z",
+    "time": "2026-03-29T04:17:21.526Z",
     "source": "Douban Movie Chart",
     "title": "东京出租车",
     "displayTitle": "",
@@ -1878,7 +1832,7 @@
   },
   {
     "id": "cb8a7ec4003d61d9",
-    "time": "2026-03-29T04:06:31.145Z",
+    "time": "2026-03-29T04:17:19.814Z",
     "source": "JustWatch TV",
     "title": "Scarpetta",
     "displayTitle": "剧集：Scarpetta",
@@ -1923,8 +1877,31 @@
     "defaultVisible": false
   },
   {
+    "id": "f89d71b0ee59900b",
+    "time": "2026-03-25T21:46:54.000Z",
+    "source": "Reddit",
+    "title": "Model Y is bestselling car in the world for 2025 (3rd year in a row), according to several firms.",
+    "displayTitle": "",
+    "summary": "r/teslamotors • 1065 points • 287 comments",
+    "category": "TESLA",
+    "topic": "TESLA",
+    "priority": 52,
+    "url": "https://www.reddit.com/r/teslamotors/comments/1s3og53/model_y_is_bestselling_car_in_the_world_for_2025/",
+    "hot": true,
+    "tags": [
+      "TESLA",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
     "id": "61aa93e1fd5cc14e",
-    "time": "2026-02-16T16:00:00.000Z",
+    "time": "2026-02-17T00:00:00.000Z",
     "source": "Anthropic Newsroom",
     "title": "Introducing Claude Sonnet 4.6",
     "displayTitle": "",
@@ -1971,7 +1948,7 @@
   },
   {
     "id": "724db6d9ad3012a4",
-    "time": "2026-03-29T04:06:31.922Z",
+    "time": "2026-03-29T04:17:21.526Z",
     "source": "Douban Movie Chart",
     "title": "至尊马蒂",
     "displayTitle": "",
@@ -1994,7 +1971,7 @@
   },
   {
     "id": "ca16611ebe200897",
-    "time": "2026-03-29T04:06:31.922Z",
+    "time": "2026-03-29T04:17:21.526Z",
     "source": "Douban Movie Chart",
     "title": "哈姆奈特",
     "displayTitle": "",
@@ -2017,7 +1994,7 @@
   },
   {
     "id": "2cc9a606312d09aa",
-    "time": "2026-03-29T04:06:31.922Z",
+    "time": "2026-03-29T04:17:21.526Z",
     "source": "Douban Movie Chart",
     "title": "用武之地",
     "displayTitle": "",
@@ -2040,7 +2017,7 @@
   },
   {
     "id": "7506994b588b1c53",
-    "time": "2026-03-29T04:06:31.922Z",
+    "time": "2026-03-29T04:17:21.526Z",
     "source": "Douban Movie Chart",
     "title": "你行！你上！",
     "displayTitle": "你行！你上！",
@@ -2063,7 +2040,7 @@
   },
   {
     "id": "4e70d6e4dfd74063",
-    "time": "2026-03-29T04:06:31.922Z",
+    "time": "2026-03-29T04:17:21.526Z",
     "source": "Douban Movie Chart",
     "title": "呼啸山庄",
     "displayTitle": "",
@@ -2086,7 +2063,7 @@
   },
   {
     "id": "097e18052bcb288c",
-    "time": "2026-03-29T04:06:31.922Z",
+    "time": "2026-03-29T04:17:21.526Z",
     "source": "Douban Movie Chart",
     "title": "局外人",
     "displayTitle": "",
@@ -2109,7 +2086,7 @@
   },
   {
     "id": "0efcd932c6ca7c4d",
-    "time": "2026-03-29T04:06:31.145Z",
+    "time": "2026-03-29T04:17:19.814Z",
     "source": "JustWatch TV",
     "title": "Shrinking",
     "displayTitle": "剧集：Shrinking",
@@ -2132,7 +2109,7 @@
   },
   {
     "id": "0e376afa54f55fc8",
-    "time": "2026-03-29T04:06:31.145Z",
+    "time": "2026-03-29T04:17:19.814Z",
     "source": "JustWatch TV",
     "title": "DTF St. Louis",
     "displayTitle": "剧集：DTF St. Louis",
@@ -2155,7 +2132,7 @@
   },
   {
     "id": "e4e321ec7852e5db",
-    "time": "2026-03-29T04:06:31.145Z",
+    "time": "2026-03-29T04:17:19.814Z",
     "source": "JustWatch TV",
     "title": "Monarch: Legacy of Monsters",
     "displayTitle": "",
@@ -2178,7 +2155,7 @@
   },
   {
     "id": "0463bcb4c70965cf",
-    "time": "2026-03-29T04:06:31.145Z",
+    "time": "2026-03-29T04:17:19.814Z",
     "source": "JustWatch TV",
     "title": "Rooster",
     "displayTitle": "剧集：Rooster",
@@ -2201,7 +2178,7 @@
   },
   {
     "id": "02bf8fda130896a7",
-    "time": "2026-03-29T04:06:31.145Z",
+    "time": "2026-03-29T04:17:19.814Z",
     "source": "JustWatch TV",
     "title": "Young Sherlock",
     "displayTitle": "剧集：Young Sherlock",
@@ -2224,7 +2201,7 @@
   },
   {
     "id": "4d41401244ccecc6",
-    "time": "2026-03-29T04:06:31.145Z",
+    "time": "2026-03-29T04:17:19.814Z",
     "source": "JustWatch TV",
     "title": "A Knight of the Seven Kingdoms",
     "displayTitle": "",
@@ -2247,7 +2224,7 @@
   },
   {
     "id": "337cc755fd11925b",
-    "time": "2026-03-29T04:06:31.142Z",
+    "time": "2026-03-29T04:17:19.780Z",
     "source": "JustWatch Movies",
     "title": "Hamnet",
     "displayTitle": "电影：Hamnet",
@@ -2270,7 +2247,7 @@
   },
   {
     "id": "35153abebe488e73",
-    "time": "2026-03-29T04:06:31.142Z",
+    "time": "2026-03-29T04:17:19.780Z",
     "source": "JustWatch Movies",
     "title": "The Secret Agent",
     "displayTitle": "",
@@ -2293,7 +2270,7 @@
   },
   {
     "id": "53c95bf8aa8b083a",
-    "time": "2026-03-29T04:06:31.142Z",
+    "time": "2026-03-29T04:17:19.780Z",
     "source": "JustWatch Movies",
     "title": "Sentimental Value",
     "displayTitle": "",
@@ -2316,7 +2293,7 @@
   },
   {
     "id": "11f779ad8d8f0873",
-    "time": "2026-03-29T04:06:31.142Z",
+    "time": "2026-03-29T04:17:19.780Z",
     "source": "JustWatch Movies",
     "title": "Marty Supreme",
     "displayTitle": "电影：Marty Supreme",
@@ -2339,7 +2316,7 @@
   },
   {
     "id": "abec643f4fe3403e",
-    "time": "2026-03-29T04:06:31.142Z",
+    "time": "2026-03-29T04:17:19.780Z",
     "source": "JustWatch Movies",
     "title": "One Battle After Another",
     "displayTitle": "",
@@ -2362,7 +2339,7 @@
   },
   {
     "id": "f174d9c8669339d5",
-    "time": "2026-03-29T04:06:31.142Z",
+    "time": "2026-03-29T04:17:19.780Z",
     "source": "JustWatch Movies",
     "title": "Ready or Not",
     "displayTitle": "电影：Ready or Not",
@@ -2385,7 +2362,7 @@
   },
   {
     "id": "ce5d3e17ff74858c",
-    "time": "2026-03-29T04:06:31.142Z",
+    "time": "2026-03-29T04:17:19.780Z",
     "source": "JustWatch Movies",
     "title": "Sinners",
     "displayTitle": "电影：Sinners",
@@ -2408,7 +2385,7 @@
   },
   {
     "id": "2d8dca30b4875c0b",
-    "time": "2026-03-29T04:06:31.142Z",
+    "time": "2026-03-29T04:17:19.780Z",
     "source": "JustWatch Movies",
     "title": "Project Hail Mary",
     "displayTitle": "",
@@ -2431,7 +2408,7 @@
   },
   {
     "id": "e836a4fe93e61402",
-    "time": "2026-03-29T04:06:31.142Z",
+    "time": "2026-03-29T04:17:19.780Z",
     "source": "JustWatch Movies",
     "title": "Bugonia",
     "displayTitle": "电影：Bugonia",
@@ -2454,7 +2431,7 @@
   },
   {
     "id": "3fa626fc69519b95",
-    "time": "2026-03-29T04:06:31.142Z",
+    "time": "2026-03-29T04:17:19.780Z",
     "source": "JustWatch Movies",
     "title": "The Housemaid",
     "displayTitle": "电影：The Housemaid",
@@ -2893,29 +2870,6 @@
     "defaultVisible": false
   },
   {
-    "id": "f89d71b0ee59900b",
-    "time": "2026-03-25T21:46:54.000Z",
-    "source": "Reddit",
-    "title": "Model Y is bestselling car in the world for 2025 (3rd year in a row), according to several firms.",
-    "displayTitle": "",
-    "summary": "r/teslamotors • 1065 points • 287 comments",
-    "category": "TESLA",
-    "topic": "TESLA",
-    "priority": 44,
-    "url": "https://www.reddit.com/r/teslamotors/comments/1s3og53/model_y_is_bestselling_car_in_the_world_for_2025/",
-    "hot": true,
-    "tags": [
-      "TESLA",
-      "REDDIT"
-    ],
-    "sources": [
-      "Reddit"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "C",
-    "defaultVisible": false
-  },
-  {
     "id": "5aaccc40a295a66e",
     "time": "2026-03-25T15:00:20.000Z",
     "source": "PlayStation Blog",
@@ -3238,141 +3192,26 @@
     "defaultVisible": false
   },
   {
-    "id": "a58faa8f75d363b9",
-    "time": "2026-02-09T19:57:20.000Z",
-    "source": "Tesla IR",
-    "title": "Tesla, Inc. Q4 2025 Financial Results and Q&A Webcast",
+    "id": "291e1b1c18317d0c",
+    "time": "2026-03-25T05:27:35.000Z",
+    "source": "Reddit",
+    "title": "\"Something way cooler than a minivan is coming\"",
     "displayTitle": "",
-    "summary": "",
+    "summary": "r/teslamotors • 174 points • 344 comments",
     "category": "TESLA",
     "topic": "TESLA",
-    "priority": 44,
-    "url": "https://ir.tesla.com/webcast-2026-01-28",
+    "priority": 42,
+    "url": "https://www.reddit.com/r/teslamotors/comments/1s320ic/something_way_cooler_than_a_minivan_is_coming/",
     "hot": false,
     "tags": [
       "TESLA",
-      "TECH"
+      "REDDIT"
     ],
     "sources": [
-      "Tesla IR"
-    ],
-    "mergedCount": 2,
-    "sourceLayer": "A",
-    "defaultVisible": false
-  },
-  {
-    "id": "9cd407e132826e28",
-    "time": "2026-01-28T20:48:50.000Z",
-    "source": "Tesla IR",
-    "title": "Tesla Releases Fourth Quarter and Full Year 2025 Financial Results",
-    "displayTitle": "",
-    "summary": "",
-    "category": "TESLA",
-    "topic": "TESLA",
-    "priority": 44,
-    "url": "https://ir.tesla.com/press-release/tesla-releases-fourth-quarter-and-full-year-2025-financial-results",
-    "hot": false,
-    "tags": [
-      "TESLA",
-      "TECH"
-    ],
-    "sources": [
-      "Tesla IR"
+      "Reddit"
     ],
     "mergedCount": 1,
-    "sourceLayer": "A",
-    "defaultVisible": false
-  },
-  {
-    "id": "b0ca5ffefd945832",
-    "time": "2026-01-23T00:21:18.000Z",
-    "source": "Tesla IR",
-    "title": "Q4 2025 Earnings Consensus",
-    "displayTitle": "",
-    "summary": "",
-    "category": "TESLA",
-    "topic": "TESLA",
-    "priority": 44,
-    "url": "https://ir.tesla.com/press-release/earnings-consensus-fourth-quarter-2025",
-    "hot": false,
-    "tags": [
-      "TESLA",
-      "TECH"
-    ],
-    "sources": [
-      "Tesla IR"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "A",
-    "defaultVisible": false
-  },
-  {
-    "id": "90609b27a63e1e9b",
-    "time": "2026-01-02T13:50:58.000Z",
-    "source": "Tesla IR",
-    "title": "Tesla Fourth Quarter 2025 Production, Deliveries & Deployments",
-    "displayTitle": "",
-    "summary": "",
-    "category": "TESLA",
-    "topic": "TESLA",
-    "priority": 44,
-    "url": "https://ir.tesla.com/press-release/tesla-fourth-quarter-2025-production-deliveries-deployments",
-    "hot": false,
-    "tags": [
-      "TESLA",
-      "TECH"
-    ],
-    "sources": [
-      "Tesla IR"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "A",
-    "defaultVisible": false
-  },
-  {
-    "id": "e89f6c5c71793327",
-    "time": "2025-12-29T22:42:54.000Z",
-    "source": "Tesla IR",
-    "title": "Q4 2025 Update",
-    "displayTitle": "",
-    "summary": "",
-    "category": "TESLA",
-    "topic": "TESLA",
-    "priority": 44,
-    "url": "https://ir.tesla.com/node/2520",
-    "hot": false,
-    "tags": [
-      "TESLA",
-      "TECH"
-    ],
-    "sources": [
-      "Tesla IR"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "A",
-    "defaultVisible": false
-  },
-  {
-    "id": "dfe873714519852a",
-    "time": "2025-12-29T22:40:15.000Z",
-    "source": "Tesla IR",
-    "title": "Q4 2025 Delivery Consensus",
-    "displayTitle": "特斯拉 2025 年 Q4 交付预期",
-    "summary": "",
-    "category": "TESLA",
-    "topic": "TESLA",
-    "priority": 44,
-    "url": "https://ir.tesla.com/press-release/delivery-consensus-fourth-quarter-2025",
-    "hot": false,
-    "tags": [
-      "TESLA",
-      "TECH"
-    ],
-    "sources": [
-      "Tesla IR"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "A",
+    "sourceLayer": "C",
     "defaultVisible": false
   },
   {
@@ -3653,7 +3492,7 @@
   },
   {
     "id": "2b1e6bdecefe6606",
-    "time": "2026-02-04T16:00:00.000Z",
+    "time": "2026-02-05T00:00:00.000Z",
     "source": "Anthropic Newsroom",
     "title": "Introducing Claude Opus 4.6",
     "displayTitle": "Claude Opus 4.6 发布",
@@ -3700,7 +3539,7 @@
   },
   {
     "id": "1d90d88b02e994f5",
-    "time": "2026-03-14T16:00:00.000Z",
+    "time": "2026-03-15T00:00:00.000Z",
     "source": "Riot Games",
     "title": "NEVER FIGHT ALONE // Miks Agent Trailer - VALORANT",
     "displayTitle": "",
@@ -3720,29 +3559,6 @@
     ],
     "mergedCount": 1,
     "sourceLayer": "A",
-    "defaultVisible": false
-  },
-  {
-    "id": "291e1b1c18317d0c",
-    "time": "2026-03-25T05:27:35.000Z",
-    "source": "Reddit",
-    "title": "\"Something way cooler than a minivan is coming\"",
-    "displayTitle": "",
-    "summary": "r/teslamotors • 174 points • 344 comments",
-    "category": "TESLA",
-    "topic": "TESLA",
-    "priority": 34,
-    "url": "https://www.reddit.com/r/teslamotors/comments/1s320ic/something_way_cooler_than_a_minivan_is_coming/",
-    "hot": false,
-    "tags": [
-      "TESLA",
-      "REDDIT"
-    ],
-    "sources": [
-      "Reddit"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "C",
     "defaultVisible": false
   },
   {
@@ -3862,7 +3678,7 @@
   },
   {
     "id": "b3c41f95b4906083",
-    "time": "2026-03-17T16:00:00.000Z",
+    "time": "2026-03-18T00:00:00.000Z",
     "source": "Sony Interactive",
     "title": "Sony Interactive Marks 200 Apprentices in Career Program",
     "displayTitle": "",
@@ -3931,7 +3747,7 @@
   },
   {
     "id": "9242c53709ab61ca",
-    "time": "2026-02-23T16:00:00.000Z",
+    "time": "2026-02-24T00:00:00.000Z",
     "source": "Sony Interactive",
     "title": "Leveling Up Together: Girls Make Games’ Commitment to Safer Play Online",
     "displayTitle": "",
@@ -3954,7 +3770,7 @@
   },
   {
     "id": "7c86631e67d116bd",
-    "time": "2026-02-08T16:00:00.000Z",
+    "time": "2026-02-09T00:00:00.000Z",
     "source": "Sony Interactive",
     "title": "Celebrating Safer Internet Day 2026",
     "displayTitle": "",
@@ -3977,7 +3793,7 @@
   },
   {
     "id": "35f21ee73b0e3e6d",
-    "time": "2026-02-06T16:00:00.000Z",
+    "time": "2026-02-07T00:00:00.000Z",
     "source": "OpenClaw Blog",
     "title": "OpenClaw Partners with VirusTotal for Skill Security",
     "displayTitle": "",
@@ -4001,7 +3817,7 @@
   },
   {
     "id": "19792c4d5c18181b",
-    "time": "2026-02-03T16:00:00.000Z",
+    "time": "2026-02-04T00:00:00.000Z",
     "source": "Anthropic Newsroom",
     "title": "Claude is a space to think",
     "displayTitle": "",
@@ -4025,7 +3841,7 @@
   },
   {
     "id": "fbed80bfcf60bd36",
-    "time": "2026-01-28T16:00:00.000Z",
+    "time": "2026-01-29T00:00:00.000Z",
     "source": "OpenClaw Blog",
     "title": "Introducing OpenClaw",
     "displayTitle": "",
@@ -4164,7 +3980,7 @@
   },
   {
     "id": "eb78c71241d994eb",
-    "time": "2026-01-13T16:00:00.000Z",
+    "time": "2026-01-14T00:00:00.000Z",
     "source": "Sony Interactive",
     "title": "An Update to Our Shared Commitment to Safer Gaming",
     "displayTitle": "",
@@ -4187,7 +4003,7 @@
   },
   {
     "id": "5496c4a389e90bf8",
-    "time": "2025-12-17T16:00:00.000Z",
+    "time": "2025-12-18T00:00:00.000Z",
     "source": "Sony Interactive",
     "title": "PlayStation Family Gaming Tips for the Holidays",
     "displayTitle": "",
@@ -4210,7 +4026,7 @@
   },
   {
     "id": "d0a8b3661bb4e613",
-    "time": "2025-12-15T16:00:00.000Z",
+    "time": "2025-12-16T00:00:00.000Z",
     "source": "Sony Interactive",
     "title": "Sucker Punch Productions Co-Founder Brian Fleming Passes the Reins to the Next Chapter of Creative Leadership",
     "displayTitle": "",
@@ -4233,7 +4049,7 @@
   },
   {
     "id": "a75fba613e382bad",
-    "time": "2025-12-14T16:00:00.000Z",
+    "time": "2025-12-15T00:00:00.000Z",
     "source": "Sony Interactive",
     "title": "Bridging the Generational Gap with the PlayStation Family App",
     "displayTitle": "",
@@ -4256,7 +4072,7 @@
   },
   {
     "id": "82d295d51c3e91cc",
-    "time": "2025-11-25T16:00:00.000Z",
+    "time": "2025-11-26T00:00:00.000Z",
     "source": "Sony Interactive",
     "title": "Ghost of Yōtei: A Global Celebration of Storytelling",
     "displayTitle": "",
@@ -4302,7 +4118,7 @@
   },
   {
     "id": "d8d323f9ced7eb34",
-    "time": "2026-03-09T16:00:00.000Z",
+    "time": "2026-03-10T00:00:00.000Z",
     "source": "Riot Games",
     "title": "First Stand 2026",
     "displayTitle": "",
@@ -4326,7 +4142,7 @@
   },
   {
     "id": "72787d453dd06ed3",
-    "time": "2026-03-08T16:00:00.000Z",
+    "time": "2026-03-09T00:00:00.000Z",
     "source": "Riot Games",
     "title": "March Update 2026 | Dev Snapshot",
     "displayTitle": "",
@@ -4350,7 +4166,7 @@
   },
   {
     "id": "66dc497d371eb3d8",
-    "time": "2026-03-01T16:00:00.000Z",
+    "time": "2026-03-02T00:00:00.000Z",
     "source": "Riot Games",
     "title": "FST 2026 Primer",
     "displayTitle": "",
@@ -4374,7 +4190,7 @@
   },
   {
     "id": "1038285a52faff61",
-    "time": "2026-02-26T16:00:00.000Z",
+    "time": "2026-02-27T00:00:00.000Z",
     "source": "Riot Games",
     "title": "Shyvana, the Half-Dragon",
     "displayTitle": "",
@@ -4398,7 +4214,7 @@
   },
   {
     "id": "34dc32a54bfdeef1",
-    "time": "2026-02-26T16:00:00.000Z",
+    "time": "2026-02-27T00:00:00.000Z",
     "source": "Riot Games",
     "title": "Making a Zeus-inspired VALORANT Skin",
     "displayTitle": "",
@@ -4422,7 +4238,7 @@
   },
   {
     "id": "6f008fdaac970c80",
-    "time": "2026-02-22T16:00:00.000Z",
+    "time": "2026-02-23T00:00:00.000Z",
     "source": "Riot Games",
     "title": "¡GRITA CON EL ALMA! - VALORANT 2026 Masters Santiago Cinematic",
     "displayTitle": "",
