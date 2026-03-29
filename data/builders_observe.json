@@ -1,0 +1,60 @@
+[
+  {
+    "fetch_time": 1774782613,
+    "count": 5,
+    "titles": [
+      "GitHub 热门工具：claude-mem",
+      "GPT-5 为广告变现与超级应用铺路",
+      "GitHub 热门工具：OpenBB",
+      "BTC ETF 价格战打起来了：大摩压到 0.14%",
+      "苹果今年将发布两款新的 iPhone 应用"
+    ],
+    "items": [
+      {
+        "id": "f63726b1d231df04",
+        "title": "GitHub 热门工具：claude-mem",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "c69007bc9f7b0665",
+        "title": "GPT-5 为广告变现与超级应用铺路",
+        "topic": "OPENAI",
+        "source": "SemiAnalysis",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "9bf3e0ad357d2752",
+        "title": "GitHub 热门工具：OpenBB",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      },
+      {
+        "id": "4bce53c930038fcd",
+        "title": "BTC ETF 价格战打起来了：大摩压到 0.14%",
+        "topic": "BTC",
+        "source": "The Block",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "e4af1145b6335957",
+        "title": "苹果今年将发布两款新的 iPhone 应用",
+        "topic": "APPLE",
+        "source": "Reddit",
+        "meaning": "苹果产品节奏或生态接口在变，可能影响后续判断。",
+        "action_hint": "看功能与上线时间。",
+        "urgency": "medium"
+      }
+    ]
+  }
+]

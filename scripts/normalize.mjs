@@ -916,10 +916,10 @@ function actionFieldsFor(item) {
   };
 }
 
-function applyActionLayer(items) {
+function pickActionLayerItems(items, limit = 6) {
   const themeCap = new Map();
   const projectCap = new Set();
-  const selectedIds = new Set();
+  const selected = [];
 
   const candidates = (items || [])
     .filter(actionEligible)
@@ -931,13 +931,44 @@ function applyActionLayer(items) {
     if (!theme) continue;
     if (projectCap.has(project)) continue;
     if ((themeCap.get(theme) || 0) >= actionThemeCap(theme)) continue;
-    selectedIds.add(item.id);
+    selected.push(item);
     projectCap.add(project);
     themeCap.set(theme, (themeCap.get(theme) || 0) + 1);
-    if (selectedIds.size >= 6) break;
+    if (selected.length >= limit) break;
   }
 
+  return selected;
+}
+
+function applyActionLayer(items) {
+  const selectedIds = new Set(pickActionLayerItems(items).map((item) => item.id));
   return items.map((item) => (selectedIds.has(item.id) ? { ...item, ...actionFieldsFor(item) } : item));
+}
+
+export function buildBuildersObservation(items, previousSnapshots = [], fetchTime = Math.floor(Date.now() / 1000)) {
+  const cutoff = fetchTime - (48 * 3600);
+  const nextSnapshots = Array.isArray(previousSnapshots)
+    ? previousSnapshots.filter((entry) => Number(entry.fetch_time || 0) >= cutoff && Number(entry.fetch_time || 0) !== fetchTime)
+    : [];
+
+  const selected = pickActionLayerItems(items, 6).map((item) => ({
+    id: item.id,
+    title: item.displayTitle || item.title || '',
+    topic: item.topic || '',
+    source: item.source || '',
+    meaning: item.meaning || actionFieldsFor(item).meaning,
+    action_hint: item.action_hint || actionFieldsFor(item).action_hint,
+    urgency: item.urgency || actionFieldsFor(item).urgency,
+  }));
+
+  nextSnapshots.push({
+    fetch_time: fetchTime,
+    count: selected.length,
+    titles: selected.map((item) => item.title),
+    items: selected,
+  });
+
+  return nextSnapshots.sort((a, b) => Number(b.fetch_time || 0) - Number(a.fetch_time || 0));
 }
 
 function earlySignalType(item) {

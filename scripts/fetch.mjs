@@ -1,5 +1,5 @@
-import { buildEarlySignalPool, normalizeFeed } from './normalize.mjs';
-import { EARLY_SIGNAL_PATH, FEED_PATH, readJson, writeJson } from './utils.mjs';
+import { buildBuildersObservation, buildEarlySignalPool, normalizeFeed } from './normalize.mjs';
+import { BUILDERS_OBSERVE_PATH, EARLY_SIGNAL_PATH, FEED_PATH, readJson, writeJson } from './utils.mjs';
 import apple from './sources/apple.mjs';
 import openai from './sources/openai.mjs';
 import anthropic from './sources/anthropic.mjs';
@@ -83,6 +83,7 @@ const existingFeed = (Array.isArray(existingPayload) ? existingPayload : (existi
 }));
 const existingEarlySignals = Array.isArray(existingPayload) ? [] : (existingPayload.early_signals || []);
 const existingFetchTime = Array.isArray(existingPayload) ? null : Number(existingPayload.fetch_time || 0);
+const existingBuildersObserve = await readJson(BUILDERS_OBSERVE_PATH, []);
 let feed = normalizeFeed(merged);
 
 for (const sourceName of [
@@ -117,10 +118,13 @@ if (feed.length === 0 && existingFeed.length > 0) {
   console.warn(`new fetch is empty; keeping previous feed with ${existingFeed.length} items`);
 }
 
+const buildersObserve = buildBuildersObservation(finalFeed, existingBuildersObserve, finalFetchTime);
+
 await writeJson(FEED_PATH, {
   fetch_time: finalFetchTime,
   early_signals: earlySignals,
   items: finalFeed,
 });
 await writeJson(EARLY_SIGNAL_PATH, earlySignals);
-console.log(`wrote ${finalFeed.length} items, ${earlySignals.length} early signals -> ${FEED_PATH}`);
+await writeJson(BUILDERS_OBSERVE_PATH, buildersObserve);
+console.log(`wrote ${finalFeed.length} items, ${earlySignals.length} early signals, ${buildersObserve.length} builders snapshots -> ${FEED_PATH}`);

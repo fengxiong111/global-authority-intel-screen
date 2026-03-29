@@ -10,6 +10,7 @@ export const ROOT_DIR = process.cwd();
 export const DATA_DIR = path.join(ROOT_DIR, 'data');
 export const FEED_PATH = path.join(DATA_DIR, 'feed.json');
 export const EARLY_SIGNAL_PATH = path.join(DATA_DIR, 'early_signal.json');
+export const BUILDERS_OBSERVE_PATH = path.join(DATA_DIR, 'builders_observe.json');
 export const BOOKS_PATH = path.join(DATA_DIR, 'books.json');
 export const USER_AGENT =
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 AuthorityIntelScreen/1.0';
