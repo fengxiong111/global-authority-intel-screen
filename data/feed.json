@@ -1,15 +1,15 @@
 [
   {
-    "id": "5c463e8320288651",
-    "timestamp": 1774771319,
+    "id": "bb53d7b50ff42099",
+    "timestamp": 1774771690,
     "source": "GitHub Trending",
-    "title": "GitHub 热门：virattt/dexter",
+    "title": "GitHub 热门：obra/superpowers",
     "displayTitle": "",
-    "summary": "An autonomous agent for deep financial research",
+    "summary": "An agentic skills framework & software development methodology that works.",
     "category": "TECH",
     "topic": "TECH",
     "priority": 100,
-    "url": "https://github.com/virattt/dexter",
+    "url": "https://github.com/obra/superpowers",
     "hot": true,
     "tags": [
       "TECH",
@@ -23,16 +23,16 @@
     "defaultVisible": false
   },
   {
-    "id": "bb53d7b50ff42099",
-    "timestamp": 1774771319,
+    "id": "ce130f79a35cdab4",
+    "timestamp": 1774771690,
     "source": "GitHub Trending",
-    "title": "GitHub 热门：obra/superpowers",
+    "title": "GitHub 热门：SakanaAI/AI-Scientist-v2",
     "displayTitle": "",
-    "summary": "An agentic skills framework & software development methodology that works.",
+    "summary": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
     "category": "TECH",
     "topic": "TECH",
-    "priority": 97,
-    "url": "https://github.com/obra/superpowers",
+    "priority": 99,
+    "url": "https://github.com/SakanaAI/AI-Scientist-v2",
     "hot": true,
     "tags": [
       "TECH",
@@ -94,16 +94,16 @@
     "defaultVisible": true
   },
   {
-    "id": "ce130f79a35cdab4",
-    "timestamp": 1774771319,
+    "id": "5c463e8320288651",
+    "timestamp": 1774771690,
     "source": "GitHub Trending",
-    "title": "GitHub 热门：SakanaAI/AI-Scientist-v2",
+    "title": "GitHub 热门：virattt/dexter",
     "displayTitle": "",
-    "summary": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+    "summary": "An autonomous agent for deep financial research",
     "category": "TECH",
     "topic": "TECH",
-    "priority": 91,
-    "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+    "priority": 93,
+    "url": "https://github.com/virattt/dexter",
     "hot": true,
     "tags": [
       "TECH",
@@ -165,34 +165,11 @@
     "defaultVisible": false
   },
   {
-    "id": "688b476e0b2e7716",
-    "timestamp": 1774771319,
-    "source": "GitHub Trending",
-    "title": "GitHub 热门：agentscope-ai/agentscope",
-    "displayTitle": "",
-    "summary": "Build and run agents you can see, understand and trust.",
-    "category": "TECH",
-    "topic": "TECH",
-    "priority": 89,
-    "url": "https://github.com/agentscope-ai/agentscope",
-    "hot": true,
-    "tags": [
-      "TECH",
-      "GITHUB"
-    ],
-    "sources": [
-      "GitHub Trending"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "B",
-    "defaultVisible": false
-  },
-  {
     "id": "5d4609ae015d7b6c",
     "timestamp": 1774611796,
     "source": "Bloomberg",
     "title": "Bitcoin Extends Slide as Options Point Toward Deeper Decline",
-    "displayTitle": "比特币继续下跌：期权市场预示更深回撤",
+    "displayTitle": "比特币续跌，期权押注更深回撤",
     "summary": "Bitcoin fell to its lowest level in more than three weeks as traders turned defensive following the year’s largest options expiry, while investors continued pulling money from crypto exchange-traded funds.",
     "category": "CRYPTO_TOOLS",
     "topic": "BTC",
@@ -308,7 +285,7 @@
     "timestamp": 1774718245,
     "source": "Bloomberg",
     "title": "Iran-Backed Houthis Join War as More US Troops Reach Region",
-    "displayTitle": "胡塞武装卷入战事：更多美军抵达中东",
+    "displayTitle": "胡塞武装卷入战事，美军增兵中东",
     "summary": "Houthi militants launched ballistic missiles at Israel on Saturday morning, marking their entry into the month-long Iran war that has already caused chaos in energy markets and killed thousands of people.",
     "category": "TECH",
     "topic": "TECH",
@@ -419,8 +396,31 @@
     "defaultVisible": false
   },
   {
+    "id": "688b476e0b2e7716",
+    "timestamp": 1774771690,
+    "source": "GitHub Trending",
+    "title": "GitHub 热门：agentscope-ai/agentscope",
+    "displayTitle": "",
+    "summary": "Build and run agents you can see, understand and trust.",
+    "category": "TECH",
+    "topic": "TECH",
+    "priority": 81,
+    "url": "https://github.com/agentscope-ai/agentscope",
+    "hot": true,
+    "tags": [
+      "TECH",
+      "GITHUB"
+    ],
+    "sources": [
+      "GitHub Trending"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "B",
+    "defaultVisible": false
+  },
+  {
     "id": "35c0b0e1193aade2",
-    "timestamp": 1774771319,
+    "timestamp": 1774771690,
     "source": "OneKey Blog",
     "title": "Security Blind Spots of Hardware Wallets: Analyzing the Covert Threat of Supply Chain Attacks",
     "displayTitle": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
@@ -443,7 +443,7 @@
   },
   {
     "id": "7c18d6b994fc5aec",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "NYT",
     "title": "U.S. 1:08",
     "displayTitle": "",
@@ -606,8 +606,31 @@
     "defaultVisible": true
   },
   {
+    "id": "cbc4f15ace1b9efe",
+    "timestamp": 1774540321,
+    "source": "Tesla IR",
+    "title": "Q1 2026",
+    "displayTitle": "特斯拉 2026 年 Q1 季度更新",
+    "summary": "",
+    "category": "TESLA",
+    "topic": "TESLA",
+    "priority": 72,
+    "url": "https://ir.tesla.com/node/2538",
+    "hot": false,
+    "tags": [
+      "TESLA",
+      "TECH"
+    ],
+    "sources": [
+      "Tesla IR"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": true
+  },
+  {
     "id": "3aa11c3549a9e9ac",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "NYT",
     "title": "smarter-living 0:48",
     "displayTitle": "",
@@ -677,12 +700,12 @@
     "defaultVisible": false
   },
   {
-    "id": "2fc369de04d873bf",
-    "timestamp": 1774771318,
+    "id": "2dcb12a0f4a01592",
+    "timestamp": 1774771690,
     "source": "NYT",
-    "title": "STRANGERS",
+    "title": "STRIPPED DOWN",
     "displayTitle": "",
-    "summary": "Hardcover Nonfiction • 9 weeks on the list • by Belle Burden • Burden retraces her marriage of 20 years in search of clues to help shape her understanding about its demise and to find a way forward.",
+    "summary": "Hardcover Nonfiction • 5 weeks on the list • by Bunnie Xo • The host of the “Dumb Blonde Podcast” shares how redemption was an important part of her journey toward reaching her goals.",
     "category": "BOOK",
     "topic": "BOOK",
     "priority": 70,
@@ -961,8 +984,31 @@
     "defaultVisible": false
   },
   {
+    "id": "6b8863722bf7e97a",
+    "timestamp": 1774540239,
+    "source": "Tesla IR",
+    "title": "Q1 2026 Delivery Consensus",
+    "displayTitle": "特斯拉 2026 年 Q1 交付预期",
+    "summary": "",
+    "category": "TESLA",
+    "topic": "TESLA",
+    "priority": 68,
+    "url": "https://ir.tesla.com/press-release/delivery-consensus-first-quarter-2026",
+    "hot": false,
+    "tags": [
+      "TESLA",
+      "TECH"
+    ],
+    "sources": [
+      "Tesla IR"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": true
+  },
+  {
     "id": "0a52e234351482ec",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "NYT",
     "title": "Iran War Live Updates: Tehran Hit by Heavy Airstrikes as U.S. Marines Arrive in Middle East",
     "displayTitle": "",
@@ -1032,16 +1078,16 @@
     "defaultVisible": true
   },
   {
-    "id": "2dcb12a0f4a01592",
-    "timestamp": 1774771318,
+    "id": "4622bea1fb8b342d",
+    "timestamp": 1774771690,
     "source": "NYT",
-    "title": "STRIPPED DOWN",
+    "title": "STRANGERS",
     "displayTitle": "",
-    "summary": "Hardcover Nonfiction • 5 weeks on the list • by Bunnie Xo • The host of the “Dumb Blonde Podcast” shares how redemption was an important part of her journey toward reaching her goals.",
+    "summary": "Combined Print & E-Book Nonfiction • 10 weeks on the list • by Belle Burden • Burden retraces her marriage of 20 years in search of clues to help shape her understanding about its demise and to find a way forward.",
     "category": "BOOK",
     "topic": "BOOK",
     "priority": 66,
-    "url": "https://www.nytimes.com/books/best-sellers/hardcover-nonfiction/",
+    "url": "https://www.nytimes.com/books/best-sellers/combined-print-and-e-book-nonfiction/",
     "hot": true,
     "tags": [
       "BOOK",
@@ -1176,7 +1222,7 @@
   },
   {
     "id": "54159ca88ffd6f1e",
-    "timestamp": 1774771319,
+    "timestamp": 1774771690,
     "source": "Douban Movie Chart",
     "title": "河狸变身计划",
     "displayTitle": "河狸变身计划",
@@ -1199,7 +1245,7 @@
   },
   {
     "id": "83ee1de4a20a247c",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "JustWatch TV",
     "title": "The Madison",
     "displayTitle": "剧集：The Madison",
@@ -1455,12 +1501,12 @@
     "defaultVisible": true
   },
   {
-    "id": "4054532afd172676",
-    "timestamp": 1774771318,
+    "id": "bf3c7fc7cb4be92e",
+    "timestamp": 1774771690,
     "source": "NYT",
-    "title": "THE CORRESPONDENT",
+    "title": "JUDGE STONE",
     "displayTitle": "",
-    "summary": "Hardcover Fiction • 21 weeks on the list • by Virginia Evans • Letters from someone she used to know push Sybil Van Antwerp toward revisiting her past and finding a way to forgive.",
+    "summary": "Hardcover Fiction • 2 weeks on the list • by Viola Davis and James Patterson • Judge Mary Stone oversees an ethically complex case in her courtroom in Union Springs, Ala.",
     "category": "BOOK",
     "topic": "BOOK",
     "priority": 62,
@@ -1551,7 +1597,7 @@
   },
   {
     "id": "c52ff6c9f6314efe",
-    "timestamp": 1774771319,
+    "timestamp": 1774771690,
     "source": "Douban Movie Chart",
     "title": "侵略机器",
     "displayTitle": "",
@@ -1574,7 +1620,7 @@
   },
   {
     "id": "c20b94009e6c9534",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "JustWatch TV",
     "title": "Paradise",
     "displayTitle": "剧集：Paradise",
@@ -1667,12 +1713,12 @@
     "defaultVisible": false
   },
   {
-    "id": "bf3c7fc7cb4be92e",
-    "timestamp": 1774771318,
+    "id": "4054532afd172676",
+    "timestamp": 1774771690,
     "source": "NYT",
-    "title": "JUDGE STONE",
+    "title": "THE CORRESPONDENT",
     "displayTitle": "",
-    "summary": "Hardcover Fiction • 2 weeks on the list • by Viola Davis and James Patterson • Judge Mary Stone oversees an ethically complex case in her courtroom in Union Springs, Ala.",
+    "summary": "Hardcover Fiction • 21 weeks on the list • by Virginia Evans • Letters from someone she used to know push Sybil Van Antwerp toward revisiting her past and finding a way to forgive.",
     "category": "BOOK",
     "topic": "BOOK",
     "priority": 58,
@@ -1763,7 +1809,7 @@
   },
   {
     "id": "3d9779e7f2c823a4",
-    "timestamp": 1774771319,
+    "timestamp": 1774771690,
     "source": "Douban Movie Chart",
     "title": "家弑服务",
     "displayTitle": "",
@@ -1786,7 +1832,7 @@
   },
   {
     "id": "1eb9bfc69f6bde31",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "JustWatch TV",
     "title": "The Pitt",
     "displayTitle": "剧集：The Pitt",
@@ -1927,7 +1973,7 @@
   },
   {
     "id": "7f4e607e92c50609",
-    "timestamp": 1774569600,
+    "timestamp": 1774540800,
     "source": "Riot Games",
     "title": "Have a Nice Deity! | SPACE GODS Set Cinematic – Teamfight Tactics",
     "displayTitle": "",
@@ -1951,7 +1997,7 @@
   },
   {
     "id": "5e3a79a469c6bad9",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "NYT",
     "title": "PROJECT HAIL MARY",
     "displayTitle": "",
@@ -1975,7 +2021,7 @@
   },
   {
     "id": "f1f7564066cdaa0c",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "NYT",
     "title": "THEO OF GOLDEN",
     "displayTitle": "",
@@ -2206,7 +2252,7 @@
   },
   {
     "id": "9fd381bc18c5bc94",
-    "timestamp": 1774771319,
+    "timestamp": 1774771690,
     "source": "Douban Movie Chart",
     "title": "东京出租车",
     "displayTitle": "",
@@ -2229,7 +2275,7 @@
   },
   {
     "id": "cb8a7ec4003d61d9",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "JustWatch TV",
     "title": "Scarpetta",
     "displayTitle": "剧集：Scarpetta",
@@ -2274,29 +2320,6 @@
     "defaultVisible": false
   },
   {
-    "id": "f89d71b0ee59900b",
-    "timestamp": 1774475214,
-    "source": "Reddit",
-    "title": "Model Y is bestselling car in the world for 2025 (3rd year in a row), according to several firms.",
-    "displayTitle": "",
-    "summary": "r/teslamotors • 1085 points • 290 comments",
-    "category": "TESLA",
-    "topic": "TESLA",
-    "priority": 52,
-    "url": "https://www.reddit.com/r/teslamotors/comments/1s3og53/model_y_is_bestselling_car_in_the_world_for_2025/",
-    "hot": true,
-    "tags": [
-      "TESLA",
-      "REDDIT"
-    ],
-    "sources": [
-      "Reddit"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "C",
-    "defaultVisible": false
-  },
-  {
     "id": "12989a99e84f634b",
     "timestamp": 1774537229,
     "source": "PlayStation Blog",
@@ -2321,7 +2344,7 @@
   },
   {
     "id": "724db6d9ad3012a4",
-    "timestamp": 1774771319,
+    "timestamp": 1774771690,
     "source": "Douban Movie Chart",
     "title": "至尊马蒂",
     "displayTitle": "",
@@ -2344,7 +2367,7 @@
   },
   {
     "id": "ca16611ebe200897",
-    "timestamp": 1774771319,
+    "timestamp": 1774771690,
     "source": "Douban Movie Chart",
     "title": "哈姆奈特",
     "displayTitle": "",
@@ -2367,7 +2390,7 @@
   },
   {
     "id": "2cc9a606312d09aa",
-    "timestamp": 1774771319,
+    "timestamp": 1774771690,
     "source": "Douban Movie Chart",
     "title": "用武之地",
     "displayTitle": "",
@@ -2390,7 +2413,7 @@
   },
   {
     "id": "7506994b588b1c53",
-    "timestamp": 1774771319,
+    "timestamp": 1774771690,
     "source": "Douban Movie Chart",
     "title": "你行！你上！",
     "displayTitle": "你行！你上！",
@@ -2413,7 +2436,7 @@
   },
   {
     "id": "4e70d6e4dfd74063",
-    "timestamp": 1774771319,
+    "timestamp": 1774771690,
     "source": "Douban Movie Chart",
     "title": "呼啸山庄",
     "displayTitle": "",
@@ -2436,7 +2459,7 @@
   },
   {
     "id": "097e18052bcb288c",
-    "timestamp": 1774771319,
+    "timestamp": 1774771690,
     "source": "Douban Movie Chart",
     "title": "局外人",
     "displayTitle": "",
@@ -2459,7 +2482,7 @@
   },
   {
     "id": "0efcd932c6ca7c4d",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "JustWatch TV",
     "title": "Shrinking",
     "displayTitle": "剧集：Shrinking",
@@ -2482,7 +2505,7 @@
   },
   {
     "id": "0e376afa54f55fc8",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "JustWatch TV",
     "title": "DTF St. Louis",
     "displayTitle": "剧集：DTF St. Louis",
@@ -2505,7 +2528,7 @@
   },
   {
     "id": "e4e321ec7852e5db",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "JustWatch TV",
     "title": "Monarch: Legacy of Monsters",
     "displayTitle": "",
@@ -2528,7 +2551,7 @@
   },
   {
     "id": "0463bcb4c70965cf",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "JustWatch TV",
     "title": "Rooster",
     "displayTitle": "剧集：Rooster",
@@ -2551,7 +2574,7 @@
   },
   {
     "id": "02bf8fda130896a7",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "JustWatch TV",
     "title": "Young Sherlock",
     "displayTitle": "剧集：Young Sherlock",
@@ -2574,7 +2597,7 @@
   },
   {
     "id": "4d41401244ccecc6",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "JustWatch TV",
     "title": "A Knight of the Seven Kingdoms",
     "displayTitle": "",
@@ -2597,7 +2620,7 @@
   },
   {
     "id": "337cc755fd11925b",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "JustWatch Movies",
     "title": "Hamnet",
     "displayTitle": "电影：Hamnet",
@@ -2620,7 +2643,7 @@
   },
   {
     "id": "35153abebe488e73",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "JustWatch Movies",
     "title": "The Secret Agent",
     "displayTitle": "",
@@ -2643,7 +2666,7 @@
   },
   {
     "id": "53c95bf8aa8b083a",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "JustWatch Movies",
     "title": "Sentimental Value",
     "displayTitle": "",
@@ -2666,7 +2689,7 @@
   },
   {
     "id": "11f779ad8d8f0873",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "JustWatch Movies",
     "title": "Marty Supreme",
     "displayTitle": "电影：Marty Supreme",
@@ -2689,7 +2712,7 @@
   },
   {
     "id": "abec643f4fe3403e",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "JustWatch Movies",
     "title": "One Battle After Another",
     "displayTitle": "",
@@ -2712,7 +2735,7 @@
   },
   {
     "id": "f174d9c8669339d5",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "JustWatch Movies",
     "title": "Ready or Not",
     "displayTitle": "电影：Ready or Not",
@@ -2735,7 +2758,7 @@
   },
   {
     "id": "ce5d3e17ff74858c",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "JustWatch Movies",
     "title": "Sinners",
     "displayTitle": "电影：Sinners",
@@ -2758,7 +2781,7 @@
   },
   {
     "id": "2d8dca30b4875c0b",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "JustWatch Movies",
     "title": "Project Hail Mary",
     "displayTitle": "",
@@ -2781,7 +2804,7 @@
   },
   {
     "id": "e836a4fe93e61402",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "JustWatch Movies",
     "title": "Bugonia",
     "displayTitle": "电影：Bugonia",
@@ -2804,7 +2827,7 @@
   },
   {
     "id": "3fa626fc69519b95",
-    "timestamp": 1774771318,
+    "timestamp": 1774771690,
     "source": "JustWatch Movies",
     "title": "The Housemaid",
     "displayTitle": "电影：The Housemaid",
@@ -3263,6 +3286,29 @@
     ],
     "mergedCount": 1,
     "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "f89d71b0ee59900b",
+    "timestamp": 1774475214,
+    "source": "Reddit",
+    "title": "Model Y is bestselling car in the world for 2025 (3rd year in a row), according to several firms.",
+    "displayTitle": "",
+    "summary": "r/teslamotors • 1085 points • 290 comments",
+    "category": "TESLA",
+    "topic": "TESLA",
+    "priority": 44,
+    "url": "https://www.reddit.com/r/teslamotors/comments/1s3og53/model_y_is_bestselling_car_in_the_world_for_2025/",
+    "hot": true,
+    "tags": [
+      "TESLA",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
     "defaultVisible": false
   },
   {
@@ -3818,31 +3864,8 @@
     "defaultVisible": false
   },
   {
-    "id": "291e1b1c18317d0c",
-    "timestamp": 1774416455,
-    "source": "Reddit",
-    "title": "\"Something way cooler than a minivan is coming\"",
-    "displayTitle": "",
-    "summary": "r/teslamotors • 180 points • 345 comments",
-    "category": "TESLA",
-    "topic": "TESLA",
-    "priority": 36,
-    "url": "https://www.reddit.com/r/teslamotors/comments/1s320ic/something_way_cooler_than_a_minivan_is_coming/",
-    "hot": false,
-    "tags": [
-      "TESLA",
-      "REDDIT"
-    ],
-    "sources": [
-      "Reddit"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "C",
-    "defaultVisible": false
-  },
-  {
     "id": "1d90d88b02e994f5",
-    "timestamp": 1773532800,
+    "timestamp": 1773504000,
     "source": "Riot Games",
     "title": "NEVER FIGHT ALONE // Miks Agent Trailer - VALORANT",
     "displayTitle": "",
@@ -3981,7 +4004,7 @@
   },
   {
     "id": "b3c41f95b4906083",
-    "timestamp": 1773792000,
+    "timestamp": 1773763200,
     "source": "Sony Interactive",
     "title": "Sony Interactive Marks 200 Apprentices in Career Program",
     "displayTitle": "",
@@ -4050,7 +4073,7 @@
   },
   {
     "id": "d8d323f9ced7eb34",
-    "timestamp": 1773100800,
+    "timestamp": 1773072000,
     "source": "Riot Games",
     "title": "First Stand 2026",
     "displayTitle": "",
@@ -4073,8 +4096,31 @@
     "defaultVisible": false
   },
   {
+    "id": "291e1b1c18317d0c",
+    "timestamp": 1774416455,
+    "source": "Reddit",
+    "title": "\"Something way cooler than a minivan is coming\"",
+    "displayTitle": "",
+    "summary": "r/teslamotors • 180 points • 345 comments",
+    "category": "TESLA",
+    "topic": "TESLA",
+    "priority": 28,
+    "url": "https://www.reddit.com/r/teslamotors/comments/1s320ic/something_way_cooler_than_a_minivan_is_coming/",
+    "hot": false,
+    "tags": [
+      "TESLA",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
     "id": "72787d453dd06ed3",
-    "timestamp": 1773014400,
+    "timestamp": 1772985600,
     "source": "Riot Games",
     "title": "March Update 2026 | Dev Snapshot",
     "displayTitle": "",
@@ -4098,7 +4144,7 @@
   },
   {
     "id": "66dc497d371eb3d8",
-    "timestamp": 1772409600,
+    "timestamp": 1772380800,
     "source": "Riot Games",
     "title": "FST 2026 Primer",
     "displayTitle": "",
