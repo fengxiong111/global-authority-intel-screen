@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Authority Intel Screen</title>
+    <meta name="description" content="高信号公开源情报屏。" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header id="topbar" class="topbar" hidden>
+        <p class="eyebrow">AUTHORITY INTEL SCREEN</p>
+        <h1>高信号公开源情报屏</h1>
+        <p class="subhead">单列、黑底、左对齐。只保留时间、来源、分类、标题与链接。</p>
+        <div class="meta-row">
+          <span id="last-updated">更新于 载入中…</span>
+          <span id="feed-status" hidden></span>
+        </div>
+      </header>
+
+      <section id="controls" class="controls" hidden>
+        <div class="filter-group" id="category-filter"></div>
+        <div class="toolbar">
+          <label>
+            <span>来源</span>
+            <select id="source-filter">
+              <option value="ALL">全部来源</option>
+            </select>
+          </label>
+          <label class="toggle">
+            <input id="hot-only" type="checkbox" />
+            <span>只看高优先级</span>
+          </label>
+        </div>
+      </section>
+
+      <section id="feed" class="feed" aria-live="polite"></section>
+      <section id="empty-state" class="empty-state" hidden>
+        <p>当前筛选条件下没有可显示的条目。</p>
+      </section>
+    </main>
+
+    <script>
+      window.AUTHORITY_INTEL_FALLBACK = [
+        {
+          "id": "sample-openai",
+          "time": "2026-03-28T12:30:00Z",
+          "source": "OpenAI News",
+          "title": "Powering Product Discovery in ChatGPT",
+          "summary": "",
+          "category": "AI",
+          "topic": "OPENAI",
+          "priority": 90,
+          "url": "https://openai.com/news/",
+          "hot": true,
+          "tags": ["AI", "OPENAI", "PRODUCT"]
+        },
+        {
+          "id": "sample-apple",
+          "time": "2026-03-28T09:00:00Z",
+          "source": "Apple Newsroom",
+          "title": "Apple announces new updates",
+          "summary": "",
+          "category": "APPLE",
+          "topic": "APPLE",
+          "priority": 84,
+          "url": "https://www.apple.com/newsroom/",
+          "hot": true,
+          "tags": ["APPLE", "TECH"]
+        },
+        {
+          "id": "sample-justwatch",
+          "time": "2026-03-28T08:00:00Z",
+          "source": "JustWatch Movies",
+          "title": "Sample streaming chart item",
+          "summary": "",
+          "category": "MOVIE",
+          "topic": "JUSTWATCH",
+          "priority": 58,
+          "url": "https://www.justwatch.com/us/movies",
+          "hot": false,
+          "tags": ["MOVIE", "JUSTWATCH"]
+        },
+        {
+          "id": "sample-reddit",
+          "time": "2026-03-28T07:30:00Z",
+          "source": "Reddit",
+          "title": "Nintendo Direct rumors are heating up",
+          "summary": "r/nintendo • 1880 points • 242 comments",
+          "category": "GAME",
+          "topic": "NINTENDO",
+          "priority": 77,
+          "url": "https://www.reddit.com/r/nintendo/",
+          "hot": true,
+          "tags": ["GAME", "REDDIT", "NINTENDO"]
+        },
+        {
+          "id": "sample-nyt",
+          "time": "2026-03-28T06:45:00Z",
+          "source": "NYT",
+          "title": "A technology story placeholder from NYT",
+          "summary": "Metadata only: title, summary, section, and link.",
+          "category": "TECH",
+          "topic": "TECH",
+          "priority": 71,
+          "url": "https://www.nytimes.com/section/technology",
+          "hot": false,
+          "tags": ["NYT", "TECH"]
+        }
+      ];
+    </script>
+    <script src="./app.js"></script>
+  </body>
+</html>

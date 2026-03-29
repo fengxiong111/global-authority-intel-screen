@@ -1,0 +1,4608 @@
+[
+  {
+    "id": "25b3a67e0ebe12de",
+    "time": "2026-03-28T23:05:30.000Z",
+    "source": "OpenClaw GitHub",
+    "title": "OpenClaw 2026.3.28-beta.1",
+    "displayTitle": "",
+    "summary": "",
+    "category": "TECH",
+    "topic": "OPENCLAW",
+    "priority": 95,
+    "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.28-beta.1",
+    "hot": true,
+    "tags": [
+      "TECH",
+      "OPENCLAW",
+      "RELEASE"
+    ],
+    "sources": [
+      "OpenClaw GitHub"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "35c0b0e1193aade2",
+    "time": "2026-03-29T00:53:54.637Z",
+    "source": "OneKey Blog",
+    "title": "Security Blind Spots of Hardware Wallets: Analyzing the Covert Threat of Supply Chain Attacks",
+    "displayTitle": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
+    "summary": "",
+    "category": "CRYPTO_TOOLS",
+    "topic": "ONEKEY",
+    "priority": 80,
+    "url": "https://onekey.so/blog/learn/hardware-wallet-supply-chain-attack-risks-20260323/",
+    "hot": true,
+    "tags": [
+      "CRYPTO_TOOLS",
+      "ONEKEY"
+    ],
+    "sources": [
+      "OneKey Blog"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": true
+  },
+  {
+    "id": "cbc4f15ace1b9efe",
+    "time": "2026-03-26T15:52:01.000Z",
+    "source": "Tesla IR",
+    "title": "Q1 2026",
+    "displayTitle": "特斯拉 2026 年 Q1 季度更新",
+    "summary": "",
+    "category": "TESLA",
+    "topic": "TESLA",
+    "priority": 76,
+    "url": "https://ir.tesla.com/node/2538",
+    "hot": true,
+    "tags": [
+      "TESLA",
+      "TECH"
+    ],
+    "sources": [
+      "Tesla IR"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": true
+  },
+  {
+    "id": "7a3a4b95a00134d0",
+    "time": "2026-03-29T00:53:54.655Z",
+    "source": "NYT",
+    "title": "Iran War Live Updates: U.S. Marines Arrive in Middle East, as Houthis Enter War",
+    "displayTitle": "伊朗战事最新进展：美军抵达中东，胡塞武装卷入",
+    "summary": "A U.S. official said that earlier an Iranian strike at a military base in Saudi Arabia injured around two dozen U.S. troops, one of the most serious breaches of American defenses since the war began.",
+    "category": "TECH",
+    "topic": "NYT",
+    "priority": 75,
+    "url": "https://www.nytimes.com/live/2026/03/28/world/iran-war-trump-israel-oil",
+    "hot": true,
+    "tags": [
+      "TECH",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": true
+  },
+  {
+    "id": "22b6e60e695c16f3",
+    "time": "2026-03-28T21:24:58.000Z",
+    "source": "Reddit",
+    "title": "Natus Vincere vs. Movistar KOI / LEC 2026 Spring - Week 1 / Post-Match Discussion",
+    "displayTitle": "英雄联盟：Natus Vincere 对 Movistar KOI 赛后讨论",
+    "summary": "r/leagueoflegends • 379 points • 207 comments",
+    "category": "GAME",
+    "topic": "LEAGUE_OF_LEGENDS",
+    "priority": 74,
+    "url": "https://www.reddit.com/r/leagueoflegends/comments/1s6chgd/natus_vincere_vs_movistar_koi_lec_2026_spring/",
+    "hot": true,
+    "tags": [
+      "GAME",
+      "LEAGUE_OF_LEGENDS",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "B",
+    "defaultVisible": false
+  },
+  {
+    "id": "e4af1145b6335957",
+    "time": "2026-03-28T18:21:02.000Z",
+    "source": "Reddit",
+    "title": "Apple Releasing Two New iPhone Apps This Year",
+    "displayTitle": "苹果今年将发布两款新的 iPhone 应用",
+    "summary": "r/apple • 458 points • 77 comments",
+    "category": "APPLE",
+    "topic": "APPLE",
+    "priority": 74,
+    "url": "https://www.reddit.com/r/apple/comments/1s67vj3/apple_releasing_two_new_iphone_apps_this_year/",
+    "hot": true,
+    "tags": [
+      "APPLE",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "B",
+    "defaultVisible": false
+  },
+  {
+    "id": "94fdbe7dce7a00a1",
+    "time": "2026-03-28T10:22:27.000Z",
+    "source": "Reddit",
+    "title": "I've been \"gaslighting\" my AI models and it's producing insanely better results with simple prompt injection",
+    "displayTitle": "简单提示注入反而让 AI 模型结果更好",
+    "summary": "r/ClaudeAI • 1838 points • 168 comments",
+    "category": "AI",
+    "topic": "CLAUDE",
+    "priority": 74,
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1s5wp0g/ive_been_gaslighting_my_ai_models_and_its/",
+    "hot": true,
+    "tags": [
+      "AI",
+      "CLAUDE",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "B",
+    "defaultVisible": false
+  },
+  {
+    "id": "8baa04a424c2fba1",
+    "time": "2026-03-28T22:32:55.000Z",
+    "source": "Reddit",
+    "title": "Dario Amodei: OpenAI President Brockman's $25 Million Dollar Donation To Pro-Trump Super PAC Is Evil, Also Compares Altman And Elon To Hitler And Stalin",
+    "displayTitle": "Dario Amodei 痛批 Brockman 向亲特朗普 PAC 捐出…",
+    "summary": "r/singularity • 201 points • 55 comments",
+    "category": "AI",
+    "topic": "OPENAI",
+    "priority": 72,
+    "url": "https://www.reddit.com/r/singularity/comments/1s6e3y3/dario_amodei_openai_president_brockmans_25/",
+    "hot": true,
+    "tags": [
+      "AI",
+      "OPENAI",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "B",
+    "defaultVisible": false
+  },
+  {
+    "id": "933629c70f719168",
+    "time": "2026-03-28T15:27:53.000Z",
+    "source": "Reddit",
+    "title": "Same $100/month. 10% of my income in Brazil. Degraded during my entire workday. No notice.",
+    "displayTitle": "同样 100 美元月费：整个工作日性能下降且没有通知",
+    "summary": "r/Anthropic • 226 points • 91 comments",
+    "category": "AI",
+    "topic": "ANTHROPIC",
+    "priority": 72,
+    "url": "https://www.reddit.com/r/Anthropic/comments/1s63cj7/same_100month_10_of_my_income_in_brazil_degraded/",
+    "hot": true,
+    "tags": [
+      "AI",
+      "ANTHROPIC",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "B",
+    "defaultVisible": false
+  },
+  {
+    "id": "5a7fd223f7ae7866",
+    "time": "2026-03-28T13:46:58.000Z",
+    "source": "Reddit",
+    "title": "Kingdom Come: Deliverance 2 dev says he was \"fired\" and replaced with AI: \"I feel incredibly betrayed by the management of the company I've come to care about\"",
+    "displayTitle": "《天国：拯救 2》开发者称自己被 AI 取代",
+    "summary": "r/PS5 • 1208 points • 254 comments",
+    "category": "GAME",
+    "topic": "PLAYSTATION",
+    "priority": 72,
+    "url": "https://www.reddit.com/r/PS5/comments/1s60svy/kingdom_come_deliverance_2_dev_says_he_was_fired/",
+    "hot": true,
+    "tags": [
+      "GAME",
+      "PLAYSTATION",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "B",
+    "defaultVisible": false
+  },
+  {
+    "id": "97e6caaee9498eb9",
+    "time": "2026-03-27T16:59:09.000Z",
+    "source": "PlayStation Blog",
+    "title": "Official PlayStation Podcast Episode 537: Speaking Saros",
+    "displayTitle": "PlayStation 播客第 537 期：聊聊《Saros》",
+    "summary": "",
+    "category": "SONY",
+    "topic": "SONY",
+    "priority": 72,
+    "url": "https://blog.playstation.com/2026/03/27/official-playstation-podcast-episode-537-speaking-saros/",
+    "hot": false,
+    "tags": [
+      "SONY",
+      "GAME"
+    ],
+    "sources": [
+      "PlayStation Blog"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": true
+  },
+  {
+    "id": "6b8863722bf7e97a",
+    "time": "2026-03-26T15:50:39.000Z",
+    "source": "Tesla IR",
+    "title": "Q1 2026 Delivery Consensus",
+    "displayTitle": "特斯拉 2026 年 Q1 交付预期",
+    "summary": "",
+    "category": "TESLA",
+    "topic": "TESLA",
+    "priority": 72,
+    "url": "https://ir.tesla.com/press-release/delivery-consensus-first-quarter-2026",
+    "hot": false,
+    "tags": [
+      "TESLA",
+      "TECH"
+    ],
+    "sources": [
+      "Tesla IR"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": true
+  },
+  {
+    "id": "7c18d6b994fc5aec",
+    "time": "2026-03-29T00:53:54.655Z",
+    "source": "NYT",
+    "title": "U.S. 1:08",
+    "displayTitle": "",
+    "summary": "",
+    "category": "TECH",
+    "topic": "NYT",
+    "priority": 71,
+    "url": "https://www.nytimes.com/video/us/100000010804745/tsa-trump-payment-shutdown.html",
+    "hot": true,
+    "tags": [
+      "TECH",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "2e5fbd2485be930b",
+    "time": "2026-03-28T22:35:20.000Z",
+    "source": "Reddit",
+    "title": "Anyone else’s Claude leaving them on “Read”?",
+    "displayTitle": "",
+    "summary": "r/ClaudeAI • 96 points • 35 comments",
+    "category": "AI",
+    "topic": "CLAUDE",
+    "priority": 71,
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1s6e5xs/anyone_elses_claude_leaving_them_on_read/",
+    "hot": false,
+    "tags": [
+      "AI",
+      "CLAUDE",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "405af8594a4b1ab2",
+    "time": "2026-03-28T17:12:23.000Z",
+    "source": "Reddit",
+    "title": "Switch 2 Rumors: Zelda Remake and Star Fox Lead a Different 2026",
+    "displayTitle": "Switch 2 传闻：《塞尔达》重制版与 Star Fox 或领衔 2026",
+    "summary": "r/Switch • 282 points • 155 comments",
+    "category": "GAME",
+    "topic": "SWITCH",
+    "priority": 71,
+    "url": "https://www.reddit.com/r/Switch/comments/1s662t7/switch_2_rumors_zelda_remake_and_star_fox_lead_a/",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "SWITCH",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "B",
+    "defaultVisible": false
+  },
+  {
+    "id": "484a908aaffd6727",
+    "time": "2026-03-25T17:06:39.000Z",
+    "source": "OpenClaw GitHub",
+    "title": "openclaw 2026.3.24",
+    "displayTitle": "",
+    "summary": "",
+    "category": "TECH",
+    "topic": "OPENCLAW",
+    "priority": 71,
+    "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.24",
+    "hot": false,
+    "tags": [
+      "TECH",
+      "OPENCLAW",
+      "RELEASE"
+    ],
+    "sources": [
+      "OpenClaw GitHub"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "2dcb12a0f4a01592",
+    "time": "2026-03-29T00:53:54.603Z",
+    "source": "NYT",
+    "title": "STRIPPED DOWN",
+    "displayTitle": "",
+    "summary": "Hardcover Nonfiction • 5 weeks on the list • by Bunnie Xo • The host of the “Dumb Blonde Podcast” shares how redemption was an important part of her journey toward reaching her goals.",
+    "category": "BOOK",
+    "topic": "BOOK",
+    "priority": 70,
+    "url": "https://www.nytimes.com/books/best-sellers/hardcover-nonfiction/",
+    "hot": true,
+    "tags": [
+      "BOOK",
+      "NYT",
+      "BESTSELLER"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "0ffba6442e66e1f2",
+    "time": "2026-03-28T22:32:16.000Z",
+    "source": "Reddit",
+    "title": "White House App Found Tracking Users' Exact Location Every 4.5 Minutes via Third-Party Server",
+    "displayTitle": "",
+    "summary": "r/technology • 4848 points • 172 comments",
+    "category": "TECH",
+    "topic": "TECH",
+    "priority": 70,
+    "url": "https://www.reddit.com/r/technology/comments/1s6e3dp/white_house_app_found_tracking_users_exact/",
+    "hot": true,
+    "tags": [
+      "TECH",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "6763bfe9706c17cb",
+    "time": "2026-03-28T22:28:28.000Z",
+    "source": "Reddit",
+    "title": "Elder Scrolls mobile spinoff Blades is shutting down this summer after eight years, but at least all its store items are ultra-cheap now",
+    "displayTitle": "《上古卷轴：刀锋》将在今夏停止运营",
+    "summary": "r/nintendo • 9 points • 1 comments",
+    "category": "GAME",
+    "topic": "NINTENDO",
+    "priority": 70,
+    "url": "https://www.reddit.com/r/nintendo/comments/1s6e085/elder_scrolls_mobile_spinoff_blades_is_shutting/",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "NINTENDO",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "B",
+    "defaultVisible": false
+  },
+  {
+    "id": "33520aabbad07f18",
+    "time": "2026-03-28T18:51:22.000Z",
+    "source": "Reddit",
+    "title": "Full LP refund for having AFKs on your team!",
+    "displayTitle": "队友挂机时将全额返还 LP",
+    "summary": "r/leagueoflegends • 471 points • 112 comments",
+    "category": "GAME",
+    "topic": "LEAGUE_OF_LEGENDS",
+    "priority": 70,
+    "url": "https://www.reddit.com/r/leagueoflegends/comments/1s68n0e/full_lp_refund_for_having_afks_on_your_team/",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "LEAGUE_OF_LEGENDS",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "B",
+    "defaultVisible": false
+  },
+  {
+    "id": "873bdf6353bcf193",
+    "time": "2026-03-28T15:50:24.000Z",
+    "source": "Reddit",
+    "title": "Skyrim Still Looks Awesome on Switch 2!",
+    "displayTitle": "《上古卷轴 5》在 Switch 2 上依旧很能打",
+    "summary": "r/Switch • 446 points • 59 comments",
+    "category": "GAME",
+    "topic": "SWITCH",
+    "priority": 70,
+    "url": "https://www.reddit.com/r/Switch/comments/1s63xkw/skyrim_still_looks_awesome_on_switch_2/",
+    "hot": true,
+    "tags": [
+      "GAME",
+      "SWITCH",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "B",
+    "defaultVisible": false
+  },
+  {
+    "id": "f7ee6fcee134d9d1",
+    "time": "2026-03-28T15:02:27.000Z",
+    "source": "Reddit",
+    "title": "Saros' world-altering eclipse \"has both a gameplay and narrative purpose\" its game designer tells me, and it's already pulling me back into this roguelike",
+    "displayTitle": "《Saros》的“灭世日食”同时服务玩法与叙事",
+    "summary": "r/PS5 • 218 points • 39 comments",
+    "category": "GAME",
+    "topic": "PLAYSTATION",
+    "priority": 70,
+    "url": "https://www.reddit.com/r/PS5/comments/1s62oq9/saros_worldaltering_eclipse_has_both_a_gameplay/",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "PLAYSTATION",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "B",
+    "defaultVisible": false
+  },
+  {
+    "id": "878df186b8aefe78",
+    "time": "2026-03-28T02:42:16.000Z",
+    "source": "Reddit",
+    "title": "Claude watching me write code manually after I hit the daily limit",
+    "displayTitle": "Claude 日额度触顶后，用户开始手写代码",
+    "summary": "r/ClaudeAI • 2896 points • 66 comments",
+    "category": "AI",
+    "topic": "CLAUDE",
+    "priority": 70,
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1s5ok5r/claude_watching_me_write_code_manually_after_i/",
+    "hot": true,
+    "tags": [
+      "AI",
+      "CLAUDE",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "B",
+    "defaultVisible": false
+  },
+  {
+    "id": "39775fe164fbc358",
+    "time": "2026-03-28T10:14:44.000Z",
+    "source": "Reddit",
+    "title": "iPhone Air C1X modem matches Qualcomm speed & wins on latency",
+    "displayTitle": "",
+    "summary": "r/apple • 721 points • 89 comments",
+    "category": "APPLE",
+    "topic": "APPLE",
+    "priority": 68,
+    "url": "https://www.reddit.com/r/apple/comments/1s5wkhc/iphone_air_c1x_modem_matches_qualcomm_speed_wins/",
+    "hot": true,
+    "tags": [
+      "APPLE",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "cbba86a1a4a13082",
+    "time": "2026-03-27T16:00:08.000Z",
+    "source": "PlayStation Blog",
+    "title": "Share of the Week: Resident Evil 30th Anniversary",
+    "displayTitle": "",
+    "summary": "",
+    "category": "SONY",
+    "topic": "SONY",
+    "priority": 68,
+    "url": "https://blog.playstation.com/2026/03/27/share-of-the-week-resident-evil-30th-anniversary/",
+    "hot": false,
+    "tags": [
+      "SONY",
+      "GAME"
+    ],
+    "sources": [
+      "PlayStation Blog"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "3aa11c3549a9e9ac",
+    "time": "2026-03-29T00:53:54.655Z",
+    "source": "NYT",
+    "title": "smarter-living 0:48",
+    "displayTitle": "",
+    "summary": "",
+    "category": "TECH",
+    "topic": "NYT",
+    "priority": 67,
+    "url": "https://www.nytimes.com/video/smarter-living/wirecutter/100000010796369/macbook-neo-is-the-best-budget-laptop.html",
+    "hot": true,
+    "tags": [
+      "TECH",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "75252ec661178498",
+    "time": "2026-03-28T22:28:13.000Z",
+    "source": "Reddit",
+    "title": "Before Mario and the NES, Nintendo was founded in 1889 to make playing cards. I spent the last few months building a free web version of their original game, Hanafuda.",
+    "displayTitle": "任天堂在做游戏前，其实是一家做花札纸牌的公司",
+    "summary": "r/nintendo • 27 points • 23 comments",
+    "category": "GAME",
+    "topic": "NINTENDO",
+    "priority": 67,
+    "url": "https://www.reddit.com/r/nintendo/comments/1s6e00y/before_mario_and_the_nes_nintendo_was_founded_in/",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "NINTENDO",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "B",
+    "defaultVisible": false
+  },
+  {
+    "id": "893430f0c3430f53",
+    "time": "2026-03-28T18:19:04.000Z",
+    "source": "Reddit",
+    "title": "These U.S. States Plan to Offer iPhone's Driver's License Feature",
+    "displayTitle": "更多美国州计划支持 iPhone 数字驾照功能",
+    "summary": "r/apple • 264 points • 101 comments",
+    "category": "APPLE",
+    "topic": "APPLE",
+    "priority": 67,
+    "url": "https://www.reddit.com/r/apple/comments/1s67tos/these_us_states_plan_to_offer_iphones_drivers/",
+    "hot": false,
+    "tags": [
+      "APPLE",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "B",
+    "defaultVisible": false
+  },
+  {
+    "id": "2dcfe115a5f29052",
+    "time": "2026-03-25T14:46:36.000Z",
+    "source": "OpenClaw GitHub",
+    "title": "openclaw 2026.3.24-beta.2",
+    "displayTitle": "",
+    "summary": "",
+    "category": "TECH",
+    "topic": "OPENCLAW",
+    "priority": 67,
+    "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.24-beta.2",
+    "hot": false,
+    "tags": [
+      "TECH",
+      "OPENCLAW",
+      "RELEASE"
+    ],
+    "sources": [
+      "OpenClaw GitHub"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "2fc369de04d873bf",
+    "time": "2026-03-29T00:53:54.603Z",
+    "source": "NYT",
+    "title": "STRANGERS",
+    "displayTitle": "",
+    "summary": "Hardcover Nonfiction • 9 weeks on the list • by Belle Burden • Burden retraces her marriage of 20 years in search of clues to help shape her understanding about its demise and to find a way forward.",
+    "category": "BOOK",
+    "topic": "BOOK",
+    "priority": 66,
+    "url": "https://www.nytimes.com/books/best-sellers/hardcover-nonfiction/",
+    "hot": true,
+    "tags": [
+      "BOOK",
+      "NYT",
+      "BESTSELLER"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "db841e7160c0d5db",
+    "time": "2026-03-28T21:18:46.000Z",
+    "source": "NYT",
+    "title": "10 Million Grill Brushes Recalled After Some People Ingested Loose Bristles",
+    "displayTitle": "1000 万把烧烤刷被召回：已有用户误吞脱落刷毛",
+    "summary": "In at least five cases, customers sought medical attention to remove bristles “from their digestive tract or throat,” a federal agency said.",
+    "category": "TECH",
+    "topic": "TECH",
+    "priority": 66,
+    "url": "https://www.nytimes.com/2026/03/28/business/nexgrill-grill-brush-recall-spikes-ingested.html",
+    "hot": false,
+    "tags": [
+      "TECH",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": true
+  },
+  {
+    "id": "ebd37b2e555d7c7c",
+    "time": "2026-03-28T19:37:05.000Z",
+    "source": "Reddit",
+    "title": "The real danger of AGI isn't a robot uprising. It's that the public will permanently lose its bargaining power",
+    "displayTitle": "AGI 的真正风险，不是机器人起义，而是公众失去议价能力",
+    "summary": "r/OpenAI • 60 points • 36 comments",
+    "category": "AI",
+    "topic": "OPENAI",
+    "priority": 66,
+    "url": "https://www.reddit.com/r/OpenAI/comments/1s69sj3/the_real_danger_of_agi_isnt_a_robot_uprising_its/",
+    "hot": false,
+    "tags": [
+      "AI",
+      "OPENAI",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "B",
+    "defaultVisible": false
+  },
+  {
+    "id": "9c6a57f4fc93d946",
+    "time": "2026-03-28T18:36:21.000Z",
+    "source": "Reddit",
+    "title": "Karmine Corp vs. Team Vitality / LEC 2026 Spring - Week 1 / Post-Match Discussion",
+    "displayTitle": "英雄联盟：Karmine Corp 对 Team Vitality 赛后讨论",
+    "summary": "r/leagueoflegends • 306 points • 94 comments",
+    "category": "GAME",
+    "topic": "LEAGUE_OF_LEGENDS",
+    "priority": 66,
+    "url": "https://www.reddit.com/r/leagueoflegends/comments/1s689h1/karmine_corp_vs_team_vitality_lec_2026_spring/",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "LEAGUE_OF_LEGENDS",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "B",
+    "defaultVisible": false
+  },
+  {
+    "id": "5b116bfd4b5fde5f",
+    "time": "2026-03-28T12:28:44.000Z",
+    "source": "Reddit",
+    "title": "Long-rumored Final Fantasy 9 remake is apparently on ice with \"no new movement\" on Square Enix's JRPG classic, according to reliable insider",
+    "displayTitle": "",
+    "summary": "r/PS5 • 555 points • 150 comments",
+    "category": "GAME",
+    "topic": "PLAYSTATION",
+    "priority": 66,
+    "url": "https://www.reddit.com/r/PS5/comments/1s5z10o/longrumored_final_fantasy_9_remake_is_apparently/",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "PLAYSTATION",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "fdc2fd60f4077c65",
+    "time": "2026-03-28T11:30:59.000Z",
+    "source": "Reddit",
+    "title": "Anthropic's secret \"Claude Mythos\" model just leaked through an unsecured database, and they've confirmed it's real",
+    "displayTitle": "",
+    "summary": "r/Anthropic • 60 points • 51 comments",
+    "category": "AI",
+    "topic": "ANTHROPIC",
+    "priority": 66,
+    "url": "https://www.reddit.com/r/Anthropic/comments/1s5xwjp/anthropics_secret_claude_mythos_model_just_leaked/",
+    "hot": false,
+    "tags": [
+      "AI",
+      "ANTHROPIC",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "54159ca88ffd6f1e",
+    "time": "2026-03-29T00:53:55.067Z",
+    "source": "Douban Movie Chart",
+    "title": "河狸变身计划",
+    "displayTitle": "河狸变身计划",
+    "summary": "",
+    "category": "MOVIE",
+    "topic": "DOUBAN",
+    "priority": 65,
+    "url": "https://movie.douban.com/subject/36999793/",
+    "hot": true,
+    "tags": [
+      "MOVIE",
+      "DOUBAN"
+    ],
+    "sources": [
+      "Douban Movie Chart"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "83ee1de4a20a247c",
+    "time": "2026-03-29T00:53:54.395Z",
+    "source": "JustWatch TV",
+    "title": "The Madison",
+    "displayTitle": "剧集：The Madison",
+    "summary": "",
+    "category": "TV",
+    "topic": "JUSTWATCH",
+    "priority": 65,
+    "url": "https://www.justwatch.com/us/tv-show/the-madison",
+    "hot": true,
+    "tags": [
+      "TV",
+      "JUSTWATCH"
+    ],
+    "sources": [
+      "JustWatch TV"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "bf1796ba5e8defe8",
+    "time": "2026-03-28T21:48:45.000Z",
+    "source": "Reddit",
+    "title": "First Poster for Netflix's Horror-Thriller 'Thrash' - Starring Phoebe Dynevor, Djimon Hounsou, and Whitney Peak - When a Category 5 hurricane decimates a coastal town, the storm surge brings devastation, chaos and something far more frightening: hungry sharks.",
+    "displayTitle": "",
+    "summary": "r/movies • 378 points • 137 comments",
+    "category": "MOVIE",
+    "topic": "MOVIE",
+    "priority": 64,
+    "url": "https://www.reddit.com/r/movies/comments/1s6d27w/first_poster_for_netflixs_horrorthriller_thrash/",
+    "hot": false,
+    "tags": [
+      "MOVIE",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "910b194eebce6767",
+    "time": "2026-03-27T14:45:53.000Z",
+    "source": "NYT",
+    "title": "Judge Stays Pentagon’s Labeling of Anthropic as ‘Supply Chain Risk’",
+    "displayTitle": "",
+    "summary": "The decision is an early victory for the artificial intelligence company in a rancorous legal battle with the Department of Defense.",
+    "category": "AI",
+    "topic": "ANTHROPIC",
+    "priority": 64,
+    "url": "https://www.nytimes.com/2026/03/26/technology/anthropic-pentagon-risk-injunction.html",
+    "hot": false,
+    "tags": [
+      "AI",
+      "ANTHROPIC",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "a79249f2ce3fc84a",
+    "time": "2026-03-27T12:31:08.000Z",
+    "source": "PlayStation Blog",
+    "title": "(For Southeast Asia) New Price Changes for PS5, PS5 Pro, and PlayStation Portal remote player",
+    "displayTitle": "",
+    "summary": "",
+    "category": "SONY",
+    "topic": "SONY",
+    "priority": 64,
+    "url": "https://blog.playstation.com/2026/03/27/20260327-ps/",
+    "hot": false,
+    "tags": [
+      "SONY",
+      "GAME"
+    ],
+    "sources": [
+      "PlayStation Blog"
+    ],
+    "mergedCount": 2,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "5171e3d4b40bbe17",
+    "time": "2026-03-26T13:00:36.652Z",
+    "source": "Apple Newsroom",
+    "title": "Apple adds new partners to its American Manufacturing Program",
+    "displayTitle": "",
+    "summary": "",
+    "category": "APPLE",
+    "topic": "APPLE",
+    "priority": 64,
+    "url": "https://www.apple.com/newsroom/2026/03/apple-adds-new-partners-to-its-american-manufacturing-program/",
+    "hot": false,
+    "tags": [
+      "APPLE",
+      "TECH"
+    ],
+    "sources": [
+      "Apple Newsroom"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "8c47ff7905df2c2c",
+    "time": "2026-03-28T19:21:48.000Z",
+    "source": "Reddit",
+    "title": "GPT 5.4 vs GPT 5.4 Pro - SVG Generation Capability",
+    "displayTitle": "",
+    "summary": "r/OpenAI • 100 points • 18 comments",
+    "category": "AI",
+    "topic": "OPENAI",
+    "priority": 63,
+    "url": "https://www.reddit.com/r/OpenAI/comments/1s69eye/gpt_54_vs_gpt_54_pro_svg_generation_capability/",
+    "hot": false,
+    "tags": [
+      "AI",
+      "OPENAI",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "d9f3cf814033e1bc",
+    "time": "2026-03-25T12:28:28.000Z",
+    "source": "OpenClaw GitHub",
+    "title": "openclaw 2026.3.24-beta.1",
+    "displayTitle": "",
+    "summary": "",
+    "category": "TECH",
+    "topic": "OPENCLAW",
+    "priority": 63,
+    "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.24-beta.1",
+    "hot": false,
+    "tags": [
+      "TECH",
+      "OPENCLAW",
+      "RELEASE"
+    ],
+    "sources": [
+      "OpenClaw GitHub"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "5e3a79a469c6bad9",
+    "time": "2026-03-29T00:53:54.602Z",
+    "source": "NYT",
+    "title": "PROJECT HAIL MARY",
+    "displayTitle": "",
+    "summary": "Combined Print & E-Book Fiction • 41 weeks on the list • by Andy Weir • Ryland Grace awakes from a long sleep alone and far from home, and the fate of humanity rests on his shoulders; the basis of the movie.",
+    "category": "BOOK",
+    "topic": "BOOK",
+    "priority": 62,
+    "url": "https://www.nytimes.com/books/best-sellers/combined-print-and-e-book-fiction/",
+    "hot": true,
+    "tags": [
+      "BOOK",
+      "NYT",
+      "BESTSELLER"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "95e184098e3a12e9",
+    "time": "2026-03-28T23:51:48.000Z",
+    "source": "Reddit",
+    "title": "‘Project Hail Mary’ Author Andy Weir Says Paramount Rejected His ‘Star Trek’ Pitch: Their “Shows Are Sh**”",
+    "displayTitle": "",
+    "summary": "r/television • 0 points • 205 comments",
+    "category": "TV",
+    "topic": "TV",
+    "priority": 62,
+    "url": "https://www.reddit.com/r/television/comments/1s6fwx7/project_hail_mary_author_andy_weir_says_paramount/",
+    "hot": true,
+    "tags": [
+      "TV",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "23569e71bb5066a6",
+    "time": "2026-03-28T17:35:13.000Z",
+    "source": "Reddit",
+    "title": "New Poster for 'ROSEBUSH PRUNING' - Directed by Karim Aïnouz with screenplay by Efthymis Filippou starring Riley Keough, Elle Fanning, Pamela Anderson, Callum Turner, Jamie Bell & Tracy Letts",
+    "displayTitle": "",
+    "summary": "r/movies • 819 points • 134 comments",
+    "category": "MOVIE",
+    "topic": "MOVIE",
+    "priority": 62,
+    "url": "https://www.reddit.com/r/movies/comments/1s66och/new_poster_for_rosebush_pruning_directed_by_karim/",
+    "hot": true,
+    "tags": [
+      "MOVIE",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "6eebd72f44c0f73e",
+    "time": "2026-03-28T17:04:43.000Z",
+    "source": "Reddit",
+    "title": "Barry Caldwell, ‘Animaniacs’ and ‘Osmosis Jones’ Animator, Dies at 68",
+    "displayTitle": "",
+    "summary": "r/movies • 9335 points • 227 comments",
+    "category": "MOVIE",
+    "topic": "MOVIE",
+    "priority": 62,
+    "url": "https://www.reddit.com/r/movies/comments/1s65vq3/barry_caldwell_animaniacs_and_osmosis_jones/",
+    "hot": true,
+    "tags": [
+      "MOVIE",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "45d5a313ed34d7d6",
+    "time": "2026-03-28T14:09:31.000Z",
+    "source": "Reddit",
+    "title": "Upgrade detected",
+    "displayTitle": "",
+    "summary": "r/Switch • 192 points • 11 comments",
+    "category": "GAME",
+    "topic": "SWITCH",
+    "priority": 62,
+    "url": "https://www.reddit.com/r/Switch/comments/1s61cvh/upgrade_detected/",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "SWITCH",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "c52ff6c9f6314efe",
+    "time": "2026-03-29T00:53:55.067Z",
+    "source": "Douban Movie Chart",
+    "title": "侵略机器",
+    "displayTitle": "",
+    "summary": "",
+    "category": "MOVIE",
+    "topic": "DOUBAN",
+    "priority": 61,
+    "url": "https://movie.douban.com/subject/35900174/",
+    "hot": true,
+    "tags": [
+      "MOVIE",
+      "DOUBAN"
+    ],
+    "sources": [
+      "Douban Movie Chart"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "c20b94009e6c9534",
+    "time": "2026-03-29T00:53:54.395Z",
+    "source": "JustWatch TV",
+    "title": "Paradise",
+    "displayTitle": "剧集：Paradise",
+    "summary": "",
+    "category": "TV",
+    "topic": "JUSTWATCH",
+    "priority": 61,
+    "url": "https://www.justwatch.com/us/tv-show/paradise-2025",
+    "hot": true,
+    "tags": [
+      "TV",
+      "JUSTWATCH"
+    ],
+    "sources": [
+      "JustWatch TV"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "1d9b57b51c8f82e4",
+    "time": "2026-03-28T23:01:33.000Z",
+    "source": "Reddit",
+    "title": "Its not sci-fi anymore! A Chinese company, Unipath has launched a household robot",
+    "displayTitle": "",
+    "summary": "r/singularity • 0 points • 49 comments",
+    "category": "AI",
+    "topic": "AI",
+    "priority": 60,
+    "url": "https://www.reddit.com/r/singularity/comments/1s6eru3/its_not_scifi_anymore_a_chinese_company_unipath/",
+    "hot": false,
+    "tags": [
+      "AI",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "41fcc0cb32b41615",
+    "time": "2026-03-28T22:08:12.000Z",
+    "source": "Reddit",
+    "title": "Jensen Ackles Officially Confirms Plans For The Next 'The Boys' Series [Exclusive]",
+    "displayTitle": "",
+    "summary": "r/television • 682 points • 118 comments",
+    "category": "TV",
+    "topic": "TV",
+    "priority": 60,
+    "url": "https://www.reddit.com/r/television/comments/1s6dj4r/jensen_ackles_officially_confirms_plans_for_the/",
+    "hot": false,
+    "tags": [
+      "TV",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "67156eefbf91e728",
+    "time": "2026-03-28T20:11:23.000Z",
+    "source": "Reddit",
+    "title": "New study shows gaming can improve driving skills in real life",
+    "displayTitle": "",
+    "summary": "r/Games • 225 points • 75 comments",
+    "category": "GAME",
+    "topic": "GAME",
+    "priority": 60,
+    "url": "https://www.reddit.com/r/Games/comments/1s6anhb/new_study_shows_gaming_can_improve_driving_skills/",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "c1f589f194326cce",
+    "time": "2026-03-28T19:52:05.000Z",
+    "source": "Reddit",
+    "title": "Bethesda delists Elder Scrolls Blades game from all platforms, and will take it offline in June (June 30th)",
+    "displayTitle": "",
+    "summary": "r/Games • 446 points • 80 comments",
+    "category": "GAME",
+    "topic": "GAME",
+    "priority": 60,
+    "url": "https://www.reddit.com/r/Games/comments/1s6a61e/bethesda_delists_elder_scrolls_blades_game_from/",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "f0b117ced04fd106",
+    "time": "2026-03-28T17:04:28.000Z",
+    "source": "Reddit",
+    "title": "Barry Caldwell, ‘Animaniacs’ and ‘Osmosis Jones’ Animator, Dies at 68",
+    "displayTitle": "",
+    "summary": "r/television • 2007 points • 33 comments",
+    "category": "TV",
+    "topic": "TV",
+    "priority": 60,
+    "url": "https://www.reddit.com/r/television/comments/1s65vgw/barry_caldwell_animaniacs_and_osmosis_jones/",
+    "hot": true,
+    "tags": [
+      "TV",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "ebc8aec630513e78",
+    "time": "2026-03-28T13:50:46.000Z",
+    "source": "Reddit",
+    "title": "Do you think the Switch 2 will see a price increase like the Playstation 5 soon?",
+    "displayTitle": "",
+    "summary": "r/nintendo • 167 points • 197 comments",
+    "category": "GAME",
+    "topic": "SWITCH",
+    "priority": 60,
+    "url": "https://www.reddit.com/r/nintendo/comments/1s60w75/do_you_think_the_switch_2_will_see_a_price/",
+    "hot": true,
+    "tags": [
+      "GAME",
+      "SWITCH",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "91989281deee5fc2",
+    "time": "2026-03-28T13:22:21.000Z",
+    "source": "Reddit",
+    "title": "Kingdom Come: Deliverance 2 dev says he was \"fired\" and replaced with AI: \"I feel incredibly betrayed by the management of the company I've come to care about\"",
+    "displayTitle": "《天国：拯救 2》开发者称自己被 AI 取代",
+    "summary": "r/Games • 2878 points • 727 comments",
+    "category": "GAME",
+    "topic": "GAME",
+    "priority": 60,
+    "url": "https://www.reddit.com/r/Games/comments/1s607x5/kingdom_come_deliverance_2_dev_says_he_was_fired/",
+    "hot": true,
+    "tags": [
+      "GAME",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "B",
+    "defaultVisible": false
+  },
+  {
+    "id": "1b97e09d07c9e1b2",
+    "time": "2026-03-27T11:00:09.000Z",
+    "source": "NYT",
+    "title": "The Ezra Klein Show: How Fast Will A.I. Agents Rip Through the Economy?",
+    "displayTitle": "",
+    "summary": "The Anthropic co-founder Jack Clark tells Ezra Klein what he sees coming in the new era of A.I. agents.",
+    "category": "AI",
+    "topic": "ANTHROPIC",
+    "priority": 60,
+    "url": "https://www.nytimes.com/2026/03/27/podcasts/hardfork-ezra-jack-clark.html",
+    "hot": false,
+    "tags": [
+      "AI",
+      "ANTHROPIC",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "5b0241f8829e9f51",
+    "time": "2026-03-28T16:57:00.000Z",
+    "source": "Reddit",
+    "title": "Anthropic reportedly views itself as the antidote to OpenAI's \"tobacco industry\" approach to AI",
+    "displayTitle": "",
+    "summary": "r/Anthropic • 99 points • 21 comments",
+    "category": "AI",
+    "topic": "OPENAI",
+    "priority": 59,
+    "url": "https://www.reddit.com/r/Anthropic/comments/1s65oab/anthropic_reportedly_views_itself_as_the_antidote/",
+    "hot": false,
+    "tags": [
+      "AI",
+      "OPENAI",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "f1f7564066cdaa0c",
+    "time": "2026-03-29T00:53:54.602Z",
+    "source": "NYT",
+    "title": "THEO OF GOLDEN",
+    "displayTitle": "",
+    "summary": "Combined Print & E-Book Fiction • 16 weeks on the list • by Allen Levi • A man travels to a small Southern town, where he purchases pencil drawings of local residents and exchanges them for stories.",
+    "category": "BOOK",
+    "topic": "BOOK",
+    "priority": 58,
+    "url": "https://www.nytimes.com/books/best-sellers/combined-print-and-e-book-fiction/",
+    "hot": true,
+    "tags": [
+      "BOOK",
+      "NYT",
+      "BESTSELLER"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "3e4cb160660d4f1e",
+    "time": "2026-03-28T18:15:38.000Z",
+    "source": "Reddit",
+    "title": "White House unveils ‘OnlyFarms’ website, welcomes farmers with golden tractor on South Lawn",
+    "displayTitle": "",
+    "summary": "r/technology • 6038 points • 635 comments",
+    "category": "TECH",
+    "topic": "TECH",
+    "priority": 58,
+    "url": "https://www.reddit.com/r/technology/comments/1s67qf9/white_house_unveils_onlyfarms_website_welcomes/",
+    "hot": true,
+    "tags": [
+      "TECH",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "c018c5df07154bd0",
+    "time": "2026-03-28T13:06:14.000Z",
+    "source": "Reddit",
+    "title": "Altman is as evil as Stalin, and OpenAI is worse than cigarette companies - Dario Amodei",
+    "displayTitle": "",
+    "summary": "r/OpenAI • 507 points • 178 comments",
+    "category": "AI",
+    "topic": "OPENAI",
+    "priority": 58,
+    "url": "https://www.reddit.com/r/OpenAI/comments/1s5zujd/altman_is_as_evil_as_stalin_and_openai_is_worse/",
+    "hot": true,
+    "tags": [
+      "AI",
+      "OPENAI",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "b69daa85445ef0ce",
+    "time": "2026-03-28T09:02:23.000Z",
+    "source": "NYT",
+    "title": "Taylor Frankie Paul’s Past Was No Secret. A Child’s Cry Changed Everything.",
+    "displayTitle": "",
+    "summary": "Before being cast as “The Bachelorette,” Taylor Frankie Paul had discussed — with police, on podcasts and on TV — the domestic dispute that involved her 5-year-old daughter.",
+    "category": "TV",
+    "topic": "TV",
+    "priority": 58,
+    "url": "https://www.nytimes.com/2026/03/28/arts/television/taylor-frankie-paul-child-endangerment.html",
+    "hot": false,
+    "tags": [
+      "TV",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "ac35d33d88f759dc",
+    "time": "2026-03-26T03:02:19.000Z",
+    "source": "Nintendo News",
+    "title": "Nintendo Switch『トモダチコレクション わくわく生活』の紹介映像とTVCMを公開。本作の遊び方をまとめてご紹介します。",
+    "displayTitle": "",
+    "summary": "",
+    "category": "GAME",
+    "topic": "NINTENDO",
+    "priority": 58,
+    "url": "https://www.nintendo.com/jp/topics/article/e327e761-91ad-475a-80d9-ae8bda8acb36",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "NINTENDO"
+    ],
+    "sources": [
+      "Nintendo News"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "3d9779e7f2c823a4",
+    "time": "2026-03-29T00:53:55.067Z",
+    "source": "Douban Movie Chart",
+    "title": "家弑服务",
+    "displayTitle": "",
+    "summary": "",
+    "category": "MOVIE",
+    "topic": "DOUBAN",
+    "priority": 57,
+    "url": "https://movie.douban.com/subject/36367195/",
+    "hot": true,
+    "tags": [
+      "MOVIE",
+      "DOUBAN"
+    ],
+    "sources": [
+      "Douban Movie Chart"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "1eb9bfc69f6bde31",
+    "time": "2026-03-29T00:53:54.395Z",
+    "source": "JustWatch TV",
+    "title": "The Pitt",
+    "displayTitle": "剧集：The Pitt",
+    "summary": "",
+    "category": "TV",
+    "topic": "JUSTWATCH",
+    "priority": 57,
+    "url": "https://www.justwatch.com/us/tv-show/the-pitt",
+    "hot": true,
+    "tags": [
+      "TV",
+      "JUSTWATCH"
+    ],
+    "sources": [
+      "JustWatch TV"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "953a5fcb19ddb1d3",
+    "time": "2026-03-28T20:56:15.000Z",
+    "source": "Reddit",
+    "title": "Taalas rumoured to etch Qwen 3.5 27B into silicon. Which price would you buy their PCIe card for?",
+    "displayTitle": "",
+    "summary": "r/singularity • 257 points • 121 comments",
+    "category": "AI",
+    "topic": "AI",
+    "priority": 57,
+    "url": "https://www.reddit.com/r/singularity/comments/1s6bs6r/taalas_rumoured_to_etch_qwen_35_27b_into_silicon/",
+    "hot": false,
+    "tags": [
+      "AI",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "fe92502f60df0260",
+    "time": "2026-03-27T22:00:00.000Z",
+    "source": "OpenAI News",
+    "title": "STADLER reshapes knowledge work at a 230-year-old company",
+    "displayTitle": "",
+    "summary": "",
+    "category": "AI",
+    "topic": "OPENAI",
+    "priority": 56,
+    "url": "https://openai.com/index/stadler",
+    "hot": false,
+    "tags": [
+      "AI",
+      "OPENAI"
+    ],
+    "sources": [
+      "OpenAI News"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "d79f46680e93a230",
+    "time": "2026-03-27T12:09:25.000Z",
+    "source": "Reddit",
+    "title": "New Price Changes for PS5, PS5 Pro, and PlayStation Portal remote player",
+    "displayTitle": "",
+    "summary": "r/gadgets • 1251 points • 500 comments",
+    "category": "GAME",
+    "topic": "PLAYSTATION",
+    "priority": 56,
+    "url": "https://www.reddit.com/r/gadgets/comments/1s529jh/new_price_changes_for_ps5_ps5_pro_and_playstation/",
+    "hot": true,
+    "tags": [
+      "GAME",
+      "PLAYSTATION",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "7f4e607e92c50609",
+    "time": "2026-03-26T16:00:00.000Z",
+    "source": "Riot Games",
+    "title": "Have a Nice Deity! | SPACE GODS Set Cinematic – Teamfight Tactics",
+    "displayTitle": "",
+    "summary": "",
+    "category": "GAME",
+    "topic": "RIOT",
+    "priority": 56,
+    "url": "https://www.riotgames.com/en/news/have-a-nice-deity-space-gods-set-cinematic-teamfight-tactics",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "RIOT",
+      "NEWS"
+    ],
+    "sources": [
+      "Riot Games"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "bf3c7fc7cb4be92e",
+    "time": "2026-03-29T00:53:54.602Z",
+    "source": "NYT",
+    "title": "JUDGE STONE",
+    "displayTitle": "",
+    "summary": "Hardcover Fiction • 2 weeks on the list • by Viola Davis and James Patterson • Judge Mary Stone oversees an ethically complex case in her courtroom in Union Springs, Ala.",
+    "category": "BOOK",
+    "topic": "BOOK",
+    "priority": 54,
+    "url": "https://www.nytimes.com/books/best-sellers/hardcover-fiction/",
+    "hot": true,
+    "tags": [
+      "BOOK",
+      "NYT",
+      "BESTSELLER"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "4054532afd172676",
+    "time": "2026-03-29T00:53:54.602Z",
+    "source": "NYT",
+    "title": "THE CORRESPONDENT",
+    "displayTitle": "",
+    "summary": "Hardcover Fiction • 21 weeks on the list • by Virginia Evans • Letters from someone she used to know push Sybil Van Antwerp toward revisiting her past and finding a way to forgive.",
+    "category": "BOOK",
+    "topic": "BOOK",
+    "priority": 54,
+    "url": "https://www.nytimes.com/books/best-sellers/hardcover-fiction/",
+    "hot": true,
+    "tags": [
+      "BOOK",
+      "NYT",
+      "BESTSELLER"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "f9cdb0184ff7f355",
+    "time": "2026-03-28T16:55:01.000Z",
+    "source": "NYT",
+    "title": "In an Asymmetrical War, Iran Seeks an Edge With Its Information War",
+    "displayTitle": "",
+    "summary": "Propaganda and disinformation have flooded the internet in a sophisticated effort to undermine support for U.S. and Israeli attacks.",
+    "category": "TECH",
+    "topic": "TECH",
+    "priority": 54,
+    "url": "https://www.nytimes.com/2026/03/28/business/iran-propaganda-war-ai.html",
+    "hot": false,
+    "tags": [
+      "TECH",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "6a2d382a5bfc571a",
+    "time": "2026-03-28T16:33:29.000Z",
+    "source": "NYT",
+    "title": "The Oil Shocks of the ’70s Changed the World. Will the Iran War Do the Same?",
+    "displayTitle": "",
+    "summary": "Gas lines and quadrupling oil prices freaked out American consumers. But the oil crises also transformed global finance.",
+    "category": "TECH",
+    "topic": "TECH",
+    "priority": 54,
+    "url": "https://www.nytimes.com/2026/03/28/business/oil-shocks-1970s-iran-war.html",
+    "hot": false,
+    "tags": [
+      "TECH",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "31e8600636ffb049",
+    "time": "2026-03-28T12:00:07.000Z",
+    "source": "Reddit",
+    "title": "L.A. Dodgers Tell 82-Year-Old, 50-Year Season Ticket Holder: ‘Go Digital’—Or Don’t Go At All",
+    "displayTitle": "",
+    "summary": "r/technology • 8443 points • 848 comments",
+    "category": "TECH",
+    "topic": "TECH",
+    "priority": 54,
+    "url": "https://www.reddit.com/r/technology/comments/1s5yfpx/la_dodgers_tell_82yearold_50year_season_ticket/",
+    "hot": true,
+    "tags": [
+      "TECH",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "865edc331bfd3a5b",
+    "time": "2026-03-28T12:00:03.000Z",
+    "source": "NYT",
+    "title": "The Biggest Names in Fine Dining Now Have Rock-Star Residencies",
+    "displayTitle": "",
+    "summary": "From Las Vegas to the Côte d’Azur, high-profile chefs are taking their cuisine on the road.",
+    "category": "TECH",
+    "topic": "TECH",
+    "priority": 54,
+    "url": "https://www.nytimes.com/2026/03/28/business/dealbook/chef-restaurant-residencies.html",
+    "hot": false,
+    "tags": [
+      "TECH",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "8536ac272e4c949f",
+    "time": "2026-03-26T17:15:53.000Z",
+    "source": "PlayStation Blog",
+    "title": "How Super Meat Boy 3D captures the series’ identity, out March 31",
+    "displayTitle": "",
+    "summary": "",
+    "category": "SONY",
+    "topic": "SONY",
+    "priority": 54,
+    "url": "https://blog.playstation.com/2026/03/26/how-super-meat-boy-3d-captures-the-series-identity-out-may-31/",
+    "hot": false,
+    "tags": [
+      "SONY",
+      "GAME"
+    ],
+    "sources": [
+      "PlayStation Blog"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "800385028a4886dd",
+    "time": "2026-03-26T01:06:50.000Z",
+    "source": "Nintendo News",
+    "title": "『スーパーマリオブラザーズ ワンダー Nintendo Switch 2 Edition + みんなでリンリンパーク』は本日発売。ゾウマリオなど3種類のamiiboも登場。",
+    "displayTitle": "",
+    "summary": "",
+    "category": "GAME",
+    "topic": "NINTENDO",
+    "priority": 54,
+    "url": "https://www.nintendo.com/jp/topics/article/57ee5ac0-23c1-48f9-8296-d4d4f3f9ecbe",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "NINTENDO"
+    ],
+    "sources": [
+      "Nintendo News"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "9fd381bc18c5bc94",
+    "time": "2026-03-29T00:53:55.067Z",
+    "source": "Douban Movie Chart",
+    "title": "东京出租车",
+    "displayTitle": "",
+    "summary": "",
+    "category": "MOVIE",
+    "topic": "DOUBAN",
+    "priority": 53,
+    "url": "https://movie.douban.com/subject/37213104/",
+    "hot": true,
+    "tags": [
+      "MOVIE",
+      "DOUBAN"
+    ],
+    "sources": [
+      "Douban Movie Chart"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "cb8a7ec4003d61d9",
+    "time": "2026-03-29T00:53:54.395Z",
+    "source": "JustWatch TV",
+    "title": "Scarpetta",
+    "displayTitle": "剧集：Scarpetta",
+    "summary": "",
+    "category": "TV",
+    "topic": "JUSTWATCH",
+    "priority": 53,
+    "url": "https://www.justwatch.com/us/tv-show/scarpetta",
+    "hot": true,
+    "tags": [
+      "TV",
+      "JUSTWATCH"
+    ],
+    "sources": [
+      "JustWatch TV"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "63f87172a8357134",
+    "time": "2026-03-28T19:52:19.000Z",
+    "source": "Reddit",
+    "title": "Study: Balcony solar systems almost always pay off – but storage is more complicated",
+    "displayTitle": "",
+    "summary": "r/gadgets • 153 points • 6 comments",
+    "category": "TECH",
+    "topic": "TECH",
+    "priority": 53,
+    "url": "https://www.reddit.com/r/gadgets/comments/1s6a68f/study_balcony_solar_systems_almost_always_pay_off/",
+    "hot": false,
+    "tags": [
+      "TECH",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "6cdf6126bb159931",
+    "time": "2026-03-24T04:04:27.000Z",
+    "source": "OpenClaw GitHub",
+    "title": "2026.3.23",
+    "displayTitle": "",
+    "summary": "",
+    "category": "TECH",
+    "topic": "OPENCLAW",
+    "priority": 53,
+    "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.23",
+    "hot": false,
+    "tags": [
+      "TECH",
+      "OPENCLAW",
+      "RELEASE"
+    ],
+    "sources": [
+      "OpenClaw GitHub"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "aa7070649fb0c8c6",
+    "time": "2026-03-24T03:06:46.000Z",
+    "source": "OpenClaw GitHub",
+    "title": "v2026.3.23-2",
+    "displayTitle": "",
+    "summary": "",
+    "category": "TECH",
+    "topic": "OPENCLAW",
+    "priority": 53,
+    "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.23-2",
+    "hot": false,
+    "tags": [
+      "TECH",
+      "OPENCLAW",
+      "RELEASE"
+    ],
+    "sources": [
+      "OpenClaw GitHub"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "ed6020adc094819c",
+    "time": "2026-03-28T10:34:56.000Z",
+    "source": "Reddit",
+    "title": "Ukraine’s military brings exoskeletons to the front line",
+    "displayTitle": "",
+    "summary": "r/gadgets • 2827 points • 164 comments",
+    "category": "TECH",
+    "topic": "TECH",
+    "priority": 52,
+    "url": "https://www.reddit.com/r/gadgets/comments/1s5wwg0/ukraines_military_brings_exoskeletons_to_the/",
+    "hot": true,
+    "tags": [
+      "TECH",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "12989a99e84f634b",
+    "time": "2026-03-26T15:00:29.000Z",
+    "source": "PlayStation Blog",
+    "title": "Saros hands-on report: intense sci-fi action in a beautiful, deadly alien world",
+    "displayTitle": "",
+    "summary": "",
+    "category": "SONY",
+    "topic": "SONY",
+    "priority": 50,
+    "url": "https://blog.playstation.com/2026/03/26/saros-hands-on-report-intense-sci-fi-action-in-a-beautiful-deadly-alien-world/",
+    "hot": false,
+    "tags": [
+      "SONY",
+      "GAME"
+    ],
+    "sources": [
+      "PlayStation Blog"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "ae3075c73549fce9",
+    "time": "2026-03-26T01:03:23.000Z",
+    "source": "Nintendo News",
+    "title": "「Hello! インディー」野球の選手が世界を救う？ 勇者「バッター」の物語『OFF』",
+    "displayTitle": "「Hello! インディー」野球の選手が世界を救う？…",
+    "summary": "",
+    "category": "GAME",
+    "topic": "NINTENDO",
+    "priority": 50,
+    "url": "https://www.nintendo.com/jp/topics/article/6d50486d-2ce1-457e-8380-b445efd274aa",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "NINTENDO"
+    ],
+    "sources": [
+      "Nintendo News"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "20a194926fc6f294",
+    "time": "2026-03-26T01:02:36.000Z",
+    "source": "Nintendo News",
+    "title": "「Hello! インディー」高校生のみずみずしい感情を描く青春アドベンチャー『Until Then』",
+    "displayTitle": "「Hello! インディー」高校生のみずみずしい感情を描く青春アドベンチャー『U…",
+    "summary": "",
+    "category": "GAME",
+    "topic": "NINTENDO",
+    "priority": 50,
+    "url": "https://www.nintendo.com/jp/topics/article/fb2b2b9f-cd0c-4970-8b80-67f816f3a827",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "NINTENDO"
+    ],
+    "sources": [
+      "Nintendo News"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "44b1fdedacbb6a61",
+    "time": "2026-03-26T01:02:07.000Z",
+    "source": "Nintendo News",
+    "title": "魔王と不思議な子ども、奇妙な“親子”の大冒険。『DAMON and BABY (デイモン&ベイビー)』がNintendo Switchで本日配信。セーブデータが引き継げる体験版も配信中。",
+    "displayTitle": "魔王と不思議な子ども、奇妙な“親子”の大冒険。『DAMON and BABY…",
+    "summary": "",
+    "category": "GAME",
+    "topic": "NINTENDO",
+    "priority": 50,
+    "url": "https://www.nintendo.com/jp/topics/article/af2bf2a7-c7e1-42a2-9b11-92886e8916e4",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "NINTENDO"
+    ],
+    "sources": [
+      "Nintendo News"
+    ],
+    "mergedCount": 2,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "724db6d9ad3012a4",
+    "time": "2026-03-29T00:53:55.067Z",
+    "source": "Douban Movie Chart",
+    "title": "至尊马蒂",
+    "displayTitle": "",
+    "summary": "",
+    "category": "MOVIE",
+    "topic": "DOUBAN",
+    "priority": 49,
+    "url": "https://movie.douban.com/subject/36691620/",
+    "hot": true,
+    "tags": [
+      "MOVIE",
+      "DOUBAN"
+    ],
+    "sources": [
+      "Douban Movie Chart"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "ca16611ebe200897",
+    "time": "2026-03-29T00:53:55.067Z",
+    "source": "Douban Movie Chart",
+    "title": "哈姆奈特",
+    "displayTitle": "",
+    "summary": "",
+    "category": "MOVIE",
+    "topic": "DOUBAN",
+    "priority": 49,
+    "url": "https://movie.douban.com/subject/35618471/",
+    "hot": false,
+    "tags": [
+      "MOVIE",
+      "DOUBAN"
+    ],
+    "sources": [
+      "Douban Movie Chart"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "2cc9a606312d09aa",
+    "time": "2026-03-29T00:53:55.067Z",
+    "source": "Douban Movie Chart",
+    "title": "用武之地",
+    "displayTitle": "",
+    "summary": "",
+    "category": "MOVIE",
+    "topic": "DOUBAN",
+    "priority": 49,
+    "url": "https://movie.douban.com/subject/35461578/",
+    "hot": false,
+    "tags": [
+      "MOVIE",
+      "DOUBAN"
+    ],
+    "sources": [
+      "Douban Movie Chart"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "7506994b588b1c53",
+    "time": "2026-03-29T00:53:55.067Z",
+    "source": "Douban Movie Chart",
+    "title": "你行！你上！",
+    "displayTitle": "你行！你上！",
+    "summary": "",
+    "category": "MOVIE",
+    "topic": "DOUBAN",
+    "priority": 49,
+    "url": "https://movie.douban.com/subject/36767956/",
+    "hot": false,
+    "tags": [
+      "MOVIE",
+      "DOUBAN"
+    ],
+    "sources": [
+      "Douban Movie Chart"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "4e70d6e4dfd74063",
+    "time": "2026-03-29T00:53:55.067Z",
+    "source": "Douban Movie Chart",
+    "title": "呼啸山庄",
+    "displayTitle": "",
+    "summary": "",
+    "category": "MOVIE",
+    "topic": "DOUBAN",
+    "priority": 49,
+    "url": "https://movie.douban.com/subject/36963690/",
+    "hot": false,
+    "tags": [
+      "MOVIE",
+      "DOUBAN"
+    ],
+    "sources": [
+      "Douban Movie Chart"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "097e18052bcb288c",
+    "time": "2026-03-29T00:53:55.067Z",
+    "source": "Douban Movie Chart",
+    "title": "局外人",
+    "displayTitle": "",
+    "summary": "",
+    "category": "MOVIE",
+    "topic": "DOUBAN",
+    "priority": 49,
+    "url": "https://movie.douban.com/subject/37284351/",
+    "hot": false,
+    "tags": [
+      "MOVIE",
+      "DOUBAN"
+    ],
+    "sources": [
+      "Douban Movie Chart"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "0efcd932c6ca7c4d",
+    "time": "2026-03-29T00:53:54.395Z",
+    "source": "JustWatch TV",
+    "title": "Shrinking",
+    "displayTitle": "剧集：Shrinking",
+    "summary": "",
+    "category": "TV",
+    "topic": "JUSTWATCH",
+    "priority": 49,
+    "url": "https://www.justwatch.com/us/tv-show/shrinking",
+    "hot": true,
+    "tags": [
+      "TV",
+      "JUSTWATCH"
+    ],
+    "sources": [
+      "JustWatch TV"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "0e376afa54f55fc8",
+    "time": "2026-03-29T00:53:54.395Z",
+    "source": "JustWatch TV",
+    "title": "DTF St. Louis",
+    "displayTitle": "剧集：DTF St. Louis",
+    "summary": "",
+    "category": "TV",
+    "topic": "JUSTWATCH",
+    "priority": 49,
+    "url": "https://www.justwatch.com/us/tv-show/dtf-st-louis",
+    "hot": false,
+    "tags": [
+      "TV",
+      "JUSTWATCH"
+    ],
+    "sources": [
+      "JustWatch TV"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "e4e321ec7852e5db",
+    "time": "2026-03-29T00:53:54.395Z",
+    "source": "JustWatch TV",
+    "title": "Monarch: Legacy of Monsters",
+    "displayTitle": "",
+    "summary": "",
+    "category": "TV",
+    "topic": "JUSTWATCH",
+    "priority": 49,
+    "url": "https://www.justwatch.com/us/tv-show/monarch-legacy-of-monsters",
+    "hot": false,
+    "tags": [
+      "TV",
+      "JUSTWATCH"
+    ],
+    "sources": [
+      "JustWatch TV"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "02bf8fda130896a7",
+    "time": "2026-03-29T00:53:54.395Z",
+    "source": "JustWatch TV",
+    "title": "Young Sherlock",
+    "displayTitle": "剧集：Young Sherlock",
+    "summary": "",
+    "category": "TV",
+    "topic": "JUSTWATCH",
+    "priority": 49,
+    "url": "https://www.justwatch.com/us/tv-show/young-sherlock-0",
+    "hot": false,
+    "tags": [
+      "TV",
+      "JUSTWATCH"
+    ],
+    "sources": [
+      "JustWatch TV"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "0463bcb4c70965cf",
+    "time": "2026-03-29T00:53:54.395Z",
+    "source": "JustWatch TV",
+    "title": "Rooster",
+    "displayTitle": "剧集：Rooster",
+    "summary": "",
+    "category": "TV",
+    "topic": "JUSTWATCH",
+    "priority": 49,
+    "url": "https://www.justwatch.com/us/tv-show/untitled-steve-carell-comedy-series",
+    "hot": false,
+    "tags": [
+      "TV",
+      "JUSTWATCH"
+    ],
+    "sources": [
+      "JustWatch TV"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "4d41401244ccecc6",
+    "time": "2026-03-29T00:53:54.395Z",
+    "source": "JustWatch TV",
+    "title": "A Knight of the Seven Kingdoms",
+    "displayTitle": "",
+    "summary": "",
+    "category": "TV",
+    "topic": "JUSTWATCH",
+    "priority": 49,
+    "url": "https://www.justwatch.com/us/tv-show/a-knight-of-the-seven-kingdoms-the-hedge-knight",
+    "hot": false,
+    "tags": [
+      "TV",
+      "JUSTWATCH"
+    ],
+    "sources": [
+      "JustWatch TV"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "337cc755fd11925b",
+    "time": "2026-03-29T00:53:54.393Z",
+    "source": "JustWatch Movies",
+    "title": "Hamnet",
+    "displayTitle": "电影：Hamnet",
+    "summary": "",
+    "category": "MOVIE",
+    "topic": "JUSTWATCH",
+    "priority": 49,
+    "url": "https://www.justwatch.com/us/movie/hamnet",
+    "hot": true,
+    "tags": [
+      "MOVIE",
+      "JUSTWATCH"
+    ],
+    "sources": [
+      "JustWatch Movies"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "35153abebe488e73",
+    "time": "2026-03-29T00:53:54.393Z",
+    "source": "JustWatch Movies",
+    "title": "The Secret Agent",
+    "displayTitle": "",
+    "summary": "",
+    "category": "MOVIE",
+    "topic": "JUSTWATCH",
+    "priority": 49,
+    "url": "https://www.justwatch.com/us/movie/the-secret-agent-2025",
+    "hot": true,
+    "tags": [
+      "MOVIE",
+      "JUSTWATCH"
+    ],
+    "sources": [
+      "JustWatch Movies"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "53c95bf8aa8b083a",
+    "time": "2026-03-29T00:53:54.393Z",
+    "source": "JustWatch Movies",
+    "title": "Sentimental Value",
+    "displayTitle": "",
+    "summary": "",
+    "category": "MOVIE",
+    "topic": "JUSTWATCH",
+    "priority": 49,
+    "url": "https://www.justwatch.com/us/movie/sentimental-value",
+    "hot": true,
+    "tags": [
+      "MOVIE",
+      "JUSTWATCH"
+    ],
+    "sources": [
+      "JustWatch Movies"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "11f779ad8d8f0873",
+    "time": "2026-03-29T00:53:54.393Z",
+    "source": "JustWatch Movies",
+    "title": "Marty Supreme",
+    "displayTitle": "电影：Marty Supreme",
+    "summary": "",
+    "category": "MOVIE",
+    "topic": "JUSTWATCH",
+    "priority": 49,
+    "url": "https://www.justwatch.com/us/movie/marty-supreme",
+    "hot": true,
+    "tags": [
+      "MOVIE",
+      "JUSTWATCH"
+    ],
+    "sources": [
+      "JustWatch Movies"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "abec643f4fe3403e",
+    "time": "2026-03-29T00:53:54.393Z",
+    "source": "JustWatch Movies",
+    "title": "One Battle After Another",
+    "displayTitle": "",
+    "summary": "",
+    "category": "MOVIE",
+    "topic": "JUSTWATCH",
+    "priority": 49,
+    "url": "https://www.justwatch.com/us/movie/the-battle-of-baktan-cross",
+    "hot": true,
+    "tags": [
+      "MOVIE",
+      "JUSTWATCH"
+    ],
+    "sources": [
+      "JustWatch Movies"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "f174d9c8669339d5",
+    "time": "2026-03-29T00:53:54.393Z",
+    "source": "JustWatch Movies",
+    "title": "Ready or Not",
+    "displayTitle": "电影：Ready or Not",
+    "summary": "",
+    "category": "MOVIE",
+    "topic": "JUSTWATCH",
+    "priority": 49,
+    "url": "https://www.justwatch.com/us/movie/ready-or-not-2019",
+    "hot": false,
+    "tags": [
+      "MOVIE",
+      "JUSTWATCH"
+    ],
+    "sources": [
+      "JustWatch Movies"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "ce5d3e17ff74858c",
+    "time": "2026-03-29T00:53:54.393Z",
+    "source": "JustWatch Movies",
+    "title": "Sinners",
+    "displayTitle": "电影：Sinners",
+    "summary": "",
+    "category": "MOVIE",
+    "topic": "JUSTWATCH",
+    "priority": 49,
+    "url": "https://www.justwatch.com/us/movie/sinners-2025",
+    "hot": false,
+    "tags": [
+      "MOVIE",
+      "JUSTWATCH"
+    ],
+    "sources": [
+      "JustWatch Movies"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "e836a4fe93e61402",
+    "time": "2026-03-29T00:53:54.393Z",
+    "source": "JustWatch Movies",
+    "title": "Bugonia",
+    "displayTitle": "电影：Bugonia",
+    "summary": "",
+    "category": "MOVIE",
+    "topic": "JUSTWATCH",
+    "priority": 49,
+    "url": "https://www.justwatch.com/us/movie/bugonia",
+    "hot": false,
+    "tags": [
+      "MOVIE",
+      "JUSTWATCH"
+    ],
+    "sources": [
+      "JustWatch Movies"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "2d8dca30b4875c0b",
+    "time": "2026-03-29T00:53:54.393Z",
+    "source": "JustWatch Movies",
+    "title": "Project Hail Mary",
+    "displayTitle": "",
+    "summary": "",
+    "category": "MOVIE",
+    "topic": "JUSTWATCH",
+    "priority": 49,
+    "url": "https://www.justwatch.com/us/movie/project-hail-mary",
+    "hot": false,
+    "tags": [
+      "MOVIE",
+      "JUSTWATCH"
+    ],
+    "sources": [
+      "JustWatch Movies"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "3fa626fc69519b95",
+    "time": "2026-03-29T00:53:54.393Z",
+    "source": "JustWatch Movies",
+    "title": "The Housemaid",
+    "displayTitle": "电影：The Housemaid",
+    "summary": "",
+    "category": "MOVIE",
+    "topic": "JUSTWATCH",
+    "priority": 49,
+    "url": "https://www.justwatch.com/us/movie/the-housemaid-0",
+    "hot": false,
+    "tags": [
+      "MOVIE",
+      "JUSTWATCH"
+    ],
+    "sources": [
+      "JustWatch Movies"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "3cd3084d75660898",
+    "time": "2026-03-23T23:28:35.000Z",
+    "source": "OpenClaw GitHub",
+    "title": "openclaw 2026.3.22",
+    "displayTitle": "",
+    "summary": "",
+    "category": "TECH",
+    "topic": "OPENCLAW",
+    "priority": 49,
+    "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.22",
+    "hot": false,
+    "tags": [
+      "TECH",
+      "OPENCLAW",
+      "RELEASE"
+    ],
+    "sources": [
+      "OpenClaw GitHub"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "a569fbc8dfc02fdc",
+    "time": "2026-03-23T18:55:05.000Z",
+    "source": "OpenClaw GitHub",
+    "title": "v2026.3.23-beta.1",
+    "displayTitle": "",
+    "summary": "",
+    "category": "TECH",
+    "topic": "OPENCLAW",
+    "priority": 49,
+    "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.23-beta.1",
+    "hot": false,
+    "tags": [
+      "TECH",
+      "OPENCLAW",
+      "RELEASE"
+    ],
+    "sources": [
+      "OpenClaw GitHub"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "f89d71b0ee59900b",
+    "time": "2026-03-25T21:46:54.000Z",
+    "source": "Reddit",
+    "title": "Model Y is bestselling car in the world for 2025 (3rd year in a row), according to several firms.",
+    "displayTitle": "",
+    "summary": "r/teslamotors • 1060 points • 286 comments",
+    "category": "TESLA",
+    "topic": "TESLA",
+    "priority": 48,
+    "url": "https://www.reddit.com/r/teslamotors/comments/1s3og53/model_y_is_bestselling_car_in_the_world_for_2025/",
+    "hot": true,
+    "tags": [
+      "TESLA",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "bf7db4226dce7a53",
+    "time": "2026-03-25T00:00:00.000Z",
+    "source": "OpenAI News",
+    "title": "Introducing the OpenAI Safety Bug Bounty program",
+    "displayTitle": "",
+    "summary": "",
+    "category": "AI",
+    "topic": "OPENAI",
+    "priority": 48,
+    "url": "https://openai.com/index/safety-bug-bounty",
+    "hot": false,
+    "tags": [
+      "AI",
+      "OPENAI"
+    ],
+    "sources": [
+      "OpenAI News"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "a19ffc4c9061f280",
+    "time": "2026-03-24T14:59:19.517Z",
+    "source": "Apple Newsroom",
+    "title": "Introducing Apple Business — a new all-in-one platform for businesses of all sizes",
+    "displayTitle": "",
+    "summary": "",
+    "category": "APPLE",
+    "topic": "APPLE",
+    "priority": 48,
+    "url": "https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes/",
+    "hot": false,
+    "tags": [
+      "APPLE",
+      "TECH"
+    ],
+    "sources": [
+      "Apple Newsroom"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "61aa93e1fd5cc14e",
+    "time": "2026-02-16T16:00:00.000Z",
+    "source": "Anthropic Newsroom",
+    "title": "Introducing Claude Sonnet 4.6",
+    "displayTitle": "",
+    "summary": "",
+    "category": "AI",
+    "topic": "CLAUDE",
+    "priority": 48,
+    "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+    "hot": false,
+    "tags": [
+      "AI",
+      "CLAUDE",
+      "PRODUCT"
+    ],
+    "sources": [
+      "Anthropic Newsroom"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "a81ea78862d50a2e",
+    "time": "2026-03-28T19:00:59.000Z",
+    "source": "Reddit",
+    "title": "What *The Color Purple* means to me, and why it’s forever precious",
+    "displayTitle": "",
+    "summary": "r/books • 106 points • 18 comments",
+    "category": "BOOK",
+    "topic": "BOOK",
+    "priority": 46,
+    "url": "https://www.reddit.com/r/books/comments/1s68vw4/what_the_color_purple_means_to_me_and_why_its/",
+    "hot": true,
+    "tags": [
+      "BOOK",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "1e717ae338b9604e",
+    "time": "2026-03-27T15:35:04.000Z",
+    "source": "NYT",
+    "title": "How ‘Love Story’ Gave Viewers a History Lesson on the Kennedys and ’90s NYC",
+    "displayTitle": "",
+    "summary": "The FX show, which dramatizes the relationship between John F. Kennedy Jr. and Carolyn Bessette, has inspired a legion of younger viewers to dig into the couple’s past and 1990s New York City.",
+    "category": "TV",
+    "topic": "TV",
+    "priority": 46,
+    "url": "https://www.nytimes.com/2026/03/27/arts/television/love-story-jfk-bessette-90s-nyc.html",
+    "hot": false,
+    "tags": [
+      "TV",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "b92802f81ac8102c",
+    "time": "2026-03-27T09:02:22.000Z",
+    "source": "NYT",
+    "title": "Don’t Let the Name Harry Hole Fool You. The Important One Is Jo Nesbo.",
+    "displayTitle": "",
+    "summary": "After a disappointing movie adaptation, the Norwegian author took the reins as showrunner in a new Netflix series based on his Detective Hole books.",
+    "category": "TV",
+    "topic": "TV",
+    "priority": 46,
+    "url": "https://www.nytimes.com/2026/03/27/arts/television/jo-nesbos-detective-hole-netflix.html",
+    "hot": false,
+    "tags": [
+      "TV",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "5f1d8b4b4e68cd6d",
+    "time": "2026-03-27T09:02:14.000Z",
+    "source": "NYT",
+    "title": "‘For All Mankind’ Is the Anti-‘Black Mirror’",
+    "displayTitle": "",
+    "summary": "The optimistic space-race drama, starting its fifth season, imagines humans settling space without tech colonizing our minds.",
+    "category": "TV",
+    "topic": "TV",
+    "priority": 46,
+    "url": "https://www.nytimes.com/2026/03/27/arts/television/for-all-mankind.html",
+    "hot": false,
+    "tags": [
+      "TV",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "d7fa26edefe1b73f",
+    "time": "2026-03-27T04:00:21.000Z",
+    "source": "NYT",
+    "title": "An Invisible Bottleneck: A Helium Shortage Threatens the Chip Industry",
+    "displayTitle": "",
+    "summary": "With a third of the global supply offline because of the war in Iran, gas companies are scrambling to assure critical A.I. chip makers there will be no disruptions.",
+    "category": "TECH",
+    "topic": "TECH",
+    "priority": 46,
+    "url": "https://www.nytimes.com/2026/03/27/business/helium-chips-iran-war.html",
+    "hot": false,
+    "tags": [
+      "TECH",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "44b9207ac281dfc5",
+    "time": "2026-03-12T04:18:35.717Z",
+    "source": "OneKey Blog",
+    "title": "Crypto, Precious Metals, Forex, Pre-IPO -- OneKey Perps All-Asset Trading Guide",
+    "displayTitle": "",
+    "summary": "",
+    "category": "CRYPTO_TOOLS",
+    "topic": "ONEKEY",
+    "priority": 46,
+    "url": "https://onekey.so/blog/learn/onekey-perps-all-asset-trading-guide/",
+    "hot": false,
+    "tags": [
+      "CRYPTO_TOOLS",
+      "ONEKEY"
+    ],
+    "sources": [
+      "OneKey Blog"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "cc9404b0c565b182",
+    "time": "2026-03-28T22:08:14.000Z",
+    "source": "Reddit",
+    "title": "Flashy Thing",
+    "displayTitle": "图书：Flashy Thing",
+    "summary": "r/books • 33 points • 21 comments",
+    "category": "BOOK",
+    "topic": "BOOK",
+    "priority": 45,
+    "url": "https://www.reddit.com/r/books/comments/1s6dj5p/flashy_thing/",
+    "hot": false,
+    "tags": [
+      "BOOK",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "B",
+    "defaultVisible": false
+  },
+  {
+    "id": "a5b8a337fc4c6752",
+    "time": "2026-03-28T14:46:16.000Z",
+    "source": "Reddit",
+    "title": "The Trial by Franz Kafka – Bureaucratic Nightmare, Alienation, Absurdity, Guilt and Power",
+    "displayTitle": "",
+    "summary": "r/books • 68 points • 19 comments",
+    "category": "BOOK",
+    "topic": "BOOK",
+    "priority": 44,
+    "url": "https://www.reddit.com/r/books/comments/1s629vh/the_trial_by_franz_kafka_bureaucratic_nightmare/",
+    "hot": false,
+    "tags": [
+      "BOOK",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "6bb271cc76996831",
+    "time": "2026-03-26T17:33:14.000Z",
+    "source": "NYT",
+    "title": "‘Yes’ Review: From Israel, an Uncomfortable Existential Howl",
+    "displayTitle": "",
+    "summary": "Nadav Lapid’s scathing tone and accelerated rhythms lead this movie about a married couple who ingratiate themselves with the country’s power elite.",
+    "category": "MOVIE",
+    "topic": "MOVIE",
+    "priority": 44,
+    "url": "https://www.nytimes.com/2026/03/26/movies/yes-review-israel.html",
+    "hot": false,
+    "tags": [
+      "MOVIE",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "91b0e31b1f496545",
+    "time": "2026-03-26T00:10:10.000Z",
+    "source": "Nintendo News",
+    "title": "Nintendo Switchソフト『トモダチコレクション わくわく生活』を、今田美桜さん、小峠英二さんがプレイするCMを公開しました。​ 今田さんが作ったふたりのそっくりさんが暮らすある島。見た目はそっくりでも、ふたりの生活の様子は現実と少し違うようです。​",
+    "displayTitle": "",
+    "summary": "",
+    "category": "GAME",
+    "topic": "NINTENDO",
+    "priority": 44,
+    "url": "https://www.nintendo.com/jp/switch/blfga/special/index.html",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "NINTENDO"
+    ],
+    "sources": [
+      "Nintendo News"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "5aaccc40a295a66e",
+    "time": "2026-03-25T15:00:20.000Z",
+    "source": "PlayStation Blog",
+    "title": "Elevate your mission in Directive 8020 with PlayStation 5 Pro enhancements, out May 12",
+    "displayTitle": "",
+    "summary": "",
+    "category": "SONY",
+    "topic": "SONY",
+    "priority": 44,
+    "url": "https://blog.playstation.com/2026/03/25/elevate-your-mission-in-directive-8020-with-playstation-5-pro-enhancements-out-may-12/",
+    "hot": false,
+    "tags": [
+      "SONY",
+      "GAME"
+    ],
+    "sources": [
+      "PlayStation Blog"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "ea7aa71ef71a3621",
+    "time": "2026-03-25T14:01:43.000Z",
+    "source": "Nintendo News",
+    "title": "Nintendo Switchソフト『トモダチコレクション わくわく生活』の紹介映像と公式サイトを公開しました。 あなたが作ったMiiたちの自由気ままなわくわく生活。公式サイトでは、生活の様子やMiiたちを見守る管理人としてできることを紹介しています。 体験版も配信中。",
+    "displayTitle": "",
+    "summary": "",
+    "category": "GAME",
+    "topic": "NINTENDO",
+    "priority": 44,
+    "url": "https://www.nintendo.com/jp/switch/blfga/index.html",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "NINTENDO"
+    ],
+    "sources": [
+      "Nintendo News"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "7b2366d97b47d049",
+    "time": "2026-03-25T10:00:00.000Z",
+    "source": "OpenAI News",
+    "title": "Inside our approach to the Model Spec",
+    "displayTitle": "",
+    "summary": "",
+    "category": "AI",
+    "topic": "OPENAI",
+    "priority": 44,
+    "url": "https://openai.com/index/our-approach-to-the-model-spec",
+    "hot": false,
+    "tags": [
+      "AI",
+      "OPENAI"
+    ],
+    "sources": [
+      "OpenAI News"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "d19a55ea07fec613",
+    "time": "2026-03-25T01:25:48.000Z",
+    "source": "Nintendo News",
+    "title": "Nintendo Switch『Minecraft』最新のゲームドロップ（アップデート）「Tiny Takeover（タイニー・テイクオーバー）」が、本日より配信開始。",
+    "displayTitle": "",
+    "summary": "",
+    "category": "GAME",
+    "topic": "NINTENDO",
+    "priority": 44,
+    "url": "https://www.nintendo.com/jp/topics/article/49e3fcb9-5514-4b29-a892-19a24e0557b8",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "NINTENDO"
+    ],
+    "sources": [
+      "Nintendo News"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "694f2acb38cb0ab6",
+    "time": "2026-03-25T01:09:25.000Z",
+    "source": "Nintendo News",
+    "title": "『Pokémon Champions』の紹介映像を公開。4月8日に配信決定。",
+    "displayTitle": "『Pokémon Champions』の紹介映像を公開。4月8日に配信決定。",
+    "summary": "",
+    "category": "GAME",
+    "topic": "NINTENDO",
+    "priority": 44,
+    "url": "https://www.nintendo.com/jp/topics/article/a12e5d17-19b8-4313-8717-3b46ed0d3098",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "NINTENDO"
+    ],
+    "sources": [
+      "Nintendo News"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "6705d8d27e1cd981",
+    "time": "2026-03-23T17:00:08.050Z",
+    "source": "Apple Newsroom",
+    "title": "Apple’s Worldwide Developers Conference returns the week of June 8",
+    "displayTitle": "",
+    "summary": "",
+    "category": "APPLE",
+    "topic": "APPLE",
+    "priority": 44,
+    "url": "https://www.apple.com/newsroom/2026/03/apples-worldwide-developers-conference-returns-the-week-of-june-8/",
+    "hot": false,
+    "tags": [
+      "APPLE",
+      "TECH"
+    ],
+    "sources": [
+      "Apple Newsroom"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "ea974199a515659b",
+    "time": "2026-03-17T10:00:00.000Z",
+    "source": "OpenAI News",
+    "title": "Introducing GPT-5.4 mini and nano",
+    "displayTitle": "",
+    "summary": "",
+    "category": "AI",
+    "topic": "OPENAI",
+    "priority": 44,
+    "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+    "hot": false,
+    "tags": [
+      "AI",
+      "OPENAI"
+    ],
+    "sources": [
+      "OpenAI News"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "e8de2dbae774abed",
+    "time": "2026-03-16T12:59:07.527Z",
+    "source": "Apple Newsroom",
+    "title": "Apple introduces AirPods Max 2",
+    "displayTitle": "",
+    "summary": "",
+    "category": "APPLE",
+    "topic": "APPLE",
+    "priority": 44,
+    "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-airpods-max-2-powered-by-h2/",
+    "hot": false,
+    "tags": [
+      "APPLE",
+      "TECH"
+    ],
+    "sources": [
+      "Apple Newsroom"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "60e659cb8e7973d5",
+    "time": "2026-03-14T03:12:58.944Z",
+    "source": "Apple Newsroom",
+    "title": "Apple hosts 50th anniversary celebrations around the world",
+    "displayTitle": "",
+    "summary": "",
+    "category": "APPLE",
+    "topic": "APPLE",
+    "priority": 44,
+    "url": "https://www.apple.com/newsroom/2026/03/apple-hosts-50th-anniversary-celebrations-around-the-world/",
+    "hot": false,
+    "tags": [
+      "APPLE",
+      "TECH"
+    ],
+    "sources": [
+      "Apple Newsroom"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "ffde557c37a0d4d0",
+    "time": "2026-03-12T12:59:02.678Z",
+    "source": "Apple Newsroom",
+    "title": "Apple to celebrate 50 years of thinking different",
+    "displayTitle": "",
+    "summary": "",
+    "category": "APPLE",
+    "topic": "APPLE",
+    "priority": 44,
+    "url": "https://www.apple.com/newsroom/2026/03/apple-to-celebrate-50-years-of-thinking-different/",
+    "hot": false,
+    "tags": [
+      "APPLE",
+      "TECH"
+    ],
+    "sources": [
+      "Apple Newsroom"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "8b7990de1421305f",
+    "time": "2026-03-11T14:00:04.717Z",
+    "source": "Apple Newsroom",
+    "title": "“Friday Night Baseball” returns to Apple TV on March 27 for its fifth season",
+    "displayTitle": "",
+    "summary": "",
+    "category": "APPLE",
+    "topic": "APPLE",
+    "priority": 44,
+    "url": "https://www.apple.com/newsroom/2026/03/friday-night-baseball-returns-to-apple-tv-on-march-27-for-its-fifth-season/",
+    "hot": false,
+    "tags": [
+      "APPLE",
+      "TECH"
+    ],
+    "sources": [
+      "Apple Newsroom"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "8d9b43661444b509",
+    "time": "2026-03-11T13:58:47.546Z",
+    "source": "Apple Newsroom",
+    "title": "Apple Arcade adds DREDGE+ and Unpacking+ to its catalog in April",
+    "displayTitle": "",
+    "summary": "",
+    "category": "APPLE",
+    "topic": "APPLE",
+    "priority": 44,
+    "url": "https://www.apple.com/newsroom/2026/03/apple-arcade-adds-dredge-plus-and-unpacking-plus-to-its-catalog-in-april/",
+    "hot": false,
+    "tags": [
+      "APPLE",
+      "TECH"
+    ],
+    "sources": [
+      "Apple Newsroom"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "dab747c25ea0cc68",
+    "time": "2026-03-11T12:59:12.976Z",
+    "source": "Apple Newsroom",
+    "title": "MacBook Neo, iPhone 17e, iPad Air with M4, and more are now available",
+    "displayTitle": "",
+    "summary": "",
+    "category": "APPLE",
+    "topic": "APPLE",
+    "priority": 44,
+    "url": "https://www.apple.com/newsroom/2026/03/macbook-neo-iphone-17e-ipad-air-with-m4-and-more-are-now-available/",
+    "hot": false,
+    "tags": [
+      "APPLE",
+      "TECH"
+    ],
+    "sources": [
+      "Apple Newsroom"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "317a4ce78f8804a1",
+    "time": "2026-03-05T13:59:20.483Z",
+    "source": "Apple Newsroom",
+    "title": "Formula 1® begins this weekend, exclusively on Apple TV in the U.S.",
+    "displayTitle": "",
+    "summary": "",
+    "category": "APPLE",
+    "topic": "APPLE",
+    "priority": 44,
+    "url": "https://www.apple.com/newsroom/2026/03/formula-1-begins-this-weekend-exclusively-on-apple-tv-in-the-us/",
+    "hot": false,
+    "tags": [
+      "APPLE",
+      "TECH"
+    ],
+    "sources": [
+      "Apple Newsroom"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "b7de1ef4f17df742",
+    "time": "2026-03-04T14:15:47.134Z",
+    "source": "Apple Newsroom",
+    "title": "Say hello to MacBook Neo",
+    "displayTitle": "",
+    "summary": "",
+    "category": "APPLE",
+    "topic": "APPLE",
+    "priority": 44,
+    "url": "https://www.apple.com/newsroom/2026/03/say-hello-to-macbook-neo/",
+    "hot": false,
+    "tags": [
+      "APPLE",
+      "TECH"
+    ],
+    "sources": [
+      "Apple Newsroom"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "51e24ad426be36c7",
+    "time": "2026-03-03T14:01:02.311Z",
+    "source": "Apple Newsroom",
+    "title": "Apple introduces the new MacBook Air with M5",
+    "displayTitle": "",
+    "summary": "",
+    "category": "APPLE",
+    "topic": "APPLE",
+    "priority": 44,
+    "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/",
+    "hot": false,
+    "tags": [
+      "APPLE",
+      "TECH"
+    ],
+    "sources": [
+      "Apple Newsroom"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "a58faa8f75d363b9",
+    "time": "2026-02-09T19:57:20.000Z",
+    "source": "Tesla IR",
+    "title": "Tesla, Inc. Q4 2025 Financial Results and Q&A Webcast",
+    "displayTitle": "",
+    "summary": "",
+    "category": "TESLA",
+    "topic": "TESLA",
+    "priority": 44,
+    "url": "https://ir.tesla.com/webcast-2026-01-28",
+    "hot": false,
+    "tags": [
+      "TESLA",
+      "TECH"
+    ],
+    "sources": [
+      "Tesla IR"
+    ],
+    "mergedCount": 2,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "9cd407e132826e28",
+    "time": "2026-01-28T20:48:50.000Z",
+    "source": "Tesla IR",
+    "title": "Tesla Releases Fourth Quarter and Full Year 2025 Financial Results",
+    "displayTitle": "",
+    "summary": "",
+    "category": "TESLA",
+    "topic": "TESLA",
+    "priority": 44,
+    "url": "https://ir.tesla.com/press-release/tesla-releases-fourth-quarter-and-full-year-2025-financial-results",
+    "hot": false,
+    "tags": [
+      "TESLA",
+      "TECH"
+    ],
+    "sources": [
+      "Tesla IR"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "b0ca5ffefd945832",
+    "time": "2026-01-23T00:21:18.000Z",
+    "source": "Tesla IR",
+    "title": "Q4 2025 Earnings Consensus",
+    "displayTitle": "",
+    "summary": "",
+    "category": "TESLA",
+    "topic": "TESLA",
+    "priority": 44,
+    "url": "https://ir.tesla.com/press-release/earnings-consensus-fourth-quarter-2025",
+    "hot": false,
+    "tags": [
+      "TESLA",
+      "TECH"
+    ],
+    "sources": [
+      "Tesla IR"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "90609b27a63e1e9b",
+    "time": "2026-01-02T13:50:58.000Z",
+    "source": "Tesla IR",
+    "title": "Tesla Fourth Quarter 2025 Production, Deliveries & Deployments",
+    "displayTitle": "",
+    "summary": "",
+    "category": "TESLA",
+    "topic": "TESLA",
+    "priority": 44,
+    "url": "https://ir.tesla.com/press-release/tesla-fourth-quarter-2025-production-deliveries-deployments",
+    "hot": false,
+    "tags": [
+      "TESLA",
+      "TECH"
+    ],
+    "sources": [
+      "Tesla IR"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "e89f6c5c71793327",
+    "time": "2025-12-29T22:42:54.000Z",
+    "source": "Tesla IR",
+    "title": "Q4 2025 Update",
+    "displayTitle": "",
+    "summary": "",
+    "category": "TESLA",
+    "topic": "TESLA",
+    "priority": 44,
+    "url": "https://ir.tesla.com/node/2520",
+    "hot": false,
+    "tags": [
+      "TESLA",
+      "TECH"
+    ],
+    "sources": [
+      "Tesla IR"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "dfe873714519852a",
+    "time": "2025-12-29T22:40:15.000Z",
+    "source": "Tesla IR",
+    "title": "Q4 2025 Delivery Consensus",
+    "displayTitle": "特斯拉 2025 年 Q4 交付预期",
+    "summary": "",
+    "category": "TESLA",
+    "topic": "TESLA",
+    "priority": 44,
+    "url": "https://ir.tesla.com/press-release/delivery-consensus-fourth-quarter-2025",
+    "hot": false,
+    "tags": [
+      "TESLA",
+      "TECH"
+    ],
+    "sources": [
+      "Tesla IR"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "0a420d578ebde7da",
+    "time": "2026-02-05T13:09:54.600Z",
+    "source": "OneKey Blog",
+    "title": "From Earning to Owning: Why Bitrefill Chose OneKey for Secure Self-Custody",
+    "displayTitle": "",
+    "summary": "",
+    "category": "CRYPTO_TOOLS",
+    "topic": "ONEKEY",
+    "priority": 42,
+    "url": "https://onekey.so/blog/updates/from-earning-to-owning-why-bitrefill-chose-one-key-for-secure-self-custody/",
+    "hot": false,
+    "tags": [
+      "CRYPTO_TOOLS",
+      "ONEKEY"
+    ],
+    "sources": [
+      "OneKey Blog"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "221f8215f2faef05",
+    "time": "2026-03-26T18:37:34.000Z",
+    "source": "NYT",
+    "title": "The Clues Binance Missed That Led to Billions in Crypto Flowing to Iran",
+    "displayTitle": "",
+    "summary": "The world’s largest crypto exchange is under fire after investigators found accounts moving $1.7 billion to entities linked to Iran. Clues about those accounts were in plain sight for over a year.",
+    "category": "TECH",
+    "topic": "TECH",
+    "priority": 40,
+    "url": "https://www.nytimes.com/2026/03/26/technology/binance-iran-us-sanctions.html",
+    "hot": false,
+    "tags": [
+      "TECH",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "8c39c811f4ad597b",
+    "time": "2026-03-26T09:02:29.000Z",
+    "source": "NYT",
+    "title": "When a Not-So-Dark Knight and His Sidekick Saved a Wacky Gotham",
+    "displayTitle": "",
+    "summary": "Joel Schumacher apologized for “Batman & Robin,” his corny 1997 superhero movie, but thanks to its ice puns and bat nipples, it’s since become an accidental parody worth howling at.",
+    "category": "MOVIE",
+    "topic": "MOVIE",
+    "priority": 40,
+    "url": "https://www.nytimes.com/2026/03/26/movies/batman-and-robin-clooney-thurman-schumacher.html",
+    "hot": false,
+    "tags": [
+      "MOVIE",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "80e5cfc3580b0f1f",
+    "time": "2026-03-26T09:01:59.000Z",
+    "source": "NYT",
+    "title": "‘They Will Kill You’ Review: The Co-Op From Hell",
+    "displayTitle": "",
+    "summary": "Zazie Beetz fights her way through a high-rise of horrors in a splatter-fest that concentrates its creativity in its gore.",
+    "category": "MOVIE",
+    "topic": "MOVIE",
+    "priority": 40,
+    "url": "https://www.nytimes.com/2026/03/26/movies/they-will-kill-you-review.html",
+    "hot": false,
+    "tags": [
+      "MOVIE",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "366ceae01a9d483d",
+    "time": "2026-03-26T09:01:34.000Z",
+    "source": "NYT",
+    "title": "‘Alpha’ Review: Body Trouble",
+    "displayTitle": "",
+    "summary": "A reckless incident at a party throws a young girl’s life into turmoil in this extraordinary third feature from Julia Ducournau.",
+    "category": "MOVIE",
+    "topic": "MOVIE",
+    "priority": 40,
+    "url": "https://www.nytimes.com/2026/03/26/movies/alpha-review.html",
+    "hot": false,
+    "tags": [
+      "MOVIE",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "291e1b1c18317d0c",
+    "time": "2026-03-25T05:27:35.000Z",
+    "source": "Reddit",
+    "title": "\"Something way cooler than a minivan is coming\"",
+    "displayTitle": "",
+    "summary": "r/teslamotors • 170 points • 344 comments",
+    "category": "TESLA",
+    "topic": "TESLA",
+    "priority": 39,
+    "url": "https://www.reddit.com/r/teslamotors/comments/1s320ic/something_way_cooler_than_a_minivan_is_coming/",
+    "hot": false,
+    "tags": [
+      "TESLA",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "f41cd976c89d8e4b",
+    "time": "2026-03-25T00:00:00.000Z",
+    "source": "PlayStation Blog",
+    "title": "The Spring Sale comes to PlayStation Store March 25",
+    "displayTitle": "",
+    "summary": "",
+    "category": "SONY",
+    "topic": "SONY",
+    "priority": 38,
+    "url": "https://blog.playstation.com/2026/03/24/the-spring-sale-comes-to-playstation-store-march-25/",
+    "hot": false,
+    "tags": [
+      "SONY",
+      "GAME"
+    ],
+    "sources": [
+      "PlayStation Blog"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "40b0889c9422e06d",
+    "time": "2026-03-24T11:00:00.000Z",
+    "source": "OpenAI News",
+    "title": "Helping developers build safer AI experiences for teens",
+    "displayTitle": "",
+    "summary": "",
+    "category": "AI",
+    "topic": "OPENAI",
+    "priority": 38,
+    "url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
+    "hot": false,
+    "tags": [
+      "AI",
+      "OPENAI"
+    ],
+    "sources": [
+      "OpenAI News"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "be7ba683798aca51",
+    "time": "2026-03-24T09:00:00.000Z",
+    "source": "OpenAI News",
+    "title": "Powering product discovery in ChatGPT",
+    "displayTitle": "",
+    "summary": "",
+    "category": "AI",
+    "topic": "OPENAI",
+    "priority": 38,
+    "url": "https://openai.com/index/powering-product-discovery-in-chatgpt",
+    "hot": false,
+    "tags": [
+      "AI",
+      "OPENAI"
+    ],
+    "sources": [
+      "OpenAI News"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "eb002c6d80941b68",
+    "time": "2026-03-24T09:00:00.000Z",
+    "source": "OpenAI News",
+    "title": "Update on the OpenAI Foundation",
+    "displayTitle": "",
+    "summary": "",
+    "category": "AI",
+    "topic": "OPENAI",
+    "priority": 38,
+    "url": "https://openai.com/index/update-on-the-openai-foundation",
+    "hot": false,
+    "tags": [
+      "AI",
+      "OPENAI"
+    ],
+    "sources": [
+      "OpenAI News"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "9fee0c682b1935c0",
+    "time": "2026-03-24T01:07:26.000Z",
+    "source": "Nintendo News",
+    "title": "『カービィのエアライダー』の「一問一答！」ページを更新しました。 最終回では、画面酔い対策へのこだわりや「オレマシン」などの自分らしさを楽しむ遊び、そして「グミ」が生まれた背景を、ディレクターの桜井さんがお話ししています。",
+    "displayTitle": "『カービィのエアライダー』の「一問一答！」ページを更新しました。…",
+    "summary": "",
+    "category": "GAME",
+    "topic": "NINTENDO",
+    "priority": 38,
+    "url": "https://www.nintendo.com/jp/games/switch2/aaaba/director/index.html",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "NINTENDO"
+    ],
+    "sources": [
+      "Nintendo News"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "e8da293d696fe084",
+    "time": "2026-02-03T11:33:27.272Z",
+    "source": "OneKey Blog",
+    "title": "How to Borrow with Kamino Directly in the OneKey App",
+    "displayTitle": "",
+    "summary": "",
+    "category": "CRYPTO_TOOLS",
+    "topic": "ONEKEY",
+    "priority": 38,
+    "url": "https://onekey.so/blog/updates/how-to-borrow-with-kamino-directly-in-the-one-key-app/",
+    "hot": false,
+    "tags": [
+      "CRYPTO_TOOLS",
+      "ONEKEY"
+    ],
+    "sources": [
+      "OneKey Blog"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "1d90d88b02e994f5",
+    "time": "2026-03-14T16:00:00.000Z",
+    "source": "Riot Games",
+    "title": "NEVER FIGHT ALONE // Miks Agent Trailer - VALORANT",
+    "displayTitle": "",
+    "summary": "",
+    "category": "GAME",
+    "topic": "RIOT",
+    "priority": 36,
+    "url": "https://www.riotgames.com/en/news/never-fight-alone-miks-agent-trailer-valorant",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "RIOT",
+      "NEWS"
+    ],
+    "sources": [
+      "Riot Games"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "d26f478a2a7aa958",
+    "time": "2026-03-23T01:01:53.000Z",
+    "source": "Nintendo News",
+    "title": "ニンテンドーeショップ新作ソフト情報 3/23（月）号。",
+    "displayTitle": "ニンテンドーeショップ新作ソフト情報 3/23（月）号。",
+    "summary": "",
+    "category": "GAME",
+    "topic": "NINTENDO",
+    "priority": 34,
+    "url": "https://www.nintendo.com/jp/topics/article/39e4f05c-f287-4e4e-b988-93c12c387962",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "NINTENDO"
+    ],
+    "sources": [
+      "Nintendo News"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "8235904ec45effec",
+    "time": "2026-03-23T00:00:00.000Z",
+    "source": "OpenAI News",
+    "title": "Creating with Sora Safely",
+    "displayTitle": "",
+    "summary": "",
+    "category": "AI",
+    "topic": "OPENAI",
+    "priority": 34,
+    "url": "https://openai.com/index/creating-with-sora-safely",
+    "hot": false,
+    "tags": [
+      "AI",
+      "OPENAI"
+    ],
+    "sources": [
+      "OpenAI News"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "ab49522a4d10d2b0",
+    "time": "2026-03-19T10:00:00.000Z",
+    "source": "OpenAI News",
+    "title": "How we monitor internal coding agents for misalignment",
+    "displayTitle": "",
+    "summary": "",
+    "category": "AI",
+    "topic": "OPENAI",
+    "priority": 34,
+    "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+    "hot": false,
+    "tags": [
+      "AI",
+      "OPENAI"
+    ],
+    "sources": [
+      "OpenAI News"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "2a4aa6ca808694ed",
+    "time": "2026-03-19T00:00:00.000Z",
+    "source": "OpenAI News",
+    "title": "OpenAI to acquire Astral",
+    "displayTitle": "",
+    "summary": "",
+    "category": "AI",
+    "topic": "OPENAI",
+    "priority": 34,
+    "url": "https://openai.com/index/openai-to-acquire-astral",
+    "hot": false,
+    "tags": [
+      "AI",
+      "OPENAI"
+    ],
+    "sources": [
+      "OpenAI News"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "b3c41f95b4906083",
+    "time": "2026-03-17T16:00:00.000Z",
+    "source": "Sony Interactive",
+    "title": "Sony Interactive Marks 200 Apprentices in Career Program",
+    "displayTitle": "",
+    "summary": "",
+    "category": "SONY",
+    "topic": "SONY",
+    "priority": 34,
+    "url": "https://sonyinteractive.com/en/news/blog/sony-interactive-marks-200-apprentices/",
+    "hot": false,
+    "tags": [
+      "SONY",
+      "GAME"
+    ],
+    "sources": [
+      "Sony Interactive"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "881f265c2dc5b765",
+    "time": "2026-03-17T10:00:00.000Z",
+    "source": "OpenAI News",
+    "title": "OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first",
+    "displayTitle": "",
+    "summary": "",
+    "category": "AI",
+    "topic": "OPENAI",
+    "priority": 34,
+    "url": "https://openai.com/index/japan-teen-safety-blueprint",
+    "hot": false,
+    "tags": [
+      "AI",
+      "OPENAI"
+    ],
+    "sources": [
+      "OpenAI News"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "32196e8b2791e679",
+    "time": "2026-03-17T00:00:00.000Z",
+    "source": "OpenAI News",
+    "title": "Equipping workers with insights about compensation",
+    "displayTitle": "",
+    "summary": "",
+    "category": "AI",
+    "topic": "OPENAI",
+    "priority": 34,
+    "url": "https://openai.com/index/equipping-workers-with-insights-about-compensation",
+    "hot": false,
+    "tags": [
+      "AI",
+      "OPENAI"
+    ],
+    "sources": [
+      "OpenAI News"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "9242c53709ab61ca",
+    "time": "2026-02-23T16:00:00.000Z",
+    "source": "Sony Interactive",
+    "title": "Leveling Up Together: Girls Make Games’ Commitment to Safer Play Online",
+    "displayTitle": "",
+    "summary": "",
+    "category": "SONY",
+    "topic": "SONY",
+    "priority": 34,
+    "url": "https://sonyinteractive.com/en/news/blog/girls-make-games-commitment-to-safer-play-online/",
+    "hot": false,
+    "tags": [
+      "SONY",
+      "GAME"
+    ],
+    "sources": [
+      "Sony Interactive"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "7c86631e67d116bd",
+    "time": "2026-02-08T16:00:00.000Z",
+    "source": "Sony Interactive",
+    "title": "Celebrating Safer Internet Day 2026",
+    "displayTitle": "",
+    "summary": "",
+    "category": "SONY",
+    "topic": "SONY",
+    "priority": 34,
+    "url": "https://sonyinteractive.com/en/news/blog/playstation-celebrates-safer-internet-day-2026/",
+    "hot": false,
+    "tags": [
+      "SONY",
+      "GAME"
+    ],
+    "sources": [
+      "Sony Interactive"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "35f21ee73b0e3e6d",
+    "time": "2026-02-06T16:00:00.000Z",
+    "source": "OpenClaw Blog",
+    "title": "OpenClaw Partners with VirusTotal for Skill Security",
+    "displayTitle": "",
+    "summary": "",
+    "category": "TECH",
+    "topic": "OPENCLAW",
+    "priority": 34,
+    "url": "https://www.openclaw.ai/blog/virustotal-partnership",
+    "hot": false,
+    "tags": [
+      "TECH",
+      "OPENCLAW",
+      "BLOG"
+    ],
+    "sources": [
+      "OpenClaw Blog"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "2b1e6bdecefe6606",
+    "time": "2026-02-04T16:00:00.000Z",
+    "source": "Anthropic Newsroom",
+    "title": "Introducing Claude Opus 4.6",
+    "displayTitle": "",
+    "summary": "",
+    "category": "AI",
+    "topic": "CLAUDE",
+    "priority": 34,
+    "url": "https://www.anthropic.com/news/claude-opus-4-6",
+    "hot": false,
+    "tags": [
+      "AI",
+      "CLAUDE",
+      "ANNOUNCEMENTS"
+    ],
+    "sources": [
+      "Anthropic Newsroom"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "19792c4d5c18181b",
+    "time": "2026-02-03T16:00:00.000Z",
+    "source": "Anthropic Newsroom",
+    "title": "Claude is a space to think",
+    "displayTitle": "",
+    "summary": "",
+    "category": "AI",
+    "topic": "CLAUDE",
+    "priority": 34,
+    "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+    "hot": false,
+    "tags": [
+      "AI",
+      "CLAUDE",
+      "ANNOUNCEMENTS"
+    ],
+    "sources": [
+      "Anthropic Newsroom"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "fbed80bfcf60bd36",
+    "time": "2026-01-28T16:00:00.000Z",
+    "source": "OpenClaw Blog",
+    "title": "Introducing OpenClaw",
+    "displayTitle": "",
+    "summary": "",
+    "category": "TECH",
+    "topic": "OPENCLAW",
+    "priority": 34,
+    "url": "https://www.openclaw.ai/blog/introducing-openclaw",
+    "hot": false,
+    "tags": [
+      "TECH",
+      "OPENCLAW",
+      "BLOG"
+    ],
+    "sources": [
+      "OpenClaw Blog"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "1af5eec75016eb80",
+    "time": "2026-01-26T06:52:34.692Z",
+    "source": "OneKey Blog",
+    "title": "OneKey Has Passed a Security Audit by SlowMist",
+    "displayTitle": "",
+    "summary": "",
+    "category": "CRYPTO_TOOLS",
+    "topic": "ONEKEY",
+    "priority": 34,
+    "url": "https://onekey.so/blog/updates/one-key-has-passed-a-security-audit-by-slow-mist/",
+    "hot": false,
+    "tags": [
+      "CRYPTO_TOOLS",
+      "ONEKEY"
+    ],
+    "sources": [
+      "OneKey Blog"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "43e5f3d11e9245fd",
+    "time": "2026-01-26T06:51:12.910Z",
+    "source": "OneKey Blog",
+    "title": "OneKey: The Best Bitcoin-Only Hardware Wallet",
+    "displayTitle": "",
+    "summary": "",
+    "category": "CRYPTO_TOOLS",
+    "topic": "ONEKEY",
+    "priority": 34,
+    "url": "https://onekey.so/blog/updates/one-key-the-best-bitcoin-only-hardware-wallet/",
+    "hot": false,
+    "tags": [
+      "CRYPTO_TOOLS",
+      "ONEKEY"
+    ],
+    "sources": [
+      "OneKey Blog"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "b20817f0204c989d",
+    "time": "2026-01-26T06:29:29.424Z",
+    "source": "OneKey Blog",
+    "title": "Everything You Need to Know About How Hardware Wallets Differ From Other Wallets",
+    "displayTitle": "",
+    "summary": "",
+    "category": "CRYPTO_TOOLS",
+    "topic": "ONEKEY",
+    "priority": 34,
+    "url": "https://onekey.so/blog/learn/everything-you-need-to-know-about-how-hardware-wallets-differ-from-other-wallets/",
+    "hot": false,
+    "tags": [
+      "CRYPTO_TOOLS",
+      "ONEKEY"
+    ],
+    "sources": [
+      "OneKey Blog"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "1f81205228845179",
+    "time": "2026-01-23T03:53:31.616Z",
+    "source": "OneKey Blog",
+    "title": "Ledger's Three Data Breaches Expose 270,000+ Users' Home Addresses",
+    "displayTitle": "",
+    "summary": "",
+    "category": "CRYPTO_TOOLS",
+    "topic": "ONEKEY",
+    "priority": 34,
+    "url": "https://onekey.so/blog/learn/ledger-s-three-data-breaches-expose-270-000-users-home-addresses/",
+    "hot": false,
+    "tags": [
+      "CRYPTO_TOOLS",
+      "ONEKEY"
+    ],
+    "sources": [
+      "OneKey Blog"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "3ca217afe9ab9e03",
+    "time": "2026-01-16T07:31:39.229Z",
+    "source": "OneKey Blog",
+    "title": "The Complete Guide to Bitcoin Cold Wallets: Protect Your Crypto Assets",
+    "displayTitle": "",
+    "summary": "",
+    "category": "CRYPTO_TOOLS",
+    "topic": "ONEKEY",
+    "priority": 34,
+    "url": "https://onekey.so/blog/learn/the-complete-guide-to-bitcoin-cold-wallets-protect-your-crypto-assets/",
+    "hot": false,
+    "tags": [
+      "CRYPTO_TOOLS",
+      "ONEKEY"
+    ],
+    "sources": [
+      "OneKey Blog"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "eb78c71241d994eb",
+    "time": "2026-01-13T16:00:00.000Z",
+    "source": "Sony Interactive",
+    "title": "An Update to Our Shared Commitment to Safer Gaming",
+    "displayTitle": "",
+    "summary": "",
+    "category": "SONY",
+    "topic": "SONY",
+    "priority": 34,
+    "url": "https://sonyinteractive.com/en/news/blog/an-update-to-our-shared-commitment-to-safer-gaming/",
+    "hot": false,
+    "tags": [
+      "SONY",
+      "GAME"
+    ],
+    "sources": [
+      "Sony Interactive"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "5496c4a389e90bf8",
+    "time": "2025-12-17T16:00:00.000Z",
+    "source": "Sony Interactive",
+    "title": "PlayStation Family Gaming Tips for the Holidays",
+    "displayTitle": "",
+    "summary": "",
+    "category": "SONY",
+    "topic": "SONY",
+    "priority": 34,
+    "url": "https://sonyinteractive.com/en/news/blog/playstation-family-gaming-tips-for-the-holidays/",
+    "hot": false,
+    "tags": [
+      "SONY",
+      "GAME"
+    ],
+    "sources": [
+      "Sony Interactive"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "d0a8b3661bb4e613",
+    "time": "2025-12-15T16:00:00.000Z",
+    "source": "Sony Interactive",
+    "title": "Sucker Punch Productions Co-Founder Brian Fleming Passes the Reins to the Next Chapter of Creative Leadership",
+    "displayTitle": "",
+    "summary": "",
+    "category": "SONY",
+    "topic": "SONY",
+    "priority": 34,
+    "url": "https://sonyinteractive.com/en/news/blog/the-next-chapter-of-sucker-punch/",
+    "hot": false,
+    "tags": [
+      "SONY",
+      "GAME"
+    ],
+    "sources": [
+      "Sony Interactive"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "a75fba613e382bad",
+    "time": "2025-12-14T16:00:00.000Z",
+    "source": "Sony Interactive",
+    "title": "Bridging the Generational Gap with the PlayStation Family App",
+    "displayTitle": "",
+    "summary": "",
+    "category": "SONY",
+    "topic": "SONY",
+    "priority": 34,
+    "url": "https://sonyinteractive.com/en/news/blog/bridging-the-generational-gap-with-the-playstation-family-app/",
+    "hot": false,
+    "tags": [
+      "SONY",
+      "GAME"
+    ],
+    "sources": [
+      "Sony Interactive"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "82d295d51c3e91cc",
+    "time": "2025-11-25T16:00:00.000Z",
+    "source": "Sony Interactive",
+    "title": "Ghost of Yōtei: A Global Celebration of Storytelling",
+    "displayTitle": "",
+    "summary": "",
+    "category": "SONY",
+    "topic": "SONY",
+    "priority": 34,
+    "url": "https://sonyinteractive.com/en/news/blog/ghost-of-yotei-global-collaborations/",
+    "hot": false,
+    "tags": [
+      "SONY",
+      "GAME"
+    ],
+    "sources": [
+      "Sony Interactive"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "1bae8559ace32092",
+    "time": "2025-11-14T10:30:56.771Z",
+    "source": "OneKey Blog",
+    "title": "OneKey Secures Series B Funding at $150M Valuation, Led by YZi Labs",
+    "displayTitle": "",
+    "summary": "",
+    "category": "CRYPTO_TOOLS",
+    "topic": "ONEKEY",
+    "priority": 34,
+    "url": "https://onekey.so/blog/updates/onekey-secures-series-b-funding/",
+    "hot": false,
+    "tags": [
+      "CRYPTO_TOOLS",
+      "ONEKEY"
+    ],
+    "sources": [
+      "OneKey Blog"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "d8d323f9ced7eb34",
+    "time": "2026-03-09T16:00:00.000Z",
+    "source": "Riot Games",
+    "title": "First Stand 2026",
+    "displayTitle": "",
+    "summary": "",
+    "category": "GAME",
+    "topic": "RIOT",
+    "priority": 32,
+    "url": "https://www.riotgames.com/en/news/first-stand-2026",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "RIOT",
+      "NEWS"
+    ],
+    "sources": [
+      "Riot Games"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "72787d453dd06ed3",
+    "time": "2026-03-08T16:00:00.000Z",
+    "source": "Riot Games",
+    "title": "March Update 2026 | Dev Snapshot",
+    "displayTitle": "",
+    "summary": "",
+    "category": "GAME",
+    "topic": "RIOT",
+    "priority": 28,
+    "url": "https://www.riotgames.com/en/news/march-update-2026-dev-snapshot",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "RIOT",
+      "NEWS"
+    ],
+    "sources": [
+      "Riot Games"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "73af474cbb9137dc",
+    "time": "2026-03-23T17:27:45.000Z",
+    "source": "Reddit",
+    "title": "Jay Leno Drives the 500-Mile Tesla Semi",
+    "displayTitle": "",
+    "summary": "r/teslamotors • 183 points • 86 comments",
+    "category": "TESLA",
+    "topic": "TESLA",
+    "priority": 24,
+    "url": "https://www.reddit.com/r/teslamotors/comments/1s1nf73/jay_leno_drives_the_500mile_tesla_semi/",
+    "hot": false,
+    "tags": [
+      "TESLA",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "66dc497d371eb3d8",
+    "time": "2026-03-01T16:00:00.000Z",
+    "source": "Riot Games",
+    "title": "FST 2026 Primer",
+    "displayTitle": "",
+    "summary": "",
+    "category": "GAME",
+    "topic": "RIOT",
+    "priority": 24,
+    "url": "https://www.riotgames.com/en/news/fst-2026-primer",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "RIOT",
+      "NEWS"
+    ],
+    "sources": [
+      "Riot Games"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "1038285a52faff61",
+    "time": "2026-02-26T16:00:00.000Z",
+    "source": "Riot Games",
+    "title": "Shyvana, the Half-Dragon",
+    "displayTitle": "",
+    "summary": "",
+    "category": "GAME",
+    "topic": "RIOT",
+    "priority": 24,
+    "url": "https://www.riotgames.com/en/news/shyvana-the-half-dragon",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "RIOT",
+      "NEWS"
+    ],
+    "sources": [
+      "Riot Games"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "34dc32a54bfdeef1",
+    "time": "2026-02-26T16:00:00.000Z",
+    "source": "Riot Games",
+    "title": "Making a Zeus-inspired VALORANT Skin",
+    "displayTitle": "",
+    "summary": "",
+    "category": "GAME",
+    "topic": "RIOT",
+    "priority": 24,
+    "url": "https://www.riotgames.com/en/news/making-a-zeus-inspired-valorant-skin",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "RIOT",
+      "NEWS"
+    ],
+    "sources": [
+      "Riot Games"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "6f008fdaac970c80",
+    "time": "2026-02-22T16:00:00.000Z",
+    "source": "Riot Games",
+    "title": "¡GRITA CON EL ALMA! - VALORANT 2026 Masters Santiago Cinematic",
+    "displayTitle": "",
+    "summary": "",
+    "category": "GAME",
+    "topic": "RIOT",
+    "priority": 24,
+    "url": "https://www.riotgames.com/en/news/grita-con-el-alma-valorant-2026-masters-santiago-cinematic",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "RIOT",
+      "NEWS"
+    ],
+    "sources": [
+      "Riot Games"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
+    "id": "5b972543770719a9",
+    "time": "2023-05-22T23:58:44.000Z",
+    "source": "NYT",
+    "title": "Martin Amis: An Appreciation",
+    "displayTitle": "",
+    "summary": "Our critic assesses the achievement of Martin Amis, Britain’s most famous literary son.",
+    "category": "BOOK",
+    "topic": "BOOK",
+    "priority": 24,
+    "url": "https://www.nytimes.com/2023/05/22/books/review/martin-amis.html",
+    "hot": false,
+    "tags": [
+      "BOOK",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "60f18679bfbd511a",
+    "time": "2023-05-22T14:18:12.000Z",
+    "source": "NYT",
+    "title": "In ‘Fires in the Dark,’ Kay Redfield Jamison Turns to Healers",
+    "displayTitle": "",
+    "summary": "In “Fires in the Dark,” Jamison, known for her expertise on manic depression, delves into the quest to heal. Her new book, she says, is a “love song to psychotherapy.”",
+    "category": "BOOK",
+    "topic": "BOOK",
+    "priority": 24,
+    "url": "https://www.nytimes.com/2023/05/22/books/fires-in-the-dark-kay-redfield-jamison.html",
+    "hot": false,
+    "tags": [
+      "BOOK",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "155973c28f77474c",
+    "time": "2023-05-22T10:54:20.000Z",
+    "source": "NYT",
+    "title": "Book Review: ‘NB by J.C.,’ by James Campbell",
+    "displayTitle": "",
+    "summary": "“NB by J.C.” collects the variegated musings of James Campbell in the Times Literary Supplement.",
+    "category": "BOOK",
+    "topic": "BOOK",
+    "priority": 24,
+    "url": "https://www.nytimes.com/2023/05/22/books/james-campbell-nb-by-jc.html",
+    "hot": false,
+    "tags": [
+      "BOOK",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "951c35461536d963",
+    "time": "2023-05-22T09:00:23.000Z",
+    "source": "NYT",
+    "title": "Book Review: ‘Dom Casmurro,’ by Machado de Assis",
+    "displayTitle": "",
+    "summary": "“Dom Casmurro,” by Machado de Assis, teaches us to read — and reread — with precise detail and masterly obfuscation.",
+    "category": "BOOK",
+    "topic": "BOOK",
+    "priority": 24,
+    "url": "https://www.nytimes.com/2023/05/22/books/review/machado-de-assis-dom-casmurro.html",
+    "hot": false,
+    "tags": [
+      "BOOK",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "41bb70a9f46afcc4",
+    "time": "2023-05-21T09:00:12.000Z",
+    "source": "NYT",
+    "title": "The Detective Novel ‘Whose Body?,’ by Dorothy L. Sayers, Turns 100",
+    "displayTitle": "",
+    "summary": "Dorothy L. Sayers dealt with emotional and financial instability by writing “Whose Body?,” the first of many to star the detective Lord Peter Wimsey.",
+    "category": "BOOK",
+    "topic": "BOOK",
+    "priority": 24,
+    "url": "https://www.nytimes.com/2023/05/21/books/review/dorothy-sayers-whose-body-at-100.html",
+    "hot": false,
+    "tags": [
+      "BOOK",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "52ef06693896cc03",
+    "time": "2023-05-21T09:00:07.000Z",
+    "source": "NYT",
+    "title": "Book Review: ‘The Late Americans,’ by Brandon Taylor",
+    "displayTitle": "",
+    "summary": "Brandon Taylor’s novel circulates among Iowa City residents, some privileged, some not, but all aware that their possibilities are contracting.",
+    "category": "BOOK",
+    "topic": "BOOK",
+    "priority": 24,
+    "url": "https://www.nytimes.com/2023/05/21/books/review-the-late-americans-brandon-taylor.html",
+    "hot": false,
+    "tags": [
+      "BOOK",
+      "NYT"
+    ],
+    "sources": [
+      "NYT"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  }
+]

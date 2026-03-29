@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Builders Intel Screen</title>
+    <meta name="description" content="推荐关注人情报屏。" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header id="topbar" class="topbar" hidden>
+        <p class="eyebrow">BUILDERS INTEL SCREEN</p>
+        <h1>推荐关注人情报屏</h1>
+        <p class="subhead">只保留 builders / 官方 / 一线产品团队相关内容。</p>
+        <div class="meta-row">
+          <span id="last-updated">更新于 载入中…</span>
+          <span id="feed-status" hidden></span>
+        </div>
+      </header>
+
+      <section id="controls" class="controls" hidden>
+        <div class="filter-group" id="category-filter"></div>
+        <div class="toolbar">
+          <label>
+            <span>来源</span>
+            <select id="source-filter">
+              <option value="ALL">全部来源</option>
+            </select>
+          </label>
+          <label class="toggle">
+            <input id="hot-only" type="checkbox" />
+            <span>只看高优先级</span>
+          </label>
+        </div>
+      </section>
+
+      <section id="feed" class="feed" aria-live="polite"></section>
+      <section id="empty-state" class="empty-state" hidden>
+        <p>当前筛选条件下没有可显示的条目。</p>
+      </section>
+    </main>
+
+    <script>
+      window.AUTHORITY_INTEL_FALLBACK = [
+        {
+          "id": "builders-openai",
+          "time": "2026-03-29T08:00:00Z",
+          "source": "OpenAI News",
+          "title": "OpenAI sample item",
+          "displayTitle": "OpenAI：示例更新",
+          "summary": "",
+          "category": "AI",
+          "topic": "OPENAI",
+          "priority": 88,
+          "url": "https://openai.com/news/",
+          "hot": true,
+          "defaultVisible": true,
+          "sourceLayer": "A",
+          "tags": ["AI", "OPENAI"]
+        },
+        {
+          "id": "builders-tesla",
+          "time": "2026-03-29T06:00:00Z",
+          "source": "Tesla IR",
+          "title": "Tesla sample item",
+          "displayTitle": "特斯拉季度更新示例",
+          "summary": "",
+          "category": "TESLA",
+          "topic": "TESLA",
+          "priority": 82,
+          "url": "https://ir.tesla.com/",
+          "hot": true,
+          "defaultVisible": true,
+          "sourceLayer": "A",
+          "tags": ["TESLA"]
+        }
+      ];
+    </script>
+    <script src="./app.js"></script>
+  </body>
+</html>
