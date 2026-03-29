@@ -39,6 +39,7 @@
       .mobile .item,.mobile .headline{transition:none !important}
     }
     @media (pointer: coarse) and (min-width: 820px) and (orientation: landscape){
+      .page-updated{padding-bottom:8px;font-size:11px}
       .app{padding:20px 82px 32px}
       .item{padding:13px 0 15px}
       .item:first-child{padding-top:14px;padding-bottom:28px;margin-bottom:10px}
@@ -51,6 +52,7 @@
       .page-updated{padding-bottom:8px;font-size:11px}
     }
     @media (pointer: coarse) and (min-width: 820px) and (orientation: portrait){
+      .page-updated{padding-bottom:8px;font-size:11px}
       .app{padding:18px 44px 32px}
       .item{padding:12px 0 14px}
       .item:first-child{padding-top:10px;padding-bottom:24px;margin-bottom:10px}
@@ -63,6 +65,7 @@
       .page-updated{padding-bottom:8px;font-size:11px}
     }
     @media (max-width: 900px){
+      .page-updated{padding-bottom:8px;font-size:11px}
       .app{padding:12px 26px 28px}
       .item{padding:14px 0 17px}
       .item:first-child{padding-top:8px;padding-bottom:24px;margin-bottom:10px}
@@ -219,7 +222,42 @@
         && !includesAny(item.displayTitle || '', SIGNAL_TERMS.charts.map((term) => term.toLowerCase()));
     }
 
+    function isOfficialApple(item) {
+      return item.topic === 'APPLE' && item.source === 'Apple Newsroom';
+    }
+
+    function isOpenClawOfficialRelease(item) {
+      const title = String(item.displayTitle || item.title || '');
+      return item.topic === 'OPENCLAW'
+        && item.source === 'OpenClaw GitHub'
+        && title.includes('正式版更新');
+    }
+
+    function isOpenClawBeta(item) {
+      const title = String(item.displayTitle || item.title || '');
+      return item.topic === 'OPENCLAW'
+        && title.includes('测试版更新');
+    }
+
+    function isBtcExtremeSignal(item, text) {
+      return item.topic === 'BTC'
+        && includesAny(text, ['btc', 'bitcoin', '比特币', 'etf', '期权', 'options', 'market structure', 'fund flow', 'slumps', 'slump', '续跌', '回撤', '暴跌']);
+    }
+
+    function isWarEscalation(item, text) {
+      return isHeadlineMacroSignal(item)
+        && includesAny(text, ['war', 'iran', 'middle east', 'houthi', 'troops', 'strike', '战事', '中东', '胡塞', '增兵']);
+    }
+
+    function isTopTierTimeException(item, text) {
+      return isOpenClawOfficialRelease(item)
+        || isOfficialApple(item)
+        || isWarEscalation(item, text)
+        || isBtcExtremeSignal(item, text);
+    }
+
     function isLowValue(item, text) {
+      if (item.topic === 'TESLA' || item.source === 'Tesla IR') return true;
       if (!hasCjk(item.displayTitle || '') && item.topic !== 'OPENCLAW') return true;
       if (cjkRatio(item.displayTitle || '') < 0.26 && item.topic !== 'OPENCLAW') return true;
       if (includesAny(text, SIGNAL_TERMS.weak)) return true;
@@ -255,18 +293,16 @@
       const hours = ageHours(item);
       if (hours <= 6) return 100;
       if (hours <= 24) return 88;
-      if (hours <= 48) return 74;
-      if (hours <= 72 && isWhitelistTopic(item, text)) return 36;
-      if (hours <= 168 && isWhitelistTopic(item, text)) return 12;
+      if (hours <= 48 && isTopTierTimeException(item, text)) return 40;
+      if (hours <= 72 && isTopTierTimeException(item, text)) return 18;
       return 0;
     }
 
     function passesTimeGate(item, text) {
       const hours = ageHours(item);
       if (hours > 168) return false;
-      if (hours <= 48) return true;
-      if (hours > 72) return false;
-      return isWhitelistTopic(item, text) && (isPrimaryAiRelease(item, text) || isHeadlineMacroSignal(item));
+      if (hours <= 24) return true;
+      return isTopTierTimeException(item, text);
     }
 
     function attentionPenalty(item, text) {
@@ -312,8 +348,8 @@
       if (item.source === 'OpenClaw Blog') score += 18;
       if (item.source === 'Reddit') score -= 14;
       if (item.source === 'NYT') score -= 8;
-      if (ageHours(item) > 24) score -= 18;
-      if (ageHours(item) > 48) score -= 36;
+      if (ageHours(item) > 24) score -= 36;
+      if (ageHours(item) > 48) score -= 72;
 
       score -= attentionPenalty(item, text);
       return Math.round(score * 10) / 10;
@@ -332,8 +368,10 @@
     }
 
     function themeBucket(item) {
+      const text = `${item.title || ''} ${item.displayTitle || ''} ${item.summary || ''}`.toLowerCase();
       const family = signalFamily(item);
       if (family === 'OPENCLAW_UPDATE') return 'OPENCLAW';
+      if (isBtcExtremeSignal(item, text)) return 'BTC';
       if (family === 'MACRO_SIGNAL') return 'MACRO';
       if (family === 'CRYPTO_INFRA') return 'CRYPTO';
       if (family === 'APPLE_CHANGE') return 'APPLE';
@@ -360,13 +398,47 @@
       });
     }
 
+    function projectKey(item) {
+      if (item.topic === 'OPENCLAW' || (item.source || '').startsWith('OpenClaw')) return 'OPENCLAW';
+      if (item.topic === 'APPLE') return 'APPLE';
+      if (item.topic === 'OPENAI') return 'OPENAI';
+      if (item.topic === 'ANTHROPIC') return 'ANTHROPIC';
+      if (item.topic === 'CLAUDE' || item.topic === 'CLAUDE_CODE') return 'CLAUDE';
+      if (item.topic === 'BTC') return 'BTC';
+      if (isWarEscalation(item, `${item.title || ''} ${item.displayTitle || ''}`.toLowerCase())) return 'WAR';
+      return item.topic || item.source || item.id;
+    }
+
+    function headlineClass(item) {
+      const text = `${item.title || ''} ${item.displayTitle || ''} ${item.summary || ''}`.toLowerCase();
+      if (isOpenClawOfficialRelease(item) || isPrimaryAiRelease(item, text)) return 1;
+      if (isBtcExtremeSignal(item, text)) return 2;
+      if (isWarEscalation(item, text)) return 3;
+      if (isAppleChange(item, text) || isOfficialApple(item)) return 4;
+      return 5;
+    }
+
+    function candidateBoost(item) {
+      let boost = 0;
+      if (isOpenClawOfficialRelease(item)) boost += 180;
+      if (isOpenClawBeta(item)) boost -= 120;
+      if (item.topic === 'TESLA' || item.source === 'Tesla IR') boost -= 999;
+      const text = `${item.title || ''} ${item.displayTitle || ''} ${item.summary || ''}`.toLowerCase();
+      if (projectKey(item) === 'BTC' && !isBtcExtremeSignal(item, text)) boost -= 80;
+      return boost;
+    }
+
     function clampScroll(value) {
       const minY = Math.min(0, viewportEl.clientHeight - scrollLayerEl.scrollHeight);
       return Math.max(minY, Math.min(0, value));
     }
 
     function validTimestamp(value) {
-      const numeric = Number(value);
+      let numeric = Number(value);
+      if ((!Number.isFinite(numeric) || numeric <= 0) && value) {
+        const parsed = new Date(value).getTime();
+        if (Number.isFinite(parsed) && parsed > 0) numeric = Math.floor(parsed / 1000);
+      }
       if (!Number.isFinite(numeric) || numeric <= 0) return null;
       const now = Math.floor(Date.now() / 1000);
       if (numeric > now + 300) return null;
@@ -467,6 +539,7 @@
       const selected = [];
       const sourceCap = new Map();
       const themeCap = new Map();
+      const projectCap = new Map();
 
       const candidates = scored.filter((entry) => entry.signalScore >= threshold);
 
@@ -476,26 +549,28 @@
           signal_score: entry.signalScore,
         };
         const theme = themeBucket(item);
+        const project = projectKey(item);
         const nextSourceCount = sourceCap.get(item.source) || 0;
 
+        if ((projectCap.get(project) || 0) >= 1) return;
         if (nextSourceCount >= 2) return;
+        if ((themeCap.get(theme) || 0) >= 2) return;
         if (diversifyFirstFive && selected.length < 5 && (themeCap.get(theme) || 0) >= 1) return;
         if (isNearDuplicate(item, selected)) return;
 
+        projectCap.set(project, (projectCap.get(project) || 0) + 1);
         sourceCap.set(item.source, nextSourceCount + 1);
-        if (selected.length < 5) {
-          themeCap.set(theme, (themeCap.get(theme) || 0) + 1);
-        }
+        themeCap.set(theme, (themeCap.get(theme) || 0) + 1);
         selected.push(item);
       }
 
       for (const entry of candidates) {
         tryPick(entry, true);
-        if (selected.length >= 4) break;
+        if (selected.length >= 5) break;
       }
 
       for (const entry of candidates) {
-        if (selected.length >= 4) break;
+        if (selected.length >= 5) break;
         tryPick(entry, false);
       }
 
@@ -516,19 +591,26 @@
             item,
             signalScore: signalScore(item),
             recencyScore: recencyScore(item, text),
+            headlineClass: headlineClass(item),
+            boost: candidateBoost(item),
           };
         })
         .filter((entry) => entry.signalScore >= 60)
-        .sort((a, b) => b.signalScore - a.signalScore || b.recencyScore - a.recencyScore || b.item.timestamp - a.item.timestamp);
+        .sort((a, b) =>
+          a.headlineClass - b.headlineClass
+          || (b.signalScore + b.boost) - (a.signalScore + a.boost)
+          || b.recencyScore - a.recencyScore
+          || b.item.timestamp - a.item.timestamp
+        );
 
       const thresholds = [240, 200, 160, 120];
 
       for (const threshold of thresholds) {
         const selected = selectSignalItems(scored, threshold);
-        if (selected.length >= 4) return selected.slice(0, 4);
+        if (selected.length >= 4) return selected.slice(0, 5);
       }
 
-      return selectSignalItems(scored, 120).slice(0, 4);
+      return selectSignalItems(scored, 120).slice(0, 5);
     }
 
     async function loadFeed() {
