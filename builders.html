@@ -119,6 +119,8 @@
     let touchStartY = null;
     let previousFeedIds = [];
     let lastRenderSignature = "";
+    let currentFeedItems = [];
+    let currentEarlySignals = [];
     const ATTENTION_STORAGE_KEY = 'authority-intel-attention-v1';
 
     function itemTimeValue(item) {
@@ -361,6 +363,8 @@
     function isLowValue(item, text) {
       const isAttentionSource = ['x_hot', 'github_trending', 'community_hot'].includes(item.sourceType);
       if (item.topic === 'TESLA' || item.source === 'Tesla IR') return true;
+      if (item.sourceType === 'analysis') return true;
+      if (includesAny(text, ['year in review', '年度回顾', 'analysis', '分析', 'deep dive'])) return true;
       if (!hasCjk(item.displayTitle || '') && item.topic !== 'OPENCLAW') return true;
       if (!isAttentionSource && cjkRatio(item.displayTitle || '') < 0.26 && item.topic !== 'OPENCLAW') return true;
       if (includesAny(text, SIGNAL_TERMS.weak)) return true;
@@ -369,6 +373,105 @@
       if (item.source === 'NYT' && !isSecondaryNyt(item, text) && !isMacroSignal(item, text)) return true;
       if (CHART_SOURCES.has(item.source) && !isSecondaryChart(item)) return true;
       return false;
+    }
+
+    function sourceCategory(item) {
+      if (OFFICIAL_SOURCES.has(item.source) || ['product', 'release', 'blog', 'press', 'changelog'].includes(item.sourceType)) return 'official';
+      if (item.sourceType === 'x_hot') return 'x_hot';
+      if (item.sourceType === 'github_trending') return 'github_trending';
+      if (item.sourceType === 'community_hot' || item.source === 'Reddit' || item.source === 'Hacker News') return 'community_hot';
+      if (Number(item.rank || 0) > 0 || item.sourceType === 'chart') return 'ranking';
+      if (STRONG_SOURCES.has(item.source) || String(item.sourceType || '').startsWith('bloomberg') || String(item.sourceType || '').startsWith('nyt-')) return 'media';
+      return 'other';
+    }
+
+    function builderType(item, text) {
+      if (familyTheme(item, text) === 'CRYPTO') return 'CRYPTO';
+      if (familyTheme(item, text) === 'MACRO') return 'MACRO';
+      if (familyTheme(item, text) === 'APPLE') return 'APPLE';
+      if (familyTheme(item, text) === 'AI') return 'AI';
+      if (familyTheme(item, text) === 'GAME') return 'GAME';
+      if (familyTheme(item, text) === 'SCREEN') return 'SCREEN';
+      if (familyTheme(item, text) === 'BOOK') return 'BOOK';
+      return 'OTHER';
+    }
+
+    function familyTheme(item, text) {
+      if (isBtcExtremeSignal(item, text) || item.topic === 'BTC' || item.topic === 'ETF' || includesAny(text, ['btc', 'bitcoin', 'etf', 'prediction market', 'polymarket', 'kalshi'])) return 'CRYPTO';
+      if (isWarEscalation(item, text) || includesAny(text, ['macro', 'regulation', 'middle east', 'iran', 'war', 'houthi', 'troops', 'strike'])) return 'MACRO';
+      if (item.topic === 'APPLE' || isAppleChange(item, text)) return 'APPLE';
+      if (PRIMARY_AI_TOPICS.has(item.topic) || isPrimaryAiRelease(item, text) || isGithubHot(item, text) || isXHot(item, text)) return 'AI';
+      if (GAME_TOPICS.has(item.topic)) return 'GAME';
+      if (['MOVIE', 'TV'].includes(item.category) || ['MOVIE', 'TV'].includes(item.topic)) return 'SCREEN';
+      if (item.category === 'BOOK' || item.topic === 'BOOK') return 'BOOK';
+      return 'OTHER';
+    }
+
+    function relatedEarlySignal(item) {
+      const text = `${item.title || ''} ${item.displayTitle || ''} ${item.summary || ''}`.toLowerCase();
+      const type = builderType(item, text);
+      return currentEarlySignals.find((signal) => {
+        if (signal.type !== type) return false;
+        const topic = String(signal.topic || '').toLowerCase();
+        if (!topic) return false;
+        if (topic === 'bitcoin' && includesAny(text, ['btc', 'bitcoin', 'etf'])) return true;
+        if (topic === 'claude' && includesAny(text, ['claude', 'anthropic'])) return true;
+        if (topic === 'anthropic' && includesAny(text, ['anthropic', 'claude'])) return true;
+        if (topic === 'openclaw' && includesAny(text, ['openclaw'])) return true;
+        return text.includes(topic) || String(item.topic || '').toLowerCase() === topic;
+      }) || null;
+    }
+
+    function crossSourceCount(item) {
+      const signal = relatedEarlySignal(item);
+      if (signal?.sources?.length) return signal.sources.length;
+      const family = projectKey(item);
+      const distinct = new Set(
+        currentFeedItems
+          .filter((candidate) => projectKey(candidate) === family && ageHours(candidate) <= 72)
+          .map((candidate) => sourceCategory(candidate))
+          .filter((value) => value && value !== 'other')
+      );
+      return distinct.size;
+    }
+
+    function deltaSignal(item) {
+      const signal = relatedEarlySignal(item);
+      if (signal) {
+        return Math.round(((signal.growth_score || 0) * 100) + ((signal.resonance_score || 0) * 120) + (signal.ranking_change ? 26 : 0));
+      }
+      const text = `${item.title || ''} ${item.displayTitle || ''} ${item.summary || ''}`.toLowerCase();
+      let score = 0;
+      if (item.sourceType === 'x_hot') score += 36;
+      if (item.sourceType === 'github_trending') score += 34;
+      if (item.sourceType === 'community_hot') score += 28;
+      if (Number(item.rank || 0) > 0 && Number(item.rank || 0) <= 3) score += 20;
+      if (ageHours(item) <= 12) score += 18;
+      if (isBtcExtremeSignal(item, text) || isWarEscalation(item, text)) score += 16;
+      return score;
+    }
+
+    function preferenceWeight(item) {
+      const text = `${item.title || ''} ${item.displayTitle || ''} ${item.summary || ''}`.toLowerCase();
+      if (isBtcExtremeSignal(item, text) || item.topic === 'BTC' || item.topic === 'ETF') return 56;
+      if (isWarEscalation(item, text) || includesAny(text, ['macro', 'regulation', 'middle east', 'iran'])) return 42;
+      if (item.topic === 'APPLE') return 12;
+      return 0;
+    }
+
+    function isDecisionItem(item) {
+      const text = `${item.title || ''} ${item.displayTitle || ''} ${item.summary || ''}`.toLowerCase();
+      return isBtcExtremeSignal(item, text) || isWarEscalation(item, text) || includesAny(text, ['regulation', 'market structure', 'fund flow', 'etf', 'prediction market']);
+    }
+
+    function isEarlyOpportunity(item) {
+      const text = `${item.title || ''} ${item.displayTitle || ''} ${item.summary || ''}`.toLowerCase();
+      return deltaSignal(item) >= 120 || isXHot(item, text) || isGithubHot(item, text) || isCommunityHot(item, text);
+    }
+
+    function isToolItem(item) {
+      const text = `${item.title || ''} ${item.displayTitle || ''} ${item.summary || ''}`.toLowerCase();
+      return builderType(item, text) === 'AI' && includesAny(text, ['openclaw', 'codex', 'agent', 'plugin', 'security', 'tool', 'repo']);
     }
 
     function ageHours(item) {
@@ -512,6 +615,9 @@
 
       if (ageHours(item) > 24) score -= 12;
       if (ageHours(item) > 72) score -= 18;
+
+      score += preferenceWeight(item);
+      score += deltaSignal(item) * 0.22;
 
       return Math.round(score * 10) / 10;
     }
@@ -737,11 +843,14 @@
       const sourceCap = new Map();
       const themeCap = new Map();
       const projectCap = new Map();
+      let toolCount = 0;
+      let decisionCount = 0;
+      let earlyCount = 0;
 
       const candidates = scored.filter((entry) => {
         if (Math.max(entry.signalScore, entry.attentionScore) < threshold) return false;
         return THEME_CAPS.has(themeBucket(entry.item));
-      });
+      }).filter((entry) => crossSourceCount(entry.item) >= 2);
 
       function tryPick(entry, diversifyFirstFive) {
         const item = {
@@ -759,11 +868,25 @@
         if ((themeCap.get(theme) || 0) >= themeLimit) return;
         if (diversifyFirstFive && selected.length < 5 && themeLimit > 1 && (themeCap.get(theme) || 0) >= 1) return;
         if (isNearDuplicate(item, selected)) return;
+        if (isToolItem(item) && toolCount >= 1) return;
 
         projectCap.set(project, (projectCap.get(project) || 0) + 1);
         sourceCap.set(item.source, nextSourceCount + 1);
         themeCap.set(theme, (themeCap.get(theme) || 0) + 1);
+        if (isToolItem(item)) toolCount += 1;
+        if (isDecisionItem(item)) decisionCount += 1;
+        if (isEarlyOpportunity(item)) earlyCount += 1;
         selected.push(item);
+      }
+
+      for (const entry of candidates.filter((entry) => isDecisionItem(entry.item))) {
+        tryPick(entry, true);
+        if (decisionCount >= 2 || selected.length >= 6) break;
+      }
+
+      for (const entry of candidates.filter((entry) => isEarlyOpportunity(entry.item))) {
+        if (earlyCount >= 1 || selected.length >= 6) break;
+        tryPick(entry, true);
       }
 
       for (const entry of candidates) {
@@ -793,6 +916,7 @@
             item,
             attentionScore: attentionScore(item),
             signalScore: signalScore(item),
+            deltaSignal: deltaSignal(item),
             recencyScore: recencyScore(item, text),
             sourcePriority: sourcePriority(item),
             headlineClass: headlineClass(item),
@@ -801,18 +925,21 @@
         })
         .filter((entry) => (entry.signalScore >= 60 || entry.attentionScore >= 60) && THEME_CAPS.has(themeBucket(entry.item)))
         .sort((a, b) =>
-          b.attentionScore - a.attentionScore
+          b.deltaSignal - a.deltaSignal
+          || b.attentionScore - a.attentionScore
           || b.signalScore - a.signalScore
           || b.sourcePriority - a.sourcePriority
           || b.recencyScore - a.recencyScore
           || b.item.timestamp - a.item.timestamp
         );
 
-      const thresholds = [200, 160, 120, 100, 80, 60];
+      const thresholds = [220, 180, 140, 120, 100, 80, 60];
 
       for (const threshold of thresholds) {
         const selected = selectSignalItems(scored, threshold);
-        if (selected.length >= 4) {
+        const decisionCount = selected.filter(isDecisionItem).length;
+        const earlyCount = selected.filter(isEarlyOpportunity).length;
+        if (selected.length >= 4 && decisionCount >= 2 && earlyCount >= 1) {
           return selected.slice(0, 6).map((item) => ({
             ...item,
             title: item.displayTitle || item.title || '',
@@ -834,6 +961,8 @@
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const payload = await res.json();
         const data = Array.isArray(payload) ? payload : (payload.items || []);
+        currentFeedItems = data;
+        currentEarlySignals = Array.isArray(payload) ? [] : (payload.early_signals || []);
         render(buildSignalPool(data));
       } catch {
         feedEl.innerHTML = '<div class="empty">真实 feed 暂不可用</div>';
