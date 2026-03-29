@@ -25,7 +25,7 @@
   },
   {
     "id": "35c0b0e1193aade2",
-    "time": "2026-03-29T00:53:54.637Z",
+    "time": "2026-03-29T00:59:45.329Z",
     "source": "OneKey Blog",
     "title": "Security Blind Spots of Hardware Wallets: Analyzing the Covert Threat of Supply Chain Attacks",
     "displayTitle": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
@@ -71,7 +71,7 @@
   },
   {
     "id": "7a3a4b95a00134d0",
-    "time": "2026-03-29T00:53:54.655Z",
+    "time": "2026-03-29T00:59:45.194Z",
     "source": "NYT",
     "title": "Iran War Live Updates: U.S. Marines Arrive in Middle East, as Houthis Enter War",
     "displayTitle": "伊朗战事最新进展：美军抵达中东，胡塞武装卷入",
@@ -283,7 +283,7 @@
   },
   {
     "id": "7c18d6b994fc5aec",
-    "time": "2026-03-29T00:53:54.655Z",
+    "time": "2026-03-29T00:59:45.194Z",
     "source": "NYT",
     "title": "U.S. 1:08",
     "displayTitle": "",
@@ -377,16 +377,16 @@
     "defaultVisible": false
   },
   {
-    "id": "2dcb12a0f4a01592",
-    "time": "2026-03-29T00:53:54.603Z",
+    "id": "f1f7564066cdaa0c",
+    "time": "2026-03-29T00:59:45.174Z",
     "source": "NYT",
-    "title": "STRIPPED DOWN",
+    "title": "THEO OF GOLDEN",
     "displayTitle": "",
-    "summary": "Hardcover Nonfiction • 5 weeks on the list • by Bunnie Xo • The host of the “Dumb Blonde Podcast” shares how redemption was an important part of her journey toward reaching her goals.",
+    "summary": "Combined Print & E-Book Fiction • 16 weeks on the list • by Allen Levi • A man travels to a small Southern town, where he purchases pencil drawings of local residents and exchanges them for stories.",
     "category": "BOOK",
     "topic": "BOOK",
     "priority": 70,
-    "url": "https://www.nytimes.com/books/best-sellers/hardcover-nonfiction/",
+    "url": "https://www.nytimes.com/books/best-sellers/combined-print-and-e-book-fiction/",
     "hot": true,
     "tags": [
       "BOOK",
@@ -591,7 +591,7 @@
   },
   {
     "id": "3aa11c3549a9e9ac",
-    "time": "2026-03-29T00:53:54.655Z",
+    "time": "2026-03-29T00:59:45.194Z",
     "source": "NYT",
     "title": "smarter-living 0:48",
     "displayTitle": "",
@@ -684,16 +684,16 @@
     "defaultVisible": false
   },
   {
-    "id": "2fc369de04d873bf",
-    "time": "2026-03-29T00:53:54.603Z",
+    "id": "b3fb32f8e2c7ee06",
+    "time": "2026-03-29T00:59:45.174Z",
     "source": "NYT",
-    "title": "STRANGERS",
+    "title": "STRIPPED DOWN",
     "displayTitle": "",
-    "summary": "Hardcover Nonfiction • 9 weeks on the list • by Belle Burden • Burden retraces her marriage of 20 years in search of clues to help shape her understanding about its demise and to find a way forward.",
+    "summary": "Combined Print & E-Book Nonfiction • 5 weeks on the list • by Bunnie Xo • The host of the “Dumb Blonde Podcast” shares how redemption was an important part of her journey toward reaching her goals.",
     "category": "BOOK",
     "topic": "BOOK",
     "priority": 66,
-    "url": "https://www.nytimes.com/books/best-sellers/hardcover-nonfiction/",
+    "url": "https://www.nytimes.com/books/best-sellers/combined-print-and-e-book-nonfiction/",
     "hot": true,
     "tags": [
       "BOOK",
@@ -828,7 +828,7 @@
   },
   {
     "id": "54159ca88ffd6f1e",
-    "time": "2026-03-29T00:53:55.067Z",
+    "time": "2026-03-29T00:59:45.553Z",
     "source": "Douban Movie Chart",
     "title": "河狸变身计划",
     "displayTitle": "河狸变身计划",
@@ -851,7 +851,7 @@
   },
   {
     "id": "83ee1de4a20a247c",
-    "time": "2026-03-29T00:53:54.395Z",
+    "time": "2026-03-29T00:59:44.832Z",
     "source": "JustWatch TV",
     "title": "The Madison",
     "displayTitle": "剧集：The Madison",
@@ -1014,16 +1014,16 @@
     "defaultVisible": false
   },
   {
-    "id": "5e3a79a469c6bad9",
-    "time": "2026-03-29T00:53:54.602Z",
+    "id": "4622bea1fb8b342d",
+    "time": "2026-03-29T00:59:45.174Z",
     "source": "NYT",
-    "title": "PROJECT HAIL MARY",
+    "title": "STRANGERS",
     "displayTitle": "",
-    "summary": "Combined Print & E-Book Fiction • 41 weeks on the list • by Andy Weir • Ryland Grace awakes from a long sleep alone and far from home, and the fate of humanity rests on his shoulders; the basis of the movie.",
+    "summary": "Combined Print & E-Book Nonfiction • 10 weeks on the list • by Belle Burden • Burden retraces her marriage of 20 years in search of clues to help shape her understanding about its demise and to find a way forward.",
     "category": "BOOK",
     "topic": "BOOK",
     "priority": 62,
-    "url": "https://www.nytimes.com/books/best-sellers/combined-print-and-e-book-fiction/",
+    "url": "https://www.nytimes.com/books/best-sellers/combined-print-and-e-book-nonfiction/",
     "hot": true,
     "tags": [
       "BOOK",
@@ -1132,7 +1132,7 @@
   },
   {
     "id": "c52ff6c9f6314efe",
-    "time": "2026-03-29T00:53:55.067Z",
+    "time": "2026-03-29T00:59:45.553Z",
     "source": "Douban Movie Chart",
     "title": "侵略机器",
     "displayTitle": "",
@@ -1155,7 +1155,7 @@
   },
   {
     "id": "c20b94009e6c9534",
-    "time": "2026-03-29T00:53:54.395Z",
+    "time": "2026-03-29T00:59:44.832Z",
     "source": "JustWatch TV",
     "title": "Paradise",
     "displayTitle": "剧集：Paradise",
@@ -1387,16 +1387,16 @@
     "defaultVisible": false
   },
   {
-    "id": "f1f7564066cdaa0c",
-    "time": "2026-03-29T00:53:54.602Z",
+    "id": "bf3c7fc7cb4be92e",
+    "time": "2026-03-29T00:59:45.174Z",
     "source": "NYT",
-    "title": "THEO OF GOLDEN",
+    "title": "JUDGE STONE",
     "displayTitle": "",
-    "summary": "Combined Print & E-Book Fiction • 16 weeks on the list • by Allen Levi • A man travels to a small Southern town, where he purchases pencil drawings of local residents and exchanges them for stories.",
+    "summary": "Hardcover Fiction • 2 weeks on the list • by Viola Davis and James Patterson • Judge Mary Stone oversees an ethically complex case in her courtroom in Union Springs, Ala.",
     "category": "BOOK",
     "topic": "BOOK",
     "priority": 58,
-    "url": "https://www.nytimes.com/books/best-sellers/combined-print-and-e-book-fiction/",
+    "url": "https://www.nytimes.com/books/best-sellers/hardcover-fiction/",
     "hot": true,
     "tags": [
       "BOOK",
@@ -1505,7 +1505,7 @@
   },
   {
     "id": "3d9779e7f2c823a4",
-    "time": "2026-03-29T00:53:55.067Z",
+    "time": "2026-03-29T00:59:45.553Z",
     "source": "Douban Movie Chart",
     "title": "家弑服务",
     "displayTitle": "",
@@ -1528,7 +1528,7 @@
   },
   {
     "id": "1eb9bfc69f6bde31",
-    "time": "2026-03-29T00:53:54.395Z",
+    "time": "2026-03-29T00:59:44.832Z",
     "source": "JustWatch TV",
     "title": "The Pitt",
     "displayTitle": "剧集：The Pitt",
@@ -1644,12 +1644,12 @@
     "defaultVisible": false
   },
   {
-    "id": "bf3c7fc7cb4be92e",
-    "time": "2026-03-29T00:53:54.602Z",
+    "id": "4054532afd172676",
+    "time": "2026-03-29T00:59:45.174Z",
     "source": "NYT",
-    "title": "JUDGE STONE",
+    "title": "THE CORRESPONDENT",
     "displayTitle": "",
-    "summary": "Hardcover Fiction • 2 weeks on the list • by Viola Davis and James Patterson • Judge Mary Stone oversees an ethically complex case in her courtroom in Union Springs, Ala.",
+    "summary": "Hardcover Fiction • 21 weeks on the list • by Virginia Evans • Letters from someone she used to know push Sybil Van Antwerp toward revisiting her past and finding a way to forgive.",
     "category": "BOOK",
     "topic": "BOOK",
     "priority": 54,
@@ -1668,16 +1668,16 @@
     "defaultVisible": false
   },
   {
-    "id": "4054532afd172676",
-    "time": "2026-03-29T00:53:54.602Z",
+    "id": "5e3a79a469c6bad9",
+    "time": "2026-03-29T00:59:45.173Z",
     "source": "NYT",
-    "title": "THE CORRESPONDENT",
+    "title": "PROJECT HAIL MARY",
     "displayTitle": "",
-    "summary": "Hardcover Fiction • 21 weeks on the list • by Virginia Evans • Letters from someone she used to know push Sybil Van Antwerp toward revisiting her past and finding a way to forgive.",
+    "summary": "Combined Print & E-Book Fiction • 41 weeks on the list • by Andy Weir • Ryland Grace awakes from a long sleep alone and far from home, and the fate of humanity rests on his shoulders; the basis of the movie.",
     "category": "BOOK",
     "topic": "BOOK",
     "priority": 54,
-    "url": "https://www.nytimes.com/books/best-sellers/hardcover-fiction/",
+    "url": "https://www.nytimes.com/books/best-sellers/combined-print-and-e-book-fiction/",
     "hot": true,
     "tags": [
       "BOOK",
@@ -1831,7 +1831,7 @@
   },
   {
     "id": "9fd381bc18c5bc94",
-    "time": "2026-03-29T00:53:55.067Z",
+    "time": "2026-03-29T00:59:45.553Z",
     "source": "Douban Movie Chart",
     "title": "东京出租车",
     "displayTitle": "",
@@ -1854,7 +1854,7 @@
   },
   {
     "id": "cb8a7ec4003d61d9",
-    "time": "2026-03-29T00:53:54.395Z",
+    "time": "2026-03-29T00:59:44.832Z",
     "source": "JustWatch TV",
     "title": "Scarpetta",
     "displayTitle": "剧集：Scarpetta",
@@ -2063,7 +2063,7 @@
   },
   {
     "id": "724db6d9ad3012a4",
-    "time": "2026-03-29T00:53:55.067Z",
+    "time": "2026-03-29T00:59:45.553Z",
     "source": "Douban Movie Chart",
     "title": "至尊马蒂",
     "displayTitle": "",
@@ -2086,7 +2086,7 @@
   },
   {
     "id": "ca16611ebe200897",
-    "time": "2026-03-29T00:53:55.067Z",
+    "time": "2026-03-29T00:59:45.553Z",
     "source": "Douban Movie Chart",
     "title": "哈姆奈特",
     "displayTitle": "",
@@ -2109,7 +2109,7 @@
   },
   {
     "id": "2cc9a606312d09aa",
-    "time": "2026-03-29T00:53:55.067Z",
+    "time": "2026-03-29T00:59:45.553Z",
     "source": "Douban Movie Chart",
     "title": "用武之地",
     "displayTitle": "",
@@ -2132,7 +2132,7 @@
   },
   {
     "id": "7506994b588b1c53",
-    "time": "2026-03-29T00:53:55.067Z",
+    "time": "2026-03-29T00:59:45.553Z",
     "source": "Douban Movie Chart",
     "title": "你行！你上！",
     "displayTitle": "你行！你上！",
@@ -2155,7 +2155,7 @@
   },
   {
     "id": "4e70d6e4dfd74063",
-    "time": "2026-03-29T00:53:55.067Z",
+    "time": "2026-03-29T00:59:45.553Z",
     "source": "Douban Movie Chart",
     "title": "呼啸山庄",
     "displayTitle": "",
@@ -2178,7 +2178,7 @@
   },
   {
     "id": "097e18052bcb288c",
-    "time": "2026-03-29T00:53:55.067Z",
+    "time": "2026-03-29T00:59:45.553Z",
     "source": "Douban Movie Chart",
     "title": "局外人",
     "displayTitle": "",
@@ -2201,7 +2201,7 @@
   },
   {
     "id": "0efcd932c6ca7c4d",
-    "time": "2026-03-29T00:53:54.395Z",
+    "time": "2026-03-29T00:59:44.832Z",
     "source": "JustWatch TV",
     "title": "Shrinking",
     "displayTitle": "剧集：Shrinking",
@@ -2224,7 +2224,7 @@
   },
   {
     "id": "0e376afa54f55fc8",
-    "time": "2026-03-29T00:53:54.395Z",
+    "time": "2026-03-29T00:59:44.832Z",
     "source": "JustWatch TV",
     "title": "DTF St. Louis",
     "displayTitle": "剧集：DTF St. Louis",
@@ -2247,7 +2247,7 @@
   },
   {
     "id": "e4e321ec7852e5db",
-    "time": "2026-03-29T00:53:54.395Z",
+    "time": "2026-03-29T00:59:44.832Z",
     "source": "JustWatch TV",
     "title": "Monarch: Legacy of Monsters",
     "displayTitle": "",
@@ -2270,7 +2270,7 @@
   },
   {
     "id": "02bf8fda130896a7",
-    "time": "2026-03-29T00:53:54.395Z",
+    "time": "2026-03-29T00:59:44.832Z",
     "source": "JustWatch TV",
     "title": "Young Sherlock",
     "displayTitle": "剧集：Young Sherlock",
@@ -2293,7 +2293,7 @@
   },
   {
     "id": "0463bcb4c70965cf",
-    "time": "2026-03-29T00:53:54.395Z",
+    "time": "2026-03-29T00:59:44.832Z",
     "source": "JustWatch TV",
     "title": "Rooster",
     "displayTitle": "剧集：Rooster",
@@ -2316,7 +2316,7 @@
   },
   {
     "id": "4d41401244ccecc6",
-    "time": "2026-03-29T00:53:54.395Z",
+    "time": "2026-03-29T00:59:44.832Z",
     "source": "JustWatch TV",
     "title": "A Knight of the Seven Kingdoms",
     "displayTitle": "",
@@ -2339,7 +2339,7 @@
   },
   {
     "id": "337cc755fd11925b",
-    "time": "2026-03-29T00:53:54.393Z",
+    "time": "2026-03-29T00:59:44.831Z",
     "source": "JustWatch Movies",
     "title": "Hamnet",
     "displayTitle": "电影：Hamnet",
@@ -2362,7 +2362,7 @@
   },
   {
     "id": "35153abebe488e73",
-    "time": "2026-03-29T00:53:54.393Z",
+    "time": "2026-03-29T00:59:44.831Z",
     "source": "JustWatch Movies",
     "title": "The Secret Agent",
     "displayTitle": "",
@@ -2385,7 +2385,7 @@
   },
   {
     "id": "53c95bf8aa8b083a",
-    "time": "2026-03-29T00:53:54.393Z",
+    "time": "2026-03-29T00:59:44.831Z",
     "source": "JustWatch Movies",
     "title": "Sentimental Value",
     "displayTitle": "",
@@ -2408,7 +2408,7 @@
   },
   {
     "id": "11f779ad8d8f0873",
-    "time": "2026-03-29T00:53:54.393Z",
+    "time": "2026-03-29T00:59:44.831Z",
     "source": "JustWatch Movies",
     "title": "Marty Supreme",
     "displayTitle": "电影：Marty Supreme",
@@ -2431,7 +2431,7 @@
   },
   {
     "id": "abec643f4fe3403e",
-    "time": "2026-03-29T00:53:54.393Z",
+    "time": "2026-03-29T00:59:44.831Z",
     "source": "JustWatch Movies",
     "title": "One Battle After Another",
     "displayTitle": "",
@@ -2454,7 +2454,7 @@
   },
   {
     "id": "f174d9c8669339d5",
-    "time": "2026-03-29T00:53:54.393Z",
+    "time": "2026-03-29T00:59:44.831Z",
     "source": "JustWatch Movies",
     "title": "Ready or Not",
     "displayTitle": "电影：Ready or Not",
@@ -2477,7 +2477,7 @@
   },
   {
     "id": "ce5d3e17ff74858c",
-    "time": "2026-03-29T00:53:54.393Z",
+    "time": "2026-03-29T00:59:44.831Z",
     "source": "JustWatch Movies",
     "title": "Sinners",
     "displayTitle": "电影：Sinners",
@@ -2500,7 +2500,7 @@
   },
   {
     "id": "e836a4fe93e61402",
-    "time": "2026-03-29T00:53:54.393Z",
+    "time": "2026-03-29T00:59:44.831Z",
     "source": "JustWatch Movies",
     "title": "Bugonia",
     "displayTitle": "电影：Bugonia",
@@ -2523,7 +2523,7 @@
   },
   {
     "id": "2d8dca30b4875c0b",
-    "time": "2026-03-29T00:53:54.393Z",
+    "time": "2026-03-29T00:59:44.831Z",
     "source": "JustWatch Movies",
     "title": "Project Hail Mary",
     "displayTitle": "",
@@ -2546,7 +2546,7 @@
   },
   {
     "id": "3fa626fc69519b95",
-    "time": "2026-03-29T00:53:54.393Z",
+    "time": "2026-03-29T00:59:44.831Z",
     "source": "JustWatch Movies",
     "title": "The Housemaid",
     "displayTitle": "电影：The Housemaid",
