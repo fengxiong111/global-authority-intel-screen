@@ -351,7 +351,8 @@ function displayTitleForItem(item) {
   const exactPatterns = [
     [/^Q([1-4]) (\d{4})$/i, (_, quarter, year) => `特斯拉 ${year} 年 Q${quarter} 季度更新`],
     [/^Q([1-4]) (\d{4}) Delivery Consensus$/i, (_, quarter, year) => `特斯拉 ${year} 年 Q${quarter} 交付预期`],
-    [/^OpenClaw ([\d.]+(?:-beta\.\d+)?)$/i, (_, version) => `OpenClaw 发布版本 ${version.replace('-beta.', ' Beta ')}`],
+    [/^OpenClaw ([\d.]+)-beta\.(\d+)$/i, (_, version, beta) => `OpenClaw 测试版更新 ${version} Beta ${beta}`],
+    [/^OpenClaw ([\d.]+(?:-beta\.\d+)?)$/i, (_, version) => `OpenClaw 正式版更新 ${version.replace('-beta.', ' Beta ')}`],
     [/^Judge Stays Pentagon[’']s Labeling of Anthropic as [‘']Supply Chain Risk[’']$/i, () => '法官叫停五角大楼将 Anthropic 列为“供应链风险”'],
     [/^Apple adds new partners to its American Manufacturing Program$/i, () => '苹果为美国制造计划新增合作伙伴'],
     [/^Introducing the OpenAI Safety Bug Bounty program$/i, () => 'OpenAI 启动安全漏洞赏金计划'],

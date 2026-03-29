@@ -23,19 +23,17 @@
     .item{padding:16px 0 18px;border-bottom:1px solid transparent;transform-origin:center center;opacity:1;transform:translate3d(0,0,0) scale(1)}
     .item + .item{margin-top:2px}
     .item:first-child{padding-top:22px;padding-bottom:42px;margin-bottom:16px;border-bottom-color:rgba(255,255,255,.018)}
-    .item:nth-child(2){padding-top:24px;padding-bottom:28px;margin-bottom:14px;border-bottom-color:rgba(255,255,255,.014)}
-    .item:nth-child(n+3):nth-child(-n+6){padding-top:10px;padding-bottom:10px}
+    .item:nth-child(n+2):nth-child(-n+6){padding-top:12px;padding-bottom:14px}
     .item:nth-child(n+7){padding-top:11px;padding-bottom:13px}
     .item.entering{opacity:0;transform:translate3d(0,18px,0) scale(.995)}
     .headline{width:100%;max-width:25ch;font-size:clamp(28px,3.22vw,58px);line-height:1.18;font-weight:510;letter-spacing:-.017em;color:rgba(247,247,242,.79);word-break:normal;overflow-wrap:break-word;line-break:loose;text-wrap:pretty;hyphens:none;transition:opacity .18s linear, transform .18s linear}
-    .item:first-child .headline{max-width:22.2ch;font-size:clamp(40px,4.28vw,76px);line-height:1.12;font-weight:605;letter-spacing:-.023em;color:rgba(247,247,242,.958);text-wrap:balance}
-    .item:nth-child(2) .headline{max-width:23.4ch;font-size:clamp(34px,3.88vw,68px);line-height:1.15;font-weight:565;color:rgba(247,247,242,.91);letter-spacing:-.018em;text-wrap:balance}
-    .item:nth-child(n+3):nth-child(-n+6) .headline{max-width:24.8ch;font-size:clamp(29px,3.22vw,54px);line-height:1.19;font-weight:520;color:rgba(247,247,242,.83);text-wrap:pretty}
+    .item:first-child .headline{max-width:22.2ch;font-size:clamp(39px,4.16vw,72px);line-height:1.12;font-weight:600;letter-spacing:-.022em;color:rgba(247,247,242,.958);text-wrap:balance}
+    .item:nth-child(n+2):nth-child(-n+6) .headline{max-width:24.8ch;font-size:clamp(29px,3.16vw,52px);line-height:1.18;font-weight:520;color:rgba(247,247,242,.84);letter-spacing:-.017em;text-wrap:pretty}
     .item:nth-child(n+7) .headline{max-width:25.1ch;font-size:clamp(26px,3vw,48px);line-height:1.2;font-weight:505;color:rgba(247,247,242,.79);text-wrap:pretty}
     .item:nth-child(n+7) .meta{color:rgba(247,247,242,.38)}
     .meta{margin-top:8px;font-size:clamp(12px,1.02vw,14px);line-height:1.22;font-weight:475;letter-spacing:.012em;color:rgba(247,247,242,.48)}
     .item:first-child .meta{color:rgba(247,247,242,.5)}
-    .item:nth-child(2) .meta{color:rgba(247,247,242,.49)}
+    .item:nth-child(n+2):nth-child(-n+6) .meta{color:rgba(247,247,242,.46)}
     .empty{padding:48px 0;color:#777;font-size:24px}
     .mask{position:fixed;left:0;right:0;height:12vh;pointer-events:none;z-index:5}
     .mask-bottom{bottom:0;background:linear-gradient(0deg,rgba(2,2,2,.36) 0%,rgba(2,2,2,.18) 34%,rgba(2,2,2,.08) 64%,rgba(2,2,2,0) 100%)}
@@ -47,47 +45,41 @@
       .app{padding:20px 82px 32px}
       .item{padding:13px 0 15px}
       .item:first-child{padding-top:14px;padding-bottom:28px;margin-bottom:10px}
-      .item:nth-child(2){padding-top:19px;padding-bottom:21px;margin-bottom:11px}
-      .item:nth-child(n+3):nth-child(-n+6){padding-top:10px;padding-bottom:10px}
+      .item:nth-child(n+2):nth-child(-n+6){padding-top:11px;padding-bottom:12px}
       .item:nth-child(n+7){padding-top:10px;padding-bottom:11px}
       .headline{max-width:25.2ch;font-size:clamp(25px,2.95vw,40px);line-height:1.2;font-weight:500;color:rgba(247,247,242,.81)}
-      .item:first-child .headline{max-width:24.1ch;font-size:clamp(35px,4.08vw,52px);line-height:1.12;font-weight:588;color:rgba(247,247,242,.95)}
-      .item:nth-child(2) .headline{max-width:24.4ch;font-size:clamp(30px,3.58vw,44px);line-height:1.145;font-weight:545;color:rgba(247,247,242,.9)}
-      .item:nth-child(n+3):nth-child(-n+6) .headline{max-width:25.1ch;font-size:clamp(27px,3.06vw,38px);line-height:1.18;font-weight:515;color:rgba(247,247,242,.84)}
+      .item:first-child .headline{max-width:24.1ch;font-size:clamp(34px,3.96vw,50px);line-height:1.12;font-weight:584;color:rgba(247,247,242,.95)}
+      .item:nth-child(n+2):nth-child(-n+6) .headline{max-width:25.1ch;font-size:clamp(27px,3.04vw,37px);line-height:1.175;font-weight:515;color:rgba(247,247,242,.845)}
       .item:nth-child(n+7) .headline{max-width:25.3ch;font-size:clamp(24px,2.8vw,33px);line-height:1.19;font-weight:500;color:rgba(247,247,242,.8)}
       .meta{margin-top:7px;font-size:13px;line-height:1.22;font-weight:478;color:rgba(247,247,242,.5)}
       .item:first-child .meta{color:rgba(247,247,242,.52)}
-      .item:nth-child(2) .meta{color:rgba(247,247,242,.5)}
+      .item:nth-child(n+2):nth-child(-n+6) .meta{color:rgba(247,247,242,.47)}
       .item:nth-child(n+7) .meta{color:rgba(247,247,242,.41)}
     }
     @media (pointer: coarse) and (min-width: 820px) and (orientation: portrait){
       .app{padding:18px 44px 32px}
       .item{padding:12px 0 14px}
       .item:first-child{padding-top:10px;padding-bottom:24px;margin-bottom:10px}
-      .item:nth-child(2){padding-top:16px;padding-bottom:19px;margin-bottom:10px}
-      .item:nth-child(n+3):nth-child(-n+6){padding-top:10px;padding-bottom:10px}
+      .item:nth-child(n+2):nth-child(-n+6){padding-top:11px;padding-bottom:12px}
       .item:nth-child(n+7){padding-top:10px;padding-bottom:11px}
       .headline{max-width:24.2ch;font-size:clamp(24px,3.34vw,39px);line-height:1.195;font-weight:500;color:rgba(247,247,242,.81)}
-      .item:first-child .headline{max-width:22.4ch;font-size:clamp(33px,4.42vw,49px);line-height:1.125;font-weight:582;color:rgba(247,247,242,.945)}
-      .item:nth-child(2) .headline{max-width:23.1ch;font-size:clamp(29px,3.86vw,43px);line-height:1.155;font-weight:542;color:rgba(247,247,242,.895)}
-      .item:nth-child(n+3):nth-child(-n+6) .headline{max-width:24.3ch;font-size:clamp(26px,3.42vw,37px);line-height:1.185;font-weight:515;color:rgba(247,247,242,.84)}
+      .item:first-child .headline{max-width:22.4ch;font-size:clamp(32px,4.26vw,47px);line-height:1.125;font-weight:580;color:rgba(247,247,242,.945)}
+      .item:nth-child(n+2):nth-child(-n+6) .headline{max-width:24.3ch;font-size:clamp(26px,3.38vw,36px);line-height:1.18;font-weight:515;color:rgba(247,247,242,.845)}
       .item:nth-child(n+7) .headline{max-width:24.3ch;font-size:clamp(23px,3.1vw,32px);line-height:1.195;font-weight:500;color:rgba(247,247,242,.8)}
       .meta{margin-top:7px;font-size:13px;line-height:1.22;font-weight:478;color:rgba(247,247,242,.5)}
       .item:first-child .meta{color:rgba(247,247,242,.52)}
-      .item:nth-child(2) .meta{color:rgba(247,247,242,.5)}
+      .item:nth-child(n+2):nth-child(-n+6) .meta{color:rgba(247,247,242,.47)}
       .item:nth-child(n+7) .meta{color:rgba(247,247,242,.41)}
     }
     @media (max-width: 900px){
       .app{padding:12px 26px 28px}
       .item{padding:14px 0 17px}
-      .item:first-child{padding-top:8px;padding-bottom:26px;margin-bottom:10px}
-      .item:nth-child(2){padding-top:16px;padding-bottom:22px;margin-bottom:10px}
-      .item:nth-child(n+3):nth-child(-n+6){padding-top:10px;padding-bottom:11px}
+      .item:first-child{padding-top:8px;padding-bottom:24px;margin-bottom:10px}
+      .item:nth-child(n+2):nth-child(-n+6){padding-top:11px;padding-bottom:12px}
       .item:nth-child(n+7){padding-top:9px;padding-bottom:11px}
       .headline{max-width:100%;font-size:clamp(23px,6.82vw,40px);line-height:1.19;font-weight:500}
-      .item:first-child .headline{max-width:100%;font-size:clamp(32px,8.4vw,51px);line-height:1.1;font-weight:605}
-      .item:nth-child(2) .headline{max-width:100%;font-size:clamp(29px,7.88vw,47px);line-height:1.14;font-weight:570;color:rgba(247,247,242,.91)}
-      .item:nth-child(n+3):nth-child(-n+6) .headline{max-width:100%;font-size:clamp(25px,6.9vw,41px);line-height:1.18;font-weight:520;color:rgba(247,247,242,.83)}
+      .item:first-child .headline{max-width:100%;font-size:clamp(31px,8.1vw,49px);line-height:1.1;font-weight:600}
+      .item:nth-child(n+2):nth-child(-n+6) .headline{max-width:100%;font-size:clamp(25px,6.78vw,40px);line-height:1.17;font-weight:520;color:rgba(247,247,242,.84)}
       .item:nth-child(n+7) .headline{max-width:100%;font-size:clamp(22px,6.32vw,36px);line-height:1.19;font-weight:500;color:rgba(247,247,242,.79)}
       .meta{margin-top:6px;font-size:12px;color:rgba(247,247,242,.44)}
       .mask{height:8vh}
@@ -122,18 +114,20 @@
     let lastRenderSignature = '';
 
     const SIGNAL_TERMS = {
-      direct: ['openclaw', 'agent', 'model', 'capability', 'tool', 'apple', 'iphone', 'mac', 'openai', 'anthropic', 'claude', 'bug bounty', 'manufacturing', 'acquire'],
-      market: ['btc', 'bitcoin', 'etf', 'fund flow', 'market structure'],
-      war: ['war', 'iran', 'middle east', 'ceasefire', 'strike', 'marines'],
-      legal: ['judge', 'court', 'pentagon', 'supply chain risk'],
-      security: ['security', 'audit', 'risk', 'breach', 'supply chain'],
-      weak: ['podcast', 'share of the week', 'discussion', 'thread', 'hands-on report', 'anyone else', 'on “read”', 'on "read"', 'trump pac', 'stalin', 'evil'],
-      gameStrong: ['faker', 'lec', 'lck', 'worlds', 'championship', 'playstation', 'sony', 'nintendo', 'switch']
+      aiRelease: ['release', '发布', '更新', 'launch', 'launched', 'introducing', 'beta', 'version', 'mini', 'nano', 'opus', 'sonnet', 'bug bounty', 'acquire', 'agent', 'coding agent', 'claude code', 'model spec', 'computer use'],
+      appleChange: ['iphone', 'ipad', 'mac', 'macbook', 'airpods', 'watch', 'ios', '应用', '功能', 'feature', 'product', 'm5', 'new app', '数字驾照'],
+      macro: ['war', 'iran', 'middle east', 'ceasefire', 'strike', 'marines', 'etf', 'fund flow', 'market structure', 'regulation', 'regulator', 'judge', 'court', 'pentagon', 'supply chain risk'],
+      infra: ['security', 'audit', 'risk', 'breach', 'supply chain', 'chip', 'helium', 'wallet', 'infrastructure'],
+      redditInfo: ['发布', '更新', '将发布', '计划支持', '数字驾照', '停止运营', '被 ai 取代', 'ability', 'launch', 'feature', 'apps', 'driver', 'license'],
+      weak: ['podcast', 'share of the week', 'discussion', 'thread', 'hands-on report', 'anyone else', 'on “read”', 'on "read"', 'rumor', 'rumors', '体验', '吐槽', '观点', 'i think', 'why', 'how', 'versus', 'vs.', 'megathread'],
+      charts: ['电影：', '剧集：', '图书：'],
     };
     const OFFICIAL_SOURCES = new Set([
       'Apple Newsroom',
       'OpenAI News',
       'Anthropic Newsroom',
+      'Claude Code Changelog',
+      'Claude release notes',
       'Tesla IR',
       'OpenClaw GitHub',
       'OpenClaw Blog',
@@ -141,6 +135,10 @@
       'PlayStation Blog',
       'Sony Interactive'
     ]);
+    const CHART_SOURCES = new Set(['Douban Movie Chart', 'JustWatch Movies', 'JustWatch TV', 'IMDb Movies', 'IMDb TV']);
+    const PRIMARY_AI_TOPICS = new Set(['OPENCLAW', 'OPENAI', 'ANTHROPIC', 'CLAUDE', 'CLAUDE_CODE']);
+    const GAME_TOPICS = new Set(['GAME', 'NINTENDO', 'SWITCH', 'LEAGUE_OF_LEGENDS', 'PLAYSTATION', 'SONY']);
+    const TOKEN_STOPWORDS = new Set(['openai', 'anthropic', 'claude', 'apple', 'openclaw', 'the', 'and', 'for', 'with', 'this', 'that', 'will', 'into']);
 
     function hasCjk(value = '') {
       return /[\u4e00-\u9fff]/.test(value);
@@ -159,36 +157,88 @@
       return words.some((word) => matchesTerm(text, word));
     }
 
+    function canonicalText(value = '') {
+      return String(value).toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff]+/g, ' ').replace(/\s+/g, ' ').trim();
+    }
+
+    function titleTokens(value = '') {
+      return canonicalText(value)
+        .split(' ')
+        .filter((token) => token.length >= 3 && !TOKEN_STOPWORDS.has(token));
+    }
+
+    function isPrimaryAiRelease(item, text) {
+      return PRIMARY_AI_TOPICS.has(item.topic) && OFFICIAL_SOURCES.has(item.source) && (
+        item.topic === 'OPENCLAW'
+        || includesAny(text, SIGNAL_TERMS.aiRelease)
+      );
+    }
+
+    function isAppleChange(item, text) {
+      return item.topic === 'APPLE' && includesAny(text, SIGNAL_TERMS.appleChange);
+    }
+
+    function isMacroSignal(item, text) {
+      return includesAny(text, SIGNAL_TERMS.macro);
+    }
+
+    function isInfrastructureSignal(item, text) {
+      return includesAny(text, SIGNAL_TERMS.infra);
+    }
+
+    function isSecondaryReddit(item, text) {
+      return item.source === 'Reddit'
+        && item.priority >= 74
+        && item.hot
+        && hasCjk(item.displayTitle || '')
+        && includesAny(text, SIGNAL_TERMS.redditInfo)
+        && !includesAny(text, SIGNAL_TERMS.weak);
+    }
+
+    function isSecondaryNyt(item, text) {
+      return item.source === 'NYT'
+        && !/^[A-Za-z][A-Za-z.& -]+\s\d{1,2}:\d{2}$/.test(item.title || '')
+        && (item.priority >= 67 || isMacroSignal(item, text) || isInfrastructureSignal(item, text));
+    }
+
+    function isSecondaryChart(item) {
+      return CHART_SOURCES.has(item.source)
+        && Number(item.rank || 999) <= 3
+        && hasCjk(item.displayTitle || '')
+        && !includesAny(item.displayTitle || '', SIGNAL_TERMS.charts.map((term) => term.toLowerCase()));
+    }
+
+    function isLowValue(item, text) {
+      if (!hasCjk(item.displayTitle || '') && item.topic !== 'OPENCLAW') return true;
+      if (includesAny(text, SIGNAL_TERMS.weak)) return true;
+      if (GAME_TOPICS.has(item.topic) && !includesAny(text, ['faker', 'worlds', 'championship', '被 ai 取代'])) return true;
+      if (item.source === 'Reddit' && !isSecondaryReddit(item, text)) return true;
+      if (item.source === 'NYT' && !isSecondaryNyt(item, text) && !isMacroSignal(item, text)) return true;
+      if (CHART_SOURCES.has(item.source) && !isSecondaryChart(item)) return true;
+      return false;
+    }
+
     function signalScore(item) {
       const text = `${item.title || ''} ${item.displayTitle || ''} ${item.summary || ''}`.toLowerCase();
-      const rawTitle = item.title || '';
-      const source = item.source || '';
-      const topic = item.topic || '';
-      const category = item.category || '';
-      const priority = item.priority || 0;
-      let score = priority * 0.45;
+      if (isLowValue(item, text)) return -999;
 
-      if (!hasCjk(item.displayTitle || '') && topic !== 'OPENCLAW') return -999;
-      if (source === 'NYT' && /^[A-Za-z][A-Za-z.& -]+\s\d{1,2}:\d{2}$/.test(rawTitle)) return -999;
+      let score = (item.priority || 0) * 0.35;
 
-      if (OFFICIAL_SOURCES.has(source)) score += 22;
-      if (item.sourceLayer === 'A') score += 12;
-      if (topic === 'OPENCLAW' || source.startsWith('OpenClaw')) score += 95;
-      if (includesAny(text, SIGNAL_TERMS.direct)) score += 26;
-      if (includesAny(text, SIGNAL_TERMS.security)) score += 22;
-      if (includesAny(text, SIGNAL_TERMS.legal)) score += 24;
-      if (includesAny(text, SIGNAL_TERMS.market)) score += 55;
-      if (includesAny(text, SIGNAL_TERMS.war)) score += 48;
+      if (isPrimaryAiRelease(item, text)) score += 120;
+      if (isAppleChange(item, text)) score += 94;
+      if (isMacroSignal(item, text)) score += 108;
+      if (isInfrastructureSignal(item, text)) score += 88;
+      if (isSecondaryReddit(item, text)) score += 46;
+      if (isSecondaryNyt(item, text)) score += 34;
+      if (isSecondaryChart(item)) score += 24;
 
-      if (source === 'Reddit' && priority >= 74) score += 12;
-      if (source === 'NYT' && priority >= 67) score += 16;
-      if (['Douban Movie Chart', 'JustWatch Movies', 'JustWatch TV'].includes(source) && priority >= 58) score += 18;
-
-      if (source === 'NYT' && (text.includes('podcast') || text.includes('ezra klein show'))) score -= 30;
-      if (source === 'Reddit') score -= 12;
-      if (includesAny(text, SIGNAL_TERMS.weak)) score -= 35;
-      if (category === 'GAME' && !includesAny(text, SIGNAL_TERMS.gameStrong)) score -= 30;
-      if (item.sourceLayer === 'C' && !includesAny(text, [...SIGNAL_TERMS.direct, ...SIGNAL_TERMS.market, ...SIGNAL_TERMS.war])) score -= 40;
+      if (item.topic === 'APPLE' && OFFICIAL_SOURCES.has(item.source)) score += 18;
+      if (OFFICIAL_SOURCES.has(item.source)) score += 22;
+      if (item.sourceLayer === 'A') score += 14;
+      if (item.source === 'OpenClaw GitHub') score += 60;
+      if (item.source === 'OpenClaw Blog') score -= 48;
+      if (item.source === 'Reddit') score -= 18;
+      if (item.source === 'NYT') score -= 4;
 
       return Math.round(score * 10) / 10;
     }
@@ -196,12 +246,39 @@
     function signalFamily(item) {
       const text = `${item.title || ''} ${item.displayTitle || ''} ${item.summary || ''}`.toLowerCase();
       if (item.topic === 'OPENCLAW' || (item.source || '').startsWith('OpenClaw')) return 'OPENCLAW_UPDATE';
-      if (includesAny(text, SIGNAL_TERMS.war)) return 'WAR_SIGNAL';
-      if (includesAny(text, SIGNAL_TERMS.market)) return 'MARKET_SIGNAL';
-      if (item.source === 'Reddit' && ['OPENAI', 'CLAUDE', 'ANTHROPIC'].includes(item.topic)) return 'AI_REDDIT';
-      if (item.topic === 'APPLE') return 'APPLE_SIGNAL';
-      if (item.topic === 'OPENAI') return 'OPENAI_SIGNAL';
+      if (isMacroSignal(item, text) && item.topic === 'ANTHROPIC') return 'ANTHROPIC_REGULATION';
+      if (isMacroSignal(item, text)) return 'MACRO_SIGNAL';
+      if (isInfrastructureSignal(item, text) && item.topic === 'ONEKEY') return 'CRYPTO_INFRA';
+      if (item.topic === 'APPLE') return 'APPLE_CHANGE';
+      if (PRIMARY_AI_TOPICS.has(item.topic)) return `${item.topic}_SIGNAL`;
+      if (item.topic === 'TESLA') return 'TESLA_SIGNAL';
       return item.topic || item.source || 'OTHER';
+    }
+
+    function themeBucket(item) {
+      const family = signalFamily(item);
+      if (family === 'OPENCLAW_UPDATE') return 'OPENCLAW';
+      if (family === 'MACRO_SIGNAL') return 'MACRO';
+      if (family === 'CRYPTO_INFRA') return 'CRYPTO';
+      if (family === 'APPLE_CHANGE') return 'APPLE';
+      if (family === 'AI_RELEASE') return 'AI';
+      if (family === 'TESLA_SIGNAL') return 'TESLA';
+      return family;
+    }
+
+    function isNearDuplicate(item, selected) {
+      const keyA = canonicalText(item.displayTitle || item.title || '');
+      const tokensA = titleTokens(item.displayTitle || item.title || '');
+      return selected.some((picked) => {
+        const keyB = canonicalText(picked.displayTitle || picked.title || '');
+        if (!keyA || !keyB) return false;
+        if (keyA === keyB) return true;
+        if (signalFamily(item) === signalFamily(picked)) return true;
+        if (keyA.length >= 12 && keyB.length >= 12 && (keyA.includes(keyB) || keyB.includes(keyA))) return true;
+        const tokensB = titleTokens(picked.displayTitle || picked.title || '');
+        const shared = tokensA.filter((token) => tokensB.includes(token));
+        return shared.length >= 3;
+      });
     }
 
     function clampScroll(value) {
@@ -310,25 +387,38 @@
 
     function selectSignalItems(scored, threshold) {
       const selected = [];
-      const familyCap = new Map();
-      let redditCount = 0;
-      let nytCount = 0;
+      const sourceCap = new Map();
+      const themeCap = new Map();
 
-      for (const entry of scored) {
-        if (entry.signalScore < threshold) continue;
-        const family = signalFamily(entry.item);
-        const count = familyCap.get(family) || 0;
-        if (count >= 1) continue;
-        if (entry.item.source === 'Reddit' && redditCount >= 2) continue;
-        if (entry.item.source === 'NYT' && nytCount >= 2) continue;
-        familyCap.set(family, count + 1);
-        if (entry.item.source === 'Reddit') redditCount += 1;
-        if (entry.item.source === 'NYT') nytCount += 1;
-        selected.push({
+      const candidates = scored.filter((entry) => entry.signalScore >= threshold);
+
+      function tryPick(entry, diversifyFirstFive) {
+        const item = {
           ...entry.item,
           signal_score: entry.signalScore,
-        });
+        };
+        const theme = themeBucket(item);
+        const nextSourceCount = sourceCap.get(item.source) || 0;
+
+        if (nextSourceCount >= 2) return;
+        if (diversifyFirstFive && selected.length < 5 && (themeCap.get(theme) || 0) >= 1) return;
+        if (isNearDuplicate(item, selected)) return;
+
+        sourceCap.set(item.source, nextSourceCount + 1);
+        if (selected.length < 5) {
+          themeCap.set(theme, (themeCap.get(theme) || 0) + 1);
+        }
+        selected.push(item);
+      }
+
+      for (const entry of candidates) {
+        tryPick(entry, true);
+        if (selected.length >= 5) break;
+      }
+
+      for (const entry of candidates) {
         if (selected.length >= 8) break;
+        tryPick(entry, false);
       }
 
       return selected;
@@ -340,14 +430,14 @@
         .map((item) => ({ item, signalScore: signalScore(item) }))
         .sort((a, b) => b.signalScore - a.signalScore || b.item.priority - a.item.priority || new Date(b.item.time) - new Date(a.item.time));
 
-      const thresholds = [95, 85, 70, 60];
+      const thresholds = [150, 120, 95, 78];
 
       for (const threshold of thresholds) {
         const selected = selectSignalItems(scored, threshold);
         if (selected.length >= 6) return selected;
       }
 
-      return selectSignalItems(scored, 60);
+      return selectSignalItems(scored, 78).slice(0, 8);
     }
 
     async function loadFeed() {
