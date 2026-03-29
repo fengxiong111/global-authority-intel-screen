@@ -1,7 +1,7 @@
 [
   {
     "id": "bb53d7b50ff42099",
-    "timestamp": 1774758586,
+    "timestamp": 1774763792,
     "source": "GitHub Trending",
     "title": "GitHub 热门：obra/superpowers",
     "displayTitle": "",
@@ -10,29 +10,6 @@
     "topic": "TECH",
     "priority": 100,
     "url": "https://github.com/obra/superpowers",
-    "hot": true,
-    "tags": [
-      "TECH",
-      "GITHUB"
-    ],
-    "sources": [
-      "GitHub Trending"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "B",
-    "defaultVisible": false
-  },
-  {
-    "id": "ce130f79a35cdab4",
-    "timestamp": 1774758586,
-    "source": "GitHub Trending",
-    "title": "GitHub 热门：SakanaAI/AI-Scientist-v2",
-    "displayTitle": "",
-    "summary": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
-    "category": "TECH",
-    "topic": "TECH",
-    "priority": 99,
-    "url": "https://github.com/SakanaAI/AI-Scientist-v2",
     "hot": true,
     "tags": [
       "TECH",
@@ -70,6 +47,29 @@
     "defaultVisible": false
   },
   {
+    "id": "ce130f79a35cdab4",
+    "timestamp": 1774763792,
+    "source": "GitHub Trending",
+    "title": "GitHub 热门：SakanaAI/AI-Scientist-v2",
+    "displayTitle": "",
+    "summary": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+    "category": "TECH",
+    "topic": "TECH",
+    "priority": 95,
+    "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+    "hot": true,
+    "tags": [
+      "TECH",
+      "GITHUB"
+    ],
+    "sources": [
+      "GitHub Trending"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "B",
+    "defaultVisible": false
+  },
+  {
     "id": "556f7b66ea2d30c9",
     "timestamp": 1774750250,
     "source": "OpenClaw GitHub",
@@ -94,16 +94,16 @@
     "defaultVisible": true
   },
   {
-    "id": "5c463e8320288651",
-    "timestamp": 1774758586,
+    "id": "688b476e0b2e7716",
+    "timestamp": 1774763792,
     "source": "GitHub Trending",
-    "title": "GitHub 热门：virattt/dexter",
+    "title": "GitHub 热门：agentscope-ai/agentscope",
     "displayTitle": "",
-    "summary": "An autonomous agent for deep financial research",
+    "summary": "Build and run agents you can see, understand and trust.",
     "category": "TECH",
     "topic": "TECH",
     "priority": 93,
-    "url": "https://github.com/virattt/dexter",
+    "url": "https://github.com/agentscope-ai/agentscope",
     "hot": true,
     "tags": [
       "TECH",
@@ -165,6 +165,29 @@
     "defaultVisible": false
   },
   {
+    "id": "5c463e8320288651",
+    "timestamp": 1774763792,
+    "source": "GitHub Trending",
+    "title": "GitHub 热门：virattt/dexter",
+    "displayTitle": "",
+    "summary": "An autonomous agent for deep financial research",
+    "category": "TECH",
+    "topic": "TECH",
+    "priority": 89,
+    "url": "https://github.com/virattt/dexter",
+    "hot": true,
+    "tags": [
+      "TECH",
+      "GITHUB"
+    ],
+    "sources": [
+      "GitHub Trending"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "B",
+    "defaultVisible": false
+  },
+  {
     "id": "5d4609ae015d7b6c",
     "timestamp": 1774611796,
     "source": "Bloomberg",
@@ -189,6 +212,29 @@
     "defaultVisible": false
   },
   {
+    "id": "727e4548cb85f2fd",
+    "timestamp": 1774757833,
+    "source": "Bloomberg",
+    "title": "Russia’s Ust-Luga Port Takes New Damage in Ukraine Drone Attack",
+    "displayTitle": "",
+    "summary": "Russia’s Ust-Luga port sustained fresh damage from a Ukrainian drone attack, as Kyiv steps up strikes on Russian oil export infrastructure.",
+    "category": "TECH",
+    "topic": "TECH",
+    "priority": 87,
+    "url": "https://www.bloomberg.com/news/articles/2026-03-29/russia-s-ust-luga-port-takes-new-damage-in-ukraine-drone-attack",
+    "hot": true,
+    "tags": [
+      "TECH",
+      "BLOOMBERG"
+    ],
+    "sources": [
+      "Bloomberg"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "A",
+    "defaultVisible": false
+  },
+  {
     "id": "839ed6d4f3a133c5",
     "timestamp": 1774706905,
     "source": "Bloomberg",
@@ -197,7 +243,7 @@
     "summary": "Two Middle Eastern aluminum producers were hit by Iranian attacks on Saturday, highlighting the challenge to the global economy as the war disrupts vital industries.",
     "category": "TECH",
     "topic": "TECH",
-    "priority": 87,
+    "priority": 86,
     "url": "https://www.bloomberg.com/news/articles/2026-03-28/emirates-global-aluminium-says-smelter-site-damaged-in-attack-mnaeo4uk",
     "hot": true,
     "tags": [
@@ -220,7 +266,7 @@
     "summary": "Two Australian states will temporarily offer free public transport to ease the effects of rising fuel costs, as prolonged hostilities in the Middle East increase supply risks.",
     "category": "TECH",
     "topic": "TECH",
-    "priority": 86,
+    "priority": 85,
     "url": "https://www.bloomberg.com/news/articles/2026-03-29/two-australia-states-to-offer-free-transport-as-fuel-prices-rise",
     "hot": true,
     "tags": [
@@ -243,7 +289,7 @@
     "summary": "Houthi militants launched ballistic missiles at Israel on Saturday morning, marking their entry into the month-long Iran war that has already caused chaos in energy markets and killed thousands of people.",
     "category": "TECH",
     "topic": "TECH",
-    "priority": 86,
+    "priority": 85,
     "url": "https://www.bloomberg.com/news/articles/2026-03-28/iran-backed-houthis-join-war-as-more-us-troops-reach-middle-east",
     "hot": true,
     "tags": [
@@ -266,7 +312,7 @@
     "summary": "Outside New Delhi’s main bus terminus, a cluster of food stalls set up under makeshift canopies has been selling pan-fried flatbreads, comforting stews and hot tea to weary travelers for decades.",
     "category": "TECH",
     "topic": "TECH",
-    "priority": 85,
+    "priority": 84,
     "url": "https://www.bloomberg.com/news/articles/2026-03-29/india-lpg-crisis-new-delhi-street-stalls-show-the-cost-of-iran-energy-crunch",
     "hot": true,
     "tags": [
@@ -289,54 +335,8 @@
     "summary": "French anti-terrorism authorities are investigating a foiled bombing near the Bank of America Corp. headquarters in Paris that they said appeared to be linked to the Middle East conflict.",
     "category": "TECH",
     "topic": "TECH",
-    "priority": 85,
+    "priority": 84,
     "url": "https://www.bloomberg.com/news/articles/2026-03-28/france-probes-attempted-attack-near-bofa-headquarters-in-paris",
-    "hot": true,
-    "tags": [
-      "TECH",
-      "BLOOMBERG"
-    ],
-    "sources": [
-      "Bloomberg"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "A",
-    "defaultVisible": false
-  },
-  {
-    "id": "cd16f43d822d5293",
-    "timestamp": 1774728000,
-    "source": "Bloomberg",
-    "title": "US Job Market Likely Thawed Out This Month After February Chill",
-    "displayTitle": "",
-    "summary": "US employment probably rebounded in March after one of the biggest pullbacks in payrolls since the pandemic, extending a string of volatile readings.",
-    "category": "TECH",
-    "topic": "TECH",
-    "priority": 84,
-    "url": "https://www.bloomberg.com/news/articles/2026-03-28/us-job-market-probably-thawed-out-this-month-after-february-chill",
-    "hot": true,
-    "tags": [
-      "TECH",
-      "BLOOMBERG"
-    ],
-    "sources": [
-      "Bloomberg"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "A",
-    "defaultVisible": false
-  },
-  {
-    "id": "6910d9a61182bb08",
-    "timestamp": 1774725310,
-    "source": "Bloomberg",
-    "title": "Pakistan Says Iran Agreed to Let 20 of Its Ships Through Hormuz",
-    "displayTitle": "",
-    "summary": "Iran has agreed to allow 20 more ships under the Pakistani flag to pass through the Strait of Hormuz, Pakistan Foreign Minister Ishaq Dar says in an X post.",
-    "category": "TECH",
-    "topic": "TECH",
-    "priority": 84,
-    "url": "https://www.bloomberg.com/news/articles/2026-03-28/pakistan-says-iran-agreed-to-let-20-of-its-ships-through-hormuz",
     "hot": true,
     "tags": [
       "TECH",
@@ -419,31 +419,8 @@
     "defaultVisible": false
   },
   {
-    "id": "688b476e0b2e7716",
-    "timestamp": 1774758586,
-    "source": "GitHub Trending",
-    "title": "GitHub 热门：agentscope-ai/agentscope",
-    "displayTitle": "",
-    "summary": "Build and run agents you can see, understand and trust.",
-    "category": "TECH",
-    "topic": "TECH",
-    "priority": 81,
-    "url": "https://github.com/agentscope-ai/agentscope",
-    "hot": true,
-    "tags": [
-      "TECH",
-      "GITHUB"
-    ],
-    "sources": [
-      "GitHub Trending"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "B",
-    "defaultVisible": false
-  },
-  {
     "id": "35c0b0e1193aade2",
-    "timestamp": 1774758586,
+    "timestamp": 1774763793,
     "source": "OneKey Blog",
     "title": "Security Blind Spots of Hardware Wallets: Analyzing the Covert Threat of Supply Chain Attacks",
     "displayTitle": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
@@ -465,16 +442,16 @@
     "defaultVisible": true
   },
   {
-    "id": "e7c1ee267569778c",
-    "timestamp": 1774758586,
+    "id": "7c18d6b994fc5aec",
+    "timestamp": 1774763792,
     "source": "NYT",
-    "title": "U.S. Marines Arrive in Middle East, as Houthis Enter War",
-    "displayTitle": "伊朗战事最新进展：美军抵达中东，胡塞武装卷入",
-    "summary": "A U.S. official said that earlier an Iranian strike at a military base in Saudi Arabia injured around two dozen U.S. troops, one of the most serious breaches of American defenses since the war began.",
+    "title": "U.S. 1:08",
+    "displayTitle": "",
+    "summary": "",
     "category": "TECH",
     "topic": "NYT",
     "priority": 75,
-    "url": "https://www.nytimes.com/live/2026/03/28/world/iran-war-trump-israel-oil",
+    "url": "https://www.nytimes.com/video/us/100000010804745/tsa-trump-payment-shutdown.html",
     "hot": true,
     "tags": [
       "TECH",
@@ -485,7 +462,31 @@
     ],
     "mergedCount": 1,
     "sourceLayer": "A",
-    "defaultVisible": true
+    "defaultVisible": false
+  },
+  {
+    "id": "9d6d379e00951bb1",
+    "timestamp": 1774753956,
+    "source": "Reddit",
+    "title": "[Updates] Patch Notes Version 1.01.00 | Crimson Desert - adds 5 summonable mounts, decreased loading times, some adjustments to controls, and more.",
+    "displayTitle": "",
+    "summary": "r/PS5 • 393 points • 156 comments",
+    "category": "GAME",
+    "topic": "PLAYSTATION",
+    "priority": 74,
+    "url": "https://www.reddit.com/r/PS5/comments/1s6k5k1/updates_patch_notes_version_10100_crimson_desert/",
+    "hot": true,
+    "tags": [
+      "GAME",
+      "PLAYSTATION",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
   },
   {
     "id": "ab96d448e1449dbf",
@@ -493,12 +494,12 @@
     "source": "Reddit",
     "title": "I unironically think Phreak did a pretty good job and ever since he took joined the live team the game has been in one of its most stables states ever, balance-wise",
     "displayTitle": "",
-    "summary": "r/leagueoflegends • 361 points • 78 comments",
+    "summary": "r/leagueoflegends • 536 points • 92 comments",
     "category": "GAME",
     "topic": "LEAGUE_OF_LEGENDS",
     "priority": 74,
     "url": "https://www.reddit.com/r/leagueoflegends/comments/1s6e8zj/i_unironically_think_phreak_did_a_pretty_good_job/",
-    "hot": false,
+    "hot": true,
     "tags": [
       "GAME",
       "LEAGUE_OF_LEGENDS",
@@ -517,7 +518,7 @@
     "source": "Reddit",
     "title": "Dario Amodei: OpenAI President Brockman's $25 Million Dollar Donation To Pro-Trump Super PAC Is Evil, Also Compares Altman And Elon To Hitler And Stalin",
     "displayTitle": "Dario Amodei 痛批 Brockman 向亲特朗普 PAC 捐出…",
-    "summary": "r/singularity • 334 points • 85 comments",
+    "summary": "r/singularity • 366 points • 88 comments",
     "category": "AI",
     "topic": "OPENAI",
     "priority": 74,
@@ -541,7 +542,7 @@
     "source": "Reddit",
     "title": "Apple Releasing Two New iPhone Apps This Year",
     "displayTitle": "苹果今年将发布两款新的 iPhone 应用",
-    "summary": "r/apple • 547 points • 86 comments",
+    "summary": "r/apple • 589 points • 92 comments",
     "category": "APPLE",
     "topic": "APPLE",
     "priority": 74,
@@ -564,7 +565,7 @@
     "source": "Reddit",
     "title": "I've been \"gaslighting\" my AI models and it's producing insanely better results with simple prompt injection",
     "displayTitle": "简单提示注入反而让 AI 模型结果更好",
-    "summary": "r/ClaudeAI • 2103 points • 180 comments",
+    "summary": "r/ClaudeAI • 2196 points • 185 comments",
     "category": "AI",
     "topic": "CLAUDE",
     "priority": 74,
@@ -583,36 +584,12 @@
     "defaultVisible": false
   },
   {
-    "id": "9d6d379e00951bb1",
-    "timestamp": 1774753956,
-    "source": "Reddit",
-    "title": "[Updates] Patch Notes Version 1.01.00 | Crimson Desert - adds 5 summonable mounts, decreased loading times, some adjustments to controls, and more.",
-    "displayTitle": "",
-    "summary": "r/PS5 • 0 points • 65 comments",
-    "category": "GAME",
-    "topic": "PLAYSTATION",
-    "priority": 72,
-    "url": "https://www.reddit.com/r/PS5/comments/1s6k5k1/updates_patch_notes_version_10100_crimson_desert/",
-    "hot": true,
-    "tags": [
-      "GAME",
-      "PLAYSTATION",
-      "REDDIT"
-    ],
-    "sources": [
-      "Reddit"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "C",
-    "defaultVisible": false
-  },
-  {
     "id": "33219c6a54e7fde2",
     "timestamp": 1774752575,
     "source": "Reddit",
     "title": "Anthropic shares how to make Claude code better with a harness",
     "displayTitle": "",
-    "summary": "r/ClaudeAI • 0 points • 26 comments",
+    "summary": "r/ClaudeAI • 261 points • 46 comments",
     "category": "AI",
     "topic": "ANTHROPIC",
     "priority": 72,
@@ -677,39 +654,16 @@
     "defaultVisible": true
   },
   {
-    "id": "cbc4f15ace1b9efe",
-    "timestamp": 1774540321,
-    "source": "Tesla IR",
-    "title": "Q1 2026",
-    "displayTitle": "特斯拉 2026 年 Q1 季度更新",
-    "summary": "",
-    "category": "TESLA",
-    "topic": "TESLA",
-    "priority": 72,
-    "url": "https://ir.tesla.com/node/2538",
-    "hot": false,
-    "tags": [
-      "TESLA",
-      "TECH"
-    ],
-    "sources": [
-      "Tesla IR"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "A",
-    "defaultVisible": true
-  },
-  {
-    "id": "7c18d6b994fc5aec",
-    "timestamp": 1774758586,
+    "id": "3aa11c3549a9e9ac",
+    "timestamp": 1774763792,
     "source": "NYT",
-    "title": "U.S. 1:08",
+    "title": "smarter-living 0:48",
     "displayTitle": "",
     "summary": "",
     "category": "TECH",
     "topic": "NYT",
     "priority": 71,
-    "url": "https://www.nytimes.com/video/us/100000010804745/tsa-trump-payment-shutdown.html",
+    "url": "https://www.nytimes.com/video/smarter-living/wirecutter/100000010796369/macbook-neo-is-the-best-budget-laptop.html",
     "hot": true,
     "tags": [
       "TECH",
@@ -728,7 +682,7 @@
     "source": "Reddit",
     "title": "Anyone else’s Claude leaving them on “Read”?",
     "displayTitle": "",
-    "summary": "r/ClaudeAI • 242 points • 55 comments",
+    "summary": "r/ClaudeAI • 289 points • 59 comments",
     "category": "AI",
     "topic": "CLAUDE",
     "priority": 71,
@@ -747,12 +701,36 @@
     "defaultVisible": false
   },
   {
-    "id": "2dcb12a0f4a01592",
-    "timestamp": 1774758586,
+    "id": "6763bfe9706c17cb",
+    "timestamp": 1774736908,
+    "source": "Reddit",
+    "title": "Elder Scrolls mobile spinoff Blades is shutting down this summer after eight years, but at least all its store items are ultra-cheap now",
+    "displayTitle": "《上古卷轴：刀锋》将在今夏停止运营",
+    "summary": "r/nintendo • 21 points • 2 comments",
+    "category": "GAME",
+    "topic": "NINTENDO",
+    "priority": 71,
+    "url": "https://www.reddit.com/r/nintendo/comments/1s6e085/elder_scrolls_mobile_spinoff_blades_is_shutting/",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "NINTENDO",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "B",
+    "defaultVisible": false
+  },
+  {
+    "id": "2fc369de04d873bf",
+    "timestamp": 1774763792,
     "source": "NYT",
-    "title": "STRIPPED DOWN",
+    "title": "STRANGERS",
     "displayTitle": "",
-    "summary": "Hardcover Nonfiction • 5 weeks on the list • by Bunnie Xo • The host of the “Dumb Blonde Podcast” shares how redemption was an important part of her journey toward reaching her goals.",
+    "summary": "Hardcover Nonfiction • 9 weeks on the list • by Belle Burden • Burden retraces her marriage of 20 years in search of clues to help shape her understanding about its demise and to find a way forward.",
     "category": "BOOK",
     "topic": "BOOK",
     "priority": 70,
@@ -776,7 +754,7 @@
     "source": "Reddit",
     "title": "Andrew Curran: Anthropic May Have Had An Architectural Breakthrough!",
     "displayTitle": "",
-    "summary": "r/singularity • 307 points • 110 comments",
+    "summary": "r/singularity • 444 points • 154 comments",
     "category": "AI",
     "topic": "ANTHROPIC",
     "priority": 70,
@@ -800,7 +778,7 @@
     "source": "Reddit",
     "title": "‘Project Hail Mary’ Author Andy Weir Says Paramount Rejected His ‘Star Trek’ Pitch: Their “Shows Are Sh**”",
     "displayTitle": "",
-    "summary": "r/television • 3228 points • 525 comments",
+    "summary": "r/television • 3778 points • 578 comments",
     "category": "TV",
     "topic": "TV",
     "priority": 70,
@@ -823,7 +801,7 @@
     "source": "Reddit",
     "title": "Switch 2 Rumors: Zelda Remake and Star Fox Lead a Different 2026",
     "displayTitle": "Switch 2 传闻：《塞尔达》重制版与 Star Fox 或领衔 2026",
-    "summary": "r/Switch • 59 points • 31 comments",
+    "summary": "r/Switch • 71 points • 39 comments",
     "category": "GAME",
     "topic": "SWITCH",
     "priority": 70,
@@ -842,41 +820,17 @@
     "defaultVisible": false
   },
   {
-    "id": "6763bfe9706c17cb",
-    "timestamp": 1774736908,
-    "source": "Reddit",
-    "title": "Elder Scrolls mobile spinoff Blades is shutting down this summer after eight years, but at least all its store items are ultra-cheap now",
-    "displayTitle": "《上古卷轴：刀锋》将在今夏停止运营",
-    "summary": "r/nintendo • 20 points • 2 comments",
-    "category": "GAME",
-    "topic": "NINTENDO",
-    "priority": 70,
-    "url": "https://www.reddit.com/r/nintendo/comments/1s6e085/elder_scrolls_mobile_spinoff_blades_is_shutting/",
-    "hot": false,
-    "tags": [
-      "GAME",
-      "NINTENDO",
-      "REDDIT"
-    ],
-    "sources": [
-      "Reddit"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "B",
-    "defaultVisible": false
-  },
-  {
     "id": "22b6e60e695c16f3",
     "timestamp": 1774733098,
     "source": "Reddit",
     "title": "Natus Vincere vs. Movistar KOI / LEC 2026 Spring - Week 1 / Post-Match Discussion",
     "displayTitle": "英雄联盟：Natus Vincere 对 Movistar KOI 赛后讨论",
-    "summary": "r/leagueoflegends • 468 points • 221 comments",
+    "summary": "r/leagueoflegends • 499 points • 231 comments",
     "category": "GAME",
     "topic": "LEAGUE_OF_LEGENDS",
     "priority": 70,
     "url": "https://www.reddit.com/r/leagueoflegends/comments/1s6chgd/natus_vincere_vs_movistar_koi_lec_2026_spring/",
-    "hot": true,
+    "hot": false,
     "tags": [
       "GAME",
       "LEAGUE_OF_LEGENDS",
@@ -895,7 +849,7 @@
     "source": "Reddit",
     "title": "These U.S. States Plan to Offer iPhone's Driver's License Feature",
     "displayTitle": "更多美国州计划支持 iPhone 数字驾照功能",
-    "summary": "r/apple • 342 points • 124 comments",
+    "summary": "r/apple • 376 points • 127 comments",
     "category": "APPLE",
     "topic": "APPLE",
     "priority": 70,
@@ -918,7 +872,7 @@
     "source": "Reddit",
     "title": "Skyrim Still Looks Awesome on Switch 2!",
     "displayTitle": "《上古卷轴 5》在 Switch 2 上依旧很能打",
-    "summary": "r/Switch • 529 points • 61 comments",
+    "summary": "r/Switch • 551 points • 62 comments",
     "category": "GAME",
     "topic": "SWITCH",
     "priority": 70,
@@ -937,36 +891,12 @@
     "defaultVisible": false
   },
   {
-    "id": "75252ec661178498",
-    "timestamp": 1774736893,
-    "source": "Reddit",
-    "title": "Before Mario and the NES, Nintendo was founded in 1889 to make playing cards. I spent the last few months building a free web version of their original game, Hanafuda.",
-    "displayTitle": "任天堂在做游戏前，其实是一家做花札纸牌的公司",
-    "summary": "r/nintendo • 50 points • 27 comments",
-    "category": "GAME",
-    "topic": "NINTENDO",
-    "priority": 68,
-    "url": "https://www.reddit.com/r/nintendo/comments/1s6e00y/before_mario_and_the_nes_nintendo_was_founded_in/",
-    "hot": true,
-    "tags": [
-      "GAME",
-      "NINTENDO",
-      "REDDIT"
-    ],
-    "sources": [
-      "Reddit"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "B",
-    "defaultVisible": false
-  },
-  {
     "id": "5a7fd223f7ae7866",
     "timestamp": 1774705618,
     "source": "Reddit",
     "title": "Kingdom Come: Deliverance 2 dev says he was \"fired\" and replaced with AI: \"I feel incredibly betrayed by the management of the company I've come to care about\"",
     "displayTitle": "《天国：拯救 2》开发者称自己被 AI 取代",
-    "summary": "r/PS5 • 1353 points • 270 comments",
+    "summary": "r/PS5 • 1410 points • 275 comments",
     "category": "GAME",
     "topic": "PLAYSTATION",
     "priority": 68,
@@ -990,7 +920,7 @@
     "source": "Reddit",
     "title": "iPhone Air C1X modem matches Qualcomm speed & wins on latency",
     "displayTitle": "",
-    "summary": "r/apple • 789 points • 93 comments",
+    "summary": "r/apple • 815 points • 94 comments",
     "category": "APPLE",
     "topic": "APPLE",
     "priority": 68,
@@ -1031,39 +961,16 @@
     "defaultVisible": false
   },
   {
-    "id": "6b8863722bf7e97a",
-    "timestamp": 1774540239,
-    "source": "Tesla IR",
-    "title": "Q1 2026 Delivery Consensus",
-    "displayTitle": "特斯拉 2026 年 Q1 交付预期",
-    "summary": "",
-    "category": "TESLA",
-    "topic": "TESLA",
-    "priority": 68,
-    "url": "https://ir.tesla.com/press-release/delivery-consensus-first-quarter-2026",
-    "hot": false,
-    "tags": [
-      "TESLA",
-      "TECH"
-    ],
-    "sources": [
-      "Tesla IR"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "A",
-    "defaultVisible": true
-  },
-  {
-    "id": "3aa11c3549a9e9ac",
-    "timestamp": 1774758586,
+    "id": "0a52e234351482ec",
+    "timestamp": 1774763792,
     "source": "NYT",
-    "title": "smarter-living 0:48",
+    "title": "Iran War Live Updates: Tehran Hit by Heavy Airstrikes as U.S. Marines Arrive in Middle East",
     "displayTitle": "",
-    "summary": "",
+    "summary": "Airstrikes pummel residential areas and a university in Iran’s capital. Houthi forces in Yemen entered the widening conflict with a missile attack on Israel.",
     "category": "TECH",
     "topic": "NYT",
     "priority": 67,
-    "url": "https://www.nytimes.com/video/smarter-living/wirecutter/100000010796369/macbook-neo-is-the-best-budget-laptop.html",
+    "url": "https://www.nytimes.com/live/2026/03/29/world/iran-war-trump-israel-oil",
     "hot": true,
     "tags": [
       "TECH",
@@ -1101,16 +1008,16 @@
     "defaultVisible": true
   },
   {
-    "id": "4622bea1fb8b342d",
-    "timestamp": 1774758586,
+    "id": "2dcb12a0f4a01592",
+    "timestamp": 1774763792,
     "source": "NYT",
-    "title": "STRANGERS",
+    "title": "STRIPPED DOWN",
     "displayTitle": "",
-    "summary": "Combined Print & E-Book Nonfiction • 10 weeks on the list • by Belle Burden • Burden retraces her marriage of 20 years in search of clues to help shape her understanding about its demise and to find a way forward.",
+    "summary": "Hardcover Nonfiction • 5 weeks on the list • by Bunnie Xo • The host of the “Dumb Blonde Podcast” shares how redemption was an important part of her journey toward reaching her goals.",
     "category": "BOOK",
     "topic": "BOOK",
     "priority": 66,
-    "url": "https://www.nytimes.com/books/best-sellers/combined-print-and-e-book-nonfiction/",
+    "url": "https://www.nytimes.com/books/best-sellers/hardcover-nonfiction/",
     "hot": true,
     "tags": [
       "BOOK",
@@ -1130,7 +1037,7 @@
     "source": "Reddit",
     "title": "Rebs Gaming: Halo Studios reusing Halo Infinite models and assets for Halo: Campaign Evolved; new campaign mission info",
     "displayTitle": "",
-    "summary": "r/PS5 • 86 points • 41 comments",
+    "summary": "r/PS5 • 102 points • 44 comments",
     "category": "GAME",
     "topic": "PLAYSTATION",
     "priority": 66,
@@ -1149,12 +1056,36 @@
     "defaultVisible": false
   },
   {
+    "id": "ff2042e89eee5ef0",
+    "timestamp": 1774734525,
+    "source": "Reddit",
+    "title": "First Poster for Netflix's Horror-Thriller 'Thrash' - Starring Phoebe Dynevor, Djimon Hounsou, and Whitney Peak - When a Category 5 hurricane decimates a coastal town, the storm surge brings devastation, chaos and something far more frightening: hungry sharks.",
+    "displayTitle": "",
+    "summary": "r/movies • 740 points • 210 comments",
+    "category": "MOVIE",
+    "topic": "ETF",
+    "priority": 66,
+    "url": "https://www.reddit.com/r/movies/comments/1s6d27w/first_poster_for_netflixs_horrorthriller_thrash/",
+    "hot": true,
+    "tags": [
+      "MOVIE",
+      "ETF",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
     "id": "ebd37b2e555d7c7c",
     "timestamp": 1774726625,
     "source": "Reddit",
     "title": "The real danger of AGI isn't a robot uprising. It's that the public will permanently lose its bargaining power",
     "displayTitle": "AGI 的真正风险，不是机器人起义，而是公众失去议价能力",
-    "summary": "r/OpenAI • 79 points • 38 comments",
+    "summary": "r/OpenAI • 86 points • 41 comments",
     "category": "AI",
     "topic": "OPENAI",
     "priority": 66,
@@ -1173,12 +1104,36 @@
     "defaultVisible": false
   },
   {
+    "id": "5ba85edb3a701eef",
+    "timestamp": 1774724121,
+    "source": "Reddit",
+    "title": "What game would YOU make?",
+    "displayTitle": "",
+    "summary": "r/nintendo • 22 points • 71 comments",
+    "category": "GAME",
+    "topic": "NINTENDO",
+    "priority": 66,
+    "url": "https://www.reddit.com/r/nintendo/comments/1s68qkm/what_game_would_you_make/",
+    "hot": false,
+    "tags": [
+      "GAME",
+      "NINTENDO",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
     "id": "33520aabbad07f18",
     "timestamp": 1774723882,
     "source": "Reddit",
     "title": "Full LP refund for having AFKs on your team!",
     "displayTitle": "队友挂机时将全额返还 LP",
-    "summary": "r/leagueoflegends • 617 points • 142 comments",
+    "summary": "r/leagueoflegends • 646 points • 140 comments",
     "category": "GAME",
     "topic": "LEAGUE_OF_LEGENDS",
     "priority": 66,
@@ -1197,35 +1152,12 @@
     "defaultVisible": false
   },
   {
-    "id": "23569e71bb5066a6",
-    "timestamp": 1774719313,
-    "source": "Reddit",
-    "title": "New Poster for 'ROSEBUSH PRUNING' - Directed by Karim Aïnouz with screenplay by Efthymis Filippou starring Riley Keough, Elle Fanning, Pamela Anderson, Callum Turner, Jamie Bell & Tracy Letts",
-    "displayTitle": "",
-    "summary": "r/movies • 1000 points • 144 comments",
-    "category": "MOVIE",
-    "topic": "MOVIE",
-    "priority": 66,
-    "url": "https://www.reddit.com/r/movies/comments/1s66och/new_poster_for_rosebush_pruning_directed_by_karim/",
-    "hot": true,
-    "tags": [
-      "MOVIE",
-      "REDDIT"
-    ],
-    "sources": [
-      "Reddit"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "C",
-    "defaultVisible": false
-  },
-  {
     "id": "6eebd72f44c0f73e",
     "timestamp": 1774717483,
     "source": "Reddit",
     "title": "Barry Caldwell, ‘Animaniacs’ and ‘Osmosis Jones’ Animator, Dies at 68",
     "displayTitle": "",
-    "summary": "r/movies • 11283 points • 248 comments",
+    "summary": "r/movies • 11883 points • 255 comments",
     "category": "MOVIE",
     "topic": "MOVIE",
     "priority": 66,
@@ -1244,7 +1176,7 @@
   },
   {
     "id": "54159ca88ffd6f1e",
-    "timestamp": 1774758586,
+    "timestamp": 1774763793,
     "source": "Douban Movie Chart",
     "title": "河狸变身计划",
     "displayTitle": "河狸变身计划",
@@ -1267,7 +1199,7 @@
   },
   {
     "id": "83ee1de4a20a247c",
-    "timestamp": 1774758585,
+    "timestamp": 1774763792,
     "source": "JustWatch TV",
     "title": "The Madison",
     "displayTitle": "剧集：The Madison",
@@ -1318,7 +1250,7 @@
     "source": "Reddit",
     "title": "Its not sci-fi anymore! A Chinese company, Unipath has launched a household robot",
     "displayTitle": "",
-    "summary": "r/singularity • 385 points • 94 comments",
+    "summary": "r/singularity • 460 points • 105 comments",
     "category": "AI",
     "topic": "AI",
     "priority": 64,
@@ -1336,20 +1268,20 @@
     "defaultVisible": false
   },
   {
-    "id": "ff2042e89eee5ef0",
-    "timestamp": 1774734525,
+    "id": "ebc8aec630513e78",
+    "timestamp": 1774705846,
     "source": "Reddit",
-    "title": "First Poster for Netflix's Horror-Thriller 'Thrash' - Starring Phoebe Dynevor, Djimon Hounsou, and Whitney Peak - When a Category 5 hurricane decimates a coastal town, the storm surge brings devastation, chaos and something far more frightening: hungry sharks.",
+    "title": "Do you think the Switch 2 will see a price increase like the Playstation 5 soon?",
     "displayTitle": "",
-    "summary": "r/movies • 654 points • 196 comments",
-    "category": "MOVIE",
-    "topic": "ETF",
+    "summary": "r/nintendo • 203 points • 223 comments",
+    "category": "GAME",
+    "topic": "SWITCH",
     "priority": 64,
-    "url": "https://www.reddit.com/r/movies/comments/1s6d27w/first_poster_for_netflixs_horrorthriller_thrash/",
-    "hot": false,
+    "url": "https://www.reddit.com/r/nintendo/comments/1s60w75/do_you_think_the_switch_2_will_see_a_price/",
+    "hot": true,
     "tags": [
-      "MOVIE",
-      "ETF",
+      "GAME",
+      "SWITCH",
       "REDDIT"
     ],
     "sources": [
@@ -1411,7 +1343,7 @@
     "source": "Reddit",
     "title": "GPT 5.4 vs GPT 5.4 Pro - SVG Generation Capability",
     "displayTitle": "",
-    "summary": "r/OpenAI • 146 points • 22 comments",
+    "summary": "r/OpenAI • 150 points • 22 comments",
     "category": "AI",
     "topic": "OPENAI",
     "priority": 63,
@@ -1420,30 +1352,6 @@
     "tags": [
       "AI",
       "OPENAI",
-      "REDDIT"
-    ],
-    "sources": [
-      "Reddit"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "C",
-    "defaultVisible": false
-  },
-  {
-    "id": "ebc8aec630513e78",
-    "timestamp": 1774705846,
-    "source": "Reddit",
-    "title": "Do you think the Switch 2 will see a price increase like the Playstation 5 soon?",
-    "displayTitle": "",
-    "summary": "r/nintendo • 194 points • 219 comments",
-    "category": "GAME",
-    "topic": "SWITCH",
-    "priority": 63,
-    "url": "https://www.reddit.com/r/nintendo/comments/1s60w75/do_you_think_the_switch_2_will_see_a_price/",
-    "hot": false,
-    "tags": [
-      "GAME",
-      "SWITCH",
       "REDDIT"
     ],
     "sources": [
@@ -1479,7 +1387,7 @@
   },
   {
     "id": "bf3c7fc7cb4be92e",
-    "timestamp": 1774758586,
+    "timestamp": 1774763792,
     "source": "NYT",
     "title": "JUDGE STONE",
     "displayTitle": "",
@@ -1507,7 +1415,7 @@
     "source": "Reddit",
     "title": "Jensen Ackles Officially Confirms Plans For The Next 'The Boys' Series [Exclusive]",
     "displayTitle": "",
-    "summary": "r/television • 1196 points • 194 comments",
+    "summary": "r/television • 1357 points • 210 comments",
     "category": "TV",
     "topic": "TV",
     "priority": 62,
@@ -1530,7 +1438,7 @@
     "source": "Reddit",
     "title": "Usage limits",
     "displayTitle": "",
-    "summary": "r/Anthropic • 11 points • 7 comments",
+    "summary": "r/Anthropic • 17 points • 8 comments",
     "category": "AI",
     "topic": "ANTHROPIC",
     "priority": 62,
@@ -1549,12 +1457,36 @@
     "defaultVisible": false
   },
   {
+    "id": "933629c70f719168",
+    "timestamp": 1774711673,
+    "source": "Reddit",
+    "title": "Same $100/month. 10% of my income in Brazil. Degraded during my entire workday. No notice.",
+    "displayTitle": "同样 100 美元月费：整个工作日性能下降且没有通知",
+    "summary": "r/Anthropic • 304 points • 112 comments",
+    "category": "AI",
+    "topic": "ANTHROPIC",
+    "priority": 62,
+    "url": "https://www.reddit.com/r/Anthropic/comments/1s63cj7/same_100month_10_of_my_income_in_brazil_degraded/",
+    "hot": true,
+    "tags": [
+      "AI",
+      "ANTHROPIC",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "B",
+    "defaultVisible": false
+  },
+  {
     "id": "91989281deee5fc2",
     "timestamp": 1774704141,
     "source": "Reddit",
     "title": "Kingdom Come: Deliverance 2 dev says he was \"fired\" and replaced with AI: \"I feel incredibly betrayed by the management of the company I've come to care about\"",
     "displayTitle": "《天国：拯救 2》开发者称自己被 AI 取代",
-    "summary": "r/Games • 3142 points • 767 comments",
+    "summary": "r/Games • 3250 points • 783 comments",
     "category": "GAME",
     "topic": "GAME",
     "priority": 62,
@@ -1573,7 +1505,7 @@
   },
   {
     "id": "c52ff6c9f6314efe",
-    "timestamp": 1774758586,
+    "timestamp": 1774763793,
     "source": "Douban Movie Chart",
     "title": "侵略机器",
     "displayTitle": "",
@@ -1596,7 +1528,7 @@
   },
   {
     "id": "c20b94009e6c9534",
-    "timestamp": 1774758585,
+    "timestamp": 1774763792,
     "source": "JustWatch TV",
     "title": "Paradise",
     "displayTitle": "剧集：Paradise",
@@ -1618,16 +1550,39 @@
     "defaultVisible": false
   },
   {
-    "id": "0431f89c77301b18",
-    "timestamp": 1774746264,
+    "id": "cacc69a4a47f00df",
+    "timestamp": 1774756577,
     "source": "Reddit",
-    "title": "Avatar Legends The Fighting Game | Release Date Announcement Trailer",
+    "title": "Tron: Legacy (2010, dir. Joseph Kosinski) Sam Flynn vs Rinzler",
     "displayTitle": "",
-    "summary": "r/Games • 182 points • 53 comments",
+    "summary": "r/movies • 266 points • 47 comments",
+    "category": "MOVIE",
+    "topic": "MOVIE",
+    "priority": 61,
+    "url": "https://www.reddit.com/r/movies/comments/1s6kzzw/tron_legacy_2010_dir_joseph_kosinski_sam_flynn_vs/",
+    "hot": false,
+    "tags": [
+      "MOVIE",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
+    "id": "33fd44cdd7424793",
+    "timestamp": 1774754143,
+    "source": "Reddit",
+    "title": "[Updates] Patch Notes Version 1.01.00 | Crimson Desert - adds 5 summonable mounts, decreased loading times, some adjustments to controls, and more.",
+    "displayTitle": "",
+    "summary": "r/Games • 229 points • 150 comments",
     "category": "GAME",
     "topic": "GAME",
-    "priority": 60,
-    "url": "https://www.reddit.com/r/Games/comments/1s6hi4j/avatar_legends_the_fighting_game_release_date/",
+    "priority": 61,
+    "url": "https://www.reddit.com/r/Games/comments/1s6k7sw/updates_patch_notes_version_10100_crimson_desert/",
     "hot": false,
     "tags": [
       "GAME",
@@ -1646,7 +1601,7 @@
     "source": "Reddit",
     "title": "Bethesda delists Elder Scrolls Blades game from all platforms, and will take it offline in June (June 30th)",
     "displayTitle": "",
-    "summary": "r/Games • 570 points • 126 comments",
+    "summary": "r/Games • 610 points • 137 comments",
     "category": "GAME",
     "topic": "GAME",
     "priority": 60,
@@ -1669,7 +1624,7 @@
     "source": "Reddit",
     "title": "Barry Caldwell, ‘Animaniacs’ and ‘Osmosis Jones’ Animator, Dies at 68",
     "displayTitle": "",
-    "summary": "r/television • 2211 points • 36 comments",
+    "summary": "r/television • 2260 points • 37 comments",
     "category": "TV",
     "topic": "TV",
     "priority": 60,
@@ -1687,36 +1642,12 @@
     "defaultVisible": false
   },
   {
-    "id": "933629c70f719168",
-    "timestamp": 1774711673,
-    "source": "Reddit",
-    "title": "Same $100/month. 10% of my income in Brazil. Degraded during my entire workday. No notice.",
-    "displayTitle": "同样 100 美元月费：整个工作日性能下降且没有通知",
-    "summary": "r/Anthropic • 281 points • 108 comments",
-    "category": "AI",
-    "topic": "ANTHROPIC",
-    "priority": 60,
-    "url": "https://www.reddit.com/r/Anthropic/comments/1s63cj7/same_100month_10_of_my_income_in_brazil_degraded/",
-    "hot": true,
-    "tags": [
-      "AI",
-      "ANTHROPIC",
-      "REDDIT"
-    ],
-    "sources": [
-      "Reddit"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "B",
-    "defaultVisible": false
-  },
-  {
     "id": "5b0241f8829e9f51",
     "timestamp": 1774717020,
     "source": "Reddit",
     "title": "Anthropic reportedly views itself as the antidote to OpenAI's \"tobacco industry\" approach to AI",
     "displayTitle": "",
-    "summary": "r/Anthropic • 121 points • 26 comments",
+    "summary": "r/Anthropic • 127 points • 27 comments",
     "category": "AI",
     "topic": "OPENAI",
     "priority": 59,
@@ -1760,7 +1691,7 @@
   },
   {
     "id": "4054532afd172676",
-    "timestamp": 1774758586,
+    "timestamp": 1774763792,
     "source": "NYT",
     "title": "THE CORRESPONDENT",
     "displayTitle": "",
@@ -1788,7 +1719,7 @@
     "source": "Reddit",
     "title": "Altman is as evil as Stalin, and OpenAI is worse than cigarette companies - Dario Amodei",
     "displayTitle": "",
-    "summary": "r/OpenAI • 554 points • 184 comments",
+    "summary": "r/OpenAI • 577 points • 190 comments",
     "category": "AI",
     "topic": "OPENAI",
     "priority": 58,
@@ -1855,7 +1786,7 @@
   },
   {
     "id": "3d9779e7f2c823a4",
-    "timestamp": 1774758586,
+    "timestamp": 1774763793,
     "source": "Douban Movie Chart",
     "title": "家弑服务",
     "displayTitle": "",
@@ -1878,7 +1809,7 @@
   },
   {
     "id": "1eb9bfc69f6bde31",
-    "timestamp": 1774758585,
+    "timestamp": 1774763792,
     "source": "JustWatch TV",
     "title": "The Pitt",
     "displayTitle": "剧集：The Pitt",
@@ -1952,7 +1883,7 @@
     "source": "Reddit",
     "title": "New Price Changes for PS5, PS5 Pro, and PlayStation Portal remote player",
     "displayTitle": "",
-    "summary": "r/gadgets • 1265 points • 501 comments",
+    "summary": "r/gadgets • 1265 points • 503 comments",
     "category": "GAME",
     "topic": "PLAYSTATION",
     "priority": 56,
@@ -1996,7 +1927,7 @@
   },
   {
     "id": "7f4e607e92c50609",
-    "timestamp": 1774540800,
+    "timestamp": 1774569600,
     "source": "Riot Games",
     "title": "Have a Nice Deity! | SPACE GODS Set Cinematic – Teamfight Tactics",
     "displayTitle": "",
@@ -2019,12 +1950,12 @@
     "defaultVisible": false
   },
   {
-    "id": "5e3a79a469c6bad9",
-    "timestamp": 1774758586,
+    "id": "f1f7564066cdaa0c",
+    "timestamp": 1774763792,
     "source": "NYT",
-    "title": "PROJECT HAIL MARY",
+    "title": "THEO OF GOLDEN",
     "displayTitle": "",
-    "summary": "Combined Print & E-Book Fiction • 41 weeks on the list • by Andy Weir • Ryland Grace awakes from a long sleep alone and far from home, and the fate of humanity rests on his shoulders; the basis of the movie.",
+    "summary": "Combined Print & E-Book Fiction • 16 weeks on the list • by Allen Levi • A man travels to a small Southern town, where he purchases pencil drawings of local residents and exchanges them for stories.",
     "category": "BOOK",
     "topic": "BOOK",
     "priority": 54,
@@ -2043,12 +1974,12 @@
     "defaultVisible": false
   },
   {
-    "id": "f1f7564066cdaa0c",
-    "timestamp": 1774758586,
+    "id": "5e3a79a469c6bad9",
+    "timestamp": 1774763792,
     "source": "NYT",
-    "title": "THEO OF GOLDEN",
+    "title": "PROJECT HAIL MARY",
     "displayTitle": "",
-    "summary": "Combined Print & E-Book Fiction • 16 weeks on the list • by Allen Levi • A man travels to a small Southern town, where he purchases pencil drawings of local residents and exchanges them for stories.",
+    "summary": "Combined Print & E-Book Fiction • 41 weeks on the list • by Andy Weir • Ryland Grace awakes from a long sleep alone and far from home, and the fate of humanity rests on his shoulders; the basis of the movie.",
     "category": "BOOK",
     "topic": "BOOK",
     "priority": 54,
@@ -2072,7 +2003,7 @@
     "source": "Reddit",
     "title": "White House App Found Tracking Users' Exact Location Every 4.5 Minutes via Third-Party Server",
     "displayTitle": "",
-    "summary": "r/technology • 12249 points • 371 comments",
+    "summary": "r/technology • 14477 points • 423 comments",
     "category": "TECH",
     "topic": "TECH",
     "priority": 54,
@@ -2118,7 +2049,7 @@
     "source": "Reddit",
     "title": "White House unveils ‘OnlyFarms’ website, welcomes farmers with golden tractor on South Lawn",
     "displayTitle": "",
-    "summary": "r/technology • 7420 points • 717 comments",
+    "summary": "r/technology • 7790 points • 742 comments",
     "category": "TECH",
     "topic": "TECH",
     "priority": 54,
@@ -2187,7 +2118,7 @@
     "source": "Reddit",
     "title": "L.A. Dodgers Tell 82-Year-Old, 50-Year Season Ticket Holder: ‘Go Digital’—Or Don’t Go At All",
     "displayTitle": "",
-    "summary": "r/technology • 9161 points • 874 comments",
+    "summary": "r/technology • 9383 points • 885 comments",
     "category": "TECH",
     "topic": "TECH",
     "priority": 54,
@@ -2233,7 +2164,7 @@
     "source": "Reddit",
     "title": "Ukraine’s military brings exoskeletons to the front line",
     "displayTitle": "",
-    "summary": "r/gadgets • 3178 points • 182 comments",
+    "summary": "r/gadgets • 3309 points • 185 comments",
     "category": "TECH",
     "topic": "TECH",
     "priority": 54,
@@ -2275,7 +2206,7 @@
   },
   {
     "id": "9fd381bc18c5bc94",
-    "timestamp": 1774758586,
+    "timestamp": 1774763793,
     "source": "Douban Movie Chart",
     "title": "东京出租车",
     "displayTitle": "",
@@ -2298,7 +2229,7 @@
   },
   {
     "id": "cb8a7ec4003d61d9",
-    "timestamp": 1774758585,
+    "timestamp": 1774763792,
     "source": "JustWatch TV",
     "title": "Scarpetta",
     "displayTitle": "剧集：Scarpetta",
@@ -2343,6 +2274,29 @@
     "defaultVisible": false
   },
   {
+    "id": "f89d71b0ee59900b",
+    "timestamp": 1774475214,
+    "source": "Reddit",
+    "title": "Model Y is bestselling car in the world for 2025 (3rd year in a row), according to several firms.",
+    "displayTitle": "",
+    "summary": "r/teslamotors • 1069 points • 290 comments",
+    "category": "TESLA",
+    "topic": "TESLA",
+    "priority": 52,
+    "url": "https://www.reddit.com/r/teslamotors/comments/1s3og53/model_y_is_bestselling_car_in_the_world_for_2025/",
+    "hot": true,
+    "tags": [
+      "TESLA",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
     "id": "12989a99e84f634b",
     "timestamp": 1774537229,
     "source": "PlayStation Blog",
@@ -2367,7 +2321,7 @@
   },
   {
     "id": "724db6d9ad3012a4",
-    "timestamp": 1774758586,
+    "timestamp": 1774763793,
     "source": "Douban Movie Chart",
     "title": "至尊马蒂",
     "displayTitle": "",
@@ -2390,7 +2344,7 @@
   },
   {
     "id": "ca16611ebe200897",
-    "timestamp": 1774758586,
+    "timestamp": 1774763793,
     "source": "Douban Movie Chart",
     "title": "哈姆奈特",
     "displayTitle": "",
@@ -2413,7 +2367,7 @@
   },
   {
     "id": "2cc9a606312d09aa",
-    "timestamp": 1774758586,
+    "timestamp": 1774763793,
     "source": "Douban Movie Chart",
     "title": "用武之地",
     "displayTitle": "",
@@ -2436,7 +2390,7 @@
   },
   {
     "id": "7506994b588b1c53",
-    "timestamp": 1774758586,
+    "timestamp": 1774763793,
     "source": "Douban Movie Chart",
     "title": "你行！你上！",
     "displayTitle": "你行！你上！",
@@ -2459,7 +2413,7 @@
   },
   {
     "id": "4e70d6e4dfd74063",
-    "timestamp": 1774758586,
+    "timestamp": 1774763793,
     "source": "Douban Movie Chart",
     "title": "呼啸山庄",
     "displayTitle": "",
@@ -2482,7 +2436,7 @@
   },
   {
     "id": "097e18052bcb288c",
-    "timestamp": 1774758586,
+    "timestamp": 1774763793,
     "source": "Douban Movie Chart",
     "title": "局外人",
     "displayTitle": "",
@@ -2505,7 +2459,7 @@
   },
   {
     "id": "0efcd932c6ca7c4d",
-    "timestamp": 1774758585,
+    "timestamp": 1774763792,
     "source": "JustWatch TV",
     "title": "Shrinking",
     "displayTitle": "剧集：Shrinking",
@@ -2528,7 +2482,7 @@
   },
   {
     "id": "0e376afa54f55fc8",
-    "timestamp": 1774758585,
+    "timestamp": 1774763792,
     "source": "JustWatch TV",
     "title": "DTF St. Louis",
     "displayTitle": "剧集：DTF St. Louis",
@@ -2551,7 +2505,7 @@
   },
   {
     "id": "e4e321ec7852e5db",
-    "timestamp": 1774758585,
+    "timestamp": 1774763792,
     "source": "JustWatch TV",
     "title": "Monarch: Legacy of Monsters",
     "displayTitle": "",
@@ -2574,7 +2528,7 @@
   },
   {
     "id": "0463bcb4c70965cf",
-    "timestamp": 1774758585,
+    "timestamp": 1774763792,
     "source": "JustWatch TV",
     "title": "Rooster",
     "displayTitle": "剧集：Rooster",
@@ -2597,7 +2551,7 @@
   },
   {
     "id": "02bf8fda130896a7",
-    "timestamp": 1774758585,
+    "timestamp": 1774763792,
     "source": "JustWatch TV",
     "title": "Young Sherlock",
     "displayTitle": "剧集：Young Sherlock",
@@ -2620,7 +2574,7 @@
   },
   {
     "id": "4d41401244ccecc6",
-    "timestamp": 1774758585,
+    "timestamp": 1774763792,
     "source": "JustWatch TV",
     "title": "A Knight of the Seven Kingdoms",
     "displayTitle": "",
@@ -2643,7 +2597,7 @@
   },
   {
     "id": "337cc755fd11925b",
-    "timestamp": 1774758585,
+    "timestamp": 1774763791,
     "source": "JustWatch Movies",
     "title": "Hamnet",
     "displayTitle": "电影：Hamnet",
@@ -2666,7 +2620,7 @@
   },
   {
     "id": "35153abebe488e73",
-    "timestamp": 1774758585,
+    "timestamp": 1774763791,
     "source": "JustWatch Movies",
     "title": "The Secret Agent",
     "displayTitle": "",
@@ -2689,7 +2643,7 @@
   },
   {
     "id": "53c95bf8aa8b083a",
-    "timestamp": 1774758585,
+    "timestamp": 1774763791,
     "source": "JustWatch Movies",
     "title": "Sentimental Value",
     "displayTitle": "",
@@ -2712,7 +2666,7 @@
   },
   {
     "id": "11f779ad8d8f0873",
-    "timestamp": 1774758585,
+    "timestamp": 1774763791,
     "source": "JustWatch Movies",
     "title": "Marty Supreme",
     "displayTitle": "电影：Marty Supreme",
@@ -2735,7 +2689,7 @@
   },
   {
     "id": "abec643f4fe3403e",
-    "timestamp": 1774758585,
+    "timestamp": 1774763791,
     "source": "JustWatch Movies",
     "title": "One Battle After Another",
     "displayTitle": "",
@@ -2758,7 +2712,7 @@
   },
   {
     "id": "f174d9c8669339d5",
-    "timestamp": 1774758585,
+    "timestamp": 1774763791,
     "source": "JustWatch Movies",
     "title": "Ready or Not",
     "displayTitle": "电影：Ready or Not",
@@ -2781,7 +2735,7 @@
   },
   {
     "id": "ce5d3e17ff74858c",
-    "timestamp": 1774758585,
+    "timestamp": 1774763791,
     "source": "JustWatch Movies",
     "title": "Sinners",
     "displayTitle": "电影：Sinners",
@@ -2804,7 +2758,7 @@
   },
   {
     "id": "2d8dca30b4875c0b",
-    "timestamp": 1774758585,
+    "timestamp": 1774763791,
     "source": "JustWatch Movies",
     "title": "Project Hail Mary",
     "displayTitle": "",
@@ -2827,7 +2781,7 @@
   },
   {
     "id": "e836a4fe93e61402",
-    "timestamp": 1774758585,
+    "timestamp": 1774763791,
     "source": "JustWatch Movies",
     "title": "Bugonia",
     "displayTitle": "电影：Bugonia",
@@ -2850,7 +2804,7 @@
   },
   {
     "id": "3fa626fc69519b95",
-    "timestamp": 1774758585,
+    "timestamp": 1774763791,
     "source": "JustWatch Movies",
     "title": "The Housemaid",
     "displayTitle": "电影：The Housemaid",
@@ -2949,7 +2903,7 @@
     "source": "Reddit",
     "title": "Study: Balcony solar systems almost always pay off – but storage is more complicated",
     "displayTitle": "",
-    "summary": "r/gadgets • 344 points • 13 comments",
+    "summary": "r/gadgets • 426 points • 16 comments",
     "category": "TECH",
     "topic": "TECH",
     "priority": 48,
@@ -3064,7 +3018,7 @@
     "source": "Reddit",
     "title": "What *The Color Purple* means to me, and why it’s forever precious",
     "displayTitle": "",
-    "summary": "r/books • 168 points • 22 comments",
+    "summary": "r/books • 178 points • 26 comments",
     "category": "BOOK",
     "topic": "BOOK",
     "priority": 46,
@@ -3156,7 +3110,7 @@
     "source": "Reddit",
     "title": "Flashy Thing",
     "displayTitle": "图书：Flashy Thing",
-    "summary": "r/books • 58 points • 35 comments",
+    "summary": "r/books • 64 points • 37 comments",
     "category": "BOOK",
     "topic": "BOOK",
     "priority": 45,
@@ -3179,7 +3133,7 @@
     "source": "Reddit",
     "title": "The Child Thief by Brom",
     "displayTitle": "",
-    "summary": "r/books • 18 points • 2 comments",
+    "summary": "r/books • 26 points • 2 comments",
     "category": "BOOK",
     "topic": "BOOK",
     "priority": 44,
@@ -3309,29 +3263,6 @@
     ],
     "mergedCount": 1,
     "sourceLayer": "A",
-    "defaultVisible": false
-  },
-  {
-    "id": "f89d71b0ee59900b",
-    "timestamp": 1774475214,
-    "source": "Reddit",
-    "title": "Model Y is bestselling car in the world for 2025 (3rd year in a row), according to several firms.",
-    "displayTitle": "",
-    "summary": "r/teslamotors • 1067 points • 287 comments",
-    "category": "TESLA",
-    "topic": "TESLA",
-    "priority": 44,
-    "url": "https://www.reddit.com/r/teslamotors/comments/1s3og53/model_y_is_bestselling_car_in_the_world_for_2025/",
-    "hot": true,
-    "tags": [
-      "TESLA",
-      "REDDIT"
-    ],
-    "sources": [
-      "Reddit"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "C",
     "defaultVisible": false
   },
   {
@@ -3887,8 +3818,31 @@
     "defaultVisible": false
   },
   {
+    "id": "291e1b1c18317d0c",
+    "timestamp": 1774416455,
+    "source": "Reddit",
+    "title": "\"Something way cooler than a minivan is coming\"",
+    "displayTitle": "",
+    "summary": "r/teslamotors • 174 points • 345 comments",
+    "category": "TESLA",
+    "topic": "TESLA",
+    "priority": 36,
+    "url": "https://www.reddit.com/r/teslamotors/comments/1s320ic/something_way_cooler_than_a_minivan_is_coming/",
+    "hot": false,
+    "tags": [
+      "TESLA",
+      "REDDIT"
+    ],
+    "sources": [
+      "Reddit"
+    ],
+    "mergedCount": 1,
+    "sourceLayer": "C",
+    "defaultVisible": false
+  },
+  {
     "id": "1d90d88b02e994f5",
-    "timestamp": 1773504000,
+    "timestamp": 1773532800,
     "source": "Riot Games",
     "title": "NEVER FIGHT ALONE // Miks Agent Trailer - VALORANT",
     "displayTitle": "",
@@ -3908,29 +3862,6 @@
     ],
     "mergedCount": 1,
     "sourceLayer": "A",
-    "defaultVisible": false
-  },
-  {
-    "id": "291e1b1c18317d0c",
-    "timestamp": 1774416455,
-    "source": "Reddit",
-    "title": "\"Something way cooler than a minivan is coming\"",
-    "displayTitle": "",
-    "summary": "r/teslamotors • 178 points • 344 comments",
-    "category": "TESLA",
-    "topic": "TESLA",
-    "priority": 34,
-    "url": "https://www.reddit.com/r/teslamotors/comments/1s320ic/something_way_cooler_than_a_minivan_is_coming/",
-    "hot": false,
-    "tags": [
-      "TESLA",
-      "REDDIT"
-    ],
-    "sources": [
-      "Reddit"
-    ],
-    "mergedCount": 1,
-    "sourceLayer": "C",
     "defaultVisible": false
   },
   {
@@ -4050,7 +3981,7 @@
   },
   {
     "id": "b3c41f95b4906083",
-    "timestamp": 1773763200,
+    "timestamp": 1773792000,
     "source": "Sony Interactive",
     "title": "Sony Interactive Marks 200 Apprentices in Career Program",
     "displayTitle": "",
@@ -4119,7 +4050,7 @@
   },
   {
     "id": "d8d323f9ced7eb34",
-    "timestamp": 1773072000,
+    "timestamp": 1773100800,
     "source": "Riot Games",
     "title": "First Stand 2026",
     "displayTitle": "",
@@ -4143,7 +4074,7 @@
   },
   {
     "id": "72787d453dd06ed3",
-    "timestamp": 1772985600,
+    "timestamp": 1773014400,
     "source": "Riot Games",
     "title": "March Update 2026 | Dev Snapshot",
     "displayTitle": "",
@@ -4167,7 +4098,7 @@
   },
   {
     "id": "66dc497d371eb3d8",
-    "timestamp": 1772380800,
+    "timestamp": 1772409600,
     "source": "Riot Games",
     "title": "FST 2026 Primer",
     "displayTitle": "",
