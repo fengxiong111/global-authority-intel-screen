@@ -121,12 +121,48 @@
     let previousFeedIds = [];
     let lastRenderSignature = '';
 
-    const BUILDER_TOPICS = new Set([
-      'OPENAI','ANTHROPIC','CLAUDE','CLAUDE_CODE','OPENCLAW','APPLE','NINTENDO','SONY','PLAYSTATION','TESLA','ONEKEY'
-    ]);
-    const BUILDER_SOURCES = new Set([
-      'OpenAI News','Anthropic Newsroom','Apple Newsroom','Nintendo News','Sony Interactive','PlayStation Blog','Tesla IR','OpenClaw GitHub','OpenClaw Blog','OneKey Blog'
-    ]);
+    const SIGNAL_TERMS = {
+      direct: ['openclaw', 'agent', 'model', 'capability', 'tool', 'apple', 'iphone', 'mac', 'openai', 'anthropic', 'claude'],
+      market: ['btc', 'bitcoin', 'etf', 'fund flow', 'market structure'],
+      war: ['war', 'iran', 'middle east', 'ceasefire', 'strike', 'marines'],
+      weak: ['podcast', 'share of the week', 'discussion', 'thread', 'hands-on report'],
+      gameStrong: ['faker', 'lec', 'lck', 'worlds', 'championship', 'playstation', 'sony', 'nintendo', 'switch']
+    };
+
+    function hasCjk(value = '') {
+      return /[\u4e00-\u9fff]/.test(value);
+    }
+
+    function includesAny(text, words) {
+      return words.some((word) => text.includes(word));
+    }
+
+    function signalScore(item) {
+      const text = `${item.title || ''} ${item.displayTitle || ''} ${item.summary || ''}`.toLowerCase();
+      const source = item.source || '';
+      const topic = item.topic || '';
+      const category = item.category || '';
+      const priority = item.priority || 0;
+      let score = priority * 0.45;
+
+      if (!hasCjk(item.displayTitle || '') && topic !== 'OPENCLAW') return -999;
+
+      if (topic === 'OPENCLAW' || source.startsWith('OpenClaw')) score += 120;
+      if (includesAny(text, SIGNAL_TERMS.direct)) score += 35;
+      if (includesAny(text, SIGNAL_TERMS.market)) score += 55;
+      if (includesAny(text, SIGNAL_TERMS.war)) score += 55;
+
+      if (source === 'Reddit' && priority >= 70) score += 30;
+      if (source === 'NYT' && priority >= 65) score += 26;
+      if (['Douban Movie Chart', 'JustWatch Movies', 'JustWatch TV'].includes(source) && priority >= 58) score += 18;
+
+      if (source === 'NYT' && (text.includes('podcast') || text.includes('ezra klein show'))) score -= 30;
+      if (includesAny(text, SIGNAL_TERMS.weak)) score -= 35;
+      if (category === 'GAME' && !includesAny(text, SIGNAL_TERMS.gameStrong)) score -= 30;
+      if (item.sourceLayer === 'C' && !includesAny(text, [...SIGNAL_TERMS.direct, ...SIGNAL_TERMS.market, ...SIGNAL_TERMS.war])) score -= 40;
+
+      return Math.round(score * 10) / 10;
+    }
 
     function clampScroll(value) {
       const minY = Math.min(0, viewportEl.clientHeight - scrollLayerEl.scrollHeight);
@@ -232,11 +268,42 @@
       updateVisuals();
     }
 
-    function filterBuilders(items) {
-      return (Array.isArray(items) ? items : [])
-        .filter(item => item && item.defaultVisible)
-        .filter(item => BUILDER_TOPICS.has(item.topic) || BUILDER_SOURCES.has(item.source))
-        .slice(0, 12);
+    function buildSignalPool(items) {
+      const base = Array.isArray(items) ? items.filter(Boolean) : [];
+      const scored = base
+        .map((item) => ({ item, signalScore: signalScore(item) }))
+        .sort((a, b) => b.signalScore - a.signalScore || b.item.priority - a.item.priority || new Date(b.item.time) - new Date(a.item.time));
+
+      const thresholds = [90, 80, 70];
+
+      for (const threshold of thresholds) {
+        const selected = [];
+        const topicCap = new Map();
+
+        for (const entry of scored) {
+          if (entry.signalScore < threshold) continue;
+          const topicKey = entry.item.topic || entry.item.source || 'OTHER';
+          const cap = topicKey === 'OPENCLAW' ? 3 : 2;
+          const count = topicCap.get(topicKey) || 0;
+          if (count >= cap) continue;
+          topicCap.set(topicKey, count + 1);
+          selected.push({
+            ...entry.item,
+            signal_score: entry.signalScore,
+          });
+          if (selected.length >= 10) break;
+        }
+
+        if (selected.length >= 6) return selected;
+      }
+
+      return scored
+        .filter((entry) => entry.signalScore >= 70)
+        .slice(0, 10)
+        .map((entry) => ({
+          ...entry.item,
+          signal_score: entry.signalScore,
+        }));
     }
 
     async function loadFeed() {
@@ -244,7 +311,7 @@
         const res = await fetch(`./data/feed.json?t=${Date.now()}`, { cache: 'no-store' });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const data = await res.json();
-        render(filterBuilders(data));
+        render(buildSignalPool(data));
       } catch {
         feedEl.innerHTML = '<div class="empty">真实 feed 暂不可用</div>';
       }
