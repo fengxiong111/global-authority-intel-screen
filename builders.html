@@ -122,23 +122,46 @@
     let lastRenderSignature = '';
 
     const SIGNAL_TERMS = {
-      direct: ['openclaw', 'agent', 'model', 'capability', 'tool', 'apple', 'iphone', 'mac', 'openai', 'anthropic', 'claude'],
+      direct: ['openclaw', 'agent', 'model', 'capability', 'tool', 'apple', 'iphone', 'mac', 'openai', 'anthropic', 'claude', 'bug bounty', 'manufacturing', 'acquire'],
       market: ['btc', 'bitcoin', 'etf', 'fund flow', 'market structure'],
       war: ['war', 'iran', 'middle east', 'ceasefire', 'strike', 'marines'],
-      weak: ['podcast', 'share of the week', 'discussion', 'thread', 'hands-on report'],
+      legal: ['judge', 'court', 'pentagon', 'supply chain risk'],
+      security: ['security', 'audit', 'risk', 'breach', 'supply chain'],
+      weak: ['podcast', 'share of the week', 'discussion', 'thread', 'hands-on report', 'anyone else', 'on “read”', 'on "read"', 'trump pac', 'stalin', 'evil'],
       gameStrong: ['faker', 'lec', 'lck', 'worlds', 'championship', 'playstation', 'sony', 'nintendo', 'switch']
     };
+    const OFFICIAL_SOURCES = new Set([
+      'Apple Newsroom',
+      'OpenAI News',
+      'Anthropic Newsroom',
+      'Tesla IR',
+      'OpenClaw GitHub',
+      'OpenClaw Blog',
+      'OneKey Blog',
+      'PlayStation Blog',
+      'Sony Interactive'
+    ]);
 
     function hasCjk(value = '') {
       return /[\u4e00-\u9fff]/.test(value);
     }
 
+    function matchesTerm(text, term) {
+      if (!term) return false;
+      if (/[^\w-]/.test(term) || term.includes(' ')) {
+        return text.includes(term);
+      }
+      const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      return new RegExp(`(^|[^a-z0-9])${escaped}([^a-z0-9]|$)`, 'i').test(text);
+    }
+
     function includesAny(text, words) {
-      return words.some((word) => text.includes(word));
+      return words.some((word) => matchesTerm(text, word));
     }
 
     function signalScore(item) {
       const text = `${item.title || ''} ${item.displayTitle || ''} ${item.summary || ''}`.toLowerCase();
+      const rawTitle = item.title || '';
       const source = item.source || '';
       const topic = item.topic || '';
       const category = item.category || '';
@@ -146,22 +169,39 @@
       let score = priority * 0.45;
 
       if (!hasCjk(item.displayTitle || '') && topic !== 'OPENCLAW') return -999;
+      if (source === 'NYT' && /^[A-Za-z][A-Za-z.& -]+\s\d{1,2}:\d{2}$/.test(rawTitle)) return -999;
 
-      if (topic === 'OPENCLAW' || source.startsWith('OpenClaw')) score += 120;
-      if (includesAny(text, SIGNAL_TERMS.direct)) score += 35;
+      if (OFFICIAL_SOURCES.has(source)) score += 22;
+      if (item.sourceLayer === 'A') score += 12;
+      if (topic === 'OPENCLAW' || source.startsWith('OpenClaw')) score += 95;
+      if (includesAny(text, SIGNAL_TERMS.direct)) score += 26;
+      if (includesAny(text, SIGNAL_TERMS.security)) score += 22;
+      if (includesAny(text, SIGNAL_TERMS.legal)) score += 24;
       if (includesAny(text, SIGNAL_TERMS.market)) score += 55;
-      if (includesAny(text, SIGNAL_TERMS.war)) score += 55;
+      if (includesAny(text, SIGNAL_TERMS.war)) score += 48;
 
-      if (source === 'Reddit' && priority >= 70) score += 30;
-      if (source === 'NYT' && priority >= 65) score += 26;
+      if (source === 'Reddit' && priority >= 74) score += 12;
+      if (source === 'NYT' && priority >= 67) score += 16;
       if (['Douban Movie Chart', 'JustWatch Movies', 'JustWatch TV'].includes(source) && priority >= 58) score += 18;
 
       if (source === 'NYT' && (text.includes('podcast') || text.includes('ezra klein show'))) score -= 30;
+      if (source === 'Reddit') score -= 12;
       if (includesAny(text, SIGNAL_TERMS.weak)) score -= 35;
       if (category === 'GAME' && !includesAny(text, SIGNAL_TERMS.gameStrong)) score -= 30;
       if (item.sourceLayer === 'C' && !includesAny(text, [...SIGNAL_TERMS.direct, ...SIGNAL_TERMS.market, ...SIGNAL_TERMS.war])) score -= 40;
 
       return Math.round(score * 10) / 10;
+    }
+
+    function signalFamily(item) {
+      const text = `${item.title || ''} ${item.displayTitle || ''} ${item.summary || ''}`.toLowerCase();
+      if (item.topic === 'OPENCLAW' || (item.source || '').startsWith('OpenClaw')) return 'OPENCLAW_UPDATE';
+      if (includesAny(text, SIGNAL_TERMS.war)) return 'WAR_SIGNAL';
+      if (includesAny(text, SIGNAL_TERMS.market)) return 'MARKET_SIGNAL';
+      if (item.source === 'Reddit' && ['OPENAI', 'CLAUDE', 'ANTHROPIC'].includes(item.topic)) return 'AI_REDDIT';
+      if (item.topic === 'APPLE') return 'APPLE_SIGNAL';
+      if (item.topic === 'OPENAI') return 'OPENAI_SIGNAL';
+      return item.topic || item.source || 'OTHER';
     }
 
     function clampScroll(value) {
@@ -268,42 +308,46 @@
       updateVisuals();
     }
 
+    function selectSignalItems(scored, threshold) {
+      const selected = [];
+      const familyCap = new Map();
+      let redditCount = 0;
+      let nytCount = 0;
+
+      for (const entry of scored) {
+        if (entry.signalScore < threshold) continue;
+        const family = signalFamily(entry.item);
+        const count = familyCap.get(family) || 0;
+        if (count >= 1) continue;
+        if (entry.item.source === 'Reddit' && redditCount >= 2) continue;
+        if (entry.item.source === 'NYT' && nytCount >= 2) continue;
+        familyCap.set(family, count + 1);
+        if (entry.item.source === 'Reddit') redditCount += 1;
+        if (entry.item.source === 'NYT') nytCount += 1;
+        selected.push({
+          ...entry.item,
+          signal_score: entry.signalScore,
+        });
+        if (selected.length >= 8) break;
+      }
+
+      return selected;
+    }
+
     function buildSignalPool(items) {
       const base = Array.isArray(items) ? items.filter(Boolean) : [];
       const scored = base
         .map((item) => ({ item, signalScore: signalScore(item) }))
         .sort((a, b) => b.signalScore - a.signalScore || b.item.priority - a.item.priority || new Date(b.item.time) - new Date(a.item.time));
 
-      const thresholds = [90, 80, 70];
+      const thresholds = [95, 85, 70, 60];
 
       for (const threshold of thresholds) {
-        const selected = [];
-        const topicCap = new Map();
-
-        for (const entry of scored) {
-          if (entry.signalScore < threshold) continue;
-          const topicKey = entry.item.topic || entry.item.source || 'OTHER';
-          const cap = topicKey === 'OPENCLAW' ? 3 : 2;
-          const count = topicCap.get(topicKey) || 0;
-          if (count >= cap) continue;
-          topicCap.set(topicKey, count + 1);
-          selected.push({
-            ...entry.item,
-            signal_score: entry.signalScore,
-          });
-          if (selected.length >= 10) break;
-        }
-
+        const selected = selectSignalItems(scored, threshold);
         if (selected.length >= 6) return selected;
       }
 
-      return scored
-        .filter((entry) => entry.signalScore >= 70)
-        .slice(0, 10)
-        .map((entry) => ({
-          ...entry.item,
-          signal_score: entry.signalScore,
-        }));
+      return selectSignalItems(scored, 60);
     }
 
     async function loadFeed() {
