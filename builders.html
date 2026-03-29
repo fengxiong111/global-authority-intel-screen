@@ -17,7 +17,8 @@
     html.mobile body{min-height:100vh}
     .mobile .viewport{position:relative;inset:auto;overflow:visible;min-height:100vh}
     .mobile .scroll-layer{will-change:auto;transform:none !important}
-    .app{width:min(100vw,2620px);margin:0 auto;padding:34px 104px 42px}
+    .app{width:min(100vw,2620px);margin:0 auto;padding:22px 104px 42px}
+    .page-note{margin:0 0 10px;font-size:12px;line-height:1.35;letter-spacing:.04em;color:rgba(247,247,242,.42)}
     .feed{padding-top:0}
     .item{padding:16px 0 18px;border-bottom:1px solid transparent;transform-origin:center center;opacity:1;transform:translate3d(0,0,0) scale(1)}
     .item + .item{margin-top:2px}
@@ -43,7 +44,8 @@
       .mobile .item,.mobile .headline{transition:none !important}
     }
     @media (pointer: coarse) and (min-width: 820px) and (orientation: landscape){
-      .app{padding:20px 82px 32px}
+      .app{padding:14px 82px 32px}
+      .page-note{margin-bottom:8px;font-size:12px}
       .item{padding:13px 0 15px}
       .item:first-child{padding-top:14px;padding-bottom:28px;margin-bottom:10px}
       .item:nth-child(2){padding-top:19px;padding-bottom:21px;margin-bottom:11px}
@@ -60,7 +62,8 @@
       .item:nth-child(n+7) .meta{color:rgba(247,247,242,.41)}
     }
     @media (pointer: coarse) and (min-width: 820px) and (orientation: portrait){
-      .app{padding:18px 44px 32px}
+      .app{padding:14px 44px 32px}
+      .page-note{margin-bottom:8px;font-size:12px}
       .item{padding:12px 0 14px}
       .item:first-child{padding-top:10px;padding-bottom:24px;margin-bottom:10px}
       .item:nth-child(2){padding-top:16px;padding-bottom:19px;margin-bottom:10px}
@@ -77,7 +80,8 @@
       .item:nth-child(n+7) .meta{color:rgba(247,247,242,.41)}
     }
     @media (max-width: 900px){
-      .app{padding:12px 26px 28px}
+      .app{padding:10px 26px 28px}
+      .page-note{margin-bottom:8px;font-size:11px}
       .item{padding:14px 0 17px}
       .item:first-child{padding-top:8px;padding-bottom:26px;margin-bottom:10px}
       .item:nth-child(2){padding-top:16px;padding-bottom:22px;margin-bottom:10px}
@@ -101,6 +105,7 @@
     <div class="mask mask-bottom"></div>
     <div class="scroll-layer" id="scrollLayer">
       <div class="app">
+        <div class="page-note">Builders 精选</div>
         <main class="feed" id="feed"></main>
       </div>
     </div>
