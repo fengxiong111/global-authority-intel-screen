@@ -704,10 +704,55 @@
       return englishWords.length >= 4;
     }
 
+    function exploreSourceSet(item) {
+      const family = projectKey(item);
+      return new Set(
+        currentFeedItems
+          .filter((candidate) => projectKey(candidate) === family && ageHours(candidate) <= 72)
+          .map((candidate) => candidate.sourceType === 'x_hot' ? 'x_hot' : candidate.source === 'Reddit' ? 'reddit' : candidate.source === 'Hacker News' ? 'hn' : candidate.sourceType === 'github_trending' ? 'github' : sourceCategory(candidate))
+          .filter(Boolean)
+      );
+    }
+
+    function hasCrossSourceResonance(item) {
+      const sources = exploreSourceSet(item);
+      return (
+        (sources.has('x_hot') && sources.has('reddit'))
+        || (sources.has('x_hot') && sources.has('github'))
+        || (sources.has('reddit') && sources.has('hn'))
+      );
+    }
+
+    function hasAbnormalGrowth(item) {
+      if (item.source === 'Reddit') {
+        return Number(item.score || 0) >= 900 || Number(item.comments || 0) >= 120;
+      }
+      if (item.source === 'X' || item.sourceType === 'x_hot') {
+        const family = projectKey(item);
+        const xMentions = currentFeedItems.filter((candidate) =>
+          projectKey(candidate) === family
+          && ageHours(candidate) <= 24
+          && (candidate.source === 'X' || candidate.sourceType === 'x_hot')
+        ).length;
+        return xMentions >= 2;
+      }
+      return false;
+    }
+
+    function hasStructuralSignal(item) {
+      const text = `${item.title || ''} ${item.displayTitle || ''}`.toLowerCase();
+      return includesAny(text, ['leak', 'early', 'first look', 'demo', 'alpha', 'insider']);
+    }
+
+    function passesExploreGate(item) {
+      return hasCrossSourceResonance(item) || hasAbnormalGrowth(item) || hasStructuralSignal(item);
+    }
+
     function pickExplorationEntry(scored, selectedItems) {
       const selectedKeys = new Set((selectedItems || []).map((item) => snapshotItemKey(item)));
       return scored
         .filter((entry) => looksReadableTitle(entry.item.displayTitle || entry.item.title))
+        .filter((entry) => passesExploreGate(entry.item))
         .filter((entry) => !hasEnteredFirstScreen(entry.item))
         .filter((entry) => !selectedKeys.has(snapshotItemKey(entry.item)))
         .sort((a, b) => {
