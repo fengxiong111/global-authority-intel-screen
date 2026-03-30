@@ -36,6 +36,7 @@
     .item:nth-child(n+7) .headline{max-width:25.1ch;font-size:clamp(26px,3vw,48px);line-height:1.2;font-weight:505;color:rgba(247,247,242,.79);text-wrap:pretty}
     .item:nth-child(n+7) .meta{color:rgba(247,247,242,.38)}
     .meta{margin-top:8px;font-size:clamp(12px,1.02vw,14px);line-height:1.22;font-weight:475;letter-spacing:.012em;color:rgba(247,247,242,.48)}
+    .meta-sub{margin-top:4px;font-size:11px;line-height:1.2;font-weight:430;letter-spacing:.01em;color:rgba(247,247,242,.32)}
     .item:first-child .meta{color:rgba(247,247,242,.5)}
     .item:nth-child(2) .meta{color:rgba(247,247,242,.49)}
     .empty{padding:48px 0;color:#777;font-size:24px}
@@ -60,6 +61,7 @@
       .item:nth-child(n+3):nth-child(-n+6) .headline{max-width:25.1ch;font-size:clamp(27px,3.06vw,38px);line-height:1.18;font-weight:515;color:rgba(247,247,242,.84)}
       .item:nth-child(n+7) .headline{max-width:25.3ch;font-size:clamp(24px,2.8vw,33px);line-height:1.19;font-weight:500;color:rgba(247,247,242,.8)}
       .meta{margin-top:7px;font-size:13px;line-height:1.22;font-weight:478;color:rgba(247,247,242,.5)}
+      .meta-sub{margin-top:4px;font-size:11px;color:rgba(247,247,242,.33)}
       .item:first-child .meta{color:rgba(247,247,242,.52)}
       .item:nth-child(2) .meta{color:rgba(247,247,242,.5)}
       .item:nth-child(n+7) .meta{color:rgba(247,247,242,.41)}
@@ -79,6 +81,7 @@
       .item:nth-child(n+3):nth-child(-n+6) .headline{max-width:24.3ch;font-size:clamp(26px,3.42vw,37px);line-height:1.185;font-weight:515;color:rgba(247,247,242,.84)}
       .item:nth-child(n+7) .headline{max-width:24.3ch;font-size:clamp(23px,3.1vw,32px);line-height:1.195;font-weight:500;color:rgba(247,247,242,.8)}
       .meta{margin-top:7px;font-size:13px;line-height:1.22;font-weight:478;color:rgba(247,247,242,.5)}
+      .meta-sub{margin-top:4px;font-size:11px;color:rgba(247,247,242,.33)}
       .item:first-child .meta{color:rgba(247,247,242,.52)}
       .item:nth-child(2) .meta{color:rgba(247,247,242,.5)}
       .item:nth-child(n+7) .meta{color:rgba(247,247,242,.41)}
@@ -98,6 +101,7 @@
       .item:nth-child(n+3):nth-child(-n+6) .headline{max-width:100%;font-size:clamp(25px,6.9vw,41px);line-height:1.18;font-weight:520;color:rgba(247,247,242,.83)}
       .item:nth-child(n+7) .headline{max-width:100%;font-size:clamp(22px,6.32vw,36px);line-height:1.19;font-weight:500;color:rgba(247,247,242,.79)}
       .meta{margin-top:6px;font-size:12px;color:rgba(247,247,242,.44)}
+      .meta-sub{margin-top:4px;font-size:10px;color:rgba(247,247,242,.31)}
       .mask{height:8vh}
     }
     @media (prefers-reduced-motion: reduce){
@@ -723,6 +727,17 @@
       );
     }
 
+    function formatExploreSources(item) {
+      const sources = exploreSourceSet(item);
+      const labels = [];
+      if (sources.has('x_hot')) labels.push('X');
+      if (sources.has('reddit')) labels.push('Reddit');
+      if (sources.has('github')) labels.push('GitHub');
+      if (sources.has('hn')) labels.push('HN');
+      if (!labels.length) return '来源：多源信号';
+      return `来源：${labels.slice(0, 2).join(' + ')}`;
+    }
+
     function hasAbnormalGrowth(item) {
       if (item.source === 'Reddit') {
         return Number(item.score || 0) >= 900 || Number(item.comments || 0) >= 120;
@@ -1089,9 +1104,15 @@
       headline.textContent = item.title || "";
       const meta = document.createElement("div");
       meta.className = "meta";
-      meta.textContent = item.exploreSlot ? 'EXPLORE' : formatRelativeTime(item.ts);
+      meta.textContent = item.exploreSlot ? '● 可能早期信号' : formatRelativeTime(item.ts);
       article.appendChild(headline);
       article.appendChild(meta);
+      if (item.exploreSlot) {
+        const subMeta = document.createElement("div");
+        subMeta.className = "meta-sub";
+        subMeta.textContent = formatExploreSources(item);
+        article.appendChild(subMeta);
+      }
       if (entering && !reduceMotion) {
         article.classList.add('entering');
         requestAnimationFrame(() => article.classList.remove('entering'));
@@ -1127,7 +1148,18 @@
           const textEl = node.querySelector('.headline');
           if (textEl && textEl.textContent !== (item.title || '')) textEl.textContent = item.title || '';
           const metaEl = node.querySelector('.meta');
-          if (metaEl) metaEl.textContent = item.exploreSlot ? 'EXPLORE' : formatRelativeTime(item.ts);
+          if (metaEl) metaEl.textContent = item.exploreSlot ? '● 可能早期信号' : formatRelativeTime(item.ts);
+          let subMetaEl = node.querySelector('.meta-sub');
+          if (item.exploreSlot) {
+            if (!subMetaEl) {
+              subMetaEl = document.createElement('div');
+              subMetaEl.className = 'meta-sub';
+              node.appendChild(subMetaEl);
+            }
+            subMetaEl.textContent = formatExploreSources(item);
+          } else if (subMetaEl) {
+            subMetaEl.remove();
+          }
         }
         fragment.appendChild(node);
       }
