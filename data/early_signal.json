@@ -1,5 +1,21 @@
 [
   {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 5,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-03-27T11:43:16.000Z",
+    "sources": [
+      "OneKey Blog",
+      "The Block",
+      "The Defiant"
+    ]
+  },
+  {
     "topic": "Anthropic",
     "type": "AI",
     "mentions": 4,
@@ -13,22 +29,6 @@
       "NYT",
       "Reddit",
       "SemiAnalysis"
-    ]
-  },
-  {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-03-27T11:43:16.000Z",
-    "sources": [
-      "OneKey Blog",
-      "The Block",
-      "The Defiant"
     ]
   },
   {

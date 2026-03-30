@@ -1,5 +1,53 @@
 [
   {
+    "fetch_time": 1774841711,
+    "count": 4,
+    "titles": [
+      "BTC 两周新低，4.43 亿美元多头爆仓",
+      "BTC ETF 价格战打起来了：大摩压到 0.14%",
+      "GitHub 热门工具：claude-mem",
+      "OpenClaw 联手 VirusTotal 强化技能安全"
+    ],
+    "items": [
+      {
+        "id": "9a71e3fcb10eb150",
+        "title": "BTC 两周新低，4.43 亿美元多头爆仓",
+        "topic": "BTC",
+        "source": "The Defiant",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "4bce53c930038fcd",
+        "title": "BTC ETF 价格战打起来了：大摩压到 0.14%",
+        "topic": "BTC",
+        "source": "The Block",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "f63726b1d231df04",
+        "title": "GitHub 热门工具：claude-mem",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1774840245,
     "count": 4,
     "titles": [
