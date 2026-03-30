@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1774904320,
+    "count": 1,
+    "titles": [
+      "Claude Opus 4.6 发布"
+    ],
+    "items": [
+      {
+        "id": "2b1e6bdecefe6606",
+        "title": "Claude Opus 4.6 发布",
+        "topic": "CLAUDE",
+        "source": "Anthropic Newsroom",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1774900972,
     "count": 4,
     "titles": [

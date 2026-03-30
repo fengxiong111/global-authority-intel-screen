@@ -1,22 +1,5 @@
 [
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 6,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-03-27T11:43:16.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Block",
-      "X"
-    ]
-  },
-  {
     "topic": "科技",
     "type": "OTHER",
     "mentions": 3,
@@ -33,47 +16,33 @@
     ]
   },
   {
-    "topic": "OpenClaw",
+    "topic": "Codex",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 0,
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-03-28T00:00:00.000Z",
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-03-30T15:47:20.000Z",
     "sources": [
-      "OpenClaw Blog",
-      "OpenClaw GitHub"
+      "Reddit",
+      "X"
     ]
   },
   {
-    "topic": "ETF",
+    "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 2,
+    "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-03-30T14:45:22.000Z",
+    "first_seen_at": "2026-03-27T11:43:16.000Z",
     "sources": [
       "Bloomberg",
       "The Block"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-03-30T17:42:31.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
