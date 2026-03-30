@@ -1,5 +1,22 @@
 [
   {
+    "topic": "bitcoin",
+    "type": "CRYPTO",
+    "mentions": 6,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-03-27T11:43:16.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block",
+      "X"
+    ]
+  },
+  {
     "topic": "科技",
     "type": "OTHER",
     "mentions": 3,
@@ -16,22 +33,22 @@
     ]
   },
   {
-    "topic": "Anthropic",
+    "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-03-30T13:22:55.000Z",
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-03-28T00:00:00.000Z",
     "sources": [
-      "Reddit",
-      "SemiAnalysis"
+      "OpenClaw Blog",
+      "OpenClaw GitHub"
     ]
   },
   {
-    "topic": "Bitcoin",
+    "topic": "ETF",
     "type": "CRYPTO",
     "mentions": 3,
     "trusted_mentions": 2,
@@ -39,10 +56,24 @@
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-03-27T11:43:16.000Z",
+    "first_seen_at": "2026-03-30T14:45:22.000Z",
     "sources": [
       "Bloomberg",
       "The Block"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-03-30T17:42:31.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
