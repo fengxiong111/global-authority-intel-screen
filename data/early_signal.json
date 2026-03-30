@@ -2,17 +2,18 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 5,
-    "trusted_mentions": 3,
+    "mentions": 7,
+    "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-03-27T11:43:16.000Z",
     "sources": [
       "OneKey Blog",
       "The Block",
-      "The Defiant"
+      "The Defiant",
+      "X"
     ]
   },
   {
@@ -32,6 +33,21 @@
     ]
   },
   {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-03-30T01:42:45.000Z",
+    "sources": [
+      "Karpathy",
+      "Reddit"
+    ]
+  },
+  {
     "topic": "OpenClaw",
     "type": "AI",
     "mentions": 4,
@@ -44,21 +60,6 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
-    ]
-  },
-  {
-    "topic": "Trump",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-03-30T11:02:01.000Z",
-    "sources": [
-      "Bloomberg",
-      "NYT"
     ]
   }
 ]
