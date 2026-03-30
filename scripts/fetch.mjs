@@ -109,6 +109,11 @@ for (const sourceName of [
 }
 
 const finalFeed = feed.length > 0 ? feed : existingFeed;
+const existingById = new Map(existingFeed.map((item) => [item.id, item]));
+for (const item of finalFeed) {
+  const existing = existingById.get(item.id);
+  item.first_seen_at = existing?.first_seen_at || existing?.fetched_at || item.first_seen_at || item.fetched_at || item.published_at || batchFetchedAt;
+}
 const earlySignals = buildEarlySignalPool(finalFeed, existingFeed, existingEarlySignals);
 const finalFetchTime = feed.length > 0
   ? Math.floor(Date.now() / 1000)

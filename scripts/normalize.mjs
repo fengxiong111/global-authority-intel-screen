@@ -588,11 +588,13 @@ function toValidIso(value, now = new Date()) {
 function normalizeItemTimes(item, now = new Date()) {
   const publishedAt = toValidIso(item.published_at || item.time || item.timestamp, now);
   const fetchedAt = toValidIso(item.fetched_at || now.toISOString(), now) || now.toISOString();
+  const firstSeenAt = toValidIso(item.first_seen_at || '', now);
   const effectiveAt = publishedAt || fetchedAt;
   return {
     ...item,
     published_at: publishedAt,
     fetched_at: fetchedAt,
+    first_seen_at: firstSeenAt,
     time_source: publishedAt ? 'published_at' : 'fetched_at',
     effective_at: effectiveAt,
     effective_timestamp: toValidTimestamp(effectiveAt, now),
@@ -608,6 +610,7 @@ function stripInternal(item) {
     summary: item.summary || '',
     published_at: item.published_at || '',
     fetched_at: item.fetched_at || '',
+    first_seen_at: item.first_seen_at || '',
     time_source: item.time_source || 'fetched_at',
     category: item.category,
     topic: item.topic,
@@ -622,6 +625,10 @@ function stripInternal(item) {
     defaultVisible: Boolean(item.defaultVisible),
     author: item.author || '',
     trustedAuthor: Boolean(item.trustedAuthor),
+    score: Number(item.score || 0),
+    comments: Number(item.comments || 0),
+    likes: Number(item.likes || 0),
+    views: Number(item.views || 0),
     meaning: item.meaning || '',
     action_hint: item.action_hint || '',
     urgency: item.urgency || '',
