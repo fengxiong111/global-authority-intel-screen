@@ -1,18 +1,18 @@
 [
   {
-    "topic": "OpenClaw",
-    "type": "AI",
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
     "mentions": 5,
-    "trusted_mentions": 2,
-    "community_hits": 1,
+    "trusted_mentions": 3,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
-    "first_seen_at": "2026-03-28T00:00:00.000Z",
+    "first_seen_at": "2026-03-27T11:43:16.000Z",
     "sources": [
-      "OpenClaw Blog",
-      "OpenClaw GitHub",
-      "Reddit"
+      "OneKey Blog",
+      "The Block",
+      "The Defiant"
     ]
   },
   {
@@ -32,22 +32,6 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-03-27T11:43:16.000Z",
-    "sources": [
-      "OneKey Blog",
-      "The Block",
-      "The Defiant"
-    ]
-  },
-  {
     "topic": "Claude",
     "type": "AI",
     "mentions": 3,
@@ -60,6 +44,36 @@
     "sources": [
       "Anthropic Newsroom",
       "Reddit"
+    ]
+  },
+  {
+    "topic": "OpenClaw",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-03-28T00:00:00.000Z",
+    "sources": [
+      "OpenClaw Blog",
+      "OpenClaw GitHub"
+    ]
+  },
+  {
+    "topic": "Trump",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-03-30T11:02:01.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT"
     ]
   }
 ]
