@@ -178,29 +178,88 @@
       return a.every((value, index) => value === b[index]);
     }
 
-    function latestFrontChangeTime(snapshots) {
-      if (!Array.isArray(snapshots) || !snapshots.length) return null;
-      let lastTitles = snapshots[0].titles || [];
-      let changeTs = validUnix(snapshots[0].fetch_time);
-      for (let i = 1; i < snapshots.length; i += 1) {
-        const current = snapshots[i];
-        if (!titlesEqual(lastTitles, current.titles || [])) break;
-        changeTs = validUnix(current.fetch_time) || changeTs;
+    function firstScreenState(currentTitles, observeSnapshots, feedTs) {
+      const snapshots = Array.isArray(observeSnapshots) ? observeSnapshots : [];
+      const latest = snapshots[0] || null;
+      const latestTitles = Array.isArray(latest?.titles) ? latest.titles : [];
+      const latestTs = validUnix(latest?.fetch_time);
+
+      if (!currentTitles.length) {
+        return {
+          changeTime: latestTs || feedTs,
+          previousTitles: latestTitles,
+          unchanged: false,
+          unsyncedReason: 'no_current_titles',
+        };
       }
-      return changeTs;
+
+      if (!latest) {
+        return {
+          changeTime: feedTs,
+          previousTitles: [],
+          unchanged: false,
+          unsyncedReason: 'builders_observe_missing',
+        };
+      }
+
+      if (!titlesEqual(currentTitles, latestTitles)) {
+        return {
+          changeTime: feedTs,
+          previousTitles: latestTitles,
+          unchanged: false,
+          unsyncedReason: 'builders_observe_stale',
+        };
+      }
+
+      let changeTime = latestTs || feedTs;
+      let previousTitles = [];
+      let unchanged = false;
+
+      for (let i = 1; i < snapshots.length; i += 1) {
+        const snapshotTitles = Array.isArray(snapshots[i]?.titles) ? snapshots[i].titles : [];
+        if (!titlesEqual(currentTitles, snapshotTitles)) {
+          previousTitles = snapshotTitles;
+          unchanged = true;
+          break;
+        }
+        changeTime = validUnix(snapshots[i]?.fetch_time) || changeTime;
+      }
+
+      return {
+        changeTime,
+        previousTitles,
+        unchanged,
+        unsyncedReason: '',
+      };
     }
 
-    function renderPageStatus({ feedFetchTime, observeSnapshots, observeHeaderTime, earlyHeaderTime }) {
+    function renderPageStatus({ feedFetchTime, observeSnapshots, earlyHeaderTime, currentFirstScreenTitles }) {
       const feedTs = validUnix(feedFetchTime);
-      const observeTs = validUnix(observeSnapshots?.[0]?.fetch_time) || observeHeaderTime;
+      const observeTs = validUnix(observeSnapshots?.[0]?.fetch_time);
       const earlyTs = earlyHeaderTime;
-      const frontChangedTs = latestFrontChangeTime(observeSnapshots) || observeTs;
-      const observeStale = feedTs && observeTs && Math.abs(feedTs - observeTs) > 120;
-      const earlyStale = feedTs && earlyTs && Math.abs(feedTs - earlyTs) > 120;
+      const cycleSlack = 15 * 60;
+      const firstScreen = firstScreenState(currentFirstScreenTitles, observeSnapshots, feedTs);
+      const observeUnsynced = !observeTs || !feedTs || (feedTs - observeTs) > cycleSlack;
+      const earlyUnsynced = !earlyTs || !feedTs || (feedTs - earlyTs) > cycleSlack;
+      const observeReason = !observeTs ? 'builders_observe_missing' : ((feedTs - observeTs) > cycleSlack ? 'builders_observe_lagging' : firstScreen.unsyncedReason || '');
+      const earlyReason = !earlyTs ? 'early_signal_missing' : ((feedTs - earlyTs) > cycleSlack ? 'early_signal_lagging' : '');
+      const frontSuffix = observeUnsynced ? '（未同步）' : (firstScreen.unchanged ? '（未变化）' : '');
+      const earlySuffix = earlyUnsynced ? '（未同步）' : '';
 
       pageUpdatedEl.textContent = `本页更新于 ${formatHm(feedTs)}`;
-      pageFrontChangeEl.textContent = `第一屏最近一次变化：${formatHm(frontChangedTs)}${observeStale ? '（未同步）' : ''}`;
-      pageEarlyUpdatedEl.textContent = `Early signal 最近一次更新：${formatHm(earlyTs)}${earlyStale ? '（未同步）' : ''}`;
+      pageFrontChangeEl.textContent = `第一屏最近一次变化：${formatHm(firstScreen.changeTime)}${frontSuffix}`;
+      pageEarlyUpdatedEl.textContent = `Early signal 最近一次更新：${formatHm(earlyTs)}${earlySuffix}`;
+
+      console.log('[builders] feed_fetch_time', feedTs);
+      console.log('[builders] builders_observe_time', observeTs);
+      console.log('[builders] builders_first_screen_change_time', firstScreen.changeTime);
+      console.log('[builders] early_signal_time', earlyTs);
+      console.log('[builders] current_first_screen_titles', currentFirstScreenTitles);
+      console.log('[builders] previous_first_screen_titles', firstScreen.previousTitles);
+      console.log('[builders] unsynced_reason', {
+        builders_observe: observeReason,
+        early_signal: earlyReason,
+      });
     }
 
     function readAttentionState() {
@@ -1123,13 +1182,14 @@
           }
         }
 
+        const firstScreenItems = buildSignalPool(data);
         renderPageStatus({
           feedFetchTime: Array.isArray(payload) ? null : payload.fetch_time,
           observeSnapshots,
-          observeHeaderTime: parseHeaderTime(observeRes.headers.get('last-modified')),
           earlyHeaderTime,
+          currentFirstScreenTitles: firstScreenItems.map((item) => item.title || ''),
         });
-        render(buildSignalPool(data));
+        render(firstScreenItems);
       } catch {
         feedEl.innerHTML = '<div class="empty">真实 feed 暂不可用</div>';
       }
