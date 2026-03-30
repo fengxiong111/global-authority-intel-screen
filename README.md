@@ -64,13 +64,63 @@ Current ship-it defaults:
 npm run fetch
 ```
 
-This runs every source adapter, normalizes the items, deduplicates, scores priority, then writes `data/feed.json`.
+This runs every source adapter, normalizes the items, deduplicates, scores priority, then writes:
+
+- `/Users/qiang/Downloads/全球热门动向/data/feed.json`
+- `/Users/qiang/Downloads/全球热门动向/data/early_signal.json`
+- `/Users/qiang/Downloads/全球热门动向/data/builders_observe.json`
+- `/Users/qiang/Downloads/全球热门动向/data/grok_digest.json`
+- `/Users/qiang/Downloads/全球热门动向/data/grok_now.json`
 
 The pipeline fails soft:
 
 - one adapter failing does not stop the run
 - Reddit or NYT fully failing keeps the last successful items from that source in `data/feed.json`
 - Actions logs print short source-level errors only
+
+## xAI / Grok candidate pool
+
+This repo now supports a second data lane:
+
+- **Grok candidate pool** via the **xAI API**
+- xAI does the search + Chinese compression
+- local rules decide what enters `/Users/qiang/Downloads/全球热门动向/data/grok_now.json`
+
+Files:
+
+- `/Users/qiang/Downloads/全球热门动向/data/grok_digest.json`
+  - topic
+  - title_zh
+  - summary_zh
+  - source_types
+  - original_urls
+  - freshness_hours
+  - confidence
+- `/Users/qiang/Downloads/全球热门动向/data/grok_now.json`
+  - title_zh
+  - topic
+  - freshness_hours
+  - why_now
+  - source_types
+
+Rules:
+
+- xAI uses `x_search`
+- output must be Chinese, one sentence, no URL, no long English line
+- `grok_now.json` keeps at most 4 items
+- items older than 6 hours do not enter `grok_now.json`
+- trend analysis / recap / generic discussion are dropped locally
+
+To enable it locally:
+
+```bash
+export XAI_API_KEY=your_key_here
+npm run fetch
+```
+
+To enable it in GitHub Actions:
+
+- add repository secret: `XAI_API_KEY`
 
 ## Add a new source adapter
 

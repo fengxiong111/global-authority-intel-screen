@@ -1,5 +1,13 @@
 import { buildBuildersObservation, buildEarlySignalPool, normalizeFeed } from './normalize.mjs';
-import { BUILDERS_OBSERVE_PATH, EARLY_SIGNAL_PATH, FEED_PATH, readJson, writeJson } from './utils.mjs';
+import {
+  BUILDERS_OBSERVE_PATH,
+  EARLY_SIGNAL_PATH,
+  FEED_PATH,
+  GROK_DIGEST_PATH,
+  GROK_NOW_PATH,
+  readJson,
+  writeJson,
+} from './utils.mjs';
 import apple from './sources/apple.mjs';
 import openai from './sources/openai.mjs';
 import anthropic from './sources/anthropic.mjs';
@@ -25,6 +33,7 @@ import highSignalBlogs from './sources/high_signal_blogs.mjs';
 import cryptoNative from './sources/crypto_native.mjs';
 import xScan from './sources/x_scan.mjs';
 import hnTop from './sources/hn_top.mjs';
+import grokXai, { readExistingGrokFiles } from './sources/grok_xai.mjs';
 
 const sources = [
   apple,
@@ -77,6 +86,7 @@ for (let index = 0; index < sources.length; index += 1) {
 }
 
 const existingPayload = await readJson(FEED_PATH, []);
+const existingGrok = await readExistingGrokFiles(GROK_DIGEST_PATH, GROK_NOW_PATH);
 const existingFeed = (Array.isArray(existingPayload) ? existingPayload : (existingPayload.items || [])).map((item) => ({
   ...item,
   fetched_at: item.fetched_at || batchFetchedAt,
@@ -124,6 +134,7 @@ if (feed.length === 0 && existingFeed.length > 0) {
 }
 
 const buildersObserve = buildBuildersObservation(finalFeed, existingBuildersObserve, finalFetchTime);
+const grokData = await grokXai(existingGrok.digest, existingGrok.now);
 
 await writeJson(FEED_PATH, {
   fetch_time: finalFetchTime,
@@ -132,4 +143,6 @@ await writeJson(FEED_PATH, {
 });
 await writeJson(EARLY_SIGNAL_PATH, earlySignals);
 await writeJson(BUILDERS_OBSERVE_PATH, buildersObserve);
-console.log(`wrote ${finalFeed.length} items, ${earlySignals.length} early signals, ${buildersObserve.length} builders snapshots -> ${FEED_PATH}`);
+await writeJson(GROK_DIGEST_PATH, grokData.digest);
+await writeJson(GROK_NOW_PATH, grokData.now);
+console.log(`wrote ${finalFeed.length} items, ${earlySignals.length} early signals, ${buildersObserve.length} builders snapshots, ${grokData.digest.length} grok digest, ${grokData.now.length} grok now -> ${FEED_PATH}`);

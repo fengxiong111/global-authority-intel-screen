@@ -25,16 +25,19 @@ jobs:
         run: npm ci
 
       - name: Refresh data/feed.json
+        env:
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          XAI_MODEL: grok-4-fast-non-reasoning
         run: npm run fetch
 
       - name: Commit updated feed
         run: |
-          if git diff --quiet -- data/feed.json data/builders_observe.json data/early_signal.json; then
+          if git diff --quiet -- data/feed.json data/builders_observe.json data/early_signal.json data/grok_digest.json data/grok_now.json; then
             echo "No feed changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/feed.json data/builders_observe.json data/early_signal.json
+          git add data/feed.json data/builders_observe.json data/early_signal.json data/grok_digest.json data/grok_now.json
           git commit -m "chore: update authority intel feed"
           git push
