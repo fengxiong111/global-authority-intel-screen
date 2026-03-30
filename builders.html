@@ -689,26 +689,20 @@
       return item.sourceType === 'github_trending' || item.source === 'GitHub Trending';
     }
 
-    function interactionValue(item) {
-      return Math.max(Number(item.score || 0), Number(item.comments || 0) * 4, Number(item.likes || 0), Number(item.views || 0) / 1000);
+    function hasEnteredFirstScreen(item) {
+      return snapshotHistory(item).length > 0;
     }
 
-    function isFirstSeenInCurrentFeed(item) {
-      const firstSeenTs = validTimestamp(firstSeenValue(item));
-      const fetchedTs = validTimestamp(item?.fetched_at || null);
-      if (!firstSeenTs || !fetchedTs) return false;
-      return Math.abs(firstSeenTs - fetchedTs) <= 15 * 60;
-    }
-
-    function isNewSignalBypass(entry) {
-      const item = entry.item;
-      const sourceOk = item.source === 'X' || item.source === 'Reddit';
-      if (!sourceOk) return false;
-      if (ageHours(item) > 24) return false;
-      if (!isFirstSeenInCurrentFeed(item)) return false;
-      const threshold = item.source === 'Reddit' ? 800 : 120;
-      if (interactionValue(item) < threshold) return false;
-      return true;
+    function pickExplorationEntry(scored, selectedItems) {
+      const selectedKeys = new Set((selectedItems || []).map((item) => snapshotItemKey(item)));
+      return scored
+        .filter((entry) => !hasEnteredFirstScreen(entry.item))
+        .filter((entry) => !selectedKeys.has(snapshotItemKey(entry.item)))
+        .sort((a, b) => {
+          const aFirstSeen = validTimestamp(firstSeenValue(a.item)) || 0;
+          const bFirstSeen = validTimestamp(firstSeenValue(b.item)) || 0;
+          return bFirstSeen - aFirstSeen || b.item.timestamp - a.item.timestamp;
+        })[0] || null;
     }
 
     function githubTrendingCanLead(item, attention) {
@@ -1038,7 +1032,7 @@
       headline.textContent = item.title || "";
       const meta = document.createElement("div");
       meta.className = "meta";
-      meta.textContent = item.newSignal ? 'NEW SIGNAL' : formatRelativeTime(item.ts);
+      meta.textContent = item.exploreSlot ? 'EXPLORE' : formatRelativeTime(item.ts);
       article.appendChild(headline);
       article.appendChild(meta);
       if (entering && !reduceMotion) {
@@ -1076,7 +1070,7 @@
           const textEl = node.querySelector('.headline');
           if (textEl && textEl.textContent !== (item.title || '')) textEl.textContent = item.title || '';
           const metaEl = node.querySelector('.meta');
-          if (metaEl) metaEl.textContent = formatRelativeTime(item.ts);
+          if (metaEl) metaEl.textContent = item.exploreSlot ? 'EXPLORE' : formatRelativeTime(item.ts);
         }
         fragment.appendChild(node);
       }
@@ -1252,20 +1246,17 @@
             title: item.displayTitle || item.title || '',
             ts: displayTimestamp(item),
           }));
-          const bypassEntry = scored.find((entry) => isNewSignalBypass(entry));
-          if (bypassEntry) {
-            const bypassItem = {
-              ...bypassEntry.item,
-              title: bypassEntry.item.displayTitle || bypassEntry.item.title || '',
-              ts: displayTimestamp(bypassEntry.item),
-              newSignal: true,
+          const exploreEntry = pickExplorationEntry(scored, finalItems);
+          if (exploreEntry) {
+            const exploreItem = {
+              ...exploreEntry.item,
+              title: exploreEntry.item.displayTitle || exploreEntry.item.title || '',
+              ts: displayTimestamp(exploreEntry.item),
+              exploreSlot: true,
             };
-            const exists = finalItems.some((item) => snapshotItemKey(item) === snapshotItemKey(bypassItem));
-            if (!exists) {
-              const nextItems = finalItems.slice();
-              nextItems.splice(Math.min(2, nextItems.length), 0, bypassItem);
-              finalItems.splice(0, finalItems.length, ...nextItems.slice(0, 6));
-            }
+            const nextItems = finalItems.slice();
+            nextItems.splice(Math.min(2, nextItems.length), 0, exploreItem);
+            finalItems.splice(0, finalItems.length, ...nextItems.slice(0, 6));
           }
           console.log('[builders] filtered_count', scored.length);
           console.log('[builders] first_screen_count', finalItems.length);
@@ -1279,20 +1270,17 @@
         title: item.displayTitle || item.title || '',
         ts: displayTimestamp(item),
       }));
-      const bypassEntry = scored.find((entry) => isNewSignalBypass(entry));
-      if (bypassEntry) {
-        const bypassItem = {
-          ...bypassEntry.item,
-          title: bypassEntry.item.displayTitle || bypassEntry.item.title || '',
-          ts: displayTimestamp(bypassEntry.item),
-          newSignal: true,
+      const exploreEntry = pickExplorationEntry(scored, fallbackItems);
+      if (exploreEntry) {
+        const exploreItem = {
+          ...exploreEntry.item,
+          title: exploreEntry.item.displayTitle || exploreEntry.item.title || '',
+          ts: displayTimestamp(exploreEntry.item),
+          exploreSlot: true,
         };
-        const exists = fallbackItems.some((item) => snapshotItemKey(item) === snapshotItemKey(bypassItem));
-        if (!exists) {
-          const nextItems = fallbackItems.slice();
-          nextItems.splice(Math.min(2, nextItems.length), 0, bypassItem);
-          fallbackItems.splice(0, fallbackItems.length, ...nextItems.slice(0, 6));
-        }
+        const nextItems = fallbackItems.slice();
+        nextItems.splice(Math.min(2, nextItems.length), 0, exploreItem);
+        fallbackItems.splice(0, fallbackItems.length, ...nextItems.slice(0, 6));
       }
       console.log('[builders] filtered_count', scored.length);
       console.log('[builders] first_screen_count', fallbackItems.length);
