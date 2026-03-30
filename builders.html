@@ -693,9 +693,21 @@
       return snapshotHistory(item).length > 0;
     }
 
+    function looksReadableTitle(value) {
+      const text = String(value || '').trim();
+      if (!text) return false;
+      if (text.length < 20) return false;
+      if (/https?:\/\//i.test(text)) return false;
+      if (/www\./i.test(text)) return false;
+      if (/[\u4e00-\u9fff]/.test(text)) return true;
+      const englishWords = text.match(/[A-Za-z][A-Za-z'-]{2,}/g) || [];
+      return englishWords.length >= 4;
+    }
+
     function pickExplorationEntry(scored, selectedItems) {
       const selectedKeys = new Set((selectedItems || []).map((item) => snapshotItemKey(item)));
       return scored
+        .filter((entry) => looksReadableTitle(entry.item.displayTitle || entry.item.title))
         .filter((entry) => !hasEnteredFirstScreen(entry.item))
         .filter((entry) => !selectedKeys.has(snapshotItemKey(entry.item)))
         .sort((a, b) => {

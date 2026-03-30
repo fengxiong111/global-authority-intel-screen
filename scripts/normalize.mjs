@@ -244,6 +244,7 @@ function agePenalty(itemTime, now) {
 
 function trimTitleNoise(value) {
   return cleanText(value)
+    .replace(/https?:\/\/\S+/gi, ' ')
     .replace(/\s*\/\s*Post-Match Discussion.*$/i, '')
     .replace(/\s*[-—|:]\s*(discussion|thread|megathread|live|live updates|update)\s*$/i, '')
     .replace(/^(discussion|thread|megathread|live updates?):\s*/i, '')
@@ -251,6 +252,20 @@ function trimTitleNoise(value) {
     .replace(/^Live Updates:\s*/i, '')
     .replace(/\s+/g, ' ')
     .trim();
+}
+
+function cleanIngressTitle(value) {
+  let text = cleanText(value)
+    .replace(/https?:\/\/\S+/gi, ' ')
+    .replace(/\|\s*https?:\/\/.*$/i, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  if (!text) return '';
+  if (/^https?:\/\//i.test(text)) return '';
+  if (/^[A-Za-z]+:\/\/\S+$/i.test(text)) return '';
+  if (text.length > 120) text = text.slice(0, 120).trim();
+  return text;
 }
 
 function titleLooksLowSignal(value) {
@@ -586,12 +601,16 @@ function toValidIso(value, now = new Date()) {
 }
 
 function normalizeItemTimes(item, now = new Date()) {
+  const cleanedTitle = cleanIngressTitle(item.raw_text || item.title || item.summary || '');
+  const cleanedSummary = cleanText(item.summary || '').replace(/https?:\/\/\S+/gi, ' ').replace(/\s+/g, ' ').trim();
   const publishedAt = toValidIso(item.published_at || item.time || item.timestamp, now);
   const fetchedAt = toValidIso(item.fetched_at || now.toISOString(), now) || now.toISOString();
   const firstSeenAt = toValidIso(item.first_seen_at || '', now);
   const effectiveAt = publishedAt || fetchedAt;
   return {
     ...item,
+    title: cleanedTitle,
+    summary: cleanedSummary,
     published_at: publishedAt,
     fetched_at: fetchedAt,
     first_seen_at: firstSeenAt,

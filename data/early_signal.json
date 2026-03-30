@@ -47,21 +47,6 @@
     ]
   },
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-03-29T14:00:00.000Z",
-    "sources": [
-      "Bloomberg",
-      "Karpathy"
-    ]
-  },
-  {
     "topic": "OpenClaw",
     "type": "AI",
     "mentions": 4,
@@ -77,15 +62,15 @@
     ]
   },
   {
-    "topic": "polymarket",
+    "topic": "JUST",
     "type": "CRYPTO",
-    "mentions": 3,
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0,
-    "first_seen_at": "2026-03-27T16:54:33.000Z",
+    "first_seen_at": "2026-03-29T21:03:08.000Z",
     "sources": [
       "X"
     ]
