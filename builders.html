@@ -139,6 +139,7 @@
     let lastRenderSignature = "";
     let currentFeedItems = [];
     let currentEarlySignals = [];
+    let currentObserveSnapshots = [];
     const FEED_URL = './data/feed.json';
     const BUILDERS_OBSERVE_URL = './data/builders_observe.json';
     const EARLY_SIGNAL_URL = './data/early_signal.json';
@@ -579,6 +580,56 @@
       if (ageHours(item) <= 12) score += 18;
       if (isBtcExtremeSignal(item, text) || isWarEscalation(item, text)) score += 16;
       return score;
+    }
+
+    function snapshotItemKey(item) {
+      return String(item.id || item.title || '').trim();
+    }
+
+    function snapshotHistory(item) {
+      const key = snapshotItemKey(item);
+      return (Array.isArray(currentObserveSnapshots) ? currentObserveSnapshots : []).filter((snapshot) => {
+        const snapshotItems = Array.isArray(snapshot?.items) ? snapshot.items : [];
+        return snapshotItems.some((entry) => snapshotItemKey(entry) === key);
+      });
+    }
+
+    function repetitionCount(item) {
+      return snapshotHistory(item).length;
+    }
+
+    function firstSeenAt(item) {
+      const history = snapshotHistory(item);
+      if (!history.length) return item.timestamp || null;
+      let earliest = null;
+      for (const snapshot of history) {
+        const ts = validUnix(snapshot.fetch_time);
+        if (!ts) continue;
+        earliest = earliest == null ? ts : Math.min(earliest, ts);
+      }
+      return earliest || item.timestamp || null;
+    }
+
+    function hasFreshDelta(entry) {
+      return entry.deltaSignal >= 120;
+    }
+
+    function decayScore(entry) {
+      const nowTs = Math.floor(Date.now() / 1000);
+      const repeats = repetitionCount(entry.item);
+      const firstSeenTs = firstSeenAt(entry.item);
+      const hours = firstSeenTs ? Math.max(0, (nowTs - firstSeenTs) / 3600) : 0;
+      const repeatPenalty = repeats * 8;
+      const timePenalty = hours * 1.4;
+      return Math.round((repeatPenalty + timePenalty) * 10) / 10;
+    }
+
+    function finalAttentionScore(entry) {
+      let score = entry.attentionScore - entry.decayScore;
+      if (repetitionCount(entry.item) >= 3 && !hasFreshDelta(entry)) {
+        score *= 0.7;
+      }
+      return Math.round(score * 10) / 10;
     }
 
     function preferenceWeight(item) {
@@ -1026,32 +1077,41 @@
       let earlyCount = 0;
 
       const candidates = scored.filter((entry) => {
-        if (Math.max(entry.signalScore, entry.attentionScore) < threshold) return false;
+        if (Math.max(entry.signalScore, entry.finalScore) < threshold) return false;
         return THEME_CAPS.has(themeBucket(entry.item));
       }).filter((entry) => crossSourceCount(entry.item) >= 2);
+
+      function canPickWithCounts(item, currentSelected, sourceCapMap, themeCapMap, projectCapMap, toolTotal, githubTotal, diversifyFirstFive) {
+        const theme = themeBucket(item);
+        const project = projectKey(item);
+        const nextSourceCount = sourceCapMap.get(item.source) || 0;
+        const themeLimit = THEME_CAPS.get(theme) || 0;
+        if (!themeLimit) return false;
+        if ((projectCapMap.get(project) || 0) >= 1) return false;
+        if (nextSourceCount >= 2) return false;
+        if ((themeCapMap.get(theme) || 0) >= themeLimit) return false;
+        if (diversifyFirstFive && currentSelected.length < 5 && themeLimit > 1 && (themeCapMap.get(theme) || 0) >= 1) return false;
+        if (isNearDuplicate(item, currentSelected)) return false;
+        if (isToolItem(item) && toolTotal >= 1) return false;
+        if (isGithubTrendingItem(item) && githubTotal >= 1) return false;
+        return true;
+      }
 
       function tryPick(entry, diversifyFirstFive) {
         const item = {
           ...entry.item,
           signal_score: entry.signalScore,
         };
+        if (!canPickWithCounts(item, selected, sourceCap, themeCap, projectCap, toolCount, githubTrendingCount, diversifyFirstFive)) return;
+
         const theme = themeBucket(item);
         const project = projectKey(item);
         const nextSourceCount = sourceCap.get(item.source) || 0;
-        const themeLimit = THEME_CAPS.get(theme) || 0;
-
-        if (!themeLimit) return;
-        if ((projectCap.get(project) || 0) >= 1) return;
-        if (nextSourceCount >= 2) return;
-        if ((themeCap.get(theme) || 0) >= themeLimit) return;
-        if (diversifyFirstFive && selected.length < 5 && themeLimit > 1 && (themeCap.get(theme) || 0) >= 1) return;
-        if (isNearDuplicate(item, selected)) return;
-        if (isToolItem(item) && toolCount >= 1) return;
-
         projectCap.set(project, (projectCap.get(project) || 0) + 1);
         sourceCap.set(item.source, nextSourceCount + 1);
         themeCap.set(theme, (themeCap.get(theme) || 0) + 1);
         if (isToolItem(item)) toolCount += 1;
+        if (isGithubTrendingItem(item)) githubTrendingCount += 1;
         if (isDecisionItem(item)) decisionCount += 1;
         if (isEarlyOpportunity(item)) earlyCount += 1;
         selected.push(item);
@@ -1077,6 +1137,45 @@
         tryPick(entry, false);
       }
 
+      const previousSnapshot = Array.isArray(currentObserveSnapshots) && currentObserveSnapshots.length ? currentObserveSnapshots[0] : null;
+      const previousKeys = new Set((previousSnapshot?.items || []).map((item) => snapshotItemKey(item)));
+      if (previousKeys.size) {
+        const selectedKeys = selected.map((item) => snapshotItemKey(item));
+        const unchanged = selectedKeys.length > 0 && selectedKeys.every((key) => previousKeys.has(key));
+        if (unchanged) {
+          for (let replaceIndex = selected.length - 1; replaceIndex >= 0; replaceIndex -= 1) {
+            const baseSelected = selected.filter((_, index) => index !== replaceIndex);
+            const tempSourceCap = new Map();
+            const tempThemeCap = new Map();
+            const tempProjectCap = new Map();
+            let tempToolCount = 0;
+            let tempGithubCount = 0;
+            for (const picked of baseSelected) {
+              const theme = themeBucket(picked);
+              const project = projectKey(picked);
+              tempProjectCap.set(project, (tempProjectCap.get(project) || 0) + 1);
+              tempSourceCap.set(picked.source, (tempSourceCap.get(picked.source) || 0) + 1);
+              tempThemeCap.set(theme, (tempThemeCap.get(theme) || 0) + 1);
+              if (isToolItem(picked)) tempToolCount += 1;
+              if (isGithubTrendingItem(picked)) tempGithubCount += 1;
+            }
+            const replacement = candidates.find((entry) => {
+              const key = snapshotItemKey(entry.item);
+              if (previousKeys.has(key)) return false;
+              if (selected.some((picked) => snapshotItemKey(picked) === key)) return false;
+              return canPickWithCounts(entry.item, baseSelected, tempSourceCap, tempThemeCap, tempProjectCap, tempToolCount, tempGithubCount, false);
+            });
+            if (replacement) {
+              selected.splice(replaceIndex, 1, {
+                ...replacement.item,
+                signal_score: replacement.signalScore,
+              });
+              break;
+            }
+          }
+        }
+      }
+
       return selected;
     }
 
@@ -1091,7 +1190,7 @@
       const scored = base
         .map((item) => {
           const text = `${item.title || ''} ${item.displayTitle || ''} ${item.summary || ''}`.toLowerCase();
-          return {
+          const entry = {
             item,
             attentionScore: attentionScore(item),
             signalScore: signalScore(item),
@@ -1101,11 +1200,14 @@
             headlineClass: headlineClass(item),
             boost: candidateBoost(item),
           };
+          entry.decayScore = decayScore(entry);
+          entry.finalScore = finalAttentionScore(entry);
+          return entry;
         })
-        .filter((entry) => (entry.signalScore >= 60 || entry.attentionScore >= 60) && THEME_CAPS.has(themeBucket(entry.item)))
+        .filter((entry) => (entry.signalScore >= 60 || entry.finalScore >= 60) && THEME_CAPS.has(themeBucket(entry.item)))
         .sort((a, b) =>
-          b.deltaSignal - a.deltaSignal
-          || b.attentionScore - a.attentionScore
+          b.finalScore - a.finalScore
+          || b.deltaSignal - a.deltaSignal
           || b.signalScore - a.signalScore
           || b.sourcePriority - a.sourcePriority
           || b.recencyScore - a.recencyScore
@@ -1159,8 +1261,6 @@
         const data = Array.isArray(payload) ? payload : (payload.items || []);
         currentFeedItems = data;
         currentEarlySignals = Array.isArray(payload) ? [] : (payload.early_signals || []);
-        console.log('[builders] data_count', data.length);
-        console.log('[builders] item_titles', data.map((item) => item.title));
 
         let observeSnapshots = [];
         if (observeRes.ok) {
@@ -1170,6 +1270,10 @@
             observeSnapshots = [];
           }
         }
+
+        currentObserveSnapshots = observeSnapshots;
+        console.log('[builders] data_count', data.length);
+        console.log('[builders] item_titles', data.map((item) => item.title));
 
         let earlyHeaderTime = parseHeaderTime(earlyRes.headers.get('last-modified'));
         if (!earlyRes.ok) {
