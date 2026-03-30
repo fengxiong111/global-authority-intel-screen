@@ -1,6 +1,6 @@
 [
   {
-    "topic": "bitcoin",
+    "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 6,
     "trusted_mentions": 4,
@@ -50,7 +50,7 @@
   {
     "topic": "ETF",
     "type": "CRYPTO",
-    "mentions": 3,
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -65,7 +65,7 @@
   {
     "topic": "JUST",
     "type": "CRYPTO",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
