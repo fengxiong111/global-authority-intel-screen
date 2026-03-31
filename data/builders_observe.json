@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1774990577,
+    "count": 3,
+    "titles": [
+      "OpenClaw 正式版更新 2026.3.31",
+      "Claude Opus 4.6 发布",
+      "GitHub 热门工具：superpowers"
+    ],
+    "items": [
+      {
+        "id": "342c11f1c61e9018",
+        "title": "OpenClaw 正式版更新 2026.3.31",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      },
+      {
+        "id": "2b1e6bdecefe6606",
+        "title": "Claude Opus 4.6 发布",
+        "topic": "CLAUDE",
+        "source": "Anthropic Newsroom",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "fa06b8f9ade60a0f",
+        "title": "GitHub 热门工具：superpowers",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1774987319,
     "count": 3,
     "titles": [
