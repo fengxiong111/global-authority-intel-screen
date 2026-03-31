@@ -1,5 +1,53 @@
 [
   {
+    "fetch_time": 1774934634,
+    "count": 4,
+    "titles": [
+      "科技：Australia 发布 Gas Tax Review as 战事…",
+      "OpenClaw 联手 VirusTotal 强化技能安全",
+      "Claude Opus 4.6 发布",
+      "GitHub 热门工具：OpenBB"
+    ],
+    "items": [
+      {
+        "id": "926a7af675be8755",
+        "title": "科技：Australia 发布 Gas Tax Review as 战事…",
+        "topic": "TECH",
+        "source": "Bloomberg",
+        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
+        "action_hint": "看是否继续升级。",
+        "urgency": "high"
+      },
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      },
+      {
+        "id": "2b1e6bdecefe6606",
+        "title": "Claude Opus 4.6 发布",
+        "topic": "CLAUDE",
+        "source": "Anthropic Newsroom",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "9bf3e0ad357d2752",
+        "title": "GitHub 热门工具：OpenBB",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1774927586,
     "count": 1,
     "titles": [
