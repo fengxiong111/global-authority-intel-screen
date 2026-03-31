@@ -16,24 +16,9 @@
     ]
   },
   {
-    "topic": "New",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-03-30T10:13:53.000Z",
-    "sources": [
-      "Reddit",
-      "X"
-    ]
-  },
-  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -44,6 +29,20 @@
       "Bloomberg",
       "The Block",
       "The Defiant"
+    ]
+  },
+  {
+    "topic": "claude code",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 0,
+    "community_hits": 3,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-03-30T20:12:25.000Z",
+    "sources": [
+      "Reddit"
     ]
   }
 ]
