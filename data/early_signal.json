@@ -17,23 +17,6 @@
     ]
   },
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 2,
-    "community_hits": 3,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-03-31T20:05:00.000Z",
-    "sources": [
-      "Bloomberg",
-      "Hacker News",
-      "NYT",
-      "Reddit"
-    ]
-  },
-  {
     "topic": "OpenClaw",
     "type": "AI",
     "mentions": 5,
@@ -47,6 +30,22 @@
       "Bloomberg",
       "OpenClaw Blog",
       "OpenClaw GitHub"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 1,
+    "community_hits": 3,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-03-31T20:05:00.000Z",
+    "sources": [
+      "Hacker News",
+      "NYT",
+      "Reddit"
     ]
   },
   {
@@ -77,20 +76,6 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-03-31T22:34:59.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
