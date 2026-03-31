@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1774958510,
+    "count": 2,
+    "titles": [
+      "Claude Opus 4.6 发布",
+      "GitHub 热门工具：superpowers"
+    ],
+    "items": [
+      {
+        "id": "2b1e6bdecefe6606",
+        "title": "Claude Opus 4.6 发布",
+        "topic": "CLAUDE",
+        "source": "Anthropic Newsroom",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "fa06b8f9ade60a0f",
+        "title": "GitHub 热门工具：superpowers",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1774955533,
     "count": 3,
     "titles": [
