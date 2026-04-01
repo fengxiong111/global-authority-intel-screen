@@ -1,32 +1,16 @@
 [
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 7,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-03-27T11:43:16.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Defiant",
-      "X"
-    ]
-  },
-  {
     "topic": "claude-code",
     "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 2,
+    "mentions": 7,
+    "trusted_mentions": 3,
     "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 1,
     "first_seen_at": "2026-03-30T20:12:25.000Z",
     "sources": [
+      "Bloomberg",
       "GitHub Trending",
       "Hacker News",
       "Reddit",
@@ -34,19 +18,19 @@
     ]
   },
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 1,
-    "community_hits": 3,
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 6,
+    "trusted_mentions": 3,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
-    "first_seen_at": "2026-04-01T12:21:33.000Z",
+    "first_seen_at": "2026-03-27T11:43:16.000Z",
     "sources": [
       "Bloomberg",
-      "Hacker News",
-      "Reddit"
+      "OneKey Blog",
+      "The Defiant"
     ]
   },
   {
@@ -93,6 +77,21 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 0,
+    "community_hits": 3,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-04-01T12:21:33.000Z",
+    "sources": [
+      "Hacker News",
+      "Reddit"
     ]
   },
   {
