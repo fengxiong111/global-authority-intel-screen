@@ -2,7 +2,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 7,
+    "mentions": 8,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -33,11 +33,11 @@
     ]
   },
   {
-    "topic": "claude code",
+    "topic": "Claude Code",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 0,
-    "community_hits": 5,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
@@ -65,7 +65,7 @@
   {
     "topic": "科技",
     "type": "OTHER",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
