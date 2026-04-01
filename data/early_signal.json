@@ -1,16 +1,33 @@
 [
   {
-    "topic": "claude-code",
-    "type": "AI",
-    "mentions": 7,
-    "trusted_mentions": 3,
-    "community_hits": 4,
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 9,
+    "trusted_mentions": 5,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 1,
-    "first_seen_at": "2026-03-30T20:12:25.000Z",
+    "first_seen_at": "2026-03-27T11:43:16.000Z",
     "sources": [
       "Bloomberg",
+      "OneKey Blog",
+      "The Block",
+      "The Defiant",
+      "X"
+    ]
+  },
+  {
+    "topic": "claude-code",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 2,
+    "community_hits": 3,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-03-30T20:12:25.000Z",
+    "sources": [
       "GitHub Trending",
       "Hacker News",
       "Reddit",
@@ -18,33 +35,17 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 8,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-03-27T11:43:16.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Block",
-      "The Defiant"
-    ]
-  },
-  {
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 4,
-    "trusted_mentions": 1,
-    "community_hits": 3,
+    "trusted_mentions": 2,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-03-31T20:05:00.000Z",
     "sources": [
+      "Bloomberg",
       "Hacker News",
       "NYT",
       "Reddit"
@@ -67,25 +68,9 @@
     ]
   },
   {
-    "topic": "Anthropic",
+    "topic": "codex",
     "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-01T13:40:16.000Z",
-    "sources": [
-      "Bloomberg",
-      "Reddit",
-      "SemiAnalysis"
-    ]
-  },
-  {
-    "topic": "Codex",
-    "type": "AI",
-    "mentions": 3,
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -98,9 +83,9 @@
     ]
   },
   {
-    "topic": "OpenClaw",
+    "topic": "openclaw",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -125,20 +110,6 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-04-01T15:51:08.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
