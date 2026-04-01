@@ -1,6 +1,6 @@
 [
   {
-    "topic": "claude-code",
+    "topic": "Claude Code",
     "type": "AI",
     "mentions": 6,
     "trusted_mentions": 3,
@@ -15,38 +15,6 @@
       "Hacker News",
       "Reddit",
       "Stratechery"
-    ]
-  },
-  {
-    "topic": "OpenClaw",
-    "type": "AI",
-    "mentions": 7,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-03-31T00:00:00.000Z",
-    "sources": [
-      "Hacker News",
-      "OpenClaw Blog",
-      "OpenClaw GitHub"
-    ]
-  },
-  {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 6,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-03-27T11:43:16.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Defiant"
     ]
   },
   {
@@ -66,7 +34,7 @@
     ]
   },
   {
-    "topic": "Codex",
+    "topic": "codex",
     "type": "AI",
     "mentions": 2,
     "trusted_mentions": 2,
@@ -81,18 +49,18 @@
     ]
   },
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 0,
-    "community_hits": 3,
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-04-01T12:21:33.000Z",
+    "first_seen_at": "2026-03-27T11:43:16.000Z",
     "sources": [
-      "Hacker News",
-      "Reddit"
+      "Bloomberg",
+      "The Defiant"
     ]
   },
   {
@@ -111,17 +79,18 @@
     ]
   },
   {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 0,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-04-01T19:39:20.000Z",
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-04-01T12:21:33.000Z",
     "sources": [
-      "X"
+      "Hacker News",
+      "Reddit"
     ]
   }
 ]
