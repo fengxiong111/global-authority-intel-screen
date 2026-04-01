@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1775042104,
+    "count": 3,
+    "titles": [
+      "GitHub 热门工具：claude-code",
+      "OpenClaw 联手 VirusTotal 强化技能安全",
+      "硬件钱包的安全盲区：供应链攻击的隐蔽风险"
+    ],
+    "items": [
+      {
+        "id": "7e976986cf277e7b",
+        "title": "GitHub 热门工具：claude-code",
+        "topic": "ANTHROPIC",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      },
+      {
+        "id": "35c0b0e1193aade2",
+        "title": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
+        "topic": "ONEKEY",
+        "source": "OneKey Blog",
+        "meaning": "这是一个值得继续盯的变化信号。",
+        "action_hint": "点开核对原文。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1775038457,
     "count": 3,
     "titles": [
@@ -1521,54 +1559,6 @@
   },
   {
     "fetch_time": 1774872355,
-    "count": 4,
-    "titles": [
-      "BTC 两周新低，4.43 亿美元多头爆仓",
-      "OpenClaw 联手 VirusTotal 强化技能安全",
-      "Claude Opus 4.6 发布",
-      "GitHub 热门工具：OpenBB"
-    ],
-    "items": [
-      {
-        "id": "9a71e3fcb10eb150",
-        "title": "BTC 两周新低，4.43 亿美元多头爆仓",
-        "topic": "BTC",
-        "source": "The Defiant",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      },
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      },
-      {
-        "id": "2b1e6bdecefe6606",
-        "title": "Claude Opus 4.6 发布",
-        "topic": "CLAUDE",
-        "source": "Anthropic Newsroom",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "9bf3e0ad357d2752",
-        "title": "GitHub 热门工具：OpenBB",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1774869301,
     "count": 4,
     "titles": [
       "BTC 两周新低，4.43 亿美元多头爆仓",

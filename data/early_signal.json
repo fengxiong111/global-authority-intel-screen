@@ -1,5 +1,38 @@
 [
   {
+    "topic": "claude-code",
+    "type": "AI",
+    "mentions": 7,
+    "trusted_mentions": 2,
+    "community_hits": 5,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-03-30T20:12:25.000Z",
+    "sources": [
+      "GitHub Trending",
+      "Hacker News",
+      "Reddit",
+      "Stratechery"
+    ]
+  },
+  {
+    "topic": "codex",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-03-30T19:58:40.000Z",
+    "sources": [
+      "GitHub Trending",
+      "Reddit",
+      "X"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 8,
@@ -20,47 +53,15 @@
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-03-31T20:05:00.000Z",
-    "sources": [
-      "Bloomberg",
-      "Hacker News",
-      "NYT",
-      "Reddit"
-    ]
-  },
-  {
-    "topic": "Claude Code",
-    "type": "AI",
-    "mentions": 4,
     "trusted_mentions": 1,
     "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
-    "first_seen_at": "2026-03-30T20:12:25.000Z",
+    "first_seen_at": "2026-03-31T20:05:00.000Z",
     "sources": [
       "Hacker News",
-      "Reddit",
-      "Stratechery"
-    ]
-  },
-  {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-01T00:06:34.000Z",
-    "sources": [
-      "Anthropic Newsroom",
+      "NYT",
       "Reddit"
     ]
   },
