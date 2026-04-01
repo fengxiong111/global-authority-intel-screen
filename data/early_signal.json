@@ -17,27 +17,11 @@
     ]
   },
   {
-    "topic": "OpenClaw",
-    "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-03-31T00:00:00.000Z",
-    "sources": [
-      "Bloomberg",
-      "OpenClaw Blog",
-      "OpenClaw GitHub"
-    ]
-  },
-  {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 1,
-    "community_hits": 3,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -61,6 +45,21 @@
     "sources": [
       "Hacker News",
       "Reddit"
+    ]
+  },
+  {
+    "topic": "OpenClaw",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-03-31T00:00:00.000Z",
+    "sources": [
+      "OpenClaw Blog",
+      "OpenClaw GitHub"
     ]
   },
   {
