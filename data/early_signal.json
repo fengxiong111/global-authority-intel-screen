@@ -1,5 +1,21 @@
 [
   {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-04-01T00:06:34.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Bloomberg",
+      "Reddit"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 9,
@@ -19,15 +35,14 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 6,
-    "trusted_mentions": 2,
+    "mentions": 5,
+    "trusted_mentions": 1,
     "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-03-31T20:05:00.000Z",
     "sources": [
-      "Bloomberg",
       "Hacker News",
       "NYT",
       "Reddit"
