@@ -1,42 +1,24 @@
 [
   {
-    "topic": "OpenClaw",
+    "topic": "claude-code",
     "type": "AI",
-    "mentions": 8,
-    "trusted_mentions": 3,
+    "mentions": 3,
+    "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-03-31T00:00:00.000Z",
-    "sources": [
-      "Bloomberg",
-      "Hacker News",
-      "OpenClaw Blog",
-      "OpenClaw GitHub"
-    ]
-  },
-  {
-    "topic": "claude-code",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 0.9,
     "first_seen_at": "2026-03-30T20:12:25.000Z",
     "sources": [
       "GitHub Trending",
       "Hacker News",
-      "Reddit",
       "Stratechery"
     ]
   },
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 7,
+    "mentions": 8,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -51,11 +33,43 @@
     ]
   },
   {
+    "topic": "OpenClaw",
+    "type": "AI",
+    "mentions": 7,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-03-31T00:00:00.000Z",
+    "sources": [
+      "Hacker News",
+      "OpenClaw Blog",
+      "OpenClaw GitHub"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 5,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-03-31T15:43:26.000Z",
+    "sources": [
+      "Bloomberg",
+      "Karpathy",
+      "Simon Willison"
+    ]
+  },
+  {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 1,
-    "community_hits": 3,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
@@ -81,18 +95,32 @@
     ]
   },
   {
-    "topic": "科技",
+    "topic": "Tesla",
     "type": "OTHER",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 0,
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-03-31T15:43:26.000Z",
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-03-31T02:32:28.000Z",
     "sources": [
-      "Karpathy",
-      "Simon Willison"
+      "Bloomberg",
+      "Reddit"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 0,
+    "community_hits": 4,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-04-01T16:42:05.000Z",
+    "sources": [
+      "Reddit"
     ]
   }
 ]
