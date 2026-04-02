@@ -1,5 +1,22 @@
 [
   {
+    "topic": "OpenClaw",
+    "type": "AI",
+    "mentions": 8,
+    "trusted_mentions": 3,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-03-31T00:00:00.000Z",
+    "sources": [
+      "Bloomberg",
+      "Hacker News",
+      "OpenClaw Blog",
+      "OpenClaw GitHub"
+    ]
+  },
+  {
     "topic": "claude-code",
     "type": "AI",
     "mentions": 4,
@@ -31,22 +48,6 @@
       "OneKey Blog",
       "The Block",
       "The Defiant"
-    ]
-  },
-  {
-    "topic": "OpenClaw",
-    "type": "AI",
-    "mentions": 7,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-03-31T00:00:00.000Z",
-    "sources": [
-      "Hacker News",
-      "OpenClaw Blog",
-      "OpenClaw GitHub"
     ]
   },
   {
