@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1775091599,
+    "count": 3,
+    "titles": [
+      "伊朗战事最新进展：纽约时报：Trump Set to Speak to…",
+      "GitHub 热门工具：claude-code",
+      "Claude Opus 4.6 发布"
+    ],
+    "items": [
+      {
+        "id": "e54d97a552aaf3ba",
+        "title": "伊朗战事最新进展：纽约时报：Trump Set to Speak to…",
+        "topic": "NYT",
+        "source": "NYT",
+        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
+        "action_hint": "看是否继续升级。",
+        "urgency": "high"
+      },
+      {
+        "id": "7e976986cf277e7b",
+        "title": "GitHub 热门工具：claude-code",
+        "topic": "ANTHROPIC",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "2b1e6bdecefe6606",
+        "title": "Claude Opus 4.6 发布",
+        "topic": "CLAUDE",
+        "source": "Anthropic Newsroom",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1775087330,
     "count": 3,
     "titles": [
@@ -1581,24 +1619,6 @@
   },
   {
     "fetch_time": 1774927586,
-    "count": 1,
-    "titles": [
-      "Claude Opus 4.6 发布"
-    ],
-    "items": [
-      {
-        "id": "2b1e6bdecefe6606",
-        "title": "Claude Opus 4.6 发布",
-        "topic": "CLAUDE",
-        "source": "Anthropic Newsroom",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1774915423,
     "count": 1,
     "titles": [
       "Claude Opus 4.6 发布"
