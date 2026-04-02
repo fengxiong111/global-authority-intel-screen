@@ -2,7 +2,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 8,
+    "mentions": 6,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -17,35 +17,19 @@
     ]
   },
   {
-    "topic": "OpenClaw",
-    "type": "AI",
-    "mentions": 7,
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 5,
     "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
-    "first_seen_at": "2026-03-31T00:00:00.000Z",
+    "first_seen_at": "2026-03-31T15:43:26.000Z",
     "sources": [
-      "Hacker News",
-      "OpenClaw Blog",
-      "OpenClaw GitHub"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-02T00:39:25.000Z",
-    "sources": [
-      "Bloomberg",
+      "Karpathy",
       "Reddit",
-      "SemiAnalysis"
+      "Simon Willison"
     ]
   },
   {
@@ -79,18 +63,48 @@
     ]
   },
   {
-    "topic": "科技",
+    "topic": "The",
     "type": "OTHER",
-    "mentions": 4,
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-02T16:27:57.000Z",
+    "sources": [
+      "Bloomberg",
+      "Karpathy"
+    ]
+  },
+  {
+    "topic": "OpenClaw",
+    "type": "AI",
+    "mentions": 6,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-03-31T15:43:26.000Z",
+    "first_seen_at": "2026-03-31T00:00:00.000Z",
     "sources": [
-      "Karpathy",
-      "Simon Willison"
+      "OpenClaw Blog",
+      "OpenClaw GitHub"
+    ]
+  },
+  {
+    "topic": "Polymarket",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-04-02T14:00:00.000Z",
+    "sources": [
+      "The Block",
+      "The Defiant"
     ]
   }
 ]
