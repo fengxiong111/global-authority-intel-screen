@@ -1,5 +1,53 @@
 [
   {
+    "fetch_time": 1775154723,
+    "count": 4,
+    "titles": [
+      "苹果发布搭载 M5 的新 MacBook Air",
+      "OpenClaw 正式版更新 2026.4.2",
+      "Claude Opus 4.6 发布",
+      "硬件钱包的安全盲区：供应链攻击的隐蔽风险"
+    ],
+    "items": [
+      {
+        "id": "51e24ad426be36c7",
+        "title": "苹果发布搭载 M5 的新 MacBook Air",
+        "topic": "APPLE",
+        "source": "Apple Newsroom",
+        "meaning": "苹果产品节奏或生态接口在变，可能影响后续判断。",
+        "action_hint": "看功能与上线时间。",
+        "urgency": "medium"
+      },
+      {
+        "id": "955be8769be528b7",
+        "title": "OpenClaw 正式版更新 2026.4.2",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      },
+      {
+        "id": "2b1e6bdecefe6606",
+        "title": "Claude Opus 4.6 发布",
+        "topic": "CLAUDE",
+        "source": "Anthropic Newsroom",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "35c0b0e1193aade2",
+        "title": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
+        "topic": "ONEKEY",
+        "source": "OneKey Blog",
+        "meaning": "这是一个值得继续盯的变化信号。",
+        "action_hint": "点开核对原文。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1775151152,
     "count": 5,
     "titles": [
@@ -1689,44 +1737,6 @@
         "title": "科技：Australia 发布 Gas Tax Review as 战事…",
         "topic": "TECH",
         "source": "Bloomberg",
-        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
-        "action_hint": "看是否继续升级。",
-        "urgency": "high"
-      },
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      },
-      {
-        "id": "2b1e6bdecefe6606",
-        "title": "Claude Opus 4.6 发布",
-        "topic": "CLAUDE",
-        "source": "Anthropic Newsroom",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1774980543,
-    "count": 3,
-    "titles": [
-      "伊朗战事最新进展：纽约时报：B-52s Start Flying…",
-      "OpenClaw 联手 VirusTotal 强化技能安全",
-      "Claude Opus 4.6 发布"
-    ],
-    "items": [
-      {
-        "id": "07f43c7187dad813",
-        "title": "伊朗战事最新进展：纽约时报：B-52s Start Flying…",
-        "topic": "NYT",
-        "source": "NYT",
         "meaning": "地缘风险在升温，可能影响市场和政策预期。",
         "action_hint": "看是否继续升级。",
         "urgency": "high"
