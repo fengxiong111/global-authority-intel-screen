@@ -48,18 +48,18 @@
     ]
   },
   {
-    "topic": "Tesla",
-    "type": "OTHER",
+    "topic": "Codex",
+    "type": "AI",
     "mentions": 3,
     "trusted_mentions": 1,
-    "community_hits": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-03-31T02:32:28.000Z",
+    "first_seen_at": "2026-03-31T23:12:06.000Z",
     "sources": [
-      "Bloomberg",
-      "Reddit"
+      "Reddit",
+      "X"
     ]
   },
   {
@@ -93,7 +93,7 @@
     ]
   },
   {
-    "topic": "Polymarket",
+    "topic": "Coinbase",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
@@ -101,10 +101,24 @@
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-04-02T14:00:00.000Z",
+    "first_seen_at": "2026-04-02T16:03:06.000Z",
     "sources": [
       "The Block",
       "The Defiant"
+    ]
+  },
+  {
+    "topic": "Polymarket",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-04-02T14:00:00.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
