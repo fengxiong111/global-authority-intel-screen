@@ -1,5 +1,21 @@
 [
   {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-04-02T10:30:00.000Z",
+    "sources": [
+      "NYT",
+      "OpenAI News",
+      "X"
+    ]
+  },
+  {
     "topic": "科技",
     "type": "OTHER",
     "mentions": 6,
@@ -33,6 +49,21 @@
     ]
   },
   {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-03T05:32:39.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Reddit"
+    ]
+  },
+  {
     "topic": "Codex",
     "type": "AI",
     "mentions": 3,
@@ -42,21 +73,6 @@
     "growth_score": 1,
     "resonance_score": 0.68,
     "first_seen_at": "2026-03-31T23:12:06.000Z",
-    "sources": [
-      "OpenAI News",
-      "X"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-02T10:30:00.000Z",
     "sources": [
       "OpenAI News",
       "X"
