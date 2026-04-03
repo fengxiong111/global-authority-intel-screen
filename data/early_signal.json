@@ -18,6 +18,22 @@
     ]
   },
   {
+    "topic": "OpenClaw",
+    "type": "AI",
+    "mentions": 6,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-03-31T00:00:00.000Z",
+    "sources": [
+      "OpenClaw Blog",
+      "OpenClaw GitHub",
+      "Reddit"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 5,
@@ -52,9 +68,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 1,
-    "community_hits": 3,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
@@ -77,21 +93,6 @@
     "sources": [
       "OpenAI News",
       "X"
-    ]
-  },
-  {
-    "topic": "OpenClaw",
-    "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-03-31T00:00:00.000Z",
-    "sources": [
-      "OpenClaw Blog",
-      "OpenClaw GitHub"
     ]
   },
   {
