@@ -95,17 +95,17 @@
     ]
   },
   {
-    "topic": "JUST",
+    "topic": "etf",
     "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
+    "mentions": 3,
+    "trusted_mentions": 0,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0,
-    "first_seen_at": "2026-04-03T17:34:12.000Z",
+    "first_seen_at": "2026-04-03T12:15:43.000Z",
     "sources": [
-      "X"
+      "Reddit"
     ]
   }
 ]
