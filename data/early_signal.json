@@ -18,6 +18,22 @@
     ]
   },
   {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 2,
+    "community_hits": 3,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-04-03T21:28:01.000Z",
+    "sources": [
+      "Reddit",
+      "SemiAnalysis",
+      "X"
+    ]
+  },
+  {
     "topic": "OpenClaw",
     "type": "AI",
     "mentions": 5,
@@ -66,21 +82,6 @@
     ]
   },
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 1,
-    "community_hits": 3,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-03T21:28:01.000Z",
-    "sources": [
-      "Reddit",
-      "SemiAnalysis"
-    ]
-  },
-  {
     "topic": "Codex",
     "type": "AI",
     "mentions": 2,
@@ -92,6 +93,20 @@
     "first_seen_at": "2026-03-31T23:12:06.000Z",
     "sources": [
       "OpenAI News",
+      "X"
+    ]
+  },
+  {
+    "topic": "POLYMARKET",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-04-02T17:30:00.000Z",
+    "sources": [
       "X"
     ]
   }
