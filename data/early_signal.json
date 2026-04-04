@@ -18,6 +18,22 @@
     ]
   },
   {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-04-03T21:28:01.000Z",
+    "sources": [
+      "Reddit",
+      "SemiAnalysis",
+      "X"
+    ]
+  },
+  {
     "topic": "OpenClaw",
     "type": "AI",
     "mentions": 5,
@@ -47,21 +63,6 @@
       "Bloomberg",
       "OneKey Blog",
       "The Block"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-03T21:28:01.000Z",
-    "sources": [
-      "Reddit",
-      "SemiAnalysis"
     ]
   },
   {
