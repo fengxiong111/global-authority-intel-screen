@@ -1,5 +1,35 @@
 [
   {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 1,
+    "community_hits": 4,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-05T00:53:44.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Reddit"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 1,
+    "community_hits": 3,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-03T17:53:29.000Z",
+    "sources": [
+      "NYT",
+      "Reddit"
+    ]
+  },
+  {
     "topic": "bitcoin",
     "type": "CRYPTO",
     "mentions": 2,
@@ -12,6 +42,21 @@
     "sources": [
       "OneKey Blog",
       "The Block"
+    ]
+  },
+  {
+    "topic": "Claude Code",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 0,
+    "community_hits": 4,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-04-05T12:30:50.000Z",
+    "sources": [
+      "Hacker News",
+      "Reddit"
     ]
   },
   {
