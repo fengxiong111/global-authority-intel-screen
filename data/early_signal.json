@@ -16,22 +16,6 @@
     ]
   },
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-04-03T21:28:01.000Z",
-    "sources": [
-      "Reddit",
-      "SemiAnalysis",
-      "X"
-    ]
-  },
-  {
     "topic": "Claude",
     "type": "AI",
     "mentions": 5,
@@ -104,20 +88,6 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-04-04T19:05:09.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
