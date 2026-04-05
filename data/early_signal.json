@@ -16,6 +16,21 @@
     ]
   },
   {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 1,
+    "community_hits": 4,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-05T00:53:44.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Reddit"
+    ]
+  },
+  {
     "topic": "bitcoin",
     "type": "CRYPTO",
     "mentions": 2,
@@ -61,7 +76,7 @@
     ]
   },
   {
-    "topic": "POLYMARKET",
+    "topic": "JUST",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
@@ -69,7 +84,7 @@
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0,
-    "first_seen_at": "2026-04-02T17:30:00.000Z",
+    "first_seen_at": "2026-04-04T19:05:09.000Z",
     "sources": [
       "X"
     ]
