@@ -1,16 +1,32 @@
 [
   {
-    "topic": "OpenAI",
+    "topic": "Anthropic",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 3,
-    "community_hits": 3,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.95,
-    "first_seen_at": "2026-04-03T17:53:29.000Z",
+    "first_seen_at": "2026-04-03T21:28:01.000Z",
     "sources": [
       "Bloomberg",
+      "Reddit",
+      "SemiAnalysis",
+      "X"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 2,
+    "community_hits": 3,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-04-03T17:53:29.000Z",
+    "sources": [
       "OpenAI News",
       "Reddit",
       "Stratechery"
@@ -34,22 +50,6 @@
     ]
   },
   {
-    "topic": "Claude Code",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 1,
-    "community_hits": 3,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-05T12:30:50.000Z",
-    "sources": [
-      "Hacker News",
-      "Reddit",
-      "Simon Willison"
-    ]
-  },
-  {
     "topic": "Polymarket",
     "type": "CRYPTO",
     "mentions": 3,
@@ -63,21 +63,6 @@
       "The Block",
       "The Defiant",
       "X"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-03T21:28:01.000Z",
-    "sources": [
-      "Reddit",
-      "SemiAnalysis"
     ]
   },
   {
