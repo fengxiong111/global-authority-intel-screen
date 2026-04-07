@@ -2,9 +2,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 9,
+    "mentions": 10,
     "trusted_mentions": 3,
-    "community_hits": 6,
+    "community_hits": 7,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 1,
@@ -18,29 +18,11 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 7,
-    "trusted_mentions": 5,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 1,
-    "first_seen_at": "2026-04-04T22:46:43.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Block",
-      "The Defiant",
-      "X"
-    ]
-  },
-  {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 3,
-    "community_hits": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.95,
@@ -50,6 +32,23 @@
       "OpenAI News",
       "Reddit",
       "Stratechery"
+    ]
+  },
+  {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 6,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.78,
+    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block",
+      "The Defiant"
     ]
   },
   {
