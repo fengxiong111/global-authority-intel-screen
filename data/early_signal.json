@@ -35,25 +35,26 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 1,
+    "mentions": 5,
+    "trusted_mentions": 2,
     "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-04-03T21:28:01.000Z",
     "sources": [
       "Hacker News",
       "Reddit",
-      "SemiAnalysis"
+      "SemiAnalysis",
+      "Stratechery"
     ]
   },
   {
     "topic": "Claude Code",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 1,
-    "community_hits": 3,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -83,9 +84,9 @@
   {
     "topic": "claude",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 1,
-    "community_hits": 3,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
@@ -108,6 +109,20 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-04-07T00:13:53.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
