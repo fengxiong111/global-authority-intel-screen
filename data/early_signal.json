@@ -54,9 +54,9 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 3,
-    "community_hits": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.78,
@@ -85,18 +85,17 @@
     ]
   },
   {
-    "topic": "Cyberpunk",
-    "type": "GAME",
+    "topic": "Codex",
+    "type": "AI",
     "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-07T16:00:04.000Z",
+    "resonance_score": 0,
+    "first_seen_at": "2026-04-07T20:16:05.000Z",
     "sources": [
-      "PlayStation Blog",
-      "Reddit"
+      "X"
     ]
   }
 ]
