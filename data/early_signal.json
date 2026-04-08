@@ -2,9 +2,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 9,
+    "mentions": 7,
     "trusted_mentions": 3,
-    "community_hits": 6,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 1,
@@ -34,9 +34,27 @@
     ]
   },
   {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 7,
+    "trusted_mentions": 4,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.83,
+    "first_seen_at": "2026-04-03T21:28:01.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT",
+      "Reddit",
+      "SemiAnalysis",
+      "Stratechery"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 8,
+    "mentions": 9,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -48,23 +66,6 @@
       "OneKey Blog",
       "The Block",
       "The Defiant"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 3,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-04-03T21:28:01.000Z",
-    "sources": [
-      "NYT",
-      "Reddit",
-      "SemiAnalysis",
-      "Stratechery"
     ]
   },
   {
@@ -107,20 +108,6 @@
     "growth_score": 1,
     "resonance_score": 0,
     "first_seen_at": "2026-04-07T20:16:05.000Z",
-    "sources": [
-      "X"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-04-08T14:07:21.000Z",
     "sources": [
       "X"
     ]
