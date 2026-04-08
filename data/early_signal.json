@@ -2,9 +2,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 11,
+    "mentions": 9,
     "trusted_mentions": 3,
-    "community_hits": 8,
+    "community_hits": 6,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 1,
@@ -14,6 +14,24 @@
       "Hacker News",
       "Reddit",
       "Simon Willison",
+      "X"
+    ]
+  },
+  {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 8,
+    "trusted_mentions": 5,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 1,
+    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block",
+      "The Defiant",
       "X"
     ]
   },
@@ -34,24 +52,6 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 7,
-    "trusted_mentions": 5,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.83,
-    "first_seen_at": "2026-04-04T22:46:43.000Z",
-    "sources": [
-      "Bloomberg",
-      "NYT",
-      "OneKey Blog",
-      "The Block",
-      "The Defiant"
-    ]
-  },
-  {
     "topic": "Anthropic",
     "type": "AI",
     "mentions": 5,
@@ -66,21 +66,6 @@
       "Reddit",
       "SemiAnalysis",
       "Stratechery"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-08T07:00:06.000Z",
-    "sources": [
-      "Karpathy",
-      "NYT"
     ]
   },
   {
