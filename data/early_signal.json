@@ -2,9 +2,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 8,
+    "mentions": 10,
     "trusted_mentions": 3,
-    "community_hits": 5,
+    "community_hits": 7,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 1,
@@ -18,9 +18,25 @@
     ]
   },
   {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-04-03T17:53:29.000Z",
+    "sources": [
+      "OpenAI News",
+      "Reddit",
+      "Stratechery"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 10,
+    "mentions": 9,
     "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
@@ -36,34 +52,35 @@
     ]
   },
   {
-    "topic": "OpenAI",
+    "topic": "Anthropic",
     "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 1,
     "ranking_change": false,
-    "growth_score": 0.86,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-03T17:53:29.000Z",
+    "growth_score": 1,
+    "resonance_score": 0.78,
+    "first_seen_at": "2026-04-03T21:28:01.000Z",
     "sources": [
-      "OpenAI News",
+      "NYT",
+      "Reddit",
+      "SemiAnalysis",
       "Stratechery"
     ]
   },
   {
-    "topic": "Anthropic",
+    "topic": "Codex",
     "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
+    "mentions": 5,
+    "trusted_mentions": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.1,
-    "first_seen_at": "2026-04-03T21:28:01.000Z",
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-07T20:16:05.000Z",
     "sources": [
-      "NYT",
-      "SemiAnalysis",
-      "Stratechery"
+      "Reddit",
+      "X"
     ]
   },
   {
@@ -79,20 +96,6 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
-    ]
-  },
-  {
-    "topic": "Codex",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-04-07T20:16:05.000Z",
-    "sources": [
-      "X"
     ]
   },
   {
