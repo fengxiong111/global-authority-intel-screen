@@ -2,9 +2,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 9,
+    "mentions": 8,
     "trusted_mentions": 3,
-    "community_hits": 6,
+    "community_hits": 5,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 1,
@@ -15,22 +15,6 @@
       "Reddit",
       "Simon Willison",
       "X"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-04-03T17:53:29.000Z",
-    "sources": [
-      "OpenAI News",
-      "Reddit",
-      "Stratechery"
     ]
   },
   {
@@ -52,41 +36,40 @@
     ]
   },
   {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.86,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-03T17:53:29.000Z",
+    "sources": [
+      "OpenAI News",
+      "Stratechery"
+    ]
+  },
+  {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 3,
     "trusted_mentions": 3,
-    "community_hits": 2,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.1,
     "first_seen_at": "2026-04-03T21:28:01.000Z",
     "sources": [
       "NYT",
-      "Reddit",
       "SemiAnalysis",
       "Stratechery"
     ]
   },
   {
-    "topic": "Codex",
+    "topic": "openclaw",
     "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-07T20:16:05.000Z",
-    "sources": [
-      "Reddit",
-      "X"
-    ]
-  },
-  {
-    "topic": "OpenClaw",
-    "type": "AI",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -99,9 +82,23 @@
     ]
   },
   {
+    "topic": "Codex",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-04-07T20:16:05.000Z",
+    "sources": [
+      "X"
+    ]
+  },
+  {
     "topic": "JUST",
     "type": "CRYPTO",
-    "mentions": 3,
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
