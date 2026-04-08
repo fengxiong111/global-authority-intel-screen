@@ -1,10 +1,29 @@
 [
   {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 8,
+    "trusted_mentions": 5,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 1,
+    "first_seen_at": "2026-04-03T21:28:01.000Z",
+    "sources": [
+      "Bloomberg",
+      "Hacker News",
+      "NYT",
+      "SemiAnalysis",
+      "Stratechery",
+      "X"
+    ]
+  },
+  {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 5,
     "trusted_mentions": 3,
-    "community_hits": 4,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 1,
@@ -36,65 +55,16 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 2,
     "trusted_mentions": 2,
-    "community_hits": 2,
+    "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
+    "growth_score": 0.86,
+    "resonance_score": 0.68,
     "first_seen_at": "2026-04-03T17:53:29.000Z",
     "sources": [
       "OpenAI News",
-      "Reddit",
       "Stratechery"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 3,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-04-03T21:28:01.000Z",
-    "sources": [
-      "Hacker News",
-      "NYT",
-      "SemiAnalysis",
-      "Stratechery"
-    ]
-  },
-  {
-    "topic": "ETF",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-07T09:02:00.000Z",
-    "sources": [
-      "NYT",
-      "The Block",
-      "X"
-    ]
-  },
-  {
-    "topic": "Pok",
-    "type": "GAME",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-08T03:01:47.000Z",
-    "sources": [
-      "Nintendo News",
-      "Reddit"
     ]
   },
   {
@@ -110,6 +80,21 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
+    ]
+  },
+  {
+    "topic": "ETF",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-04-07T09:02:00.000Z",
+    "sources": [
+      "NYT",
+      "The Block"
     ]
   },
   {
@@ -129,8 +114,8 @@
   {
     "topic": "JUST",
     "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 3,
+    "mentions": 2,
+    "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
