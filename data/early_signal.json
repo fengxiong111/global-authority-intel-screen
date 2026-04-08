@@ -1,10 +1,28 @@
 [
   {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 9,
+    "trusted_mentions": 4,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 1,
+    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "sources": [
+      "Bloomberg",
+      "Hacker News",
+      "OneKey Blog",
+      "The Block",
+      "The Defiant"
+    ]
+  },
+  {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 8,
     "trusted_mentions": 3,
-    "community_hits": 4,
+    "community_hits": 5,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 1,
@@ -20,9 +38,9 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 2,
-    "community_hits": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.9,
@@ -36,7 +54,7 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 8,
     "trusted_mentions": 4,
     "community_hits": 2,
     "ranking_change": false,
@@ -49,38 +67,6 @@
       "Reddit",
       "SemiAnalysis",
       "Stratechery"
-    ]
-  },
-  {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 9,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-04-04T22:46:43.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Block",
-      "The Defiant"
-    ]
-  },
-  {
-    "topic": "Pok",
-    "type": "GAME",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-08T02:05:42.000Z",
-    "sources": [
-      "Nintendo News",
-      "Reddit"
     ]
   },
   {
@@ -108,6 +94,20 @@
     "growth_score": 1,
     "resonance_score": 0,
     "first_seen_at": "2026-04-07T20:16:05.000Z",
+    "sources": [
+      "X"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-04-08T14:07:21.000Z",
     "sources": [
       "X"
     ]
