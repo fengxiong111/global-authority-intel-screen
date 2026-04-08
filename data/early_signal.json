@@ -20,18 +20,17 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 6,
-    "trusted_mentions": 3,
+    "mentions": 5,
+    "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 0.9,
     "first_seen_at": "2026-04-04T22:46:43.000Z",
     "sources": [
       "Bloomberg",
       "Hacker News",
-      "OneKey Blog",
-      "X"
+      "OneKey Blog"
     ]
   },
   {
@@ -53,19 +52,34 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 3,
-    "community_hits": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.83,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-04-03T21:28:01.000Z",
     "sources": [
       "Hacker News",
       "NYT",
-      "Reddit",
       "SemiAnalysis",
       "Stratechery"
+    ]
+  },
+  {
+    "topic": "ETF",
+    "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-04-07T09:02:00.000Z",
+    "sources": [
+      "NYT",
+      "The Block",
+      "X"
     ]
   },
   {
@@ -99,25 +113,10 @@
     ]
   },
   {
-    "topic": "ETF",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-04-07T09:02:00.000Z",
-    "sources": [
-      "NYT",
-      "The Block"
-    ]
-  },
-  {
     "topic": "Codex",
     "type": "AI",
     "mentions": 4,
-    "trusted_mentions": 2,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
@@ -130,8 +129,8 @@
   {
     "topic": "JUST",
     "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
+    "mentions": 3,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
