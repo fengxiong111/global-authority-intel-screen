@@ -20,15 +20,14 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 3,
+    "mentions": 3,
+    "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 0.9,
     "first_seen_at": "2026-04-03T17:53:29.000Z",
     "sources": [
-      "Bloomberg",
       "OpenAI News",
       "Reddit",
       "Stratechery"
@@ -37,15 +36,16 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 7,
-    "trusted_mentions": 4,
+    "mentions": 10,
+    "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.83,
     "first_seen_at": "2026-04-04T22:46:43.000Z",
     "sources": [
       "Bloomberg",
+      "NYT",
       "OneKey Blog",
       "The Block",
       "The Defiant"
@@ -101,13 +101,13 @@
   {
     "topic": "JUST",
     "type": "CRYPTO",
-    "mentions": 2,
+    "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0,
-    "first_seen_at": "2026-04-07T23:33:40.000Z",
+    "first_seen_at": "2026-04-07T22:52:07.000Z",
     "sources": [
       "X"
     ]
