@@ -36,7 +36,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 9,
+    "mentions": 8,
     "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
@@ -54,7 +54,7 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 3,
     "community_hits": 1,
     "ranking_change": false,
@@ -84,7 +84,7 @@
     ]
   },
   {
-    "topic": "OpenClaw",
+    "topic": "openclaw",
     "type": "AI",
     "mentions": 4,
     "trusted_mentions": 2,
