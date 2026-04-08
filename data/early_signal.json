@@ -81,7 +81,7 @@
     ]
   },
   {
-    "topic": "openclaw",
+    "topic": "OpenClaw",
     "type": "AI",
     "mentions": 4,
     "trusted_mentions": 2,
@@ -96,7 +96,7 @@
     ]
   },
   {
-    "topic": "ETF",
+    "topic": "etf",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
@@ -111,20 +111,6 @@
     ]
   },
   {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-04-08T14:07:21.000Z",
-    "sources": [
-      "X"
-    ]
-  },
-  {
     "topic": "Codex",
     "type": "AI",
     "mentions": 4,
@@ -134,6 +120,20 @@
     "growth_score": 1,
     "resonance_score": 0,
     "first_seen_at": "2026-04-07T20:16:05.000Z",
+    "sources": [
+      "X"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-04-08T14:07:21.000Z",
     "sources": [
       "X"
     ]
