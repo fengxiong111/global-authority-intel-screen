@@ -2,9 +2,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 10,
+    "mentions": 11,
     "trusted_mentions": 3,
-    "community_hits": 7,
+    "community_hits": 8,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 1,
@@ -36,7 +36,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 8,
+    "mentions": 7,
     "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
@@ -84,7 +84,7 @@
     ]
   },
   {
-    "topic": "openclaw",
+    "topic": "OpenClaw",
     "type": "AI",
     "mentions": 4,
     "trusted_mentions": 2,
