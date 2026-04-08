@@ -2,17 +2,35 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 7,
     "trusted_mentions": 3,
-    "community_hits": 3,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 1,
     "first_seen_at": "2026-04-06T17:44:30.000Z",
     "sources": [
       "Anthropic Newsroom",
+      "Hacker News",
       "Reddit",
       "Simon Willison",
+      "X"
+    ]
+  },
+  {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 6,
+    "trusted_mentions": 3,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "sources": [
+      "Bloomberg",
+      "Hacker News",
+      "OneKey Blog",
       "X"
     ]
   },
@@ -35,34 +53,19 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 3,
-    "community_hits": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.83,
     "first_seen_at": "2026-04-03T21:28:01.000Z",
     "sources": [
+      "Hacker News",
       "NYT",
       "Reddit",
       "SemiAnalysis",
       "Stratechery"
-    ]
-  },
-  {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 6,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-04T22:46:43.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Block"
     ]
   },
   {
@@ -81,7 +84,7 @@
     ]
   },
   {
-    "topic": "OpenClaw",
+    "topic": "openclaw",
     "type": "AI",
     "mentions": 4,
     "trusted_mentions": 2,
@@ -96,7 +99,7 @@
     ]
   },
   {
-    "topic": "etf",
+    "topic": "ETF",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
