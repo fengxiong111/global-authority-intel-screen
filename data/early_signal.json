@@ -2,7 +2,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 12,
+    "mentions": 11,
     "trusted_mentions": 3,
     "community_hits": 1,
     "ranking_change": false,
@@ -28,7 +28,7 @@
     "first_seen_at": "2026-04-06T17:44:30.000Z",
     "sources": [
       "Anthropic Newsroom",
-      "Reddit",
+      "Hacker News",
       "Simon Willison",
       "X"
     ]
@@ -37,14 +37,14 @@
     "topic": "Anthropic",
     "type": "AI",
     "mentions": 6,
-    "trusted_mentions": 3,
-    "community_hits": 2,
+    "trusted_mentions": 4,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.83,
     "first_seen_at": "2026-04-03T21:28:01.000Z",
     "sources": [
-      "Hacker News",
+      "Bloomberg",
       "NYT",
       "Reddit",
       "SemiAnalysis",
