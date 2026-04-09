@@ -53,21 +53,6 @@
     ]
   },
   {
-    "topic": "Polymarket",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-08T19:16:38.000Z",
-    "sources": [
-      "The Defiant",
-      "X"
-    ]
-  },
-  {
     "topic": "OpenClaw",
     "type": "AI",
     "mentions": 6,
