@@ -3,7 +3,7 @@
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 10,
-    "trusted_mentions": 5,
+    "trusted_mentions": 6,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
@@ -54,7 +54,7 @@
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -94,20 +94,6 @@
     "sources": [
       "Hacker News",
       "Reddit"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-04-09T17:18:23.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
