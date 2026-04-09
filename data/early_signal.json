@@ -2,7 +2,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 7,
+    "mentions": 8,
     "trusted_mentions": 3,
     "community_hits": 1,
     "ranking_change": false,
@@ -69,6 +69,21 @@
     ]
   },
   {
+    "topic": "Pok",
+    "type": "GAME",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-08T03:01:47.000Z",
+    "sources": [
+      "Nintendo News",
+      "Reddit"
+    ]
+  },
+  {
     "topic": "OpenClaw",
     "type": "AI",
     "mentions": 6,
@@ -86,11 +101,11 @@
   {
     "topic": "etf",
     "type": "CRYPTO",
-    "mentions": 3,
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 1,
+    "growth_score": 0.91,
     "resonance_score": 0.05,
     "first_seen_at": "2026-04-07T09:02:00.000Z",
     "sources": [
