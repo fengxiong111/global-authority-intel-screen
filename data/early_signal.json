@@ -2,7 +2,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 6,
+    "mentions": 7,
     "trusted_mentions": 3,
     "community_hits": 1,
     "ranking_change": false,
@@ -52,7 +52,7 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 9,
+    "mentions": 8,
     "trusted_mentions": 4,
     "community_hits": 3,
     "ranking_change": false,
@@ -69,7 +69,7 @@
     ]
   },
   {
-    "topic": "openclaw",
+    "topic": "OpenClaw",
     "type": "AI",
     "mentions": 6,
     "trusted_mentions": 2,
@@ -84,7 +84,7 @@
     ]
   },
   {
-    "topic": "ETF",
+    "topic": "etf",
     "type": "CRYPTO",
     "mentions": 3,
     "trusted_mentions": 2,
