@@ -37,7 +37,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 7,
+    "mentions": 5,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -48,21 +48,6 @@
       "Bloomberg",
       "OneKey Blog",
       "The Block"
-    ]
-  },
-  {
-    "topic": "POLYMARKET",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-08T19:16:38.000Z",
-    "sources": [
-      "The Defiant",
-      "X"
     ]
   },
   {
@@ -81,6 +66,21 @@
     ]
   },
   {
+    "topic": "Polymarket",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-08T19:16:38.000Z",
+    "sources": [
+      "The Defiant",
+      "X"
+    ]
+  },
+  {
     "topic": "OpenClaw",
     "type": "AI",
     "mentions": 6,
@@ -96,33 +96,18 @@
     ]
   },
   {
-    "topic": "Kalshi",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
+    "topic": "Claude Code",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 0,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-04-09T10:08:02.000Z",
+    "first_seen_at": "2026-04-09T05:01:37.000Z",
     "sources": [
-      "The Block",
-      "The Defiant"
-    ]
-  },
-  {
-    "topic": "etf",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.97,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-04-07T09:02:00.000Z",
-    "sources": [
-      "NYT",
-      "The Defiant"
+      "Hacker News",
+      "Reddit"
     ]
   },
   {
