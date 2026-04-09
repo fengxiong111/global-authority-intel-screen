@@ -2,7 +2,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 9,
+    "mentions": 10,
     "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
@@ -37,19 +37,33 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 8,
-    "trusted_mentions": 4,
+    "mentions": 6,
+    "trusted_mentions": 3,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.83,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-04-03T21:28:01.000Z",
     "sources": [
-      "Bloomberg",
       "NYT",
       "Reddit",
       "SemiAnalysis",
       "Stratechery"
+    ]
+  },
+  {
+    "topic": "Codex",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-07T20:16:05.000Z",
+    "sources": [
+      "OpenAI News",
+      "X"
     ]
   },
   {
@@ -70,9 +84,9 @@
   {
     "topic": "Claude Code",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 0,
-    "community_hits": 4,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
@@ -80,20 +94,6 @@
     "sources": [
       "Hacker News",
       "Reddit"
-    ]
-  },
-  {
-    "topic": "Codex",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-04-07T20:16:05.000Z",
-    "sources": [
-      "X"
     ]
   },
   {
