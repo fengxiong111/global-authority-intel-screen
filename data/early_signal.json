@@ -55,20 +55,21 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 2,
+    "mentions": 4,
     "trusted_mentions": 2,
-    "community_hits": 0,
+    "community_hits": 2,
     "ranking_change": false,
-    "growth_score": 0.86,
-    "resonance_score": 0.68,
+    "growth_score": 1,
+    "resonance_score": 0.9,
     "first_seen_at": "2026-04-03T17:53:29.000Z",
     "sources": [
       "OpenAI News",
+      "Reddit",
       "Stratechery"
     ]
   },
   {
-    "topic": "openclaw",
+    "topic": "OpenClaw",
     "type": "AI",
     "mentions": 4,
     "trusted_mentions": 2,
