@@ -2,7 +2,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 11,
+    "mentions": 10,
     "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
@@ -71,7 +71,7 @@
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 6,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
