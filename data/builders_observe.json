@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1775810752,
+    "count": 2,
+    "titles": [
+      "OpenClaw 联手 VirusTotal 强化技能安全",
+      "GitHub 热门工具：seomachine"
+    ],
+    "items": [
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      },
+      {
+        "id": "7d7997641f12a8f3",
+        "title": "GitHub 热门工具：seomachine",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1775805011,
     "count": 2,
     "titles": [
@@ -1337,44 +1365,6 @@
   },
   {
     "fetch_time": 1775639835,
-    "count": 3,
-    "titles": [
-      "伊朗战事最新进展：纽约时报：2-Week Cease-Fire Takes…",
-      "GitHub 热门工具：seomachine",
-      "OpenClaw 联手 VirusTotal 强化技能安全"
-    ],
-    "items": [
-      {
-        "id": "ff830d9031563cc6",
-        "title": "伊朗战事最新进展：纽约时报：2-Week Cease-Fire Takes…",
-        "topic": "NYT",
-        "source": "NYT",
-        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
-        "action_hint": "看是否继续升级。",
-        "urgency": "high"
-      },
-      {
-        "id": "7d7997641f12a8f3",
-        "title": "GitHub 热门工具：seomachine",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1775635733,
     "count": 3,
     "titles": [
       "伊朗战事最新进展：纽约时报：2-Week Cease-Fire Takes…",
