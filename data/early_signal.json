@@ -2,7 +2,7 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 8,
     "trusted_mentions": 4,
     "community_hits": 2,
     "ranking_change": false,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "topic": "bitcoin",
+    "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 6,
     "trusted_mentions": 4,
@@ -97,7 +97,7 @@
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 4,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
