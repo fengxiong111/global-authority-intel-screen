@@ -2,8 +2,8 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 12,
-    "trusted_mentions": 6,
+    "mentions": 10,
+    "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
