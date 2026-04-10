@@ -1,15 +1,50 @@
 [
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 6,
-    "trusted_mentions": 3,
-    "community_hits": 3,
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 7,
+    "trusted_mentions": 4,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block",
+      "X"
+    ]
+  },
+  {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 3,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-04-06T17:44:30.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Reddit",
+      "Simon Willison",
+      "X"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 7,
+    "trusted_mentions": 4,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.83,
     "first_seen_at": "2026-04-03T21:28:01.000Z",
     "sources": [
+      "Bloomberg",
       "NYT",
       "Reddit",
       "SemiAnalysis",
@@ -17,35 +52,18 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 7,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-04T22:46:43.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Block"
-    ]
-  },
-  {
-    "topic": "HSBC",
-    "type": "CRYPTO",
+    "topic": "OpenAI",
+    "type": "AI",
     "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
+    "trusted_mentions": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.1,
-    "first_seen_at": "2026-04-10T09:26:56.000Z",
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-10T15:24:38.000Z",
     "sources": [
-      "Bloomberg",
-      "The Block",
-      "The Defiant"
+      "NYT",
+      "Reddit"
     ]
   },
   {
@@ -79,18 +97,18 @@
     ]
   },
   {
-    "topic": "Claude",
-    "type": "AI",
+    "topic": "HSBC",
+    "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 0.91,
+    "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-04-06T17:44:30.000Z",
+    "first_seen_at": "2026-04-10T09:26:56.000Z",
     "sources": [
-      "Anthropic Newsroom",
-      "Simon Willison"
+      "Bloomberg",
+      "The Defiant"
     ]
   },
   {
