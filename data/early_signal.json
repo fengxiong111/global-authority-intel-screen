@@ -20,15 +20,16 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 6,
-    "trusted_mentions": 3,
+    "mentions": 7,
+    "trusted_mentions": 4,
     "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 1,
     "first_seen_at": "2026-04-06T17:44:30.000Z",
     "sources": [
       "Anthropic Newsroom",
+      "Bloomberg",
       "Reddit",
       "Simon Willison",
       "X"
@@ -111,6 +112,20 @@
     "sources": [
       "Bloomberg",
       "The Block"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-04-10T14:47:07.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
