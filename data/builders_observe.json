@@ -1,5 +1,53 @@
 [
   {
+    "fetch_time": 1775854316,
+    "count": 4,
+    "titles": [
+      "伊朗战事最新进展：纽约时报：Iranian Delegation…",
+      "OpenClaw 联手 VirusTotal 强化技能安全",
+      "Claude Opus 4.6 发布",
+      "GitHub 热门工具：Archon"
+    ],
+    "items": [
+      {
+        "id": "34b13ae47bfa95f3",
+        "title": "伊朗战事最新进展：纽约时报：Iranian Delegation…",
+        "topic": "NYT",
+        "source": "NYT",
+        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
+        "action_hint": "看是否继续升级。",
+        "urgency": "high"
+      },
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      },
+      {
+        "id": "2b1e6bdecefe6606",
+        "title": "Claude Opus 4.6 发布",
+        "topic": "CLAUDE",
+        "source": "Anthropic Newsroom",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "940eec871859ca1b",
+        "title": "GitHub 热门工具：Archon",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1775851337,
     "count": 4,
     "titles": [
@@ -1397,54 +1445,6 @@
         "source": "NYT",
         "meaning": "地缘风险在升温，可能影响市场和政策预期。",
         "action_hint": "看是否继续升级。",
-        "urgency": "high"
-      },
-      {
-        "id": "7d7997641f12a8f3",
-        "title": "GitHub 热门工具：seomachine",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1775680598,
-    "count": 4,
-    "titles": [
-      "伊朗战事最新进展：纽约时报：Cease-Fire Tested by…",
-      "科技：稳定币 volumes could hit $1.5…",
-      "GitHub 热门工具：seomachine",
-      "OpenClaw 联手 VirusTotal 强化技能安全"
-    ],
-    "items": [
-      {
-        "id": "52967387bbc46d64",
-        "title": "伊朗战事最新进展：纽约时报：Cease-Fire Tested by…",
-        "topic": "NYT",
-        "source": "NYT",
-        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
-        "action_hint": "看是否继续升级。",
-        "urgency": "high"
-      },
-      {
-        "id": "7e927aa620868802",
-        "title": "科技：稳定币 volumes could hit $1.5…",
-        "topic": "CRYPTO_TOOLS",
-        "source": "The Block",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
         "urgency": "high"
       },
       {
