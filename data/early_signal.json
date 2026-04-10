@@ -4,7 +4,7 @@
     "type": "AI",
     "mentions": 7,
     "trusted_mentions": 4,
-    "community_hits": 3,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.83,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "topic": "bitcoin",
+    "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 6,
     "trusted_mentions": 4,
