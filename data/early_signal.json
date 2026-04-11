@@ -21,15 +21,16 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 3,
-    "community_hits": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 1,
     "first_seen_at": "2026-04-10T00:00:00.000Z",
     "sources": [
       "Bloomberg",
+      "Hacker News",
       "NYT",
       "OpenAI News",
       "Reddit"
