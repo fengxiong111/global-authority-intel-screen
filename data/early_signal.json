@@ -20,19 +20,18 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 3,
-    "community_hits": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 1,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-04-10T00:00:00.000Z",
     "sources": [
       "Bloomberg",
       "Hacker News",
       "NYT",
-      "OpenAI News",
-      "Reddit"
+      "OpenAI News"
     ]
   },
   {
@@ -79,6 +78,21 @@
     "sources": [
       "Nintendo News",
       "Reddit"
+    ]
+  },
+  {
+    "topic": "Getting",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-10T00:00:00.000Z",
+    "sources": [
+      "OpenAI News",
+      "X"
     ]
   },
   {
@@ -129,27 +143,13 @@
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-04-07T20:16:05.000Z",
-    "sources": [
-      "X"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
     "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0,
-    "first_seen_at": "2026-04-11T18:55:31.000Z",
+    "first_seen_at": "2026-04-07T20:16:05.000Z",
     "sources": [
       "X"
     ]
