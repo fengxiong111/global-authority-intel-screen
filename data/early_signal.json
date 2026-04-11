@@ -1,5 +1,23 @@
 [
   {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 7,
+    "trusted_mentions": 3,
+    "community_hits": 4,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 1,
+    "first_seen_at": "2026-04-10T00:00:00.000Z",
+    "sources": [
+      "Bloomberg",
+      "Hacker News",
+      "NYT",
+      "OpenAI News",
+      "Reddit"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 7,
@@ -19,29 +37,27 @@
     ]
   },
   {
-    "topic": "OpenAI",
+    "topic": "Anthropic",
     "type": "AI",
-    "mentions": 6,
-    "trusted_mentions": 3,
-    "community_hits": 3,
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 1,
-    "first_seen_at": "2026-04-10T00:00:00.000Z",
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-04-03T21:28:01.000Z",
     "sources": [
-      "Bloomberg",
-      "Hacker News",
       "NYT",
-      "OpenAI News",
-      "Reddit"
+      "Reddit",
+      "SemiAnalysis"
     ]
   },
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 1,
-    "community_hits": 4,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
@@ -79,21 +95,6 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.97,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-04-03T21:28:01.000Z",
-    "sources": [
-      "NYT",
-      "SemiAnalysis"
     ]
   },
   {
@@ -136,20 +137,6 @@
     "growth_score": 1,
     "resonance_score": 0,
     "first_seen_at": "2026-04-07T20:16:05.000Z",
-    "sources": [
-      "X"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-04-11T18:55:31.000Z",
     "sources": [
       "X"
     ]
