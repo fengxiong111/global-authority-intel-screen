@@ -20,15 +20,14 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 7,
-    "trusted_mentions": 5,
+    "mentions": 6,
+    "trusted_mentions": 4,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 1,
     "first_seen_at": "2026-04-04T22:46:43.000Z",
     "sources": [
-      "Bloomberg",
       "Hacker News",
       "OneKey Blog",
       "The Block",
@@ -137,6 +136,20 @@
     "growth_score": 1,
     "resonance_score": 0,
     "first_seen_at": "2026-04-07T20:16:05.000Z",
+    "sources": [
+      "X"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-04-11T18:55:31.000Z",
     "sources": [
       "X"
     ]
