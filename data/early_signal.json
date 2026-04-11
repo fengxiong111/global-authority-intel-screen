@@ -18,35 +18,20 @@
     ]
   },
   {
-    "topic": "Anthropic",
+    "topic": "OpenAI",
     "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-03T21:28:01.000Z",
-    "sources": [
-      "NYT",
-      "Reddit",
-      "SemiAnalysis"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-04-10T00:00:00.000Z",
     "sources": [
       "Bloomberg",
       "NYT",
-      "OpenAI News"
+      "OpenAI News",
+      "Reddit"
     ]
   },
   {
@@ -92,6 +77,36 @@
     "sources": [
       "PlayStation Blog",
       "Sony Interactive"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "MACRO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-04-11T14:03:37.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.97,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-04-03T21:28:01.000Z",
+    "sources": [
+      "NYT",
+      "SemiAnalysis"
     ]
   },
   {
