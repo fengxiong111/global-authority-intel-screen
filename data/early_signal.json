@@ -37,6 +37,22 @@
     ]
   },
   {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-04-03T21:28:01.000Z",
+    "sources": [
+      "NYT",
+      "Reddit",
+      "SemiAnalysis"
+    ]
+  },
+  {
     "topic": "Claude",
     "type": "AI",
     "mentions": 3,
@@ -94,21 +110,6 @@
     "sources": [
       "PlayStation Blog",
       "Sony Interactive"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.97,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-04-03T21:28:01.000Z",
-    "sources": [
-      "NYT",
-      "SemiAnalysis"
     ]
   },
   {
