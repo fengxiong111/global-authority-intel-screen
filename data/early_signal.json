@@ -20,18 +20,17 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 6,
-    "trusted_mentions": 3,
+    "mentions": 5,
+    "trusted_mentions": 2,
     "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-04-03T21:28:01.000Z",
     "sources": [
       "NYT",
       "Reddit",
-      "SemiAnalysis",
-      "Stratechery"
+      "SemiAnalysis"
     ]
   },
   {
@@ -48,6 +47,21 @@
       "Bloomberg",
       "NYT",
       "OpenAI News"
+    ]
+  },
+  {
+    "topic": "任天堂",
+    "type": "GAME",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-09T01:06:36.000Z",
+    "sources": [
+      "Nintendo News",
+      "Reddit"
     ]
   },
   {
