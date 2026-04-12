@@ -34,8 +34,8 @@
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
+    "mentions": 3,
+    "trusted_mentions": 1,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
