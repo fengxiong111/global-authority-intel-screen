@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1776034274,
+    "count": 3,
+    "titles": [
+      "OpenClaw 联手 VirusTotal 强化技能安全",
+      "Claude Opus 4.6 发布",
+      "GitHub 热门工具：Archon"
+    ],
+    "items": [
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      },
+      {
+        "id": "2b1e6bdecefe6606",
+        "title": "Claude Opus 4.6 发布",
+        "topic": "CLAUDE",
+        "source": "Anthropic Newsroom",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "940eec871859ca1b",
+        "title": "GitHub 热门工具：Archon",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1776031304,
     "count": 3,
     "titles": [
@@ -2399,44 +2437,6 @@
   },
   {
     "fetch_time": 1775861546,
-    "count": 3,
-    "titles": [
-      "OpenClaw 联手 VirusTotal 强化技能安全",
-      "Claude Opus 4.6 发布",
-      "GitHub 热门工具：Archon"
-    ],
-    "items": [
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      },
-      {
-        "id": "2b1e6bdecefe6606",
-        "title": "Claude Opus 4.6 发布",
-        "topic": "CLAUDE",
-        "source": "Anthropic Newsroom",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "940eec871859ca1b",
-        "title": "GitHub 热门工具：Archon",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1775858745,
     "count": 3,
     "titles": [
       "OpenClaw 联手 VirusTotal 强化技能安全",
