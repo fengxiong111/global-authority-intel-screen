@@ -62,9 +62,9 @@
     ]
   },
   {
-    "topic": "OpenClaw",
+    "topic": "openclaw",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -94,7 +94,7 @@
   {
     "topic": "JUST",
     "type": "CRYPTO",
-    "mentions": 3,
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
