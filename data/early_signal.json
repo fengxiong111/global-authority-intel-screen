@@ -17,22 +17,6 @@
     ]
   },
   {
-    "topic": "The",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-04-12T09:00:47.000Z",
-    "sources": [
-      "Karpathy",
-      "NYT",
-      "Reddit"
-    ]
-  },
-  {
     "topic": "Anthropic",
     "type": "AI",
     "mentions": 3,
@@ -51,9 +35,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 1,
-    "community_hits": 3,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
@@ -61,6 +45,21 @@
     "sources": [
       "Anthropic Newsroom",
       "Reddit"
+    ]
+  },
+  {
+    "topic": "The",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-12T09:00:47.000Z",
+    "sources": [
+      "Karpathy",
+      "NYT"
     ]
   },
   {
