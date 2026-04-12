@@ -17,6 +17,22 @@
     ]
   },
   {
+    "topic": "The",
+    "type": "OTHER",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-04-12T09:00:47.000Z",
+    "sources": [
+      "Karpathy",
+      "NYT",
+      "Reddit"
+    ]
+  },
+  {
     "topic": "Anthropic",
     "type": "AI",
     "mentions": 4,
@@ -48,21 +64,6 @@
     ]
   },
   {
-    "topic": "The",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-12T09:00:47.000Z",
-    "sources": [
-      "Karpathy",
-      "NYT"
-    ]
-  },
-  {
     "topic": "OpenClaw",
     "type": "AI",
     "mentions": 5,
@@ -90,20 +91,6 @@
     "sources": [
       "PlayStation Blog",
       "Sony Interactive"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-04-12T02:36:46.000Z",
-    "sources": [
-      "X"
     ]
   },
   {
