@@ -63,7 +63,7 @@
     ]
   },
   {
-    "topic": "POLYMARKET",
+    "topic": "Polymarket",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
@@ -105,6 +105,20 @@
     "sources": [
       "PlayStation Blog",
       "Sony Interactive"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-04-11T18:55:31.000Z",
+    "sources": [
+      "X"
     ]
   },
   {
