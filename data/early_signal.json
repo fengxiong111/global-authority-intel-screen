@@ -2,18 +2,17 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 7,
-    "trusted_mentions": 4,
+    "mentions": 6,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-04-04T22:46:43.000Z",
     "sources": [
       "Bloomberg",
       "OneKey Blog",
-      "The Block",
-      "The Defiant"
+      "The Block"
     ]
   },
   {
@@ -24,11 +23,10 @@
     "community_hits": 5,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.68,
     "first_seen_at": "2026-04-12T05:38:10.000Z",
     "sources": [
       "Anthropic Newsroom",
-      "Hacker News",
       "Reddit"
     ]
   },
@@ -75,35 +73,6 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
-    ]
-  },
-  {
-    "topic": "索尼",
-    "type": "GAME",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.91,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-04-10T17:01:32.000Z",
-    "sources": [
-      "PlayStation Blog",
-      "Sony Interactive"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-04-13T14:54:30.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
