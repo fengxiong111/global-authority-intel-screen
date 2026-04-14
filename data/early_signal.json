@@ -2,18 +2,19 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 10,
-    "trusted_mentions": 4,
+    "mentions": 11,
+    "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 1,
     "first_seen_at": "2026-04-04T22:46:43.000Z",
     "sources": [
       "Bloomberg",
       "OneKey Blog",
       "The Block",
-      "The Defiant"
+      "The Defiant",
+      "X"
     ]
   },
   {
@@ -36,9 +37,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 1,
-    "community_hits": 4,
+    "community_hits": 5,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
@@ -46,6 +47,21 @@
     "sources": [
       "Anthropic Newsroom",
       "Reddit"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-13T06:00:00.000Z",
+    "sources": [
+      "Bloomberg",
+      "OpenAI News"
     ]
   },
   {
@@ -61,20 +77,6 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
-    ]
-  },
-  {
-    "topic": "Switch",
-    "type": "GAME",
-    "mentions": 3,
-    "trusted_mentions": 0,
-    "community_hits": 3,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-04-14T03:13:38.000Z",
-    "sources": [
-      "Reddit"
     ]
   }
 ]
