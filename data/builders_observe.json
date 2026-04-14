@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1776154195,
+    "count": 2,
+    "titles": [
+      "GitHub 热门工具：claude-mem",
+      "OpenClaw 测试版更新 2026.4.14 Beta 1"
+    ],
+    "items": [
+      {
+        "id": "f63726b1d231df04",
+        "title": "GitHub 热门工具：claude-mem",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "4d7a0cca32a6accb",
+        "title": "OpenClaw 测试版更新 2026.4.14 Beta 1",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1776147757,
     "count": 2,
     "titles": [
@@ -1519,54 +1547,6 @@
   },
   {
     "fetch_time": 1775982711,
-    "count": 4,
-    "titles": [
-      "伊朗战事最新进展：纽约时报：U.S. and Iran Fail to…",
-      "OpenClaw 联手 VirusTotal 强化技能安全",
-      "Claude Opus 4.6 发布",
-      "GitHub 热门工具：Archon"
-    ],
-    "items": [
-      {
-        "id": "ba5b31d30206c779",
-        "title": "伊朗战事最新进展：纽约时报：U.S. and Iran Fail to…",
-        "topic": "NYT",
-        "source": "NYT",
-        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
-        "action_hint": "看是否继续升级。",
-        "urgency": "high"
-      },
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      },
-      {
-        "id": "2b1e6bdecefe6606",
-        "title": "Claude Opus 4.6 发布",
-        "topic": "CLAUDE",
-        "source": "Anthropic Newsroom",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "940eec871859ca1b",
-        "title": "GitHub 热门工具：Archon",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1775979953,
     "count": 4,
     "titles": [
       "伊朗战事最新进展：纽约时报：U.S. and Iran Fail to…",
