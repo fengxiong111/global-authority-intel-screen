@@ -2,31 +2,33 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 6,
-    "trusted_mentions": 4,
+    "mentions": 9,
+    "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 1,
     "first_seen_at": "2026-04-04T22:46:43.000Z",
     "sources": [
       "Bloomberg",
       "OneKey Blog",
       "The Block",
-      "The Defiant"
+      "The Defiant",
+      "X"
     ]
   },
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
+    "mentions": 5,
+    "trusted_mentions": 3,
     "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-04-13T20:14:36.000Z",
     "sources": [
+      "Bloomberg",
       "Reddit",
       "SemiAnalysis",
       "Stratechery"
