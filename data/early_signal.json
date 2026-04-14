@@ -19,33 +19,31 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 1,
-    "community_hits": 4,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.68,
     "first_seen_at": "2026-04-14T02:56:07.000Z",
     "sources": [
       "Anthropic Newsroom",
-      "Hacker News",
       "Reddit"
     ]
   },
   {
-    "topic": "Anthropic",
+    "topic": "Claude Opus",
     "type": "AI",
     "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
+    "trusted_mentions": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-13T20:14:36.000Z",
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-13T07:01:56.000Z",
     "sources": [
-      "Reddit",
-      "SemiAnalysis",
-      "Stratechery"
+      "Anthropic Newsroom",
+      "Reddit"
     ]
   },
   {
@@ -61,6 +59,21 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-04-13T20:14:36.000Z",
+    "sources": [
+      "SemiAnalysis",
+      "Stratechery"
     ]
   }
 ]
