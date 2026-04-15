@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1776278647,
+    "count": 3,
+    "titles": [
+      "科技：Fireblocks 发布 稳定币 Yield Product via…",
+      "GitHub 热门工具：claude-mem",
+      "OpenClaw 联手 VirusTotal 强化技能安全"
+    ],
+    "items": [
+      {
+        "id": "e2d004d85efc30c2",
+        "title": "科技：Fireblocks 发布 稳定币 Yield Product via…",
+        "topic": "CRYPTO_TOOLS",
+        "source": "The Defiant",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "f63726b1d231df04",
+        "title": "GitHub 热门工具：claude-mem",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1776274441,
     "count": 3,
     "titles": [
@@ -1233,34 +1271,6 @@
   },
   {
     "fetch_time": 1776108990,
-    "count": 2,
-    "titles": [
-      "GitHub 热门工具：claude-mem",
-      "OpenClaw 联手 VirusTotal 强化技能安全"
-    ],
-    "items": [
-      {
-        "id": "f63726b1d231df04",
-        "title": "GitHub 热门工具：claude-mem",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1776103241,
     "count": 2,
     "titles": [
       "GitHub 热门工具：claude-mem",
