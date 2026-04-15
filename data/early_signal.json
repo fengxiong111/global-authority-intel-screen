@@ -19,14 +19,15 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.9,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-04-13T06:00:00.000Z",
     "sources": [
+      "Bloomberg",
       "NYT",
       "OpenAI News",
       "Reddit"
@@ -35,9 +36,9 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 3,
     "trusted_mentions": 2,
-    "community_hits": 3,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -46,21 +47,6 @@
       "Reddit",
       "SemiAnalysis",
       "Stratechery"
-    ]
-  },
-  {
-    "topic": "Claude Opus",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-14T18:30:07.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Reddit"
     ]
   },
   {
