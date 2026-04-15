@@ -1,5 +1,53 @@
 [
   {
+    "fetch_time": 1776243370,
+    "count": 4,
+    "titles": [
+      "科技：X 发布 新 Cashtag 功能 for Stocks and…",
+      "GitHub 热门工具：claude-mem",
+      "OpenClaw 联手 VirusTotal 强化技能安全",
+      "苹果 发布 新 All-in-One 苹果 Business Platform…"
+    ],
+    "items": [
+      {
+        "id": "6596ff8b1cfd0f22",
+        "title": "科技：X 发布 新 Cashtag 功能 for Stocks and…",
+        "topic": "CRYPTO_TOOLS",
+        "source": "The Defiant",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "f63726b1d231df04",
+        "title": "GitHub 热门工具：claude-mem",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      },
+      {
+        "id": "551ef42f00fa3469",
+        "title": "苹果 发布 新 All-in-One 苹果 Business Platform…",
+        "topic": "APPLE",
+        "source": "Reddit",
+        "meaning": "这是一个值得继续盯的变化信号。",
+        "action_hint": "点开核对原文。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1776237036,
     "count": 3,
     "titles": [
@@ -1075,44 +1123,6 @@
   },
   {
     "fetch_time": 1776074901,
-    "count": 3,
-    "titles": [
-      "OpenClaw 联手 VirusTotal 强化技能安全",
-      "Claude Opus 4.6 发布",
-      "GitHub 热门工具：Archon"
-    ],
-    "items": [
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      },
-      {
-        "id": "2b1e6bdecefe6606",
-        "title": "Claude Opus 4.6 发布",
-        "topic": "CLAUDE",
-        "source": "Anthropic Newsroom",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "940eec871859ca1b",
-        "title": "GitHub 热门工具：Archon",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1776068374,
     "count": 3,
     "titles": [
       "OpenClaw 联手 VirusTotal 强化技能安全",
