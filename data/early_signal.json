@@ -20,7 +20,7 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 8,
     "trusted_mentions": 3,
     "community_hits": 4,
     "ranking_change": false,
@@ -67,7 +67,7 @@
   {
     "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 4,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
