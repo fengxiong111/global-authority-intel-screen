@@ -2,17 +2,34 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 5,
-    "trusted_mentions": 3,
+    "mentions": 6,
+    "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-04-04T22:46:43.000Z",
     "sources": [
       "Bloomberg",
       "OneKey Blog",
-      "The Block"
+      "The Block",
+      "The Defiant"
+    ]
+  },
+  {
+    "topic": "OpenClaw",
+    "type": "AI",
+    "mentions": 6,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-04-05T00:00:00.000Z",
+    "sources": [
+      "OpenClaw Blog",
+      "OpenClaw GitHub",
+      "Reddit"
     ]
   },
   {
@@ -48,6 +65,21 @@
     ]
   },
   {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-15T15:19:41.000Z",
+    "sources": [
+      "Karpathy",
+      "NYT"
+    ]
+  },
+  {
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 2,
@@ -63,18 +95,18 @@
     ]
   },
   {
-    "topic": "OpenClaw",
-    "type": "AI",
-    "mentions": 5,
+    "topic": "ETF",
+    "type": "CRYPTO",
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-04-05T00:00:00.000Z",
+    "first_seen_at": "2026-04-15T00:46:35.000Z",
     "sources": [
-      "OpenClaw Blog",
-      "OpenClaw GitHub"
+      "The Block",
+      "The Defiant"
     ]
   }
 ]
