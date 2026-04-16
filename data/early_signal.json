@@ -2,7 +2,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 7,
+    "mentions": 6,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -19,46 +19,47 @@
   {
     "topic": "Claude Opus",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 1,
+    "mentions": 5,
+    "trusted_mentions": 2,
     "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-04-16T00:00:00.000Z",
     "sources": [
       "Anthropic Newsroom",
       "Hacker News",
-      "Reddit"
+      "Reddit",
+      "Simon Willison"
+    ]
+  },
+  {
+    "topic": "Codex",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-16T10:00:00.000Z",
+    "sources": [
+      "OpenAI News",
+      "X"
     ]
   },
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 1,
-    "community_hits": 4,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
     "first_seen_at": "2026-04-15T10:19:21.000Z",
     "sources": [
       "Anthropic Newsroom",
-      "Reddit"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-14T01:57:23.000Z",
-    "sources": [
-      "NYT",
       "Reddit"
     ]
   },
@@ -78,9 +79,24 @@
     ]
   },
   {
+    "topic": "The",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-15T10:00:00.000Z",
+    "sources": [
+      "Bloomberg",
+      "OpenAI News"
+    ]
+  },
+  {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
