@@ -2,15 +2,14 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 4,
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 1,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-04-13T20:14:36.000Z",
     "sources": [
-      "Bloomberg",
       "Reddit",
       "SemiAnalysis",
       "Simon Willison",
@@ -34,35 +33,19 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 4,
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 3,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
-    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "first_seen_at": "2026-04-15T15:19:41.000Z",
     "sources": [
       "Bloomberg",
-      "OneKey Blog",
-      "The Block"
-    ]
-  },
-  {
-    "topic": "etf",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-16T20:03:30.000Z",
-    "sources": [
-      "Bloomberg",
-      "NYT",
-      "X"
+      "Karpathy",
+      "NYT"
     ]
   },
   {
@@ -96,6 +79,36 @@
     ]
   },
   {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "sources": [
+      "OneKey Blog",
+      "The Defiant"
+    ]
+  },
+  {
+    "topic": "etf",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-16T20:03:30.000Z",
+    "sources": [
+      "Bloomberg",
+      "X"
+    ]
+  },
+  {
     "topic": "METRO",
     "type": "GAME",
     "mentions": 3,
@@ -111,7 +124,7 @@
     ]
   },
   {
-    "topic": "科技",
+    "topic": "The",
     "type": "OTHER",
     "mentions": 2,
     "trusted_mentions": 2,
@@ -119,10 +132,25 @@
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-04-15T15:19:41.000Z",
+    "first_seen_at": "2026-04-16T21:00:10.000Z",
     "sources": [
-      "Karpathy",
-      "NYT"
+      "Bloomberg",
+      "Karpathy"
+    ]
+  },
+  {
+    "topic": "The",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-15T18:06:42.000Z",
+    "sources": [
+      "Bloomberg",
+      "X"
     ]
   },
   {
