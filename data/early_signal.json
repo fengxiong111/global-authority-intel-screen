@@ -36,7 +36,7 @@
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 7,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -64,6 +64,21 @@
     ]
   },
   {
+    "topic": "METRO",
+    "type": "GAME",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-16T17:15:35.000Z",
+    "sources": [
+      "PlayStation Blog",
+      "Reddit"
+    ]
+  },
+  {
     "topic": "科技",
     "type": "OTHER",
     "mentions": 2,
@@ -76,21 +91,6 @@
     "sources": [
       "Karpathy",
       "NYT"
-    ]
-  },
-  {
-    "topic": "The",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-15T10:00:00.000Z",
-    "sources": [
-      "Bloomberg",
-      "OpenAI News"
     ]
   },
   {
@@ -122,6 +122,20 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-04-16T17:43:13.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
