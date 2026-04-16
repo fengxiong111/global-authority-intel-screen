@@ -2,7 +2,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 8,
+    "mentions": 7,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -17,49 +17,34 @@
     ]
   },
   {
-    "topic": "Anthropic",
-    "type": "AI",
+    "topic": "科技",
+    "type": "OTHER",
     "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
+    "trusted_mentions": 3,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
-    "first_seen_at": "2026-04-13T20:14:36.000Z",
+    "first_seen_at": "2026-04-15T15:19:41.000Z",
     "sources": [
-      "Reddit",
-      "SemiAnalysis",
-      "Stratechery"
+      "Bloomberg",
+      "Karpathy",
+      "NYT"
     ]
   },
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 1,
-    "community_hits": 2,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-04-15T11:39:18.000Z",
+    "first_seen_at": "2026-04-15T10:19:21.000Z",
     "sources": [
       "Anthropic Newsroom",
       "Reddit"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-15T15:19:41.000Z",
-    "sources": [
-      "Karpathy",
-      "NYT"
     ]
   },
   {
@@ -93,18 +78,18 @@
     ]
   },
   {
-    "topic": "ETF",
-    "type": "CRYPTO",
+    "topic": "Anthropic",
+    "type": "AI",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-04-15T00:46:35.000Z",
+    "first_seen_at": "2026-04-13T20:14:36.000Z",
     "sources": [
-      "The Block",
-      "The Defiant"
+      "SemiAnalysis",
+      "Stratechery"
     ]
   }
 ]
