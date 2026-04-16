@@ -1,22 +1,5 @@
 [
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 6,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-04-04T22:46:43.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Block",
-      "The Defiant"
-    ]
-  },
-  {
     "topic": "Claude Opus",
     "type": "AI",
     "mentions": 5,
@@ -34,9 +17,25 @@
     ]
   },
   {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 5,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block"
+    ]
+  },
+  {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 5,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -60,6 +59,21 @@
     "first_seen_at": "2026-04-15T10:19:21.000Z",
     "sources": [
       "Anthropic Newsroom",
+      "Reddit"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 1,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-16T09:05:16.000Z",
+    "sources": [
+      "Bloomberg",
       "Reddit"
     ]
   },
@@ -94,25 +108,9 @@
     ]
   },
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.1,
-    "first_seen_at": "2026-04-13T20:14:36.000Z",
-    "sources": [
-      "Bloomberg",
-      "SemiAnalysis",
-      "Stratechery"
-    ]
-  },
-  {
     "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -125,17 +123,33 @@
     ]
   },
   {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 3,
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-04-16T17:43:13.000Z",
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-04-13T20:14:36.000Z",
     "sources": [
-      "X"
+      "SemiAnalysis",
+      "Stratechery"
+    ]
+  },
+  {
+    "topic": "索尼",
+    "type": "GAME",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-04-16T19:35:23.000Z",
+    "sources": [
+      "PlayStation Blog",
+      "Sony Interactive"
     ]
   }
 ]
