@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1776456238,
+    "count": 3,
+    "titles": [
+      "比特币 Climbs to 两款-Month High Amid 中东…",
+      "OpenClaw 联手 VirusTotal 强化技能安全",
+      "GitHub 热门工具：evolver"
+    ],
+    "items": [
+      {
+        "id": "885880987b10bc17",
+        "title": "比特币 Climbs to 两款-Month High Amid 中东…",
+        "topic": "BTC",
+        "source": "Bloomberg",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      },
+      {
+        "id": "75793ac2eb3ff4a2",
+        "title": "GitHub 热门工具：evolver",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1776453396,
     "count": 3,
     "titles": [
@@ -1261,44 +1299,6 @@
   },
   {
     "fetch_time": 1776285682,
-    "count": 3,
-    "titles": [
-      "科技：Fireblocks 发布 稳定币 Yield Product via…",
-      "GitHub 热门工具：claude-mem",
-      "OpenClaw 测试版更新 2026.4.15 Beta 1"
-    ],
-    "items": [
-      {
-        "id": "e2d004d85efc30c2",
-        "title": "科技：Fireblocks 发布 稳定币 Yield Product via…",
-        "topic": "CRYPTO_TOOLS",
-        "source": "The Defiant",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      },
-      {
-        "id": "f63726b1d231df04",
-        "title": "GitHub 热门工具：claude-mem",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "2732c18235223e00",
-        "title": "OpenClaw 测试版更新 2026.4.15 Beta 1",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1776282823,
     "count": 3,
     "titles": [
       "科技：Fireblocks 发布 稳定币 Yield Product via…",
