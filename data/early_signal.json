@@ -1,20 +1,38 @@
 [
   {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 6,
+    "trusted_mentions": 5,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 1,
+    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block",
+      "The Defiant",
+      "X"
+    ]
+  },
+  {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 4,
-    "community_hits": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 1,
     "first_seen_at": "2026-04-13T20:14:36.000Z",
     "sources": [
-      "Bloomberg",
       "NYT",
       "Reddit",
       "SemiAnalysis",
-      "Simon Willison"
+      "Simon Willison",
+      "X"
     ]
   },
   {
@@ -32,23 +50,6 @@
       "Hacker News",
       "Reddit",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 5,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-04-04T22:46:43.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Block",
-      "The Defiant"
     ]
   },
   {
@@ -112,17 +113,17 @@
     ]
   },
   {
-    "topic": "JUST",
-    "type": "CRYPTO",
+    "topic": "Opus",
+    "type": "AI",
     "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
+    "trusted_mentions": 0,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0,
-    "first_seen_at": "2026-04-17T08:27:50.000Z",
+    "first_seen_at": "2026-04-17T06:35:21.000Z",
     "sources": [
-      "X"
+      "Reddit"
     ]
   }
 ]

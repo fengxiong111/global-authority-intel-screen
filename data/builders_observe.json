@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1776434936,
+    "count": 3,
+    "titles": [
+      "伊朗战事最新进展：纽约时报：Strait of Hormuz Is…",
+      "OpenClaw 联手 VirusTotal 强化技能安全",
+      "GitHub 热门工具：evolver"
+    ],
+    "items": [
+      {
+        "id": "f83dec344fa014cc",
+        "title": "伊朗战事最新进展：纽约时报：Strait of Hormuz Is…",
+        "topic": "NYT",
+        "source": "NYT",
+        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
+        "action_hint": "看是否继续升级。",
+        "urgency": "high"
+      },
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      },
+      {
+        "id": "75793ac2eb3ff4a2",
+        "title": "GitHub 热门工具：evolver",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1776429695,
     "count": 2,
     "titles": [
@@ -1256,54 +1294,6 @@
         "meaning": "工具能力边界变了，值得更新判断。",
         "action_hint": "看 release notes。",
         "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1776261756,
-    "count": 4,
-    "titles": [
-      "科技：X 发布 新 Cashtag 功能 for Stocks and…",
-      "GitHub 热门工具：claude-mem",
-      "OpenClaw 联手 VirusTotal 强化技能安全",
-      "苹果 发布 新 All-in-One 苹果 Business Platform…"
-    ],
-    "items": [
-      {
-        "id": "6596ff8b1cfd0f22",
-        "title": "科技：X 发布 新 Cashtag 功能 for Stocks and…",
-        "topic": "CRYPTO_TOOLS",
-        "source": "The Defiant",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      },
-      {
-        "id": "f63726b1d231df04",
-        "title": "GitHub 热门工具：claude-mem",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      },
-      {
-        "id": "551ef42f00fa3469",
-        "title": "苹果 发布 新 All-in-One 苹果 Business Platform…",
-        "topic": "APPLE",
-        "source": "Reddit",
-        "meaning": "这是一个值得继续盯的变化信号。",
-        "action_hint": "点开核对原文。",
-        "urgency": "medium"
       }
     ]
   }
