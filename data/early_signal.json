@@ -2,33 +2,19 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
+    "mentions": 6,
+    "trusted_mentions": 4,
     "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.9,
+    "resonance_score": 1,
     "first_seen_at": "2026-04-13T20:14:36.000Z",
     "sources": [
+      "Bloomberg",
+      "NYT",
       "Reddit",
       "SemiAnalysis",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "etf",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-04-16T20:03:30.000Z",
-    "sources": [
-      "Bloomberg",
-      "Reddit",
-      "X"
     ]
   },
   {
@@ -51,16 +37,17 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 3,
+    "mentions": 5,
+    "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-04-04T22:46:43.000Z",
     "sources": [
       "Bloomberg",
       "OneKey Blog",
+      "The Block",
       "The Defiant"
     ]
   },
@@ -122,6 +109,20 @@
     "sources": [
       "PlayStation Blog",
       "Sony Interactive"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-04-17T08:27:50.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
