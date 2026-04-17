@@ -2,9 +2,9 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 3,
-    "community_hits": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.95,
@@ -45,36 +45,6 @@
     "sources": [
       "OneKey Blog",
       "The Defiant"
-    ]
-  },
-  {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-15T10:19:21.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Reddit"
-    ]
-  },
-  {
-    "topic": "etf",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-16T20:03:30.000Z",
-    "sources": [
-      "Bloomberg",
-      "X"
     ]
   },
   {
@@ -123,9 +93,24 @@
     ]
   },
   {
+    "topic": "etf",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-16T20:03:30.000Z",
+    "sources": [
+      "Bloomberg",
+      "X"
+    ]
+  },
+  {
     "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 5,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
