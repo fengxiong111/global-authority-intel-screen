@@ -3,7 +3,7 @@
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 8,
-    "trusted_mentions": 6,
+    "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
@@ -14,6 +14,23 @@
       "OneKey Blog",
       "The Block",
       "The Defiant",
+      "X"
+    ]
+  },
+  {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 2,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-04-17T00:00:00.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Hacker News",
+      "Reddit",
       "X"
     ]
   },
@@ -52,39 +69,9 @@
     ]
   },
   {
-    "topic": "Claude",
+    "topic": "codex",
     "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-17T00:00:00.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Reddit"
-    ]
-  },
-  {
-    "topic": "ETF",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-16T20:03:30.000Z",
-    "sources": [
-      "Bloomberg",
-      "Reddit"
-    ]
-  },
-  {
-    "topic": "Codex",
-    "type": "AI",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -139,6 +126,20 @@
     "sources": [
       "PlayStation Blog",
       "Sony Interactive"
+    ]
+  },
+  {
+    "topic": "Opus",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 0,
+    "community_hits": 3,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-04-17T08:20:57.000Z",
+    "sources": [
+      "Reddit"
     ]
   }
 ]
