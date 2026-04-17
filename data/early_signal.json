@@ -16,6 +16,22 @@
     ]
   },
   {
+    "topic": "etf",
+    "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-04-16T20:03:30.000Z",
+    "sources": [
+      "Bloomberg",
+      "Reddit",
+      "X"
+    ]
+  },
+  {
     "topic": "Claude Opus",
     "type": "AI",
     "mentions": 6,
