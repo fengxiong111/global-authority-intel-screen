@@ -51,6 +51,22 @@
     ]
   },
   {
+    "topic": "Claude Opus",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-04-16T00:00:00.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Reddit",
+      "Simon Willison"
+    ]
+  },
+  {
     "topic": "codex",
     "type": "AI",
     "mentions": 4,
@@ -96,18 +112,17 @@
     ]
   },
   {
-    "topic": "Claude Opus",
+    "topic": "OpenAI",
     "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
+    "mentions": 3,
+    "trusted_mentions": 0,
+    "community_hits": 3,
     "ranking_change": false,
-    "growth_score": 0.73,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-04-16T00:00:00.000Z",
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-04-17T20:24:27.000Z",
     "sources": [
-      "Anthropic Newsroom",
-      "Simon Willison"
+      "Reddit"
     ]
   }
 ]
