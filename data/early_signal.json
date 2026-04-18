@@ -1,22 +1,5 @@
 [
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-04-13T20:14:36.000Z",
-    "sources": [
-      "NYT",
-      "Reddit",
-      "SemiAnalysis",
-      "Simon Willison"
-    ]
-  },
-  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 7,
@@ -36,9 +19,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 6,
     "trusted_mentions": 1,
-    "community_hits": 5,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -47,6 +30,22 @@
       "Anthropic Newsroom",
       "Hacker News",
       "Reddit"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-04-13T20:14:36.000Z",
+    "sources": [
+      "NYT",
+      "SemiAnalysis",
+      "Simon Willison"
     ]
   },
   {
