@@ -2,9 +2,9 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 3,
-    "community_hits": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.95,
@@ -50,21 +50,6 @@
     ]
   },
   {
-    "topic": "codex",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-16T10:00:00.000Z",
-    "sources": [
-      "OpenAI News",
-      "X"
-    ]
-  },
-  {
     "topic": "科技",
     "type": "OTHER",
     "mentions": 2,
@@ -77,6 +62,21 @@
     "sources": [
       "Karpathy",
       "NYT"
+    ]
+  },
+  {
+    "topic": "codex",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-16T10:00:00.000Z",
+    "sources": [
+      "OpenAI News",
+      "X"
     ]
   },
   {
