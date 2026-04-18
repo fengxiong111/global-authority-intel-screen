@@ -36,17 +36,18 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 1,
+    "mentions": 6,
+    "trusted_mentions": 2,
     "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-04-17T00:00:00.000Z",
     "sources": [
       "Anthropic Newsroom",
       "Hacker News",
-      "Reddit"
+      "Reddit",
+      "Simon Willison"
     ]
   },
   {
@@ -92,21 +93,6 @@
     "sources": [
       "PlayStation Blog",
       "Sony Interactive"
-    ]
-  },
-  {
-    "topic": "Claude Opus",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.73,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-04-16T00:00:00.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Simon Willison"
     ]
   }
 ]
