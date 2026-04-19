@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1776628209,
+    "count": 1,
+    "titles": [
+      "OpenClaw 联手 VirusTotal 强化技能安全"
+    ],
+    "items": [
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1776625582,
     "count": 1,
     "titles": [
@@ -1861,44 +1879,6 @@
   },
   {
     "fetch_time": 1776456238,
-    "count": 3,
-    "titles": [
-      "比特币 Climbs to 两款-Month High Amid 中东…",
-      "OpenClaw 联手 VirusTotal 强化技能安全",
-      "GitHub 热门工具：evolver"
-    ],
-    "items": [
-      {
-        "id": "885880987b10bc17",
-        "title": "比特币 Climbs to 两款-Month High Amid 中东…",
-        "topic": "BTC",
-        "source": "Bloomberg",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      },
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      },
-      {
-        "id": "75793ac2eb3ff4a2",
-        "title": "GitHub 热门工具：evolver",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1776453396,
     "count": 3,
     "titles": [
       "比特币 Climbs to 两款-Month High Amid 中东…",
