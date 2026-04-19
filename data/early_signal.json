@@ -2,9 +2,9 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 4,
     "trusted_mentions": 3,
-    "community_hits": 3,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.95,
@@ -36,7 +36,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -53,14 +53,15 @@
   {
     "topic": "科技",
     "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
+    "mentions": 3,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-04-15T15:19:41.000Z",
     "sources": [
+      "Bloomberg",
       "Karpathy",
       "NYT"
     ]
