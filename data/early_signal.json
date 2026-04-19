@@ -17,23 +17,6 @@
     ]
   },
   {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 7,
-    "trusted_mentions": 2,
-    "community_hits": 4,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-04-17T00:00:00.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Hacker News",
-      "Reddit",
-      "Simon Willison"
-    ]
-  },
-  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 7,
@@ -48,6 +31,23 @@
       "OneKey Blog",
       "The Block",
       "The Defiant"
+    ]
+  },
+  {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 6,
+    "trusted_mentions": 2,
+    "community_hits": 3,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.78,
+    "first_seen_at": "2026-04-17T00:00:00.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Hacker News",
+      "Reddit",
+      "Simon Willison"
     ]
   },
   {
