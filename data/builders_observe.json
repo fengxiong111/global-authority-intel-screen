@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1776635332,
+    "count": 2,
+    "titles": [
+      "伊朗战事最新进展：纽约时报：U.S. Attacks Iranian…",
+      "OpenClaw 联手 VirusTotal 强化技能安全"
+    ],
+    "items": [
+      {
+        "id": "b625656f893577ec",
+        "title": "伊朗战事最新进展：纽约时报：U.S. Attacks Iranian…",
+        "topic": "NYT",
+        "source": "NYT",
+        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
+        "action_hint": "看是否继续升级。",
+        "urgency": "high"
+      },
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1776632471,
     "count": 2,
     "titles": [
