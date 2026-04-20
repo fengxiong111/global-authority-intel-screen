@@ -1,66 +1,64 @@
 [
   {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 6,
-    "trusted_mentions": 3,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-04-17T00:00:00.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Reddit",
-      "Simon Willison",
-      "X"
-    ]
-  },
-  {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-04T22:46:43.000Z",
-    "sources": [
-      "OneKey Blog",
-      "The Block",
-      "The Defiant"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
+    "topic": "科技",
+    "type": "OTHER",
     "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-13T20:14:36.000Z",
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-04-15T15:19:41.000Z",
     "sources": [
+      "Karpathy",
       "NYT",
-      "Reddit",
-      "SemiAnalysis"
+      "Reddit"
     ]
   },
   {
-    "topic": "科技",
-    "type": "OTHER",
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 2,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-04-17T00:00:00.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Reddit",
+      "Simon Willison"
+    ]
+  },
+  {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "sources": [
+      "OneKey Blog",
+      "The Defiant"
+    ]
+  },
+  {
+    "topic": "Polymarket",
+    "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-04-15T15:19:41.000Z",
+    "first_seen_at": "2026-04-19T11:47:00.000Z",
     "sources": [
-      "Karpathy",
-      "NYT"
+      "The Block",
+      "X"
     ]
   },
   {
@@ -79,17 +77,18 @@
     ]
   },
   {
-    "topic": "Switch",
-    "type": "GAME",
-    "mentions": 3,
-    "trusted_mentions": 0,
-    "community_hits": 3,
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-04-18T15:41:33.000Z",
+    "growth_score": 0.97,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-04-13T20:14:36.000Z",
     "sources": [
-      "Reddit"
+      "NYT",
+      "SemiAnalysis"
     ]
   }
 ]
