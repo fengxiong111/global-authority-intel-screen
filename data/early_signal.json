@@ -2,14 +2,15 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 9,
-    "trusted_mentions": 4,
+    "mentions": 10,
+    "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 1,
     "first_seen_at": "2026-04-04T22:46:43.000Z",
     "sources": [
+      "Bloomberg",
       "OneKey Blog",
       "The Block",
       "The Defiant",
