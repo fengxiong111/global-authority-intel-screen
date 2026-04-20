@@ -1,5 +1,23 @@
 [
   {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 4,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 1,
+    "first_seen_at": "2026-04-13T20:14:36.000Z",
+    "sources": [
+      "Bloomberg",
+      "Hacker News",
+      "NYT",
+      "SemiAnalysis",
+      "X"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 4,
@@ -18,35 +36,17 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 6,
     "trusted_mentions": 2,
-    "community_hits": 5,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-04-17T00:00:00.000Z",
     "sources": [
       "Anthropic Newsroom",
-      "Hacker News",
       "Reddit",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-04-13T20:14:36.000Z",
-    "sources": [
-      "Bloomberg",
-      "Hacker News",
-      "NYT",
-      "SemiAnalysis"
     ]
   },
   {
@@ -62,20 +62,6 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-04-20T17:16:15.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
