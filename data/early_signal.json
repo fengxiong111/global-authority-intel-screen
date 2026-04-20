@@ -1,10 +1,26 @@
 [
   {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "X"
+    ]
+  },
+  {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 7,
     "trusted_mentions": 2,
-    "community_hits": 2,
+    "community_hits": 5,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.78,
@@ -17,32 +33,17 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-04T22:46:43.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Block"
-    ]
-  },
-  {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-04-13T20:14:36.000Z",
     "sources": [
+      "Bloomberg",
       "Hacker News",
       "NYT",
       "SemiAnalysis"
@@ -64,18 +65,17 @@
     ]
   },
   {
-    "topic": "ETF",
+    "topic": "JUST",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-04-20T18:48:00.000Z",
+    "resonance_score": 0,
+    "first_seen_at": "2026-04-20T17:16:15.000Z",
     "sources": [
-      "Bloomberg",
-      "The Block"
+      "X"
     ]
   }
 ]
