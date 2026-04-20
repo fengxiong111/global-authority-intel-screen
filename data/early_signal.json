@@ -2,7 +2,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 10,
+    "mentions": 8,
     "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
@@ -18,11 +18,27 @@
     ]
   },
   {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-04-15T15:19:41.000Z",
+    "sources": [
+      "Karpathy",
+      "NYT",
+      "Reddit"
+    ]
+  },
+  {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 7,
     "trusted_mentions": 2,
-    "community_hits": 4,
+    "community_hits": 5,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.78,
@@ -51,18 +67,18 @@
     ]
   },
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
+    "topic": "iPhone",
+    "type": "APPLE",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-04-15T15:19:41.000Z",
+    "first_seen_at": "2026-04-20T14:11:48.000Z",
     "sources": [
-      "Karpathy",
-      "NYT"
+      "Apple Newsroom",
+      "Reddit"
     ]
   },
   {
