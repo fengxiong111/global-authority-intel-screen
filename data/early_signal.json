@@ -2,34 +2,17 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 4,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 1,
-    "first_seen_at": "2026-04-13T20:14:36.000Z",
-    "sources": [
-      "Bloomberg",
-      "Hacker News",
-      "NYT",
-      "SemiAnalysis",
-      "X"
-    ]
-  },
-  {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
     "mentions": 4,
-    "trusted_mentions": 3,
+    "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "resonance_score": 0.78,
+    "first_seen_at": "2026-04-13T20:14:36.000Z",
     "sources": [
       "Bloomberg",
-      "OneKey Blog",
+      "NYT",
+      "SemiAnalysis",
       "X"
     ]
   },
@@ -47,6 +30,21 @@
       "Anthropic Newsroom",
       "Reddit",
       "Simon Willison"
+    ]
+  },
+  {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog"
     ]
   },
   {
