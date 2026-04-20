@@ -1,5 +1,22 @@
 [
   {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 9,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "sources": [
+      "OneKey Blog",
+      "The Block",
+      "The Defiant",
+      "X"
+    ]
+  },
+  {
     "topic": "Claude",
     "type": "AI",
     "mentions": 6,
@@ -17,34 +34,19 @@
     ]
   },
   {
-    "topic": "bitcoin",
-    "type": "CRYPTO",
-    "mentions": 6,
-    "trusted_mentions": 3,
-    "community_hits": 0,
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
-    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "first_seen_at": "2026-04-13T20:14:36.000Z",
     "sources": [
-      "OneKey Blog",
-      "The Block",
-      "The Defiant"
-    ]
-  },
-  {
-    "topic": "POLYMARKET",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-20T04:08:02.000Z",
-    "sources": [
-      "The Block",
-      "X"
+      "Hacker News",
+      "NYT",
+      "SemiAnalysis"
     ]
   },
   {
@@ -75,21 +77,6 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.97,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-04-13T20:14:36.000Z",
-    "sources": [
-      "NYT",
-      "SemiAnalysis"
     ]
   }
 ]
