@@ -1,22 +1,5 @@
 [
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-04-13T20:14:36.000Z",
-    "sources": [
-      "Bloomberg",
-      "NYT",
-      "SemiAnalysis",
-      "X"
-    ]
-  },
-  {
     "topic": "Claude",
     "type": "AI",
     "mentions": 6,
@@ -24,12 +7,30 @@
     "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-04-17T00:00:00.000Z",
     "sources": [
       "Anthropic Newsroom",
+      "Hacker News",
       "Reddit",
       "Simon Willison"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.78,
+    "first_seen_at": "2026-04-13T20:14:36.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT",
+      "Reddit",
+      "SemiAnalysis"
     ]
   },
   {
