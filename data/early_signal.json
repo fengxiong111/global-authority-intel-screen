@@ -2,15 +2,14 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 3,
+    "mentions": 3,
+    "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 0.9,
     "first_seen_at": "2026-04-13T20:14:36.000Z",
     "sources": [
-      "Bloomberg",
       "Reddit",
       "SemiAnalysis",
       "X"
