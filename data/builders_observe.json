@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1776789870,
+    "count": 2,
+    "titles": [
+      "JUST IN: 比特币 whales accumulated 比特币 at…",
+      "OpenClaw 联手 VirusTotal 强化技能安全"
+    ],
+    "items": [
+      {
+        "id": "e603def066dc3dab",
+        "title": "JUST IN: 比特币 whales accumulated 比特币 at…",
+        "topic": "BTC",
+        "source": "X",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1776786602,
     "count": 2,
     "titles": [
@@ -900,34 +928,6 @@
         "source": "Bloomberg",
         "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
         "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      },
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1776614749,
-    "count": 2,
-    "titles": [
-      "伊朗战事最新进展：纽约时报：Trump Says U.S. Officials…",
-      "OpenClaw 联手 VirusTotal 强化技能安全"
-    ],
-    "items": [
-      {
-        "id": "2638159e5488c60a",
-        "title": "伊朗战事最新进展：纽约时报：Trump Says U.S. Officials…",
-        "topic": "NYT",
-        "source": "NYT",
-        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
-        "action_hint": "看是否继续升级。",
         "urgency": "high"
       },
       {
