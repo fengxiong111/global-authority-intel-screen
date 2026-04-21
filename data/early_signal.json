@@ -2,8 +2,8 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 3,
+    "mentions": 5,
+    "trusted_mentions": 4,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
@@ -19,9 +19,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 2,
-    "community_hits": 3,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.78,
@@ -31,6 +31,22 @@
       "Hacker News",
       "Reddit",
       "Simon Willison"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-04-20T00:00:00.000Z",
+    "sources": [
+      "Hacker News",
+      "OpenAI News",
+      "Reddit"
     ]
   },
   {
