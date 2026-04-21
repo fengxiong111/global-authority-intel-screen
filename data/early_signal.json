@@ -19,7 +19,7 @@
   {
     "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 7,
     "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
@@ -106,6 +106,21 @@
     "sources": [
       "OpenAI News",
       "Reddit"
+    ]
+  },
+  {
+    "topic": "Kalshi",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-04-21T15:18:35.000Z",
+    "sources": [
+      "Bloomberg",
+      "The Block"
     ]
   },
   {
