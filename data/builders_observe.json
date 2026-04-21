@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1776807146,
+    "count": 3,
+    "titles": [
+      "伊朗战事最新进展：纽约时报：Trump Extends Cease-Fire…",
+      "OpenClaw 联手 VirusTotal 强化技能安全",
+      "Silo — Season 3 官方 Teaser | 苹果 剧集"
+    ],
+    "items": [
+      {
+        "id": "10de667509667f50",
+        "title": "伊朗战事最新进展：纽约时报：Trump Extends Cease-Fire…",
+        "topic": "NYT",
+        "source": "NYT",
+        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
+        "action_hint": "看是否继续升级。",
+        "urgency": "high"
+      },
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      },
+      {
+        "id": "f554e2c20c64ebf5",
+        "title": "Silo — Season 3 官方 Teaser | 苹果 剧集",
+        "topic": "APPLE",
+        "source": "Reddit",
+        "meaning": "这是一个值得继续盯的变化信号。",
+        "action_hint": "点开核对原文。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1776804158,
     "count": 2,
     "titles": [
@@ -831,34 +869,6 @@
   },
   {
     "fetch_time": 1776635332,
-    "count": 2,
-    "titles": [
-      "伊朗战事最新进展：纽约时报：U.S. Attacks Iranian…",
-      "OpenClaw 联手 VirusTotal 强化技能安全"
-    ],
-    "items": [
-      {
-        "id": "b625656f893577ec",
-        "title": "伊朗战事最新进展：纽约时报：U.S. Attacks Iranian…",
-        "topic": "NYT",
-        "source": "NYT",
-        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
-        "action_hint": "看是否继续升级。",
-        "urgency": "high"
-      },
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1776632471,
     "count": 2,
     "titles": [
       "伊朗战事最新进展：纽约时报：U.S. Attacks Iranian…",

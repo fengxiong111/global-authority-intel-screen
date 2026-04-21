@@ -2,33 +2,18 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 2,
-    "community_hits": 2,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.9,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-04-13T20:14:36.000Z",
     "sources": [
+      "Hacker News",
       "Reddit",
       "SemiAnalysis",
       "X"
-    ]
-  },
-  {
-    "topic": "OpenClaw",
-    "type": "AI",
-    "mentions": 8,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-19T00:00:00.000Z",
-    "sources": [
-      "Hacker News",
-      "OpenClaw Blog",
-      "OpenClaw GitHub"
     ]
   },
   {
@@ -78,7 +63,7 @@
     ]
   },
   {
-    "topic": "Codex",
+    "topic": "OpenAI",
     "type": "AI",
     "mentions": 2,
     "trusted_mentions": 2,
@@ -86,10 +71,25 @@
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-04-21T00:00:00.000Z",
+    "first_seen_at": "2026-04-20T00:00:00.000Z",
     "sources": [
       "OpenAI News",
       "X"
+    ]
+  },
+  {
+    "topic": "OpenClaw",
+    "type": "AI",
+    "mentions": 7,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-04-19T00:00:00.000Z",
+    "sources": [
+      "OpenClaw Blog",
+      "OpenClaw GitHub"
     ]
   },
   {
@@ -105,20 +105,6 @@
     "sources": [
       "The Block",
       "The Defiant"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-04-21T19:35:18.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
