@@ -1,18 +1,34 @@
 [
   {
-    "topic": "Anthropic",
+    "topic": "OpenAI",
     "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.9,
-    "first_seen_at": "2026-04-13T20:14:36.000Z",
+    "first_seen_at": "2026-04-20T00:00:00.000Z",
     "sources": [
+      "OpenAI News",
       "Reddit",
-      "SemiAnalysis",
       "X"
+    ]
+  },
+  {
+    "topic": "Claude Code",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 1,
+    "community_hits": 4,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-04-21T21:48:10.000Z",
+    "sources": [
+      "Hacker News",
+      "Reddit",
+      "Simon Willison"
     ]
   },
   {
@@ -32,6 +48,21 @@
     ]
   },
   {
+    "topic": "任天堂",
+    "type": "GAME",
+    "mentions": 4,
+    "trusted_mentions": 1,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-20T06:03:56.000Z",
+    "sources": [
+      "Nintendo News",
+      "Reddit"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 3,
@@ -47,33 +78,33 @@
     ]
   },
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-20T00:00:00.000Z",
-    "sources": [
-      "OpenAI News",
-      "X"
-    ]
-  },
-  {
-    "topic": "任天堂",
-    "type": "GAME",
+    "topic": "ETF",
+    "type": "CRYPTO",
     "mentions": 3,
     "trusted_mentions": 1,
     "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-04-20T06:03:56.000Z",
+    "first_seen_at": "2026-04-21T19:29:43.000Z",
     "sources": [
-      "Nintendo News",
+      "Bloomberg",
       "Reddit"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-13T20:14:36.000Z",
+    "sources": [
+      "SemiAnalysis",
+      "X"
     ]
   },
   {
@@ -92,21 +123,6 @@
     ]
   },
   {
-    "topic": "Claude Code",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 0,
-    "community_hits": 3,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-04-21T21:48:10.000Z",
-    "sources": [
-      "Hacker News",
-      "Reddit"
-    ]
-  },
-  {
     "topic": "New York Attorney",
     "type": "CRYPTO",
     "mentions": 2,
@@ -119,20 +135,6 @@
     "sources": [
       "The Block",
       "The Defiant"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-04-21T19:35:18.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
