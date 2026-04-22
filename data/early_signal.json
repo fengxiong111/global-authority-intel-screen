@@ -2,9 +2,9 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 7,
     "trusted_mentions": 3,
-    "community_hits": 2,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.95,
@@ -17,11 +17,27 @@
     ]
   },
   {
-    "topic": "Claude Code",
+    "topic": "Claude",
     "type": "AI",
     "mentions": 4,
     "trusted_mentions": 2,
     "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-04-22T13:56:47.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Reddit",
+      "X"
+    ]
+  },
+  {
+    "topic": "Claude Code",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.9,
@@ -35,7 +51,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -64,6 +80,21 @@
     ]
   },
   {
+    "topic": "Workspace",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-22T10:00:00.000Z",
+    "sources": [
+      "OpenAI News",
+      "X"
+    ]
+  },
+  {
     "topic": "OpenClaw",
     "type": "AI",
     "mentions": 6,
@@ -76,20 +107,6 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
-    ]
-  },
-  {
-    "topic": "iPhone",
-    "type": "APPLE",
-    "mentions": 3,
-    "trusted_mentions": 0,
-    "community_hits": 3,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-04-22T12:17:18.000Z",
-    "sources": [
-      "Reddit"
     ]
   }
 ]
