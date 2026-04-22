@@ -2,9 +2,9 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 8,
+    "mentions": 6,
     "trusted_mentions": 3,
-    "community_hits": 4,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.95,
@@ -17,9 +17,25 @@
     ]
   },
   {
+    "topic": "Claude Code",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-04-21T21:48:10.000Z",
+    "sources": [
+      "NYT",
+      "Reddit",
+      "Simon Willison"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -33,24 +49,9 @@
     ]
   },
   {
-    "topic": "Claude Code",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-21T21:48:10.000Z",
-    "sources": [
-      "Reddit",
-      "Simon Willison"
-    ]
-  },
-  {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 2,
+    "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -59,6 +60,21 @@
     "first_seen_at": "2026-04-20T00:00:00.000Z",
     "sources": [
       "OpenAI News",
+      "X"
+    ]
+  },
+  {
+    "topic": "POLYMARKET",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-22T15:44:58.000Z",
+    "sources": [
+      "The Defiant",
       "X"
     ]
   },
@@ -78,17 +94,17 @@
     ]
   },
   {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
+    "topic": "iPhone",
+    "type": "APPLE",
+    "mentions": 3,
+    "trusted_mentions": 0,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0,
-    "first_seen_at": "2026-04-22T13:23:04.000Z",
+    "first_seen_at": "2026-04-22T12:17:18.000Z",
     "sources": [
-      "X"
+      "Reddit"
     ]
   }
 ]
