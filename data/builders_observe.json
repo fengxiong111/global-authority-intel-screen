@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1776845248,
+    "count": 1,
+    "titles": [
+      "OpenClaw 联手 VirusTotal 强化技能安全"
+    ],
+    "items": [
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1776838340,
     "count": 1,
     "titles": [
