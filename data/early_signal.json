@@ -16,22 +16,6 @@
     ]
   },
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-04-20T00:00:00.000Z",
-    "sources": [
-      "Bloomberg",
-      "OpenAI News",
-      "X"
-    ]
-  },
-  {
     "topic": "Claude Code",
     "type": "AI",
     "mentions": 4,
@@ -79,6 +63,21 @@
     ]
   },
   {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-20T00:00:00.000Z",
+    "sources": [
+      "OpenAI News",
+      "X"
+    ]
+  },
+  {
     "topic": "OpenClaw",
     "type": "AI",
     "mentions": 6,
@@ -96,7 +95,7 @@
   {
     "topic": "JUST",
     "type": "CRYPTO",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
