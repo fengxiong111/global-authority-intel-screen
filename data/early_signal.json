@@ -16,6 +16,22 @@
     ]
   },
   {
+    "topic": "Claude Code",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-04-21T21:48:10.000Z",
+    "sources": [
+      "NYT",
+      "Reddit",
+      "Simon Willison"
+    ]
+  },
+  {
     "topic": "Anthropic",
     "type": "AI",
     "mentions": 5,
@@ -62,21 +78,6 @@
     ]
   },
   {
-    "topic": "Claude Code",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-21T21:48:10.000Z",
-    "sources": [
-      "NYT",
-      "Simon Willison"
-    ]
-  },
-  {
     "topic": "OpenClaw",
     "type": "AI",
     "mentions": 3,
@@ -89,6 +90,21 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
+    ]
+  },
+  {
+    "topic": "Polymarket",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-04-22T15:44:58.000Z",
+    "sources": [
+      "Bloomberg",
+      "The Defiant"
     ]
   }
 ]

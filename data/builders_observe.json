@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1776929174,
+    "count": 3,
+    "titles": [
+      "纽约时报：Navy Secretary Is 被解雇 as…",
+      "OpenClaw 联手 VirusTotal 强化技能安全",
+      "GitHub 热门工具：langfuse"
+    ],
+    "items": [
+      {
+        "id": "a873c4bd03a3f342",
+        "title": "纽约时报：Navy Secretary Is 被解雇 as…",
+        "topic": "NYT",
+        "source": "NYT",
+        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
+        "action_hint": "看是否继续升级。",
+        "urgency": "high"
+      },
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      },
+      {
+        "id": "ff4c25095f2f085d",
+        "title": "GitHub 热门工具：langfuse",
+        "topic": "OPENAI",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1776923697,
     "count": 3,
     "titles": [
@@ -923,24 +961,6 @@
   },
   {
     "fetch_time": 1776762617,
-    "count": 1,
-    "titles": [
-      "OpenClaw 联手 VirusTotal 强化技能安全"
-    ],
-    "items": [
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1776756335,
     "count": 1,
     "titles": [
       "OpenClaw 联手 VirusTotal 强化技能安全"
