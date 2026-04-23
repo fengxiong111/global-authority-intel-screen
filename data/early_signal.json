@@ -2,9 +2,9 @@
   {
     "topic": "GPT-5.5",
     "type": "AI",
-    "mentions": 8,
+    "mentions": 9,
     "trusted_mentions": 3,
-    "community_hits": 3,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.95,
@@ -35,7 +35,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -84,7 +84,7 @@
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 9,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -99,9 +99,9 @@
   {
     "topic": "Assassin",
     "type": "GAME",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 1,
-    "community_hits": 3,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
