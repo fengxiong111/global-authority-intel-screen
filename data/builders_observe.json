@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1776981570,
+    "count": 3,
+    "titles": [
+      "OpenClaw 联手 VirusTotal 强化技能安全",
+      "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
+      "GitHub 热门工具：cline"
+    ],
+    "items": [
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      },
+      {
+        "id": "35c0b0e1193aade2",
+        "title": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
+        "topic": "ONEKEY",
+        "source": "OneKey Blog",
+        "meaning": "这是一个值得继续盯的变化信号。",
+        "action_hint": "点开核对原文。",
+        "urgency": "medium"
+      },
+      {
+        "id": "8747c7363d427222",
+        "title": "GitHub 热门工具：cline",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1776978547,
     "count": 3,
     "titles": [
@@ -1025,44 +1063,6 @@
   },
   {
     "fetch_time": 1776810198,
-    "count": 3,
-    "titles": [
-      "伊朗战事最新进展：纽约时报：Trump Extends Cease-Fire…",
-      "OpenClaw 联手 VirusTotal 强化技能安全",
-      "Silo — Season 3 官方 Teaser | 苹果 剧集"
-    ],
-    "items": [
-      {
-        "id": "10de667509667f50",
-        "title": "伊朗战事最新进展：纽约时报：Trump Extends Cease-Fire…",
-        "topic": "NYT",
-        "source": "NYT",
-        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
-        "action_hint": "看是否继续升级。",
-        "urgency": "high"
-      },
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      },
-      {
-        "id": "f554e2c20c64ebf5",
-        "title": "Silo — Season 3 官方 Teaser | 苹果 剧集",
-        "topic": "APPLE",
-        "source": "Reddit",
-        "meaning": "这是一个值得继续盯的变化信号。",
-        "action_hint": "点开核对原文。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1776807146,
     "count": 3,
     "titles": [
       "伊朗战事最新进展：纽约时报：Trump Extends Cease-Fire…",
