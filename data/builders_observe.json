@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1776944862,
+    "count": 3,
+    "titles": [
+      "OpenClaw 联手 VirusTotal 强化技能安全",
+      "GitHub 热门工具：cline",
+      "Workspace 智能体"
+    ],
+    "items": [
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      },
+      {
+        "id": "8747c7363d427222",
+        "title": "GitHub 热门工具：cline",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      },
+      {
+        "id": "7917b03399f2a949",
+        "title": "Workspace 智能体",
+        "topic": "OPENAI",
+        "source": "OpenAI News",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1776941334,
     "count": 2,
     "titles": [
@@ -973,24 +1011,6 @@
   },
   {
     "fetch_time": 1776775673,
-    "count": 1,
-    "titles": [
-      "OpenClaw 联手 VirusTotal 强化技能安全"
-    ],
-    "items": [
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1776771986,
     "count": 1,
     "titles": [
       "OpenClaw 联手 VirusTotal 强化技能安全"

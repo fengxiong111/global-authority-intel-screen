@@ -2,9 +2,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 2,
-    "community_hits": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.9,
@@ -13,22 +13,6 @@
       "Anthropic Newsroom",
       "Reddit",
       "X"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-04-22T00:00:00.000Z",
-    "sources": [
-      "Bloomberg",
-      "OpenAI News",
-      "Reddit"
     ]
   },
   {
