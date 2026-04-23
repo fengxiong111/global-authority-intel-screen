@@ -16,27 +16,11 @@
     ]
   },
   {
-    "topic": "Claude Code",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-04-21T21:48:10.000Z",
-    "sources": [
-      "NYT",
-      "Reddit",
-      "Simon Willison"
-    ]
-  },
-  {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 2,
-    "community_hits": 2,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -50,17 +34,16 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 3,
+    "mentions": 3,
+    "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.68,
     "first_seen_at": "2026-04-04T22:46:43.000Z",
     "sources": [
       "Bloomberg",
-      "OneKey Blog",
-      "The Block"
+      "OneKey Blog"
     ]
   },
   {
@@ -76,6 +59,21 @@
     "sources": [
       "OpenAI News",
       "X"
+    ]
+  },
+  {
+    "topic": "Claude Code",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-21T21:48:10.000Z",
+    "sources": [
+      "NYT",
+      "Simon Willison"
     ]
   },
   {
