@@ -1,5 +1,21 @@
 [
   {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-04-22T13:56:47.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Reddit",
+      "X"
+    ]
+  },
+  {
     "topic": "Claude Code",
     "type": "AI",
     "mentions": 3,
@@ -18,9 +34,9 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 4,
     "trusted_mentions": 2,
-    "community_hits": 4,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -48,52 +64,6 @@
     ]
   },
   {
-    "topic": "Musk",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-22T14:56:26.000Z",
-    "sources": [
-      "Bloomberg",
-      "NYT",
-      "Reddit"
-    ]
-  },
-  {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-22T13:56:47.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "X"
-    ]
-  },
-  {
-    "topic": "POLYMARKET",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-22T14:49:46.000Z",
-    "sources": [
-      "The Defiant",
-      "X"
-    ]
-  },
-  {
     "topic": "Workspace",
     "type": "AI",
     "mentions": 2,
@@ -103,21 +73,6 @@
     "growth_score": 1,
     "resonance_score": 0.68,
     "first_seen_at": "2026-04-22T10:00:00.000Z",
-    "sources": [
-      "OpenAI News",
-      "X"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-20T00:00:00.000Z",
     "sources": [
       "OpenAI News",
       "X"
