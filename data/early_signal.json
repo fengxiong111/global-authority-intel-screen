@@ -63,18 +63,18 @@
     ]
   },
   {
-    "topic": "POLYMARKET",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
+    "topic": "Saros",
+    "type": "GAME",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-04-22T15:44:58.000Z",
+    "first_seen_at": "2026-04-23T12:00:36.000Z",
     "sources": [
-      "The Defiant",
-      "X"
+      "PlayStation Blog",
+      "Reddit"
     ]
   },
   {
