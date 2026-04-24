@@ -17,25 +17,9 @@
     ]
   },
   {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-04-22T13:56:47.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Reddit",
-      "X"
-    ]
-  },
-  {
     "topic": "bitcoin",
     "type": "CRYPTO",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -80,9 +64,24 @@
     ]
   },
   {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-22T13:56:47.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "X"
+    ]
+  },
+  {
     "topic": "POLYMARKET",
     "type": "CRYPTO",
-    "mentions": 3,
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
