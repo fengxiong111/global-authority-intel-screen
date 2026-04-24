@@ -1,18 +1,34 @@
 [
   {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 5,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "sources": [
+      "OneKey Blog",
+      "The Block",
+      "The Defiant"
+    ]
+  },
+  {
     "topic": "Claude",
     "type": "AI",
     "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
+    "trusted_mentions": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.9,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-04-22T13:56:47.000Z",
     "sources": [
       "Anthropic Newsroom",
-      "Reddit",
-      "X"
+      "Hacker News",
+      "Reddit"
     ]
   },
   {
@@ -46,17 +62,17 @@
     ]
   },
   {
-    "topic": "GPT-5.5",
+    "topic": "ChatGPT",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 0,
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-04-23T00:00:00.000Z",
+    "first_seen_at": "2026-04-23T18:06:26.000Z",
     "sources": [
-      "OpenAI News",
+      "Reddit",
       "X"
     ]
   },
@@ -76,18 +92,33 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 3,
+    "topic": "OpenClaw",
+    "type": "AI",
+    "mentions": 7,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "first_seen_at": "2026-04-22T00:00:00.000Z",
     "sources": [
-      "The Block",
-      "The Defiant"
+      "OpenClaw Blog",
+      "OpenClaw GitHub"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-04-24T17:48:23.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT"
     ]
   }
 ]
