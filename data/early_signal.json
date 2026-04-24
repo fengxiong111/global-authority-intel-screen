@@ -19,9 +19,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 2,
-    "community_hits": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.9,
@@ -30,6 +30,22 @@
       "Anthropic Newsroom",
       "Reddit",
       "X"
+    ]
+  },
+  {
+    "topic": "bitcoin",
+    "type": "CRYPTO",
+    "mentions": 5,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "sources": [
+      "OneKey Blog",
+      "The Block",
+      "The Defiant"
     ]
   },
   {
@@ -49,22 +65,6 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-04T22:46:43.000Z",
-    "sources": [
-      "OneKey Blog",
-      "The Block",
-      "The Defiant"
-    ]
-  },
-  {
     "topic": "Codex",
     "type": "AI",
     "mentions": 8,
@@ -80,18 +80,18 @@
     ]
   },
   {
-    "topic": "Assassin",
-    "type": "GAME",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
+    "topic": "POLYMARKET",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-04-23T15:01:07.000Z",
+    "first_seen_at": "2026-04-23T22:44:58.000Z",
     "sources": [
-      "PlayStation Blog",
-      "Reddit"
+      "The Block",
+      "X"
     ]
   },
   {
@@ -107,21 +107,6 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "MACRO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-04-24T04:00:16.000Z",
-    "sources": [
-      "Bloomberg",
-      "NYT"
     ]
   }
 ]
