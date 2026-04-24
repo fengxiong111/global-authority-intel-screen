@@ -2,9 +2,9 @@
   {
     "topic": "GPT-5.5",
     "type": "AI",
-    "mentions": 9,
+    "mentions": 8,
     "trusted_mentions": 3,
-    "community_hits": 4,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.95,
@@ -33,19 +33,19 @@
     ]
   },
   {
-    "topic": "Claude Code",
+    "topic": "Anthropic",
     "type": "AI",
     "mentions": 4,
-    "trusted_mentions": 1,
-    "community_hits": 3,
+    "trusted_mentions": 2,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
-    "first_seen_at": "2026-04-21T21:48:10.000Z",
+    "first_seen_at": "2026-04-13T20:14:36.000Z",
     "sources": [
-      "Hacker News",
+      "NYT",
       "Reddit",
-      "Simon Willison"
+      "SemiAnalysis"
     ]
   },
   {
@@ -65,25 +65,9 @@
     ]
   },
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-13T20:14:36.000Z",
-    "sources": [
-      "NYT",
-      "Reddit",
-      "SemiAnalysis"
-    ]
-  },
-  {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 9,
+    "mentions": 8,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -108,21 +92,6 @@
     "sources": [
       "PlayStation Blog",
       "Reddit"
-    ]
-  },
-  {
-    "topic": "Polymarket",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-23T11:22:00.000Z",
-    "sources": [
-      "The Block",
-      "X"
     ]
   },
   {
