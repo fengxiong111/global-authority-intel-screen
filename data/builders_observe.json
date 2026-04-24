@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1777032607,
+    "count": 3,
+    "titles": [
+      "OpenClaw 联手 VirusTotal 强化技能安全",
+      "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
+      "Workspace 智能体"
+    ],
+    "items": [
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      },
+      {
+        "id": "35c0b0e1193aade2",
+        "title": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
+        "topic": "ONEKEY",
+        "source": "OneKey Blog",
+        "meaning": "这是一个值得继续盯的变化信号。",
+        "action_hint": "点开核对原文。",
+        "urgency": "medium"
+      },
+      {
+        "id": "7917b03399f2a949",
+        "title": "Workspace 智能体",
+        "topic": "OPENAI",
+        "source": "OpenAI News",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1777029615,
     "count": 3,
     "titles": [
@@ -1147,34 +1185,6 @@
   },
   {
     "fetch_time": 1776863742,
-    "count": 2,
-    "titles": [
-      "OpenClaw 联手 VirusTotal 强化技能安全",
-      "GitHub 热门工具：langfuse"
-    ],
-    "items": [
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      },
-      {
-        "id": "ff4c25095f2f085d",
-        "title": "GitHub 热门工具：langfuse",
-        "topic": "OPENAI",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1776858954,
     "count": 2,
     "titles": [
       "OpenClaw 联手 VirusTotal 强化技能安全",
