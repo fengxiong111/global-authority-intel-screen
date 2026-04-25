@@ -35,8 +35,8 @@
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 7,
-    "trusted_mentions": 3,
+    "mentions": 6,
+    "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
@@ -50,7 +50,7 @@
   {
     "topic": "GPT-5.5",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -78,24 +78,9 @@
     ]
   },
   {
-    "topic": "The",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-24T21:44:45.000Z",
-    "sources": [
-      "Karpathy",
-      "NYT"
-    ]
-  },
-  {
     "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 7,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
