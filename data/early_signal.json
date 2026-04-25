@@ -1,18 +1,17 @@
 [
   {
-    "topic": "Anthropic",
+    "topic": "Codex",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 7,
     "trusted_mentions": 2,
-    "community_hits": 4,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-04-13T20:14:36.000Z",
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-04-21T00:00:00.000Z",
     "sources": [
-      "Hacker News",
+      "OpenAI News",
       "Reddit",
-      "SemiAnalysis",
       "X"
     ]
   },
@@ -33,6 +32,22 @@
     ]
   },
   {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 1,
+    "community_hits": 3,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-04-13T20:14:36.000Z",
+    "sources": [
+      "Hacker News",
+      "Reddit",
+      "SemiAnalysis"
+    ]
+  },
+  {
     "topic": "Claude",
     "type": "AI",
     "mentions": 3,
@@ -49,24 +64,9 @@
     ]
   },
   {
-    "topic": "Codex",
-    "type": "AI",
-    "mentions": 7,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-21T00:00:00.000Z",
-    "sources": [
-      "OpenAI News",
-      "X"
-    ]
-  },
-  {
     "topic": "GPT-5.5",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -94,21 +94,6 @@
     ]
   },
   {
-    "topic": "索尼",
-    "type": "GAME",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-04-24T18:30:10.000Z",
-    "sources": [
-      "PlayStation Blog",
-      "Sony Interactive"
-    ]
-  },
-  {
     "topic": "科技",
     "type": "OTHER",
     "mentions": 2,
@@ -124,9 +109,24 @@
     ]
   },
   {
+    "topic": "索尼",
+    "type": "GAME",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.91,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-04-24T18:30:10.000Z",
+    "sources": [
+      "PlayStation Blog",
+      "Sony Interactive"
+    ]
+  },
+  {
     "topic": "JUST",
     "type": "CRYPTO",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
