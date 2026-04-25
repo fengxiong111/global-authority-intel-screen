@@ -51,8 +51,8 @@
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 6,
-    "trusted_mentions": 2,
+    "mentions": 7,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
@@ -66,7 +66,7 @@
   {
     "topic": "GPT-5.5",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
