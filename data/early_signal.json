@@ -78,21 +78,6 @@
     ]
   },
   {
-    "topic": "OpenClaw",
-    "type": "AI",
-    "mentions": 7,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-04-22T00:00:00.000Z",
-    "sources": [
-      "OpenClaw Blog",
-      "OpenClaw GitHub"
-    ]
-  },
-  {
     "topic": "索尼",
     "type": "GAME",
     "mentions": 2,
