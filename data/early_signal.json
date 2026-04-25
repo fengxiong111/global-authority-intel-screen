@@ -1,5 +1,22 @@
 [
   {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-04-13T20:14:36.000Z",
+    "sources": [
+      "Hacker News",
+      "Reddit",
+      "SemiAnalysis",
+      "X"
+    ]
+  },
+  {
     "topic": "Codex",
     "type": "AI",
     "mentions": 7,
@@ -11,6 +28,22 @@
     "first_seen_at": "2026-04-21T00:00:00.000Z",
     "sources": [
       "OpenAI News",
+      "Reddit",
+      "X"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-04-23T20:00:11.000Z",
+    "sources": [
+      "NYT",
       "Reddit",
       "X"
     ]
@@ -32,27 +65,11 @@
     ]
   },
   {
-    "topic": "Anthropic",
+    "topic": "Claude",
     "type": "AI",
     "mentions": 4,
     "trusted_mentions": 1,
     "community_hits": 3,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-13T20:14:36.000Z",
-    "sources": [
-      "Hacker News",
-      "Reddit",
-      "SemiAnalysis"
-    ]
-  },
-  {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -66,8 +83,8 @@
   {
     "topic": "GPT-5.5",
     "type": "AI",
-    "mentions": 6,
-    "trusted_mentions": 3,
+    "mentions": 5,
+    "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
@@ -121,20 +138,6 @@
     "sources": [
       "PlayStation Blog",
       "Sony Interactive"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-04-25T15:20:33.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
