@@ -49,11 +49,26 @@
     ]
   },
   {
-    "topic": "Claude",
-    "type": "AI",
+    "topic": "任天堂",
+    "type": "GAME",
     "mentions": 4,
     "trusted_mentions": 1,
-    "community_hits": 3,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-24T01:02:03.000Z",
+    "sources": [
+      "Nintendo News",
+      "Reddit"
+    ]
+  },
+  {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
@@ -64,24 +79,9 @@
     ]
   },
   {
-    "topic": "Trump",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-25T22:09:24.000Z",
-    "sources": [
-      "Bloomberg",
-      "X"
-    ]
-  },
-  {
     "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 6,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
