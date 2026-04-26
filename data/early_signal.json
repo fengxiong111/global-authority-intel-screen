@@ -51,9 +51,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 1,
-    "community_hits": 2,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
