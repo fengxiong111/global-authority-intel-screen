@@ -17,22 +17,6 @@
     ]
   },
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-04-24T17:24:20.000Z",
-    "sources": [
-      "Reddit",
-      "SemiAnalysis",
-      "X"
-    ]
-  },
-  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 5,
@@ -65,24 +49,9 @@
     ]
   },
   {
-    "topic": "Codex",
-    "type": "AI",
-    "mentions": 6,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-21T00:00:00.000Z",
-    "sources": [
-      "OpenAI News",
-      "X"
-    ]
-  },
-  {
     "topic": "GPT-5.5",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -122,6 +91,20 @@
     "sources": [
       "PlayStation Blog",
       "Sony Interactive"
+    ]
+  },
+  {
+    "topic": "Codex",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-04-21T00:00:00.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
