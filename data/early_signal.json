@@ -17,23 +17,6 @@
     ]
   },
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 4,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-04-24T13:38:06.000Z",
-    "sources": [
-      "Bloomberg",
-      "Karpathy",
-      "NYT",
-      "Simon Willison"
-    ]
-  },
-  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 5,
@@ -47,6 +30,22 @@
       "Bloomberg",
       "OneKey Blog",
       "The Defiant"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-04-24T13:38:06.000Z",
+    "sources": [
+      "Karpathy",
+      "NYT",
+      "Simon Willison"
     ]
   },
   {
@@ -92,6 +91,20 @@
     "sources": [
       "PlayStation Blog",
       "Sony Interactive"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-04-25T16:03:51.000Z",
+    "sources": [
+      "X"
     ]
   },
   {
