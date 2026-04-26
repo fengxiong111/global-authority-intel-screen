@@ -2,9 +2,9 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 2,
-    "community_hits": 3,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.95,
@@ -64,24 +64,24 @@
     ]
   },
   {
-    "topic": "Anthropic",
-    "type": "AI",
+    "topic": "Trump",
+    "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-04-24T17:24:20.000Z",
+    "first_seen_at": "2026-04-25T22:09:24.000Z",
     "sources": [
-      "SemiAnalysis",
+      "Bloomberg",
       "X"
     ]
   },
   {
     "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 9,
+    "mentions": 7,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -106,6 +106,20 @@
     "sources": [
       "PlayStation Blog",
       "Sony Interactive"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-04-26T15:43:40.000Z",
+    "sources": [
+      "X"
     ]
   },
   {
