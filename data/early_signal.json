@@ -48,21 +48,6 @@
     ]
   },
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-25T14:14:38.000Z",
-    "sources": [
-      "Reddit",
-      "SemiAnalysis"
-    ]
-  },
-  {
     "topic": "GPT-5.5",
     "type": "AI",
     "mentions": 3,
