@@ -1,38 +1,36 @@
 [
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 7,
-    "trusted_mentions": 5,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 1,
-    "first_seen_at": "2026-04-04T22:46:43.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Block",
-      "The Defiant",
-      "X"
-    ]
-  },
-  {
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 5,
-    "trusted_mentions": 3,
+    "trusted_mentions": 2,
     "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 1,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-04-27T06:00:00.000Z",
     "sources": [
       "Hacker News",
       "NYT",
       "OpenAI News",
-      "Reddit",
-      "X"
+      "Reddit"
+    ]
+  },
+  {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 6,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.78,
+    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block",
+      "The Defiant"
     ]
   },
   {
@@ -67,17 +65,17 @@
     ]
   },
   {
-    "topic": "Anthropic",
-    "type": "AI",
+    "topic": "Trump",
+    "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-04-24T17:24:20.000Z",
+    "first_seen_at": "2026-04-25T22:09:24.000Z",
     "sources": [
-      "SemiAnalysis",
+      "Bloomberg",
       "X"
     ]
   },
