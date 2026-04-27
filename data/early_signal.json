@@ -2,8 +2,8 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 11,
-    "trusted_mentions": 5,
+    "mentions": 13,
+    "trusted_mentions": 6,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
@@ -20,7 +20,7 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 8,
+    "mentions": 9,
     "trusted_mentions": 4,
     "community_hits": 3,
     "ranking_change": false,
@@ -39,15 +39,14 @@
   {
     "topic": "科技",
     "type": "OTHER",
-    "mentions": 4,
-    "trusted_mentions": 3,
+    "mentions": 3,
+    "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-04-24T13:38:06.000Z",
     "sources": [
-      "Bloomberg",
       "Karpathy",
       "Reddit",
       "Simon Willison"
@@ -56,9 +55,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 1,
-    "community_hits": 4,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
