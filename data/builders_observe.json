@@ -1,5 +1,63 @@
 [
   {
+    "fetch_time": 1777306081,
+    "count": 5,
+    "titles": [
+      "科技：Western Union to 发布 USDPT 稳定币 in…",
+      "GitHub 热门工具：skills",
+      "OpenClaw 联手 VirusTotal 强化技能安全",
+      "苹果为美国制造计划新增合作伙伴",
+      "硬件钱包的安全盲区：供应链攻击的隐蔽风险"
+    ],
+    "items": [
+      {
+        "id": "1df70e4d59a2f198",
+        "title": "科技：Western Union to 发布 USDPT 稳定币 in…",
+        "topic": "CRYPTO_TOOLS",
+        "source": "The Defiant",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "5efc5fa62830c201",
+        "title": "GitHub 热门工具：skills",
+        "topic": "CLAUDE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      },
+      {
+        "id": "5171e3d4b40bbe17",
+        "title": "苹果为美国制造计划新增合作伙伴",
+        "topic": "APPLE",
+        "source": "Apple Newsroom",
+        "meaning": "这是一个值得继续盯的变化信号。",
+        "action_hint": "点开核对原文。",
+        "urgency": "medium"
+      },
+      {
+        "id": "35c0b0e1193aade2",
+        "title": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
+        "topic": "ONEKEY",
+        "source": "OneKey Blog",
+        "meaning": "这是一个值得继续盯的变化信号。",
+        "action_hint": "点开核对原文。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1777300090,
     "count": 5,
     "titles": [
@@ -1933,150 +1991,6 @@
   },
   {
     "fetch_time": 1777136302,
-    "count": 4,
-    "titles": [
-      "比特币 Holds Near $78K as $10B of 期权…",
-      "GitHub 热门工具：skills",
-      "OpenClaw 联手 VirusTotal 强化技能安全",
-      "苹果为美国制造计划新增合作伙伴"
-    ],
-    "items": [
-      {
-        "id": "dabac3cbba25ce14",
-        "title": "比特币 Holds Near $78K as $10B of 期权…",
-        "topic": "BTC",
-        "source": "The Defiant",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      },
-      {
-        "id": "5efc5fa62830c201",
-        "title": "GitHub 热门工具：skills",
-        "topic": "CLAUDE",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      },
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      },
-      {
-        "id": "5171e3d4b40bbe17",
-        "title": "苹果为美国制造计划新增合作伙伴",
-        "topic": "APPLE",
-        "source": "Apple Newsroom",
-        "meaning": "这是一个值得继续盯的变化信号。",
-        "action_hint": "点开核对原文。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1777133154,
-    "count": 4,
-    "titles": [
-      "比特币 Holds Near $78K as $10B of 期权…",
-      "GitHub 热门工具：skills",
-      "OpenClaw 联手 VirusTotal 强化技能安全",
-      "苹果为美国制造计划新增合作伙伴"
-    ],
-    "items": [
-      {
-        "id": "dabac3cbba25ce14",
-        "title": "比特币 Holds Near $78K as $10B of 期权…",
-        "topic": "BTC",
-        "source": "The Defiant",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      },
-      {
-        "id": "5efc5fa62830c201",
-        "title": "GitHub 热门工具：skills",
-        "topic": "CLAUDE",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      },
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      },
-      {
-        "id": "5171e3d4b40bbe17",
-        "title": "苹果为美国制造计划新增合作伙伴",
-        "topic": "APPLE",
-        "source": "Apple Newsroom",
-        "meaning": "这是一个值得继续盯的变化信号。",
-        "action_hint": "点开核对原文。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1777130887,
-    "count": 4,
-    "titles": [
-      "比特币 Holds Near $78K as $10B of 期权…",
-      "GitHub 热门工具：skills",
-      "OpenClaw 联手 VirusTotal 强化技能安全",
-      "苹果为美国制造计划新增合作伙伴"
-    ],
-    "items": [
-      {
-        "id": "dabac3cbba25ce14",
-        "title": "比特币 Holds Near $78K as $10B of 期权…",
-        "topic": "BTC",
-        "source": "The Defiant",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      },
-      {
-        "id": "5efc5fa62830c201",
-        "title": "GitHub 热门工具：skills",
-        "topic": "CLAUDE",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      },
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      },
-      {
-        "id": "5171e3d4b40bbe17",
-        "title": "苹果为美国制造计划新增合作伙伴",
-        "topic": "APPLE",
-        "source": "Apple Newsroom",
-        "meaning": "这是一个值得继续盯的变化信号。",
-        "action_hint": "点开核对原文。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1777128577,
     "count": 4,
     "titles": [
       "比特币 Holds Near $78K as $10B of 期权…",
