@@ -2,8 +2,8 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 13,
-    "trusted_mentions": 6,
+    "mentions": 12,
+    "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
@@ -20,15 +20,14 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 9,
-    "trusted_mentions": 4,
+    "mentions": 8,
+    "trusted_mentions": 3,
     "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 1,
     "first_seen_at": "2026-04-27T06:00:00.000Z",
     "sources": [
-      "Bloomberg",
       "Hacker News",
       "NYT",
       "OpenAI News",
@@ -49,36 +48,6 @@
     "sources": [
       "Anthropic Newsroom",
       "Reddit"
-    ]
-  },
-  {
-    "topic": "OpenClaw",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-04-25T00:00:00.000Z",
-    "sources": [
-      "OpenClaw Blog",
-      "OpenClaw GitHub"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.97,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-04-24T13:38:06.000Z",
-    "sources": [
-      "Karpathy",
-      "Simon Willison"
     ]
   }
 ]
