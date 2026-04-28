@@ -2,7 +2,7 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 13,
+    "mentions": 11,
     "trusted_mentions": 5,
     "community_hits": 4,
     "ranking_change": false,
@@ -20,20 +20,19 @@
     ]
   },
   {
-    "topic": "POLYMARKET",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 4,
-    "community_hits": 0,
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 1,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-04-28T11:43:00.000Z",
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-04-26T02:23:43.000Z",
     "sources": [
-      "Bloomberg",
-      "The Block",
-      "The Defiant",
-      "X"
+      "Anthropic Newsroom",
+      "Hacker News",
+      "Reddit"
     ]
   },
   {
@@ -53,26 +52,10 @@
     ]
   },
   {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 1,
-    "community_hits": 3,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-26T02:23:43.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Hacker News",
-      "Reddit"
-    ]
-  },
-  {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 4,
+    "mentions": 5,
+    "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
@@ -82,6 +65,22 @@
       "OpenAI News",
       "Simon Willison",
       "X"
+    ]
+  },
+  {
+    "topic": "Polymarket",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.1,
+    "first_seen_at": "2026-04-28T11:43:00.000Z",
+    "sources": [
+      "Bloomberg",
+      "The Block",
+      "The Defiant"
     ]
   },
   {
