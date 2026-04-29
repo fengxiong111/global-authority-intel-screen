@@ -19,27 +19,11 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 5,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-04T22:46:43.000Z",
-    "sources": [
-      "OneKey Blog",
-      "The Block",
-      "The Defiant"
-    ]
-  },
-  {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 1,
-    "community_hits": 3,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -67,19 +51,47 @@
     ]
   },
   {
-    "topic": "Polymarket",
+    "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 3,
+    "mentions": 4,
+    "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "sources": [
+      "OneKey Blog",
+      "The Defiant"
+    ]
+  },
+  {
+    "topic": "Polymarket",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
     "first_seen_at": "2026-04-28T11:43:00.000Z",
     "sources": [
       "Bloomberg",
-      "The Defiant",
-      "X"
+      "The Defiant"
+    ]
+  },
+  {
+    "topic": "Opus",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 0,
+    "community_hits": 3,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-04-28T19:37:35.000Z",
+    "sources": [
+      "Reddit"
     ]
   }
 ]
