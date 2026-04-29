@@ -3,14 +3,14 @@
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 6,
-    "trusted_mentions": 4,
-    "community_hits": 1,
+    "trusted_mentions": 5,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 1,
+    "resonance_score": 0.83,
     "first_seen_at": "2026-04-27T06:00:00.000Z",
     "sources": [
-      "Hacker News",
+      "Bloomberg",
       "NYT",
       "OpenAI News",
       "Simon Willison",
@@ -20,25 +20,24 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 6,
-    "trusted_mentions": 4,
+    "mentions": 5,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-04-04T22:46:43.000Z",
     "sources": [
       "Bloomberg",
       "OneKey Blog",
-      "The Block",
       "The Defiant"
     ]
   },
   {
-    "topic": "Codex",
+    "topic": "codex",
     "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 4,
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
@@ -48,6 +47,22 @@
       "OpenAI News",
       "Simon Willison",
       "X"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-04-29T16:05:10.000Z",
+    "sources": [
+      "Hacker News",
+      "Reddit",
+      "SemiAnalysis"
     ]
   },
   {
@@ -66,18 +81,18 @@
     ]
   },
   {
-    "topic": "科技",
-    "type": "OTHER",
+    "topic": "Meta",
+    "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-04-29T14:15:08.000Z",
+    "first_seen_at": "2026-04-29T19:20:01.000Z",
     "sources": [
-      "Karpathy",
-      "NYT"
+      "The Block",
+      "X"
     ]
   }
 ]
