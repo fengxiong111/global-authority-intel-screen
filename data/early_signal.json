@@ -19,7 +19,7 @@
     ]
   },
   {
-    "topic": "Bitcoin",
+    "topic": "bitcoin",
     "type": "CRYPTO",
     "mentions": 5,
     "trusted_mentions": 3,
@@ -29,8 +29,8 @@
     "resonance_score": 0.73,
     "first_seen_at": "2026-04-04T22:46:43.000Z",
     "sources": [
-      "Bloomberg",
       "OneKey Blog",
+      "The Block",
       "The Defiant"
     ]
   },
@@ -48,21 +48,6 @@
       "OpenAI News",
       "Simon Willison",
       "X"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-29T09:03:13.000Z",
-    "sources": [
-      "Karpathy",
-      "NYT"
     ]
   },
   {
@@ -92,20 +77,6 @@
     "first_seen_at": "2026-04-28T19:37:35.000Z",
     "sources": [
       "Reddit"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-04-29T01:27:40.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
