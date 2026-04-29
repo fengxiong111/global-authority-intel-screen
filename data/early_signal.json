@@ -94,20 +94,5 @@
       "OpenClaw Blog",
       "OpenClaw GitHub"
     ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-04-29T16:05:10.000Z",
-    "sources": [
-      "Bloomberg",
-      "SemiAnalysis"
-    ]
   }
 ]
