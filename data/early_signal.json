@@ -2,37 +2,20 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 10,
-    "trusted_mentions": 5,
+    "mentions": 9,
+    "trusted_mentions": 4,
     "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 1,
     "first_seen_at": "2026-04-27T06:00:00.000Z",
     "sources": [
-      "Bloomberg",
       "Hacker News",
       "NYT",
       "OpenAI News",
       "Reddit",
       "Simon Willison",
       "Stratechery"
-    ]
-  },
-  {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 1,
-    "community_hits": 4,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-26T02:23:43.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Hacker News",
-      "Reddit"
     ]
   },
   {
@@ -52,10 +35,26 @@
     ]
   },
   {
-    "topic": "Codex",
+    "topic": "Claude",
     "type": "AI",
     "mentions": 4,
-    "trusted_mentions": 4,
+    "trusted_mentions": 1,
+    "community_hits": 3,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-04-26T02:23:43.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Hacker News",
+      "Reddit"
+    ]
+  },
+  {
+    "topic": "Codex",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
@@ -75,12 +74,12 @@
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.1,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-04-28T11:43:00.000Z",
     "sources": [
       "Bloomberg",
-      "The Block",
-      "The Defiant"
+      "The Defiant",
+      "X"
     ]
   }
 ]
