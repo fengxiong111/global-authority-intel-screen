@@ -19,7 +19,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 7,
+    "mentions": 6,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -36,7 +36,7 @@
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -67,7 +67,7 @@
   {
     "topic": "POLYMARKET",
     "type": "CRYPTO",
-    "mentions": 2,
+    "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
