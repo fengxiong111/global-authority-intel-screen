@@ -18,7 +18,7 @@
   {
     "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 8,
     "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
@@ -48,6 +48,22 @@
     ]
   },
   {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-04-29T18:57:47.000Z",
+    "sources": [
+      "Bloomberg",
+      "Karpathy",
+      "Simon Willison"
+    ]
+  },
+  {
     "topic": "Claude",
     "type": "AI",
     "mentions": 5,
@@ -63,7 +79,7 @@
     ]
   },
   {
-    "topic": "M0",
+    "topic": "m0",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
@@ -90,21 +106,6 @@
     "sources": [
       "The Defiant",
       "X"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-04-29T18:57:47.000Z",
-    "sources": [
-      "Karpathy",
-      "Simon Willison"
     ]
   },
   {
