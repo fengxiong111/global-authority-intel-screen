@@ -1,8 +1,8 @@
 [
   {
-    "topic": "Bitcoin",
+    "topic": "bitcoin",
     "type": "CRYPTO",
-    "mentions": 7,
+    "mentions": 8,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -19,7 +19,7 @@
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 7,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -33,19 +33,19 @@
     ]
   },
   {
-    "topic": "OpenAI",
+    "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 5,
     "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
-    "first_seen_at": "2026-04-27T06:00:00.000Z",
+    "first_seen_at": "2026-04-29T00:00:00.000Z",
     "sources": [
-      "NYT",
-      "Reddit",
-      "Stratechery"
+      "Hacker News",
+      "OpenClaw Blog",
+      "OpenClaw GitHub"
     ]
   },
   {
@@ -64,21 +64,6 @@
     ]
   },
   {
-    "topic": "OpenClaw",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-04-29T00:00:00.000Z",
-    "sources": [
-      "OpenClaw Blog",
-      "OpenClaw GitHub"
-    ]
-  },
-  {
     "topic": "科技",
     "type": "OTHER",
     "mentions": 3,
@@ -94,6 +79,21 @@
     ]
   },
   {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-04-30T16:40:08.000Z",
+    "sources": [
+      "Bloomberg",
+      "SemiAnalysis"
+    ]
+  },
+  {
     "topic": "Polymarket",
     "type": "CRYPTO",
     "mentions": 2,
@@ -106,6 +106,21 @@
     "sources": [
       "The Block",
       "The Defiant"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.97,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-04-27T06:00:00.000Z",
+    "sources": [
+      "NYT",
+      "Stratechery"
     ]
   }
 ]
