@@ -3,40 +3,23 @@
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-04-27T06:00:00.000Z",
-    "sources": [
-      "NYT",
-      "Reddit",
-      "Stratechery",
-      "X"
-    ]
-  },
-  {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 8,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.78,
-    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "first_seen_at": "2026-04-27T06:00:00.000Z",
     "sources": [
       "Bloomberg",
-      "OneKey Blog",
-      "The Block",
-      "The Defiant"
+      "NYT",
+      "Stratechery",
+      "X"
     ]
   },
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 8,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -52,7 +35,7 @@
   {
     "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
@@ -66,11 +49,27 @@
     ]
   },
   {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 6,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block"
+    ]
+  },
+  {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 1,
-    "community_hits": 3,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
@@ -78,6 +77,51 @@
     "sources": [
       "Anthropic Newsroom",
       "Reddit"
+    ]
+  },
+  {
+    "topic": "M0",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-30T18:56:02.000Z",
+    "sources": [
+      "The Defiant",
+      "X"
+    ]
+  },
+  {
+    "topic": "Polymarket",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-29T18:36:29.000Z",
+    "sources": [
+      "The Defiant",
+      "X"
+    ]
+  },
+  {
+    "topic": "Senate",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-30T17:25:32.000Z",
+    "sources": [
+      "The Block",
+      "X"
     ]
   },
   {
@@ -93,36 +137,6 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-04-30T16:40:08.000Z",
-    "sources": [
-      "Bloomberg",
-      "SemiAnalysis"
-    ]
-  },
-  {
-    "topic": "Polymarket",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-04-29T18:36:29.000Z",
-    "sources": [
-      "The Block",
-      "The Defiant"
     ]
   }
 ]
