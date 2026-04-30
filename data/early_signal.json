@@ -1,21 +1,5 @@
 [
   {
-    "topic": "Codex",
-    "type": "AI",
-    "mentions": 10,
-    "trusted_mentions": 5,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-27T19:33:48.000Z",
-    "sources": [
-      "OpenAI News",
-      "Simon Willison",
-      "X"
-    ]
-  },
-  {
     "topic": "OpenClaw",
     "type": "AI",
     "mentions": 9,
@@ -48,11 +32,26 @@
     ]
   },
   {
+    "topic": "Codex",
+    "type": "AI",
+    "mentions": 9,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-27T19:33:48.000Z",
+    "sources": [
+      "OpenAI News",
+      "X"
+    ]
+  },
+  {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 1,
-    "community_hits": 4,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
