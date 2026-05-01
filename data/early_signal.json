@@ -16,6 +16,22 @@
     ]
   },
   {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-04-27T06:00:00.000Z",
+    "sources": [
+      "NYT",
+      "Reddit",
+      "Stratechery"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 4,
@@ -28,6 +44,21 @@
     "sources": [
       "Bloomberg",
       "OneKey Blog"
+    ]
+  },
+  {
+    "topic": "POLYMARKET",
+    "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-29T18:36:29.000Z",
+    "sources": [
+      "The Defiant",
+      "X"
     ]
   },
   {
@@ -61,21 +92,6 @@
     ]
   },
   {
-    "topic": "POLYMARKET",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-29T18:36:29.000Z",
-    "sources": [
-      "The Defiant",
-      "X"
-    ]
-  },
-  {
     "topic": "m0",
     "type": "CRYPTO",
     "mentions": 2,
@@ -103,21 +119,6 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.91,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-04-27T06:00:00.000Z",
-    "sources": [
-      "NYT",
-      "Stratechery"
     ]
   },
   {
