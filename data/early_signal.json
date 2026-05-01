@@ -1,39 +1,5 @@
 [
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 5,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-04-29T18:57:47.000Z",
-    "sources": [
-      "Bloomberg",
-      "Karpathy",
-      "NYT",
-      "Simon Willison"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-04-27T06:00:00.000Z",
-    "sources": [
-      "Bloomberg",
-      "NYT",
-      "Reddit",
-      "Stratechery"
-    ]
-  },
-  {
     "topic": "OpenClaw",
     "type": "AI",
     "mentions": 9,
@@ -66,6 +32,22 @@
     ]
   },
   {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-04-29T18:57:47.000Z",
+    "sources": [
+      "Karpathy",
+      "NYT",
+      "Simon Willison"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 4,
@@ -81,24 +63,24 @@
     ]
   },
   {
-    "topic": "m0",
-    "type": "CRYPTO",
+    "topic": "GPT-5.5",
+    "type": "AI",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-04-30T18:56:02.000Z",
+    "first_seen_at": "2026-04-30T23:03:24.000Z",
     "sources": [
-      "The Defiant",
+      "Simon Willison",
       "X"
     ]
   },
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
