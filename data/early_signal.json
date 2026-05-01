@@ -1,5 +1,22 @@
 [
   {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.78,
+    "first_seen_at": "2026-04-27T06:00:00.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT",
+      "Reddit",
+      "Stratechery"
+    ]
+  },
+  {
     "topic": "OpenClaw",
     "type": "AI",
     "mentions": 9,
@@ -32,22 +49,38 @@
     ]
   },
   {
-    "topic": "Claude",
-    "type": "AI",
+    "topic": "科技",
+    "type": "OTHER",
     "mentions": 4,
-    "trusted_mentions": 1,
-    "community_hits": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-29T08:47:32.000Z",
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-04-29T18:57:47.000Z",
     "sources": [
-      "Anthropic Newsroom",
-      "Reddit"
+      "Bloomberg",
+      "Karpathy",
+      "Simon Willison"
     ]
   },
   {
-    "topic": "m0",
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-30T19:55:15.000Z",
+    "sources": [
+      "Reddit",
+      "SemiAnalysis"
+    ]
+  },
+  {
+    "topic": "M0",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
@@ -77,39 +110,9 @@
     ]
   },
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-04-29T18:57:47.000Z",
-    "sources": [
-      "Karpathy",
-      "Simon Willison"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.97,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-04-27T06:00:00.000Z",
-    "sources": [
-      "NYT",
-      "Stratechery"
-    ]
-  },
-  {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 8,
+    "mentions": 7,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
