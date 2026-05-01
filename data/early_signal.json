@@ -16,19 +16,19 @@
     ]
   },
   {
-    "topic": "OpenAI",
+    "topic": "Claude",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 1,
+    "mentions": 5,
+    "trusted_mentions": 1,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
-    "first_seen_at": "2026-04-27T06:00:00.000Z",
+    "first_seen_at": "2026-04-30T22:49:56.000Z",
     "sources": [
-      "NYT",
-      "Reddit",
-      "Stratechery"
+      "Anthropic Newsroom",
+      "Hacker News",
+      "Reddit"
     ]
   },
   {
@@ -62,21 +62,6 @@
     ]
   },
   {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-30T22:49:56.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Reddit"
-    ]
-  },
-  {
     "topic": "POLYMARKET",
     "type": "CRYPTO",
     "mentions": 3,
@@ -104,6 +89,22 @@
     "sources": [
       "The Defiant",
       "X"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.1,
+    "first_seen_at": "2026-04-27T06:00:00.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT",
+      "Stratechery"
     ]
   },
   {
