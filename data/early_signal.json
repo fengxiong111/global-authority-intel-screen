@@ -1,16 +1,15 @@
 [
   {
-    "topic": "Bitcoin",
+    "topic": "bitcoin",
     "type": "CRYPTO",
     "mentions": 5,
-    "trusted_mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-04-04T22:46:43.000Z",
     "sources": [
-      "Bloomberg",
       "OneKey Blog",
       "The Block",
       "The Defiant"
@@ -30,6 +29,22 @@
       "Karpathy",
       "NYT",
       "Simon Willison"
+    ]
+  },
+  {
+    "topic": "POLYMARKET",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-04-30T18:38:24.000Z",
+    "sources": [
+      "The Block",
+      "The Defiant",
+      "X"
     ]
   },
   {
@@ -78,18 +93,18 @@
     ]
   },
   {
-    "topic": "Polymarket",
-    "type": "CRYPTO",
-    "mentions": 2,
+    "topic": "OpenClaw",
+    "type": "AI",
+    "mentions": 4,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 0.73,
+    "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-04-30T18:38:24.000Z",
+    "first_seen_at": "2026-04-30T00:00:00.000Z",
     "sources": [
-      "The Block",
-      "The Defiant"
+      "OpenClaw Blog",
+      "OpenClaw GitHub"
     ]
   }
 ]
