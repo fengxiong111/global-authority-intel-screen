@@ -1,18 +1,19 @@
 [
   {
-    "topic": "bitcoin",
+    "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 5,
-    "trusted_mentions": 3,
+    "mentions": 6,
+    "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-04-04T22:46:43.000Z",
     "sources": [
       "OneKey Blog",
       "The Block",
-      "The Defiant"
+      "The Defiant",
+      "X"
     ]
   },
   {
@@ -75,6 +76,21 @@
     "sources": [
       "Reddit",
       "SemiAnalysis"
+    ]
+  },
+  {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-05-02T17:53:05.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Reddit"
     ]
   },
   {
