@@ -1,5 +1,21 @@
 [
   {
+    "topic": "GPT-5.5",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-04-30T23:03:24.000Z",
+    "sources": [
+      "Reddit",
+      "Simon Willison",
+      "X"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 6,
@@ -14,6 +30,22 @@
       "OneKey Blog",
       "The Block",
       "The Defiant"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 2,
+    "community_hits": 3,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-04-30T23:24:18.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT",
+      "Reddit"
     ]
   },
   {
@@ -33,23 +65,7 @@
     ]
   },
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-30T23:24:18.000Z",
-    "sources": [
-      "Bloomberg",
-      "NYT",
-      "Reddit"
-    ]
-  },
-  {
-    "topic": "Polymarket",
+    "topic": "POLYMARKET",
     "type": "CRYPTO",
     "mentions": 3,
     "trusted_mentions": 3,
@@ -77,21 +93,6 @@
     "sources": [
       "Anthropic Newsroom",
       "Reddit"
-    ]
-  },
-  {
-    "topic": "GPT-5.5",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-30T23:03:24.000Z",
-    "sources": [
-      "Simon Willison",
-      "X"
     ]
   },
   {
