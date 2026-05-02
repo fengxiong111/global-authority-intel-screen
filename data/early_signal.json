@@ -78,21 +78,6 @@
     ]
   },
   {
-    "topic": "GPT-5.5",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-30T23:03:24.000Z",
-    "sources": [
-      "Simon Willison",
-      "X"
-    ]
-  },
-  {
     "topic": "Spirit Airlines Shuts",
     "type": "OTHER",
     "mentions": 2,
@@ -120,6 +105,20 @@
     "sources": [
       "The Block",
       "The Defiant"
+    ]
+  },
+  {
+    "topic": "NEW",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-05-01T21:52:01.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
