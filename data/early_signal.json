@@ -78,18 +78,18 @@
     ]
   },
   {
-    "topic": "Spirit Airlines Shuts",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-05-02T16:13:25.000Z",
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-05-02T13:16:35.000Z",
     "sources": [
-      "Bloomberg",
-      "NYT"
+      "Anthropic Newsroom",
+      "Reddit"
     ]
   },
   {
