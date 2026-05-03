@@ -20,24 +20,23 @@
     "topic": "Claude",
     "type": "AI",
     "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 2,
+    "trusted_mentions": 1,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.9,
+    "resonance_score": 0.68,
     "first_seen_at": "2026-05-02T13:16:35.000Z",
     "sources": [
       "Anthropic Newsroom",
-      "Bloomberg",
       "Reddit"
     ]
   },
   {
-    "topic": "OpenAI",
+    "topic": "openai",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 1,
-    "community_hits": 3,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
@@ -93,20 +92,6 @@
     ]
   },
   {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-05-02T23:05:52.000Z",
-    "sources": [
-      "X"
-    ]
-  },
-  {
     "topic": "Codex",
     "type": "AI",
     "mentions": 3,
@@ -116,6 +101,20 @@
     "growth_score": 1,
     "resonance_score": 0,
     "first_seen_at": "2026-04-27T19:33:48.000Z",
+    "sources": [
+      "X"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-05-02T23:05:52.000Z",
     "sources": [
       "X"
     ]
