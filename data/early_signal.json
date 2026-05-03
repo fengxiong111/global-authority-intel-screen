@@ -19,16 +19,16 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 1,
-    "community_hits": 4,
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.9,
     "first_seen_at": "2026-05-02T13:16:35.000Z",
     "sources": [
       "Anthropic Newsroom",
-      "Hacker News",
+      "Bloomberg",
       "Reddit"
     ]
   },
@@ -90,6 +90,20 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-05-02T23:05:52.000Z",
+    "sources": [
+      "X"
     ]
   },
   {
