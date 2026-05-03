@@ -17,38 +17,6 @@
     ]
   },
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-29T18:57:47.000Z",
-    "sources": [
-      "Karpathy",
-      "NYT",
-      "Simon Willison"
-    ]
-  },
-  {
-    "topic": "POLYMARKET",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-30T18:38:24.000Z",
-    "sources": [
-      "The Block",
-      "The Defiant",
-      "X"
-    ]
-  },
-  {
     "topic": "Codex",
     "type": "AI",
     "mentions": 4,
@@ -94,6 +62,21 @@
     ]
   },
   {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-29T18:57:47.000Z",
+    "sources": [
+      "Karpathy",
+      "NYT"
+    ]
+  },
+  {
     "topic": "OpenClaw",
     "type": "AI",
     "mentions": 5,
@@ -106,6 +89,20 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
+    ]
+  },
+  {
+    "topic": "NEW",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-05-01T21:52:01.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
