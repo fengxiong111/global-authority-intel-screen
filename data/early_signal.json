@@ -1,26 +1,60 @@
 [
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 2,
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 5,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Defiant",
+      "X"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-04-29T18:57:47.000Z",
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-05-03T15:13:23.000Z",
     "sources": [
-      "Karpathy",
       "NYT",
+      "Reddit",
+      "SemiAnalysis",
+      "Simon Willison"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-05-04T00:00:00.000Z",
+    "sources": [
+      "Hacker News",
+      "OpenAI News",
       "Reddit"
     ]
   },
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 1,
-    "community_hits": 3,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -29,38 +63,6 @@
       "Anthropic Newsroom",
       "Hacker News",
       "Reddit"
-    ]
-  },
-  {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-04T22:46:43.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Defiant"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-05-03T15:13:23.000Z",
-    "sources": [
-      "NYT",
-      "SemiAnalysis",
-      "Simon Willison"
     ]
   },
   {
