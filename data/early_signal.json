@@ -1,22 +1,5 @@
 [
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-05-04T00:00:00.000Z",
-    "sources": [
-      "Bloomberg",
-      "Hacker News",
-      "OpenAI News",
-      "Reddit"
-    ]
-  },
-  {
     "topic": "Anthropic",
     "type": "AI",
     "mentions": 4,
@@ -50,22 +33,6 @@
     ]
   },
   {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-05-03T21:38:06.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Hacker News",
-      "Reddit"
-    ]
-  },
-  {
     "topic": "Codex",
     "type": "AI",
     "mentions": 3,
@@ -96,18 +63,18 @@
     ]
   },
   {
-    "topic": "ETF",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 0,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-05-04T15:54:36.000Z",
+    "first_seen_at": "2026-05-04T00:00:00.000Z",
     "sources": [
-      "Bloomberg",
-      "The Block"
+      "Hacker News",
+      "Reddit"
     ]
   }
 ]
