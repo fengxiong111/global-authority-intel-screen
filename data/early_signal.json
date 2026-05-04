@@ -1,19 +1,19 @@
 [
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 5,
-    "trusted_mentions": 4,
-    "community_hits": 0,
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.95,
-    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "first_seen_at": "2026-05-04T00:00:00.000Z",
     "sources": [
       "Bloomberg",
-      "OneKey Blog",
-      "The Defiant",
-      "X"
+      "Hacker News",
+      "OpenAI News",
+      "Reddit"
     ]
   },
   {
@@ -34,19 +34,19 @@
     ]
   },
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
-    "first_seen_at": "2026-05-04T00:00:00.000Z",
+    "first_seen_at": "2026-04-04T22:46:43.000Z",
     "sources": [
-      "Hacker News",
-      "OpenAI News",
-      "Reddit"
+      "Bloomberg",
+      "OneKey Blog",
+      "The Defiant"
     ]
   },
   {
@@ -69,7 +69,7 @@
     "topic": "Codex",
     "type": "AI",
     "mentions": 3,
-    "trusted_mentions": 1,
+    "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
@@ -93,6 +93,21 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
+    ]
+  },
+  {
+    "topic": "ETF",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-05-04T15:54:36.000Z",
+    "sources": [
+      "Bloomberg",
+      "The Block"
     ]
   }
 ]
