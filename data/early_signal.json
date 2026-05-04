@@ -1,5 +1,22 @@
 [
   {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 5,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-04-04T22:46:43.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Defiant",
+      "X"
+    ]
+  },
+  {
     "topic": "科技",
     "type": "OTHER",
     "mentions": 3,
@@ -16,44 +33,11 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 6,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-04-04T22:46:43.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Block",
-      "The Defiant"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-05-04T05:28:24.000Z",
-    "sources": [
-      "Bloomberg",
-      "Hacker News",
-      "Reddit"
-    ]
-  },
-  {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 1,
-    "community_hits": 2,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -67,15 +51,14 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 3,
+    "mentions": 2,
+    "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.68,
     "first_seen_at": "2026-05-03T15:13:23.000Z",
     "sources": [
-      "Bloomberg",
       "SemiAnalysis",
       "Simon Willison"
     ]
@@ -93,6 +76,21 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 0,
+    "community_hits": 3,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-05-04T05:28:24.000Z",
+    "sources": [
+      "Hacker News",
+      "Reddit"
     ]
   },
   {
