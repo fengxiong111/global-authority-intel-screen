@@ -1,22 +1,5 @@
 [
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 5,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-04-04T22:46:43.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Defiant",
-      "X"
-    ]
-  },
-  {
     "topic": "科技",
     "type": "OTHER",
     "mentions": 3,
@@ -33,34 +16,34 @@
     ]
   },
   {
-    "topic": "Claude",
+    "topic": "Anthropic",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 1,
-    "community_hits": 3,
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
-    "first_seen_at": "2026-05-02T13:16:35.000Z",
+    "first_seen_at": "2026-05-03T15:13:23.000Z",
     "sources": [
-      "Anthropic Newsroom",
-      "Hacker News",
-      "Reddit"
+      "NYT",
+      "SemiAnalysis",
+      "Simon Willison"
     ]
   },
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 2,
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-05-03T15:13:23.000Z",
+    "first_seen_at": "2026-04-04T22:46:43.000Z",
     "sources": [
-      "SemiAnalysis",
-      "Simon Willison"
+      "Bloomberg",
+      "OneKey Blog"
     ]
   },
   {
