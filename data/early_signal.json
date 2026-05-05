@@ -34,6 +34,21 @@
     ]
   },
   {
+    "topic": "Codex",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-04-27T19:33:48.000Z",
+    "sources": [
+      "Reddit",
+      "X"
+    ]
+  },
+  {
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 3,
@@ -49,24 +64,9 @@
     ]
   },
   {
-    "topic": "Codex",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-04-27T19:33:48.000Z",
-    "sources": [
-      "Reddit",
-      "X"
-    ]
-  },
-  {
     "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 9,
+    "mentions": 10,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
