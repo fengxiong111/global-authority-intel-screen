@@ -1,44 +1,60 @@
 [
   {
-    "topic": "Anthropic",
+    "topic": "OpenAI",
     "type": "AI",
-    "mentions": 6,
-    "trusted_mentions": 3,
+    "mentions": 5,
+    "trusted_mentions": 2,
     "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.95,
+    "first_seen_at": "2026-05-04T21:00:00.000Z",
+    "sources": [
+      "Hacker News",
+      "NYT",
+      "OpenAI News",
+      "Reddit"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-05-03T15:13:23.000Z",
     "sources": [
+      "Bloomberg",
       "NYT",
-      "Reddit",
       "SemiAnalysis",
       "Simon Willison"
     ]
   },
   {
-    "topic": "Bitcoin",
+    "topic": "bitcoin",
     "type": "CRYPTO",
     "mentions": 5,
-    "trusted_mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-05-04T02:58:59.000Z",
     "sources": [
       "OneKey Blog",
       "The Block",
-      "The Defiant",
-      "X"
+      "The Defiant"
     ]
   },
   {
     "topic": "Codex",
     "type": "AI",
     "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 2,
+    "trusted_mentions": 3,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
@@ -61,20 +77,6 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-05-05T12:38:28.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
