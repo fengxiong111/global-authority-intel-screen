@@ -35,9 +35,9 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 1,
-    "community_hits": 4,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -66,7 +66,7 @@
   {
     "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 8,
+    "mentions": 9,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
