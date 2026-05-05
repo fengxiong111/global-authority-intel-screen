@@ -1,27 +1,10 @@
 [
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 5,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-05-04T02:58:59.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Defiant",
-      "X"
-    ]
-  },
-  {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 6,
     "trusted_mentions": 2,
-    "community_hits": 4,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.9,
@@ -33,32 +16,80 @@
     ]
   },
   {
-    "topic": "GPT-5.5",
+    "topic": "gpt-5.5",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 2,
-    "community_hits": 0,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
+    "resonance_score": 0.9,
     "first_seen_at": "2026-05-05T10:00:00.000Z",
     "sources": [
       "OpenAI News",
+      "Reddit",
       "X"
     ]
   },
   {
-    "topic": "Securitize",
+    "topic": "Bitcoin",
     "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-05-04T02:58:59.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Defiant"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-05-03T15:13:23.000Z",
+    "sources": [
+      "NYT",
+      "Reddit",
+      "SemiAnalysis"
+    ]
+  },
+  {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-05-05T02:36:06.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Reddit"
+    ]
+  },
+  {
+    "topic": "The",
+    "type": "AI",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-05-05T14:46:18.000Z",
+    "first_seen_at": "2026-05-05T00:00:00.000Z",
     "sources": [
-      "The Block",
+      "OpenAI News",
       "X"
     ]
   },
@@ -75,21 +106,6 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-05-03T15:13:23.000Z",
-    "sources": [
-      "NYT",
-      "SemiAnalysis"
     ]
   },
   {
