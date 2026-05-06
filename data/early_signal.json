@@ -1,22 +1,5 @@
 [
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 7,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-05-04T02:58:59.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Defiant",
-      "X"
-    ]
-  },
-  {
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 5,
@@ -35,17 +18,35 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 2,
+    "mentions": 6,
+    "trusted_mentions": 3,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-05-03T15:13:23.000Z",
     "sources": [
+      "Bloomberg",
       "NYT",
       "Reddit",
       "SemiAnalysis"
+    ]
+  },
+  {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 6,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.78,
+    "first_seen_at": "2026-05-04T02:58:59.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block",
+      "The Defiant"
     ]
   },
   {
@@ -60,7 +61,7 @@
     "first_seen_at": "2026-05-06T15:58:27.000Z",
     "sources": [
       "Anthropic Newsroom",
-      "Hacker News",
+      "Reddit",
       "Simon Willison"
     ]
   },
