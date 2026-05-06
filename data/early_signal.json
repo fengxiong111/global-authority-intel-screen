@@ -2,7 +2,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 10,
+    "mentions": 11,
     "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
@@ -14,23 +14,6 @@
       "OneKey Blog",
       "The Block",
       "The Defiant",
-      "X"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-05-03T15:13:23.000Z",
-    "sources": [
-      "NYT",
-      "Reddit",
-      "SemiAnalysis",
       "X"
     ]
   },
@@ -47,6 +30,21 @@
     "sources": [
       "NYT",
       "OpenAI News",
+      "Reddit"
+    ]
+  },
+  {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-05-05T18:04:30.000Z",
+    "sources": [
+      "Anthropic Newsroom",
       "Reddit"
     ]
   },
@@ -93,6 +91,21 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.97,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-05-03T15:13:23.000Z",
+    "sources": [
+      "NYT",
+      "SemiAnalysis"
     ]
   },
   {
