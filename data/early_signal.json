@@ -2,7 +2,7 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 6,
     "trusted_mentions": 2,
     "community_hits": 2,
     "ranking_change": false,
@@ -98,7 +98,7 @@
   {
     "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 9,
+    "mentions": 5,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
