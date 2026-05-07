@@ -19,7 +19,7 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
@@ -35,7 +35,7 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 7,
     "trusted_mentions": 2,
     "community_hits": 4,
     "ranking_change": false,
@@ -64,32 +64,32 @@
     ]
   },
   {
-    "topic": "codex",
-    "type": "AI",
+    "topic": "科技",
+    "type": "OTHER",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-05-05T21:57:23.000Z",
+    "first_seen_at": "2026-05-05T01:31:54.000Z",
     "sources": [
-      "OpenAI News",
-      "X"
+      "Bloomberg",
+      "Karpathy"
     ]
   },
   {
-    "topic": "The",
-    "type": "AI",
+    "topic": "AWS",
+    "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-05-05T00:00:00.000Z",
+    "first_seen_at": "2026-05-07T14:56:01.000Z",
     "sources": [
-      "OpenAI News",
+      "The Block",
       "X"
     ]
   },
@@ -125,7 +125,7 @@
     ]
   },
   {
-    "topic": "Kraken",
+    "topic": "ETF",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
@@ -133,25 +133,10 @@
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-05-07T13:26:29.000Z",
+    "first_seen_at": "2026-05-07T15:02:38.000Z",
     "sources": [
-      "The Block",
-      "The Defiant"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.91,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-05-05T01:31:54.000Z",
-    "sources": [
-      "Karpathy",
-      "Simon Willison"
+      "Bloomberg",
+      "The Block"
     ]
   },
   {
@@ -166,20 +151,6 @@
     "first_seen_at": "2026-05-07T13:02:12.000Z",
     "sources": [
       "Reddit"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-05-07T14:09:51.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
