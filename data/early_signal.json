@@ -2,9 +2,9 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 2,
-    "community_hits": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.9,
@@ -13,6 +13,22 @@
       "NYT",
       "OpenAI News",
       "Reddit"
+    ]
+  },
+  {
+    "topic": "bitcoin",
+    "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-05-04T02:58:59.000Z",
+    "sources": [
+      "OneKey Blog",
+      "The Defiant",
+      "X"
     ]
   },
   {
@@ -32,11 +48,28 @@
     ]
   },
   {
-    "topic": "Claude",
+    "topic": "Anthropic",
     "type": "AI",
     "mentions": 5,
+    "trusted_mentions": 3,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.78,
+    "first_seen_at": "2026-05-03T15:13:23.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT",
+      "Reddit",
+      "SemiAnalysis"
+    ]
+  },
+  {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 7,
     "trusted_mentions": 2,
-    "community_hits": 3,
+    "community_hits": 5,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -45,38 +78,6 @@
       "Anthropic Newsroom",
       "Reddit",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 5,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-05-04T02:58:59.000Z",
-    "sources": [
-      "OneKey Blog",
-      "The Block",
-      "The Defiant"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-05-03T15:13:23.000Z",
-    "sources": [
-      "NYT",
-      "Reddit",
-      "SemiAnalysis"
     ]
   },
   {
@@ -95,6 +96,23 @@
     ]
   },
   {
+    "topic": "Kalshi",
+    "type": "CRYPTO",
+    "mentions": 5,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.15,
+    "first_seen_at": "2026-05-07T12:37:16.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT",
+      "The Block",
+      "The Defiant"
+    ]
+  },
+  {
     "topic": "OpenClaw",
     "type": "AI",
     "mentions": 5,
@@ -110,6 +128,21 @@
     ]
   },
   {
+    "topic": "Kraken",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-05-07T13:26:29.000Z",
+    "sources": [
+      "The Block",
+      "The Defiant"
+    ]
+  },
+  {
     "topic": "科技",
     "type": "OTHER",
     "mentions": 2,
@@ -122,6 +155,34 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-05-07T14:09:51.000Z",
+    "sources": [
+      "X"
+    ]
+  },
+  {
+    "topic": "Mixtape",
+    "type": "GAME",
+    "mentions": 3,
+    "trusted_mentions": 0,
+    "community_hits": 3,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-05-07T13:02:12.000Z",
+    "sources": [
+      "Reddit"
     ]
   }
 ]
