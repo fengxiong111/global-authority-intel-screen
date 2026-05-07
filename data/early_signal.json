@@ -50,9 +50,25 @@
     ]
   },
   {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 6,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-05-04T02:58:59.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block"
+    ]
+  },
+  {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 8,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -65,39 +81,24 @@
     ]
   },
   {
-    "topic": "bitcoin",
-    "type": "CRYPTO",
-    "mentions": 5,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-04T02:58:59.000Z",
-    "sources": [
-      "OneKey Blog",
-      "The Block"
-    ]
-  },
-  {
-    "topic": "AWS",
-    "type": "CRYPTO",
+    "topic": "The",
+    "type": "OTHER",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-05-07T14:56:01.000Z",
+    "first_seen_at": "2026-05-07T21:00:42.000Z",
     "sources": [
-      "The Block",
-      "X"
+      "Bloomberg",
+      "Karpathy"
     ]
   },
   {
     "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -122,21 +123,6 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "Kalshi",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-05-07T12:37:16.000Z",
-    "sources": [
-      "Bloomberg",
-      "The Defiant"
     ]
   },
   {
