@@ -19,17 +19,18 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
+    "mentions": 5,
+    "trusted_mentions": 3,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.9,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-05-04T00:00:00.000Z",
     "sources": [
       "NYT",
       "OpenAI News",
-      "Reddit"
+      "Reddit",
+      "X"
     ]
   },
   {
@@ -49,9 +50,24 @@
     ]
   },
   {
-    "topic": "Bitcoin",
+    "topic": "Codex",
+    "type": "AI",
+    "mentions": 6,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-05-06T00:00:00.000Z",
+    "sources": [
+      "OpenAI News",
+      "X"
+    ]
+  },
+  {
+    "topic": "bitcoin",
     "type": "CRYPTO",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -61,21 +77,6 @@
     "sources": [
       "OneKey Blog",
       "The Block"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-05T01:31:54.000Z",
-    "sources": [
-      "Bloomberg",
-      "Karpathy"
     ]
   },
   {
@@ -94,22 +95,6 @@
     ]
   },
   {
-    "topic": "Kalshi",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.1,
-    "first_seen_at": "2026-05-07T12:37:16.000Z",
-    "sources": [
-      "Bloomberg",
-      "The Block",
-      "The Defiant"
-    ]
-  },
-  {
     "topic": "OpenClaw",
     "type": "AI",
     "mentions": 5,
@@ -125,7 +110,22 @@
     ]
   },
   {
-    "topic": "ETF",
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-05-05T01:31:54.000Z",
+    "sources": [
+      "Karpathy",
+      "Simon Willison"
+    ]
+  },
+  {
+    "topic": "Kalshi",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
@@ -133,10 +133,10 @@
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-05-07T15:02:38.000Z",
+    "first_seen_at": "2026-05-07T12:37:16.000Z",
     "sources": [
       "Bloomberg",
-      "The Block"
+      "The Defiant"
     ]
   },
   {
