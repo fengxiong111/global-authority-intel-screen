@@ -68,7 +68,7 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 6,
     "trusted_mentions": 2,
     "community_hits": 4,
     "ranking_change": false,
