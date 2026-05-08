@@ -53,7 +53,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 6,
+    "mentions": 4,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -69,8 +69,8 @@
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 6,
-    "trusted_mentions": 3,
+    "mentions": 5,
+    "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
