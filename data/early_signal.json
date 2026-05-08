@@ -19,9 +19,9 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 3,
-    "community_hits": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.95,
@@ -36,9 +36,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 8,
+    "mentions": 6,
     "trusted_mentions": 2,
-    "community_hits": 6,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.78,
@@ -51,18 +51,34 @@
     ]
   },
   {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-05-04T02:58:59.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block"
+    ]
+  },
+  {
     "topic": "科技",
     "type": "OTHER",
     "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
+    "trusted_mentions": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
     "first_seen_at": "2026-05-05T01:31:54.000Z",
     "sources": [
       "Karpathy",
-      "NYT",
+      "Reddit",
       "Simon Willison"
     ]
   },
@@ -82,21 +98,6 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-04T02:58:59.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog"
-    ]
-  },
-  {
     "topic": "OpenClaw",
     "type": "AI",
     "mentions": 4,
@@ -109,20 +110,6 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-05-07T18:54:50.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
