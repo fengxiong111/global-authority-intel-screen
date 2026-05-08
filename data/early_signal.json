@@ -2,9 +2,9 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 2,
-    "community_hits": 4,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.9,
