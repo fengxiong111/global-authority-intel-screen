@@ -1,5 +1,53 @@
 [
   {
+    "fetch_time": 1778315266,
+    "count": 4,
+    "titles": [
+      "GitHub 热门工具：9router",
+      "OpenClaw 联手 VirusTotal 强化技能安全",
+      "苹果为美国制造计划新增合作伙伴",
+      "硬件钱包的安全盲区：供应链攻击的隐蔽风险"
+    ],
+    "items": [
+      {
+        "id": "d6ec5005cfc7f9e6",
+        "title": "GitHub 热门工具：9router",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      },
+      {
+        "id": "5171e3d4b40bbe17",
+        "title": "苹果为美国制造计划新增合作伙伴",
+        "topic": "APPLE",
+        "source": "Apple Newsroom",
+        "meaning": "这是一个值得继续盯的变化信号。",
+        "action_hint": "点开核对原文。",
+        "urgency": "medium"
+      },
+      {
+        "id": "35c0b0e1193aade2",
+        "title": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
+        "topic": "ONEKEY",
+        "source": "OneKey Blog",
+        "meaning": "这是一个值得继续盯的变化信号。",
+        "action_hint": "点开核对原文。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1778309897,
     "count": 4,
     "titles": [

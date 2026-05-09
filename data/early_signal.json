@@ -1,5 +1,21 @@
 [
   {
+    "topic": "Codex",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 2,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-05-06T00:00:00.000Z",
+    "sources": [
+      "OpenAI News",
+      "Reddit",
+      "X"
+    ]
+  },
+  {
     "topic": "Anthropic",
     "type": "AI",
     "mentions": 4,
@@ -16,27 +32,11 @@
     ]
   },
   {
-    "topic": "Codex",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-05-06T00:00:00.000Z",
-    "sources": [
-      "OpenAI News",
-      "Reddit",
-      "X"
-    ]
-  },
-  {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 7,
     "trusted_mentions": 2,
-    "community_hits": 3,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.78,
