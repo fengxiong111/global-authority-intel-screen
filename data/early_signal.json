@@ -1,19 +1,18 @@
 [
   {
-    "topic": "Claude",
+    "topic": "codex",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 4,
     "trusted_mentions": 2,
-    "community_hits": 5,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-05-06T15:58:27.000Z",
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-05-07T00:00:00.000Z",
     "sources": [
-      "Anthropic Newsroom",
-      "Hacker News",
+      "OpenAI News",
       "Reddit",
-      "Simon Willison"
+      "X"
     ]
   },
   {
@@ -34,6 +33,22 @@
     ]
   },
   {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 6,
+    "trusted_mentions": 2,
+    "community_hits": 4,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-05-06T15:58:27.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Reddit",
+      "Simon Willison"
+    ]
+  },
+  {
     "topic": "科技",
     "type": "OTHER",
     "mentions": 3,
@@ -47,21 +62,6 @@
       "Karpathy",
       "NYT",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "codex",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-07T00:00:00.000Z",
-    "sources": [
-      "OpenAI News",
-      "X"
     ]
   },
   {
