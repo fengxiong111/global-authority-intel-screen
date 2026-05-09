@@ -32,6 +32,23 @@
     ]
   },
   {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 6,
+    "trusted_mentions": 2,
+    "community_hits": 3,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.78,
+    "first_seen_at": "2026-05-06T15:58:27.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Hacker News",
+      "Reddit",
+      "Simon Willison"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 6,
@@ -46,22 +63,6 @@
       "OneKey Blog",
       "The Block",
       "The Defiant"
-    ]
-  },
-  {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-05-06T15:58:27.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Reddit",
-      "Simon Willison"
     ]
   },
   {
@@ -93,6 +94,21 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
+    ]
+  },
+  {
+    "topic": "China",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-05-09T02:32:17.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT"
     ]
   },
   {
