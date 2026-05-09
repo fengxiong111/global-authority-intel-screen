@@ -1,5 +1,53 @@
 [
   {
+    "fetch_time": 1778342728,
+    "count": 4,
+    "titles": [
+      "OpenClaw 测试版更新 2026.5.9 Beta 1",
+      "GitHub 热门工具：agentmemory",
+      "苹果为美国制造计划新增合作伙伴",
+      "硬件钱包的安全盲区：供应链攻击的隐蔽风险"
+    ],
+    "items": [
+      {
+        "id": "09a6354e4f410ce4",
+        "title": "OpenClaw 测试版更新 2026.5.9 Beta 1",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      },
+      {
+        "id": "715508774a4c4aaa",
+        "title": "GitHub 热门工具：agentmemory",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      },
+      {
+        "id": "5171e3d4b40bbe17",
+        "title": "苹果为美国制造计划新增合作伙伴",
+        "topic": "APPLE",
+        "source": "Apple Newsroom",
+        "meaning": "这是一个值得继续盯的变化信号。",
+        "action_hint": "点开核对原文。",
+        "urgency": "medium"
+      },
+      {
+        "id": "35c0b0e1193aade2",
+        "title": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
+        "topic": "ONEKEY",
+        "source": "OneKey Blog",
+        "meaning": "这是一个值得继续盯的变化信号。",
+        "action_hint": "点开核对原文。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1778339336,
     "count": 4,
     "titles": [
@@ -1459,54 +1507,6 @@
   },
   {
     "fetch_time": 1778174593,
-    "count": 4,
-    "titles": [
-      "OpenClaw 联手 VirusTotal 强化技能安全",
-      "苹果为美国制造计划新增合作伙伴",
-      "GitHub 热门工具：InsForge",
-      "硬件钱包的安全盲区：供应链攻击的隐蔽风险"
-    ],
-    "items": [
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      },
-      {
-        "id": "5171e3d4b40bbe17",
-        "title": "苹果为美国制造计划新增合作伙伴",
-        "topic": "APPLE",
-        "source": "Apple Newsroom",
-        "meaning": "这是一个值得继续盯的变化信号。",
-        "action_hint": "点开核对原文。",
-        "urgency": "medium"
-      },
-      {
-        "id": "f1a26edf19e747a2",
-        "title": "GitHub 热门工具：InsForge",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      },
-      {
-        "id": "35c0b0e1193aade2",
-        "title": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
-        "topic": "ONEKEY",
-        "source": "OneKey Blog",
-        "meaning": "这是一个值得继续盯的变化信号。",
-        "action_hint": "点开核对原文。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1778168311,
     "count": 4,
     "titles": [
       "OpenClaw 联手 VirusTotal 强化技能安全",
