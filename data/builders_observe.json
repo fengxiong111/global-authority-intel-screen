@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1778427366,
+    "count": 3,
+    "titles": [
+      "OpenClaw 测试版更新 2026.5.10 Beta 1",
+      "GitHub 热门工具：omlx",
+      "硬件钱包的安全盲区：供应链攻击的隐蔽风险"
+    ],
+    "items": [
+      {
+        "id": "12ce53d3b7a1b908",
+        "title": "OpenClaw 测试版更新 2026.5.10 Beta 1",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      },
+      {
+        "id": "913711b6f754efd9",
+        "title": "GitHub 热门工具：omlx",
+        "topic": "APPLE",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      },
+      {
+        "id": "35c0b0e1193aade2",
+        "title": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
+        "topic": "ONEKEY",
+        "source": "OneKey Blog",
+        "meaning": "这是一个值得继续盯的变化信号。",
+        "action_hint": "点开核对原文。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1778424008,
     "count": 3,
     "titles": [
