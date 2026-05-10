@@ -1,10 +1,26 @@
 [
   {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-05-03T15:13:23.000Z",
+    "sources": [
+      "Reddit",
+      "SemiAnalysis",
+      "Simon Willison"
+    ]
+  },
+  {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 4,
     "trusted_mentions": 2,
-    "community_hits": 4,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -50,7 +66,7 @@
   {
     "topic": "codex",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -63,24 +79,9 @@
     ]
   },
   {
-    "topic": "Anthropic",
+    "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-03T15:13:23.000Z",
-    "sources": [
-      "SemiAnalysis",
-      "Simon Willison"
-    ]
-  },
-  {
-    "topic": "openclaw",
-    "type": "AI",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -90,6 +91,20 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-05-09T21:38:37.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
