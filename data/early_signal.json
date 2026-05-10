@@ -1,5 +1,22 @@
 [
   {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-05-05T01:31:54.000Z",
+    "sources": [
+      "Karpathy",
+      "NYT",
+      "Reddit",
+      "Simon Willison"
+    ]
+  },
+  {
     "topic": "Anthropic",
     "type": "AI",
     "mentions": 3,
@@ -28,22 +45,6 @@
     "sources": [
       "Anthropic Newsroom",
       "Reddit",
-      "Simon Willison"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-05-05T01:31:54.000Z",
-    "sources": [
-      "Karpathy",
-      "NYT",
       "Simon Willison"
     ]
   },
@@ -91,20 +92,6 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-05-09T21:38:37.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
