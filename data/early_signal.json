@@ -1,21 +1,5 @@
 [
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-05-05T01:31:54.000Z",
-    "sources": [
-      "Karpathy",
-      "Reddit",
-      "Simon Willison"
-    ]
-  },
-  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 3,
@@ -29,6 +13,21 @@
       "OneKey Blog",
       "The Block",
       "The Defiant"
+    ]
+  },
+  {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 1,
+    "community_hits": 4,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-05-06T15:58:27.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Reddit"
     ]
   },
   {
@@ -47,51 +46,6 @@
     ]
   },
   {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-06T15:58:27.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Reddit"
-    ]
-  },
-  {
-    "topic": "Claude Code",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-08T21:00:11.000Z",
-    "sources": [
-      "Reddit",
-      "Simon Willison"
-    ]
-  },
-  {
-    "topic": "codex",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-07T00:00:00.000Z",
-    "sources": [
-      "OpenAI News",
-      "X"
-    ]
-  },
-  {
     "topic": "openclaw",
     "type": "AI",
     "mentions": 5,
@@ -104,20 +58,6 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-05-09T21:38:37.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
