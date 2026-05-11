@@ -1,21 +1,5 @@
 [
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-05-10T22:42:42.000Z",
-    "sources": [
-      "Bloomberg",
-      "Karpathy",
-      "Reddit"
-    ]
-  },
-  {
     "topic": "OpenClaw",
     "type": "AI",
     "mentions": 7,
@@ -32,9 +16,9 @@
     ]
   },
   {
-    "topic": "Bitcoin",
+    "topic": "bitcoin",
     "type": "CRYPTO",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -48,17 +32,48 @@
     ]
   },
   {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-05-10T22:42:42.000Z",
+    "sources": [
+      "Hacker News",
+      "Karpathy",
+      "Reddit"
+    ]
+  },
+  {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 1,
-    "community_hits": 3,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
     "first_seen_at": "2026-05-06T15:58:27.000Z",
     "sources": [
       "Anthropic Newsroom",
+      "Reddit"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-05-11T06:05:52.000Z",
+    "sources": [
+      "OpenAI News",
       "Reddit"
     ]
   },
