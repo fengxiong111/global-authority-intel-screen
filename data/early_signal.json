@@ -34,22 +34,6 @@
     ]
   },
   {
-    "topic": "The",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-05-10T19:41:13.000Z",
-    "sources": [
-      "Karpathy",
-      "NYT",
-      "Reddit"
-    ]
-  },
-  {
     "topic": "Claude",
     "type": "AI",
     "mentions": 7,
@@ -66,18 +50,18 @@
     ]
   },
   {
-    "topic": "bitcoin",
-    "type": "CRYPTO",
+    "topic": "Anthropic",
+    "type": "AI",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-05-04T02:58:59.000Z",
+    "first_seen_at": "2026-05-11T18:07:00.000Z",
     "sources": [
-      "OneKey Blog",
-      "The Block"
+      "SemiAnalysis",
+      "X"
     ]
   },
   {
