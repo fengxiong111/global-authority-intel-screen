@@ -16,22 +16,6 @@
     ]
   },
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-05-12T01:48:10.000Z",
-    "sources": [
-      "Karpathy",
-      "NYT",
-      "Reddit"
-    ]
-  },
-  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 4,
@@ -81,6 +65,21 @@
     ]
   },
   {
+    "topic": "The",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-05-12T11:36:14.000Z",
+    "sources": [
+      "Bloomberg",
+      "Karpathy"
+    ]
+  },
+  {
     "topic": "OpenClaw",
     "type": "AI",
     "mentions": 7,
@@ -111,17 +110,17 @@
     ]
   },
   {
-    "topic": "Codex",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
+    "topic": "Switch",
+    "type": "GAME",
+    "mentions": 3,
+    "trusted_mentions": 0,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0,
-    "first_seen_at": "2026-05-11T19:51:24.000Z",
+    "first_seen_at": "2026-05-11T15:24:14.000Z",
     "sources": [
-      "X"
+      "Reddit"
     ]
   }
 ]
