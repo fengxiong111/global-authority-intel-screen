@@ -1,68 +1,53 @@
 [
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 7,
-    "trusted_mentions": 3,
-    "community_hits": 2,
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 4,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.95,
+    "first_seen_at": "2026-05-11T20:09:01.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block",
+      "X"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 6,
+    "trusted_mentions": 2,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
     "first_seen_at": "2026-05-11T06:00:00.000Z",
     "sources": [
       "NYT",
       "OpenAI News",
-      "Reddit",
-      "X"
+      "Reddit"
     ]
   },
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 6,
-    "trusted_mentions": 3,
+    "mentions": 7,
+    "trusted_mentions": 4,
     "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.83,
     "first_seen_at": "2026-05-11T22:41:35.000Z",
     "sources": [
+      "Bloomberg",
       "NYT",
       "Reddit",
       "SemiAnalysis",
       "Stratechery"
-    ]
-  },
-  {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 1,
-    "community_hits": 3,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-05-06T15:58:27.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Hacker News",
-      "Reddit"
-    ]
-  },
-  {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-05-11T20:09:01.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Block"
     ]
   },
   {
@@ -81,9 +66,9 @@
     ]
   },
   {
-    "topic": "OpenClaw",
+    "topic": "openclaw",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 8,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
