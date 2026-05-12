@@ -1,22 +1,5 @@
 [
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-05-11T20:09:01.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Block",
-      "X"
-    ]
-  },
-  {
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 6,
@@ -35,19 +18,50 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 7,
-    "trusted_mentions": 4,
+    "mentions": 6,
+    "trusted_mentions": 3,
     "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.83,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-05-11T22:41:35.000Z",
     "sources": [
-      "Bloomberg",
       "NYT",
       "Reddit",
       "SemiAnalysis",
       "Stratechery"
+    ]
+  },
+  {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 5,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.78,
+    "first_seen_at": "2026-05-11T20:09:01.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block",
+      "The Defiant"
+    ]
+  },
+  {
+    "topic": "The",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-05-12T19:15:50.000Z",
+    "sources": [
+      "Karpathy",
+      "NYT"
     ]
   },
   {
@@ -63,6 +77,21 @@
     "sources": [
       "Karpathy",
       "NYT"
+    ]
+  },
+  {
+    "topic": "Ethereum Foundation",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-05-12T17:19:59.000Z",
+    "sources": [
+      "The Block",
+      "X"
     ]
   },
   {
