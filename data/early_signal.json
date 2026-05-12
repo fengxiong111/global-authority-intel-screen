@@ -16,9 +16,25 @@
     ]
   },
   {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-05-12T01:48:10.000Z",
+    "sources": [
+      "Karpathy",
+      "NYT",
+      "Reddit"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 6,
+    "mentions": 4,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -40,26 +56,28 @@
     "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-05-06T15:58:27.000Z",
     "sources": [
       "Anthropic Newsroom",
+      "Hacker News",
       "Reddit"
     ]
   },
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
+    "mentions": 4,
+    "trusted_mentions": 2,
     "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-05-11T22:41:35.000Z",
     "sources": [
       "Reddit",
-      "SemiAnalysis"
+      "SemiAnalysis",
+      "Stratechery"
     ]
   },
   {
@@ -75,6 +93,35 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-05-11T16:17:26.000Z",
+    "sources": [
+      "NYT",
+      "The Block"
+    ]
+  },
+  {
+    "topic": "Codex",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-05-11T19:51:24.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
