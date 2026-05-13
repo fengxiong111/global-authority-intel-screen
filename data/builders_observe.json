@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1778657324,
+    "count": 2,
+    "titles": [
+      "OpenClaw 联手 VirusTotal 强化技能安全",
+      "GitHub 热门工具：skills"
+    ],
+    "items": [
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      },
+      {
+        "id": "5efc5fa62830c201",
+        "title": "GitHub 热门工具：skills",
+        "topic": "CLAUDE",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1778645660,
     "count": 2,
     "titles": [
@@ -919,44 +947,6 @@
   },
   {
     "fetch_time": 1778486538,
-    "count": 3,
-    "titles": [
-      "OpenClaw 联手 VirusTotal 强化技能安全",
-      "GitHub 热门工具：omlx",
-      "硬件钱包的安全盲区：供应链攻击的隐蔽风险"
-    ],
-    "items": [
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      },
-      {
-        "id": "913711b6f754efd9",
-        "title": "GitHub 热门工具：omlx",
-        "topic": "APPLE",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      },
-      {
-        "id": "35c0b0e1193aade2",
-        "title": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
-        "topic": "ONEKEY",
-        "source": "OneKey Blog",
-        "meaning": "这是一个值得继续盯的变化信号。",
-        "action_hint": "点开核对原文。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1778474028,
     "count": 3,
     "titles": [
       "OpenClaw 联手 VirusTotal 强化技能安全",
