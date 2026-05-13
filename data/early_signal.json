@@ -1,8 +1,24 @@
 [
   {
-    "topic": "Codex",
+    "topic": "OpenAI",
     "type": "AI",
     "mentions": 6,
+    "trusted_mentions": 2,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-05-11T06:00:00.000Z",
+    "sources": [
+      "Bloomberg",
+      "OpenAI News",
+      "Reddit"
+    ]
+  },
+  {
+    "topic": "Codex",
+    "type": "AI",
+    "mentions": 4,
     "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
@@ -34,9 +50,9 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 2,
-    "community_hits": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -48,17 +64,17 @@
     ]
   },
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 5,
+    "topic": "U.S",
+    "type": "OTHER",
+    "mentions": 3,
     "trusted_mentions": 1,
-    "community_hits": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-05-11T06:00:00.000Z",
+    "first_seen_at": "2026-05-13T14:00:42.000Z",
     "sources": [
-      "OpenAI News",
+      "NYT",
       "Reddit"
     ]
   },
@@ -90,21 +106,6 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "Polymarket",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-05-13T15:08:52.000Z",
-    "sources": [
-      "Bloomberg",
-      "NYT"
     ]
   }
 ]
