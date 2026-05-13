@@ -1,41 +1,24 @@
 [
   {
-    "topic": "OpenAI",
+    "topic": "Codex",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.9,
-    "first_seen_at": "2026-05-11T06:00:00.000Z",
+    "first_seen_at": "2026-05-12T00:00:00.000Z",
     "sources": [
-      "Bloomberg",
       "OpenAI News",
-      "Reddit"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 3,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-05-11T22:41:35.000Z",
-    "sources": [
-      "NYT",
       "Reddit",
-      "SemiAnalysis",
-      "Stratechery"
+      "X"
     ]
   },
   {
-    "topic": "bitcoin",
+    "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 3,
+    "mentions": 5,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -49,33 +32,34 @@
     ]
   },
   {
-    "topic": "Codex",
+    "topic": "Anthropic",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 2,
-    "community_hits": 0,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-12T00:00:00.000Z",
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-05-11T22:41:35.000Z",
     "sources": [
-      "OpenAI News",
-      "X"
+      "Reddit",
+      "SemiAnalysis",
+      "Stratechery"
     ]
   },
   {
-    "topic": "Claude",
+    "topic": "OpenAI",
     "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
+    "mentions": 5,
+    "trusted_mentions": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-05-12T16:01:26.000Z",
+    "first_seen_at": "2026-05-11T06:00:00.000Z",
     "sources": [
-      "Anthropic Newsroom",
-      "NYT"
+      "OpenAI News",
+      "Reddit"
     ]
   },
   {
@@ -109,17 +93,18 @@
     ]
   },
   {
-    "topic": "Switch",
-    "type": "GAME",
-    "mentions": 3,
-    "trusted_mentions": 0,
-    "community_hits": 3,
+    "topic": "Polymarket",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-05-12T13:13:09.000Z",
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-05-13T15:08:52.000Z",
     "sources": [
-      "Reddit"
+      "Bloomberg",
+      "NYT"
     ]
   }
 ]
