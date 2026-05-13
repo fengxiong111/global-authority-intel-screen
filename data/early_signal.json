@@ -2,14 +2,15 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
+    "mentions": 5,
+    "trusted_mentions": 3,
     "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-05-11T22:41:35.000Z",
     "sources": [
+      "NYT",
       "Reddit",
       "SemiAnalysis",
       "Stratechery"
@@ -92,9 +93,9 @@
     ]
   },
   {
-    "topic": "openclaw",
+    "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 8,
+    "mentions": 5,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -104,6 +105,21 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-05-12T17:45:07.000Z",
+    "sources": [
+      "Karpathy",
+      "Simon Willison"
     ]
   },
   {
