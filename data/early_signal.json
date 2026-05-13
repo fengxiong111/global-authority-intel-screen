@@ -2,8 +2,8 @@
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 6,
-    "trusted_mentions": 3,
+    "mentions": 5,
+    "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
@@ -13,22 +13,6 @@
       "OpenAI News",
       "Reddit",
       "X"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-05-11T06:00:00.000Z",
-    "sources": [
-      "Bloomberg",
-      "OpenAI News",
-      "Reddit"
     ]
   },
   {
