@@ -16,19 +16,19 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 1,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
-    "first_seen_at": "2026-05-11T20:09:01.000Z",
+    "first_seen_at": "2026-05-13T16:20:02.000Z",
     "sources": [
-      "OneKey Blog",
-      "The Block",
-      "The Defiant"
+      "Anthropic Newsroom",
+      "Hacker News",
+      "Reddit"
     ]
   },
   {
@@ -65,7 +65,7 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 1,
     "community_hits": 1,
     "ranking_change": false,
@@ -78,18 +78,33 @@
     ]
   },
   {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-05-13T16:20:02.000Z",
+    "first_seen_at": "2026-05-11T20:09:01.000Z",
     "sources": [
-      "Anthropic Newsroom",
-      "Reddit"
+      "OneKey Blog",
+      "The Defiant"
+    ]
+  },
+  {
+    "topic": "POLYMARKET",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-05-13T18:48:13.000Z",
+    "sources": [
+      "NYT",
+      "X"
     ]
   },
   {
@@ -105,6 +120,20 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
+    ]
+  },
+  {
+    "topic": "Codex",
+    "type": "GAME",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-05-13T15:35:00.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
