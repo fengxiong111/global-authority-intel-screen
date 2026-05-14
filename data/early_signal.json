@@ -21,33 +21,16 @@
     "topic": "Codex",
     "type": "AI",
     "mentions": 10,
-    "trusted_mentions": 3,
-    "community_hits": 2,
+    "trusted_mentions": 4,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 0.9,
     "first_seen_at": "2026-05-11T20:45:59.000Z",
     "sources": [
-      "Hacker News",
       "OpenAI News",
       "Reddit",
       "X"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-05-12T17:45:07.000Z",
-    "sources": [
-      "Bloomberg",
-      "Karpathy",
-      "Simon Willison"
     ]
   },
   {
@@ -66,9 +49,9 @@
     ]
   },
   {
-    "topic": "OpenClaw",
+    "topic": "openclaw",
     "type": "AI",
-    "mentions": 10,
+    "mentions": 11,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -93,6 +76,21 @@
     "sources": [
       "SemiAnalysis",
       "Stratechery"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.91,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-05-12T17:45:07.000Z",
+    "sources": [
+      "Karpathy",
+      "Simon Willison"
     ]
   }
 ]
