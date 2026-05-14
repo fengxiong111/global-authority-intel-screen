@@ -1,21 +1,5 @@
 [
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 2,
-    "community_hits": 3,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-05-11T22:41:35.000Z",
-    "sources": [
-      "Reddit",
-      "SemiAnalysis",
-      "Stratechery"
-    ]
-  },
-  {
     "topic": "Claude",
     "type": "AI",
     "mentions": 4,
@@ -32,19 +16,35 @@
     ]
   },
   {
-    "topic": "科技",
-    "type": "OTHER",
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-05-11T22:41:35.000Z",
+    "sources": [
+      "Reddit",
+      "SemiAnalysis",
+      "Stratechery"
+    ]
+  },
+  {
+    "topic": "bitcoin",
+    "type": "CRYPTO",
     "mentions": 3,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
-    "first_seen_at": "2026-05-12T17:45:07.000Z",
+    "first_seen_at": "2026-05-11T20:09:01.000Z",
     "sources": [
-      "Karpathy",
-      "NYT",
-      "Simon Willison"
+      "OneKey Blog",
+      "The Block",
+      "The Defiant"
     ]
   },
   {
@@ -63,54 +63,9 @@
     ]
   },
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-11T06:00:00.000Z",
-    "sources": [
-      "OpenAI News",
-      "Reddit"
-    ]
-  },
-  {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-11T20:09:01.000Z",
-    "sources": [
-      "OneKey Blog",
-      "The Defiant"
-    ]
-  },
-  {
-    "topic": "POLYMARKET",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-13T18:48:13.000Z",
-    "sources": [
-      "NYT",
-      "X"
-    ]
-  },
-  {
     "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 8,
+    "mentions": 9,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -123,17 +78,18 @@
     ]
   },
   {
-    "topic": "Codex",
-    "type": "GAME",
+    "topic": "科技",
+    "type": "OTHER",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-05-13T15:35:00.000Z",
+    "growth_score": 0.91,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-05-12T17:45:07.000Z",
     "sources": [
-      "X"
+      "Karpathy",
+      "Simon Willison"
     ]
   }
 ]
