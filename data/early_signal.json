@@ -7,44 +7,61 @@
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 1,
     "first_seen_at": "2026-05-14T14:58:33.000Z",
     "sources": [
       "Bloomberg",
       "OneKey Blog",
       "The Block",
+      "The Defiant",
       "X"
     ]
   },
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 10,
     "trusted_mentions": 3,
-    "community_hits": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.9,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-05-11T20:45:59.000Z",
     "sources": [
       "Hacker News",
       "OpenAI News",
+      "Reddit",
       "X"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-05-12T17:45:07.000Z",
+    "sources": [
+      "Bloomberg",
+      "Karpathy",
+      "Simon Willison"
     ]
   },
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 1,
-    "community_hits": 5,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.68,
     "first_seen_at": "2026-05-13T16:20:02.000Z",
     "sources": [
       "Anthropic Newsroom",
-      "Hacker News",
       "Reddit"
     ]
   },
@@ -76,21 +93,6 @@
     "sources": [
       "SemiAnalysis",
       "Stratechery"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.91,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-05-12T17:45:07.000Z",
-    "sources": [
-      "Karpathy",
-      "Simon Willison"
     ]
   }
 ]
