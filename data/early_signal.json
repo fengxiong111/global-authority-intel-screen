@@ -2,13 +2,13 @@
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.9,
-    "first_seen_at": "2026-05-12T00:00:00.000Z",
+    "first_seen_at": "2026-05-11T20:45:59.000Z",
     "sources": [
       "OpenAI News",
       "Reddit",
@@ -18,9 +18,9 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 2,
-    "community_hits": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -64,6 +64,21 @@
     ]
   },
   {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 1,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-05-11T06:00:00.000Z",
+    "sources": [
+      "OpenAI News",
+      "Reddit"
+    ]
+  },
+  {
     "topic": "Claude",
     "type": "AI",
     "mentions": 3,
@@ -91,6 +106,20 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-05-13T19:15:16.000Z",
+    "sources": [
+      "X"
     ]
   },
   {
