@@ -1,26 +1,10 @@
 [
   {
-    "topic": "Codex",
-    "type": "AI",
-    "mentions": 6,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-05-11T20:45:59.000Z",
-    "sources": [
-      "OpenAI News",
-      "Reddit",
-      "X"
-    ]
-  },
-  {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 2,
-    "community_hits": 2,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -29,6 +13,22 @@
       "Reddit",
       "SemiAnalysis",
       "Stratechery"
+    ]
+  },
+  {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-05-11T20:09:01.000Z",
+    "sources": [
+      "OneKey Blog",
+      "The Block",
+      "The Defiant"
     ]
   },
   {
@@ -48,19 +48,18 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 3,
+    "topic": "Codex",
+    "type": "AI",
+    "mentions": 5,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-05-11T20:09:01.000Z",
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-05-11T20:45:59.000Z",
     "sources": [
-      "OneKey Blog",
-      "The Block",
-      "The Defiant"
+      "OpenAI News",
+      "X"
     ]
   },
   {
@@ -106,34 +105,6 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-05-13T19:15:16.000Z",
-    "sources": [
-      "X"
-    ]
-  },
-  {
-    "topic": "codex",
-    "type": "GAME",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-05-13T15:35:00.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
