@@ -2,9 +2,9 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 2,
-    "community_hits": 2,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.9,
