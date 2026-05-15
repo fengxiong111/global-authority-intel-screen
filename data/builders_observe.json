@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1778847717,
+    "count": 2,
+    "titles": [
+      "GitHub 热门工具：skills",
+      "OpenClaw 联手 VirusTotal 强化技能安全"
+    ],
+    "items": [
+      {
+        "id": "dd88b3e1a7945bd6",
+        "title": "GitHub 热门工具：skills",
+        "topic": "ANTHROPIC",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1778841544,
     "count": 2,
     "titles": [
@@ -781,34 +809,6 @@
         "source": "OneKey Blog",
         "meaning": "这是一个值得继续盯的变化信号。",
         "action_hint": "点开核对原文。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1778674780,
-    "count": 2,
-    "titles": [
-      "OpenClaw 联手 VirusTotal 强化技能安全",
-      "GitHub 热门工具：superpowers"
-    ],
-    "items": [
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      },
-      {
-        "id": "fa06b8f9ade60a0f",
-        "title": "GitHub 热门工具：superpowers",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
         "urgency": "medium"
       }
     ]
