@@ -1,28 +1,42 @@
 [
   {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 1,
+    "community_hits": 3,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-05-15T07:56:22.000Z",
+    "sources": [
+      "Hacker News",
+      "Reddit",
+      "SemiAnalysis"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 5,
-    "trusted_mentions": 5,
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 1,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-05-14T14:58:33.000Z",
     "sources": [
-      "Bloomberg",
       "OneKey Blog",
       "The Block",
-      "The Defiant",
-      "X"
+      "The Defiant"
     ]
   },
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 3,
     "trusted_mentions": 1,
-    "community_hits": 4,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
