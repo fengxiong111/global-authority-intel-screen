@@ -20,7 +20,7 @@
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 9,
+    "mentions": 8,
     "trusted_mentions": 3,
     "community_hits": 1,
     "ranking_change": false,
@@ -49,9 +49,40 @@
     ]
   },
   {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-05-14T16:49:55.000Z",
+    "sources": [
+      "NYT",
+      "Reddit"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.1,
+    "first_seen_at": "2026-05-11T22:41:35.000Z",
+    "sources": [
+      "Bloomberg",
+      "SemiAnalysis",
+      "Stratechery"
+    ]
+  },
+  {
     "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 11,
+    "mentions": 4,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -61,21 +92,6 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-05-11T22:41:35.000Z",
-    "sources": [
-      "SemiAnalysis",
-      "Stratechery"
     ]
   },
   {
