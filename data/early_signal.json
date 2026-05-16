@@ -2,15 +2,14 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 3,
-    "community_hits": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 1,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-05-14T16:49:55.000Z",
     "sources": [
-      "Hacker News",
       "NYT",
       "OpenAI News",
       "Reddit",
@@ -98,7 +97,7 @@
   {
     "topic": "openclaw",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 8,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
