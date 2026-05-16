@@ -34,22 +34,6 @@
     ]
   },
   {
-    "topic": "OpenClaw",
-    "type": "AI",
-    "mentions": 9,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-04-30T00:00:00.000Z",
-    "sources": [
-      "Hacker News",
-      "OpenClaw Blog",
-      "OpenClaw GitHub"
-    ]
-  },
-  {
     "topic": "Codex",
     "type": "AI",
     "mentions": 8,
@@ -95,6 +79,21 @@
     ]
   },
   {
+    "topic": "openclaw",
+    "type": "AI",
+    "mentions": 8,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-04-30T00:00:00.000Z",
+    "sources": [
+      "OpenClaw Blog",
+      "OpenClaw GitHub"
+    ]
+  },
+  {
     "topic": "科技",
     "type": "OTHER",
     "mentions": 2,
@@ -131,7 +130,7 @@
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 0.91,
+    "growth_score": 0.73,
     "resonance_score": 0.05,
     "first_seen_at": "2026-05-15T13:16:39.000Z",
     "sources": [
