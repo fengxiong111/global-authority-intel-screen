@@ -2,8 +2,8 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 6,
-    "trusted_mentions": 6,
+    "mentions": 5,
+    "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
@@ -37,7 +37,7 @@
   {
     "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 9,
+    "mentions": 10,
     "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
