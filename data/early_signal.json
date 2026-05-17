@@ -1,22 +1,5 @@
 [
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-05-14T14:58:33.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Defiant",
-      "X"
-    ]
-  },
-  {
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 5,
@@ -30,6 +13,22 @@
       "NYT",
       "Reddit",
       "X"
+    ]
+  },
+  {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-05-14T14:58:33.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Defiant"
     ]
   },
   {
@@ -52,7 +51,7 @@
     "type": "AI",
     "mentions": 5,
     "trusted_mentions": 1,
-    "community_hits": 4,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
@@ -63,9 +62,9 @@
     ]
   },
   {
-    "topic": "openclaw",
+    "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 9,
+    "mentions": 6,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
