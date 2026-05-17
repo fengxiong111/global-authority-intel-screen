@@ -1,22 +1,5 @@
 [
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-05-14T14:58:33.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Defiant",
-      "X"
-    ]
-  },
-  {
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 4,
@@ -49,6 +32,21 @@
     ]
   },
   {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-05-17T07:34:10.000Z",
+    "sources": [
+      "Reddit",
+      "SemiAnalysis"
+    ]
+  },
+  {
     "topic": "Claude",
     "type": "AI",
     "mentions": 3,
@@ -61,6 +59,21 @@
     "sources": [
       "Anthropic Newsroom",
       "Reddit"
+    ]
+  },
+  {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-05-14T14:58:33.000Z",
+    "sources": [
+      "OneKey Blog",
+      "The Defiant"
     ]
   },
   {
