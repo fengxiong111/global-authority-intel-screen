@@ -1,34 +1,36 @@
 [
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 2,
-    "community_hits": 3,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-05-14T16:49:55.000Z",
-    "sources": [
-      "NYT",
-      "Reddit",
-      "X"
-    ]
-  },
-  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 3,
+    "mentions": 5,
+    "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-05-14T14:58:33.000Z",
     "sources": [
       "Bloomberg",
       "OneKey Blog",
-      "The Defiant"
+      "The Defiant",
+      "X"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 3,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-05-14T16:49:55.000Z",
+    "sources": [
+      "NYT",
+      "OpenAI News",
+      "Reddit",
+      "X"
     ]
   },
   {
@@ -49,9 +51,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 1,
-    "community_hits": 3,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
