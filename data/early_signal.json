@@ -1,49 +1,51 @@
 [
   {
-    "topic": "OpenAI",
-    "type": "AI",
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
     "mentions": 7,
     "trusted_mentions": 4,
-    "community_hits": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 1,
-    "first_seen_at": "2026-05-14T16:49:55.000Z",
+    "first_seen_at": "2026-05-18T02:56:40.000Z",
     "sources": [
       "Bloomberg",
-      "NYT",
-      "OpenAI News",
-      "Reddit",
+      "Hacker News",
+      "OneKey Blog",
+      "The Defiant",
       "X"
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 5,
-    "trusted_mentions": 3,
-    "community_hits": 0,
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-05-18T02:56:40.000Z",
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-05-14T16:49:55.000Z",
     "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Defiant"
+      "Hacker News",
+      "NYT",
+      "OpenAI News",
+      "Reddit"
     ]
   },
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 1,
-    "community_hits": 2,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-05-17T15:09:38.000Z",
     "sources": [
+      "Hacker News",
       "Reddit",
       "SemiAnalysis"
     ]
@@ -51,9 +53,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 1,
-    "community_hits": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
@@ -64,9 +66,9 @@
     ]
   },
   {
-    "topic": "Codex",
+    "topic": "codex",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -79,9 +81,9 @@
     ]
   },
   {
-    "topic": "OpenClaw",
+    "topic": "openclaw",
     "type": "AI",
-    "mentions": 9,
+    "mentions": 10,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -106,6 +108,20 @@
     "sources": [
       "The Block",
       "The Defiant"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-05-18T19:18:10.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
