@@ -1,23 +1,5 @@
 [
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 6,
-    "trusted_mentions": 3,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 1,
-    "first_seen_at": "2026-05-14T16:49:55.000Z",
-    "sources": [
-      "Bloomberg",
-      "Hacker News",
-      "NYT",
-      "OpenAI News",
-      "Reddit"
-    ]
-  },
-  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 6,
@@ -32,6 +14,23 @@
       "Hacker News",
       "OneKey Blog",
       "The Defiant"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 2,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-05-14T16:49:55.000Z",
+    "sources": [
+      "Hacker News",
+      "NYT",
+      "OpenAI News",
+      "Reddit"
     ]
   },
   {
