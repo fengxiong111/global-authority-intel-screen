@@ -1,43 +1,28 @@
 [
   {
-    "topic": "bitcoin",
+    "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 8,
-    "trusted_mentions": 4,
+    "mentions": 6,
+    "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 1,
     "first_seen_at": "2026-05-18T02:56:40.000Z",
     "sources": [
       "Bloomberg",
       "OneKey Blog",
       "The Block",
-      "The Defiant"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-05-14T16:49:55.000Z",
-    "sources": [
-      "Hacker News",
-      "NYT",
-      "Reddit"
+      "The Defiant",
+      "X"
     ]
   },
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 8,
     "trusted_mentions": 1,
-    "community_hits": 3,
+    "community_hits": 7,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -51,9 +36,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 3,
     "trusted_mentions": 1,
-    "community_hits": 3,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
@@ -121,21 +106,6 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "etf",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.91,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-05-18T10:17:24.000Z",
-    "sources": [
-      "NYT",
-      "The Defiant"
     ]
   }
 ]
