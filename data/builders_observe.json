@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1779200350,
+    "count": 3,
+    "titles": [
+      "比特币 at 两款-Week Low as Crypto…",
+      "OpenClaw 测试版更新 2026.5.19 Beta 1",
+      "GitHub 热门工具：agentmemory"
+    ],
+    "items": [
+      {
+        "id": "d8250242db417edb",
+        "title": "比特币 at 两款-Week Low as Crypto…",
+        "topic": "BTC",
+        "source": "Bloomberg",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "d81c20feca561b93",
+        "title": "OpenClaw 测试版更新 2026.5.19 Beta 1",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      },
+      {
+        "id": "715508774a4c4aaa",
+        "title": "GitHub 热门工具：agentmemory",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1779191283,
     "count": 3,
     "titles": [
@@ -757,82 +795,6 @@
   },
   {
     "fetch_time": 1779031116,
-    "count": 3,
-    "titles": [
-      "科技：Crypto 市场结构 bill still faces…",
-      "OpenClaw 联手 VirusTotal 强化技能安全",
-      "GitHub 热门工具：dograh"
-    ],
-    "items": [
-      {
-        "id": "556c2d04865a7163",
-        "title": "科技：Crypto 市场结构 bill still faces…",
-        "topic": "CRYPTO_TOOLS",
-        "source": "The Block",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      },
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      },
-      {
-        "id": "66fa4b93bc76cb1c",
-        "title": "GitHub 热门工具：dograh",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1779027177,
-    "count": 3,
-    "titles": [
-      "科技：Crypto 市场结构 bill still faces…",
-      "OpenClaw 联手 VirusTotal 强化技能安全",
-      "GitHub 热门工具：dograh"
-    ],
-    "items": [
-      {
-        "id": "556c2d04865a7163",
-        "title": "科技：Crypto 市场结构 bill still faces…",
-        "topic": "CRYPTO_TOOLS",
-        "source": "The Block",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      },
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      },
-      {
-        "id": "66fa4b93bc76cb1c",
-        "title": "GitHub 热门工具：dograh",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1779021677,
     "count": 3,
     "titles": [
       "科技：Crypto 市场结构 bill still faces…",

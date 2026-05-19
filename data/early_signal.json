@@ -1,6 +1,6 @@
 [
   {
-    "topic": "Bitcoin",
+    "topic": "bitcoin",
     "type": "CRYPTO",
     "mentions": 8,
     "trusted_mentions": 4,
@@ -35,9 +35,9 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 1,
-    "community_hits": 2,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -51,9 +51,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 1,
-    "community_hits": 4,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
@@ -66,9 +66,9 @@
   {
     "topic": "Pictonico",
     "type": "GAME",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 1,
-    "community_hits": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
@@ -121,6 +121,21 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
+    ]
+  },
+  {
+    "topic": "etf",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.91,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-05-18T10:17:24.000Z",
+    "sources": [
+      "NYT",
+      "The Defiant"
     ]
   }
 ]
