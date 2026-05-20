@@ -1,34 +1,19 @@
 [
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 5,
-    "trusted_mentions": 3,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-05-19T10:44:35.000Z",
-    "sources": [
-      "Bloomberg",
-      "Karpathy",
-      "Reddit",
-      "Simon Willison"
-    ]
-  },
-  {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
+    "mentions": 6,
+    "trusted_mentions": 4,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.9,
+    "resonance_score": 1,
     "first_seen_at": "2026-05-19T13:32:35.000Z",
     "sources": [
+      "Bloomberg",
       "Hacker News",
       "NYT",
+      "OpenAI News",
       "X"
     ]
   },
@@ -49,7 +34,23 @@
     ]
   },
   {
-    "topic": "Polymarket",
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-05-19T10:44:35.000Z",
+    "sources": [
+      "Karpathy",
+      "Reddit",
+      "Simon Willison"
+    ]
+  },
+  {
+    "topic": "bitcoin",
     "type": "CRYPTO",
     "mentions": 3,
     "trusted_mentions": 3,
@@ -57,26 +58,11 @@
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
-    "first_seen_at": "2026-05-19T15:35:25.000Z",
+    "first_seen_at": "2026-05-18T02:56:40.000Z",
     "sources": [
-      "Bloomberg",
-      "The Defiant",
-      "X"
-    ]
-  },
-  {
-    "topic": "Codex",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-17T22:27:29.000Z",
-    "sources": [
-      "OpenAI News",
-      "X"
+      "OneKey Blog",
+      "The Block",
+      "The Defiant"
     ]
   },
   {
@@ -95,18 +81,18 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 2,
+    "topic": "Codex",
+    "type": "AI",
+    "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-05-18T02:56:40.000Z",
+    "first_seen_at": "2026-05-17T22:27:29.000Z",
     "sources": [
-      "OneKey Blog",
-      "The Defiant"
+      "OpenAI News",
+      "X"
     ]
   },
   {
@@ -122,6 +108,21 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
+    ]
+  },
+  {
+    "topic": "Polymarket",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-05-19T15:35:25.000Z",
+    "sources": [
+      "Bloomberg",
+      "The Defiant"
     ]
   },
   {
