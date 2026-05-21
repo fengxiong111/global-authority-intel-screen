@@ -2,15 +2,14 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 7,
-    "trusted_mentions": 3,
+    "mentions": 6,
+    "trusted_mentions": 2,
     "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 1,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-05-19T13:32:35.000Z",
     "sources": [
-      "Bloomberg",
       "Hacker News",
       "NYT",
       "OpenAI News",
@@ -20,26 +19,25 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 7,
-    "trusted_mentions": 4,
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 0.9,
     "first_seen_at": "2026-05-18T02:56:40.000Z",
     "sources": [
       "Bloomberg",
       "OneKey Blog",
-      "The Block",
       "X"
     ]
   },
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 4,
     "trusted_mentions": 1,
-    "community_hits": 5,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -51,24 +49,24 @@
     ]
   },
   {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 1,
+    "topic": "POLYMARKET",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-05-20T11:04:10.000Z",
+    "first_seen_at": "2026-05-19T16:47:22.000Z",
     "sources": [
-      "Anthropic Newsroom",
-      "Reddit"
+      "The Defiant",
+      "X"
     ]
   },
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -123,6 +121,21 @@
     "sources": [
       "NYT",
       "The Block"
+    ]
+  },
+  {
+    "topic": "Nvidia",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-05-20T22:54:31.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT"
     ]
   }
 ]
