@@ -2,16 +2,15 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 7,
-    "trusted_mentions": 2,
-    "community_hits": 3,
+    "mentions": 5,
+    "trusted_mentions": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-05-19T13:32:35.000Z",
     "sources": [
       "Hacker News",
-      "NYT",
       "OpenAI News",
       "Reddit"
     ]
@@ -19,16 +18,32 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
+    "mentions": 5,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-05-18T02:56:40.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Defiant"
+    ]
+  },
+  {
+    "topic": "Codex",
+    "type": "AI",
     "mentions": 4,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-05-18T02:56:40.000Z",
+    "first_seen_at": "2026-05-17T22:27:29.000Z",
     "sources": [
-      "Bloomberg",
-      "OneKey Blog"
+      "OpenAI News",
+      "X"
     ]
   },
   {
@@ -44,21 +59,6 @@
     "sources": [
       "Anthropic Newsroom",
       "Reddit"
-    ]
-  },
-  {
-    "topic": "Codex",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-17T22:27:29.000Z",
-    "sources": [
-      "OpenAI News",
-      "X"
     ]
   },
   {
@@ -92,18 +92,18 @@
     ]
   },
   {
-    "topic": "Nvidia",
-    "type": "OTHER",
+    "topic": "Anthropic",
+    "type": "AI",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-05-21T14:30:44.000Z",
+    "first_seen_at": "2026-05-21T17:38:35.000Z",
     "sources": [
       "Bloomberg",
-      "NYT"
+      "SemiAnalysis"
     ]
   }
 ]
