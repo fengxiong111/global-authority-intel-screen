@@ -17,50 +17,52 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-05-18T02:56:40.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "X"
-    ]
-  },
-  {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 1,
-    "community_hits": 3,
+    "mentions": 5,
+    "trusted_mentions": 3,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.83,
     "first_seen_at": "2026-05-17T15:09:38.000Z",
     "sources": [
+      "Bloomberg",
       "Hacker News",
+      "NYT",
       "Reddit",
       "SemiAnalysis"
     ]
   },
   {
-    "topic": "POLYMARKET",
+    "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
+    "mentions": 5,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-19T16:47:22.000Z",
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-05-18T02:56:40.000Z",
     "sources": [
-      "The Defiant",
-      "X"
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block"
+    ]
+  },
+  {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-05-21T12:51:35.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Reddit"
     ]
   },
   {
@@ -109,33 +111,17 @@
     ]
   },
   {
-    "topic": "ETF",
+    "topic": "JUST",
     "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-05-19T16:59:26.000Z",
-    "sources": [
-      "NYT",
-      "The Block"
-    ]
-  },
-  {
-    "topic": "Nvidia",
-    "type": "OTHER",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-05-20T22:54:31.000Z",
+    "resonance_score": 0,
+    "first_seen_at": "2026-05-21T13:32:09.000Z",
     "sources": [
-      "Bloomberg",
-      "NYT"
+      "X"
     ]
   }
 ]

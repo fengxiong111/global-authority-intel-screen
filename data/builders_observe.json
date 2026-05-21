@@ -1,5 +1,63 @@
 [
   {
+    "fetch_time": 1779373618,
+    "count": 5,
+    "titles": [
+      "Polymarket 发布 预测市场 on Private Company…",
+      "GitHub 热门工具：codegraph",
+      "OpenClaw 联手 VirusTotal 强化技能安全",
+      "苹果 剧集 to air first major 最新 pro sports…",
+      "硬件钱包的安全盲区：供应链攻击的隐蔽风险"
+    ],
+    "items": [
+      {
+        "id": "33c1a2c3a0f86b90",
+        "title": "Polymarket 发布 预测市场 on Private Company…",
+        "topic": "BTC",
+        "source": "The Defiant",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "415b1d3200707cca",
+        "title": "GitHub 热门工具：codegraph",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      },
+      {
+        "id": "10622569e9583a36",
+        "title": "苹果 剧集 to air first major 最新 pro sports…",
+        "topic": "APPLE",
+        "source": "Apple Newsroom",
+        "meaning": "苹果产品节奏或生态接口在变，可能影响后续判断。",
+        "action_hint": "看功能与上线时间。",
+        "urgency": "medium"
+      },
+      {
+        "id": "35c0b0e1193aade2",
+        "title": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
+        "topic": "ONEKEY",
+        "source": "OneKey Blog",
+        "meaning": "这是一个值得继续盯的变化信号。",
+        "action_hint": "点开核对原文。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1779363757,
     "count": 4,
     "titles": [
@@ -747,82 +805,6 @@
   },
   {
     "fetch_time": 1779211265,
-    "count": 3,
-    "titles": [
-      "比特币 at 两款-Week Low as Crypto…",
-      "OpenClaw 测试版更新 2026.5.19 Beta 1",
-      "GitHub 热门工具：agentmemory"
-    ],
-    "items": [
-      {
-        "id": "d8250242db417edb",
-        "title": "比特币 at 两款-Week Low as Crypto…",
-        "topic": "BTC",
-        "source": "Bloomberg",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      },
-      {
-        "id": "d81c20feca561b93",
-        "title": "OpenClaw 测试版更新 2026.5.19 Beta 1",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      },
-      {
-        "id": "715508774a4c4aaa",
-        "title": "GitHub 热门工具：agentmemory",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1779200350,
-    "count": 3,
-    "titles": [
-      "比特币 at 两款-Week Low as Crypto…",
-      "OpenClaw 测试版更新 2026.5.19 Beta 1",
-      "GitHub 热门工具：agentmemory"
-    ],
-    "items": [
-      {
-        "id": "d8250242db417edb",
-        "title": "比特币 at 两款-Week Low as Crypto…",
-        "topic": "BTC",
-        "source": "Bloomberg",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      },
-      {
-        "id": "d81c20feca561b93",
-        "title": "OpenClaw 测试版更新 2026.5.19 Beta 1",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      },
-      {
-        "id": "715508774a4c4aaa",
-        "title": "GitHub 热门工具：agentmemory",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1779191283,
     "count": 3,
     "titles": [
       "比特币 at 两款-Week Low as Crypto…",
