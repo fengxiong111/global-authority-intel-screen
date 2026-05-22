@@ -19,8 +19,8 @@
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 6,
-    "trusted_mentions": 3,
+    "mentions": 7,
+    "trusted_mentions": 4,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
@@ -50,7 +50,7 @@
   {
     "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 9,
+    "mentions": 5,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -75,21 +75,6 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "etf",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.97,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-05-19T16:59:26.000Z",
-    "sources": [
-      "Bloomberg",
-      "NYT"
     ]
   },
   {
