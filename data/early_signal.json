@@ -1,6 +1,6 @@
 [
   {
-    "topic": "Bitcoin",
+    "topic": "bitcoin",
     "type": "CRYPTO",
     "mentions": 5,
     "trusted_mentions": 5,
@@ -15,6 +15,23 @@
       "The Block",
       "The Defiant",
       "X"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 6,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.78,
+    "first_seen_at": "2026-05-19T10:44:35.000Z",
+    "sources": [
+      "Bloomberg",
+      "Karpathy",
+      "NYT",
+      "Simon Willison"
     ]
   },
   {
@@ -90,21 +107,6 @@
     "sources": [
       "Bloomberg",
       "X"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-05-19T10:44:35.000Z",
-    "sources": [
-      "Karpathy",
-      "Simon Willison"
     ]
   },
   {
