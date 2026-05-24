@@ -31,21 +31,6 @@
     ]
   },
   {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-22T12:36:00.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Reddit"
-    ]
-  },
-  {
     "topic": "Anthropic",
     "type": "AI",
     "mentions": 4,
@@ -61,9 +46,24 @@
     ]
   },
   {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-05-22T12:36:00.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Reddit"
+    ]
+  },
+  {
     "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -78,11 +78,11 @@
   {
     "topic": "科技",
     "type": "OTHER",
-    "mentions": 4,
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 1,
+    "growth_score": 0.97,
     "resonance_score": 0.05,
     "first_seen_at": "2026-05-19T10:44:35.000Z",
     "sources": [
