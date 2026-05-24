@@ -2,9 +2,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 5,
     "trusted_mentions": 1,
-    "community_hits": 1,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
@@ -12,6 +12,21 @@
     "sources": [
       "Anthropic Newsroom",
       "Reddit"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-05-24T07:13:19.000Z",
+    "sources": [
+      "Reddit",
+      "SemiAnalysis"
     ]
   },
   {
@@ -72,20 +87,6 @@
     "sources": [
       "PlayStation Blog",
       "Sony Interactive"
-    ]
-  },
-  {
-    "topic": "DeepSeek",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 0,
-    "community_hits": 3,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-05-24T19:52:25.000Z",
-    "sources": [
-      "Hacker News"
     ]
   }
 ]
