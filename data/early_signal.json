@@ -1,5 +1,21 @@
 [
   {
+    "topic": "Codex",
+    "type": "AI",
+    "mentions": 6,
+    "trusted_mentions": 4,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-05-17T22:27:29.000Z",
+    "sources": [
+      "OpenAI News",
+      "Reddit",
+      "X"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 4,
@@ -13,21 +29,6 @@
       "OneKey Blog",
       "The Block",
       "The Defiant"
-    ]
-  },
-  {
-    "topic": "Codex",
-    "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-17T22:27:29.000Z",
-    "sources": [
-      "OpenAI News",
-      "X"
     ]
   },
   {
@@ -76,6 +77,21 @@
     ]
   },
   {
+    "topic": "OpenClaw",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-05-22T00:00:00.000Z",
+    "sources": [
+      "OpenClaw Blog",
+      "OpenClaw GitHub"
+    ]
+  },
+  {
     "topic": "科技",
     "type": "OTHER",
     "mentions": 4,
@@ -88,21 +104,6 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "OpenClaw",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-05-22T00:00:00.000Z",
-    "sources": [
-      "OpenClaw Blog",
-      "OpenClaw GitHub"
     ]
   },
   {
