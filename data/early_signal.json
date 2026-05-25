@@ -1,17 +1,17 @@
 [
   {
-    "topic": "Anthropic",
+    "topic": "Claude",
     "type": "AI",
     "mentions": 3,
     "trusted_mentions": 1,
-    "community_hits": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-05-24T07:13:19.000Z",
+    "first_seen_at": "2026-05-25T18:19:08.000Z",
     "sources": [
-      "Reddit",
-      "SemiAnalysis"
+      "Anthropic Newsroom",
+      "Reddit"
     ]
   },
   {
@@ -27,6 +27,21 @@
     "sources": [
       "OneKey Blog",
       "The Block"
+    ]
+  },
+  {
+    "topic": "POLYMARKET",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-05-25T13:09:28.000Z",
+    "sources": [
+      "The Block",
+      "X"
     ]
   },
   {
@@ -60,17 +75,18 @@
     ]
   },
   {
-    "topic": "JUST",
+    "topic": "科技",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-05-25T13:53:31.000Z",
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-05-25T09:14:08.000Z",
     "sources": [
-      "X"
+      "The Block",
+      "The Defiant"
     ]
   }
 ]
