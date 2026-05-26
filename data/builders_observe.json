@@ -1,5 +1,53 @@
 [
   {
+    "fetch_time": 1779827195,
+    "count": 4,
+    "titles": [
+      "伊朗战事最新进展：纽约时报：U.S. Saw Threats From…",
+      "科技：代币化股票 Emerge as Fastest-Growing…",
+      "GitHub 热门工具：ECC",
+      "OpenClaw 联手 VirusTotal 强化技能安全"
+    ],
+    "items": [
+      {
+        "id": "72476bfb23be28c2",
+        "title": "伊朗战事最新进展：纽约时报：U.S. Saw Threats From…",
+        "topic": "NYT",
+        "source": "NYT",
+        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
+        "action_hint": "看是否继续升级。",
+        "urgency": "high"
+      },
+      {
+        "id": "7a92004f187a8ca4",
+        "title": "科技：代币化股票 Emerge as Fastest-Growing…",
+        "topic": "CRYPTO_TOOLS",
+        "source": "The Defiant",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "d3cf920b7009fa1c",
+        "title": "GitHub 热门工具：ECC",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1779819073,
     "count": 4,
     "titles": [
@@ -825,82 +873,6 @@
       {
         "id": "5f4bd37d8ed5b207",
         "title": "伊朗战事最新进展：纽约时报：U.S.-Iran Peace Deal…",
-        "topic": "NYT",
-        "source": "NYT",
-        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
-        "action_hint": "看是否继续升级。",
-        "urgency": "high"
-      },
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      },
-      {
-        "id": "6b94bc6e6a585262",
-        "title": "GitHub 热门工具：pi",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1779652349,
-    "count": 3,
-    "titles": [
-      "伊朗战事最新进展：纽约时报：U.S. and Iran Agree in…",
-      "OpenClaw 联手 VirusTotal 强化技能安全",
-      "GitHub 热门工具：pi"
-    ],
-    "items": [
-      {
-        "id": "46d500fbb8977011",
-        "title": "伊朗战事最新进展：纽约时报：U.S. and Iran Agree in…",
-        "topic": "NYT",
-        "source": "NYT",
-        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
-        "action_hint": "看是否继续升级。",
-        "urgency": "high"
-      },
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      },
-      {
-        "id": "6b94bc6e6a585262",
-        "title": "GitHub 热门工具：pi",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1779648253,
-    "count": 3,
-    "titles": [
-      "伊朗战事最新进展：纽约时报：U.S. and Iran Agree in…",
-      "OpenClaw 联手 VirusTotal 强化技能安全",
-      "GitHub 热门工具：pi"
-    ],
-    "items": [
-      {
-        "id": "46d500fbb8977011",
-        "title": "伊朗战事最新进展：纽约时报：U.S. and Iran Agree in…",
         "topic": "NYT",
         "source": "NYT",
         "meaning": "地缘风险在升温，可能影响市场和政策预期。",
