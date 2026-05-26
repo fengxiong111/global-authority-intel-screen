@@ -1,10 +1,26 @@
 [
   {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-05-18T02:56:40.000Z",
+    "sources": [
+      "OneKey Blog",
+      "The Block",
+      "X"
+    ]
+  },
+  {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 1,
-    "community_hits": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
@@ -12,21 +28,6 @@
     "sources": [
       "Anthropic Newsroom",
       "Reddit"
-    ]
-  },
-  {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-18T02:56:40.000Z",
-    "sources": [
-      "OneKey Blog",
-      "The Block"
     ]
   },
   {
