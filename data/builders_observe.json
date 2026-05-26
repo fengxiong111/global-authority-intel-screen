@@ -1,5 +1,53 @@
 [
   {
+    "fetch_time": 1779837579,
+    "count": 4,
+    "titles": [
+      "科技：Trump Backs CFTC as 预测市场 Regulator…",
+      "科技：代币化股票 Emerge as Fastest-Growing…",
+      "GitHub 热门工具：ECC",
+      "OpenClaw 测试版更新 2026.5.26 Beta 1"
+    ],
+    "items": [
+      {
+        "id": "1f920161b3236d89",
+        "title": "科技：Trump Backs CFTC as 预测市场 Regulator…",
+        "topic": "TECH",
+        "source": "Bloomberg",
+        "meaning": "这是一个值得继续盯的变化信号。",
+        "action_hint": "点开核对原文。",
+        "urgency": "medium"
+      },
+      {
+        "id": "7a92004f187a8ca4",
+        "title": "科技：代币化股票 Emerge as Fastest-Growing…",
+        "topic": "CRYPTO_TOOLS",
+        "source": "The Defiant",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "d3cf920b7009fa1c",
+        "title": "GitHub 热门工具：ECC",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "53e599e660b6787f",
+        "title": "OpenClaw 测试版更新 2026.5.26 Beta 1",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1779833103,
     "count": 4,
     "titles": [
@@ -797,44 +845,6 @@
   },
   {
     "fetch_time": 1779666103,
-    "count": 3,
-    "titles": [
-      "伊朗战事最新进展：纽约时报：U.S.-Iran Peace Deal…",
-      "OpenClaw 联手 VirusTotal 强化技能安全",
-      "GitHub 热门工具：pi"
-    ],
-    "items": [
-      {
-        "id": "5f4bd37d8ed5b207",
-        "title": "伊朗战事最新进展：纽约时报：U.S.-Iran Peace Deal…",
-        "topic": "NYT",
-        "source": "NYT",
-        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
-        "action_hint": "看是否继续升级。",
-        "urgency": "high"
-      },
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      },
-      {
-        "id": "6b94bc6e6a585262",
-        "title": "GitHub 热门工具：pi",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1779662398,
     "count": 3,
     "titles": [
       "伊朗战事最新进展：纽约时报：U.S.-Iran Peace Deal…",
