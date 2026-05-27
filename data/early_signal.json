@@ -16,25 +16,9 @@
     ]
   },
   {
-    "topic": "科技",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.1,
-    "first_seen_at": "2026-05-25T19:02:30.000Z",
-    "sources": [
-      "Bloomberg",
-      "The Block",
-      "The Defiant"
-    ]
-  },
-  {
-    "topic": "openclaw",
+    "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 4,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -62,11 +46,26 @@
     ]
   },
   {
+    "topic": "科技",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.91,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-05-25T19:02:30.000Z",
+    "sources": [
+      "The Block",
+      "The Defiant"
+    ]
+  },
+  {
     "topic": "Claude Code",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 0,
-    "community_hits": 3,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0,
