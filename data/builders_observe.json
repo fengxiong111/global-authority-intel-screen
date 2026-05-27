@@ -1,5 +1,53 @@
 [
   {
+    "fetch_time": 1779920845,
+    "count": 4,
+    "titles": [
+      "Cash 应用 Goes 最新 With 费率-Free USDC…",
+      "GitHub 热门工具：ECC",
+      "OpenClaw 联手 VirusTotal 强化技能安全",
+      "硬件钱包的安全盲区：供应链攻击的隐蔽风险"
+    ],
+    "items": [
+      {
+        "id": "dcdb634e9dbe33a6",
+        "title": "Cash 应用 Goes 最新 With 费率-Free USDC…",
+        "topic": "BTC",
+        "source": "The Defiant",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "d3cf920b7009fa1c",
+        "title": "GitHub 热门工具：ECC",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "35f21ee73b0e3e6d",
+        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw Blog",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      },
+      {
+        "id": "35c0b0e1193aade2",
+        "title": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
+        "topic": "ONEKEY",
+        "source": "OneKey Blog",
+        "meaning": "这是一个值得继续盯的变化信号。",
+        "action_hint": "点开核对原文。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1779915180,
     "count": 3,
     "titles": [
@@ -685,102 +733,6 @@
         "source": "NYT",
         "meaning": "地缘风险在升温，可能影响市场和政策预期。",
         "action_hint": "看是否继续升级。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1779747318,
-    "count": 4,
-    "titles": [
-      "科技：代币化股票 Emerge as Fastest-Growing…",
-      "科技：Tether plans GELT 稳定币 发布 with…",
-      "GitHub 热门工具：ECC",
-      "OpenClaw 联手 VirusTotal 强化技能安全"
-    ],
-    "items": [
-      {
-        "id": "7a92004f187a8ca4",
-        "title": "科技：代币化股票 Emerge as Fastest-Growing…",
-        "topic": "CRYPTO_TOOLS",
-        "source": "The Defiant",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      },
-      {
-        "id": "132dea60ef23f7f4",
-        "title": "科技：Tether plans GELT 稳定币 发布 with…",
-        "topic": "CRYPTO_TOOLS",
-        "source": "The Block",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      },
-      {
-        "id": "d3cf920b7009fa1c",
-        "title": "GitHub 热门工具：ECC",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1779742855,
-    "count": 4,
-    "titles": [
-      "科技：代币化股票 Emerge as Fastest-Growing…",
-      "科技：Tether plans GELT 稳定币 发布 with…",
-      "GitHub 热门工具：ECC",
-      "OpenClaw 联手 VirusTotal 强化技能安全"
-    ],
-    "items": [
-      {
-        "id": "7a92004f187a8ca4",
-        "title": "科技：代币化股票 Emerge as Fastest-Growing…",
-        "topic": "CRYPTO_TOOLS",
-        "source": "The Defiant",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      },
-      {
-        "id": "132dea60ef23f7f4",
-        "title": "科技：Tether plans GELT 稳定币 发布 with…",
-        "topic": "CRYPTO_TOOLS",
-        "source": "The Block",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      },
-      {
-        "id": "d3cf920b7009fa1c",
-        "title": "GitHub 热门工具：ECC",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "35f21ee73b0e3e6d",
-        "title": "OpenClaw 联手 VirusTotal 强化技能安全",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw Blog",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
         "urgency": "high"
       }
     ]
