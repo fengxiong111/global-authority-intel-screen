@@ -1,6 +1,24 @@
 [
   {
-    "topic": "Polymarket",
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 7,
+    "trusted_mentions": 6,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 1,
+    "first_seen_at": "2026-05-18T02:56:40.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block",
+      "The Defiant",
+      "X"
+    ]
+  },
+  {
+    "topic": "POLYMARKET",
     "type": "CRYPTO",
     "mentions": 3,
     "trusted_mentions": 2,
@@ -16,25 +34,54 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 1,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-05-27T11:59:51.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Reddit"
+    ]
+  },
+  {
+    "topic": "任天堂",
+    "type": "GAME",
     "mentions": 3,
-    "trusted_mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-05-26T01:18:24.000Z",
+    "sources": [
+      "Nintendo News",
+      "Reddit"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-05-18T02:56:40.000Z",
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-05-27T15:46:26.000Z",
     "sources": [
       "Bloomberg",
-      "OneKey Blog",
-      "The Defiant"
+      "Karpathy"
     ]
   },
   {
     "topic": "OpenClaw",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -44,35 +91,6 @@
     "sources": [
       "OpenClaw Blog",
       "OpenClaw GitHub"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.97,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-05-25T19:02:30.000Z",
-    "sources": [
-      "Bloomberg",
-      "The Defiant"
-    ]
-  },
-  {
-    "topic": "Claude Code",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 0,
-    "community_hits": 3,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-05-26T13:13:28.000Z",
-    "sources": [
-      "Reddit"
     ]
   }
 ]
