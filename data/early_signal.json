@@ -1,5 +1,21 @@
 [
   {
+    "topic": "Polymarket",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-05-26T10:00:10.000Z",
+    "sources": [
+      "Bloomberg",
+      "Hacker News",
+      "X"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 3,
@@ -32,31 +48,16 @@
   },
   {
     "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.91,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-05-24T23:19:34.000Z",
-    "sources": [
-      "Karpathy",
-      "Simon Willison"
-    ]
-  },
-  {
-    "topic": "科技",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 0.85,
+    "growth_score": 0.97,
     "resonance_score": 0.05,
     "first_seen_at": "2026-05-25T19:02:30.000Z",
     "sources": [
-      "The Block",
+      "Bloomberg",
       "The Defiant"
     ]
   },
