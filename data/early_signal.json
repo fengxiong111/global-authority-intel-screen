@@ -1,24 +1,5 @@
 [
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 8,
-    "trusted_mentions": 4,
-    "community_hits": 3,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 1,
-    "first_seen_at": "2026-05-27T13:56:50.000Z",
-    "sources": [
-      "Bloomberg",
-      "Hacker News",
-      "NYT",
-      "Reddit",
-      "SemiAnalysis",
-      "Simon Willison"
-    ]
-  },
-  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 6,
@@ -37,6 +18,23 @@
     ]
   },
   {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-05-27T13:56:50.000Z",
+    "sources": [
+      "Hacker News",
+      "NYT",
+      "SemiAnalysis",
+      "Simon Willison"
+    ]
+  },
+  {
     "topic": "Codex",
     "type": "AI",
     "mentions": 4,
@@ -50,21 +48,6 @@
       "OpenAI News",
       "Reddit",
       "X"
-    ]
-  },
-  {
-    "topic": "Call",
-    "type": "MACRO",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-28T14:58:34.000Z",
-    "sources": [
-      "PlayStation Blog",
-      "Reddit"
     ]
   },
   {
