@@ -1,8 +1,27 @@
 [
   {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 8,
+    "trusted_mentions": 4,
+    "community_hits": 3,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 1,
+    "first_seen_at": "2026-05-27T13:56:50.000Z",
+    "sources": [
+      "Bloomberg",
+      "Hacker News",
+      "NYT",
+      "Reddit",
+      "SemiAnalysis",
+      "Simon Willison"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 7,
+    "mentions": 6,
     "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
@@ -15,24 +34,6 @@
       "The Block",
       "The Defiant",
       "X"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 6,
-    "trusted_mentions": 4,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 1,
-    "first_seen_at": "2026-05-27T13:56:50.000Z",
-    "sources": [
-      "Bloomberg",
-      "NYT",
-      "Reddit",
-      "SemiAnalysis",
-      "Simon Willison"
     ]
   },
   {
@@ -52,42 +53,11 @@
     ]
   },
   {
-    "topic": "ETF",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-05-28T16:20:19.000Z",
-    "sources": [
-      "Bloomberg",
-      "Reddit",
-      "The Block"
-    ]
-  },
-  {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-27T11:59:51.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Reddit"
-    ]
-  },
-  {
     "topic": "Call",
     "type": "MACRO",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 1,
-    "community_hits": 3,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
@@ -98,11 +68,26 @@
     ]
   },
   {
+    "topic": "Kalshi",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-05-28T17:55:31.000Z",
+    "sources": [
+      "Bloomberg",
+      "The Block"
+    ]
+  },
+  {
     "topic": "Opus",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 5,
     "trusted_mentions": 0,
-    "community_hits": 3,
+    "community_hits": 5,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0,
