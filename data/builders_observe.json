@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1780066051,
+    "count": 3,
+    "titles": [
+      "Cash 应用 Goes 最新 With 费率-Free USDC…",
+      "GitHub 热门工具：claude-code",
+      "OpenClaw 测试版更新 2026.5.28 Beta 2"
+    ],
+    "items": [
+      {
+        "id": "dcdb634e9dbe33a6",
+        "title": "Cash 应用 Goes 最新 With 费率-Free USDC…",
+        "topic": "BTC",
+        "source": "The Defiant",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "7e976986cf277e7b",
+        "title": "GitHub 热门工具：claude-code",
+        "topic": "ANTHROPIC",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "dd9b20c4e6e4e63d",
+        "title": "OpenClaw 测试版更新 2026.5.28 Beta 2",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1780055581,
     "count": 3,
     "titles": [
