@@ -3,13 +3,14 @@
     "topic": "Anthropic",
     "type": "AI",
     "mentions": 9,
-    "trusted_mentions": 3,
+    "trusted_mentions": 4,
     "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 1,
     "first_seen_at": "2026-05-27T13:56:50.000Z",
     "sources": [
+      "Bloomberg",
       "NYT",
       "Reddit",
       "SemiAnalysis",
@@ -19,17 +20,19 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 3,
+    "mentions": 7,
+    "trusted_mentions": 6,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 1,
     "first_seen_at": "2026-05-18T02:56:40.000Z",
     "sources": [
       "Bloomberg",
       "OneKey Blog",
-      "The Defiant"
+      "The Block",
+      "The Defiant",
+      "X"
     ]
   },
   {
@@ -49,6 +52,22 @@
     ]
   },
   {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-05-28T18:57:05.000Z",
+    "sources": [
+      "Hacker News",
+      "Karpathy",
+      "Reddit"
+    ]
+  },
+  {
     "topic": "Codex",
     "type": "AI",
     "mentions": 4,
@@ -64,21 +83,6 @@
     ]
   },
   {
-    "topic": "Kalshi",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-05-28T18:51:25.000Z",
-    "sources": [
-      "Bloomberg",
-      "The Block"
-    ]
-  },
-  {
     "topic": "Opus",
     "type": "AI",
     "mentions": 4,
@@ -90,6 +94,20 @@
     "first_seen_at": "2026-05-28T16:59:30.000Z",
     "sources": [
       "Reddit"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-05-29T16:36:20.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
