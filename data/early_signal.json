@@ -4,14 +4,15 @@
     "type": "AI",
     "mentions": 6,
     "trusted_mentions": 3,
-    "community_hits": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 1,
     "first_seen_at": "2026-05-27T13:56:50.000Z",
     "sources": [
       "Hacker News",
       "NYT",
+      "Reddit",
       "SemiAnalysis",
       "Simon Willison"
     ]
