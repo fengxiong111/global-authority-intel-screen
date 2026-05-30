@@ -33,6 +33,22 @@
     ]
   },
   {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-05-30T19:02:27.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Reddit",
+      "Simon Willison"
+    ]
+  },
+  {
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 4,
@@ -60,21 +76,6 @@
     "sources": [
       "OpenAI News",
       "X"
-    ]
-  },
-  {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-05-30T19:02:27.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Simon Willison"
     ]
   }
 ]
