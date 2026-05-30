@@ -1,5 +1,22 @@
 [
   {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 6,
+    "trusted_mentions": 3,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-05-27T13:56:50.000Z",
+    "sources": [
+      "NYT",
+      "Reddit",
+      "SemiAnalysis",
+      "Simon Willison"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 5,
@@ -17,36 +34,19 @@
     ]
   },
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-05-28T18:57:05.000Z",
-    "sources": [
-      "Bloomberg",
-      "Hacker News",
-      "Karpathy",
-      "Reddit"
-    ]
-  },
-  {
-    "topic": "Anthropic",
+    "topic": "Codex",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 3,
-    "community_hits": 0,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-05-27T13:56:50.000Z",
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-05-27T07:00:00.000Z",
     "sources": [
-      "NYT",
-      "SemiAnalysis",
-      "Simon Willison"
+      "OpenAI News",
+      "Reddit",
+      "X"
     ]
   },
   {
@@ -66,18 +66,19 @@
     ]
   },
   {
-    "topic": "Codex",
-    "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 3,
-    "community_hits": 0,
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-27T07:00:00.000Z",
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-05-28T18:57:05.000Z",
     "sources": [
-      "OpenAI News",
-      "X"
+      "Hacker News",
+      "Karpathy",
+      "Reddit"
     ]
   },
   {
