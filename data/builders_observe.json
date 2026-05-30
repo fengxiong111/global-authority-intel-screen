@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1780174905,
+    "count": 2,
+    "titles": [
+      "GitHub 热门工具：claude-code",
+      "OpenClaw 正式版更新 2026.5.28"
+    ],
+    "items": [
+      {
+        "id": "7e976986cf277e7b",
+        "title": "GitHub 热门工具：claude-code",
+        "topic": "ANTHROPIC",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "ba4e1de0b300b2b9",
+        "title": "OpenClaw 正式版更新 2026.5.28",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1780171148,
     "count": 3,
     "titles": [
