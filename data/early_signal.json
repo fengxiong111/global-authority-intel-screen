@@ -1,22 +1,5 @@
 [
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 7,
-    "trusted_mentions": 3,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-05-27T13:56:50.000Z",
-    "sources": [
-      "NYT",
-      "Reddit",
-      "SemiAnalysis",
-      "Simon Willison"
-    ]
-  },
-  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 5,
@@ -47,6 +30,22 @@
       "OpenAI News",
       "Reddit",
       "X"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-05-27T13:56:50.000Z",
+    "sources": [
+      "NYT",
+      "SemiAnalysis",
+      "Simon Willison"
     ]
   },
   {
@@ -93,20 +92,6 @@
     "sources": [
       "Anthropic Newsroom",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-05-29T19:49:30.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
