@@ -2,9 +2,9 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 3,
-    "community_hits": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.95,
@@ -51,9 +51,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 2,
-    "community_hits": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -81,21 +81,6 @@
     ]
   },
   {
-    "topic": "Iran",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-29T20:03:45.000Z",
-    "sources": [
-      "The Block",
-      "X"
-    ]
-  },
-  {
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 2,
@@ -106,8 +91,8 @@
     "resonance_score": 0.68,
     "first_seen_at": "2026-05-29T00:00:00.000Z",
     "sources": [
-      "Bloomberg",
-      "OpenAI News"
+      "OpenAI News",
+      "X"
     ]
   }
 ]
