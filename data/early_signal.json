@@ -2,14 +2,15 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 6,
-    "trusted_mentions": 2,
-    "community_hits": 4,
+    "mentions": 5,
+    "trusted_mentions": 3,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.83,
     "first_seen_at": "2026-05-31T22:14:15.000Z",
     "sources": [
+      "Bloomberg",
       "Hacker News",
       "NYT",
       "Reddit",
@@ -19,18 +20,46 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 5,
-    "trusted_mentions": 4,
+    "mentions": 3,
+    "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.68,
     "first_seen_at": "2026-05-18T02:56:40.000Z",
     "sources": [
-      "Bloomberg",
       "OneKey Blog",
-      "The Block",
-      "The Defiant"
+      "The Block"
+    ]
+  },
+  {
+    "topic": "Codex",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-01T10:00:00.000Z",
+    "sources": [
+      "OpenAI News",
+      "X"
+    ]
+  },
+  {
+    "topic": "POLYMARKET",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-01T21:19:02.000Z",
+    "sources": [
+      "The Defiant",
+      "X"
     ]
   },
   {
