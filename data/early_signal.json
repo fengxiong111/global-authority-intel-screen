@@ -1,5 +1,21 @@
 [
   {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-05-31T22:14:15.000Z",
+    "sources": [
+      "Reddit",
+      "SemiAnalysis",
+      "X"
+    ]
+  },
+  {
     "topic": "Euphoria",
     "type": "SCREEN",
     "mentions": 3,
@@ -16,84 +32,39 @@
     ]
   },
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 2,
-    "community_hits": 3,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-05-31T22:14:15.000Z",
-    "sources": [
-      "Bloomberg",
-      "Reddit",
-      "SemiAnalysis"
-    ]
-  },
-  {
     "topic": "Claude",
     "type": "AI",
     "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 1,
+    "trusted_mentions": 3,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
     "first_seen_at": "2026-05-30T19:02:27.000Z",
     "sources": [
       "Anthropic Newsroom",
-      "Reddit",
+      "Bloomberg",
       "Simon Willison"
     ]
   },
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-05-18T02:56:40.000Z",
     "sources": [
       "OneKey Blog",
-      "X"
+      "The Block",
+      "The Defiant"
     ]
   },
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-31T05:00:12.000Z",
-    "sources": [
-      "Karpathy",
-      "NYT"
-    ]
-  },
-  {
-    "topic": "POLYMARKET",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-31T00:47:54.000Z",
-    "sources": [
-      "The Defiant",
-      "X"
-    ]
-  },
-  {
-    "topic": "Codex",
+    "topic": "OpenAI",
     "type": "AI",
     "mentions": 2,
     "trusted_mentions": 2,
@@ -101,9 +72,9 @@
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-05-27T07:00:00.000Z",
+    "first_seen_at": "2026-05-31T16:07:13.000Z",
     "sources": [
-      "OpenAI News",
+      "Bloomberg",
       "X"
     ]
   },
