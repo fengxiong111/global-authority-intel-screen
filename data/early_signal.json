@@ -2,80 +2,50 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 6,
     "trusted_mentions": 2,
-    "community_hits": 2,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.9,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-05-31T22:14:15.000Z",
     "sources": [
-      "Reddit",
-      "SemiAnalysis",
-      "X"
-    ]
-  },
-  {
-    "topic": "Euphoria",
-    "type": "SCREEN",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-06-01T02:04:31.000Z",
-    "sources": [
-      "JustWatch TV",
+      "Hacker News",
       "NYT",
-      "Reddit"
-    ]
-  },
-  {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-05-30T19:02:27.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Bloomberg",
-      "Simon Willison"
+      "Reddit",
+      "SemiAnalysis"
     ]
   },
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 3,
+    "mentions": 5,
+    "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-05-18T02:56:40.000Z",
     "sources": [
+      "Bloomberg",
       "OneKey Blog",
       "The Block",
       "The Defiant"
     ]
   },
   {
-    "topic": "OpenAI",
+    "topic": "Claude",
     "type": "AI",
-    "mentions": 2,
+    "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-31T16:07:13.000Z",
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-05-30T19:02:27.000Z",
     "sources": [
-      "Bloomberg",
-      "X"
+      "Anthropic Newsroom",
+      "Simon Willison"
     ]
   },
   {
