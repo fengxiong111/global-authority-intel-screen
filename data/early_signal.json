@@ -1,35 +1,34 @@
 [
   {
-    "topic": "Euphoria",
-    "type": "SCREEN",
-    "mentions": 4,
-    "trusted_mentions": 1,
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-06-01T02:04:31.000Z",
-    "sources": [
-      "JustWatch TV",
-      "NYT",
-      "Reddit"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-05-31T22:14:15.000Z",
     "sources": [
       "Hacker News",
       "NYT",
-      "Reddit",
       "SemiAnalysis"
+    ]
+  },
+  {
+    "topic": "The",
+    "type": "OTHER",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-05-31T16:31:32.000Z",
+    "sources": [
+      "Karpathy",
+      "Reddit",
+      "Simon Willison"
     ]
   },
   {
@@ -45,21 +44,6 @@
     "sources": [
       "OneKey Blog",
       "The Block"
-    ]
-  },
-  {
-    "topic": "Codex",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-01T10:00:00.000Z",
-    "sources": [
-      "OpenAI News",
-      "X"
     ]
   },
   {
@@ -93,18 +77,18 @@
     ]
   },
   {
-    "topic": "The",
-    "type": "OTHER",
+    "topic": "ETF",
+    "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-05-31T16:31:32.000Z",
+    "first_seen_at": "2026-06-01T18:09:09.000Z",
     "sources": [
-      "Karpathy",
-      "Simon Willison"
+      "Bloomberg",
+      "The Block"
     ]
   }
 ]
