@@ -1,6 +1,23 @@
 [
   {
-    "topic": "Codex",
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 6,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-05-18T02:56:40.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block",
+      "X"
+    ]
+  },
+  {
+    "topic": "codex",
     "type": "AI",
     "mentions": 3,
     "trusted_mentions": 2,
@@ -16,50 +33,82 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 5,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-05-18T02:56:40.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Block"
-    ]
-  },
-  {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 6,
     "trusted_mentions": 2,
-    "community_hits": 2,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-05-31T22:14:15.000Z",
     "sources": [
       "Hacker News",
       "NYT",
+      "Reddit",
       "SemiAnalysis"
     ]
   },
   {
     "topic": "POLYMARKET",
     "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-06-01T21:19:02.000Z",
+    "sources": [
+      "The Block",
+      "The Defiant",
+      "X"
+    ]
+  },
+  {
+    "topic": "The",
+    "type": "OTHER",
     "mentions": 3,
-    "trusted_mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-05-31T16:31:32.000Z",
+    "sources": [
+      "Karpathy",
+      "Reddit",
+      "Simon Willison"
+    ]
+  },
+  {
+    "topic": "任天堂",
+    "type": "GAME",
+    "mentions": 4,
+    "trusted_mentions": 1,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-01T05:15:54.000Z",
+    "sources": [
+      "Nintendo News",
+      "Reddit"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-06-01T21:19:02.000Z",
+    "first_seen_at": "2026-06-02T12:24:55.000Z",
     "sources": [
-      "The Defiant",
-      "X"
+      "Karpathy",
+      "NYT"
     ]
   },
   {
@@ -74,21 +123,6 @@
     "first_seen_at": "2026-05-30T19:02:27.000Z",
     "sources": [
       "Anthropic Newsroom",
-      "Simon Willison"
-    ]
-  },
-  {
-    "topic": "The",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-05-31T16:31:32.000Z",
-    "sources": [
-      "Karpathy",
       "Simon Willison"
     ]
   }
