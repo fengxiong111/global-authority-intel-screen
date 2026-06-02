@@ -1,5 +1,53 @@
 [
   {
+    "fetch_time": 1780420318,
+    "count": 4,
+    "titles": [
+      "科技：MoneyGram 发布 MGUSD 稳定币 on Stellar",
+      "GitHub 热门工具：ECC",
+      "OpenClaw 测试版更新 2026.6.1 Beta 2",
+      "硬件钱包的安全盲区：供应链攻击的隐蔽风险"
+    ],
+    "items": [
+      {
+        "id": "4ce83d1b20ac1558",
+        "title": "科技：MoneyGram 发布 MGUSD 稳定币 on Stellar",
+        "topic": "CRYPTO_TOOLS",
+        "source": "The Defiant",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "d3cf920b7009fa1c",
+        "title": "GitHub 热门工具：ECC",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "1c1255d2d60ff363",
+        "title": "OpenClaw 测试版更新 2026.6.1 Beta 2",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      },
+      {
+        "id": "35c0b0e1193aade2",
+        "title": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
+        "topic": "ONEKEY",
+        "source": "OneKey Blog",
+        "meaning": "这是一个值得继续盯的变化信号。",
+        "action_hint": "点开核对原文。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1780404667,
     "count": 3,
     "titles": [
@@ -571,90 +619,6 @@
   },
   {
     "fetch_time": 1780248749,
-    "count": 2,
-    "titles": [
-      "GitHub 热门工具：claude-code",
-      "OpenClaw 测试版更新 2026.5.30 Beta 1"
-    ],
-    "items": [
-      {
-        "id": "7e976986cf277e7b",
-        "title": "GitHub 热门工具：claude-code",
-        "topic": "ANTHROPIC",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "4910c27578157a2d",
-        "title": "OpenClaw 测试版更新 2026.5.30 Beta 1",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1780244011,
-    "count": 2,
-    "titles": [
-      "GitHub 热门工具：claude-code",
-      "OpenClaw 测试版更新 2026.5.30 Beta 1"
-    ],
-    "items": [
-      {
-        "id": "7e976986cf277e7b",
-        "title": "GitHub 热门工具：claude-code",
-        "topic": "ANTHROPIC",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "4910c27578157a2d",
-        "title": "OpenClaw 测试版更新 2026.5.30 Beta 1",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1780239582,
-    "count": 2,
-    "titles": [
-      "GitHub 热门工具：claude-code",
-      "OpenClaw 测试版更新 2026.5.30 Beta 1"
-    ],
-    "items": [
-      {
-        "id": "7e976986cf277e7b",
-        "title": "GitHub 热门工具：claude-code",
-        "topic": "ANTHROPIC",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "4910c27578157a2d",
-        "title": "OpenClaw 测试版更新 2026.5.30 Beta 1",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1780233778,
     "count": 2,
     "titles": [
       "GitHub 热门工具：claude-code",
