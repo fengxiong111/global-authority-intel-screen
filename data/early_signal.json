@@ -1,18 +1,19 @@
 [
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 3,
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 8,
+    "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-06-02T19:28:36.000Z",
+    "resonance_score": 0.78,
+    "first_seen_at": "2026-05-18T02:56:40.000Z",
     "sources": [
-      "Karpathy",
-      "NYT",
-      "Simon Willison"
+      "Bloomberg",
+      "The Block",
+      "The Defiant",
+      "X"
     ]
   },
   {
@@ -31,33 +32,18 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 4,
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-05-18T02:56:40.000Z",
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-06-02T19:28:36.000Z",
     "sources": [
-      "Bloomberg",
-      "X"
-    ]
-  },
-  {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-03T08:54:06.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Reddit"
+      "Karpathy",
+      "Simon Willison"
     ]
   }
 ]
