@@ -1,5 +1,53 @@
 [
   {
+    "fetch_time": 1780481511,
+    "count": 4,
+    "titles": [
+      "科技：Mastercard expands 稳定币 settlement 期权…",
+      "GitHub 热门工具：ECC",
+      "OpenClaw 测试版更新 2026.6.1 Beta 3",
+      "硬件钱包的安全盲区：供应链攻击的隐蔽风险"
+    ],
+    "items": [
+      {
+        "id": "94915635e45b8cef",
+        "title": "科技：Mastercard expands 稳定币 settlement 期权…",
+        "topic": "CRYPTO_TOOLS",
+        "source": "The Block",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "d3cf920b7009fa1c",
+        "title": "GitHub 热门工具：ECC",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "d8997c154b09438a",
+        "title": "OpenClaw 测试版更新 2026.6.1 Beta 3",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      },
+      {
+        "id": "35c0b0e1193aade2",
+        "title": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
+        "topic": "ONEKEY",
+        "source": "OneKey Blog",
+        "meaning": "这是一个值得继续盯的变化信号。",
+        "action_hint": "点开核对原文。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1780463995,
     "count": 3,
     "titles": [
