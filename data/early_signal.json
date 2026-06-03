@@ -1,22 +1,5 @@
 [
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 3,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-06-03T11:20:38.000Z",
-    "sources": [
-      "Bloomberg",
-      "Reddit",
-      "SemiAnalysis",
-      "X"
-    ]
-  },
-  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 7,
@@ -36,7 +19,7 @@
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -61,20 +44,6 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-06-03T20:40:07.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
