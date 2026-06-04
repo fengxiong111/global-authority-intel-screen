@@ -1,37 +1,5 @@
 [
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-06-04T22:06:00.000Z",
-    "sources": [
-      "Hacker News",
-      "SemiAnalysis",
-      "X"
-    ]
-  },
-  {
-    "topic": "The",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-06-02T00:42:20.000Z",
-    "sources": [
-      "Karpathy",
-      "NYT",
-      "Reddit"
-    ]
-  },
-  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 8,
@@ -49,18 +17,18 @@
     ]
   },
   {
-    "topic": "OpenAI",
+    "topic": "Codex",
     "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 1,
-    "community_hits": 2,
+    "mentions": 6,
+    "trusted_mentions": 2,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-06-02T12:00:00.000Z",
+    "first_seen_at": "2026-06-02T02:00:00.000Z",
     "sources": [
       "OpenAI News",
-      "Reddit"
+      "X"
     ]
   },
   {
@@ -79,6 +47,36 @@
     ]
   },
   {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-02T12:00:00.000Z",
+    "sources": [
+      "OpenAI News",
+      "X"
+    ]
+  },
+  {
+    "topic": "The",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-02T00:42:20.000Z",
+    "sources": [
+      "Karpathy",
+      "NYT"
+    ]
+  },
+  {
     "topic": "科技",
     "type": "OTHER",
     "mentions": 2,
@@ -91,20 +89,6 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "NEW",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-06-04T21:02:03.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
