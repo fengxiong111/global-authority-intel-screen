@@ -1,66 +1,51 @@
 [
   {
-    "topic": "Codex",
-    "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-06-02T02:00:00.000Z",
-    "sources": [
-      "OpenAI News",
-      "Reddit",
-      "X"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-06-02T12:00:00.000Z",
-    "sources": [
-      "OpenAI News",
-      "Reddit",
-      "X"
-    ]
-  },
-  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 8,
-    "trusted_mentions": 4,
+    "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 1,
     "first_seen_at": "2026-05-18T02:56:40.000Z",
     "sources": [
       "Bloomberg",
       "OneKey Blog",
       "The Block",
-      "The Defiant"
+      "The Defiant",
+      "X"
     ]
   },
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 1,
-    "community_hits": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-06-04T10:34:52.000Z",
     "sources": [
       "Anthropic Newsroom",
-      "Hacker News"
+      "Hacker News",
+      "Reddit"
+    ]
+  },
+  {
+    "topic": "Codex",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-02T02:00:00.000Z",
+    "sources": [
+      "OpenAI News",
+      "X"
     ]
   },
   {
@@ -91,6 +76,20 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
+    ]
+  },
+  {
+    "topic": "Nintendo",
+    "type": "GAME",
+    "mentions": 3,
+    "trusted_mentions": 0,
+    "community_hits": 3,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-06-04T01:37:18.000Z",
+    "sources": [
+      "Reddit"
     ]
   }
 ]
