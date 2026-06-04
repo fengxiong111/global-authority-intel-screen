@@ -2,8 +2,8 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 13,
-    "trusted_mentions": 6,
+    "mentions": 8,
+    "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
@@ -18,35 +18,32 @@
     ]
   },
   {
-    "topic": "Anthropic",
+    "topic": "Codex",
     "type": "AI",
     "mentions": 4,
-    "trusted_mentions": 3,
+    "trusted_mentions": 1,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-06-03T18:42:01.000Z",
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-02T02:00:00.000Z",
     "sources": [
-      "Bloomberg",
-      "Reddit",
-      "SemiAnalysis",
-      "X"
+      "OpenAI News",
+      "Reddit"
     ]
   },
   {
-    "topic": "The",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 2,
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 1,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-06-02T00:42:20.000Z",
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-02T12:00:00.000Z",
     "sources": [
-      "Karpathy",
-      "NYT",
+      "OpenAI News",
       "Reddit"
     ]
   },
@@ -63,6 +60,21 @@
     "sources": [
       "Anthropic Newsroom",
       "Hacker News"
+    ]
+  },
+  {
+    "topic": "The",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-02T00:42:20.000Z",
+    "sources": [
+      "Karpathy",
+      "NYT"
     ]
   },
   {
