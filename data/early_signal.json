@@ -2,7 +2,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 9,
+    "mentions": 13,
     "trusted_mentions": 6,
     "community_hits": 0,
     "ranking_change": false,
@@ -18,17 +18,35 @@
     ]
   },
   {
-    "topic": "OpenAI",
+    "topic": "Anthropic",
     "type": "AI",
     "mentions": 4,
-    "trusted_mentions": 1,
+    "trusted_mentions": 3,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-02T12:00:00.000Z",
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-06-03T18:42:01.000Z",
     "sources": [
-      "OpenAI News",
+      "Bloomberg",
+      "Reddit",
+      "SemiAnalysis",
+      "X"
+    ]
+  },
+  {
+    "topic": "The",
+    "type": "OTHER",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-06-02T00:42:20.000Z",
+    "sources": [
+      "Karpathy",
+      "NYT",
       "Reddit"
     ]
   },
@@ -45,51 +63,6 @@
     "sources": [
       "Anthropic Newsroom",
       "Hacker News"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-03T18:42:01.000Z",
-    "sources": [
-      "SemiAnalysis",
-      "X"
-    ]
-  },
-  {
-    "topic": "The",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-04T09:03:49.000Z",
-    "sources": [
-      "Karpathy",
-      "NYT"
-    ]
-  },
-  {
-    "topic": "POLYMARKET",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-04T04:21:17.000Z",
-    "sources": [
-      "The Block",
-      "X"
     ]
   },
   {
