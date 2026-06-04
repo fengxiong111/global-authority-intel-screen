@@ -2,15 +2,16 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 8,
-    "trusted_mentions": 5,
+    "mentions": 9,
+    "trusted_mentions": 6,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 1,
     "first_seen_at": "2026-05-18T02:56:40.000Z",
     "sources": [
       "Bloomberg",
+      "OneKey Blog",
       "The Block",
       "The Defiant",
       "X"
@@ -32,6 +33,21 @@
     ]
   },
   {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-04T10:34:52.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Hacker News"
+    ]
+  },
+  {
     "topic": "Anthropic",
     "type": "AI",
     "mentions": 2,
@@ -43,6 +59,36 @@
     "first_seen_at": "2026-06-03T18:42:01.000Z",
     "sources": [
       "SemiAnalysis",
+      "X"
+    ]
+  },
+  {
+    "topic": "The",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-04T09:03:49.000Z",
+    "sources": [
+      "Karpathy",
+      "NYT"
+    ]
+  },
+  {
+    "topic": "POLYMARKET",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-04T04:21:17.000Z",
+    "sources": [
+      "The Block",
       "X"
     ]
   },
