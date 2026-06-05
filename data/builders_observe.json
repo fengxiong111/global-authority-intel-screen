@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1780703643,
+    "count": 1,
+    "titles": [
+      "GitHub 热门工具：ECC"
+    ],
+    "items": [
+      {
+        "id": "d3cf920b7009fa1c",
+        "title": "GitHub 热门工具：ECC",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1780699690,
     "count": 2,
     "titles": [
@@ -555,34 +573,6 @@
       {
         "id": "7a70b20163275c9a",
         "title": "OpenClaw 测试版更新 2026.6.2 Beta 1",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1780529075,
-    "count": 2,
-    "titles": [
-      "GitHub 热门工具：ECC",
-      "OpenClaw 正式版更新 2026.6.1"
-    ],
-    "items": [
-      {
-        "id": "d3cf920b7009fa1c",
-        "title": "GitHub 热门工具：ECC",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "db62219f6fc85d64",
-        "title": "OpenClaw 正式版更新 2026.6.1",
         "topic": "OPENCLAW",
         "source": "OpenClaw GitHub",
         "meaning": "工具能力边界变了，值得更新判断。",
