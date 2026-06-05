@@ -1,5 +1,23 @@
 [
   {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 10,
+    "trusted_mentions": 5,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 1,
+    "first_seen_at": "2026-05-18T02:56:40.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block",
+      "The Defiant",
+      "X"
+    ]
+  },
+  {
     "topic": "Anthropic",
     "type": "AI",
     "mentions": 3,
@@ -11,49 +29,62 @@
     "first_seen_at": "2026-06-04T22:32:30.000Z",
     "sources": [
       "Anthropic Newsroom",
-      "Hacker News",
+      "Reddit",
       "SemiAnalysis"
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 10,
-    "trusted_mentions": 4,
-    "community_hits": 0,
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 1,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-05-18T02:56:40.000Z",
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-06-05T11:55:46.000Z",
     "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Block",
-      "The Defiant"
+      "Hacker News",
+      "Reddit",
+      "X"
     ]
   },
   {
     "topic": "科技",
     "type": "OTHER",
-    "mentions": 6,
-    "trusted_mentions": 4,
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-06-02T19:28:36.000Z",
     "sources": [
-      "Bloomberg",
       "Karpathy",
       "NYT",
       "Simon Willison"
     ]
   },
   {
-    "topic": "OpenAI",
+    "topic": "Codex",
     "type": "AI",
     "mentions": 4,
-    "trusted_mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-02T02:00:00.000Z",
+    "sources": [
+      "OpenAI News",
+      "X"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
@@ -65,18 +96,18 @@
     ]
   },
   {
-    "topic": "Codex",
-    "type": "AI",
-    "mentions": 3,
+    "topic": "索尼",
+    "type": "GAME",
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-02T02:00:00.000Z",
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-06-05T18:05:55.000Z",
     "sources": [
-      "OpenAI News",
-      "X"
+      "PlayStation Blog",
+      "Sony Interactive"
     ]
   }
 ]
