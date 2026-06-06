@@ -2,9 +2,9 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 7,
     "trusted_mentions": 2,
-    "community_hits": 4,
+    "community_hits": 5,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.95,
@@ -63,6 +63,21 @@
     "sources": [
       "Reddit",
       "X"
+    ]
+  },
+  {
+    "topic": "索尼",
+    "type": "GAME",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.91,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-06-05T18:05:55.000Z",
+    "sources": [
+      "PlayStation Blog",
+      "Sony Interactive"
     ]
   }
 ]
