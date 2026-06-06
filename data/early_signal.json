@@ -2,9 +2,9 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 2,
-    "community_hits": 3,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.95,
@@ -36,14 +36,15 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 7,
-    "trusted_mentions": 3,
+    "mentions": 9,
+    "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-05-18T02:56:40.000Z",
     "sources": [
+      "Bloomberg",
       "OneKey Blog",
       "The Block",
       "The Defiant"
@@ -62,35 +63,6 @@
     "sources": [
       "Reddit",
       "X"
-    ]
-  },
-  {
-    "topic": "索尼",
-    "type": "GAME",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-06-05T18:05:55.000Z",
-    "sources": [
-      "PlayStation Blog",
-      "Sony Interactive"
-    ]
-  },
-  {
-    "topic": "FINAL FANTASY VII",
-    "type": "GAME",
-    "mentions": 3,
-    "trusted_mentions": 0,
-    "community_hits": 3,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-06-05T22:51:28.000Z",
-    "sources": [
-      "Reddit"
     ]
   }
 ]
