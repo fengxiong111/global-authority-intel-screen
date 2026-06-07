@@ -17,28 +17,11 @@
     ]
   },
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-06-02T19:28:36.000Z",
-    "sources": [
-      "Karpathy",
-      "NYT",
-      "Reddit",
-      "Simon Willison"
-    ]
-  },
-  {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 4,
     "trusted_mentions": 2,
-    "community_hits": 4,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.9,
@@ -50,11 +33,28 @@
     ]
   },
   {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 4,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.78,
+    "first_seen_at": "2026-06-02T19:28:36.000Z",
+    "sources": [
+      "Bloomberg",
+      "Karpathy",
+      "NYT",
+      "Simon Willison"
+    ]
+  },
+  {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 1,
-    "community_hits": 4,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -93,6 +93,20 @@
     "sources": [
       "PlayStation Blog",
       "Sony Interactive"
+    ]
+  },
+  {
+    "topic": "Gears",
+    "type": "MACRO",
+    "mentions": 3,
+    "trusted_mentions": 0,
+    "community_hits": 3,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-06-07T11:37:17.000Z",
+    "sources": [
+      "Reddit"
     ]
   }
 ]
