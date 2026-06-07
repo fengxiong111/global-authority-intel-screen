@@ -2,7 +2,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 8,
+    "mentions": 7,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -52,14 +52,15 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 1,
-    "community_hits": 3,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-06-05T11:55:46.000Z",
     "sources": [
+      "Hacker News",
       "Reddit",
       "X"
     ]
@@ -67,9 +68,9 @@
   {
     "topic": "任天堂",
     "type": "GAME",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 1,
-    "community_hits": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
