@@ -2,9 +2,9 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 4,
     "trusted_mentions": 3,
-    "community_hits": 3,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.9,
@@ -16,32 +16,17 @@
     ]
   },
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-06-04T22:32:30.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Reddit",
-      "SemiAnalysis"
-    ]
-  },
-  {
-    "topic": "bitcoin",
+    "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 8,
-    "trusted_mentions": 3,
+    "mentions": 6,
+    "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-05-18T02:56:40.000Z",
     "sources": [
+      "Bloomberg",
       "OneKey Blog",
       "The Block",
       "The Defiant"
@@ -50,32 +35,60 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 1,
-    "community_hits": 5,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.68,
     "first_seen_at": "2026-06-05T11:55:46.000Z",
     "sources": [
-      "Hacker News",
       "Reddit",
+      "X"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-04T22:32:30.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "SemiAnalysis"
+    ]
+  },
+  {
+    "topic": "BitMine",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-08T13:52:01.000Z",
+    "sources": [
+      "The Block",
       "X"
     ]
   },
   {
     "topic": "科技",
     "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 3,
+    "mentions": 2,
+    "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.05,
     "first_seen_at": "2026-06-02T19:28:36.000Z",
     "sources": [
       "Karpathy",
-      "NYT",
       "Simon Willison"
     ]
   },
