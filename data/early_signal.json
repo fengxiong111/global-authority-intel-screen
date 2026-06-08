@@ -2,14 +2,15 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 3,
+    "mentions": 5,
+    "trusted_mentions": 4,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.9,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-06-05T23:56:40.000Z",
     "sources": [
+      "OpenAI News",
       "Reddit",
       "Simon Willison",
       "X"
@@ -19,17 +20,16 @@
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 6,
-    "trusted_mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-05-18T02:56:40.000Z",
     "sources": [
       "Bloomberg",
       "OneKey Blog",
-      "The Block",
-      "The Defiant"
+      "The Block"
     ]
   },
   {
@@ -63,21 +63,6 @@
     ]
   },
   {
-    "topic": "BitMine",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-08T13:52:01.000Z",
-    "sources": [
-      "The Block",
-      "X"
-    ]
-  },
-  {
     "topic": "科技",
     "type": "OTHER",
     "mentions": 2,
@@ -90,21 +75,6 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "索尼",
-    "type": "GAME",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.91,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-06-05T18:05:55.000Z",
-    "sources": [
-      "PlayStation Blog",
-      "Sony Interactive"
     ]
   }
 ]
