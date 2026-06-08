@@ -1,5 +1,24 @@
 [
   {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 7,
+    "trusted_mentions": 6,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 1,
+    "first_seen_at": "2026-06-05T23:56:40.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT",
+      "OpenAI News",
+      "Reddit",
+      "Simon Willison",
+      "X"
+    ]
+  },
+  {
     "topic": "Anthropic",
     "type": "AI",
     "mentions": 4,
@@ -18,7 +37,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -29,22 +48,6 @@
       "Bloomberg",
       "OneKey Blog",
       "The Block"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-06-05T23:56:40.000Z",
-    "sources": [
-      "OpenAI News",
-      "Simon Willison",
-      "X"
     ]
   },
   {
@@ -60,6 +63,21 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-06-08T16:21:38.000Z",
+    "sources": [
+      "The Block",
+      "The Defiant"
     ]
   }
 ]
