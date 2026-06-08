@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1780919905,
+    "count": 3,
+    "titles": [
+      "科技：What Is Crypto 市场结构? A Guide to How…",
+      "GitHub 热门工具：career-ops",
+      "硬件钱包的安全盲区：供应链攻击的隐蔽风险"
+    ],
+    "items": [
+      {
+        "id": "0f22b873e31623c6",
+        "title": "科技：What Is Crypto 市场结构? A Guide to How…",
+        "topic": "CRYPTO_TOOLS",
+        "source": "The Block",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "0331baba120818ee",
+        "title": "GitHub 热门工具：career-ops",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "35c0b0e1193aade2",
+        "title": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
+        "topic": "ONEKEY",
+        "source": "OneKey Blog",
+        "meaning": "这是一个值得继续盯的变化信号。",
+        "action_hint": "点开核对原文。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1780901890,
     "count": 4,
     "titles": [
@@ -903,82 +941,6 @@
   },
   {
     "fetch_time": 1780747162,
-    "count": 3,
-    "titles": [
-      "GitHub 热门工具：ECC",
-      "OpenClaw 测试版更新 2026.6.5 Beta 1",
-      "硬件钱包的安全盲区：供应链攻击的隐蔽风险"
-    ],
-    "items": [
-      {
-        "id": "d3cf920b7009fa1c",
-        "title": "GitHub 热门工具：ECC",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "ea0155af63dac220",
-        "title": "OpenClaw 测试版更新 2026.6.5 Beta 1",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      },
-      {
-        "id": "35c0b0e1193aade2",
-        "title": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
-        "topic": "ONEKEY",
-        "source": "OneKey Blog",
-        "meaning": "这是一个值得继续盯的变化信号。",
-        "action_hint": "点开核对原文。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1780742037,
-    "count": 3,
-    "titles": [
-      "GitHub 热门工具：ECC",
-      "OpenClaw 测试版更新 2026.6.5 Beta 1",
-      "硬件钱包的安全盲区：供应链攻击的隐蔽风险"
-    ],
-    "items": [
-      {
-        "id": "d3cf920b7009fa1c",
-        "title": "GitHub 热门工具：ECC",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "ea0155af63dac220",
-        "title": "OpenClaw 测试版更新 2026.6.5 Beta 1",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      },
-      {
-        "id": "35c0b0e1193aade2",
-        "title": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
-        "topic": "ONEKEY",
-        "source": "OneKey Blog",
-        "meaning": "这是一个值得继续盯的变化信号。",
-        "action_hint": "点开核对原文。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1780735524,
     "count": 3,
     "titles": [
       "GitHub 热门工具：ECC",
