@@ -1,23 +1,5 @@
 [
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 7,
-    "trusted_mentions": 6,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 1,
-    "first_seen_at": "2026-06-05T23:56:40.000Z",
-    "sources": [
-      "Hacker News",
-      "NYT",
-      "OpenAI News",
-      "Simon Willison",
-      "X"
-    ]
-  },
-  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 7,
@@ -35,11 +17,28 @@
     ]
   },
   {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 6,
+    "trusted_mentions": 5,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-06-05T23:56:40.000Z",
+    "sources": [
+      "Bloomberg",
+      "Hacker News",
+      "OpenAI News",
+      "X"
+    ]
+  },
+  {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 3,
     "trusted_mentions": 2,
-    "community_hits": 3,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.9,
@@ -48,21 +47,6 @@
       "Anthropic Newsroom",
       "Reddit",
       "SemiAnalysis"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-06-02T19:28:36.000Z",
-    "sources": [
-      "Karpathy",
-      "Simon Willison"
     ]
   },
   {
@@ -78,6 +62,21 @@
     "sources": [
       "The Block",
       "The Defiant"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.97,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-06-02T19:28:36.000Z",
+    "sources": [
+      "Karpathy",
+      "Simon Willison"
     ]
   }
 ]
