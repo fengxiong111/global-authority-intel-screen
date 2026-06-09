@@ -1,5 +1,53 @@
 [
   {
+    "fetch_time": 1780995046,
+    "count": 4,
+    "titles": [
+      "科技：MetaMask 发布 智能体 Wallet in Early…",
+      "科技：The Iran 战事 is Forcing…",
+      "GitHub 热门工具：career-ops",
+      "苹果 aids 应用 development with 新…"
+    ],
+    "items": [
+      {
+        "id": "82d360ca9e6095e2",
+        "title": "科技：MetaMask 发布 智能体 Wallet in Early…",
+        "topic": "CRYPTO_TOOLS",
+        "source": "The Defiant",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "3385518dc1bc88c9",
+        "title": "科技：The Iran 战事 is Forcing…",
+        "topic": "TECH",
+        "source": "NYT",
+        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
+        "action_hint": "看是否继续升级。",
+        "urgency": "high"
+      },
+      {
+        "id": "0331baba120818ee",
+        "title": "GitHub 热门工具：career-ops",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "66323135c93cd9fe",
+        "title": "苹果 aids 应用 development with 新…",
+        "topic": "APPLE",
+        "source": "Apple Newsroom",
+        "meaning": "苹果产品节奏或生态接口在变，可能影响后续判断。",
+        "action_hint": "看功能与上线时间。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1780984008,
     "count": 4,
     "titles": [
@@ -801,44 +849,6 @@
   },
   {
     "fetch_time": 1780825285,
-    "count": 3,
-    "titles": [
-      "GitHub 热门工具：plugins",
-      "OpenClaw 测试版更新 2026.6.5 Beta 2",
-      "硬件钱包的安全盲区：供应链攻击的隐蔽风险"
-    ],
-    "items": [
-      {
-        "id": "d795c39f560e8d24",
-        "title": "GitHub 热门工具：plugins",
-        "topic": "OPENAI",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      },
-      {
-        "id": "4ab5d13d639cb9c7",
-        "title": "OpenClaw 测试版更新 2026.6.5 Beta 2",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      },
-      {
-        "id": "35c0b0e1193aade2",
-        "title": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
-        "topic": "ONEKEY",
-        "source": "OneKey Blog",
-        "meaning": "这是一个值得继续盯的变化信号。",
-        "action_hint": "点开核对原文。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1780813043,
     "count": 3,
     "titles": [
       "GitHub 热门工具：plugins",

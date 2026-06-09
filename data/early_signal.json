@@ -1,5 +1,22 @@
 [
   {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 7,
+    "trusted_mentions": 3,
+    "community_hits": 4,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-06-04T22:32:30.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Bloomberg",
+      "Reddit",
+      "SemiAnalysis"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 7,
@@ -14,22 +31,6 @@
       "OneKey Blog",
       "The Block",
       "X"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-06-04T22:32:30.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Reddit",
-      "SemiAnalysis"
     ]
   },
   {
