@@ -18,17 +18,17 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 8,
     "trusted_mentions": 1,
-    "community_hits": 6,
+    "community_hits": 7,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
     "first_seen_at": "2026-06-09T00:00:00.000Z",
     "sources": [
-      "Anthropic Newsroom",
       "Hacker News",
-      "Reddit"
+      "Reddit",
+      "X"
     ]
   },
   {
@@ -50,7 +50,7 @@
   {
     "topic": "Polymarket",
     "type": "CRYPTO",
-    "mentions": 2,
+    "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
