@@ -18,9 +18,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 7,
     "trusted_mentions": 1,
-    "community_hits": 5,
+    "community_hits": 6,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -34,7 +34,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -48,7 +48,7 @@
     ]
   },
   {
-    "topic": "POLYMARKET",
+    "topic": "Polymarket",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
