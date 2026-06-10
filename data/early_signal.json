@@ -1,41 +1,8 @@
 [
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 5,
-    "trusted_mentions": 3,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-06-02T19:28:36.000Z",
-    "sources": [
-      "Hacker News",
-      "Karpathy",
-      "NYT",
-      "Simon Willison"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-06-05T23:56:40.000Z",
-    "sources": [
-      "NYT",
-      "OpenAI News",
-      "X"
-    ]
-  },
-  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 8,
+    "mentions": 10,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -52,9 +19,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 2,
-    "community_hits": 4,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.78,
@@ -67,46 +34,80 @@
     ]
   },
   {
-    "topic": "POLYMARKET",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-09T17:59:37.000Z",
-    "sources": [
-      "The Defiant",
-      "X"
-    ]
-  },
-  {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-06-10T10:00:00.000Z",
+    "resonance_score": 0.78,
+    "first_seen_at": "2026-06-09T17:16:42.000Z",
     "sources": [
+      "NYT",
+      "Reddit",
       "SemiAnalysis",
       "Stratechery"
     ]
   },
   {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-06-02T19:28:36.000Z",
+    "sources": [
+      "Karpathy",
+      "NYT",
+      "Simon Willison"
+    ]
+  },
+  {
+    "topic": "任天堂",
+    "type": "GAME",
+    "mentions": 5,
+    "trusted_mentions": 1,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-10T01:08:02.000Z",
+    "sources": [
+      "Nintendo News",
+      "Reddit"
+    ]
+  },
+  {
+    "topic": "Codex",
+    "type": "AI",
+    "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-06-10T11:18:00.000Z",
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-09T10:00:00.000Z",
     "sources": [
+      "OpenAI News",
+      "X"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-05T23:56:40.000Z",
+    "sources": [
+      "OpenAI News",
       "X"
     ]
   }
