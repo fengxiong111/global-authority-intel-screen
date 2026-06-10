@@ -1,5 +1,22 @@
 [
   {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 5,
+    "trusted_mentions": 3,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-06-02T19:28:36.000Z",
+    "sources": [
+      "Hacker News",
+      "Karpathy",
+      "NYT",
+      "Simon Willison"
+    ]
+  },
+  {
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 4,
@@ -16,11 +33,28 @@
     ]
   },
   {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 8,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.78,
+    "first_seen_at": "2026-05-18T02:56:40.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block",
+      "The Defiant"
+    ]
+  },
+  {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 6,
     "trusted_mentions": 2,
-    "community_hits": 5,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.78,
@@ -29,38 +63,6 @@
       "Anthropic Newsroom",
       "Hacker News",
       "Reddit",
-      "Simon Willison"
-    ]
-  },
-  {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 5,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-05-18T02:56:40.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Defiant"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-06-02T19:28:36.000Z",
-    "sources": [
-      "Hacker News",
-      "Karpathy",
       "Simon Willison"
     ]
   },
@@ -76,6 +78,35 @@
     "first_seen_at": "2026-06-09T17:59:37.000Z",
     "sources": [
       "The Defiant",
+      "X"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-06-10T10:00:00.000Z",
+    "sources": [
+      "SemiAnalysis",
+      "Stratechery"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-06-10T11:18:00.000Z",
+    "sources": [
       "X"
     ]
   }
