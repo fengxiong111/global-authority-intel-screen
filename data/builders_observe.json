@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1781136115,
+    "count": 3,
+    "titles": [
+      "比特币 takes back seat to 稳定币 and…",
+      "GitHub 热门工具：superpowers",
+      "苹果 aids 应用 development with 新…"
+    ],
+    "items": [
+      {
+        "id": "7452388603241af1",
+        "title": "比特币 takes back seat to 稳定币 and…",
+        "topic": "BTC",
+        "source": "The Block",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "fa06b8f9ade60a0f",
+        "title": "GitHub 热门工具：superpowers",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      },
+      {
+        "id": "66323135c93cd9fe",
+        "title": "苹果 aids 应用 development with 新…",
+        "topic": "APPLE",
+        "source": "Apple Newsroom",
+        "meaning": "苹果产品节奏或生态接口在变，可能影响后续判断。",
+        "action_hint": "看功能与上线时间。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1781130719,
     "count": 3,
     "titles": [
@@ -689,54 +727,6 @@
   },
   {
     "fetch_time": 1780968580,
-    "count": 4,
-    "titles": [
-      "科技：MetaMask 发布 智能体 Wallet in Early…",
-      "科技：The Iran 战事 is Forcing…",
-      "GitHub 热门工具：career-ops",
-      "苹果 aids 应用 development with 新…"
-    ],
-    "items": [
-      {
-        "id": "82d360ca9e6095e2",
-        "title": "科技：MetaMask 发布 智能体 Wallet in Early…",
-        "topic": "CRYPTO_TOOLS",
-        "source": "The Defiant",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      },
-      {
-        "id": "3385518dc1bc88c9",
-        "title": "科技：The Iran 战事 is Forcing…",
-        "topic": "TECH",
-        "source": "NYT",
-        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
-        "action_hint": "看是否继续升级。",
-        "urgency": "high"
-      },
-      {
-        "id": "0331baba120818ee",
-        "title": "GitHub 热门工具：career-ops",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "66323135c93cd9fe",
-        "title": "苹果 aids 应用 development with 新…",
-        "topic": "APPLE",
-        "source": "Apple Newsroom",
-        "meaning": "苹果产品节奏或生态接口在变，可能影响后续判断。",
-        "action_hint": "看功能与上线时间。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1780961882,
     "count": 4,
     "titles": [
       "科技：MetaMask 发布 智能体 Wallet in Early…",
