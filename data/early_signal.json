@@ -2,26 +2,43 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 9,
+    "mentions": 7,
     "trusted_mentions": 4,
-    "community_hits": 3,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.95,
     "first_seen_at": "2026-06-09T00:00:00.000Z",
     "sources": [
       "Anthropic Newsroom",
-      "Reddit",
+      "Hacker News",
       "Simon Willison",
+      "X"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 3,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-06-08T21:09:17.000Z",
+    "sources": [
+      "NYT",
+      "OpenAI News",
+      "Reddit",
       "X"
     ]
   },
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 4,
     "trusted_mentions": 2,
-    "community_hits": 4,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.78,
@@ -49,24 +66,24 @@
     ]
   },
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 2,
+    "topic": "bitcoin",
+    "type": "CRYPTO",
+    "mentions": 4,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-06-08T21:09:17.000Z",
+    "first_seen_at": "2026-06-11T16:46:52.000Z",
     "sources": [
-      "OpenAI News",
-      "X"
+      "OneKey Blog",
+      "The Block"
     ]
   },
   {
     "topic": "科技",
     "type": "OTHER",
-    "mentions": 3,
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -76,35 +93,6 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "Hungary",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-06-11T10:05:10.000Z",
-    "sources": [
-      "Bloomberg",
-      "The Block"
-    ]
-  },
-  {
-    "topic": "Who",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 0,
-    "community_hits": 3,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-06-11T06:57:15.000Z",
-    "sources": [
-      "Reddit"
     ]
   }
 ]
