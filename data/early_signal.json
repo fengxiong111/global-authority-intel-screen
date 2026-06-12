@@ -1,5 +1,22 @@
 [
   {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 5,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-06-11T16:46:52.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block",
+      "X"
+    ]
+  },
+  {
     "topic": "Claude",
     "type": "AI",
     "mentions": 5,
@@ -11,41 +28,25 @@
     "first_seen_at": "2026-06-09T00:00:00.000Z",
     "sources": [
       "Anthropic Newsroom",
-      "Hacker News",
+      "Reddit",
       "Simon Willison",
       "X"
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 6,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-06-11T16:46:52.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Block"
-    ]
-  },
-  {
-    "topic": "Anthropic",
+    "topic": "OpenAI",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 5,
     "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-06-09T17:16:42.000Z",
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-06-08T21:09:17.000Z",
     "sources": [
+      "OpenAI News",
       "Reddit",
-      "SemiAnalysis",
-      "Stratechery"
+      "X"
     ]
   },
   {
@@ -64,18 +65,18 @@
     ]
   },
   {
-    "topic": "OpenAI",
+    "topic": "Anthropic",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-08T21:09:17.000Z",
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-06-09T17:16:42.000Z",
     "sources": [
-      "OpenAI News",
-      "X"
+      "SemiAnalysis",
+      "Stratechery"
     ]
   },
   {
@@ -85,7 +86,7 @@
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 0.97,
+    "growth_score": 0.91,
     "resonance_score": 0.05,
     "first_seen_at": "2026-06-02T19:28:36.000Z",
     "sources": [
