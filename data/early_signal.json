@@ -2,17 +2,16 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 11,
-    "trusted_mentions": 4,
-    "community_hits": 6,
+    "mentions": 5,
+    "trusted_mentions": 3,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 1,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-06-09T00:00:00.000Z",
     "sources": [
       "Anthropic Newsroom",
       "Hacker News",
-      "Reddit",
       "Simon Willison",
       "X"
     ]
@@ -20,7 +19,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 7,
+    "mentions": 6,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -28,31 +27,31 @@
     "resonance_score": 0.73,
     "first_seen_at": "2026-06-11T16:46:52.000Z",
     "sources": [
+      "Bloomberg",
       "OneKey Blog",
-      "The Block",
-      "The Defiant"
+      "The Block"
     ]
   },
   {
-    "topic": "科技",
-    "type": "OTHER",
+    "topic": "Anthropic",
+    "type": "AI",
     "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
+    "trusted_mentions": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
-    "first_seen_at": "2026-06-02T19:28:36.000Z",
+    "first_seen_at": "2026-06-09T17:16:42.000Z",
     "sources": [
-      "Karpathy",
-      "NYT",
-      "Simon Willison"
+      "Reddit",
+      "SemiAnalysis",
+      "Stratechery"
     ]
   },
   {
-    "topic": "Codex",
+    "topic": "codex",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 6,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -80,18 +79,18 @@
     ]
   },
   {
-    "topic": "Anthropic",
-    "type": "AI",
+    "topic": "科技",
+    "type": "OTHER",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 1,
+    "growth_score": 0.97,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-06-09T17:16:42.000Z",
+    "first_seen_at": "2026-06-02T19:28:36.000Z",
     "sources": [
-      "SemiAnalysis",
-      "Stratechery"
+      "Karpathy",
+      "Simon Willison"
     ]
   }
 ]
