@@ -2,17 +2,16 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 6,
     "trusted_mentions": 4,
-    "community_hits": 1,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 1,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-06-08T21:09:17.000Z",
     "sources": [
       "Bloomberg",
       "OpenAI News",
-      "Reddit",
       "Simon Willison",
       "X"
     ]
@@ -52,7 +51,7 @@
     ]
   },
   {
-    "topic": "bitcoin",
+    "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 5,
     "trusted_mentions": 4,
@@ -87,7 +86,7 @@
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
