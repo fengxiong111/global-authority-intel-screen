@@ -17,23 +17,6 @@
     ]
   },
   {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 3,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-06-09T00:00:00.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Reddit",
-      "Simon Willison",
-      "X"
-    ]
-  },
-  {
     "topic": "科技",
     "type": "OTHER",
     "mentions": 4,
@@ -45,15 +28,15 @@
     "first_seen_at": "2026-06-02T19:28:36.000Z",
     "sources": [
       "Bloomberg",
-      "Hacker News",
       "Karpathy",
+      "Reddit",
       "Simon Willison"
     ]
   },
   {
-    "topic": "Bitcoin",
+    "topic": "bitcoin",
     "type": "CRYPTO",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -68,6 +51,22 @@
     ]
   },
   {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-06-09T00:00:00.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Simon Willison",
+      "X"
+    ]
+  },
+  {
     "topic": "Anthropic",
     "type": "AI",
     "mentions": 3,
@@ -78,8 +77,8 @@
     "resonance_score": 0.73,
     "first_seen_at": "2026-06-09T17:16:42.000Z",
     "sources": [
+      "Hacker News",
       "NYT",
-      "Reddit",
       "SemiAnalysis"
     ]
   },
@@ -111,6 +110,20 @@
     "sources": [
       "Nintendo News",
       "Reddit"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-06-13T16:56:30.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
