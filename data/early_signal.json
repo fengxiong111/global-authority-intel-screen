@@ -34,7 +34,7 @@
     ]
   },
   {
-    "topic": "bitcoin",
+    "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 6,
     "trusted_mentions": 4,
@@ -85,7 +85,7 @@
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -110,20 +110,6 @@
     "sources": [
       "Nintendo News",
       "Reddit"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-06-13T16:56:30.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
