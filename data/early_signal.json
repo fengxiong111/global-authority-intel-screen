@@ -1,10 +1,27 @@
 [
   {
-    "topic": "Claude",
+    "topic": "OpenAI",
     "type": "AI",
     "mentions": 6,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-06-08T21:09:17.000Z",
+    "sources": [
+      "Bloomberg",
+      "OpenAI News",
+      "Simon Willison",
+      "X"
+    ]
+  },
+  {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 5,
     "trusted_mentions": 3,
-    "community_hits": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.95,
@@ -14,6 +31,23 @@
       "Reddit",
       "Simon Willison",
       "X"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 3,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.78,
+    "first_seen_at": "2026-06-09T17:16:42.000Z",
+    "sources": [
+      "NYT",
+      "Reddit",
+      "SemiAnalysis",
+      "Stratechery"
     ]
   },
   {
@@ -36,16 +70,17 @@
   {
     "topic": "科技",
     "type": "OTHER",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 2,
-    "community_hits": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-06-02T19:28:36.000Z",
     "sources": [
       "Hacker News",
       "Karpathy",
+      "Reddit",
       "Simon Willison"
     ]
   },
@@ -65,18 +100,18 @@
     ]
   },
   {
-    "topic": "OpenAI",
-    "type": "AI",
+    "topic": "任天堂",
+    "type": "GAME",
     "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 0,
+    "trusted_mentions": 1,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-06-08T21:09:17.000Z",
+    "first_seen_at": "2026-06-10T05:14:15.000Z",
     "sources": [
-      "OpenAI News",
-      "X"
+      "Nintendo News",
+      "Reddit"
     ]
   },
   {
@@ -92,36 +127,6 @@
     "sources": [
       "Karpathy",
       "NYT"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.1,
-    "first_seen_at": "2026-06-09T17:16:42.000Z",
-    "sources": [
-      "NYT",
-      "SemiAnalysis",
-      "Stratechery"
-    ]
-  },
-  {
-    "topic": "And",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-06-10T18:55:04.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
