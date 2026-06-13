@@ -2,9 +2,9 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 8,
+    "mentions": 9,
     "trusted_mentions": 4,
-    "community_hits": 2,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 1,
@@ -15,6 +15,23 @@
       "Reddit",
       "Simon Willison",
       "X"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-06-02T19:28:36.000Z",
+    "sources": [
+      "Bloomberg",
+      "Hacker News",
+      "Karpathy",
+      "Simon Willison"
     ]
   },
   {
@@ -51,22 +68,6 @@
     ]
   },
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-06-02T19:28:36.000Z",
-    "sources": [
-      "Hacker News",
-      "Karpathy",
-      "Simon Willison"
-    ]
-  },
-  {
     "topic": "Anthropic",
     "type": "AI",
     "mentions": 3,
@@ -94,6 +95,35 @@
     "first_seen_at": "2026-06-09T10:00:00.000Z",
     "sources": [
       "OpenAI News",
+      "X"
+    ]
+  },
+  {
+    "topic": "任天堂",
+    "type": "GAME",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-12T01:01:53.000Z",
+    "sources": [
+      "Nintendo News",
+      "Reddit"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-06-13T14:10:12.000Z",
+    "sources": [
       "X"
     ]
   }
