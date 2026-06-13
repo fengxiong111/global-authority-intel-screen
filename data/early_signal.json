@@ -2,9 +2,9 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 9,
+    "mentions": 7,
     "trusted_mentions": 4,
-    "community_hits": 3,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 1,
@@ -12,6 +12,23 @@
     "sources": [
       "Bloomberg",
       "OpenAI News",
+      "Reddit",
+      "Simon Willison",
+      "X"
+    ]
+  },
+  {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 3,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-06-09T00:00:00.000Z",
+    "sources": [
+      "Anthropic Newsroom",
       "Reddit",
       "Simon Willison",
       "X"
@@ -35,7 +52,7 @@
     ]
   },
   {
-    "topic": "Bitcoin",
+    "topic": "bitcoin",
     "type": "CRYPTO",
     "mentions": 5,
     "trusted_mentions": 4,
@@ -49,22 +66,6 @@
       "OneKey Blog",
       "The Block",
       "The Defiant"
-    ]
-  },
-  {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-06-09T00:00:00.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Simon Willison",
-      "X"
     ]
   },
   {
@@ -111,20 +112,6 @@
     "sources": [
       "Nintendo News",
       "Reddit"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-06-13T14:10:12.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
