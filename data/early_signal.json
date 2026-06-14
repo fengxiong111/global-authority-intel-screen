@@ -1,40 +1,6 @@
 [
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-06-08T21:09:17.000Z",
-    "sources": [
-      "Bloomberg",
-      "OpenAI News",
-      "Simon Willison",
-      "X"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 6,
-    "trusted_mentions": 2,
-    "community_hits": 4,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-06-09T17:16:42.000Z",
-    "sources": [
-      "Hacker News",
-      "NYT",
-      "Reddit",
-      "SemiAnalysis"
-    ]
-  },
-  {
-    "topic": "bitcoin",
+    "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 6,
     "trusted_mentions": 4,
@@ -51,18 +17,36 @@
     ]
   },
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 4,
     "trusted_mentions": 2,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.78,
+    "first_seen_at": "2026-06-09T17:16:42.000Z",
+    "sources": [
+      "Hacker News",
+      "NYT",
+      "Reddit",
+      "SemiAnalysis"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-02T19:28:36.000Z",
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-06-08T21:09:17.000Z",
     "sources": [
-      "Bloomberg",
-      "Karpathy"
+      "OpenAI News",
+      "Simon Willison",
+      "X"
     ]
   },
   {
@@ -90,6 +74,20 @@
     "growth_score": 1,
     "resonance_score": 0,
     "first_seen_at": "2026-06-09T10:00:00.000Z",
+    "sources": [
+      "X"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-06-13T20:00:22.000Z",
     "sources": [
       "X"
     ]
