@@ -1,22 +1,5 @@
 [
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 7,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-06-11T16:46:52.000Z",
-    "sources": [
-      "OneKey Blog",
-      "The Block",
-      "The Defiant",
-      "X"
-    ]
-  },
-  {
     "topic": "Anthropic",
     "type": "AI",
     "mentions": 4,
@@ -31,6 +14,22 @@
       "NYT",
       "Reddit",
       "SemiAnalysis"
+    ]
+  },
+  {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 6,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-06-11T16:46:52.000Z",
+    "sources": [
+      "OneKey Blog",
+      "The Block",
+      "The Defiant"
     ]
   },
   {
@@ -50,21 +49,6 @@
     ]
   },
   {
-    "topic": "The",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-14T10:29:12.000Z",
-    "sources": [
-      "Karpathy",
-      "NYT"
-    ]
-  },
-  {
     "topic": "Codex",
     "type": "AI",
     "mentions": 4,
@@ -74,6 +58,20 @@
     "growth_score": 1,
     "resonance_score": 0,
     "first_seen_at": "2026-06-09T10:00:00.000Z",
+    "sources": [
+      "X"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-06-14T16:44:36.000Z",
     "sources": [
       "X"
     ]
