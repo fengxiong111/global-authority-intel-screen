@@ -17,6 +17,23 @@
     ]
   },
   {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 3,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.78,
+    "first_seen_at": "2026-06-09T17:16:42.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT",
+      "Reddit",
+      "SemiAnalysis"
+    ]
+  },
+  {
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 3,
@@ -60,21 +77,6 @@
     "sources": [
       "Karpathy",
       "NYT"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.97,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-06-09T17:16:42.000Z",
-    "sources": [
-      "NYT",
-      "SemiAnalysis"
     ]
   },
   {
