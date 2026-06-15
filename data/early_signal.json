@@ -2,16 +2,15 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 4,
     "trusted_mentions": 4,
-    "community_hits": 3,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 1,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-06-09T17:16:42.000Z",
     "sources": [
       "NYT",
-      "Reddit",
       "SemiAnalysis",
       "Simon Willison",
       "Stratechery"
@@ -56,7 +55,7 @@
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 0.85,
+    "growth_score": 0.97,
     "resonance_score": 0.05,
     "first_seen_at": "2026-06-14T20:07:24.000Z",
     "sources": [
