@@ -1,66 +1,96 @@
 [
   {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 6,
+    "trusted_mentions": 3,
+    "community_hits": 3,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 1,
+    "first_seen_at": "2026-06-09T17:16:42.000Z",
+    "sources": [
+      "Hacker News",
+      "NYT",
+      "Reddit",
+      "SemiAnalysis",
+      "Simon Willison"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 9,
-    "trusted_mentions": 4,
+    "mentions": 6,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-06-11T16:46:52.000Z",
     "sources": [
-      "Bloomberg",
       "OneKey Blog",
       "The Block",
       "The Defiant"
     ]
   },
   {
-    "topic": "Anthropic",
+    "topic": "OpenAI",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 2,
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-06-09T17:16:42.000Z",
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-06-08T21:09:17.000Z",
     "sources": [
-      "Hacker News",
       "NYT",
-      "Reddit",
-      "SemiAnalysis"
+      "OpenAI News",
+      "Simon Willison"
     ]
   },
   {
-    "topic": "Fox",
+    "topic": "科技",
     "type": "OTHER",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-06-15T11:19:40.000Z",
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-15T17:54:07.000Z",
     "sources": [
       "Bloomberg",
-      "NYT"
+      "Karpathy"
     ]
   },
   {
-    "topic": "OpenAI",
-    "type": "AI",
+    "topic": "etf",
+    "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 0.85,
+    "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-06-08T21:09:17.000Z",
+    "first_seen_at": "2026-06-14T20:07:24.000Z",
     "sources": [
-      "OpenAI News",
-      "Simon Willison"
+      "NYT",
+      "The Block"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-06-15T17:00:22.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
