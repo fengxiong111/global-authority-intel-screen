@@ -1,5 +1,21 @@
 [
   {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-06-08T21:09:17.000Z",
+    "sources": [
+      "NYT",
+      "OpenAI News",
+      "X"
+    ]
+  },
+  {
     "topic": "Anthropic",
     "type": "AI",
     "mentions": 4,
@@ -33,18 +49,17 @@
     ]
   },
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 3,
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-06-08T21:09:17.000Z",
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-06-15T17:19:27.000Z",
     "sources": [
-      "NYT",
-      "OpenAI News",
+      "Karpathy",
       "Simon Willison"
     ]
   },
