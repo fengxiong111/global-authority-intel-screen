@@ -1,5 +1,11 @@
 [
   {
+    "fetch_time": 1781612489,
+    "count": 0,
+    "titles": [],
+    "items": []
+  },
+  {
     "fetch_time": 1781593774,
     "count": 2,
     "titles": [
@@ -344,52 +350,6 @@
         "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
         "action_hint": "看盘面与后续流向。",
         "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1781435933,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：Clone-Wars"
-    ],
-    "items": [
-      {
-        "id": "26a33cdf3b6312c4",
-        "title": "GitHub 热门工具：Clone-Wars",
-        "topic": "ETF",
-        "source": "GitHub Trending",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1781426906,
-    "count": 2,
-    "titles": [
-      "GitHub 热门工具：agentsview",
-      "硬件钱包的安全盲区：供应链攻击的隐蔽风险"
-    ],
-    "items": [
-      {
-        "id": "bc77357226fe1edb",
-        "title": "GitHub 热门工具：agentsview",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "35c0b0e1193aade2",
-        "title": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
-        "topic": "ONEKEY",
-        "source": "OneKey Blog",
-        "meaning": "这是一个值得继续盯的变化信号。",
-        "action_hint": "点开核对原文。",
-        "urgency": "medium"
       }
     ]
   }
