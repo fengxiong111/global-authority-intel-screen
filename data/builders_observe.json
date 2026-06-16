@@ -1,5 +1,11 @@
 [
   {
+    "fetch_time": 1781641460,
+    "count": 0,
+    "titles": [],
+    "items": []
+  },
+  {
     "fetch_time": 1781631054,
     "count": 0,
     "titles": [],
@@ -253,42 +259,6 @@
   },
   {
     "fetch_time": 1781471050,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：Clone-Wars"
-    ],
-    "items": [
-      {
-        "id": "26a33cdf3b6312c4",
-        "title": "GitHub 热门工具：Clone-Wars",
-        "topic": "ETF",
-        "source": "GitHub Trending",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1781466844,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：Clone-Wars"
-    ],
-    "items": [
-      {
-        "id": "26a33cdf3b6312c4",
-        "title": "GitHub 热门工具：Clone-Wars",
-        "topic": "ETF",
-        "source": "GitHub Trending",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1781460250,
     "count": 1,
     "titles": [
       "GitHub 热门工具：Clone-Wars"
