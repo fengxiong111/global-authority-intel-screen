@@ -2,15 +2,14 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 4,
+    "mentions": 3,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-06-09T17:16:42.000Z",
     "sources": [
-      "NYT",
       "SemiAnalysis",
       "Simon Willison",
       "Stratechery"
@@ -32,13 +31,28 @@
     ]
   },
   {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-14T17:00:00.000Z",
+    "sources": [
+      "OpenAI News",
+      "Reddit"
+    ]
+  },
+  {
     "topic": "科技",
     "type": "OTHER",
-    "mentions": 2,
+    "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 0.97,
+    "growth_score": 1,
     "resonance_score": 0.05,
     "first_seen_at": "2026-06-15T17:19:27.000Z",
     "sources": [
