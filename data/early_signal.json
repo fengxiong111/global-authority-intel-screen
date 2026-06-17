@@ -1,5 +1,21 @@
 [
   {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-06-15T17:19:27.000Z",
+    "sources": [
+      "Karpathy",
+      "NYT",
+      "Simon Willison"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 3,
@@ -18,45 +34,17 @@
     "topic": "Anthropic",
     "type": "AI",
     "mentions": 4,
-    "trusted_mentions": 3,
+    "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.1,
+    "resonance_score": 0.15,
     "first_seen_at": "2026-06-09T17:16:42.000Z",
     "sources": [
       "Bloomberg",
+      "NYT",
       "SemiAnalysis",
       "Stratechery"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-06-15T17:19:27.000Z",
-    "sources": [
-      "Karpathy",
-      "Simon Willison"
-    ]
-  },
-  {
-    "topic": "POLYMARKET",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-06-17T01:11:29.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
