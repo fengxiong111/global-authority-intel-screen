@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1781823785,
+    "count": 2,
+    "titles": [
+      "伊朗战事最新进展：纽约时报：Vance Issues Blunt…",
+      "GitHub 热门工具：flue"
+    ],
+    "items": [
+      {
+        "id": "fc1df95cbfb7cc48",
+        "title": "伊朗战事最新进展：纽约时报：Vance Issues Blunt…",
+        "topic": "NYT",
+        "source": "NYT",
+        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
+        "action_hint": "看是否继续升级。",
+        "urgency": "high"
+      },
+      {
+        "id": "14bb9086d6d63cd4",
+        "title": "GitHub 热门工具：flue",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1781816868,
     "count": 1,
     "titles": [
@@ -302,23 +330,5 @@
     "count": 0,
     "titles": [],
     "items": []
-  },
-  {
-    "fetch_time": 1781648939,
-    "count": 1,
-    "titles": [
-      "36% chance 特斯拉 & SpaceX merge 今年."
-    ],
-    "items": [
-      {
-        "id": "3a8fa1cf7a5b9a3f",
-        "title": "36% chance 特斯拉 & SpaceX merge 今年.",
-        "topic": "BTC",
-        "source": "X",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      }
-    ]
   }
 ]
