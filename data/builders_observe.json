@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1781816868,
+    "count": 1,
+    "titles": [
+      "伊朗战事最新进展：纽约时报：Vance Issues Blunt…"
+    ],
+    "items": [
+      {
+        "id": "fc1df95cbfb7cc48",
+        "title": "伊朗战事最新进展：纽约时报：Vance Issues Blunt…",
+        "topic": "NYT",
+        "source": "NYT",
+        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
+        "action_hint": "看是否继续升级。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1781807624,
     "count": 2,
     "titles": [
@@ -302,11 +320,5 @@
         "urgency": "high"
       }
     ]
-  },
-  {
-    "fetch_time": 1781641460,
-    "count": 0,
-    "titles": [],
-    "items": []
   }
 ]
