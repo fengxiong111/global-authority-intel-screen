@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1781807624,
+    "count": 2,
+    "titles": [
+      "伊朗战事最新进展：纽约时报：Vance Issues Blunt…",
+      "GitHub 热门工具：flue"
+    ],
+    "items": [
+      {
+        "id": "fc1df95cbfb7cc48",
+        "title": "伊朗战事最新进展：纽约时报：Vance Issues Blunt…",
+        "topic": "NYT",
+        "source": "NYT",
+        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
+        "action_hint": "看是否继续升级。",
+        "urgency": "high"
+      },
+      {
+        "id": "14bb9086d6d63cd4",
+        "title": "GitHub 热门工具：flue",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1781798641,
     "count": 1,
     "titles": [
@@ -277,12 +305,6 @@
   },
   {
     "fetch_time": 1781641460,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1781631054,
     "count": 0,
     "titles": [],
     "items": []
