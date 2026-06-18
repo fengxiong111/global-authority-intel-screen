@@ -1,48 +1,33 @@
 [
   {
-    "topic": "OpenAI",
+    "topic": "openai",
     "type": "AI",
     "mentions": 5,
     "trusted_mentions": 2,
     "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 0.9,
     "first_seen_at": "2026-06-17T10:00:00.000Z",
     "sources": [
-      "Bloomberg",
-      "Hacker News",
       "OpenAI News",
-      "Reddit"
-    ]
-  },
-  {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-11T16:46:52.000Z",
-    "sources": [
-      "OneKey Blog",
-      "The Block"
+      "Reddit",
+      "X"
     ]
   },
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 3,
-    "community_hits": 0,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.1,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-06-09T17:16:42.000Z",
     "sources": [
       "NYT",
+      "Reddit",
       "SemiAnalysis",
       "Stratechery"
     ]
@@ -54,7 +39,7 @@
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 0.97,
+    "growth_score": 0.91,
     "resonance_score": 0.05,
     "first_seen_at": "2026-06-15T17:19:27.000Z",
     "sources": [
