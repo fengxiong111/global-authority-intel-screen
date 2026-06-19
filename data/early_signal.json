@@ -1,37 +1,5 @@
 [
   {
-    "topic": "The",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-06-18T12:44:48.000Z",
-    "sources": [
-      "OpenAI News",
-      "Reddit",
-      "X"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-06-18T19:08:50.000Z",
-    "sources": [
-      "Hacker News",
-      "SemiAnalysis",
-      "X"
-    ]
-  },
-  {
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 3,
@@ -50,7 +18,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 8,
+    "mentions": 6,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -65,17 +33,63 @@
     ]
   },
   {
-    "topic": "ETF",
-    "type": "CRYPTO",
+    "topic": "The",
+    "type": "AI",
     "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-18T12:44:48.000Z",
+    "sources": [
+      "OpenAI News",
+      "X"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-18T19:08:50.000Z",
+    "sources": [
+      "SemiAnalysis",
+      "X"
+    ]
+  },
+  {
+    "topic": "Kalshi",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-18T21:23:07.000Z",
+    "sources": [
+      "The Block",
+      "X"
+    ]
+  },
+  {
+    "topic": "ETF",
+    "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.1,
     "first_seen_at": "2026-06-17T21:11:51.000Z",
     "sources": [
       "NYT",
+      "The Block",
       "The Defiant"
     ]
   },
