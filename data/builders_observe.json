@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1781878938,
+    "count": 1,
+    "titles": [
+      "GitHub 热门工具：superpowers"
+    ],
+    "items": [
+      {
+        "id": "fa06b8f9ade60a0f",
+        "title": "GitHub 热门工具：superpowers",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1781867753,
     "count": 1,
     "titles": [
@@ -335,34 +353,6 @@
         "source": "GitHub Trending",
         "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
         "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1781699986,
-    "count": 2,
-    "titles": [
-      "GitHub 热门工具：skills",
-      "硬件钱包的安全盲区：供应链攻击的隐蔽风险"
-    ],
-    "items": [
-      {
-        "id": "5efc5fa62830c201",
-        "title": "GitHub 热门工具：skills",
-        "topic": "CLAUDE",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      },
-      {
-        "id": "35c0b0e1193aade2",
-        "title": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
-        "topic": "ONEKEY",
-        "source": "OneKey Blog",
-        "meaning": "这是一个值得继续盯的变化信号。",
-        "action_hint": "点开核对原文。",
         "urgency": "medium"
       }
     ]
