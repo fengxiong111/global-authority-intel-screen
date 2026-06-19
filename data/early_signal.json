@@ -1,5 +1,38 @@
 [
   {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 2,
+    "community_hits": 3,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-06-18T19:08:50.000Z",
+    "sources": [
+      "Hacker News",
+      "Reddit",
+      "SemiAnalysis",
+      "X"
+    ]
+  },
+  {
+    "topic": "The",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 2,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-06-18T12:44:48.000Z",
+    "sources": [
+      "OpenAI News",
+      "Reddit",
+      "X"
+    ]
+  },
+  {
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 3,
@@ -18,7 +51,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -33,33 +66,19 @@
     ]
   },
   {
-    "topic": "The",
-    "type": "AI",
+    "topic": "科技",
+    "type": "OTHER",
     "mentions": 3,
     "trusted_mentions": 2,
-    "community_hits": 0,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-18T12:44:48.000Z",
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-06-15T17:19:27.000Z",
     "sources": [
-      "OpenAI News",
-      "X"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-18T19:08:50.000Z",
-    "sources": [
-      "SemiAnalysis",
-      "X"
+      "Hacker News",
+      "Karpathy",
+      "Simon Willison"
     ]
   },
   {
@@ -91,21 +110,6 @@
       "NYT",
       "The Block",
       "The Defiant"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.91,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-06-15T17:19:27.000Z",
-    "sources": [
-      "Karpathy",
-      "Simon Willison"
     ]
   }
 ]
