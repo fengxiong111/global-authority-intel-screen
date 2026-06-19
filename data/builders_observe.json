@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1781833871,
+    "count": 1,
+    "titles": [
+      "GitHub 热门工具：superpowers"
+    ],
+    "items": [
+      {
+        "id": "fa06b8f9ade60a0f",
+        "title": "GitHub 热门工具：superpowers",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1781823785,
     "count": 2,
     "titles": [
@@ -321,12 +339,6 @@
   },
   {
     "fetch_time": 1781666691,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1781654187,
     "count": 0,
     "titles": [],
     "items": []
