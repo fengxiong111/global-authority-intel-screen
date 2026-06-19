@@ -2,34 +2,16 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 6,
-    "trusted_mentions": 3,
-    "community_hits": 3,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 1,
-    "first_seen_at": "2026-06-18T19:08:50.000Z",
-    "sources": [
-      "Bloomberg",
-      "Hacker News",
-      "Reddit",
-      "SemiAnalysis",
-      "X"
-    ]
-  },
-  {
-    "topic": "The",
-    "type": "AI",
-    "mentions": 5,
+    "mentions": 3,
     "trusted_mentions": 2,
-    "community_hits": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.9,
-    "first_seen_at": "2026-06-18T12:44:48.000Z",
+    "first_seen_at": "2026-06-18T19:08:50.000Z",
     "sources": [
-      "OpenAI News",
-      "Reddit",
+      "Hacker News",
+      "SemiAnalysis",
       "X"
     ]
   },
@@ -44,8 +26,8 @@
     "resonance_score": 0.9,
     "first_seen_at": "2026-06-17T10:00:00.000Z",
     "sources": [
-      "Hacker News",
       "OpenAI News",
+      "Reddit",
       "X"
     ]
   },
@@ -67,25 +49,39 @@
     ]
   },
   {
-    "topic": "科技",
-    "type": "OTHER",
+    "topic": "The",
+    "type": "AI",
     "mentions": 3,
     "trusted_mentions": 2,
-    "community_hits": 1,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-06-15T17:19:27.000Z",
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-18T12:44:48.000Z",
     "sources": [
-      "Hacker News",
-      "Karpathy",
-      "Simon Willison"
+      "OpenAI News",
+      "X"
+    ]
+  },
+  {
+    "topic": "索尼",
+    "type": "GAME",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-06-19T16:37:29.000Z",
+    "sources": [
+      "PlayStation Blog",
+      "Sony Interactive"
     ]
   },
   {
     "topic": "ETF",
     "type": "CRYPTO",
-    "mentions": 3,
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -95,6 +91,20 @@
     "sources": [
       "The Block",
       "The Defiant"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-06-19T16:01:38.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
