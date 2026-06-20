@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1781978834,
+    "count": 2,
+    "titles": [
+      "纽约时报：Mideast 最新进展: Strait of Hormuz…",
+      "GitHub 热门工具：skills"
+    ],
+    "items": [
+      {
+        "id": "77400704ba2e4e01",
+        "title": "纽约时报：Mideast 最新进展: Strait of Hormuz…",
+        "topic": "NYT",
+        "source": "NYT",
+        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
+        "action_hint": "看是否继续升级。",
+        "urgency": "high"
+      },
+      {
+        "id": "5efc5fa62830c201",
+        "title": "GitHub 热门工具：skills",
+        "topic": "CLAUDE",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1781974425,
     "count": 2,
     "titles": [
