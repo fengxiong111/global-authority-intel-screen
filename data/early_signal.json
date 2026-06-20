@@ -1,6 +1,6 @@
 [
   {
-    "topic": "openai",
+    "topic": "OpenAI",
     "type": "AI",
     "mentions": 4,
     "trusted_mentions": 3,
@@ -19,9 +19,9 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 2,
-    "community_hits": 3,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -61,21 +61,6 @@
     "sources": [
       "OpenAI News",
       "X"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-19T21:00:01.000Z",
-    "sources": [
-      "Bloomberg",
-      "Karpathy"
     ]
   },
   {
