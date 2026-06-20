@@ -2,15 +2,14 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 3,
+    "mentions": 3,
+    "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 0.9,
     "first_seen_at": "2026-06-17T10:00:00.000Z",
     "sources": [
-      "NYT",
       "OpenAI News",
       "Reddit",
       "X"
@@ -19,15 +18,16 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 2,
-    "community_hits": 2,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.78,
     "first_seen_at": "2026-06-18T19:08:50.000Z",
     "sources": [
       "Bloomberg",
+      "Hacker News",
       "Reddit",
       "SemiAnalysis"
     ]
@@ -105,6 +105,20 @@
     "first_seen_at": "2026-06-19T21:38:12.000Z",
     "sources": [
       "Reddit"
+    ]
+  },
+  {
+    "topic": "POLYMARKET",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-06-19T20:17:41.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
