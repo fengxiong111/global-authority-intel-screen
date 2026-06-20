@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1781974425,
+    "count": 2,
+    "titles": [
+      "纽约时报：Mideast 最新进展: Strait of Hormuz…",
+      "GitHub 热门工具：skills"
+    ],
+    "items": [
+      {
+        "id": "4d8753d65a8b6e50",
+        "title": "纽约时报：Mideast 最新进展: Strait of Hormuz…",
+        "topic": "NYT",
+        "source": "NYT",
+        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
+        "action_hint": "看是否继续升级。",
+        "urgency": "high"
+      },
+      {
+        "id": "5efc5fa62830c201",
+        "title": "GitHub 热门工具：skills",
+        "topic": "CLAUDE",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1781968574,
     "count": 2,
     "titles": [
@@ -463,24 +491,6 @@
       {
         "id": "14bb9086d6d63cd4",
         "title": "GitHub 热门工具：flue",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1781798641,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：superpowers"
-    ],
-    "items": [
-      {
-        "id": "fa06b8f9ade60a0f",
-        "title": "GitHub 热门工具：superpowers",
         "topic": "TECH",
         "source": "GitHub Trending",
         "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
