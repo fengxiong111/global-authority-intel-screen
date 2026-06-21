@@ -1,5 +1,20 @@
 [
   {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-21T06:07:30.000Z",
+    "sources": [
+      "Reddit",
+      "SemiAnalysis"
+    ]
+  },
+  {
     "topic": "The",
     "type": "AI",
     "mentions": 3,
@@ -12,6 +27,36 @@
     "sources": [
       "OpenAI News",
       "X"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-21T09:01:44.000Z",
+    "sources": [
+      "Karpathy",
+      "NYT"
+    ]
+  },
+  {
+    "topic": "索尼",
+    "type": "GAME",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.91,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-06-19T16:37:29.000Z",
+    "sources": [
+      "PlayStation Blog",
+      "Sony Interactive"
     ]
   }
 ]
