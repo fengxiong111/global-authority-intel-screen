@@ -1,17 +1,33 @@
 [
   {
-    "topic": "Claude",
-    "type": "AI",
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
     "mentions": 3,
-    "trusted_mentions": 0,
-    "community_hits": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-06-21T12:48:06.000Z",
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-06-22T12:20:27.000Z",
     "sources": [
-      "Hacker News",
-      "Reddit"
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-22T15:20:31.000Z",
+    "sources": [
+      "Bloomberg",
+      "Karpathy"
     ]
   },
   {
@@ -27,20 +43,6 @@
     "sources": [
       "PlayStation Blog",
       "Sony Interactive"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-06-21T19:22:48.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
