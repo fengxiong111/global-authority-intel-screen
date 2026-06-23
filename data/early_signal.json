@@ -2,7 +2,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -13,6 +13,22 @@
       "Bloomberg",
       "OneKey Blog",
       "The Block"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-06-23T13:37:26.000Z",
+    "sources": [
+      "Bloomberg",
+      "Reddit",
+      "SemiAnalysis"
     ]
   },
   {
@@ -46,33 +62,18 @@
     ]
   },
   {
-    "topic": "Senate Votes",
-    "type": "MACRO",
+    "topic": "The",
+    "type": "OTHER",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-06-23T19:43:55.000Z",
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-23T21:34:15.000Z",
     "sources": [
       "Bloomberg",
-      "NYT"
-    ]
-  },
-  {
-    "topic": "etf",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-06-23T16:00:06.000Z",
-    "sources": [
-      "NYT",
-      "The Defiant"
+      "Karpathy"
     ]
   }
 ]
