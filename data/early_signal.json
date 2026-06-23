@@ -43,20 +43,5 @@
       "OpenAI News",
       "X"
     ]
-  },
-  {
-    "topic": "ETF",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-06-22T19:00:06.000Z",
-    "sources": [
-      "Bloomberg",
-      "NYT"
-    ]
   }
 ]
