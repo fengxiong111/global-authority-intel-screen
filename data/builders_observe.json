@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1782255789,
+    "count": 1,
+    "titles": [
+      "GitHub 热门工具：gstack"
+    ],
+    "items": [
+      {
+        "id": "a10a718bbb9d5ce8",
+        "title": "GitHub 热门工具：gstack",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1782251766,
     "count": 1,
     "titles": [
@@ -354,23 +372,5 @@
     "count": 0,
     "titles": [],
     "items": []
-  },
-  {
-    "fetch_time": 1782082001,
-    "count": 1,
-    "titles": [
-      "纽约时报：Mideast 最新进展: Strains Emerge on…"
-    ],
-    "items": [
-      {
-        "id": "2c0bc2e0a2136756",
-        "title": "纽约时报：Mideast 最新进展: Strains Emerge on…",
-        "topic": "NYT",
-        "source": "NYT",
-        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
-        "action_hint": "看是否继续升级。",
-        "urgency": "high"
-      }
-    ]
   }
 ]
