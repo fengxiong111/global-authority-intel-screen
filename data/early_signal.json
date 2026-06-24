@@ -2,16 +2,17 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 7,
-    "trusted_mentions": 5,
+    "mentions": 10,
+    "trusted_mentions": 6,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 1,
     "first_seen_at": "2026-06-22T12:20:27.000Z",
     "sources": [
       "Bloomberg",
       "OneKey Blog",
+      "The Block",
       "The Defiant",
       "X"
     ]
@@ -30,22 +31,6 @@
       "Anthropic Newsroom",
       "Reddit",
       "X"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-06-24T14:50:35.000Z",
-    "sources": [
-      "Bloomberg",
-      "Hacker News",
-      "SemiAnalysis"
     ]
   },
   {
@@ -122,6 +107,20 @@
     "sources": [
       "PlayStation Blog",
       "Sony Interactive"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-06-24T20:57:26.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
