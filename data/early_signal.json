@@ -1,18 +1,18 @@
 [
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 3,
-    "community_hits": 2,
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 6,
+    "trusted_mentions": 4,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.95,
-    "first_seen_at": "2026-06-22T17:04:39.000Z",
+    "first_seen_at": "2026-06-22T12:20:27.000Z",
     "sources": [
       "Bloomberg",
-      "OpenAI News",
-      "Reddit",
+      "OneKey Blog",
+      "The Block",
       "X"
     ]
   },
@@ -33,34 +33,19 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 6,
-    "trusted_mentions": 3,
-    "community_hits": 0,
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 1,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
-    "first_seen_at": "2026-06-22T12:20:27.000Z",
+    "first_seen_at": "2026-06-22T17:04:39.000Z",
     "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Block"
-    ]
-  },
-  {
-    "topic": "Grand Theft Auto",
-    "type": "GAME",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-24T10:05:33.000Z",
-    "sources": [
-      "PlayStation Blog",
-      "Reddit"
+      "Hacker News",
+      "Reddit",
+      "X"
     ]
   },
   {
@@ -91,6 +76,21 @@
     "sources": [
       "Karpathy",
       "NYT"
+    ]
+  },
+  {
+    "topic": "索尼",
+    "type": "GAME",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-06-24T16:00:15.000Z",
+    "sources": [
+      "PlayStation Blog",
+      "Sony Interactive"
     ]
   }
 ]
