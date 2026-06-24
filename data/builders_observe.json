@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1782344186,
+    "count": 2,
+    "titles": [
+      "Sports-based 预测市场 应用 Onyx Odds raises…",
+      "GitHub 热门工具：container"
+    ],
+    "items": [
+      {
+        "id": "b43047cddb1b1d51",
+        "title": "Sports-based 预测市场 应用 Onyx Odds raises…",
+        "topic": "BTC",
+        "source": "The Block",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "0e7f488b32550641",
+        "title": "GitHub 热门工具：container",
+        "topic": "APPLE",
+        "source": "GitHub Trending",
+        "meaning": "苹果产品节奏或生态接口在变，可能影响后续判断。",
+        "action_hint": "看功能与上线时间。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1782339499,
     "count": 2,
     "titles": [
@@ -505,24 +533,6 @@
         "source": "OneKey Blog",
         "meaning": "这是一个值得继续盯的变化信号。",
         "action_hint": "点开核对原文。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1782169479,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：gstack"
-    ],
-    "items": [
-      {
-        "id": "a10a718bbb9d5ce8",
-        "title": "GitHub 热门工具：gstack",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
         "urgency": "medium"
       }
     ]
