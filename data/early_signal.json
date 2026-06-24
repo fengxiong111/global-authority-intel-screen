@@ -1,21 +1,5 @@
 [
   {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-06-23T00:00:00.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Hacker News",
-      "X"
-    ]
-  },
-  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 5,
@@ -29,6 +13,37 @@
       "Bloomberg",
       "OneKey Blog",
       "The Block"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-06-23T13:37:26.000Z",
+    "sources": [
+      "Bloomberg",
+      "Reddit",
+      "SemiAnalysis"
+    ]
+  },
+  {
+    "topic": "Codex",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-21T23:00:00.000Z",
+    "sources": [
+      "OpenAI News",
+      "X"
     ]
   },
   {
@@ -62,18 +77,18 @@
     ]
   },
   {
-    "topic": "The",
-    "type": "OTHER",
+    "topic": "Claude",
+    "type": "AI",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-06-23T21:34:15.000Z",
+    "first_seen_at": "2026-06-23T00:00:00.000Z",
     "sources": [
-      "Bloomberg",
-      "Karpathy"
+      "Anthropic Newsroom",
+      "X"
     ]
   }
 ]
