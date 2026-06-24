@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1782298236,
+    "count": 3,
+    "titles": [
+      "Cboe 发布 预测市场 suite with binary 期权…",
+      "GitHub 热门工具：container",
+      "硬件钱包的安全盲区：供应链攻击的隐蔽风险"
+    ],
+    "items": [
+      {
+        "id": "a46a962c14b097db",
+        "title": "Cboe 发布 预测市场 suite with binary 期权…",
+        "topic": "BTC",
+        "source": "The Block",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "0e7f488b32550641",
+        "title": "GitHub 热门工具：container",
+        "topic": "APPLE",
+        "source": "GitHub Trending",
+        "meaning": "苹果产品节奏或生态接口在变，可能影响后续判断。",
+        "action_hint": "看功能与上线时间。",
+        "urgency": "medium"
+      },
+      {
+        "id": "35c0b0e1193aade2",
+        "title": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
+        "topic": "ONEKEY",
+        "source": "OneKey Blog",
+        "meaning": "这是一个值得继续盯的变化信号。",
+        "action_hint": "点开核对原文。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1782287940,
     "count": 2,
     "titles": [
@@ -372,34 +410,6 @@
         "source": "GitHub Trending",
         "meaning": "模型或工具能力变了，可能影响你的工作流。",
         "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "35c0b0e1193aade2",
-        "title": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
-        "topic": "ONEKEY",
-        "source": "OneKey Blog",
-        "meaning": "这是一个值得继续盯的变化信号。",
-        "action_hint": "点开核对原文。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1782123749,
-    "count": 2,
-    "titles": [
-      "GitHub 热门工具：OpenMontage",
-      "硬件钱包的安全盲区：供应链攻击的隐蔽风险"
-    ],
-    "items": [
-      {
-        "id": "86ba76a50a05c893",
-        "title": "GitHub 热门工具：OpenMontage",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
         "urgency": "medium"
       },
       {
