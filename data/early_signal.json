@@ -1,23 +1,5 @@
 [
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 8,
-    "trusted_mentions": 5,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 1,
-    "first_seen_at": "2026-06-22T17:04:39.000Z",
-    "sources": [
-      "Bloomberg",
-      "NYT",
-      "OpenAI News",
-      "Reddit",
-      "X"
-    ]
-  },
-  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 7,
@@ -36,7 +18,7 @@
     ]
   },
   {
-    "topic": "Claude",
+    "topic": "CLAUDE",
     "type": "AI",
     "mentions": 5,
     "trusted_mentions": 2,
@@ -49,6 +31,22 @@
       "Anthropic Newsroom",
       "Reddit",
       "X"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-06-22T17:04:39.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT",
+      "OpenAI News"
     ]
   },
   {
@@ -94,6 +92,20 @@
     "sources": [
       "PlayStation Blog",
       "Sony Interactive"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-06-25T23:07:00.000Z",
+    "sources": [
+      "X"
     ]
   },
   {
