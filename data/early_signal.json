@@ -2,8 +2,8 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 8,
-    "trusted_mentions": 5,
+    "mentions": 9,
+    "trusted_mentions": 6,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
@@ -35,34 +35,34 @@
     ]
   },
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-06-22T17:04:39.000Z",
-    "sources": [
-      "Hacker News",
-      "NYT",
-      "OpenAI News"
-    ]
-  },
-  {
-    "topic": "GPT-5.5",
+    "topic": "Anthropic",
     "type": "AI",
     "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-22T18:12:29.000Z",
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-06-25T14:17:40.000Z",
     "sources": [
+      "Bloomberg",
       "Reddit",
-      "X"
+      "SemiAnalysis"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-22T17:04:39.000Z",
+    "sources": [
+      "NYT",
+      "OpenAI News"
     ]
   },
   {
@@ -81,18 +81,18 @@
     ]
   },
   {
-    "topic": "Supreme Court Lets",
-    "type": "OTHER",
+    "topic": "Strategy",
+    "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-06-25T14:26:51.000Z",
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-25T15:49:11.000Z",
     "sources": [
-      "Bloomberg",
-      "NYT"
+      "The Defiant",
+      "X"
     ]
   },
   {
@@ -138,6 +138,20 @@
     "sources": [
       "PlayStation Blog",
       "Sony Interactive"
+    ]
+  },
+  {
+    "topic": "Codex",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-06-25T17:23:08.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
