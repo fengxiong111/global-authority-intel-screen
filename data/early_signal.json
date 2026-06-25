@@ -1,5 +1,23 @@
 [
   {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 8,
+    "trusted_mentions": 5,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 1,
+    "first_seen_at": "2026-06-22T17:04:39.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT",
+      "OpenAI News",
+      "Reddit",
+      "X"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 7,
@@ -20,33 +38,16 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 2,
-    "community_hits": 4,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-06-23T00:00:00.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Hacker News",
-      "Reddit",
-      "X"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 0,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.9,
-    "first_seen_at": "2026-06-22T17:04:39.000Z",
+    "first_seen_at": "2026-06-23T00:00:00.000Z",
     "sources": [
-      "NYT",
-      "OpenAI News",
+      "Anthropic Newsroom",
+      "Reddit",
       "X"
     ]
   },
@@ -63,21 +64,6 @@
     "sources": [
       "OpenAI News",
       "SemiAnalysis"
-    ]
-  },
-  {
-    "topic": "Strategy",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-25T15:49:11.000Z",
-    "sources": [
-      "The Defiant",
-      "X"
     ]
   },
   {
