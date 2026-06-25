@@ -1,10 +1,27 @@
 [
   {
-    "topic": "Claude",
+    "topic": "OpenAI",
     "type": "AI",
     "mentions": 4,
     "trusted_mentions": 2,
     "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-06-22T17:04:39.000Z",
+    "sources": [
+      "Hacker News",
+      "OpenAI News",
+      "Reddit",
+      "X"
+    ]
+  },
+  {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 2,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.9,
@@ -30,22 +47,6 @@
       "OneKey Blog",
       "The Block",
       "The Defiant"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-06-22T17:04:39.000Z",
-    "sources": [
-      "Hacker News",
-      "OpenAI News",
-      "Reddit"
     ]
   },
   {
