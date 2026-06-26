@@ -1,5 +1,22 @@
 [
   {
+    "topic": "POLYMARKET",
+    "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.78,
+    "first_seen_at": "2026-06-26T16:46:18.000Z",
+    "sources": [
+      "NYT",
+      "The Block",
+      "The Defiant",
+      "X"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 4,
@@ -90,22 +107,6 @@
       "Bloomberg",
       "NYT",
       "SemiAnalysis"
-    ]
-  },
-  {
-    "topic": "Polymarket",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.1,
-    "first_seen_at": "2026-06-26T16:46:18.000Z",
-    "sources": [
-      "NYT",
-      "The Block",
-      "The Defiant"
     ]
   },
   {
