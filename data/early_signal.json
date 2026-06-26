@@ -2,7 +2,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 7,
+    "mentions": 9,
     "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
@@ -20,9 +20,9 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 2,
-    "community_hits": 2,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.9,
