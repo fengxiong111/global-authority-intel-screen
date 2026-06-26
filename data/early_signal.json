@@ -20,18 +20,33 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 7,
-    "trusted_mentions": 3,
+    "mentions": 5,
+    "trusted_mentions": 2,
     "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 0.9,
     "first_seen_at": "2026-06-22T17:04:39.000Z",
     "sources": [
-      "Bloomberg",
       "NYT",
       "OpenAI News",
       "Reddit"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-06-25T15:34:41.000Z",
+    "sources": [
+      "NYT",
+      "Reddit",
+      "SemiAnalysis"
     ]
   },
   {
