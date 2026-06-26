@@ -18,35 +18,35 @@
     ]
   },
   {
-    "topic": "CLAUDE",
-    "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 2,
-    "community_hits": 3,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-06-23T00:00:00.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Reddit",
-      "X"
-    ]
-  },
-  {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 7,
     "trusted_mentions": 3,
-    "community_hits": 0,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-06-22T17:04:39.000Z",
     "sources": [
       "Bloomberg",
       "NYT",
-      "OpenAI News"
+      "OpenAI News",
+      "Reddit"
+    ]
+  },
+  {
+    "topic": "CLAUDE",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 1,
+    "community_hits": 3,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-23T00:00:00.000Z",
+    "sources": [
+      "Reddit",
+      "X"
     ]
   },
   {
@@ -77,35 +77,6 @@
     "sources": [
       "PlayStation Blog",
       "Sony Interactive"
-    ]
-  },
-  {
-    "topic": "索尼",
-    "type": "GAME",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.85,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-06-24T16:00:15.000Z",
-    "sources": [
-      "PlayStation Blog",
-      "Sony Interactive"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-06-25T23:07:00.000Z",
-    "sources": [
-      "X"
     ]
   },
   {
