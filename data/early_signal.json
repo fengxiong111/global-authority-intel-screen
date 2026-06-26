@@ -17,19 +17,19 @@
     ]
   },
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
-    "first_seen_at": "2026-06-25T15:34:41.000Z",
+    "first_seen_at": "2026-06-22T12:20:27.000Z",
     "sources": [
-      "NYT",
-      "Reddit",
-      "SemiAnalysis"
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block"
     ]
   },
   {
@@ -49,22 +49,6 @@
     ]
   },
   {
-    "topic": "ETF",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-06-26T16:34:00.000Z",
-    "sources": [
-      "Bloomberg",
-      "Reddit",
-      "The Defiant"
-    ]
-  },
-  {
     "topic": "Claude",
     "type": "AI",
     "mentions": 5,
@@ -77,21 +61,6 @@
     "sources": [
       "Reddit",
       "X"
-    ]
-  },
-  {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-22T12:20:27.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog"
     ]
   },
   {
@@ -127,16 +96,32 @@
   {
     "topic": "Polymarket",
     "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.1,
+    "first_seen_at": "2026-06-26T16:46:18.000Z",
+    "sources": [
+      "NYT",
+      "The Block",
+      "The Defiant"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 1,
+    "growth_score": 0.97,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-06-26T16:46:18.000Z",
+    "first_seen_at": "2026-06-25T15:34:41.000Z",
     "sources": [
-      "The Block",
-      "The Defiant"
+      "NYT",
+      "SemiAnalysis"
     ]
   },
   {
