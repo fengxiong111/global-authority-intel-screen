@@ -2,9 +2,9 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 6,
     "trusted_mentions": 3,
-    "community_hits": 4,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.83,
@@ -15,23 +15,6 @@
       "NYT",
       "Reddit",
       "SemiAnalysis"
-    ]
-  },
-  {
-    "topic": "Polymarket",
-    "type": "CRYPTO",
-    "mentions": 5,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-06-26T12:28:00.000Z",
-    "sources": [
-      "NYT",
-      "The Block",
-      "The Defiant",
-      "X"
     ]
   },
   {
@@ -67,21 +50,6 @@
     ]
   },
   {
-    "topic": "GPT",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-26T17:10:22.000Z",
-    "sources": [
-      "Reddit",
-      "X"
-    ]
-  },
-  {
     "topic": "Base",
     "type": "CRYPTO",
     "mentions": 2,
@@ -94,6 +62,22 @@
     "sources": [
       "The Block",
       "X"
+    ]
+  },
+  {
+    "topic": "Polymarket",
+    "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.1,
+    "first_seen_at": "2026-06-26T12:28:00.000Z",
+    "sources": [
+      "NYT",
+      "The Block",
+      "The Defiant"
     ]
   },
   {
@@ -124,6 +108,20 @@
     "sources": [
       "OpenAI News",
       "Simon Willison"
+    ]
+  },
+  {
+    "topic": "PlayStation",
+    "type": "GAME",
+    "mentions": 3,
+    "trusted_mentions": 0,
+    "community_hits": 3,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-06-26T18:52:54.000Z",
+    "sources": [
+      "Reddit"
     ]
   }
 ]
