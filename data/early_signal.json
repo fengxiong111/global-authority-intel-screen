@@ -1,22 +1,5 @@
 [
   {
-    "topic": "POLYMARKET",
-    "type": "CRYPTO",
-    "mentions": 6,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-06-26T12:28:00.000Z",
-    "sources": [
-      "NYT",
-      "The Block",
-      "The Defiant",
-      "X"
-    ]
-  },
-  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 5,
@@ -35,9 +18,9 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 2,
-    "community_hits": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -65,18 +48,19 @@
     ]
   },
   {
-    "topic": "GPT-5.6",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
+    "topic": "Polymarket",
+    "type": "CRYPTO",
+    "mentions": 5,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-26T10:00:00.000Z",
+    "resonance_score": 0.1,
+    "first_seen_at": "2026-06-26T12:28:00.000Z",
     "sources": [
-      "OpenAI News",
-      "X"
+      "NYT",
+      "The Block",
+      "The Defiant"
     ]
   },
   {
@@ -107,20 +91,6 @@
     "sources": [
       "OpenAI News",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "Nintendo",
-    "type": "GAME",
-    "mentions": 3,
-    "trusted_mentions": 0,
-    "community_hits": 3,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-06-27T03:43:13.000Z",
-    "sources": [
-      "Reddit"
     ]
   }
 ]
