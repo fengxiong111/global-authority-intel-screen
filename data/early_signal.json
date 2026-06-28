@@ -16,6 +16,22 @@
     ]
   },
   {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-06-22T12:20:27.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block"
+    ]
+  },
+  {
     "topic": "科技",
     "type": "OTHER",
     "mentions": 3,
@@ -32,26 +48,11 @@
     ]
   },
   {
-    "topic": "任天堂",
-    "type": "GAME",
-    "mentions": 5,
-    "trusted_mentions": 1,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-26T01:01:04.000Z",
-    "sources": [
-      "Nintendo News",
-      "Reddit"
-    ]
-  },
-  {
     "topic": "Claude",
     "type": "AI",
     "mentions": 4,
-    "trusted_mentions": 1,
-    "community_hits": 3,
+    "trusted_mentions": 2,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
@@ -59,21 +60,6 @@
     "sources": [
       "Reddit",
       "X"
-    ]
-  },
-  {
-    "topic": "bitcoin",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-22T12:20:27.000Z",
-    "sources": [
-      "OneKey Blog",
-      "The Block"
     ]
   },
   {
@@ -90,21 +76,6 @@
       "NYT",
       "The Block",
       "The Defiant"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.97,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-06-25T15:34:41.000Z",
-    "sources": [
-      "NYT",
-      "SemiAnalysis"
     ]
   }
 ]
