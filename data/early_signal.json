@@ -1,77 +1,57 @@
 [
   {
-    "topic": "Polymarket",
-    "type": "CRYPTO",
-    "mentions": 7,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-06-26T12:28:00.000Z",
-    "sources": [
-      "NYT",
-      "The Block",
-      "The Defiant",
-      "X"
-    ]
-  },
-  {
-    "topic": "Anthropic",
+    "topic": "GPT-5.6",
     "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 3,
-    "community_hits": 2,
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-06-25T15:34:41.000Z",
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-06-26T10:00:00.000Z",
     "sources": [
-      "Bloomberg",
-      "NYT",
+      "OpenAI News",
       "Reddit",
-      "SemiAnalysis"
+      "X"
     ]
   },
   {
     "topic": "科技",
     "type": "OTHER",
-    "mentions": 4,
-    "trusted_mentions": 4,
+    "mentions": 3,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-06-26T14:15:35.000Z",
     "sources": [
-      "Bloomberg",
       "Karpathy",
       "NYT",
       "Simon Willison"
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 0,
+    "topic": "任天堂",
+    "type": "GAME",
+    "mentions": 5,
+    "trusted_mentions": 1,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-06-22T12:20:27.000Z",
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-26T01:01:04.000Z",
     "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Block"
+      "Nintendo News",
+      "Reddit"
     ]
   },
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 1,
-    "community_hits": 4,
+    "community_hits": 3,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
@@ -82,17 +62,49 @@
     ]
   },
   {
-    "topic": "JUST",
+    "topic": "bitcoin",
     "type": "CRYPTO",
     "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-06-27T21:52:04.000Z",
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-06-22T12:20:27.000Z",
     "sources": [
-      "X"
+      "OneKey Blog",
+      "The Block"
+    ]
+  },
+  {
+    "topic": "Polymarket",
+    "type": "CRYPTO",
+    "mentions": 6,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.1,
+    "first_seen_at": "2026-06-26T12:28:00.000Z",
+    "sources": [
+      "NYT",
+      "The Block",
+      "The Defiant"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.97,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-06-25T15:34:41.000Z",
+    "sources": [
+      "NYT",
+      "SemiAnalysis"
     ]
   }
 ]
