@@ -19,9 +19,9 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 1,
-    "community_hits": 5,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
@@ -33,18 +33,18 @@
     ]
   },
   {
-    "topic": "ETF",
-    "type": "CRYPTO",
+    "topic": "Anthropic",
+    "type": "AI",
     "mentions": 3,
     "trusted_mentions": 1,
-    "community_hits": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-06-29T15:31:28.000Z",
+    "first_seen_at": "2026-06-29T18:23:05.000Z",
     "sources": [
-      "Bloomberg",
-      "Reddit"
+      "Reddit",
+      "SemiAnalysis"
     ]
   }
 ]
