@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1782698344,
+    "count": 1,
+    "titles": [
+      "硬件钱包的安全盲区：供应链攻击的隐蔽风险"
+    ],
+    "items": [
+      {
+        "id": "35c0b0e1193aade2",
+        "title": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
+        "topic": "ONEKEY",
+        "source": "OneKey Blog",
+        "meaning": "这是一个值得继续盯的变化信号。",
+        "action_hint": "点开核对原文。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1782690503,
     "count": 1,
     "titles": [
@@ -725,34 +743,6 @@
   },
   {
     "fetch_time": 1782531339,
-    "count": 2,
-    "titles": [
-      "DraftKings 发布 its own 预测市场 exchange as…",
-      "GitHub 热门工具：OpenMontage"
-    ],
-    "items": [
-      {
-        "id": "e0e68d7caa70bc14",
-        "title": "DraftKings 发布 its own 预测市场 exchange as…",
-        "topic": "BTC",
-        "source": "The Block",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      },
-      {
-        "id": "86ba76a50a05c893",
-        "title": "GitHub 热门工具：OpenMontage",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1782518334,
     "count": 2,
     "titles": [
       "DraftKings 发布 its own 预测市场 exchange as…",
