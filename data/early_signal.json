@@ -1,6 +1,6 @@
 [
   {
-    "topic": "POLYMARKET",
+    "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 5,
     "trusted_mentions": 3,
@@ -8,11 +8,11 @@
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
-    "first_seen_at": "2026-06-26T12:28:00.000Z",
+    "first_seen_at": "2026-06-22T12:20:27.000Z",
     "sources": [
-      "NYT",
-      "The Defiant",
-      "X"
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block"
     ]
   },
   {
@@ -32,38 +32,6 @@
     ]
   },
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-06-26T17:10:43.000Z",
-    "sources": [
-      "OpenAI News",
-      "Reddit",
-      "Simon Willison"
-    ]
-  },
-  {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-06-22T12:20:27.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Block"
-    ]
-  },
-  {
     "topic": "科技",
     "type": "OTHER",
     "mentions": 3,
@@ -80,32 +48,33 @@
     ]
   },
   {
-    "topic": "Codex",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-27T17:30:44.000Z",
-    "sources": [
-      "Hacker News",
-      "X"
-    ]
-  },
-  {
-    "topic": "JUST",
+    "topic": "Polymarket",
     "type": "CRYPTO",
-    "mentions": 2,
+    "mentions": 4,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-06-28T21:22:56.000Z",
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-06-26T12:28:00.000Z",
     "sources": [
-      "X"
+      "NYT",
+      "The Defiant"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.85,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-06-26T17:10:43.000Z",
+    "sources": [
+      "OpenAI News",
+      "Simon Willison"
     ]
   }
 ]
