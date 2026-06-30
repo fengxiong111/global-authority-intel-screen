@@ -2,30 +2,30 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 2,
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-06-22T12:20:27.000Z",
     "sources": [
       "Bloomberg",
-      "OneKey Blog"
+      "OneKey Blog",
+      "The Block"
     ]
   },
   {
-    "topic": "POLYMARKET",
+    "topic": "JUST",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-29T16:56:02.000Z",
+    "resonance_score": 0,
+    "first_seen_at": "2026-06-30T13:54:33.000Z",
     "sources": [
-      "The Defiant",
       "X"
     ]
   }
