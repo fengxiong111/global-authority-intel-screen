@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1782811318,
+    "count": 2,
+    "titles": [
+      "Arkham 发布 ranking system for 预测市场…",
+      "科技：TD Cowen says crypto 市场结构 bill…"
+    ],
+    "items": [
+      {
+        "id": "fdfc55a8c846714d",
+        "title": "Arkham 发布 ranking system for 预测市场…",
+        "topic": "BTC",
+        "source": "The Block",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "1e97e2cf1dccf076",
+        "title": "科技：TD Cowen says crypto 市场结构 bill…",
+        "topic": "CRYPTO_TOOLS",
+        "source": "The Block",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1782798708,
     "count": 2,
     "titles": [
@@ -459,62 +487,6 @@
         "source": "OneKey Blog",
         "meaning": "这是一个值得继续盯的变化信号。",
         "action_hint": "点开核对原文。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1782638188,
-    "count": 2,
-    "titles": [
-      "GitHub 热门工具：gstack",
-      "硬件钱包的安全盲区：供应链攻击的隐蔽风险"
-    ],
-    "items": [
-      {
-        "id": "a10a718bbb9d5ce8",
-        "title": "GitHub 热门工具：gstack",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "35c0b0e1193aade2",
-        "title": "硬件钱包的安全盲区：供应链攻击的隐蔽风险",
-        "topic": "ONEKEY",
-        "source": "OneKey Blog",
-        "meaning": "这是一个值得继续盯的变化信号。",
-        "action_hint": "点开核对原文。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1782626408,
-    "count": 2,
-    "titles": [
-      "纽约时报：Mideast 最新进展: U.S. and Iran Trade…",
-      "GitHub 热门工具：gstack"
-    ],
-    "items": [
-      {
-        "id": "ed75299b9e3b7733",
-        "title": "纽约时报：Mideast 最新进展: U.S. and Iran Trade…",
-        "topic": "NYT",
-        "source": "NYT",
-        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
-        "action_hint": "看是否继续升级。",
-        "urgency": "high"
-      },
-      {
-        "id": "a10a718bbb9d5ce8",
-        "title": "GitHub 热门工具：gstack",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
         "urgency": "medium"
       }
     ]
