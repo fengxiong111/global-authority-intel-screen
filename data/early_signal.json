@@ -2,7 +2,7 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 6,
     "trusted_mentions": 3,
     "community_hits": 3,
     "ranking_change": false,
@@ -17,45 +17,11 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 7,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-06-22T12:20:27.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Block",
-      "X"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-06-28T17:00:00.000Z",
-    "sources": [
-      "NYT",
-      "OpenAI News",
-      "Reddit",
-      "X"
-    ]
-  },
-  {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 2,
-    "community_hits": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.9,
@@ -67,19 +33,50 @@
     ]
   },
   {
-    "topic": "Claude Sonnet",
+    "topic": "OpenAI",
     "type": "AI",
     "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-06-30T00:00:00.000Z",
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-06-28T17:00:00.000Z",
     "sources": [
-      "Anthropic Newsroom",
-      "Hacker News",
-      "Simon Willison"
+      "NYT",
+      "Reddit",
+      "X"
+    ]
+  },
+  {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 5,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-06-22T12:20:27.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block"
+    ]
+  },
+  {
+    "topic": "Circle CEO Rebuts",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-07-01T16:20:04.000Z",
+    "sources": [
+      "The Defiant",
+      "X"
     ]
   },
   {
@@ -89,11 +86,26 @@
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 1,
+    "growth_score": 0.97,
     "resonance_score": 0.05,
     "first_seen_at": "2026-06-30T17:39:23.000Z",
     "sources": [
       "Karpathy",
+      "Simon Willison"
+    ]
+  },
+  {
+    "topic": "Claude Sonnet",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.91,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-06-30T00:00:00.000Z",
+    "sources": [
+      "Anthropic Newsroom",
       "Simon Willison"
     ]
   },
