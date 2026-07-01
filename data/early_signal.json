@@ -65,35 +65,33 @@
     ]
   },
   {
-    "topic": "Trump",
+    "topic": "Cloudflare Launches Monetization",
     "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 3,
+    "mentions": 2,
+    "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-07-01T16:38:49.000Z",
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-07-01T20:41:53.000Z",
     "sources": [
-      "Bloomberg",
-      "The Block",
+      "The Defiant",
       "X"
     ]
   },
   {
-    "topic": "ETF",
+    "topic": "Trump",
     "type": "CRYPTO",
-    "mentions": 3,
+    "mentions": 2,
     "trusted_mentions": 2,
-    "community_hits": 1,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-07-01T14:38:45.000Z",
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-07-01T16:38:49.000Z",
     "sources": [
       "Bloomberg",
-      "Reddit",
-      "The Defiant"
+      "The Block"
     ]
   },
   {
