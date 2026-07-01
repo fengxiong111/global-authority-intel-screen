@@ -19,8 +19,8 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
@@ -51,7 +51,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -62,6 +62,22 @@
       "Bloomberg",
       "OneKey Blog",
       "The Block"
+    ]
+  },
+  {
+    "topic": "ETF",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-07-01T14:38:45.000Z",
+    "sources": [
+      "Bloomberg",
+      "Reddit",
+      "The Defiant"
     ]
   },
   {
@@ -77,6 +93,21 @@
     "sources": [
       "The Defiant",
       "X"
+    ]
+  },
+  {
+    "topic": "Trump",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-07-01T16:38:49.000Z",
+    "sources": [
+      "Bloomberg",
+      "The Block"
     ]
   },
   {
