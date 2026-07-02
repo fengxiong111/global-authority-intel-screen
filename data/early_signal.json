@@ -1,26 +1,8 @@
 [
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 4,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 1,
-    "first_seen_at": "2026-06-30T23:55:28.000Z",
-    "sources": [
-      "Bloomberg",
-      "NYT",
-      "Reddit",
-      "SemiAnalysis",
-      "Simon Willison"
-    ]
-  },
-  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 8,
+    "mentions": 7,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -31,6 +13,39 @@
       "Bloomberg",
       "OneKey Blog",
       "The Block",
+      "X"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-06-30T23:55:28.000Z",
+    "sources": [
+      "NYT",
+      "Reddit",
+      "SemiAnalysis",
+      "Simon Willison"
+    ]
+  },
+  {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-06-30T00:00:00.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Reddit",
       "X"
     ]
   },
@@ -51,48 +66,34 @@
     ]
   },
   {
-    "topic": "OpenAI",
-    "type": "AI",
+    "topic": "ETF",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-07-01T17:38:00.000Z",
+    "sources": [
+      "Reddit",
+      "The Block",
+      "The Defiant"
+    ]
+  },
+  {
+    "topic": "Tesla",
+    "type": "OTHER",
     "mentions": 3,
     "trusted_mentions": 1,
     "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-06-28T17:00:00.000Z",
+    "first_seen_at": "2026-06-30T05:01:13.000Z",
     "sources": [
-      "NYT",
+      "Bloomberg",
       "Reddit"
-    ]
-  },
-  {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-30T00:00:00.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "X"
-    ]
-  },
-  {
-    "topic": "ETF",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-07-01T17:38:00.000Z",
-    "sources": [
-      "The Block",
-      "The Defiant"
     ]
   },
   {
@@ -113,9 +114,9 @@
   {
     "topic": "Fable",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 0,
-    "community_hits": 5,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0,
