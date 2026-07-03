@@ -50,7 +50,7 @@
     ]
   },
   {
-    "topic": "Claude",
+    "topic": "claude",
     "type": "AI",
     "mentions": 3,
     "trusted_mentions": 1,
@@ -61,6 +61,21 @@
     "first_seen_at": "2026-06-30T00:00:00.000Z",
     "sources": [
       "Reddit",
+      "X"
+    ]
+  },
+  {
+    "topic": "Trump",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-07-01T16:38:49.000Z",
+    "sources": [
+      "Bloomberg",
       "X"
     ]
   },
@@ -77,20 +92,6 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "iPhone",
-    "type": "APPLE",
-    "mentions": 3,
-    "trusted_mentions": 0,
-    "community_hits": 3,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-07-01T19:39:19.000Z",
-    "sources": [
-      "Reddit"
     ]
   },
   {
