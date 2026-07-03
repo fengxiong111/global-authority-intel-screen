@@ -16,7 +16,7 @@
     ]
   },
   {
-    "topic": "Bitcoin",
+    "topic": "bitcoin",
     "type": "CRYPTO",
     "mentions": 5,
     "trusted_mentions": 3,
@@ -65,7 +65,7 @@
   {
     "topic": "科技",
     "type": "OTHER",
-    "mentions": 3,
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -75,20 +75,6 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "Sony",
-    "type": "GAME",
-    "mentions": 3,
-    "trusted_mentions": 0,
-    "community_hits": 3,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-07-01T12:41:28.000Z",
-    "sources": [
-      "Reddit"
     ]
   }
 ]
