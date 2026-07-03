@@ -75,19 +75,5 @@
       "Karpathy",
       "Simon Willison"
     ]
-  },
-  {
-    "topic": "Sony",
-    "type": "GAME",
-    "mentions": 3,
-    "trusted_mentions": 0,
-    "community_hits": 3,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-07-01T12:41:28.000Z",
-    "sources": [
-      "Reddit"
-    ]
   }
 ]
