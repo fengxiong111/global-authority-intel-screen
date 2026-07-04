@@ -45,5 +45,20 @@
       "Reddit",
       "X"
     ]
+  },
+  {
+    "topic": "Nearly",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-07-04T10:28:34.000Z",
+    "sources": [
+      "NYT",
+      "The Block"
+    ]
   }
 ]
