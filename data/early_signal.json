@@ -1,5 +1,21 @@
 [
   {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-06-30T17:39:23.000Z",
+    "sources": [
+      "Bloomberg",
+      "Karpathy",
+      "Reddit"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 3,
@@ -15,21 +31,6 @@
     ]
   },
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-06-30T17:39:23.000Z",
-    "sources": [
-      "Karpathy",
-      "Reddit"
-    ]
-  },
-  {
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 3,
@@ -42,6 +43,21 @@
     "sources": [
       "Reddit",
       "X"
+    ]
+  },
+  {
+    "topic": "etf",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.97,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-07-04T09:01:34.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT"
     ]
   }
 ]
