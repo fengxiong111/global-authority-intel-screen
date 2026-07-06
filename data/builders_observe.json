@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1783316298,
+    "count": 1,
+    "titles": [
+      "19% chance 特斯拉 Robotaxis 发布 in…"
+    ],
+    "items": [
+      {
+        "id": "07399ef5692db2b1",
+        "title": "19% chance 特斯拉 Robotaxis 发布 in…",
+        "topic": "BTC",
+        "source": "X",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1783300526,
     "count": 0,
     "titles": [],
@@ -393,42 +411,6 @@
   },
   {
     "fetch_time": 1783150833,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：caveman"
-    ],
-    "items": [
-      {
-        "id": "3654c9bf09b1fbf5",
-        "title": "GitHub 热门工具：caveman",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1783140955,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：caveman"
-    ],
-    "items": [
-      {
-        "id": "3654c9bf09b1fbf5",
-        "title": "GitHub 热门工具：caveman",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1783127938,
     "count": 1,
     "titles": [
       "GitHub 热门工具：caveman"
