@@ -2,7 +2,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -13,22 +13,6 @@
       "Bloomberg",
       "OneKey Blog",
       "The Block"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-06-30T17:39:23.000Z",
-    "sources": [
-      "Hacker News",
-      "Karpathy",
-      "Reddit"
     ]
   },
   {
