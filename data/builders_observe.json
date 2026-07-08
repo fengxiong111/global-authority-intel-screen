@@ -1,5 +1,11 @@
 [
   {
+    "fetch_time": 1783540573,
+    "count": 0,
+    "titles": [],
+    "items": []
+  },
+  {
     "fetch_time": 1783534453,
     "count": 0,
     "titles": [],
@@ -290,11 +296,5 @@
         "urgency": "high"
       }
     ]
-  },
-  {
-    "fetch_time": 1783362357,
-    "count": 0,
-    "titles": [],
-    "items": []
   }
 ]
