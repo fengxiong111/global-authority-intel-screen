@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1783472257,
+    "count": 1,
+    "titles": [
+      "GitHub 热门工具：CodexBar"
+    ],
+    "items": [
+      {
+        "id": "28e4d7b19996ca15",
+        "title": "GitHub 热门工具：CodexBar",
+        "topic": "OPENAI",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1783466735,
     "count": 1,
     "titles": [
@@ -223,12 +241,6 @@
   },
   {
     "fetch_time": 1783300526,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1783294130,
     "count": 0,
     "titles": [],
     "items": []
