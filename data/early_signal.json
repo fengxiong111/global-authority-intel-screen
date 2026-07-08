@@ -16,18 +16,34 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
+    "topic": "Anthropic",
+    "type": "AI",
     "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-07-08T14:22:38.000Z",
+    "sources": [
+      "Hacker News",
+      "NYT",
+      "SemiAnalysis"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-07-07T14:29:17.000Z",
+    "first_seen_at": "2026-07-08T21:06:49.000Z",
     "sources": [
       "Bloomberg",
-      "X"
+      "Karpathy"
     ]
   },
   {
@@ -42,35 +58,6 @@
     "first_seen_at": "2026-07-08T18:57:58.000Z",
     "sources": [
       "The Defiant",
-      "X"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-07-08T14:22:38.000Z",
-    "sources": [
-      "NYT",
-      "SemiAnalysis"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-07-08T20:28:52.000Z",
-    "sources": [
       "X"
     ]
   }
