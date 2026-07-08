@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1783492766,
+    "count": 2,
+    "titles": [
+      "纽约时报：Mideast 最新进展: Iran 发布 Attacks…",
+      "GitHub 热门工具：CodexBar"
+    ],
+    "items": [
+      {
+        "id": "fe5e8be013cf9fef",
+        "title": "纽约时报：Mideast 最新进展: Iran 发布 Attacks…",
+        "topic": "NYT",
+        "source": "NYT",
+        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
+        "action_hint": "看是否继续升级。",
+        "urgency": "high"
+      },
+      {
+        "id": "28e4d7b19996ca15",
+        "title": "GitHub 热门工具：CodexBar",
+        "topic": "OPENAI",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1783484075,
     "count": 1,
     "titles": [
@@ -238,23 +266,5 @@
     "count": 0,
     "titles": [],
     "items": []
-  },
-  {
-    "fetch_time": 1783316298,
-    "count": 1,
-    "titles": [
-      "19% chance 特斯拉 Robotaxis 发布 in…"
-    ],
-    "items": [
-      {
-        "id": "07399ef5692db2b1",
-        "title": "19% chance 特斯拉 Robotaxis 发布 in…",
-        "topic": "BTC",
-        "source": "X",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      }
-    ]
   }
 ]
