@@ -2,7 +2,7 @@
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 2,
+    "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -58,6 +58,20 @@
     "sources": [
       "Bloomberg",
       "The Defiant"
+    ]
+  },
+  {
+    "topic": "GPT-5.6",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-07-08T03:30:09.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
