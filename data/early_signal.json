@@ -2,31 +2,32 @@
   {
     "topic": "Codex",
     "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-07-07T00:00:00.000Z",
+    "sources": [
+      "Hacker News",
+      "OpenAI News",
+      "X"
+    ]
+  },
+  {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
     "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-07-07T00:00:00.000Z",
-    "sources": [
-      "OpenAI News",
-      "X"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-07-07T00:00:00.000Z",
+    "first_seen_at": "2026-07-07T14:29:17.000Z",
     "sources": [
       "Bloomberg",
-      "OpenAI News"
+      "X"
     ]
   },
   {
@@ -45,21 +46,6 @@
     ]
   },
   {
-    "topic": "Tether",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-07-06T20:00:09.000Z",
-    "sources": [
-      "Bloomberg",
-      "The Defiant"
-    ]
-  },
-  {
     "topic": "Anthropic",
     "type": "AI",
     "mentions": 2,
@@ -72,6 +58,20 @@
     "sources": [
       "NYT",
       "SemiAnalysis"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-07-08T20:28:52.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
