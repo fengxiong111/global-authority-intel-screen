@@ -15,6 +15,21 @@
     ]
   },
   {
+    "topic": "New",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-07-08T15:08:22.000Z",
+    "sources": [
+      "NYT",
+      "X"
+    ]
+  },
+  {
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 2,
@@ -42,6 +57,21 @@
     "sources": [
       "The Defiant",
       "X"
+    ]
+  },
+  {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 5,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-07-07T14:29:17.000Z",
+    "sources": [
+      "Bloomberg",
+      "The Block"
     ]
   },
   {
