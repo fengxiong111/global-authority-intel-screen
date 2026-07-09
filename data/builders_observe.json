@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1783606252,
+    "count": 2,
+    "titles": [
+      "新: UN 发布 AI 智能体 trust initiative,…",
+      "苹果 aids 应用 development with 新…"
+    ],
+    "items": [
+      {
+        "id": "b712bbd15ce5855c",
+        "title": "新: UN 发布 AI 智能体 trust initiative,…",
+        "topic": "BTC",
+        "source": "X",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "66323135c93cd9fe",
+        "title": "苹果 aids 应用 development with 新…",
+        "topic": "APPLE",
+        "source": "Apple Newsroom",
+        "meaning": "苹果产品节奏或生态接口在变，可能影响后续判断。",
+        "action_hint": "看功能与上线时间。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1783596734,
     "count": 1,
     "titles": [
@@ -375,24 +403,6 @@
   },
   {
     "fetch_time": 1783439326,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：CodexBar"
-    ],
-    "items": [
-      {
-        "id": "28e4d7b19996ca15",
-        "title": "GitHub 热门工具：CodexBar",
-        "topic": "OPENAI",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1783429668,
     "count": 1,
     "titles": [
       "GitHub 热门工具：CodexBar"
