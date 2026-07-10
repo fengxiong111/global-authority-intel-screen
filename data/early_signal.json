@@ -2,46 +2,33 @@
   {
     "topic": "GPT-5.6",
     "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
+    "mentions": 4,
+    "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
+    "resonance_score": 0.9,
     "first_seen_at": "2026-07-09T10:00:00.000Z",
     "sources": [
       "Hacker News",
-      "OpenAI News"
+      "OpenAI News",
+      "X"
     ]
   },
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
+    "mentions": 3,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
+    "resonance_score": 0.9,
     "first_seen_at": "2026-07-07T00:00:00.000Z",
     "sources": [
       "NYT",
-      "Simon Willison"
-    ]
-  },
-  {
-    "topic": "bitcoin",
-    "type": "CRYPTO",
-    "mentions": 5,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-07-07T14:29:17.000Z",
-    "sources": [
-      "Bloomberg",
-      "The Block"
+      "Simon Willison",
+      "X"
     ]
   },
   {
@@ -57,6 +44,35 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
+    ]
+  },
+  {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-07-07T14:29:17.000Z",
+    "sources": [
+      "Bloomberg",
+      "The Block"
+    ]
+  },
+  {
+    "topic": "Codex",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-07-10T16:00:00.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
