@@ -18,16 +18,16 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.9,
     "first_seen_at": "2026-07-07T00:00:00.000Z",
     "sources": [
-      "Bloomberg",
       "NYT",
+      "Simon Willison",
       "X"
     ]
   },
@@ -62,22 +62,7 @@
     ]
   },
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.97,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-07-08T14:22:38.000Z",
-    "sources": [
-      "NYT",
-      "SemiAnalysis"
-    ]
-  },
-  {
-    "topic": "codex",
+    "topic": "Codex",
     "type": "AI",
     "mentions": 2,
     "trusted_mentions": 2,
