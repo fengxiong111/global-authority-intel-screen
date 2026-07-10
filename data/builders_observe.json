@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1783726402,
+    "count": 3,
+    "titles": [
+      "OpenClaw 正式版更新 2026.6.10",
+      "苹果 aids 应用 development with 新…",
+      "GitHub 热门工具：skills"
+    ],
+    "items": [
+      {
+        "id": "6b573fb8bdb50f61",
+        "title": "OpenClaw 正式版更新 2026.6.10",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      },
+      {
+        "id": "66323135c93cd9fe",
+        "title": "苹果 aids 应用 development with 新…",
+        "topic": "APPLE",
+        "source": "Apple Newsroom",
+        "meaning": "苹果产品节奏或生态接口在变，可能影响后续判断。",
+        "action_hint": "看功能与上线时间。",
+        "urgency": "medium"
+      },
+      {
+        "id": "5efc5fa62830c201",
+        "title": "GitHub 热门工具：skills",
+        "topic": "CLAUDE",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1783722765,
     "count": 3,
     "titles": [
@@ -566,34 +604,6 @@
       "苹果 aids 应用 development with 新…"
     ],
     "items": [
-      {
-        "id": "66323135c93cd9fe",
-        "title": "苹果 aids 应用 development with 新…",
-        "topic": "APPLE",
-        "source": "Apple Newsroom",
-        "meaning": "苹果产品节奏或生态接口在变，可能影响后续判断。",
-        "action_hint": "看功能与上线时间。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1783553430,
-    "count": 2,
-    "titles": [
-      "伊朗战事最新进展：纽约时报：U.S. 发布 新 Strikes on…",
-      "苹果 aids 应用 development with 新…"
-    ],
-    "items": [
-      {
-        "id": "732064efa4caf738",
-        "title": "伊朗战事最新进展：纽约时报：U.S. 发布 新 Strikes on…",
-        "topic": "NYT",
-        "source": "NYT",
-        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
-        "action_hint": "看是否继续升级。",
-        "urgency": "high"
-      },
       {
         "id": "66323135c93cd9fe",
         "title": "苹果 aids 应用 development with 新…",
