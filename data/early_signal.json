@@ -51,30 +51,16 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 2,
+    "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 0.97,
+    "growth_score": 1,
     "resonance_score": 0.05,
     "first_seen_at": "2026-07-07T14:29:17.000Z",
     "sources": [
       "Bloomberg",
       "The Block"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-07-10T21:02:07.000Z",
-    "sources": [
-      "X"
     ]
   },
   {
