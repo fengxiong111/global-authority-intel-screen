@@ -20,9 +20,9 @@
   {
     "topic": "GPT-5.6",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 2,
-    "community_hits": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.9,
