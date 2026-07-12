@@ -2,33 +2,17 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 4,
+    "mentions": 3,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-07-07T00:00:00.000Z",
     "sources": [
       "Bloomberg",
       "NYT",
-      "Simon Willison",
-      "X"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-07-08T21:06:49.000Z",
-    "sources": [
-      "Hacker News",
-      "Karpathy"
+      "Simon Willison"
     ]
   },
   {
@@ -43,21 +27,6 @@
     "first_seen_at": "2026-07-10T16:39:45.000Z",
     "sources": [
       "The Block",
-      "X"
-    ]
-  },
-  {
-    "topic": "POLYMARKET",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-07-10T19:55:47.000Z",
-    "sources": [
-      "The Defiant",
       "X"
     ]
   },
