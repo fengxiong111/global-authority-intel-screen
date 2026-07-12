@@ -19,31 +19,15 @@
   {
     "topic": "科技",
     "type": "OTHER",
-    "mentions": 5,
-    "trusted_mentions": 2,
+    "mentions": 3,
+    "trusted_mentions": 1,
     "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.68,
     "first_seen_at": "2026-07-08T21:06:49.000Z",
     "sources": [
       "Hacker News",
-      "Karpathy",
-      "Simon Willison"
-    ]
-  },
-  {
-    "topic": "The",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-07-12T14:04:14.000Z",
-    "sources": [
-      "Bloomberg",
       "Karpathy"
     ]
   },
