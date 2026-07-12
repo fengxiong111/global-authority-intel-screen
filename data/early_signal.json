@@ -29,19 +29,5 @@
       "The Block",
       "X"
     ]
-  },
-  {
-    "topic": "GPT-5.6",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-07-09T10:00:00.000Z",
-    "sources": [
-      "X"
-    ]
   }
 ]
