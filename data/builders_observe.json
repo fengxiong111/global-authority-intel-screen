@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1783869218,
+    "count": 2,
+    "titles": [
+      "OpenClaw 正式版更新 2026.6.11",
+      "苹果 aids 应用 development with 新…"
+    ],
+    "items": [
+      {
+        "id": "fb003f55bc04bca8",
+        "title": "OpenClaw 正式版更新 2026.6.11",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      },
+      {
+        "id": "66323135c93cd9fe",
+        "title": "苹果 aids 应用 development with 新…",
+        "topic": "APPLE",
+        "source": "Apple Newsroom",
+        "meaning": "苹果产品节奏或生态接口在变，可能影响后续判断。",
+        "action_hint": "看功能与上线时间。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1783865380,
     "count": 2,
     "titles": [
