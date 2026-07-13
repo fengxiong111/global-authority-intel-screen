@@ -1,32 +1,33 @@
 [
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-07-11T18:00:01.000Z",
+    "sources": [
+      "NYT",
+      "Stratechery",
+      "X"
+    ]
+  },
+  {
+    "topic": "Trump",
+    "type": "OTHER",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-07-10T16:39:45.000Z",
+    "first_seen_at": "2026-07-13T17:01:30.000Z",
     "sources": [
       "Bloomberg",
-      "The Block"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.97,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-07-11T18:00:01.000Z",
-    "sources": [
-      "NYT",
-      "Stratechery"
+      "NYT"
     ]
   }
 ]
