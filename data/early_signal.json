@@ -43,20 +43,5 @@
       "Karpathy",
       "NYT"
     ]
-  },
-  {
-    "topic": "Tether",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-07-14T14:37:15.000Z",
-    "sources": [
-      "The Block",
-      "The Defiant"
-    ]
   }
 ]
