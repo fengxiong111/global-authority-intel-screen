@@ -2,7 +2,7 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -19,20 +19,21 @@
   {
     "topic": "科技",
     "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
+    "mentions": 3,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-07-14T11:12:54.000Z",
     "sources": [
+      "Bloomberg",
       "Karpathy",
       "NYT"
     ]
   },
   {
-    "topic": "codex",
+    "topic": "Codex",
     "type": "AI",
     "mentions": 2,
     "trusted_mentions": 2,
@@ -40,7 +41,7 @@
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-07-14T10:00:00.000Z",
+    "first_seen_at": "2026-07-14T09:14:18.000Z",
     "sources": [
       "Stratechery",
       "X"
@@ -49,11 +50,11 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 2,
+    "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 0.97,
+    "growth_score": 1,
     "resonance_score": 0.05,
     "first_seen_at": "2026-07-13T04:48:09.000Z",
     "sources": [
@@ -62,17 +63,18 @@
     ]
   },
   {
-    "topic": "Claude",
-    "type": "AI",
+    "topic": "Tether",
+    "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-07-13T17:24:58.000Z",
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-07-14T14:37:15.000Z",
     "sources": [
-      "X"
+      "The Block",
+      "The Defiant"
     ]
   }
 ]
