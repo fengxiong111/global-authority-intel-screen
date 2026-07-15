@@ -1,15 +1,16 @@
 [
   {
-    "topic": "openai",
+    "topic": "OpenAI",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 3,
-    "community_hits": 0,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.9,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-07-11T18:00:01.000Z",
     "sources": [
+      "Hacker News",
       "OpenAI News",
       "Stratechery",
       "X"
@@ -18,8 +19,8 @@
   {
     "topic": "codex",
     "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 3,
+    "mentions": 2,
+    "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
