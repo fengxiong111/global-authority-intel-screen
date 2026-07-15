@@ -2,15 +2,14 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 4,
-    "community_hits": 1,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 0.9,
     "first_seen_at": "2026-07-11T18:00:01.000Z",
     "sources": [
-      "Hacker News",
       "OpenAI News",
       "Stratechery",
       "X"
@@ -32,7 +31,7 @@
     ]
   },
   {
-    "topic": "bitcoin",
+    "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
