@@ -1,24 +1,25 @@
 [
   {
-    "topic": "OpenAI",
+    "topic": "openai",
     "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
+    "resonance_score": 0.9,
     "first_seen_at": "2026-07-11T18:00:01.000Z",
     "sources": [
       "OpenAI News",
-      "Stratechery"
+      "Stratechery",
+      "X"
     ]
   },
   {
-    "topic": "Codex",
+    "topic": "codex",
     "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
+    "mentions": 3,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
