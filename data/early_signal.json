@@ -17,9 +17,9 @@
     ]
   },
   {
-    "topic": "codex",
+    "topic": "Codex",
     "type": "AI",
-    "mentions": 2,
+    "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
