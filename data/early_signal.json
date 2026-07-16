@@ -2,8 +2,8 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 6,
-    "trusted_mentions": 3,
+    "mentions": 5,
+    "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
@@ -42,6 +42,36 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
+    ]
+  },
+  {
+    "topic": "ETF",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-07-16T16:09:15.000Z",
+    "sources": [
+      "Bloomberg",
+      "The Block"
+    ]
+  },
+  {
+    "topic": "Kalshi",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-07-16T17:24:49.000Z",
+    "sources": [
+      "Bloomberg",
+      "The Block"
     ]
   }
 ]
