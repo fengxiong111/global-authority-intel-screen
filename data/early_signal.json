@@ -46,47 +46,18 @@
     ]
   },
   {
-    "topic": "New York Times",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-07-15T23:52:37.000Z",
-    "sources": [
-      "Bloomberg",
-      "NYT"
-    ]
-  },
-  {
-    "topic": "Bitcoin",
+    "topic": "bitcoin",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 1,
+    "growth_score": 0.97,
     "resonance_score": 0.05,
     "first_seen_at": "2026-07-14T21:22:49.000Z",
     "sources": [
       "Bloomberg",
       "The Block"
-    ]
-  },
-  {
-    "topic": "NEW",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-07-15T18:23:04.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
