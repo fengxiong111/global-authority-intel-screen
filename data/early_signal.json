@@ -2,17 +2,33 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.9,
     "first_seen_at": "2026-07-14T21:22:49.000Z",
     "sources": [
-      "Bloomberg",
       "OneKey Blog",
-      "The Block"
+      "The Block",
+      "X"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-07-16T12:17:39.000Z",
+    "sources": [
+      "Hacker News",
+      "NYT",
+      "SemiAnalysis"
     ]
   },
   {
