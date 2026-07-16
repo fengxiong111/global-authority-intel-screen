@@ -2,8 +2,8 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 4,
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
@@ -18,7 +18,7 @@
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -28,6 +28,36 @@
     "sources": [
       "Stratechery",
       "X"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-07-15T23:59:30.000Z",
+    "sources": [
+      "Karpathy",
+      "Simon Willison"
+    ]
+  },
+  {
+    "topic": "New York Times",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-07-15T23:52:37.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT"
     ]
   },
   {
@@ -43,6 +73,20 @@
     "sources": [
       "Bloomberg",
       "The Block"
+    ]
+  },
+  {
+    "topic": "NEW",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-07-15T18:23:04.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
