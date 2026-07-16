@@ -19,8 +19,8 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 2,
+    "mentions": 6,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
@@ -34,7 +34,7 @@
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
