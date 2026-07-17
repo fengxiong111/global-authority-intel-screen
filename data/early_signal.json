@@ -2,15 +2,14 @@
   {
     "topic": "etf",
     "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 4,
+    "mentions": 3,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-07-16T16:09:15.000Z",
     "sources": [
-      "Bloomberg",
       "NYT",
       "The Block",
       "X"
@@ -59,21 +58,6 @@
     "sources": [
       "OneKey Blog",
       "The Block"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.91,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-07-15T23:59:30.000Z",
-    "sources": [
-      "Karpathy",
-      "Simon Willison"
     ]
   }
 ]
