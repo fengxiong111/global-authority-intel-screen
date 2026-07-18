@@ -36,26 +36,12 @@
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 1,
+    "growth_score": 0.97,
     "resonance_score": 0.05,
     "first_seen_at": "2026-07-17T16:17:06.000Z",
     "sources": [
       "NYT",
       "SemiAnalysis"
-    ]
-  },
-  {
-    "topic": "GPT-5.6",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-07-16T05:43:13.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
