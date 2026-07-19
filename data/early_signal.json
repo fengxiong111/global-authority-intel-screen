@@ -45,5 +45,20 @@
       "OneKey Blog",
       "The Block"
     ]
+  },
+  {
+    "topic": "China",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.97,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-07-17T20:04:57.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT"
+    ]
   }
 ]
