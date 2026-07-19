@@ -19,17 +19,16 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 3,
+    "mentions": 3,
+    "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.9,
+    "resonance_score": 0.68,
     "first_seen_at": "2026-07-16T19:21:56.000Z",
     "sources": [
       "OneKey Blog",
-      "The Block",
-      "X"
+      "The Block"
     ]
   },
   {
