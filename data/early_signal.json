@@ -2,7 +2,7 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 6,
     "trusted_mentions": 2,
     "community_hits": 3,
     "ranking_change": false,
@@ -44,20 +44,6 @@
     "sources": [
       "OneKey Blog",
       "The Block"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-07-18T16:40:07.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
