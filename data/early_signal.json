@@ -19,7 +19,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -30,6 +30,21 @@
       "OneKey Blog",
       "The Block",
       "X"
+    ]
+  },
+  {
+    "topic": "Polymarket",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-07-19T14:07:55.000Z",
+    "sources": [
+      "NYT",
+      "The Block"
     ]
   }
 ]
