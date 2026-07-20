@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1784585773,
+    "count": 2,
+    "titles": [
+      "GitHub 热门工具：OmniRoute",
+      "苹果 aids 应用 development with 新…"
+    ],
+    "items": [
+      {
+        "id": "f453ab7ddf4d59ff",
+        "title": "GitHub 热门工具：OmniRoute",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "66323135c93cd9fe",
+        "title": "苹果 aids 应用 development with 新…",
+        "topic": "APPLE",
+        "source": "Apple Newsroom",
+        "meaning": "苹果产品节奏或生态接口在变，可能影响后续判断。",
+        "action_hint": "看功能与上线时间。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1784582355,
     "count": 3,
     "titles": [
@@ -1087,44 +1115,6 @@
         "source": "GitHub Trending",
         "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
         "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1784412128,
-    "count": 3,
-    "titles": [
-      "伊朗战事最新进展：纽约时报：2 U.S. Soldiers Killed…",
-      "比特币 Japan, which holds no 比特币, taps EVO…",
-      "苹果 aids 应用 development with 新…"
-    ],
-    "items": [
-      {
-        "id": "0c4cd30522508a03",
-        "title": "伊朗战事最新进展：纽约时报：2 U.S. Soldiers Killed…",
-        "topic": "NYT",
-        "source": "NYT",
-        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
-        "action_hint": "看是否继续升级。",
-        "urgency": "high"
-      },
-      {
-        "id": "d25db8c1c97df599",
-        "title": "比特币 Japan, which holds no 比特币, taps EVO…",
-        "topic": "BTC",
-        "source": "The Block",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      },
-      {
-        "id": "66323135c93cd9fe",
-        "title": "苹果 aids 应用 development with 新…",
-        "topic": "APPLE",
-        "source": "Apple Newsroom",
-        "meaning": "苹果产品节奏或生态接口在变，可能影响后续判断。",
-        "action_hint": "看功能与上线时间。",
         "urgency": "medium"
       }
     ]
