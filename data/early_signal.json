@@ -1,17 +1,17 @@
 [
   {
-    "topic": "OpenAI",
+    "topic": "Anthropic",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 1,
-    "community_hits": 3,
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-07-16T00:00:00.000Z",
+    "first_seen_at": "2026-07-21T17:24:22.000Z",
     "sources": [
-      "Bloomberg",
-      "Reddit"
+      "SemiAnalysis",
+      "X"
     ]
   },
   {
@@ -30,18 +30,18 @@
     ]
   },
   {
-    "topic": "Polymarket",
+    "topic": "etf",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 0.91,
+    "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-07-19T14:07:55.000Z",
+    "first_seen_at": "2026-07-21T10:00:00.000Z",
     "sources": [
-      "Bloomberg",
-      "NYT"
+      "Stratechery",
+      "The Block"
     ]
   }
 ]
