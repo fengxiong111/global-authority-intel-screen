@@ -1,38 +1,24 @@
 [
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-07-21T17:24:22.000Z",
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-07-21T13:47:00.000Z",
     "sources": [
-      "SemiAnalysis",
+      "OneKey Blog",
+      "The Block",
       "X"
     ]
   },
   {
-    "topic": "Bitcoin",
+    "topic": "ETF",
     "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-07-21T13:47:00.000Z",
-    "sources": [
-      "OneKey Blog",
-      "The Block"
-    ]
-  },
-  {
-    "topic": "etf",
-    "type": "CRYPTO",
-    "mentions": 2,
+    "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -42,6 +28,20 @@
     "sources": [
       "Stratechery",
       "The Block"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0,
+    "first_seen_at": "2026-07-21T16:19:43.000Z",
+    "sources": [
+      "X"
     ]
   }
 ]
