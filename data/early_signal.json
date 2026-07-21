@@ -1,37 +1,5 @@
 [
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-07-18T16:29:31.000Z",
-    "sources": [
-      "Hacker News",
-      "Reddit",
-      "SemiAnalysis"
-    ]
-  },
-  {
-    "topic": "etf",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-07-18T12:49:27.000Z",
-    "sources": [
-      "Reddit",
-      "Stratechery",
-      "The Block"
-    ]
-  },
-  {
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 4,
@@ -47,6 +15,51 @@
     ]
   },
   {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-07-21T13:47:00.000Z",
+    "sources": [
+      "OneKey Blog",
+      "The Block"
+    ]
+  },
+  {
+    "topic": "Trump",
+    "type": "OTHER",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-07-21T09:30:00.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT"
+    ]
+  },
+  {
+    "topic": "ETF",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-07-18T12:49:27.000Z",
+    "sources": [
+      "Stratechery",
+      "The Defiant"
+    ]
+  },
+  {
     "topic": "Polymarket",
     "type": "CRYPTO",
     "mentions": 2,
@@ -59,20 +72,6 @@
     "sources": [
       "Bloomberg",
       "NYT"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-07-20T20:26:15.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
