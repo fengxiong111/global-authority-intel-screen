@@ -16,6 +16,38 @@
     ]
   },
   {
+    "topic": "Polymarket",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-07-19T14:07:55.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT",
+      "X"
+    ]
+  },
+  {
+    "topic": "etf",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-07-18T12:49:27.000Z",
+    "sources": [
+      "Reddit",
+      "Stratechery",
+      "The Block"
+    ]
+  },
+  {
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 4,
@@ -33,7 +65,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 3,
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -46,33 +78,17 @@
     ]
   },
   {
-    "topic": "London Stock Exchange",
+    "topic": "JUST",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-07-21T07:14:51.000Z",
+    "resonance_score": 0,
+    "first_seen_at": "2026-07-20T20:26:15.000Z",
     "sources": [
-      "Bloomberg",
-      "The Block"
-    ]
-  },
-  {
-    "topic": "Polymarket",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.91,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-07-19T14:07:55.000Z",
-    "sources": [
-      "Bloomberg",
-      "NYT"
+      "X"
     ]
   }
 ]
