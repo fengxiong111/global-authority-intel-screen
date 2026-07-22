@@ -3,14 +3,13 @@
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 8,
-    "trusted_mentions": 6,
+    "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 1,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-07-21T00:00:00.000Z",
     "sources": [
-      "Bloomberg",
       "NYT",
       "OpenAI News",
       "Stratechery",
@@ -20,16 +19,32 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-07-21T13:47:00.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-07-21T13:47:00.000Z",
+    "first_seen_at": "2026-07-22T14:42:42.000Z",
     "sources": [
-      "Bloomberg",
-      "OneKey Blog"
+      "SemiAnalysis",
+      "X"
     ]
   },
   {
