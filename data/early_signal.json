@@ -19,8 +19,8 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 3,
+    "mentions": 6,
+    "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
