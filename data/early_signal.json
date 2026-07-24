@@ -18,18 +18,19 @@
     ]
   },
   {
-    "topic": "Codex",
-    "type": "AI",
-    "mentions": 4,
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 3,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-07-22T00:00:00.000Z",
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-07-23T13:17:03.000Z",
     "sources": [
-      "OpenAI News",
-      "X"
+      "Bloomberg",
+      "Karpathy",
+      "NYT"
     ]
   },
   {
@@ -48,18 +49,33 @@
     ]
   },
   {
-    "topic": "科技",
-    "type": "OTHER",
+    "topic": "Codex",
+    "type": "AI",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-07-23T13:17:03.000Z",
+    "first_seen_at": "2026-07-22T00:00:00.000Z",
     "sources": [
-      "Karpathy",
-      "NYT"
+      "OpenAI News",
+      "X"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-07-24T06:01:11.000Z",
+    "sources": [
+      "Bloomberg",
+      "The Block"
     ]
   },
   {
