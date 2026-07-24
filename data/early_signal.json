@@ -2,7 +2,7 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
@@ -74,6 +74,21 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
+    ]
+  },
+  {
+    "topic": "ETF",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-07-21T10:00:00.000Z",
+    "sources": [
+      "Bloomberg",
+      "Stratechery"
     ]
   }
 ]
