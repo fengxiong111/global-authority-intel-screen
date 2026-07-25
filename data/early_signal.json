@@ -3,17 +3,18 @@
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 5,
-    "trusted_mentions": 3,
+    "trusted_mentions": 4,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 1,
     "first_seen_at": "2026-07-21T00:00:00.000Z",
     "sources": [
       "Hacker News",
       "OpenAI News",
       "Simon Willison",
-      "Stratechery"
+      "Stratechery",
+      "X"
     ]
   },
   {
