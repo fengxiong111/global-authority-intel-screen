@@ -13,20 +13,5 @@
       "OneKey Blog",
       "The Block"
     ]
-  },
-  {
-    "topic": "The",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-07-23T22:53:08.000Z",
-    "sources": [
-      "Karpathy",
-      "Simon Willison"
-    ]
   }
 ]
