@@ -29,5 +29,20 @@
       "Bloomberg",
       "OpenAI News"
     ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-07-27T20:57:30.000Z",
+    "sources": [
+      "Bloomberg",
+      "Karpathy"
+    ]
   }
 ]
