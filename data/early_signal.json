@@ -2,23 +2,25 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
+    "mentions": 5,
+    "trusted_mentions": 4,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.9,
+    "resonance_score": 1,
     "first_seen_at": "2026-07-27T03:30:00.000Z",
     "sources": [
+      "Bloomberg",
       "NYT",
       "OpenAI News",
-      "Reddit"
+      "Reddit",
+      "X"
     ]
   },
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -53,7 +55,7 @@
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 1,
+    "growth_score": 0.97,
     "resonance_score": 0.05,
     "first_seen_at": "2026-07-27T20:57:30.000Z",
     "sources": [
