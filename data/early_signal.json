@@ -1,21 +1,5 @@
 [
   {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-07-28T22:45:37.000Z",
-    "sources": [
-      "Hacker News",
-      "Simon Willison",
-      "X"
-    ]
-  },
-  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 3,
@@ -34,61 +18,47 @@
   {
     "topic": "科技",
     "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
+    "mentions": 3,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-07-27T20:57:30.000Z",
     "sources": [
+      "Bloomberg",
       "Karpathy",
       "NYT"
     ]
   },
   {
-    "topic": "GPT-5.6",
+    "topic": "Claude",
     "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-07-29T00:00:00.000Z",
+    "first_seen_at": "2026-07-28T22:45:37.000Z",
     "sources": [
-      "OpenAI News",
-      "X"
+      "Hacker News",
+      "Simon Willison"
     ]
   },
   {
-    "topic": "Tether",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-07-29T14:06:34.000Z",
-    "sources": [
-      "The Block",
-      "The Defiant"
-    ]
-  },
-  {
-    "topic": "Meta",
+    "topic": "The",
     "type": "OTHER",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-07-29T20:53:31.000Z",
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-07-29T17:49:55.000Z",
     "sources": [
       "Bloomberg",
-      "NYT"
+      "Karpathy"
     ]
   }
 ]
