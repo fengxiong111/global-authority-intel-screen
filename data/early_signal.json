@@ -1,5 +1,21 @@
 [
   {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-07-28T22:45:37.000Z",
+    "sources": [
+      "Hacker News",
+      "Simon Willison",
+      "X"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 3,
@@ -58,6 +74,21 @@
     "sources": [
       "The Block",
       "The Defiant"
+    ]
+  },
+  {
+    "topic": "Meta",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-07-29T20:53:31.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT"
     ]
   }
 ]
