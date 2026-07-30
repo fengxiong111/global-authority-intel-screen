@@ -32,18 +32,32 @@
     ]
   },
   {
-    "topic": "Meta",
+    "topic": "科技",
     "type": "OTHER",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-07-30T10:19:41.000Z",
+    "sources": [
+      "Bloomberg",
+      "Karpathy"
+    ]
+  },
+  {
+    "topic": "JUST",
+    "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-07-29T20:11:49.000Z",
+    "resonance_score": 0,
+    "first_seen_at": "2026-07-30T01:03:15.000Z",
     "sources": [
-      "Bloomberg",
-      "NYT"
+      "X"
     ]
   }
 ]
