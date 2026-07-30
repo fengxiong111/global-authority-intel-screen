@@ -31,18 +31,17 @@
     ]
   },
   {
-    "topic": "Meta",
-    "type": "OTHER",
-    "mentions": 3,
+    "topic": "JUST",
+    "type": "CRYPTO",
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-07-29T20:11:49.000Z",
+    "resonance_score": 0,
+    "first_seen_at": "2026-07-29T16:11:00.000Z",
     "sources": [
-      "Bloomberg",
-      "NYT"
+      "X"
     ]
   }
 ]
