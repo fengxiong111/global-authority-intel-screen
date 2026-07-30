@@ -1,5 +1,21 @@
 [
   {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-07-28T16:15:27.000Z",
+    "sources": [
+      "Bloomberg",
+      "Reddit",
+      "SemiAnalysis"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 2,
