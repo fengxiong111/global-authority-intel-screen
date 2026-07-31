@@ -1,5 +1,22 @@
 [
   {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-07-31T14:43:32.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Defiant",
+      "X"
+    ]
+  },
+  {
     "topic": "科技",
     "type": "OTHER",
     "mentions": 5,
@@ -28,21 +45,6 @@
     "sources": [
       "OpenAI News",
       "X"
-    ]
-  },
-  {
-    "topic": "Kalshi",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-07-31T07:34:48.000Z",
-    "sources": [
-      "Bloomberg",
-      "The Block"
     ]
   }
 ]
