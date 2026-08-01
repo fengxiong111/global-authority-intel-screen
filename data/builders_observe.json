@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1785568351,
+    "count": 3,
+    "titles": [
+      "OpenClaw 测试版更新 2026.7.2 Beta 6",
+      "GitHub 热门工具：openwork",
+      "苹果 aids 应用 development with 新…"
+    ],
+    "items": [
+      {
+        "id": "83b726b92b2efcd7",
+        "title": "OpenClaw 测试版更新 2026.7.2 Beta 6",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      },
+      {
+        "id": "c334bceb38ec2380",
+        "title": "GitHub 热门工具：openwork",
+        "topic": "CLAUDE",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      },
+      {
+        "id": "66323135c93cd9fe",
+        "title": "苹果 aids 应用 development with 新…",
+        "topic": "APPLE",
+        "source": "Apple Newsroom",
+        "meaning": "苹果产品节奏或生态接口在变，可能影响后续判断。",
+        "action_hint": "看功能与上线时间。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1785559165,
     "count": 3,
     "titles": [
@@ -741,44 +779,6 @@
   },
   {
     "fetch_time": 1785401163,
-    "count": 3,
-    "titles": [
-      "伊朗战事最新进展：纽约时报：U.S. Strikes Iran as…",
-      "GitHub 热门工具：ECC",
-      "苹果 aids 应用 development with 新…"
-    ],
-    "items": [
-      {
-        "id": "6ee076512fbe6156",
-        "title": "伊朗战事最新进展：纽约时报：U.S. Strikes Iran as…",
-        "topic": "NYT",
-        "source": "NYT",
-        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
-        "action_hint": "看是否继续升级。",
-        "urgency": "high"
-      },
-      {
-        "id": "d3cf920b7009fa1c",
-        "title": "GitHub 热门工具：ECC",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "66323135c93cd9fe",
-        "title": "苹果 aids 应用 development with 新…",
-        "topic": "APPLE",
-        "source": "Apple Newsroom",
-        "meaning": "苹果产品节奏或生态接口在变，可能影响后续判断。",
-        "action_hint": "看功能与上线时间。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1785391813,
     "count": 3,
     "titles": [
       "伊朗战事最新进展：纽约时报：U.S. Strikes Iran as…",
