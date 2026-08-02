@@ -2,7 +2,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -27,21 +27,6 @@
     "sources": [
       "Karpathy",
       "NYT"
-    ]
-  },
-  {
-    "topic": "Tether",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.97,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-07-31T17:58:47.000Z",
-    "sources": [
-      "The Block",
-      "The Defiant"
     ]
   }
 ]
