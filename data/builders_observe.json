@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1785719792,
+    "count": 3,
+    "titles": [
+      "OpenClaw 测试版更新 2026.7.2 Beta 7",
+      "GitHub 热门工具：openwork",
+      "苹果 aids 应用 development with 新…"
+    ],
+    "items": [
+      {
+        "id": "a842586c1e85690e",
+        "title": "OpenClaw 测试版更新 2026.7.2 Beta 7",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      },
+      {
+        "id": "c334bceb38ec2380",
+        "title": "GitHub 热门工具：openwork",
+        "topic": "CLAUDE",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      },
+      {
+        "id": "66323135c93cd9fe",
+        "title": "苹果 aids 应用 development with 新…",
+        "topic": "APPLE",
+        "source": "Apple Newsroom",
+        "meaning": "苹果产品节奏或生态接口在变，可能影响后续判断。",
+        "action_hint": "看功能与上线时间。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1785714235,
     "count": 3,
     "titles": [
@@ -1111,34 +1149,6 @@
         "action_hint": "看 release notes。",
         "urgency": "high"
       },
-      {
-        "id": "c334bceb38ec2380",
-        "title": "GitHub 热门工具：openwork",
-        "topic": "CLAUDE",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      },
-      {
-        "id": "66323135c93cd9fe",
-        "title": "苹果 aids 应用 development with 新…",
-        "topic": "APPLE",
-        "source": "Apple Newsroom",
-        "meaning": "苹果产品节奏或生态接口在变，可能影响后续判断。",
-        "action_hint": "看功能与上线时间。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1785541483,
-    "count": 2,
-    "titles": [
-      "GitHub 热门工具：openwork",
-      "苹果 aids 应用 development with 新…"
-    ],
-    "items": [
       {
         "id": "c334bceb38ec2380",
         "title": "GitHub 热门工具：openwork",
