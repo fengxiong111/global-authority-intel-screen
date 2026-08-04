@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1785836827,
+    "count": 1,
+    "titles": [
+      "OpenClaw 测试版更新 2026.7.2 Beta 7"
+    ],
+    "items": [
+      {
+        "id": "a842586c1e85690e",
+        "title": "OpenClaw 测试版更新 2026.7.2 Beta 7",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1785827379,
     "count": 1,
     "titles": [
@@ -883,62 +901,6 @@
         "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
         "action_hint": "看 repo。",
         "urgency": "medium"
-      },
-      {
-        "id": "66323135c93cd9fe",
-        "title": "苹果 aids 应用 development with 新…",
-        "topic": "APPLE",
-        "source": "Apple Newsroom",
-        "meaning": "苹果产品节奏或生态接口在变，可能影响后续判断。",
-        "action_hint": "看功能与上线时间。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1785662602,
-    "count": 2,
-    "titles": [
-      "OpenClaw 测试版更新 2026.7.2 Beta 7",
-      "苹果 aids 应用 development with 新…"
-    ],
-    "items": [
-      {
-        "id": "a842586c1e85690e",
-        "title": "OpenClaw 测试版更新 2026.7.2 Beta 7",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      },
-      {
-        "id": "66323135c93cd9fe",
-        "title": "苹果 aids 应用 development with 新…",
-        "topic": "APPLE",
-        "source": "Apple Newsroom",
-        "meaning": "苹果产品节奏或生态接口在变，可能影响后续判断。",
-        "action_hint": "看功能与上线时间。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1785654769,
-    "count": 2,
-    "titles": [
-      "OpenClaw 测试版更新 2026.7.2 Beta 6",
-      "苹果 aids 应用 development with 新…"
-    ],
-    "items": [
-      {
-        "id": "83b726b92b2efcd7",
-        "title": "OpenClaw 测试版更新 2026.7.2 Beta 6",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
       },
       {
         "id": "66323135c93cd9fe",
