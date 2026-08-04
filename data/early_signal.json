@@ -1,47 +1,46 @@
 [
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 8,
-    "trusted_mentions": 5,
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 1,
-    "first_seen_at": "2026-07-31T14:43:32.000Z",
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-08-03T00:00:00.000Z",
     "sources": [
       "Bloomberg",
-      "OneKey Blog",
-      "The Block",
-      "The Defiant",
+      "OpenAI News",
       "X"
     ]
   },
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-08-04T12:00:00.000Z",
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-07-31T14:43:32.000Z",
     "sources": [
       "Bloomberg",
-      "SemiAnalysis"
+      "OneKey Blog",
+      "The Block"
     ]
   },
   {
-    "topic": "McDonald",
+    "topic": "SpaceX",
     "type": "OTHER",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 1,
+    "growth_score": 0.97,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-08-04T11:05:59.000Z",
+    "first_seen_at": "2026-08-03T15:10:56.000Z",
     "sources": [
       "Bloomberg",
       "NYT"
