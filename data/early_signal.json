@@ -1,22 +1,5 @@
 [
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 7,
-    "trusted_mentions": 4,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-08-03T00:00:00.000Z",
-    "sources": [
-      "Hacker News",
-      "OpenAI News",
-      "Simon Willison",
-      "X"
-    ]
-  },
-  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 6,
@@ -30,6 +13,22 @@
       "Bloomberg",
       "OneKey Blog",
       "The Block"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 6,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-08-03T00:00:00.000Z",
+    "sources": [
+      "OpenAI News",
+      "Simon Willison",
+      "X"
     ]
   },
   {
