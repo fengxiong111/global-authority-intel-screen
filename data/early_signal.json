@@ -59,20 +59,5 @@
       "Simon Willison",
       "X"
     ]
-  },
-  {
-    "topic": "China",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-08-06T11:23:07.000Z",
-    "sources": [
-      "Bloomberg",
-      "NYT"
-    ]
   }
 ]
