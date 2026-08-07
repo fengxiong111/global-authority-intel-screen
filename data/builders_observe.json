@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1786129829,
+    "count": 2,
+    "titles": [
+      "OpenClaw 测试版更新 2026.7.2 Beta 7",
+      "GitHub 热门工具：superpowers"
+    ],
+    "items": [
+      {
+        "id": "a842586c1e85690e",
+        "title": "OpenClaw 测试版更新 2026.7.2 Beta 7",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      },
+      {
+        "id": "fa06b8f9ade60a0f",
+        "title": "GitHub 热门工具：superpowers",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1786125836,
     "count": 2,
     "titles": [
@@ -735,44 +763,6 @@
       "OpenClaw 测试版更新 2026.7.2 Beta 7"
     ],
     "items": [
-      {
-        "id": "12ec283c30f86816",
-        "title": "GitHub 热门工具：loopx",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "a842586c1e85690e",
-        "title": "OpenClaw 测试版更新 2026.7.2 Beta 7",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1785954144,
-    "count": 3,
-    "titles": [
-      "科技：Cloudflare 发布 稳定币 Wallets for AI…",
-      "GitHub 热门工具：loopx",
-      "OpenClaw 测试版更新 2026.7.2 Beta 7"
-    ],
-    "items": [
-      {
-        "id": "3f11864da15c3c14",
-        "title": "科技：Cloudflare 发布 稳定币 Wallets for AI…",
-        "topic": "CRYPTO_TOOLS",
-        "source": "The Defiant",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      },
       {
         "id": "12ec283c30f86816",
         "title": "GitHub 热门工具：loopx",
