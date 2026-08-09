@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1786300477,
+    "count": 1,
+    "titles": [
+      "OpenClaw 正式版更新 2026.6.34"
+    ],
+    "items": [
+      {
+        "id": "b1b2fa6c6ffaeca3",
+        "title": "OpenClaw 正式版更新 2026.6.34",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1786298192,
     "count": 1,
     "titles": [
@@ -1369,34 +1387,6 @@
   },
   {
     "fetch_time": 1786129829,
-    "count": 2,
-    "titles": [
-      "OpenClaw 测试版更新 2026.7.2 Beta 7",
-      "GitHub 热门工具：superpowers"
-    ],
-    "items": [
-      {
-        "id": "a842586c1e85690e",
-        "title": "OpenClaw 测试版更新 2026.7.2 Beta 7",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      },
-      {
-        "id": "fa06b8f9ade60a0f",
-        "title": "GitHub 热门工具：superpowers",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1786125836,
     "count": 2,
     "titles": [
       "OpenClaw 测试版更新 2026.7.2 Beta 7",
