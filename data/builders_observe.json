@@ -1,5 +1,11 @@
 [
   {
+    "fetch_time": 1786286439,
+    "count": 0,
+    "titles": [],
+    "items": []
+  },
+  {
     "fetch_time": 1786284009,
     "count": 1,
     "titles": [
@@ -1367,34 +1373,6 @@
   },
   {
     "fetch_time": 1786116574,
-    "count": 2,
-    "titles": [
-      "OpenClaw 测试版更新 2026.7.2 Beta 7",
-      "GitHub 热门工具：superpowers"
-    ],
-    "items": [
-      {
-        "id": "a842586c1e85690e",
-        "title": "OpenClaw 测试版更新 2026.7.2 Beta 7",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      },
-      {
-        "id": "fa06b8f9ade60a0f",
-        "title": "GitHub 热门工具：superpowers",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1786113301,
     "count": 2,
     "titles": [
       "OpenClaw 测试版更新 2026.7.2 Beta 7",
