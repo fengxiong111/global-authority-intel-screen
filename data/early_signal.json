@@ -18,6 +18,23 @@
     ]
   },
   {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-08-08T14:06:41.000Z",
+    "sources": [
+      "Bloomberg",
+      "OpenAI News",
+      "Simon Willison",
+      "X"
+    ]
+  },
+  {
     "topic": "GPT-5.6",
     "type": "AI",
     "mentions": 3,
@@ -30,21 +47,6 @@
     "sources": [
       "OpenAI News",
       "X"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-08-08T14:06:41.000Z",
-    "sources": [
-      "OpenAI News",
-      "Simon Willison"
     ]
   }
 ]
