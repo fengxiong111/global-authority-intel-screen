@@ -2,42 +2,29 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 3,
+    "mentions": 6,
+    "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 1,
     "first_seen_at": "2026-08-07T19:37:14.000Z",
     "sources": [
       "Bloomberg",
       "OneKey Blog",
-      "The Block"
-    ]
-  },
-  {
-    "topic": "Robinhood",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-08-10T07:00:00.000Z",
-    "sources": [
-      "Bloomberg",
-      "The Block"
+      "The Block",
+      "The Defiant",
+      "X"
     ]
   },
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 2,
+    "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 0.91,
+    "growth_score": 1,
     "resonance_score": 0.05,
     "first_seen_at": "2026-08-08T14:06:41.000Z",
     "sources": [
