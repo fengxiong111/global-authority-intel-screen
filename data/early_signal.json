@@ -20,15 +20,14 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 4,
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-08-08T14:06:41.000Z",
     "sources": [
-      "Bloomberg",
       "OpenAI News",
       "Simon Willison",
       "X"
