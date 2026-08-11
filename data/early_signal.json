@@ -2,7 +2,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 9,
+    "mentions": 7,
     "trusted_mentions": 5,
     "community_hits": 0,
     "ranking_change": false,
@@ -64,7 +64,7 @@
     ]
   },
   {
-    "topic": "Robinhood",
+    "topic": "Kalshi",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
@@ -72,9 +72,9 @@
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-08-10T07:00:00.000Z",
+    "first_seen_at": "2026-08-10T21:22:51.000Z",
     "sources": [
-      "Bloomberg",
+      "The Block",
       "The Defiant"
     ]
   }
