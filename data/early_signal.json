@@ -32,18 +32,18 @@
     ]
   },
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
+    "topic": "Kalshi",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-08-12T11:00:56.000Z",
+    "first_seen_at": "2026-08-11T22:00:30.000Z",
     "sources": [
-      "Karpathy",
-      "NYT"
+      "Hacker News",
+      "The Block"
     ]
   },
   {
