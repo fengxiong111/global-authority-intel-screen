@@ -2,7 +2,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -13,22 +13,6 @@
       "OneKey Blog",
       "The Block",
       "The Defiant",
-      "X"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-08-08T14:06:41.000Z",
-    "sources": [
-      "Hacker News",
-      "OpenAI News",
       "X"
     ]
   },
@@ -45,6 +29,21 @@
     "sources": [
       "Hacker News",
       "The Block"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-08-08T14:06:41.000Z",
+    "sources": [
+      "OpenAI News",
+      "X"
     ]
   },
   {
@@ -65,15 +64,14 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 3,
+    "mentions": 2,
+    "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.1,
+    "resonance_score": 0.05,
     "first_seen_at": "2026-08-12T10:00:00.000Z",
     "sources": [
-      "Bloomberg",
       "SemiAnalysis",
       "Stratechery"
     ]
@@ -88,20 +86,6 @@
     "growth_score": 1,
     "resonance_score": 0,
     "first_seen_at": "2026-08-11T17:35:07.000Z",
-    "sources": [
-      "X"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-08-12T12:13:00.000Z",
     "sources": [
       "X"
     ]
