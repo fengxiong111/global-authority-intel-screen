@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1786559435,
+    "count": 1,
+    "titles": [
+      "OpenClaw 正式版更新 2026.6.34"
+    ],
+    "items": [
+      {
+        "id": "b1b2fa6c6ffaeca3",
+        "title": "OpenClaw 正式版更新 2026.6.34",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1786556116,
     "count": 1,
     "titles": [
@@ -985,42 +1003,6 @@
   },
   {
     "fetch_time": 1786390351,
-    "count": 1,
-    "titles": [
-      "OpenClaw 正式版更新 2026.6.34"
-    ],
-    "items": [
-      {
-        "id": "b1b2fa6c6ffaeca3",
-        "title": "OpenClaw 正式版更新 2026.6.34",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1786386576,
-    "count": 1,
-    "titles": [
-      "OpenClaw 正式版更新 2026.6.34"
-    ],
-    "items": [
-      {
-        "id": "b1b2fa6c6ffaeca3",
-        "title": "OpenClaw 正式版更新 2026.6.34",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1786383494,
     "count": 1,
     "titles": [
       "OpenClaw 正式版更新 2026.6.34"
