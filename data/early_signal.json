@@ -1,22 +1,22 @@
 [
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 3,
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 4,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
-    "first_seen_at": "2026-08-12T20:10:31.000Z",
+    "first_seen_at": "2026-08-07T19:37:14.000Z",
     "sources": [
-      "Bloomberg",
-      "Karpathy",
-      "NYT"
+      "OneKey Blog",
+      "The Block",
+      "The Defiant"
     ]
   },
   {
-    "topic": "Bitcoin",
+    "topic": "Polymarket",
     "type": "CRYPTO",
     "mentions": 3,
     "trusted_mentions": 2,
@@ -24,10 +24,10 @@
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-08-07T19:37:14.000Z",
+    "first_seen_at": "2026-08-12T06:51:00.000Z",
     "sources": [
-      "OneKey Blog",
-      "The Block"
+      "The Block",
+      "X"
     ]
   },
   {
@@ -43,6 +43,21 @@
     "sources": [
       "OpenAI News",
       "X"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-08-12T20:10:31.000Z",
+    "sources": [
+      "Karpathy",
+      "NYT"
     ]
   },
   {
