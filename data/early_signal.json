@@ -18,16 +18,32 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-08-07T19:37:14.000Z",
+    "sources": [
+      "OneKey Blog",
+      "The Block",
+      "The Defiant"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-08-07T19:37:14.000Z",
+    "first_seen_at": "2026-08-12T11:00:56.000Z",
     "sources": [
-      "OneKey Blog",
-      "The Defiant"
+      "Karpathy",
+      "NYT"
     ]
   },
   {
