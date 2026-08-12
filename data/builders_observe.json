@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1786515108,
+    "count": 2,
+    "titles": [
+      "GitHub 热门工具：skills",
+      "OpenClaw 正式版更新 2026.6.34"
+    ],
+    "items": [
+      {
+        "id": "dd88b3e1a7945bd6",
+        "title": "GitHub 热门工具：skills",
+        "topic": "ANTHROPIC",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "b1b2fa6c6ffaeca3",
+        "title": "OpenClaw 正式版更新 2026.6.34",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1786510661,
     "count": 2,
     "titles": [
@@ -945,42 +973,6 @@
   },
   {
     "fetch_time": 1786348911,
-    "count": 1,
-    "titles": [
-      "OpenClaw 正式版更新 2026.6.34"
-    ],
-    "items": [
-      {
-        "id": "b1b2fa6c6ffaeca3",
-        "title": "OpenClaw 正式版更新 2026.6.34",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1786342283,
-    "count": 1,
-    "titles": [
-      "OpenClaw 正式版更新 2026.6.34"
-    ],
-    "items": [
-      {
-        "id": "b1b2fa6c6ffaeca3",
-        "title": "OpenClaw 正式版更新 2026.6.34",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1786337890,
     "count": 1,
     "titles": [
       "OpenClaw 正式版更新 2026.6.34"
