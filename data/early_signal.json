@@ -16,21 +16,6 @@
     ]
   },
   {
-    "topic": "Polymarket",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-08-12T06:51:00.000Z",
-    "sources": [
-      "The Block",
-      "X"
-    ]
-  },
-  {
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 3,
@@ -93,7 +78,7 @@
   {
     "topic": "Codex",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
