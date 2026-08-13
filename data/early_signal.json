@@ -3,7 +3,7 @@
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 3,
-    "trusted_mentions": 2,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
@@ -41,7 +41,7 @@
     "first_seen_at": "2026-08-07T19:37:14.000Z",
     "sources": [
       "OneKey Blog",
-      "The Defiant"
+      "The Block"
     ]
   },
   {
