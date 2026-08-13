@@ -43,20 +43,5 @@
       "SemiAnalysis",
       "Stratechery"
     ]
-  },
-  {
-    "topic": "Kalshi",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-08-13T18:51:45.000Z",
-    "sources": [
-      "Bloomberg",
-      "The Block"
-    ]
   }
 ]
