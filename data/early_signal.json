@@ -1,5 +1,21 @@
 [
   {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-08-13T09:00:00.000Z",
+    "sources": [
+      "Bloomberg",
+      "OpenAI News",
+      "X"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 3,
@@ -12,21 +28,6 @@
     "sources": [
       "OneKey Blog",
       "The Block"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-08-13T09:00:00.000Z",
-    "sources": [
-      "OpenAI News",
-      "X"
     ]
   },
   {
@@ -88,20 +89,6 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "JUST",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0,
-    "first_seen_at": "2026-08-14T21:08:33.000Z",
-    "sources": [
-      "X"
     ]
   }
 ]
