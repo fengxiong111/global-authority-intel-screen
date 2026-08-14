@@ -2,7 +2,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -42,6 +42,21 @@
     "sources": [
       "SemiAnalysis",
       "Stratechery"
+    ]
+  },
+  {
+    "topic": "索尼",
+    "type": "GAME",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-08-14T16:51:30.000Z",
+    "sources": [
+      "PlayStation Blog",
+      "Sony Interactive"
     ]
   },
   {
