@@ -43,20 +43,5 @@
       "PlayStation Blog",
       "Sony Interactive"
     ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.91,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-08-13T19:37:34.000Z",
-    "sources": [
-      "Karpathy",
-      "Simon Willison"
-    ]
   }
 ]
