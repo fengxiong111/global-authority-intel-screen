@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1786969703,
+    "count": 1,
+    "titles": [
+      "GitHub 热门工具：career-ops"
+    ],
+    "items": [
+      {
+        "id": "0331baba120818ee",
+        "title": "GitHub 热门工具：career-ops",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1786967778,
     "count": 1,
     "titles": [
@@ -1189,24 +1207,6 @@
   },
   {
     "fetch_time": 1786797302,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：ego-lite"
-    ],
-    "items": [
-      {
-        "id": "5e4be92ee8ee996c",
-        "title": "GitHub 热门工具：ego-lite",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1786795062,
     "count": 1,
     "titles": [
       "GitHub 热门工具：ego-lite"
