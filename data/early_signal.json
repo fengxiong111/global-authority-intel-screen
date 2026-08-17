@@ -31,20 +31,5 @@
       "OneKey Blog",
       "The Block"
     ]
-  },
-  {
-    "topic": "索尼",
-    "type": "GAME",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.97,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-08-14T16:51:30.000Z",
-    "sources": [
-      "PlayStation Blog",
-      "Sony Interactive"
-    ]
   }
 ]
