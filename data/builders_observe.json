@@ -1,5 +1,53 @@
 [
   {
+    "fetch_time": 1787090104,
+    "count": 4,
+    "titles": [
+      "科技：UAE Says Iran 被解雇 两款 Missiles at…",
+      "科技：Tenev Pushes for 代币化股票 in America",
+      "GitHub 热门工具：omlx",
+      "Citi expects to 发布 比特币 custody later 今年…"
+    ],
+    "items": [
+      {
+        "id": "17d854f71de7f24e",
+        "title": "科技：UAE Says Iran 被解雇 两款 Missiles at…",
+        "topic": "TECH",
+        "source": "Bloomberg",
+        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
+        "action_hint": "看是否继续升级。",
+        "urgency": "high"
+      },
+      {
+        "id": "3bbdcc92b8050037",
+        "title": "科技：Tenev Pushes for 代币化股票 in America",
+        "topic": "CRYPTO_TOOLS",
+        "source": "The Defiant",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "913711b6f754efd9",
+        "title": "GitHub 热门工具：omlx",
+        "topic": "APPLE",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      },
+      {
+        "id": "343d3f1230f5f204",
+        "title": "Citi expects to 发布 比特币 custody later 今年…",
+        "topic": "BTC",
+        "source": "The Block",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1787088924,
     "count": 4,
     "titles": [
@@ -1575,12 +1623,6 @@
   },
   {
     "fetch_time": 1786917436,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1786916502,
     "count": 0,
     "titles": [],
     "items": []
