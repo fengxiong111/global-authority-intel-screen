@@ -19,7 +19,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -35,31 +35,17 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
+    "mentions": 3,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
+    "resonance_score": 0.1,
     "first_seen_at": "2026-08-18T10:00:00.000Z",
     "sources": [
+      "Bloomberg",
       "SemiAnalysis",
       "Stratechery"
-    ]
-  },
-  {
-    "topic": "Kalshi",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.97,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-08-17T19:45:30.000Z",
-    "sources": [
-      "Bloomberg",
-      "The Defiant"
     ]
   }
 ]
