@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1787082134,
+    "count": 3,
+    "titles": [
+      "科技：UAE Says Iran 被解雇 两款 Missiles at…",
+      "Citi expects to 发布 比特币 custody later 今年…",
+      "GitHub 热门工具：omlx"
+    ],
+    "items": [
+      {
+        "id": "17d854f71de7f24e",
+        "title": "科技：UAE Says Iran 被解雇 两款 Missiles at…",
+        "topic": "TECH",
+        "source": "Bloomberg",
+        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
+        "action_hint": "看是否继续升级。",
+        "urgency": "high"
+      },
+      {
+        "id": "343d3f1230f5f204",
+        "title": "Citi expects to 发布 比特币 custody later 今年…",
+        "topic": "BTC",
+        "source": "The Block",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "913711b6f754efd9",
+        "title": "GitHub 热门工具：omlx",
+        "topic": "APPLE",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1787080589,
     "count": 3,
     "titles": [
@@ -1343,18 +1381,6 @@
   },
   {
     "fetch_time": 1786910348,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1786909295,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1786908129,
     "count": 0,
     "titles": [],
     "items": []
