@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1787061115,
+    "count": 2,
+    "titles": [
+      "Citi expects to 发布 比特币 custody later 今年…",
+      "GitHub 热门工具：omlx"
+    ],
+    "items": [
+      {
+        "id": "343d3f1230f5f204",
+        "title": "Citi expects to 发布 比特币 custody later 今年…",
+        "topic": "BTC",
+        "source": "The Block",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "913711b6f754efd9",
+        "title": "GitHub 热门工具：omlx",
+        "topic": "APPLE",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1787058214,
     "count": 2,
     "titles": [
@@ -1121,18 +1149,6 @@
   },
   {
     "fetch_time": 1786888866,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1786887727,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1786885671,
     "count": 0,
     "titles": [],
     "items": []
