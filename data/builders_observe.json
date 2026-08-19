@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1787137212,
+    "count": 3,
+    "titles": [
+      "科技：Tenev Pushes for 代币化股票 in America",
+      "GitHub 热门工具：omlx",
+      "科技：Beware 管理层 Consultants"
+    ],
+    "items": [
+      {
+        "id": "3bbdcc92b8050037",
+        "title": "科技：Tenev Pushes for 代币化股票 in America",
+        "topic": "CRYPTO_TOOLS",
+        "source": "The Defiant",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "913711b6f754efd9",
+        "title": "GitHub 热门工具：omlx",
+        "topic": "APPLE",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      },
+      {
+        "id": "4749d42c0c594478",
+        "title": "科技：Beware 管理层 Consultants",
+        "topic": "TECH",
+        "source": "Hacker News",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "点开看原帖。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1787136001,
     "count": 3,
     "titles": [
@@ -2308,11 +2346,5 @@
         "urgency": "medium"
       }
     ]
-  },
-  {
-    "fetch_time": 1786963526,
-    "count": 0,
-    "titles": [],
-    "items": []
   }
 ]
