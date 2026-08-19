@@ -2,33 +2,17 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 6,
-    "trusted_mentions": 5,
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-08-14T12:25:38.000Z",
     "sources": [
       "Bloomberg",
       "OneKey Blog",
-      "The Block",
-      "X"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "MACRO",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-08-19T14:36:18.000Z",
-    "sources": [
-      "Hacker News",
-      "NYT"
+      "The Block"
     ]
   },
   {
