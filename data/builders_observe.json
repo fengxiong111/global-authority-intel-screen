@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1787202272,
+    "count": 1,
+    "titles": [
+      "科技：AI 智能体 could make today’s…"
+    ],
+    "items": [
+      {
+        "id": "253e7e9822a4c0f8",
+        "title": "科技：AI 智能体 could make today’s…",
+        "topic": "CRYPTO_TOOLS",
+        "source": "The Block",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1787200200,
     "count": 1,
     "titles": [
@@ -2497,24 +2515,6 @@
   },
   {
     "fetch_time": 1787031535,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：career-ops"
-    ],
-    "items": [
-      {
-        "id": "0331baba120818ee",
-        "title": "GitHub 热门工具：career-ops",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1787029314,
     "count": 1,
     "titles": [
       "GitHub 热门工具：career-ops"
