@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1787259794,
+    "count": 2,
+    "titles": [
+      "科技：The 战事 the World Forgot",
+      "GitHub 热门工具：career-ops"
+    ],
+    "items": [
+      {
+        "id": "dc55dc58f3baa9bd",
+        "title": "科技：The 战事 the World Forgot",
+        "topic": "TECH",
+        "source": "Bloomberg",
+        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
+        "action_hint": "看是否继续升级。",
+        "urgency": "high"
+      },
+      {
+        "id": "0331baba120818ee",
+        "title": "GitHub 热门工具：career-ops",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1787258374,
     "count": 2,
     "titles": [
@@ -2327,54 +2355,6 @@
         "source": "The Defiant",
         "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
         "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      },
-      {
-        "id": "913711b6f754efd9",
-        "title": "GitHub 热门工具：omlx",
-        "topic": "APPLE",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      },
-      {
-        "id": "343d3f1230f5f204",
-        "title": "Citi expects to 发布 比特币 custody later 今年…",
-        "topic": "BTC",
-        "source": "The Block",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1787086130,
-    "count": 4,
-    "titles": [
-      "比特币 Whales Add 43,000 比特币 in 60 Days",
-      "科技：UAE Says Iran 被解雇 两款 Missiles at…",
-      "GitHub 热门工具：omlx",
-      "Citi expects to 发布 比特币 custody later 今年…"
-    ],
-    "items": [
-      {
-        "id": "48a6e9d78112981e",
-        "title": "比特币 Whales Add 43,000 比特币 in 60 Days",
-        "topic": "BTC",
-        "source": "Bloomberg",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      },
-      {
-        "id": "17d854f71de7f24e",
-        "title": "科技：UAE Says Iran 被解雇 两款 Missiles at…",
-        "topic": "TECH",
-        "source": "Bloomberg",
-        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
-        "action_hint": "看是否继续升级。",
         "urgency": "high"
       },
       {
