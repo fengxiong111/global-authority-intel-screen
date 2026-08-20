@@ -20,33 +20,16 @@
   {
     "topic": "科技",
     "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 3,
+    "mentions": 2,
+    "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.68,
     "first_seen_at": "2026-08-20T19:40:08.000Z",
     "sources": [
       "Bloomberg",
-      "Karpathy",
-      "NYT"
-    ]
-  },
-  {
-    "topic": "ETF",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-08-20T16:40:00.000Z",
-    "sources": [
-      "Bloomberg",
-      "The Block",
-      "X"
+      "Karpathy"
     ]
   },
   {
