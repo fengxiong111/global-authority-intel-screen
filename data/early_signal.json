@@ -19,15 +19,14 @@
   {
     "topic": "科技",
     "type": "OTHER",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 2,
-    "community_hits": 1,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.05,
     "first_seen_at": "2026-08-21T17:16:13.000Z",
     "sources": [
-      "Hacker News",
       "Karpathy",
       "Simon Willison"
     ]
