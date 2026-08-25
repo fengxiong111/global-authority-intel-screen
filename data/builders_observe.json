@@ -1,5 +1,11 @@
 [
   {
+    "fetch_time": 1787681799,
+    "count": 0,
+    "titles": [],
+    "items": []
+  },
+  {
     "fetch_time": 1787680106,
     "count": 0,
     "titles": [],
@@ -1249,24 +1255,6 @@
   },
   {
     "fetch_time": 1787509168,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：codex"
-    ],
-    "items": [
-      {
-        "id": "9b6eedc937b30791",
-        "title": "GitHub 热门工具：codex",
-        "topic": "OPENAI",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1787507517,
     "count": 1,
     "titles": [
       "GitHub 热门工具：codex"
