@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1787860647,
+    "count": 1,
+    "titles": [
+      "苹果 Upgrade 发布 in the United 州"
+    ],
+    "items": [
+      {
+        "id": "cda91d5748f345aa",
+        "title": "苹果 Upgrade 发布 in the United 州",
+        "topic": "APPLE",
+        "source": "Apple Newsroom",
+        "meaning": "这是一个值得继续盯的变化信号。",
+        "action_hint": "点开核对原文。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1787823138,
     "count": 0,
     "titles": [],
@@ -202,137 +220,5 @@
     "count": 0,
     "titles": [],
     "items": []
-  },
-  {
-    "fetch_time": 1787686573,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787684413,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787681799,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787680106,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787678304,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787676612,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787673718,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787670742,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787667822,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787664648,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787661197,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787658726,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787657084,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787655433,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：codex"
-    ],
-    "items": [
-      {
-        "id": "9b6eedc937b30791",
-        "title": "GitHub 热门工具：codex",
-        "topic": "OPENAI",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1787653484,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：codex"
-    ],
-    "items": [
-      {
-        "id": "9b6eedc937b30791",
-        "title": "GitHub 热门工具：codex",
-        "topic": "OPENAI",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1787651631,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：codex"
-    ],
-    "items": [
-      {
-        "id": "9b6eedc937b30791",
-        "title": "GitHub 热门工具：codex",
-        "topic": "OPENAI",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      }
-    ]
   }
 ]
