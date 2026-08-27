@@ -44,5 +44,20 @@
       "Karpathy",
       "NYT"
     ]
+  },
+  {
+    "topic": "Meta",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-08-26T22:49:36.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT"
+    ]
   }
 ]
