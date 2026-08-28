@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1787934798,
+    "count": 2,
+    "titles": [
+      "科技：Bybit 发布 24/7 期权 on stock…",
+      "苹果 Upgrade 发布 in the United 州"
+    ],
+    "items": [
+      {
+        "id": "daccc752de552e1e",
+        "title": "科技：Bybit 发布 24/7 期权 on stock…",
+        "topic": "CRYPTO_TOOLS",
+        "source": "The Block",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "cda91d5748f345aa",
+        "title": "苹果 Upgrade 发布 in the United 州",
+        "topic": "APPLE",
+        "source": "Apple Newsroom",
+        "meaning": "这是一个值得继续盯的变化信号。",
+        "action_hint": "点开核对原文。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1787889760,
     "count": 1,
     "titles": [
@@ -61,102 +89,6 @@
   },
   {
     "fetch_time": 1787762808,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787759853,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787754143,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787751452,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787747806,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787745225,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787743369,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787741570,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787739336,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787737025,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787734717,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787731318,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787728362,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787725172,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787723205,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787720878,
-    "count": 0,
-    "titles": [],
-    "items": []
-  },
-  {
-    "fetch_time": 1787718740,
     "count": 0,
     "titles": [],
     "items": []
