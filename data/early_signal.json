@@ -16,21 +16,6 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-08-14T12:25:38.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog"
-    ]
-  },
-  {
     "topic": "Kalshi",
     "type": "CRYPTO",
     "mentions": 3,
@@ -58,21 +43,6 @@
     "sources": [
       "PlayStation Blog",
       "Sony Interactive"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.73,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-08-28T01:09:44.000Z",
-    "sources": [
-      "NYT",
-      "The Block"
     ]
   }
 ]
