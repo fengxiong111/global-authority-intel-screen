@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1788009332,
+    "count": 2,
+    "titles": [
+      "科技：Bybit 发布 24/7 期权 on stock…",
+      "OpenClaw 测试版更新 2026.9.1 Beta 1"
+    ],
+    "items": [
+      {
+        "id": "daccc752de552e1e",
+        "title": "科技：Bybit 发布 24/7 期权 on stock…",
+        "topic": "CRYPTO_TOOLS",
+        "source": "The Block",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "0273df11c82078cc",
+        "title": "OpenClaw 测试版更新 2026.9.1 Beta 1",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1787988096,
     "count": 2,
     "titles": [
@@ -128,11 +156,5 @@
         "urgency": "medium"
       }
     ]
-  },
-  {
-    "fetch_time": 1787823138,
-    "count": 0,
-    "titles": [],
-    "items": []
   }
 ]
