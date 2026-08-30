@@ -49,7 +49,7 @@
   {
     "topic": "Kalshi",
     "type": "CRYPTO",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -74,21 +74,6 @@
     "sources": [
       "PlayStation Blog",
       "Sony Interactive"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.85,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-08-28T14:44:23.000Z",
-    "sources": [
-      "NYT",
-      "The Block"
     ]
   }
 ]

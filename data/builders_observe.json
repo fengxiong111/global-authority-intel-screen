@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1788123652,
+    "count": 2,
+    "titles": [
+      "OpenClaw 测试版更新 2026.9.1 Beta 1",
+      "John Ternus 管理层 队伍; 苹果 Watch Series 12;…"
+    ],
+    "items": [
+      {
+        "id": "0273df11c82078cc",
+        "title": "OpenClaw 测试版更新 2026.9.1 Beta 1",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      },
+      {
+        "id": "4c1c2a56c2ad5a8d",
+        "title": "John Ternus 管理层 队伍; 苹果 Watch Series 12;…",
+        "topic": "APPLE",
+        "source": "Bloomberg",
+        "meaning": "苹果产品节奏或生态接口在变，可能影响后续判断。",
+        "action_hint": "看功能与上线时间。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1788113355,
     "count": 3,
     "titles": [
