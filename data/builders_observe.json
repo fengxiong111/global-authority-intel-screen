@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1788132343,
+    "count": 1,
+    "titles": [
+      "OpenClaw 测试版更新 2026.9.1 Beta 1"
+    ],
+    "items": [
+      {
+        "id": "0273df11c82078cc",
+        "title": "OpenClaw 测试版更新 2026.9.1 Beta 1",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1788123652,
     "count": 2,
     "titles": [
