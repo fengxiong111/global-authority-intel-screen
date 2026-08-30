@@ -31,21 +31,6 @@
     ]
   },
   {
-    "topic": "ETF",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-08-28T15:48:52.000Z",
-    "sources": [
-      "Bloomberg",
-      "The Block"
-    ]
-  },
-  {
     "topic": "索尼",
     "type": "GAME",
     "mentions": 2,
@@ -61,13 +46,28 @@
     ]
   },
   {
+    "topic": "ETF",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.97,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-08-28T15:48:52.000Z",
+    "sources": [
+      "Bloomberg",
+      "The Block"
+    ]
+  },
+  {
     "topic": "科技",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 0.91,
+    "growth_score": 0.85,
     "resonance_score": 0.05,
     "first_seen_at": "2026-08-28T14:44:23.000Z",
     "sources": [
