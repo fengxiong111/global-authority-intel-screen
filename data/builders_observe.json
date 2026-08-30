@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1788113355,
+    "count": 3,
+    "titles": [
+      "科技：Bybit 发布 24/7 期权 on stock…",
+      "OpenClaw 测试版更新 2026.9.1 Beta 1",
+      "John Ternus 管理层 队伍; 苹果 Watch Series 12;…"
+    ],
+    "items": [
+      {
+        "id": "daccc752de552e1e",
+        "title": "科技：Bybit 发布 24/7 期权 on stock…",
+        "topic": "CRYPTO_TOOLS",
+        "source": "The Block",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "0273df11c82078cc",
+        "title": "OpenClaw 测试版更新 2026.9.1 Beta 1",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      },
+      {
+        "id": "4c1c2a56c2ad5a8d",
+        "title": "John Ternus 管理层 队伍; 苹果 Watch Series 12;…",
+        "topic": "APPLE",
+        "source": "Bloomberg",
+        "meaning": "苹果产品节奏或生态接口在变，可能影响后续判断。",
+        "action_hint": "看功能与上线时间。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1788100177,
     "count": 3,
     "titles": [
@@ -286,34 +324,6 @@
         "source": "OpenClaw GitHub",
         "meaning": "工具能力边界变了，值得更新判断。",
         "action_hint": "看 release notes。",
-        "urgency": "high"
-      },
-      {
-        "id": "cda91d5748f345aa",
-        "title": "苹果 Upgrade 发布 in the United 州",
-        "topic": "APPLE",
-        "source": "Apple Newsroom",
-        "meaning": "这是一个值得继续盯的变化信号。",
-        "action_hint": "点开核对原文。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1787934798,
-    "count": 2,
-    "titles": [
-      "科技：Bybit 发布 24/7 期权 on stock…",
-      "苹果 Upgrade 发布 in the United 州"
-    ],
-    "items": [
-      {
-        "id": "daccc752de552e1e",
-        "title": "科技：Bybit 发布 24/7 期权 on stock…",
-        "topic": "CRYPTO_TOOLS",
-        "source": "The Block",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
         "urgency": "high"
       },
       {
