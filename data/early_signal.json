@@ -1,46 +1,16 @@
 [
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-08-28T14:48:46.000Z",
-    "sources": [
-      "Hacker News",
-      "Karpathy",
-      "Reddit"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-08-23T20:24:52.000Z",
-    "sources": [
-      "Reddit",
-      "SemiAnalysis"
-    ]
-  },
-  {
-    "topic": "Kalshi",
+    "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 2,
+    "mentions": 3,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-08-28T19:50:48.000Z",
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-08-31T13:11:07.000Z",
     "sources": [
+      "OneKey Blog",
       "The Block",
       "The Defiant"
     ]
@@ -58,6 +28,21 @@
     "sources": [
       "PlayStation Blog",
       "Sony Interactive"
+    ]
+  },
+  {
+    "topic": "Kalshi",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.91,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-08-28T19:50:48.000Z",
+    "sources": [
+      "The Block",
+      "The Defiant"
     ]
   }
 ]
