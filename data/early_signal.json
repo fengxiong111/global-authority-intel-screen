@@ -10,8 +10,8 @@
     "resonance_score": 0.73,
     "first_seen_at": "2026-08-31T12:19:17.000Z",
     "sources": [
+      "Bloomberg",
       "OneKey Blog",
-      "The Block",
       "The Defiant"
     ]
   },
@@ -28,21 +28,6 @@
     "sources": [
       "Karpathy",
       "NYT"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-08-31T18:21:11.000Z",
-    "sources": [
-      "Bloomberg",
-      "SemiAnalysis"
     ]
   },
   {
