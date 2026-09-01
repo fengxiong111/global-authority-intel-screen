@@ -12,7 +12,7 @@
     "sources": [
       "Bloomberg",
       "OneKey Blog",
-      "The Defiant"
+      "The Block"
     ]
   },
   {
@@ -46,7 +46,7 @@
     ]
   },
   {
-    "topic": "Hyperliquid",
+    "topic": "ETF",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
@@ -54,7 +54,7 @@
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-08-31T16:44:32.000Z",
+    "first_seen_at": "2026-09-01T08:15:00.000Z",
     "sources": [
       "Bloomberg",
       "The Block"

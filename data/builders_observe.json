@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1788272769,
+    "count": 2,
+    "titles": [
+      "OpenClaw 正式版更新 2026.8.1",
+      "GitHub 热门工具：openclaude"
+    ],
+    "items": [
+      {
+        "id": "88a93f2d06a399f2",
+        "title": "OpenClaw 正式版更新 2026.8.1",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      },
+      {
+        "id": "1cb61b047fb96587",
+        "title": "GitHub 热门工具：openclaude",
+        "topic": "CLAUDE",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1788256258,
     "count": 1,
     "titles": [
