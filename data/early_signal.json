@@ -2,7 +2,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 7,
+    "mentions": 5,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -14,6 +14,67 @@
       "OneKey Blog",
       "The Block",
       "The Defiant"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-09-02T19:21:51.000Z",
+    "sources": [
+      "Bloomberg",
+      "Hacker News",
+      "SemiAnalysis"
+    ]
+  },
+  {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-09-01T23:57:28.000Z",
+    "sources": [
+      "Hacker News",
+      "Simon Willison"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-09-02T16:39:38.000Z",
+    "sources": [
+      "Karpathy",
+      "Simon Willison"
+    ]
+  },
+  {
+    "topic": "Trump",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-09-02T18:43:12.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT"
     ]
   },
   {
