@@ -2,49 +2,47 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 5,
-    "trusted_mentions": 4,
+    "mentions": 3,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-08-31T12:19:17.000Z",
     "sources": [
-      "Bloomberg",
       "OneKey Blog",
       "The Block",
       "The Defiant"
     ]
   },
   {
-    "topic": "Anthropic",
+    "topic": "OpenAI",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-09-02T19:21:51.000Z",
-    "sources": [
-      "Bloomberg",
-      "Hacker News",
-      "SemiAnalysis"
-    ]
-  },
-  {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 1,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-09-01T23:57:28.000Z",
+    "first_seen_at": "2026-08-31T04:00:00.000Z",
     "sources": [
-      "Hacker News",
-      "Simon Willison"
+      "NYT",
+      "OpenAI News"
+    ]
+  },
+  {
+    "topic": "Trump",
+    "type": "OTHER",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-09-02T18:43:12.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT"
     ]
   },
   {
@@ -60,21 +58,6 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "Trump",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-09-02T18:43:12.000Z",
-    "sources": [
-      "Bloomberg",
-      "NYT"
     ]
   },
   {
