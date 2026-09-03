@@ -31,21 +31,6 @@
     ]
   },
   {
-    "topic": "Trump",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-09-02T18:43:12.000Z",
-    "sources": [
-      "Bloomberg",
-      "NYT"
-    ]
-  },
-  {
     "topic": "科技",
     "type": "OTHER",
     "mentions": 2,
@@ -58,6 +43,21 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
+    ]
+  },
+  {
+    "topic": "Trump",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-09-02T18:43:12.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT"
     ]
   },
   {
