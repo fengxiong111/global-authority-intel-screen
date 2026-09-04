@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1788540594,
+    "count": 1,
+    "titles": [
+      "GitHub 热门工具：ECC"
+    ],
+    "items": [
+      {
+        "id": "d3cf920b7009fa1c",
+        "title": "GitHub 热门工具：ECC",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1788527248,
     "count": 1,
     "titles": [
@@ -295,24 +313,6 @@
   },
   {
     "fetch_time": 1788370334,
-    "count": 1,
-    "titles": [
-      "OpenClaw 正式版更新 2026.8.2"
-    ],
-    "items": [
-      {
-        "id": "a209641a55aef22d",
-        "title": "OpenClaw 正式版更新 2026.8.2",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1788357020,
     "count": 1,
     "titles": [
       "OpenClaw 正式版更新 2026.8.2"
