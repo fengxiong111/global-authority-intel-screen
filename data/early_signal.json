@@ -52,7 +52,7 @@
   {
     "topic": "GPT-6",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 1,
     "community_hits": 1,
     "ranking_change": false,
