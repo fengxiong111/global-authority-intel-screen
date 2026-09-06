@@ -17,7 +17,7 @@
     ]
   },
   {
-    "topic": "Bitcoin",
+    "topic": "bitcoin",
     "type": "CRYPTO",
     "mentions": 3,
     "trusted_mentions": 3,
@@ -44,6 +44,21 @@
     "first_seen_at": "2026-09-02T16:39:38.000Z",
     "sources": [
       "Karpathy",
+      "NYT"
+    ]
+  },
+  {
+    "topic": "Iran",
+    "type": "MACRO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-09-06T09:10:47.000Z",
+    "sources": [
+      "Bloomberg",
       "NYT"
     ]
   }
