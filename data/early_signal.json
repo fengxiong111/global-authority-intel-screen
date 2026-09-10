@@ -1,36 +1,36 @@
 [
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
+    "topic": "OpenAI",
+    "type": "AI",
     "mentions": 6,
     "trusted_mentions": 4,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 1,
+    "first_seen_at": "2026-09-06T08:00:00.000Z",
+    "sources": [
+      "Bloomberg",
+      "Hacker News",
+      "NYT",
+      "OpenAI News",
+      "Stratechery"
+    ]
+  },
+  {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-09-09T12:00:00.000Z",
     "sources": [
       "Bloomberg",
       "OneKey Blog",
-      "The Block",
-      "The Defiant"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 4,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.78,
-    "first_seen_at": "2026-09-06T08:00:00.000Z",
-    "sources": [
-      "Bloomberg",
-      "NYT",
-      "OpenAI News",
-      "Stratechery"
+      "The Block"
     ]
   },
   {
@@ -44,7 +44,7 @@
     "resonance_score": 0.05,
     "first_seen_at": "2026-09-09T17:15:36.000Z",
     "sources": [
-      "Bloomberg",
+      "NYT",
       "SemiAnalysis"
     ]
   },
