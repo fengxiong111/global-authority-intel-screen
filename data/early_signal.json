@@ -2,7 +2,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
@@ -30,22 +30,6 @@
       "NYT",
       "OpenAI News",
       "Stratechery"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-09-02T16:39:38.000Z",
-    "sources": [
-      "Hacker News",
-      "Karpathy",
-      "Simon Willison"
     ]
   },
   {
@@ -91,6 +75,21 @@
     "sources": [
       "Bloomberg",
       "NYT"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.91,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-09-02T16:39:38.000Z",
+    "sources": [
+      "Karpathy",
+      "Simon Willison"
     ]
   }
 ]
