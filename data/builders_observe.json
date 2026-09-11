@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1789139439,
+    "count": 3,
+    "titles": [
+      "科技：MoneyGram's 稳定币 Visa Card Goes 最新 In…",
+      "GitHub 热门工具：CloddsBot",
+      "OpenClaw 正式版更新 2026.6.35"
+    ],
+    "items": [
+      {
+        "id": "c915eb7a7f47e8e1",
+        "title": "科技：MoneyGram's 稳定币 Visa Card Goes 最新 In…",
+        "topic": "CRYPTO_TOOLS",
+        "source": "The Defiant",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "512fb07d3fdf38bb",
+        "title": "GitHub 热门工具：CloddsBot",
+        "topic": "CLAUDE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "77b36aa83d2ca266",
+        "title": "OpenClaw 正式版更新 2026.6.35",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1789126684,
     "count": 3,
     "titles": [
@@ -505,24 +543,6 @@
   },
   {
     "fetch_time": 1788974345,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：superpowers"
-    ],
-    "items": [
-      {
-        "id": "fa06b8f9ade60a0f",
-        "title": "GitHub 热门工具：superpowers",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1788961229,
     "count": 1,
     "titles": [
       "GitHub 热门工具：superpowers"
