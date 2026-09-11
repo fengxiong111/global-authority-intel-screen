@@ -3,13 +3,14 @@
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 6,
-    "trusted_mentions": 3,
-    "community_hits": 3,
+    "trusted_mentions": 4,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 1,
     "first_seen_at": "2026-09-06T08:00:00.000Z",
     "sources": [
+      "Bloomberg",
       "Hacker News",
       "NYT",
       "OpenAI News",
@@ -19,46 +20,32 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-09-09T12:00:00.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-09-09T12:00:00.000Z",
+    "first_seen_at": "2026-09-11T09:03:06.000Z",
     "sources": [
-      "Bloomberg",
-      "OneKey Blog"
-    ]
-  },
-  {
-    "topic": "etf",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-09-10T09:02:20.000Z",
-    "sources": [
-      "NYT",
-      "The Block"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.95,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-09-10T14:30:00.000Z",
-    "sources": [
-      "The Block",
-      "The Defiant"
+      "Karpathy",
+      "NYT"
     ]
   },
   {
@@ -74,6 +61,21 @@
     "sources": [
       "PlayStation Blog",
       "Sony Interactive"
+    ]
+  },
+  {
+    "topic": "etf",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.91,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-09-10T09:02:20.000Z",
+    "sources": [
+      "NYT",
+      "The Block"
     ]
   }
 ]
