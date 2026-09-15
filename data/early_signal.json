@@ -31,5 +31,35 @@
       "Hacker News",
       "SemiAnalysis"
     ]
+  },
+  {
+    "topic": "Introducing",
+    "type": "GAME",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-09-15T22:00:20.000Z",
+    "sources": [
+      "PlayStation Blog",
+      "Sony Interactive"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-09-15T10:00:00.000Z",
+    "sources": [
+      "Bloomberg",
+      "Stratechery"
+    ]
   }
 ]
