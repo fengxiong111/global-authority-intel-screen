@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1789645565,
+    "count": 1,
+    "titles": [
+      "OpenClaw 正式版更新 2026.6.35"
+    ],
+    "items": [
+      {
+        "id": "77b36aa83d2ca266",
+        "title": "OpenClaw 正式版更新 2026.6.35",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1789625506,
     "count": 2,
     "titles": [
@@ -332,24 +350,6 @@
         "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
         "action_hint": "看 repo。",
         "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1789467346,
-    "count": 1,
-    "titles": [
-      "OpenClaw 正式版更新 2026.6.35"
-    ],
-    "items": [
-      {
-        "id": "77b36aa83d2ca266",
-        "title": "OpenClaw 正式版更新 2026.6.35",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
       }
     ]
   }
