@@ -2,7 +2,7 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 2,
     "community_hits": 1,
     "ranking_change": false,
@@ -18,16 +18,17 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 2,
+    "mentions": 5,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-09-09T12:00:00.000Z",
     "sources": [
       "OneKey Blog",
-      "The Block"
+      "The Block",
+      "The Defiant"
     ]
   },
   {
