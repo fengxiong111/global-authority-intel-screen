@@ -1,5 +1,21 @@
 [
   {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-09-20T10:52:39.000Z",
+    "sources": [
+      "Hacker News",
+      "Karpathy",
+      "NYT"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 3,
@@ -27,6 +43,21 @@
     "sources": [
       "NYT",
       "SemiAnalysis"
+    ]
+  },
+  {
+    "topic": "China",
+    "type": "MACRO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-09-20T03:53:22.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT"
     ]
   }
 ]
