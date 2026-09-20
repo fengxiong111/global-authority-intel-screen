@@ -3,16 +3,16 @@
     "topic": "科技",
     "type": "OTHER",
     "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
+    "trusted_mentions": 3,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.9,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-09-20T10:52:39.000Z",
     "sources": [
-      "Hacker News",
       "Karpathy",
-      "NYT"
+      "NYT",
+      "Simon Willison"
     ]
   },
   {
