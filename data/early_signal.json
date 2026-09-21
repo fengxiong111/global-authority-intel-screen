@@ -2,30 +2,48 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 5,
+    "mentions": 6,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.78,
+    "first_seen_at": "2026-09-09T12:00:00.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block",
+      "The Defiant"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 3,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
-    "first_seen_at": "2026-09-09T12:00:00.000Z",
+    "first_seen_at": "2026-09-20T10:52:39.000Z",
     "sources": [
       "Bloomberg",
-      "OneKey Blog",
-      "The Block"
+      "Karpathy",
+      "Simon Willison"
     ]
   },
   {
     "topic": "Anthropic",
     "type": "AI",
     "mentions": 3,
-    "trusted_mentions": 2,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
+    "resonance_score": 0.1,
     "first_seen_at": "2026-09-11T23:19:47.000Z",
     "sources": [
+      "Bloomberg",
       "NYT",
       "SemiAnalysis"
     ]
@@ -33,7 +51,7 @@
   {
     "topic": "科技",
     "type": "CRYPTO",
-    "mentions": 2,
+    "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -43,21 +61,6 @@
     "sources": [
       "The Block",
       "The Defiant"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-09-20T10:52:39.000Z",
-    "sources": [
-      "Karpathy",
-      "Simon Willison"
     ]
   }
 ]
