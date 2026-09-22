@@ -33,31 +33,17 @@
     ]
   },
   {
-    "topic": "科技",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-09-21T09:24:27.000Z",
-    "sources": [
-      "The Block",
-      "The Defiant"
-    ]
-  },
-  {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
+    "mentions": 3,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
+    "resonance_score": 0.1,
     "first_seen_at": "2026-09-11T23:19:47.000Z",
     "sources": [
+      "Bloomberg",
       "NYT",
       "SemiAnalysis"
     ]
