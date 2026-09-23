@@ -16,22 +16,6 @@
     ]
   },
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-09-20T10:52:39.000Z",
-    "sources": [
-      "Bloomberg",
-      "Karpathy",
-      "Simon Willison"
-    ]
-  },
-  {
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 6,
@@ -64,7 +48,7 @@
   {
     "topic": "GPT-6",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -77,9 +61,24 @@
     ]
   },
   {
+    "topic": "Trump",
+    "type": "OTHER",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-09-23T17:25:09.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT"
+    ]
+  },
+  {
     "topic": "科技",
     "type": "CRYPTO",
-    "mentions": 3,
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -89,6 +88,21 @@
     "sources": [
       "The Block",
       "The Defiant"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.97,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-09-20T10:52:39.000Z",
+    "sources": [
+      "Karpathy",
+      "Simon Willison"
     ]
   }
 ]
