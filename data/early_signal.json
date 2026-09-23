@@ -17,6 +17,22 @@
     ]
   },
   {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-09-22T09:03:32.000Z",
+    "sources": [
+      "NYT",
+      "SemiAnalysis",
+      "Simon Willison"
+    ]
+  },
+  {
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 4,
@@ -32,18 +48,18 @@
     ]
   },
   {
-    "topic": "Anthropic",
+    "topic": "GPT-6",
     "type": "AI",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-09-22T09:03:32.000Z",
+    "first_seen_at": "2026-09-21T12:00:00.000Z",
     "sources": [
-      "NYT",
-      "SemiAnalysis"
+      "OpenAI News",
+      "Simon Willison"
     ]
   },
   {
@@ -68,7 +84,7 @@
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 0.91,
+    "growth_score": 1,
     "resonance_score": 0.05,
     "first_seen_at": "2026-09-20T10:52:39.000Z",
     "sources": [
