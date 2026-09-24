@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1790262113,
+    "count": 1,
+    "titles": [
+      "科技：SEC Clears 代币化股票 To Trade Onchain As…"
+    ],
+    "items": [
+      {
+        "id": "0d2b750ccd2ba41e",
+        "title": "科技：SEC Clears 代币化股票 To Trade Onchain As…",
+        "topic": "CRYPTO_TOOLS",
+        "source": "The Defiant",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1790244581,
     "count": 1,
     "titles": [
@@ -259,34 +277,6 @@
         "id": "d1c377878b3646a4",
         "title": "Near Adds Ondo’s 代币化股票 With…",
         "topic": "ETF",
-        "source": "The Defiant",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      },
-      {
-        "id": "810f22291332d809",
-        "title": "OpenClaw 正式版更新 2026.7.35",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1790080415,
-    "count": 2,
-    "titles": [
-      "科技：SEC Clears 代币化股票 To Trade Onchain As…",
-      "OpenClaw 正式版更新 2026.7.35"
-    ],
-    "items": [
-      {
-        "id": "0d2b750ccd2ba41e",
-        "title": "科技：SEC Clears 代币化股票 To Trade Onchain As…",
-        "topic": "CRYPTO_TOOLS",
         "source": "The Defiant",
         "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
         "action_hint": "看盘面与后续流向。",
