@@ -16,22 +16,6 @@
     ]
   },
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-09-20T10:52:39.000Z",
-    "sources": [
-      "Bloomberg",
-      "Karpathy",
-      "Simon Willison"
-    ]
-  },
-  {
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 6,
@@ -47,21 +31,6 @@
     ]
   },
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-09-22T09:03:32.000Z",
-    "sources": [
-      "SemiAnalysis",
-      "Simon Willison"
-    ]
-  },
-  {
     "topic": "GPT-6",
     "type": "AI",
     "mentions": 5,
@@ -73,6 +42,21 @@
     "first_seen_at": "2026-09-21T12:00:00.000Z",
     "sources": [
       "OpenAI News",
+      "Simon Willison"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.91,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-09-20T10:52:39.000Z",
+    "sources": [
+      "Karpathy",
       "Simon Willison"
     ]
   }
