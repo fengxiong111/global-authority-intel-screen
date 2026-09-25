@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1790363969,
+    "count": 1,
+    "titles": [
+      "GitHub 热门工具：superpowers"
+    ],
+    "items": [
+      {
+        "id": "fa06b8f9ade60a0f",
+        "title": "GitHub 热门工具：superpowers",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1790349543,
     "count": 1,
     "titles": [
@@ -145,42 +163,6 @@
         "source": "The Defiant",
         "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
         "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1790190587,
-    "count": 1,
-    "titles": [
-      "科技：SEC Clears 代币化股票 To Trade Onchain As…"
-    ],
-    "items": [
-      {
-        "id": "0d2b750ccd2ba41e",
-        "title": "科技：SEC Clears 代币化股票 To Trade Onchain As…",
-        "topic": "CRYPTO_TOOLS",
-        "source": "The Defiant",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1790177389,
-    "count": 1,
-    "titles": [
-      "纽约时报：U.N. 最新进展: Iran’s President…"
-    ],
-    "items": [
-      {
-        "id": "355a7afd3fa4655b",
-        "title": "纽约时报：U.N. 最新进展: Iran’s President…",
-        "topic": "NYT",
-        "source": "NYT",
-        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
-        "action_hint": "看是否继续升级。",
         "urgency": "high"
       }
     ]
