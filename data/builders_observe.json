@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1790400873,
+    "count": 1,
+    "titles": [
+      "GitHub 热门工具：superpowers"
+    ],
+    "items": [
+      {
+        "id": "fa06b8f9ade60a0f",
+        "title": "GitHub 热门工具：superpowers",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1790383647,
     "count": 1,
     "titles": [
@@ -133,24 +151,6 @@
   },
   {
     "fetch_time": 1790244581,
-    "count": 1,
-    "titles": [
-      "科技：SEC Clears 代币化股票 To Trade Onchain As…"
-    ],
-    "items": [
-      {
-        "id": "0d2b750ccd2ba41e",
-        "title": "科技：SEC Clears 代币化股票 To Trade Onchain As…",
-        "topic": "CRYPTO_TOOLS",
-        "source": "The Defiant",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1790227115,
     "count": 1,
     "titles": [
       "科技：SEC Clears 代币化股票 To Trade Onchain As…"
