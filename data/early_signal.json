@@ -1,34 +1,50 @@
 [
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 3,
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 6,
     "trusted_mentions": 2,
-    "community_hits": 1,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-09-27T05:00:25.000Z",
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-09-25T14:39:39.000Z",
     "sources": [
-      "Bloomberg",
-      "Hacker News",
-      "Karpathy"
+      "NYT",
+      "Reddit",
+      "SemiAnalysis"
     ]
   },
   {
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 1,
+    "trusted_mentions": 1,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
     "first_seen_at": "2026-09-25T20:26:50.000Z",
     "sources": [
-      "Bloomberg",
       "Hacker News",
-      "NYT"
+      "NYT",
+      "Reddit"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 2,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-09-27T05:00:25.000Z",
+    "sources": [
+      "Hacker News",
+      "Karpathy",
+      "Reddit"
     ]
   },
   {
@@ -45,22 +61,6 @@
       "OneKey Blog",
       "The Block",
       "The Defiant"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.1,
-    "first_seen_at": "2026-09-25T14:39:39.000Z",
-    "sources": [
-      "Bloomberg",
-      "NYT",
-      "SemiAnalysis"
     ]
   },
   {
