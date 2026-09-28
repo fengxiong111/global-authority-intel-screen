@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1790580811,
+    "count": 1,
+    "titles": [
+      "GitHub 热门工具：openrig"
+    ],
+    "items": [
+      {
+        "id": "1fda4c813bbc15c3",
+        "title": "GitHub 热门工具：openrig",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1790559304,
     "count": 1,
     "titles": [
@@ -127,24 +145,6 @@
   },
   {
     "fetch_time": 1790417517,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：superpowers"
-    ],
-    "items": [
-      {
-        "id": "fa06b8f9ade60a0f",
-        "title": "GitHub 热门工具：superpowers",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1790400873,
     "count": 1,
     "titles": [
       "GitHub 热门工具：superpowers"
