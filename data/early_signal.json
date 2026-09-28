@@ -1,16 +1,31 @@
 [
   {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.9,
+    "first_seen_at": "2026-09-25T20:26:50.000Z",
+    "sources": [
+      "NYT",
+      "OpenAI News",
+      "Reddit"
+    ]
+  },
+  {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 7,
-    "trusted_mentions": 3,
+    "mentions": 6,
+    "trusted_mentions": 2,
     "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-09-25T14:39:39.000Z",
     "sources": [
-      "Bloomberg",
       "NYT",
       "Reddit",
       "SemiAnalysis"
@@ -19,48 +34,32 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 6,
-    "trusted_mentions": 4,
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-09-26T16:54:17.000Z",
     "sources": [
       "Bloomberg",
       "OneKey Blog",
-      "The Block",
-      "The Defiant"
+      "The Block"
     ]
   },
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-09-25T20:26:50.000Z",
-    "sources": [
-      "NYT",
-      "Reddit"
-    ]
-  },
-  {
-    "topic": "索尼",
-    "type": "GAME",
+    "topic": "ETF",
+    "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 0.91,
+    "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-09-25T17:20:35.000Z",
+    "first_seen_at": "2026-09-28T16:07:37.000Z",
     "sources": [
-      "PlayStation Blog",
-      "Sony Interactive"
+      "Bloomberg",
+      "The Defiant"
     ]
   }
 ]
