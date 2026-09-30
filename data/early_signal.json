@@ -1,21 +1,5 @@
 [
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.9,
-    "first_seen_at": "2026-09-27T17:22:51.000Z",
-    "sources": [
-      "Hacker News",
-      "Karpathy",
-      "NYT"
-    ]
-  },
-  {
     "topic": "OpenAI",
     "type": "AI",
     "mentions": 5,
@@ -26,7 +10,7 @@
     "resonance_score": 0.78,
     "first_seen_at": "2026-09-25T20:26:50.000Z",
     "sources": [
-      "Bloomberg",
+      "NYT",
       "OpenAI News",
       "Simon Willison",
       "Stratechery"
@@ -49,22 +33,6 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-09-26T16:54:17.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Block"
-    ]
-  },
-  {
     "topic": "openclaw",
     "type": "AI",
     "mentions": 3,
@@ -80,18 +48,18 @@
     ]
   },
   {
-    "topic": "科技",
+    "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-09-30T12:00:00.000Z",
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-09-26T16:54:17.000Z",
     "sources": [
-      "The Block",
-      "The Defiant"
+      "OneKey Blog",
+      "The Block"
     ]
   }
 ]
