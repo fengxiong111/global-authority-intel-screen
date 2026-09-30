@@ -2,14 +2,15 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 7,
-    "trusted_mentions": 3,
+    "mentions": 9,
+    "trusted_mentions": 4,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 1,
     "first_seen_at": "2026-09-25T20:26:50.000Z",
     "sources": [
+      "Bloomberg",
       "NYT",
       "OpenAI News",
       "Reddit",
@@ -62,6 +63,21 @@
       "Hacker News",
       "Karpathy",
       "Reddit"
+    ]
+  },
+  {
+    "topic": "Kalshi",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-09-30T06:34:34.000Z",
+    "sources": [
+      "The Block",
+      "The Defiant"
     ]
   }
 ]
