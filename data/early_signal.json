@@ -2,7 +2,7 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 9,
+    "mentions": 8,
     "trusted_mentions": 4,
     "community_hits": 1,
     "ranking_change": false,
@@ -10,11 +10,11 @@
     "resonance_score": 1,
     "first_seen_at": "2026-09-25T20:26:50.000Z",
     "sources": [
-      "Bloomberg",
       "NYT",
       "OpenAI News",
       "Reddit",
-      "Simon Willison"
+      "Simon Willison",
+      "Stratechery"
     ]
   },
   {
@@ -34,22 +34,6 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-09-26T16:54:17.000Z",
-    "sources": [
-      "Bloomberg",
-      "OneKey Blog",
-      "The Block"
-    ]
-  },
-  {
     "topic": "科技",
     "type": "OTHER",
     "mentions": 3,
@@ -63,6 +47,37 @@
       "Hacker News",
       "Karpathy",
       "Reddit"
+    ]
+  },
+  {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-09-26T16:54:17.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block"
+    ]
+  },
+  {
+    "topic": "openclaw",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-09-28T02:34:45.000Z",
+    "sources": [
+      "GitHub Trending",
+      "OpenClaw GitHub"
     ]
   },
   {
