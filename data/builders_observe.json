@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1790819608,
+    "count": 1,
+    "titles": [
+      "GitHub 热门工具：openrig"
+    ],
+    "items": [
+      {
+        "id": "1fda4c813bbc15c3",
+        "title": "GitHub 热门工具：openrig",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1790809151,
     "count": 2,
     "titles": [
@@ -215,24 +233,6 @@
   },
   {
     "fetch_time": 1790665062,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：openrig"
-    ],
-    "items": [
-      {
-        "id": "1fda4c813bbc15c3",
-        "title": "GitHub 热门工具：openrig",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1790644274,
     "count": 1,
     "titles": [
       "GitHub 热门工具：openrig"
