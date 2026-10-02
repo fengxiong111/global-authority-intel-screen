@@ -2,7 +2,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 3,
+    "mentions": 4,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -13,22 +13,6 @@
       "Bloomberg",
       "OneKey Blog",
       "The Block"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-09-25T20:26:50.000Z",
-    "sources": [
-      "NYT",
-      "Simon Willison",
-      "Stratechery"
     ]
   },
   {
@@ -44,6 +28,36 @@
     "sources": [
       "SemiAnalysis",
       "Simon Willison"
+    ]
+  },
+  {
+    "topic": "SEC",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-10-01T21:00:53.000Z",
+    "sources": [
+      "Bloomberg",
+      "The Block"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.73,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-09-25T20:26:50.000Z",
+    "sources": [
+      "NYT",
+      "Stratechery"
     ]
   }
 ]
