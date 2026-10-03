@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1791023182,
+    "count": 3,
+    "titles": [
+      "OpenClaw 正式版更新 2026.8.35",
+      "苹果 Pass Designer",
+      "GitHub 热门工具：superpowers"
+    ],
+    "items": [
+      {
+        "id": "4a314a27f44510c1",
+        "title": "OpenClaw 正式版更新 2026.8.35",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      },
+      {
+        "id": "6b84cf5d22272fae",
+        "title": "苹果 Pass Designer",
+        "topic": "APPLE",
+        "source": "Hacker News",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "点开看原帖。",
+        "urgency": "medium"
+      },
+      {
+        "id": "fa06b8f9ade60a0f",
+        "title": "GitHub 热门工具：superpowers",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1791004246,
     "count": 3,
     "titles": [
@@ -235,24 +273,6 @@
   },
   {
     "fetch_time": 1790868243,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：openrig"
-    ],
-    "items": [
-      {
-        "id": "1fda4c813bbc15c3",
-        "title": "GitHub 热门工具：openrig",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1790842001,
     "count": 1,
     "titles": [
       "GitHub 热门工具：openrig"
