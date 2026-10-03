@@ -31,20 +31,5 @@
       "NYT",
       "OpenAI News"
     ]
-  },
-  {
-    "topic": "SEC",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.91,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-10-01T21:00:53.000Z",
-    "sources": [
-      "Bloomberg",
-      "The Block"
-    ]
   }
 ]
