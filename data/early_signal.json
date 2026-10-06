@@ -1,15 +1,16 @@
 [
   {
-    "topic": "bitcoin",
+    "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 2,
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-10-02T05:50:41.000Z",
     "sources": [
+      "Bloomberg",
       "OneKey Blog",
       "The Block"
     ]
