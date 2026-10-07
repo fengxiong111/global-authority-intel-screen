@@ -2,16 +2,33 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 2,
+    "mentions": 4,
+    "trusted_mentions": 4,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.78,
+    "first_seen_at": "2026-10-02T05:50:41.000Z",
+    "sources": [
+      "Bloomberg",
+      "OneKey Blog",
+      "The Block",
+      "The Defiant"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-10-02T05:50:41.000Z",
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-10-06T16:00:00.000Z",
     "sources": [
-      "Bloomberg",
-      "OneKey Blog"
+      "OpenAI News",
+      "Simon Willison"
     ]
   }
 ]
