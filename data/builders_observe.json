@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1791424940,
+    "count": 1,
+    "titles": [
+      "OpenClaw 正式版更新 2026.8.35"
+    ],
+    "items": [
+      {
+        "id": "4a314a27f44510c1",
+        "title": "OpenClaw 正式版更新 2026.8.35",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1791411462,
     "count": 1,
     "titles": [
@@ -127,24 +145,6 @@
   },
   {
     "fetch_time": 1791275050,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：claude-mem"
-    ],
-    "items": [
-      {
-        "id": "54b9e2256a9b7d90",
-        "title": "GitHub 热门工具：claude-mem",
-        "topic": "OPENCLAW",
-        "source": "GitHub Trending",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1791251523,
     "count": 1,
     "titles": [
       "GitHub 热门工具：claude-mem"
