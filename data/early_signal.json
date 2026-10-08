@@ -2,14 +2,15 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 3,
+    "mentions": 7,
+    "trusted_mentions": 4,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 1,
     "first_seen_at": "2026-10-06T16:00:00.000Z",
     "sources": [
+      "Bloomberg",
       "Hacker News",
       "NYT",
       "OpenAI News",
@@ -17,33 +18,35 @@
     ]
   },
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-10-07T19:44:04.000Z",
-    "sources": [
-      "Karpathy",
-      "NYT"
-    ]
-  },
-  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-10-08T14:52:27.000Z",
     "sources": [
       "OneKey Blog",
-      "The Block"
+      "The Block",
+      "The Defiant"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-10-07T19:44:04.000Z",
+    "sources": [
+      "Bloomberg",
+      "Karpathy",
+      "NYT"
     ]
   }
 ]
