@@ -34,19 +34,18 @@
     ]
   },
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 3,
+    "topic": "etf",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-10-07T19:44:04.000Z",
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-10-08T16:43:47.000Z",
     "sources": [
-      "Bloomberg",
-      "Karpathy",
-      "NYT"
+      "The Block",
+      "The Defiant"
     ]
   }
 ]
