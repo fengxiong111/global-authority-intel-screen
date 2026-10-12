@@ -1,17 +1,18 @@
 [
   {
-    "topic": "OpenAI",
+    "topic": "Anthropic",
     "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
+    "mentions": 3,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-10-12T03:00:20.000Z",
+    "resonance_score": 0.1,
+    "first_seen_at": "2026-10-10T18:01:21.000Z",
     "sources": [
       "Bloomberg",
-      "NYT"
+      "NYT",
+      "SemiAnalysis"
     ]
   }
 ]
