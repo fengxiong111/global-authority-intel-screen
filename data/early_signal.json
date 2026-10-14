@@ -1,34 +1,17 @@
 [
   {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 3,
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 4,
     "trusted_mentions": 2,
-    "community_hits": 1,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-10-13T22:24:46.000Z",
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-10-13T11:38:19.000Z",
     "sources": [
-      "Bloomberg",
-      "Hacker News",
-      "SemiAnalysis"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-10-13T20:13:49.000Z",
-    "sources": [
-      "Bloomberg",
-      "Hacker News",
-      "NYT"
+      "The Block",
+      "The Defiant"
     ]
   },
   {

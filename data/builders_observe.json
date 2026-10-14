@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1791960122,
+    "count": 1,
+    "titles": [
+      "苹果 HomeView"
+    ],
+    "items": [
+      {
+        "id": "fa2a832d13f84eb5",
+        "title": "苹果 HomeView",
+        "topic": "APPLE",
+        "source": "Hacker News",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "点开看原帖。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1791942010,
     "count": 1,
     "titles": [
