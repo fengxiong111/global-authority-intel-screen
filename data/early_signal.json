@@ -2,14 +2,16 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-10-13T23:00:06.000Z",
     "sources": [
+      "Bloomberg",
+      "Hacker News",
       "SemiAnalysis",
       "Simon Willison"
     ]
@@ -17,14 +19,15 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-10-14T01:33:22.000Z",
     "sources": [
+      "Bloomberg",
       "NYT",
       "OpenAI News"
     ]
@@ -58,21 +61,6 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "Polymarket",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-10-13T21:00:01.000Z",
-    "sources": [
-      "Bloomberg",
-      "The Block"
     ]
   }
 ]
