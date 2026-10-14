@@ -1,5 +1,11 @@
 [
   {
+    "fetch_time": 1791998747,
+    "count": 0,
+    "titles": [],
+    "items": []
+  },
+  {
     "fetch_time": 1791980743,
     "count": 2,
     "titles": [
@@ -125,24 +131,6 @@
   },
   {
     "fetch_time": 1791848275,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：open-webui"
-    ],
-    "items": [
-      {
-        "id": "90f5664773a4c39d",
-        "title": "GitHub 热门工具：open-webui",
-        "topic": "OPENAI",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1791825145,
     "count": 1,
     "titles": [
       "GitHub 热门工具：open-webui"
