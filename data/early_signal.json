@@ -45,20 +45,5 @@
       "NYT",
       "OpenAI News"
     ]
-  },
-  {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-10-13T11:38:19.000Z",
-    "sources": [
-      "The Block",
-      "The Defiant"
-    ]
   }
 ]
