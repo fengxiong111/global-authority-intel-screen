@@ -2,33 +2,16 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 4,
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-10-13T23:00:06.000Z",
     "sources": [
-      "Bloomberg",
       "NYT",
       "SemiAnalysis",
-      "Simon Willison"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-10-12T23:58:46.000Z",
-    "sources": [
-      "Hacker News",
-      "Karpathy",
       "Simon Willison"
     ]
   },
@@ -45,6 +28,21 @@
     "sources": [
       "NYT",
       "OpenAI News"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.91,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-10-12T23:58:46.000Z",
+    "sources": [
+      "Karpathy",
+      "Simon Willison"
     ]
   }
 ]
