@@ -1,21 +1,5 @@
 [
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-10-14T01:33:22.000Z",
-    "sources": [
-      "Bloomberg",
-      "NYT",
-      "OpenAI News"
-    ]
-  },
-  {
     "topic": "Claude",
     "type": "AI",
     "mentions": 3,
