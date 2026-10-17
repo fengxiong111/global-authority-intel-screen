@@ -1,17 +1,18 @@
 [
   {
-    "topic": "Claude",
-    "type": "AI",
+    "topic": "科技",
+    "type": "OTHER",
     "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 2,
+    "trusted_mentions": 3,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-10-16T21:32:28.000Z",
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-10-12T23:58:46.000Z",
     "sources": [
-      "Hacker News",
-      "The Defiant"
+      "Bloomberg",
+      "Karpathy",
+      "NYT"
     ]
   },
   {
@@ -27,21 +28,6 @@
     "sources": [
       "SemiAnalysis",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-10-12T23:58:46.000Z",
-    "sources": [
-      "Karpathy",
-      "NYT"
     ]
   },
   {
