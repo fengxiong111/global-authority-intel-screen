@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1792367400,
+    "count": 2,
+    "titles": [
+      "OpenClaw 正式版更新 2026.9.33",
+      "GitHub 热门工具：ruflo"
+    ],
+    "items": [
+      {
+        "id": "d7e197eadfe2d697",
+        "title": "OpenClaw 正式版更新 2026.9.33",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      },
+      {
+        "id": "ede0dac630369ce6",
+        "title": "GitHub 热门工具：ruflo",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1792360220,
     "count": 2,
     "titles": [
