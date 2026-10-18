@@ -30,28 +30,13 @@
     ]
   },
   {
-    "topic": "Trump",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-10-17T19:31:49.000Z",
-    "sources": [
-      "Bloomberg",
-      "NYT"
-    ]
-  },
-  {
     "topic": "etf",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 1,
+    "growth_score": 0.73,
     "resonance_score": 0.05,
     "first_seen_at": "2026-10-17T07:55:49.000Z",
     "sources": [
@@ -66,7 +51,7 @@
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 0.97,
+    "growth_score": 0.73,
     "resonance_score": 0.05,
     "first_seen_at": "2026-10-16T09:30:21.000Z",
     "sources": [
