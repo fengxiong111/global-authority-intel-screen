@@ -2,32 +2,18 @@
   {
     "topic": "科技",
     "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 2,
+    "mentions": 5,
+    "trusted_mentions": 3,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.9,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-10-12T23:58:46.000Z",
     "sources": [
       "Hacker News",
       "Karpathy",
-      "NYT"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-10-18T18:03:03.000Z",
-    "sources": [
-      "Bloomberg",
-      "SemiAnalysis"
+      "NYT",
+      "Simon Willison"
     ]
   },
   {
@@ -37,26 +23,11 @@
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 0.91,
+    "growth_score": 0.85,
     "resonance_score": 0.05,
     "first_seen_at": "2026-10-17T07:55:49.000Z",
     "sources": [
       "NYT",
-      "The Defiant"
-    ]
-  },
-  {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.73,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-10-16T09:30:21.000Z",
-    "sources": [
-      "The Block",
       "The Defiant"
     ]
   }
