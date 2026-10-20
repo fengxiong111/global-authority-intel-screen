@@ -2,16 +2,15 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 6,
-    "trusted_mentions": 3,
+    "mentions": 5,
+    "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.68,
     "first_seen_at": "2026-10-20T17:40:58.000Z",
     "sources": [
       "Anthropic Newsroom",
-      "Bloomberg",
       "SemiAnalysis"
     ]
   },
@@ -31,6 +30,22 @@
     ]
   },
   {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.1,
+    "first_seen_at": "2026-10-16T20:22:57.000Z",
+    "sources": [
+      "Bloomberg",
+      "The Block",
+      "The Defiant"
+    ]
+  },
+  {
     "topic": "科技",
     "type": "OTHER",
     "mentions": 3,
@@ -46,21 +61,6 @@
     ]
   },
   {
-    "topic": "bitcoin",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-10-16T20:22:57.000Z",
-    "sources": [
-      "The Block",
-      "The Defiant"
-    ]
-  },
-  {
     "topic": "Claude",
     "type": "AI",
     "mentions": 2,
@@ -73,21 +73,6 @@
     "sources": [
       "Anthropic Newsroom",
       "Claude Notes"
-    ]
-  },
-  {
-    "topic": "etf",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-10-20T20:25:44.000Z",
-    "sources": [
-      "Bloomberg",
-      "NYT"
     ]
   },
   {
