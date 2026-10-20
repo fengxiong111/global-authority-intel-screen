@@ -1,47 +1,61 @@
 [
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 4,
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 6,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
-    "first_seen_at": "2026-10-12T23:58:46.000Z",
+    "first_seen_at": "2026-10-20T17:40:58.000Z",
     "sources": [
-      "Karpathy",
-      "NYT",
-      "Simon Willison"
+      "Anthropic Newsroom",
+      "Bloomberg",
+      "SemiAnalysis"
     ]
   },
   {
-    "topic": "Anthropic",
+    "topic": "OpenAI",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-10-20T17:40:58.000Z",
+    "first_seen_at": "2026-10-20T00:00:00.000Z",
     "sources": [
-      "Anthropic Newsroom",
-      "SemiAnalysis"
+      "NYT",
+      "OpenAI News"
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 3,
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 3,
+    "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-10-12T23:58:46.000Z",
+    "sources": [
+      "Karpathy",
+      "Simon Willison"
+    ]
+  },
+  {
+    "topic": "bitcoin",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
     "first_seen_at": "2026-10-16T20:22:57.000Z",
     "sources": [
-      "Bloomberg",
       "The Block",
       "The Defiant"
     ]
@@ -59,6 +73,36 @@
     "sources": [
       "Anthropic Newsroom",
       "Claude Notes"
+    ]
+  },
+  {
+    "topic": "etf",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-10-20T20:25:44.000Z",
+    "sources": [
+      "Bloomberg",
+      "NYT"
+    ]
+  },
+  {
+    "topic": "Kalshi",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-10-20T17:07:44.000Z",
+    "sources": [
+      "The Block",
+      "The Defiant"
     ]
   }
 ]
