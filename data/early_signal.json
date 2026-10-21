@@ -2,7 +2,7 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -15,18 +15,19 @@
     ]
   },
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 0.8,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-10-20T00:00:00.000Z",
+    "growth_score": 1,
+    "resonance_score": 0.1,
+    "first_seen_at": "2026-10-16T20:22:57.000Z",
     "sources": [
-      "NYT",
-      "OpenAI News"
+      "Bloomberg",
+      "The Block",
+      "The Defiant"
     ]
   },
   {
@@ -45,7 +46,7 @@
     ]
   },
   {
-    "topic": "Bitcoin",
+    "topic": "ETF",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
@@ -53,9 +54,9 @@
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-10-16T20:22:57.000Z",
+    "first_seen_at": "2026-10-21T10:00:00.000Z",
     "sources": [
-      "Bloomberg",
+      "Stratechery",
       "The Block"
     ]
   }
