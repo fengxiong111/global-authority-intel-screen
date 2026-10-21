@@ -30,22 +30,6 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.1,
-    "first_seen_at": "2026-10-16T20:22:57.000Z",
-    "sources": [
-      "Bloomberg",
-      "The Block",
-      "The Defiant"
-    ]
-  },
-  {
     "topic": "科技",
     "type": "OTHER",
     "mentions": 3,
@@ -61,22 +45,7 @@
     ]
   },
   {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-10-20T17:40:58.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Claude Notes"
-    ]
-  },
-  {
-    "topic": "Kalshi",
+    "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
@@ -84,10 +53,10 @@
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-10-20T17:07:44.000Z",
+    "first_seen_at": "2026-10-16T20:22:57.000Z",
     "sources": [
-      "The Block",
-      "The Defiant"
+      "Bloomberg",
+      "The Block"
     ]
   }
 ]
