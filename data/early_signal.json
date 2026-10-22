@@ -33,7 +33,7 @@
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 1,
     "community_hits": 1,
     "ranking_change": false,
@@ -43,21 +43,6 @@
     "sources": [
       "Hacker News",
       "OpenAI News"
-    ]
-  },
-  {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-10-16T20:22:57.000Z",
-    "sources": [
-      "Bloomberg",
-      "The Block"
     ]
   },
   {
