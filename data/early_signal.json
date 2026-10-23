@@ -17,7 +17,7 @@
   {
     "topic": "科技",
     "type": "OTHER",
-    "mentions": 3,
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -52,7 +52,7 @@
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 0.91,
+    "growth_score": 0.73,
     "resonance_score": 0.05,
     "first_seen_at": "2026-10-21T10:00:00.000Z",
     "sources": [
