@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1792830206,
+    "count": 1,
+    "titles": [
+      "GitHub 热门工具：Claude-Red"
+    ],
+    "items": [
+      {
+        "id": "3d1f23c0da16c6ab",
+        "title": "GitHub 热门工具：Claude-Red",
+        "topic": "CLAUDE",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1792813140,
     "count": 1,
     "titles": [
@@ -193,34 +211,6 @@
         "source": "GitHub Trending",
         "meaning": "模型或工具能力变了，可能影响你的工作流。",
         "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1792655921,
-    "count": 2,
-    "titles": [
-      "GitHub 热门工具：orca",
-      "EA is 将停止运营 BioWare"
-    ],
-    "items": [
-      {
-        "id": "b3fc39290eb9094b",
-        "title": "GitHub 热门工具：orca",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "85f3ee83b33e22d4",
-        "title": "EA is 将停止运营 BioWare",
-        "topic": "TECH",
-        "source": "Hacker News",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "点开看原帖。",
         "urgency": "medium"
       }
     ]
