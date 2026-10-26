@@ -2,31 +2,17 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 2,
-    "community_hits": 0,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.68,
+    "resonance_score": 0.9,
     "first_seen_at": "2026-10-20T17:40:58.000Z",
     "sources": [
       "Anthropic Newsroom",
+      "Hacker News",
       "SemiAnalysis"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-10-25T22:32:34.000Z",
-    "sources": [
-      "Bloomberg",
-      "Karpathy"
     ]
   },
   {
