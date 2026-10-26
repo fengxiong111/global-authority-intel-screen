@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1792995475,
+    "count": 2,
+    "titles": [
+      "GitHub 热门工具：hallmark",
+      "OpenClaw 正式版更新 2026.9.34"
+    ],
+    "items": [
+      {
+        "id": "a1bb6c7684ca85b2",
+        "title": "GitHub 热门工具：hallmark",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "c0fa128013fe2b30",
+        "title": "OpenClaw 正式版更新 2026.9.34",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1792977245,
     "count": 2,
     "titles": [
@@ -405,24 +433,6 @@
   },
   {
     "fetch_time": 1792830206,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：Claude-Red"
-    ],
-    "items": [
-      {
-        "id": "3d1f23c0da16c6ab",
-        "title": "GitHub 热门工具：Claude-Red",
-        "topic": "CLAUDE",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1792813140,
     "count": 1,
     "titles": [
       "GitHub 热门工具：Claude-Red"

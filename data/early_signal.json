@@ -16,7 +16,7 @@
     ]
   },
   {
-    "topic": "etf",
+    "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
@@ -24,10 +24,10 @@
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-10-23T10:00:00.000Z",
+    "first_seen_at": "2026-10-24T17:44:36.000Z",
     "sources": [
       "Bloomberg",
-      "Stratechery"
+      "The Block"
     ]
   }
 ]
