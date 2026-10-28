@@ -2,16 +2,15 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 12,
-    "trusted_mentions": 4,
+    "mentions": 11,
+    "trusted_mentions": 3,
     "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 1,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-10-20T17:40:58.000Z",
     "sources": [
       "Anthropic Newsroom",
-      "NYT",
       "Reddit",
       "SemiAnalysis",
       "Stratechery"
@@ -20,24 +19,23 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 2,
-    "community_hits": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-10-27T18:56:32.000Z",
     "sources": [
       "Anthropic Newsroom",
       "Claude Notes",
-      "Hacker News",
       "Reddit"
     ]
   },
   {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 6,
     "trusted_mentions": 1,
     "community_hits": 1,
     "ranking_change": false,
@@ -65,18 +63,18 @@
     ]
   },
   {
-    "topic": "etf",
-    "type": "CRYPTO",
-    "mentions": 3,
+    "topic": "Microsoft",
+    "type": "OTHER",
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-10-26T09:01:49.000Z",
+    "first_seen_at": "2026-10-28T20:08:01.000Z",
     "sources": [
-      "NYT",
-      "The Defiant"
+      "Bloomberg",
+      "NYT"
     ]
   }
 ]
