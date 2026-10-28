@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1793197605,
+    "count": 2,
+    "titles": [
+      "GitHub 热门工具：hallmark",
+      "OpenClaw 正式版更新 2026.9.35"
+    ],
+    "items": [
+      {
+        "id": "a1bb6c7684ca85b2",
+        "title": "GitHub 热门工具：hallmark",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "f283e7e075765e03",
+        "title": "OpenClaw 正式版更新 2026.9.35",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1793172705,
     "count": 2,
     "titles": [
@@ -241,44 +269,6 @@
       "OpenClaw 正式版更新 2026.9.34"
     ],
     "items": [
-      {
-        "id": "a1bb6c7684ca85b2",
-        "title": "GitHub 热门工具：hallmark",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "c0fa128013fe2b30",
-        "title": "OpenClaw 正式版更新 2026.9.34",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1793020617,
-    "count": 3,
-    "titles": [
-      "Steal My 比特币 CTF PoC",
-      "GitHub 热门工具：hallmark",
-      "OpenClaw 正式版更新 2026.9.34"
-    ],
-    "items": [
-      {
-        "id": "e563bed98c61160b",
-        "title": "Steal My 比特币 CTF PoC",
-        "topic": "BTC",
-        "source": "Hacker News",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      },
       {
         "id": "a1bb6c7684ca85b2",
         "title": "GitHub 热门工具：hallmark",
