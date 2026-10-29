@@ -17,22 +17,6 @@
     ]
   },
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 5,
-    "trusted_mentions": 1,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-10-26T07:00:00.000Z",
-    "sources": [
-      "Hacker News",
-      "OpenAI News",
-      "Reddit"
-    ]
-  },
-  {
     "topic": "Claude",
     "type": "AI",
     "mentions": 3,
@@ -49,33 +33,65 @@
     ]
   },
   {
-    "topic": "Kalshi",
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 5,
+    "trusted_mentions": 1,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-10-26T07:00:00.000Z",
+    "sources": [
+      "OpenAI News",
+      "Reddit"
+    ]
+  },
+  {
+    "topic": "Patrick Stewart",
+    "type": "MACRO",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-10-29T20:29:28.000Z",
+    "sources": [
+      "Hacker News",
+      "NYT"
+    ]
+  },
+  {
+    "topic": "Polymarket",
     "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
+    "mentions": 4,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-10-29T06:40:32.000Z",
+    "resonance_score": 0.1,
+    "first_seen_at": "2026-10-29T18:41:34.000Z",
     "sources": [
-      "NYT",
-      "The Block"
+      "Bloomberg",
+      "The Block",
+      "The Defiant"
     ]
   },
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
+    "mentions": 3,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
+    "resonance_score": 0.1,
     "first_seen_at": "2026-10-28T03:00:33.000Z",
     "sources": [
       "Bloomberg",
-      "The Block"
+      "The Block",
+      "The Defiant"
     ]
   }
 ]
