@@ -2,56 +2,24 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 12,
-    "trusted_mentions": 4,
-    "community_hits": 4,
+    "mentions": 8,
+    "trusted_mentions": 3,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 1,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-10-20T17:40:58.000Z",
     "sources": [
       "Anthropic Newsroom",
-      "Bloomberg",
-      "Reddit",
+      "Hacker News",
       "SemiAnalysis",
       "Stratechery"
     ]
   },
   {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-10-27T18:56:32.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Claude Notes",
-      "Reddit"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 1,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-10-26T07:00:00.000Z",
-    "sources": [
-      "OpenAI News",
-      "Reddit"
-    ]
-  },
-  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 4,
+    "mentions": 5,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -65,18 +33,18 @@
     ]
   },
   {
-    "topic": "Binance",
-    "type": "CRYPTO",
-    "mentions": 3,
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-10-30T17:43:52.000Z",
+    "first_seen_at": "2026-10-27T18:56:32.000Z",
     "sources": [
-      "Bloomberg",
-      "NYT"
+      "Anthropic Newsroom",
+      "Claude Notes"
     ]
   }
 ]
