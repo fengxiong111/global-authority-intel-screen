@@ -2,40 +2,25 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 11,
+    "mentions": 12,
     "trusted_mentions": 3,
-    "community_hits": 4,
+    "community_hits": 5,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 1,
     "first_seen_at": "2026-10-20T17:40:58.000Z",
     "sources": [
       "Anthropic Newsroom",
+      "Hacker News",
       "Reddit",
       "SemiAnalysis",
       "Stratechery"
     ]
   },
   {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.73,
-    "first_seen_at": "2026-10-27T18:56:32.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Claude Notes",
-      "Reddit"
-    ]
-  },
-  {
     "topic": "OpenAI",
     "type": "AI",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 1,
     "community_hits": 1,
     "ranking_change": false,
@@ -48,24 +33,24 @@
     ]
   },
   {
-    "topic": "Patrick Stewart",
-    "type": "MACRO",
-    "mentions": 4,
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 3,
     "trusted_mentions": 1,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.68,
-    "first_seen_at": "2026-10-29T20:29:28.000Z",
+    "first_seen_at": "2026-10-27T18:56:32.000Z",
     "sources": [
-      "Hacker News",
-      "NYT"
+      "Claude Notes",
+      "Reddit"
     ]
   },
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 6,
+    "mentions": 5,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -81,11 +66,11 @@
   {
     "topic": "Polymarket",
     "type": "CRYPTO",
-    "mentions": 3,
+    "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 1,
+    "growth_score": 0.95,
     "resonance_score": 0.05,
     "first_seen_at": "2026-10-29T18:41:34.000Z",
     "sources": [
