@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1793482019,
+    "count": 1,
+    "titles": [
+      "GitHub 热门工具：claude-mem"
+    ],
+    "items": [
+      {
+        "id": "54b9e2256a9b7d90",
+        "title": "GitHub 热门工具：claude-mem",
+        "topic": "OPENCLAW",
+        "source": "GitHub Trending",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1793469915,
     "count": 1,
     "titles": [
@@ -165,34 +183,6 @@
   },
   {
     "fetch_time": 1793320017,
-    "count": 2,
-    "titles": [
-      "GitHub 热门工具：openbot",
-      "OpenClaw 正式版更新 2026.9.36"
-    ],
-    "items": [
-      {
-        "id": "f46cc100952b1d60",
-        "title": "GitHub 热门工具：openbot",
-        "topic": "CLAUDE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "818637ba51f6f2f7",
-        "title": "OpenClaw 正式版更新 2026.9.36",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1793306755,
     "count": 2,
     "titles": [
       "GitHub 热门工具：openbot",

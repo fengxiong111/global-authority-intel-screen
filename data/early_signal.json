@@ -16,18 +16,33 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
+    "topic": "OpenAI",
+    "type": "AI",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 0.73,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-10-29T00:50:59.000Z",
+    "growth_score": 0.8,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-10-29T09:00:00.000Z",
     "sources": [
-      "Bloomberg",
-      "The Block"
+      "NYT",
+      "OpenAI News"
+    ]
+  },
+  {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-10-31T21:26:22.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Claude Notes"
     ]
   }
 ]
