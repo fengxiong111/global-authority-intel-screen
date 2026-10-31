@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1793431903,
+    "count": 1,
+    "titles": [
+      "OpenClaw 正式版更新 2026.9.36"
+    ],
+    "items": [
+      {
+        "id": "818637ba51f6f2f7",
+        "title": "OpenClaw 正式版更新 2026.9.36",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1793411167,
     "count": 1,
     "titles": [
@@ -208,34 +226,6 @@
         "meaning": "模型或工具能力变了，可能影响你的工作流。",
         "action_hint": "点开看能力边界。",
         "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1793242071,
-    "count": 2,
-    "titles": [
-      "GitHub 热门工具：hallmark",
-      "OpenClaw 正式版更新 2026.9.35"
-    ],
-    "items": [
-      {
-        "id": "a1bb6c7684ca85b2",
-        "title": "GitHub 热门工具：hallmark",
-        "topic": "CLAUDE_CODE",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      },
-      {
-        "id": "f283e7e075765e03",
-        "title": "OpenClaw 正式版更新 2026.9.35",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
       }
     ]
   }
