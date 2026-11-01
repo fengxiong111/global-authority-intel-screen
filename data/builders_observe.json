@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1793557764,
+    "count": 1,
+    "titles": [
+      "GitHub 热门工具：claude-mem"
+    ],
+    "items": [
+      {
+        "id": "54b9e2256a9b7d90",
+        "title": "GitHub 热门工具：claude-mem",
+        "topic": "OPENCLAW",
+        "source": "GitHub Trending",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1793539791,
     "count": 2,
     "titles": [
