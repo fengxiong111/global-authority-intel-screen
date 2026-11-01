@@ -2,15 +2,16 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 8,
-    "trusted_mentions": 3,
+    "mentions": 9,
+    "trusted_mentions": 4,
     "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.95,
+    "resonance_score": 1,
     "first_seen_at": "2026-10-20T17:40:58.000Z",
     "sources": [
       "Anthropic Newsroom",
+      "Bloomberg",
       "Hacker News",
       "SemiAnalysis",
       "Stratechery"
@@ -32,21 +33,6 @@
     ]
   },
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-10-31T17:00:00.000Z",
-    "sources": [
-      "Karpathy",
-      "Simon Willison"
-    ]
-  },
-  {
     "topic": "Claude",
     "type": "AI",
     "mentions": 2,
@@ -59,6 +45,21 @@
     "sources": [
       "Anthropic Newsroom",
       "Claude Notes"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-10-31T17:00:00.000Z",
+    "sources": [
+      "Karpathy",
+      "Simon Willison"
     ]
   }
 ]
