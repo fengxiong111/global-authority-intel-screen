@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1793643929,
+    "count": 2,
+    "titles": [
+      "GitHub 热门工具：claude-mem",
+      "纽约时报：Midterm Elections 最新进展: Early…"
+    ],
+    "items": [
+      {
+        "id": "54b9e2256a9b7d90",
+        "title": "GitHub 热门工具：claude-mem",
+        "topic": "OPENCLAW",
+        "source": "GitHub Trending",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "high"
+      },
+      {
+        "id": "12857252a553e957",
+        "title": "纽约时报：Midterm Elections 最新进展: Early…",
+        "topic": "NYT",
+        "source": "NYT",
+        "meaning": "这是一个值得继续盯的变化信号。",
+        "action_hint": "点开核对原文。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1793607156,
     "count": 1,
     "titles": [
@@ -150,52 +178,6 @@
         "meaning": "工具能力边界变了，值得更新判断。",
         "action_hint": "点开看能力边界。",
         "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1793469915,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：claude-mem"
-    ],
-    "items": [
-      {
-        "id": "54b9e2256a9b7d90",
-        "title": "GitHub 热门工具：claude-mem",
-        "topic": "OPENCLAW",
-        "source": "GitHub Trending",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1793454627,
-    "count": 2,
-    "titles": [
-      "OpenClaw 正式版更新 2026.9.36",
-      "GitHub 热门工具：superpowers"
-    ],
-    "items": [
-      {
-        "id": "818637ba51f6f2f7",
-        "title": "OpenClaw 正式版更新 2026.9.36",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      },
-      {
-        "id": "fa06b8f9ade60a0f",
-        "title": "GitHub 热门工具：superpowers",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
       }
     ]
   }
