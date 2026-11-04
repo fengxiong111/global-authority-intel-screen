@@ -16,6 +16,52 @@
     ]
   },
   {
+    "topic": "The",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-11-04T21:23:18.000Z",
+    "sources": [
+      "Bloomberg",
+      "Karpathy"
+    ]
+  },
+  {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.1,
+    "first_seen_at": "2026-11-02T04:11:05.000Z",
+    "sources": [
+      "Bloomberg",
+      "The Block",
+      "The Defiant"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-10-31T17:00:00.000Z",
+    "sources": [
+      "Karpathy",
+      "Simon Willison"
+    ]
+  },
+  {
     "topic": "Claude",
     "type": "AI",
     "mentions": 2,
@@ -31,33 +77,18 @@
     ]
   },
   {
-    "topic": "Bitcoin",
+    "topic": "etf",
     "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-11-02T04:11:05.000Z",
-    "sources": [
-      "Bloomberg",
-      "The Defiant"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 0.97,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-10-31T17:00:00.000Z",
+    "first_seen_at": "2026-11-03T16:37:53.000Z",
     "sources": [
-      "Karpathy",
-      "Simon Willison"
+      "NYT",
+      "The Defiant"
     ]
   }
 ]
