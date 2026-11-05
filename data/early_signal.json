@@ -19,13 +19,14 @@
     "topic": "科技",
     "type": "OTHER",
     "mentions": 4,
-    "trusted_mentions": 2,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-10-31T17:00:00.000Z",
     "sources": [
+      "Bloomberg",
       "Karpathy",
       "Simon Willison"
     ]
@@ -58,21 +59,6 @@
     "sources": [
       "Anthropic Newsroom",
       "Claude Notes"
-    ]
-  },
-  {
-    "topic": "Kalshi",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-11-05T08:26:48.000Z",
-    "sources": [
-      "The Block",
-      "The Defiant"
     ]
   }
 ]
