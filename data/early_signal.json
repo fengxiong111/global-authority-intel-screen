@@ -18,7 +18,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 5,
+    "mentions": 4,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -59,21 +59,6 @@
     "sources": [
       "Anthropic Newsroom",
       "Claude Notes"
-    ]
-  },
-  {
-    "topic": "etf",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.97,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-11-03T16:37:53.000Z",
-    "sources": [
-      "NYT",
-      "The Defiant"
     ]
   }
 ]
