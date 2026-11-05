@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1793897144,
+    "count": 2,
+    "titles": [
+      "GitHub 热门工具：gstack",
+      "OpenClaw 测试版更新 2026.11.5 Beta 1"
+    ],
+    "items": [
+      {
+        "id": "a10a718bbb9d5ce8",
+        "title": "GitHub 热门工具：gstack",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "fb16608c368fddf9",
+        "title": "OpenClaw 测试版更新 2026.11.5 Beta 1",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1793867579,
     "count": 1,
     "titles": [
@@ -109,24 +137,6 @@
   },
   {
     "fetch_time": 1793740621,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：claude-mem"
-    ],
-    "items": [
-      {
-        "id": "54b9e2256a9b7d90",
-        "title": "GitHub 热门工具：claude-mem",
-        "topic": "OPENCLAW",
-        "source": "GitHub Trending",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1793720442,
     "count": 1,
     "titles": [
       "GitHub 热门工具：claude-mem"
