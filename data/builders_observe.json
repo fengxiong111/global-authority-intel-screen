@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1794310413,
+    "count": 1,
+    "titles": [
+      "GitHub 热门工具：skills"
+    ],
+    "items": [
+      {
+        "id": "dd88b3e1a7945bd6",
+        "title": "GitHub 热门工具：skills",
+        "topic": "ANTHROPIC",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1794281323,
     "count": 1,
     "titles": [
@@ -109,24 +127,6 @@
   },
   {
     "fetch_time": 1794151652,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：skills"
-    ],
-    "items": [
-      {
-        "id": "dd88b3e1a7945bd6",
-        "title": "GitHub 热门工具：skills",
-        "topic": "ANTHROPIC",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1794126295,
     "count": 1,
     "titles": [
       "GitHub 热门工具：skills"
