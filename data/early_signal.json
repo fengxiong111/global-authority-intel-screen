@@ -20,61 +20,63 @@
     "topic": "科技",
     "type": "OTHER",
     "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 1,
+    "trusted_mentions": 3,
+    "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
     "first_seen_at": "2026-10-31T17:00:00.000Z",
     "sources": [
-      "Hacker News",
       "Karpathy",
+      "NYT",
       "Simon Willison"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-11-10T00:00:00.000Z",
+    "sources": [
+      "Bloomberg",
+      "OpenAI News"
+    ]
+  },
+  {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.1,
+    "first_seen_at": "2026-11-12T08:55:16.000Z",
+    "sources": [
+      "Bloomberg",
+      "The Block",
+      "The Defiant"
     ]
   },
   {
     "topic": "Claude",
     "type": "AI",
     "mentions": 3,
-    "trusted_mentions": 2,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
+    "resonance_score": 0.1,
     "first_seen_at": "2026-10-31T21:26:22.000Z",
     "sources": [
+      "Anthropic Newsroom",
       "Claude Notes",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-11-12T08:55:16.000Z",
-    "sources": [
-      "Bloomberg",
-      "The Defiant"
-    ]
-  },
-  {
-    "topic": "Securitize",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-11-12T14:00:00.000Z",
-    "sources": [
-      "The Block",
-      "The Defiant"
     ]
   }
 ]
