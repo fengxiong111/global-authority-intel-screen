@@ -2,25 +2,39 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 11,
-    "trusted_mentions": 5,
+    "mentions": 7,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.83,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-10-20T17:40:58.000Z",
     "sources": [
       "Anthropic Newsroom",
-      "Bloomberg",
-      "NYT",
       "SemiAnalysis",
+      "Simon Willison"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-10-31T17:00:00.000Z",
+    "sources": [
+      "Hacker News",
+      "Karpathy",
       "Simon Willison"
     ]
   },
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -30,36 +44,6 @@
     "sources": [
       "Anthropic Newsroom",
       "Claude Notes",
-      "Simon Willison"
-    ]
-  },
-  {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-11-09T21:21:20.000Z",
-    "sources": [
-      "Bloomberg",
-      "The Block"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-10-31T17:00:00.000Z",
-    "sources": [
-      "Karpathy",
       "Simon Willison"
     ]
   }
