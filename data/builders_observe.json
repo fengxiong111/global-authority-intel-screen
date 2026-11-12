@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1794469185,
+    "count": 2,
+    "titles": [
+      "OpenClaw 正式版更新 2026.9.37",
+      "GitHub 热门工具：ha-mcp"
+    ],
+    "items": [
+      {
+        "id": "63ea65f643e15a4b",
+        "title": "OpenClaw 正式版更新 2026.9.37",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      },
+      {
+        "id": "84e68e185c8d522b",
+        "title": "GitHub 热门工具：ha-mcp",
+        "topic": "CLAUDE",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1794443555,
     "count": 2,
     "titles": [
@@ -169,24 +197,6 @@
   },
   {
     "fetch_time": 1794310413,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：skills"
-    ],
-    "items": [
-      {
-        "id": "dd88b3e1a7945bd6",
-        "title": "GitHub 热门工具：skills",
-        "topic": "ANTHROPIC",
-        "source": "GitHub Trending",
-        "meaning": "模型或工具能力变了，可能影响你的工作流。",
-        "action_hint": "点开看能力边界。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1794281323,
     "count": 1,
     "titles": [
       "GitHub 热门工具：skills"
