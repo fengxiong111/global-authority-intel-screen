@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1794624204,
+    "count": 1,
+    "titles": [
+      "Meta tests 预测市场 应用 using ‘cred’ points…"
+    ],
+    "items": [
+      {
+        "id": "13a719e54943fb20",
+        "title": "Meta tests 预测市场 应用 using ‘cred’ points…",
+        "topic": "BTC",
+        "source": "The Block",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1794610173,
     "count": 1,
     "titles": [
@@ -49,34 +67,6 @@
   },
   {
     "fetch_time": 1794469185,
-    "count": 2,
-    "titles": [
-      "OpenClaw 正式版更新 2026.9.37",
-      "GitHub 热门工具：ha-mcp"
-    ],
-    "items": [
-      {
-        "id": "63ea65f643e15a4b",
-        "title": "OpenClaw 正式版更新 2026.9.37",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      },
-      {
-        "id": "84e68e185c8d522b",
-        "title": "GitHub 热门工具：ha-mcp",
-        "topic": "CLAUDE",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1794443555,
     "count": 2,
     "titles": [
       "OpenClaw 正式版更新 2026.9.37",
