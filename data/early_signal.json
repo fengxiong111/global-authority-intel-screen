@@ -15,6 +15,22 @@
     ]
   },
   {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 4,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.1,
+    "first_seen_at": "2026-11-12T08:55:16.000Z",
+    "sources": [
+      "Bloomberg",
+      "The Block",
+      "The Defiant"
+    ]
+  },
+  {
     "topic": "Claude",
     "type": "AI",
     "mentions": 2,
@@ -42,21 +58,6 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.97,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-11-12T08:55:16.000Z",
-    "sources": [
-      "Bloomberg",
-      "The Block"
     ]
   }
 ]
