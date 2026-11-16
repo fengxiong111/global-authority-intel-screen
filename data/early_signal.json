@@ -3,33 +3,31 @@
     "topic": "科技",
     "type": "OTHER",
     "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-11-15T03:49:47.000Z",
-    "sources": [
-      "Bloomberg",
-      "Hacker News",
-      "Karpathy",
-      "Simon Willison"
-    ]
-  },
-  {
-    "topic": "Anthropic",
-    "type": "AI",
-    "mentions": 8,
     "trusted_mentions": 4,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.78,
+    "first_seen_at": "2026-11-15T03:49:47.000Z",
+    "sources": [
+      "Bloomberg",
+      "Karpathy",
+      "Simon Willison",
+      "Stratechery"
+    ]
+  },
+  {
+    "topic": "Anthropic",
+    "type": "AI",
+    "mentions": 6,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
     "first_seen_at": "2026-10-20T17:40:58.000Z",
     "sources": [
       "Anthropic Newsroom",
-      "Bloomberg",
-      "NYT",
       "SemiAnalysis"
     ]
   },
@@ -62,6 +60,36 @@
     "sources": [
       "Anthropic Newsroom",
       "Claude Notes"
+    ]
+  },
+  {
+    "topic": "Science",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-11-16T12:00:00.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "OpenAI News"
+    ]
+  },
+  {
+    "topic": "Strengthening",
+    "type": "AI",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-11-16T17:00:00.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "OpenAI News"
     ]
   }
 ]
