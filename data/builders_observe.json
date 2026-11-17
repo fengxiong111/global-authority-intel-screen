@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1794916616,
+    "count": 1,
+    "titles": [
+      "GitHub 热门工具：LoopForge"
+    ],
+    "items": [
+      {
+        "id": "5c821fc9064f49b1",
+        "title": "GitHub 热门工具：LoopForge",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1794885138,
     "count": 1,
     "titles": [
@@ -85,24 +103,6 @@
   },
   {
     "fetch_time": 1794751155,
-    "count": 1,
-    "titles": [
-      "Meta tests 预测市场 应用 using ‘cred’ points…"
-    ],
-    "items": [
-      {
-        "id": "13a719e54943fb20",
-        "title": "Meta tests 预测市场 应用 using ‘cred’ points…",
-        "topic": "BTC",
-        "source": "The Block",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1794723324,
     "count": 1,
     "titles": [
       "Meta tests 预测市场 应用 using ‘cred’ points…"
