@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1794969070,
+    "count": 2,
+    "titles": [
+      "GitHub 热门工具：LoopForge",
+      "苹果 Services Down"
+    ],
+    "items": [
+      {
+        "id": "5c821fc9064f49b1",
+        "title": "GitHub 热门工具：LoopForge",
+        "topic": "CLAUDE_CODE",
+        "source": "GitHub Trending",
+        "meaning": "模型或工具能力变了，可能影响你的工作流。",
+        "action_hint": "点开看能力边界。",
+        "urgency": "medium"
+      },
+      {
+        "id": "2044d6574c483ba2",
+        "title": "苹果 Services Down",
+        "topic": "APPLE",
+        "source": "Hacker News",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "点开看原帖。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1794947243,
     "count": 2,
     "titles": [
@@ -77,24 +105,6 @@
   },
   {
     "fetch_time": 1794797882,
-    "count": 1,
-    "titles": [
-      "Meta tests 预测市场 应用 using ‘cred’ points…"
-    ],
-    "items": [
-      {
-        "id": "13a719e54943fb20",
-        "title": "Meta tests 预测市场 应用 using ‘cred’ points…",
-        "topic": "BTC",
-        "source": "The Block",
-        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
-        "action_hint": "看盘面与后续流向。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1794785410,
     "count": 1,
     "titles": [
       "Meta tests 预测市场 应用 using ‘cred’ points…"
