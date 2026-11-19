@@ -2,7 +2,7 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 9,
+    "mentions": 8,
     "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
@@ -32,18 +32,18 @@
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 0,
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 1,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-11-18T14:01:54.000Z",
+    "resonance_score": 0.68,
+    "first_seen_at": "2026-11-17T00:00:00.000Z",
     "sources": [
-      "The Block",
-      "The Defiant"
+      "Hacker News",
+      "OpenAI News"
     ]
   },
   {
@@ -62,33 +62,18 @@
     ]
   },
   {
-    "topic": "Science",
-    "type": "AI",
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
     "mentions": 2,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 0.91,
+    "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-11-16T12:00:00.000Z",
+    "first_seen_at": "2026-11-18T09:45:09.000Z",
     "sources": [
-      "Anthropic Newsroom",
-      "OpenAI News"
-    ]
-  },
-  {
-    "topic": "Strengthening",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.91,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-11-16T17:00:00.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "OpenAI News"
+      "Bloomberg",
+      "The Block"
     ]
   }
 ]
