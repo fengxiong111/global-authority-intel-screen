@@ -2,16 +2,17 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 14,
+    "mentions": 13,
     "trusted_mentions": 4,
-    "community_hits": 0,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.78,
+    "resonance_score": 1,
     "first_seen_at": "2026-11-18T22:07:41.000Z",
     "sources": [
       "Anthropic Newsroom",
       "Bloomberg",
+      "Hacker News",
       "NYT",
       "SemiAnalysis"
     ]
@@ -19,16 +20,17 @@
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 2,
+    "mentions": 3,
     "trusted_mentions": 2,
-    "community_hits": 0,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
+    "resonance_score": 0.73,
     "first_seen_at": "2026-11-14T20:24:53.000Z",
     "sources": [
       "Anthropic Newsroom",
-      "Claude Notes"
+      "Claude Notes",
+      "Hacker News"
     ]
   },
   {
@@ -44,6 +46,21 @@
     "sources": [
       "Karpathy",
       "Simon Willison"
+    ]
+  },
+  {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-11-19T14:00:00.000Z",
+    "sources": [
+      "The Block",
+      "The Defiant"
     ]
   }
 ]
