@@ -2,7 +2,7 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 13,
+    "mentions": 11,
     "trusted_mentions": 4,
     "community_hits": 1,
     "ranking_change": false,
@@ -40,27 +40,12 @@
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
-    "growth_score": 1,
+    "growth_score": 0.97,
     "resonance_score": 0.05,
     "first_seen_at": "2026-11-15T03:49:47.000Z",
     "sources": [
       "Karpathy",
       "Simon Willison"
-    ]
-  },
-  {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-11-19T14:00:00.000Z",
-    "sources": [
-      "The Block",
-      "The Defiant"
     ]
   }
 ]
