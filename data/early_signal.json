@@ -17,6 +17,22 @@
     ]
   },
   {
+    "topic": "Claude",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 3,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-11-14T20:24:53.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Bloomberg",
+      "Claude Notes"
+    ]
+  },
+  {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 5,
@@ -29,21 +45,6 @@
     "sources": [
       "Bloomberg",
       "The Block"
-    ]
-  },
-  {
-    "topic": "Claude",
-    "type": "AI",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-11-14T20:24:53.000Z",
-    "sources": [
-      "Anthropic Newsroom",
-      "Claude Notes"
     ]
   },
   {

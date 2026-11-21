@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1795229470,
+    "count": 1,
+    "titles": [
+      "GitHub 热门工具：superpowers"
+    ],
+    "items": [
+      {
+        "id": "fa06b8f9ade60a0f",
+        "title": "GitHub 热门工具：superpowers",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1795211145,
     "count": 2,
     "titles": [
@@ -101,24 +119,6 @@
   },
   {
     "fetch_time": 1795077651,
-    "count": 1,
-    "titles": [
-      "OpenClaw 正式版更新 2026.10.33"
-    ],
-    "items": [
-      {
-        "id": "3f13e2db8f92e57a",
-        "title": "OpenClaw 正式版更新 2026.10.33",
-        "topic": "OPENCLAW",
-        "source": "OpenClaw GitHub",
-        "meaning": "工具能力边界变了，值得更新判断。",
-        "action_hint": "看 release notes。",
-        "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1795050316,
     "count": 1,
     "titles": [
       "OpenClaw 正式版更新 2026.10.33"
