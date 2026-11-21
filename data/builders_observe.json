@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1795283110,
+    "count": 1,
+    "titles": [
+      "科技：The 1982 战事 Still Haunts the 中东"
+    ],
+    "items": [
+      {
+        "id": "ee11e59c1264a3d4",
+        "title": "科技：The 1982 战事 Still Haunts the 中东",
+        "topic": "TECH",
+        "source": "Bloomberg",
+        "meaning": "地缘风险在升温，可能影响市场和政策预期。",
+        "action_hint": "看是否继续升级。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1795257040,
     "count": 1,
     "titles": [
@@ -101,24 +119,6 @@
   },
   {
     "fetch_time": 1795132387,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：superpowers"
-    ],
-    "items": [
-      {
-        "id": "fa06b8f9ade60a0f",
-        "title": "GitHub 热门工具：superpowers",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1795110105,
     "count": 1,
     "titles": [
       "GitHub 热门工具：superpowers"
