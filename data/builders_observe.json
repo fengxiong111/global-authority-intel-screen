@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1795438475,
+    "count": 1,
+    "titles": [
+      "GitHub 热门工具：superpowers"
+    ],
+    "items": [
+      {
+        "id": "fa06b8f9ade60a0f",
+        "title": "GitHub 热门工具：superpowers",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1795403620,
     "count": 1,
     "titles": [
@@ -142,24 +160,6 @@
         "meaning": "地缘风险在升温，可能影响市场和政策预期。",
         "action_hint": "看是否继续升级。",
         "urgency": "high"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1795257040,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：superpowers"
-    ],
-    "items": [
-      {
-        "id": "fa06b8f9ade60a0f",
-        "title": "GitHub 热门工具：superpowers",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
       }
     ]
   }
