@@ -1,5 +1,23 @@
 [
   {
+    "fetch_time": 1795515748,
+    "count": 1,
+    "titles": [
+      "GitHub 热门工具：superpowers"
+    ],
+    "items": [
+      {
+        "id": "fa06b8f9ade60a0f",
+        "title": "GitHub 热门工具：superpowers",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1795480262,
     "count": 2,
     "titles": [
@@ -108,42 +126,6 @@
         "action_hint": "看功能与上线时间。",
         "urgency": "medium"
       },
-      {
-        "id": "fa06b8f9ade60a0f",
-        "title": "GitHub 热门工具：superpowers",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1795341883,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：superpowers"
-    ],
-    "items": [
-      {
-        "id": "fa06b8f9ade60a0f",
-        "title": "GitHub 热门工具：superpowers",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1795314465,
-    "count": 1,
-    "titles": [
-      "GitHub 热门工具：superpowers"
-    ],
-    "items": [
       {
         "id": "fa06b8f9ade60a0f",
         "title": "GitHub 热门工具：superpowers",
