@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1795553045,
+    "count": 2,
+    "titles": [
+      "Crypto 市场结构 Basics",
+      "GitHub 热门工具：superpowers"
+    ],
+    "items": [
+      {
+        "id": "0794e0daf462aeb4",
+        "title": "Crypto 市场结构 Basics",
+        "topic": "CRYPTO_TOOLS",
+        "source": "The Block",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "fa06b8f9ade60a0f",
+        "title": "GitHub 热门工具：superpowers",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1795515748,
     "count": 1,
     "titles": [
@@ -83,34 +111,6 @@
   },
   {
     "fetch_time": 1795387769,
-    "count": 2,
-    "titles": [
-      "苹果’s AI 智能体 战事, Early 2027 Product…",
-      "GitHub 热门工具：superpowers"
-    ],
-    "items": [
-      {
-        "id": "65bccb20af909ed3",
-        "title": "苹果’s AI 智能体 战事, Early 2027 Product…",
-        "topic": "APPLE",
-        "source": "Bloomberg",
-        "meaning": "苹果产品节奏或生态接口在变，可能影响后续判断。",
-        "action_hint": "看功能与上线时间。",
-        "urgency": "medium"
-      },
-      {
-        "id": "fa06b8f9ade60a0f",
-        "title": "GitHub 热门工具：superpowers",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1795369560,
     "count": 2,
     "titles": [
       "苹果’s AI 智能体 战事, Early 2027 Product…",
