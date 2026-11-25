@@ -16,17 +16,32 @@
     ]
   },
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 0,
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.73,
+    "first_seen_at": "2026-11-24T03:45:57.000Z",
+    "sources": [
+      "Hacker News",
+      "Karpathy",
+      "Simon Willison"
+    ]
+  },
+  {
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.68,
     "first_seen_at": "2026-11-23T21:20:00.000Z",
     "sources": [
-      "Bloomberg",
       "NYT",
       "OpenAI News"
     ]
@@ -34,7 +49,7 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 4,
+    "mentions": 3,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
@@ -59,36 +74,6 @@
     "sources": [
       "Anthropic Newsroom",
       "Claude Notes"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-11-24T03:45:57.000Z",
-    "sources": [
-      "Karpathy",
-      "Simon Willison"
-    ]
-  },
-  {
-    "topic": "Kalshi",
-    "type": "CRYPTO",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-11-24T04:28:02.000Z",
-    "sources": [
-      "Bloomberg",
-      "The Defiant"
     ]
   }
 ]
