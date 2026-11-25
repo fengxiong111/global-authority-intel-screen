@@ -1,22 +1,5 @@
 [
   {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 4,
-    "trusted_mentions": 3,
-    "community_hits": 1,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-11-24T03:45:57.000Z",
-    "sources": [
-      "Hacker News",
-      "Karpathy",
-      "NYT",
-      "Simon Willison"
-    ]
-  },
-  {
     "topic": "Anthropic",
     "type": "AI",
     "mentions": 7,
@@ -28,38 +11,24 @@
     "first_seen_at": "2026-11-18T22:07:41.000Z",
     "sources": [
       "Anthropic Newsroom",
-      "Bloomberg",
-      "SemiAnalysis"
-    ]
-  },
-  {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 3,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.68,
-    "first_seen_at": "2026-11-23T21:20:00.000Z",
-    "sources": [
       "NYT",
-      "OpenAI News"
+      "SemiAnalysis"
     ]
   },
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
     "mentions": 6,
-    "trusted_mentions": 2,
+    "trusted_mentions": 3,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.05,
+    "resonance_score": 0.1,
     "first_seen_at": "2026-11-23T05:24:05.000Z",
     "sources": [
       "Bloomberg",
-      "The Block"
+      "The Block",
+      "The Defiant"
     ]
   },
   {
@@ -75,6 +44,21 @@
     "sources": [
       "Anthropic Newsroom",
       "Claude Notes"
+    ]
+  },
+  {
+    "topic": "科技",
+    "type": "OTHER",
+    "mentions": 2,
+    "trusted_mentions": 2,
+    "community_hits": 0,
+    "ranking_change": false,
+    "growth_score": 0.97,
+    "resonance_score": 0.05,
+    "first_seen_at": "2026-11-24T03:45:57.000Z",
+    "sources": [
+      "Karpathy",
+      "Simon Willison"
     ]
   }
 ]
