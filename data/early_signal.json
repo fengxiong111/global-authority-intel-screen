@@ -2,64 +2,66 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 8,
+    "mentions": 11,
     "trusted_mentions": 3,
-    "community_hits": 1,
+    "community_hits": 4,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.95,
     "first_seen_at": "2026-11-18T22:07:41.000Z",
     "sources": [
       "Anthropic Newsroom",
-      "Hacker News",
       "NYT",
+      "Reddit",
       "SemiAnalysis"
     ]
   },
   {
-    "topic": "Bitcoin",
-    "type": "CRYPTO",
-    "mentions": 8,
-    "trusted_mentions": 3,
-    "community_hits": 0,
+    "topic": "OpenAI",
+    "type": "AI",
+    "mentions": 4,
+    "trusted_mentions": 2,
+    "community_hits": 2,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.1,
-    "first_seen_at": "2026-11-23T05:24:05.000Z",
+    "resonance_score": 0.95,
+    "first_seen_at": "2026-11-24T00:00:00.000Z",
     "sources": [
       "Bloomberg",
-      "The Block",
-      "The Defiant"
+      "Hacker News",
+      "OpenAI News",
+      "Reddit"
     ]
   },
   {
     "topic": "Claude",
     "type": "AI",
-    "mentions": 2,
+    "mentions": 3,
+    "trusted_mentions": 2,
+    "community_hits": 1,
+    "ranking_change": false,
+    "growth_score": 1,
+    "resonance_score": 0.73,
+    "first_seen_at": "2026-11-22T22:49:25.000Z",
+    "sources": [
+      "Anthropic Newsroom",
+      "Claude Notes",
+      "Reddit"
+    ]
+  },
+  {
+    "topic": "Bitcoin",
+    "type": "CRYPTO",
+    "mentions": 5,
     "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
     "resonance_score": 0.05,
-    "first_seen_at": "2026-11-22T22:49:25.000Z",
+    "first_seen_at": "2026-11-23T05:24:05.000Z",
     "sources": [
-      "Anthropic Newsroom",
-      "Claude Notes"
-    ]
-  },
-  {
-    "topic": "科技",
-    "type": "OTHER",
-    "mentions": 2,
-    "trusted_mentions": 2,
-    "community_hits": 0,
-    "ranking_change": false,
-    "growth_score": 0.91,
-    "resonance_score": 0.05,
-    "first_seen_at": "2026-11-24T03:45:57.000Z",
-    "sources": [
-      "Karpathy",
-      "Simon Willison"
+      "Bloomberg",
+      "The Block"
     ]
   }
 ]
