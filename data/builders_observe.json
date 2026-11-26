@@ -1,5 +1,33 @@
 [
   {
+    "fetch_time": 1795667224,
+    "count": 2,
+    "titles": [
+      "OpenClaw 正式版更新 2026.10.34",
+      "GitHub 热门工具：superpowers"
+    ],
+    "items": [
+      {
+        "id": "05a1dfd2a386e226",
+        "title": "OpenClaw 正式版更新 2026.10.34",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      },
+      {
+        "id": "fa06b8f9ade60a0f",
+        "title": "GitHub 热门工具：superpowers",
+        "topic": "TECH",
+        "source": "GitHub Trending",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "看 repo。",
+        "urgency": "medium"
+      }
+    ]
+  },
+  {
     "fetch_time": 1795646549,
     "count": 2,
     "titles": [
@@ -105,34 +133,6 @@
         "source": "GitHub Trending",
         "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
         "action_hint": "看 repo。",
-        "urgency": "medium"
-      }
-    ]
-  },
-  {
-    "fetch_time": 1795480262,
-    "count": 2,
-    "titles": [
-      "GitHub 热门工具：superpowers",
-      "苹果 removed my open-source 应用 from EU 应用…"
-    ],
-    "items": [
-      {
-        "id": "fa06b8f9ade60a0f",
-        "title": "GitHub 热门工具：superpowers",
-        "topic": "TECH",
-        "source": "GitHub Trending",
-        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
-        "action_hint": "看 repo。",
-        "urgency": "medium"
-      },
-      {
-        "id": "b7e47c0bc342fa01",
-        "title": "苹果 removed my open-source 应用 from EU 应用…",
-        "topic": "APPLE",
-        "source": "Hacker News",
-        "meaning": "苹果产品节奏或生态接口在变，可能影响后续判断。",
-        "action_hint": "看功能与上线时间。",
         "urgency": "medium"
       }
     ]

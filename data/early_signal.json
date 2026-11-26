@@ -2,15 +2,16 @@
   {
     "topic": "Anthropic",
     "type": "AI",
-    "mentions": 7,
+    "mentions": 8,
     "trusted_mentions": 3,
-    "community_hits": 0,
+    "community_hits": 1,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.73,
+    "resonance_score": 0.95,
     "first_seen_at": "2026-11-18T22:07:41.000Z",
     "sources": [
       "Anthropic Newsroom",
+      "Hacker News",
       "NYT",
       "SemiAnalysis"
     ]
@@ -18,17 +19,16 @@
   {
     "topic": "Bitcoin",
     "type": "CRYPTO",
-    "mentions": 6,
-    "trusted_mentions": 3,
+    "mentions": 5,
+    "trusted_mentions": 2,
     "community_hits": 0,
     "ranking_change": false,
     "growth_score": 1,
-    "resonance_score": 0.1,
+    "resonance_score": 0.05,
     "first_seen_at": "2026-11-23T05:24:05.000Z",
     "sources": [
       "Bloomberg",
-      "The Block",
-      "The Defiant"
+      "The Block"
     ]
   },
   {
