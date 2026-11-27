@@ -17,23 +17,6 @@
     ]
   },
   {
-    "topic": "OpenAI",
-    "type": "AI",
-    "mentions": 4,
-    "trusted_mentions": 2,
-    "community_hits": 2,
-    "ranking_change": false,
-    "growth_score": 1,
-    "resonance_score": 0.95,
-    "first_seen_at": "2026-11-24T00:00:00.000Z",
-    "sources": [
-      "Bloomberg",
-      "Hacker News",
-      "OpenAI News",
-      "Reddit"
-    ]
-  },
-  {
     "topic": "Claude",
     "type": "AI",
     "mentions": 3,
