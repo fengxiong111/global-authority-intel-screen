@@ -1,5 +1,43 @@
 [
   {
+    "fetch_time": 1795839988,
+    "count": 3,
+    "titles": [
+      "科技：Bank of Japan 官方 says 稳定币 need…",
+      "科技：Show HN: bouncemarket – a 最新 预测市场…",
+      "OpenClaw 正式版更新 2026.10.34"
+    ],
+    "items": [
+      {
+        "id": "e212db3b365af38f",
+        "title": "科技：Bank of Japan 官方 says 稳定币 need…",
+        "topic": "CRYPTO_TOOLS",
+        "source": "The Block",
+        "meaning": "资金和定价结构在变，可能直接影响风险偏好。",
+        "action_hint": "看盘面与后续流向。",
+        "urgency": "high"
+      },
+      {
+        "id": "67983855226a2610",
+        "title": "科技：Show HN: bouncemarket – a 最新 预测市场…",
+        "topic": "TECH",
+        "source": "Hacker News",
+        "meaning": "这件事开始在高热源扩散，可能先于媒体成形。",
+        "action_hint": "点开看原帖。",
+        "urgency": "medium"
+      },
+      {
+        "id": "05a1dfd2a386e226",
+        "title": "OpenClaw 正式版更新 2026.10.34",
+        "topic": "OPENCLAW",
+        "source": "OpenClaw GitHub",
+        "meaning": "工具能力边界变了，值得更新判断。",
+        "action_hint": "看 release notes。",
+        "urgency": "high"
+      }
+    ]
+  },
+  {
     "fetch_time": 1795820115,
     "count": 3,
     "titles": [
